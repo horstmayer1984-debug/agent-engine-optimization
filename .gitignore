@@ -1,0 +1,11 @@
+public/
+resources/
+.hugo_build.lock
+.env
+*.key
+*.pem
+secrets/
+api-keys/
+credentials/
+.DS_Store
+node_modules/
