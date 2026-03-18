@@ -31,3 +31,8 @@ disableKinds = ["taxonomy", "term"]
 [minify]
   disableXML = true
   minifyOutput = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
