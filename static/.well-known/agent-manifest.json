@@ -17,13 +17,7 @@
       "url": "/docs/execution-layer/"
     }
   ],
-  "content_types": [
-    "framework",
-    "research",
-    "industry-guide",
-    "protocol-reference",
-    "service-description"
-  ],
+  "content_types": ["framework", "research", "industry-guide", "protocol-reference", "service-description"],
   "protocols_analyzed": ["ucp", "mcp", "a2a", "acp", "ap2"],
   "industries_served": ["e-commerce", "travel-booking", "b2b-saas", "devtools", "fintech"],
   "languages": ["en"],

@@ -1,9 +1,9 @@
 ---
 title: "What is Agent Engine Optimization?"
+date: 2026-03-09
 weight: 1
+category: "Framework"
 ---
-
-# What is Agent Engine Optimization?
 
 Agent Engine Optimization (AEO) is the practice of structuring websites, APIs, data, and digital services so that autonomous AI agents can discover them, understand their capabilities, and execute actions through them — such as bookings, purchases, data retrieval, comparisons, and workflow steps.
 
@@ -13,7 +13,7 @@ AEO operates on the premise that the next primary user of digital infrastructure
 
 ## The problem AEO solves
 
-An autonomous agent tasked with "Book me a flight to Lisbon under €400 next month" needs to:
+An autonomous agent tasked with "Book me a flight to Lisbon under 400 euros next month" needs to:
 
 1. **Discover** airlines and booking platforms that serve the route
 2. **Read** structured pricing, availability, and constraint data
@@ -51,8 +51,6 @@ Making digital services actionable by autonomous agents. This includes APIs, pro
 
 This is the layer that creates real differentiation — and real business impact — as agents move from answering questions to completing tasks.
 
-→ Read more: [The Execution Layer]({{< relref "/docs/execution-layer" >}})
-
 ---
 
 ## Who needs AEO now
@@ -76,8 +74,6 @@ This is the layer that creates real differentiation — and real business impact
 
 ## The protocol landscape
 
-The execution layer is built on emerging protocols that standardize how agents interact with services:
-
 | Protocol | Developer | Purpose |
 |---|---|---|
 | **UCP** | Google / Shopify | Standardized agent-to-merchant transactions |
@@ -88,6 +84,8 @@ The execution layer is built on emerging protocols that standardize how agents i
 
 These protocols are complementary, not competing. A complete agent interaction might use MCP for data access, UCP for the transaction, AP2 for payment, and A2A for multi-agent coordination.
 
-→ [AEO vs. SEO vs. GEO]({{< relref "/docs/aeo-vs-seo-vs-geo" >}}) — the full comparison.
+Read more: [The Execution Layer](/docs/execution-layer/) — deep dive into what makes agentic optimization fundamentally different.
 
-→ [AEO Readiness Audit]({{< relref "/docs/audit" >}}) — assess your infrastructure.
+[AEO vs. SEO vs. GEO](/docs/aeo-vs-seo-vs-geo/) — the full comparison.
+
+[AEO Readiness Audit](/docs/audit/) — assess your infrastructure.

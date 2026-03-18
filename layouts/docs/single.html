@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  {{ if .Params.category }}
+  <div class="page-meta">{{ .Params.category }}</div>
+  {{ end }}
+
+  <h1>{{ .Title }}</h1>
+
+  {{ if .Date }}
+  <p style="font-size: 0.88rem; color: #888; margin-top: -20px; margin-bottom: 40px;">
+    {{ .Date.Format "January 2, 2006" }}
+  </p>
+  {{ end }}
+
+  {{ .Content }}
+</article>
+{{ end }}

@@ -1,9 +1,9 @@
 ---
-title: "AEO vs. SEO vs. GEO"
+title: "AEO vs. SEO vs. GEO — The Real Separation"
+date: 2026-03-09
 weight: 2
+category: "Analysis"
 ---
-
-# AEO vs. SEO vs. GEO — The Real Separation
 
 The digital optimization space in 2026 is drowning in acronyms. SEO, AEO, GEO, LLMO, AAO, AIEO, GXO — each with its own constituency, each claiming to be the future.
 
@@ -11,9 +11,7 @@ This page cuts through the noise with a simple structural model: **the three lay
 
 ---
 
-## The three layers
-
-### Layer 1: Search Optimization (SEO)
+## Layer 1: Search Optimization (SEO)
 
 **Goal:** Rank in search engine results. Get clicks from humans.
 
@@ -25,7 +23,9 @@ SEO has been the dominant discipline for 25 years and remains foundational. It o
 
 **Status in 2026:** Alive, but transformed. Zero-click searches now exceed 60% of all Google queries. SEO remains necessary as the foundation — AI systems still rely on search indexes to discover content — but it no longer guarantees visibility by itself.
 
-### Layer 2: Generative Optimization (GEO / Answer AEO)
+---
+
+## Layer 2: Generative Optimization (GEO / Answer AEO)
 
 **Goal:** Be cited, summarized, and recommended in AI-generated answers.
 
@@ -39,7 +39,9 @@ This is what most of the industry currently calls "AEO" (Answer Engine Optimizat
 
 **Critical observation:** GEO and Answer-AEO are essentially an evolution of SEO for a new distribution channel. The skills, tools, and mental models overlap heavily with traditional content optimization. It is important — but it is not a fundamentally new discipline.
 
-### Layer 3: Agent Optimization (Agentic AEO)
+---
+
+## Layer 3: Agent Optimization (Agentic AEO)
 
 **Goal:** Enable autonomous AI agents to execute tasks through your digital infrastructure.
 
@@ -62,8 +64,8 @@ This is the execution layer. It is not about being read or cited — it is about
 | **Success metric** | Rankings, clicks, traffic | Citations, AI share of voice | Task completion, conversions |
 | **Core technique** | Keywords, links, technical SEO | Structured content, E-E-A-T, schema | APIs, protocols, deterministic data |
 | **Content type** | Human-readable | Machine-summarizable | Machine-executable |
-| **Error tolerance** | Medium | High (bad summary is not harm) | Low (bad booking is real damage) |
-| **Market maturity** | Mature (25+ years) | Emerging (agencies offer it) | Infrastructure phase |
+| **Error tolerance** | Medium | High | Low — bad booking is real damage |
+| **Market maturity** | Mature (25+ years) | Emerging | Infrastructure phase |
 | **Skills required** | Content + technical SEO | Content + structured data | Architecture + API design + protocols |
 
 ---
@@ -90,7 +92,7 @@ For most organizations in 2026:
 
 1. **Ensure your SEO foundation is solid.** AI systems still use search indexes for discovery.
 2. **Optimize for the read layer (GEO).** Structure your content for AI citation and summarization.
-3. **Assess your execution layer readiness.** → [AEO Readiness Audit]({{< relref "/docs/audit" >}})
+3. **Assess your execution layer readiness.** See the [AEO Readiness Audit](/docs/audit/).
 4. **Build toward execution layer compatibility.** Based on your industry and technical capacity.
 
-→ [The Execution Layer]({{< relref "/docs/execution-layer" >}}) — what it takes to make infrastructure agent-actionable.
+[The Execution Layer](/docs/execution-layer/) — what it takes to make infrastructure agent-actionable.

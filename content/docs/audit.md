@@ -1,13 +1,14 @@
 ---
 title: "AEO Readiness Audit"
+date: 2026-03-09
 weight: 10
+category: "Service"
 ---
-
-# AEO Readiness Audit
 
 A systematic evaluation of your digital infrastructure across two layers:
 
 **Read Layer** — Can AI systems discover and understand your content?
+
 **Execution Layer** — Can autonomous agents take action through your infrastructure?
 
 Most organizations score reasonably well on the read layer. Almost none have assessed their execution layer readiness.
@@ -76,18 +77,12 @@ Comprehensive assessment of both layers, including API infrastructure and protoc
 
 ---
 
-## How to proceed
-
-Send a brief description of your business and digital infrastructure through the contact options listed on this site. We respond within 48 hours with a scoping proposal.
-
----
-
 ## Why now
 
 The protocols are live. UCP launched in January 2026. MCP is production-ready. Agent-driven commerce is measurable and growing.
 
 Organizations that assess and prepare now build compounding advantages. Those that wait until agent traffic is significant will face more expensive, more disruptive retrofitting.
 
-→ [The Execution Layer]({{< relref "/docs/execution-layer" >}}) — understand what agents need.
+[The Execution Layer](/docs/execution-layer/) — understand what agents need.
 
-→ [AEO vs. SEO vs. GEO]({{< relref "/docs/aeo-vs-seo-vs-geo" >}}) — how this fits into your broader strategy.
+[AEO vs. SEO vs. GEO](/docs/aeo-vs-seo-vs-geo/) — how this fits into your broader strategy.

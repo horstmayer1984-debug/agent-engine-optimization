@@ -1,9 +1,9 @@
 ---
 title: "The Execution Layer"
+date: 2026-03-09
 weight: 3
+category: "Deep Dive"
 ---
-
-# The Execution Layer
 
 When an AI system cites your content in a generated answer, that is the read layer working. Useful, but passive.
 
@@ -15,7 +15,7 @@ The execution layer is where AEO separates from everything that came before it. 
 
 ## What agents need to act
 
-An autonomous agent completing a task — booking a hotel room under €150 in Barcelona for next Tuesday — needs:
+An autonomous agent completing a task — booking a hotel room under 150 euros in Barcelona for next Tuesday — needs:
 
 ### 1. Discovery
 
@@ -31,7 +31,7 @@ Get current pricing, availability, and conditions. Static HTML pages with yester
 
 ### 4. Constraint matching
 
-Evaluate whether your offering fits the user's requirements. Budget under €150? Available on Tuesday? In Barcelona? Includes breakfast? The agent needs to match these constraints against your data. This requires deterministic, structured data — not marketing copy.
+Evaluate whether your offering fits the user's requirements. Budget under 150 euros? Available on Tuesday? In Barcelona? Includes breakfast? The agent needs to match these constraints against your data. This requires deterministic, structured data — not marketing copy.
 
 ### 5. Action execution
 
@@ -39,7 +39,7 @@ Trigger the booking, purchase, or request. The agent needs a transaction endpoin
 
 ### 6. State verification
 
-Confirm that the action succeeded. Did the booking go through? The agent needs observable state transitions: `available → reserved → confirmed`. Without verification, the agent cannot report back reliably.
+Confirm that the action succeeded. Did the booking go through? The agent needs observable state transitions: available, reserved, confirmed. Without verification, the agent cannot report back reliably.
 
 ---
 
@@ -58,9 +58,11 @@ A machine-readable document that describes what a service can do, what protocols
 Marketing pages are designed for human persuasion. Agent-facing data must be designed for machine decision-making: fixed parameters, structured response formats, unambiguous values, machine-readable error codes.
 
 What the website says:
+
 > "Our premium plan starts at just $49/month with all the features your team needs."
 
 What the agent needs:
+
 ```json
 {
   "plan": "premium",
@@ -85,13 +87,13 @@ Organizations that implement these protocols early become the default options fo
 
 Agents need to verify that actions produce expected results. This requires observable state transitions:
 
-`available → reserved → payment_pending → confirmed → fulfilled`
+`available > reserved > payment_pending > confirmed > fulfilled`
 
 Each transition should be queryable. Without this, agents cannot reliably manage multi-step workflows.
 
 ### Trust and Verification
 
-An agent booking a €2,000 trip needs to trust the source. Trust signals for agents are different from trust signals for humans. Agents need verifiable business identities, cryptographically signed transaction receipts (AP2), consistent and accurate data across touchpoints, transparent constraint documentation, and audit trails.
+An agent booking a 2,000 euro trip needs to trust the source. Trust signals for agents are different from trust signals for humans. Agents need verifiable business identities, cryptographically signed transaction receipts (AP2), consistent and accurate data across touchpoints, transparent constraint documentation, and audit trails.
 
 ---
 
@@ -105,6 +107,6 @@ The execution layer is not something you build overnight. It is a capability you
 
 **Phase 3 (6 to 18 months):** Build execution-layer capabilities. Expose APIs, implement protocol compatibility, create agent-facing data endpoints, develop state verification mechanisms.
 
-→ [AEO Readiness Audit]({{< relref "/docs/audit" >}}) — start with a systematic assessment.
+[AEO Readiness Audit](/docs/audit/) — start with a systematic assessment.
 
-→ [What is AEO?]({{< relref "/docs/what-is-aeo" >}}) — full definition and scope.
+[What is AEO?](/docs/what-is-aeo/) — full definition and scope.
