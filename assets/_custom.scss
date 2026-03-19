@@ -1,5 +1,5 @@
 // Force header visible on desktop
-header.book-header.hidden { display: block !important; }
+header.book-header, .book-header { display: block !important; visibility: visible !important; opacity: 1 !important; overflow: visible !important; height: auto !important; min-height: 60px; position: relative !important; }
 
 // a16z Editorial Override for hugo-book — Playfair Display Edition
 
