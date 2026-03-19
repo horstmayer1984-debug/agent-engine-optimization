@@ -24,15 +24,20 @@ Agent Engine Optimization is the discipline of making websites, APIs, data struc
 
 ## Guides
 
-- [How to Implement AEO on Your Website](/docs/implement-aeo/) — Step-by-step guide from content structure to action endpoints.
+- [How to Implement AEO on Your Website](/docs/implement-aeo/) — Step-by-step from content structure to action endpoints.
 - [AEO Readiness Audit](/docs/audit/) — Find out if agents can work with your infrastructure.
 
 ## Industry and Use Cases
 
-- [Top 10 AEO Strategies for Ecommerce](/docs/aeo-ecommerce/) — Product data, purchase paths, and inventory trust for AI agents.
-- [The Rise of Agentic Commerce](/docs/agentic-commerce/) — Why transactability is the new competitive edge for brands.
+- [Top 10 AEO Strategies for Ecommerce](/docs/aeo-ecommerce/) — Product data, purchase paths, and inventory trust.
+- [The Rise of Agentic Commerce](/docs/agentic-commerce/) — Why transactability is the new competitive edge.
+- [AEO Use Cases: Ecommerce](/docs/aeo-use-cases-ecommerce/) — How agents discover, compare, and buy.
+- [AEO Use Cases: B2B SaaS](/docs/aeo-use-cases-b2b-saas/) — Vendor research, compliance, and demo booking.
+- [AEO Use Cases: Customer Support](/docs/aeo-use-cases-support/) — Autonomous resolution and cross-channel coordination.
+- [AEO Use Cases: Marketing](/docs/aeo-use-cases-marketing/) — Content curation, lead qualification, competitive research.
+- [AEO Use Cases: Developers](/docs/aeo-use-cases-developers/) — Documentation, code generation, and debugging workflows.
 
 ## Deep Dives
 
-- [Multi-Agent Systems and AEO](/docs/multi-agent-aeo/) — Optimizing for orchestrated AI workflows and agent handoffs.
-- [The Future of AEO Beyond 2026](/docs/future-of-aeo/) — How AEO evolves from niche tactic to baseline discipline.
+- [Multi-Agent Systems and AEO](/docs/multi-agent-aeo/) — Optimizing for orchestrated AI workflows.
+- [The Future of AEO Beyond 2026](/docs/future-of-aeo/) — From niche tactic to baseline discipline.
