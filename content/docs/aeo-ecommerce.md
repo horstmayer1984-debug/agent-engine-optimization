@@ -14,7 +14,6 @@ keywords:
   - UCP ecommerce
 ---
 
-# Top 10 AEO Strategies for Ecommerce Brands in the Agentic AI Era
 
 Ecommerce is one of the clearest proving grounds for Agent Engine Optimization. A product site already contains the ingredients agents care about: structured offers, prices, inventory, shipping rules, policies, and transactional flows. The difference is that most stores still expose those elements in ways built for browsing, not execution.
 

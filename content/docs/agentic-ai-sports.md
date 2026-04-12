@@ -14,7 +14,6 @@ keywords:
   - Jump AI sports
 ---
 
-# Agentic AI in Sports: How Vertical Platforms Transform Operations, Fan Engagement, and Performance
 
 Sports organizations have used data analytics for years. Dashboards, reports, predictive models. All useful, all requiring a human to interpret the data and decide what to do. Agentic AI changes that relationship. Instead of presenting data for human decision making, agent systems make decisions and execute actions autonomously within defined boundaries.
 

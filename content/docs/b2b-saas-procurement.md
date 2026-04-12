@@ -14,7 +14,6 @@ keywords:
   - CIPS autonomous procurement
 ---
 
-# B2B SaaS Procurement: How to Make Your Software Selectable by AI Buying Agents
 
 B2B SaaS websites are still built like persuasion surfaces. AI procurement will treat them like evaluation systems. That is the shift most vendors have not internalized yet.
 
@@ -64,7 +63,7 @@ This has direct SEO value because search behavior is changing upstream of the cl
 
 The pages that perform best will not be the ones that sound the smartest. They will be the ones that expose the cleanest relationship between product entity, buying criteria, and executable next step.
 
-The [AEO implementation guide](/docs/implement-aeo/) walks through the technical steps. The [AEO Framework](/docs/framework/) explains the structural model.
+The [AEO implementation guide](/docs/implement-aeo/) walks through the technical steps. The [What is AEO](/docs/what-is-aeo/) explains the structural model.
 
 ---
 

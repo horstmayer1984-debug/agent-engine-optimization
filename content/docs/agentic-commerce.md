@@ -14,7 +14,6 @@ keywords:
   - AI purchasing agents
 ---
 
-# The Rise of Agentic Commerce: Why AEO Is Essential for Brands in 2026
 
 Commerce is entering a new interface layer. For years, digital buying was shaped by pages, ads, search results, apps, and checkout flows designed for direct human navigation. That model is still here, but it is no longer the whole picture. Increasingly, people delegate parts of the buying process to AI systems that research options, compare constraints, filter offers, and sometimes complete the transaction.
 
@@ -68,7 +67,7 @@ These are not UX details. They are machine decision inputs.
 
 The same logic extends beyond product catalogs. Travel booking, insurance requests, local services, B2B procurement, subscriptions, healthcare administration, and software purchasing all follow similar patterns. In each case, a user may rely on an AI system to narrow options and complete administrative work.
 
-That makes AEO relevant anywhere a site is expected to support discovery plus action. The [AEO Framework](/docs/framework/) explains the structural model behind both the read layer and the execution layer.
+That makes AEO relevant anywhere a site is expected to support discovery plus action. The [What is AEO](/docs/what-is-aeo/) explains the structural model behind both the read layer and the execution layer.
 
 ## What brands should do now
 

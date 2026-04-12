@@ -14,7 +14,6 @@ keywords:
   - execution layer evolution
 ---
 
-# The Future of AEO: What Agent Engine Optimization Looks Like Beyond 2026
 
 Agent Engine Optimization is still early, but the direction is already visible. The web is moving from a space designed mainly for human browsing toward one that must also support machine mediated discovery and action. That does not mean websites disappear. It means the interface layer changes. More decisions, more comparisons, and more administrative tasks will happen through AI systems acting with varying degrees of autonomy.
 
@@ -56,7 +55,7 @@ In practice:
 - support teams provide recoverable exception paths
 - analytics teams measure execution quality
 
-The companies that coordinate these layers will build stronger moats than those that publish more blog posts. The [AEO Framework](/docs/framework/) provides the structural model for this cross-functional alignment.
+The companies that coordinate these layers will build stronger moats than those that publish more blog posts. The [What is AEO](/docs/what-is-aeo/) provides the structural model for this cross-functional alignment.
 
 ## Protocol awareness will matter, but clarity will matter more
 

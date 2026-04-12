@@ -13,7 +13,6 @@ keywords:
   - agentic development workflow
 ---
 
-# Agent Engine Optimization Use Cases for Developers and Code Automation in 2026
 
 Developer tools already operate in a largely text based, structured environment. Documentation, API specifications, code repositories, and configuration files are inherently more machine readable than most web content. That gives developer focused AEO a head start, but it does not mean the work is done.
 
@@ -53,7 +52,7 @@ The [multi-agent AEO](/docs/multi-agent-aeo/) article covers orchestration optim
 
 Agents select which tools and libraries to use based on available information. A well documented library with clear installation instructions, quick start guides, and structured capability descriptions gets selected over an equally capable but poorly documented alternative.
 
-This is the developer equivalent of product discovery in ecommerce. The [AEO Framework](/docs/framework/) explains the structural model that applies across both domains.
+This is the developer equivalent of product discovery in ecommerce. The [What is AEO](/docs/what-is-aeo/) explains the structural model that applies across both domains.
 
 ---
 

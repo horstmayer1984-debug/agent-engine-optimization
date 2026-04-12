@@ -14,7 +14,6 @@ keywords:
   - efficiency economy
 ---
 
-# Agent-Native Business Models: How the Machine-to-Machine Economy Replaces Click-Based Revenue
 
 The internet was built for human attention. Pages, ads, click funnels, session tracking, impressions. Every monetization layer assumes a person is looking at a screen. That assumption is breaking.
 

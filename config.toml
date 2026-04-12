@@ -1,12 +1,10 @@
 baseURL = "https://agent-engine-optimization.com/"
 languageCode = "en"
-title = "Agent Engine Optimization"
+title = "Agent Engine Optimization — AEO Framework for the Agentic Web"
 theme = "hugo-book"
-
 enableRobotsTXT = false
 disablePathToLower = true
-
-# hugo-book rendert keine Taxonomie-Seiten
+disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
@@ -16,6 +14,9 @@ disableKinds = ["taxonomy", "term"]
   BookSearch = true
   BookComments = false
   BookDateFormat = "January 2, 2006"
+  description = "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents."
+  images = ["/images/og-default.png"]
+  author = "Agent Engine Optimization"
 
 [markup]
   [markup.goldmark]
@@ -26,7 +27,7 @@ disableKinds = ["taxonomy", "term"]
     endLevel = 4
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [minify]
   disableXML = true

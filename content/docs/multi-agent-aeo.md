@@ -14,7 +14,6 @@ keywords:
   - A2A protocol
 ---
 
-# Multi-Agent Systems and AEO: Optimizing for Orchestrated AI Workflows
 
 A single AI assistant already changes how people discover information and complete tasks online. Multi-agent systems raise the stakes. Instead of one model handling the whole interaction, several specialized agents cooperate. One may interpret intent. Another may compare providers. A third may handle compliance checks. A fourth may complete the transaction or verify the result.
 
@@ -36,7 +35,7 @@ A human user can resolve inconsistency with common sense. A distributed system c
 
 Multi-agent readiness depends on stable naming conventions, consistent field logic, explicit constraints, predictable action definitions, and verifiable results.
 
-The more specialized the agent ecosystem becomes, the less tolerance there is for fuzzy page design. The [AEO Framework](/docs/framework/) captures this in its distinction between the read layer and the [execution layer](/docs/execution-layer/).
+The more specialized the agent ecosystem becomes, the less tolerance there is for fuzzy page design. The [What is AEO](/docs/what-is-aeo/) captures this in its distinction between the read layer and the [execution layer](/docs/execution-layer/).
 
 ## Design for role-based interaction
 

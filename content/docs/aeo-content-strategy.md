@@ -14,7 +14,6 @@ keywords:
   - agent ready marketing
 ---
 
-# AEO Content Strategy: How Marketing Teams Build Pages That Agents Can Use
 
 Most marketing advice about AEO stays too close to old SEO language. It says publish structured data, answer questions clearly, and improve topical authority. That is fine as far as it goes. It does not address the bigger shift.
 

@@ -14,7 +14,6 @@ keywords:
   - sports agentic AI
 ---
 
-# Vertical Agent Platforms in 2026: How AI Transforms Real Estate, Finance, Marketing, Travel, and Sports
 
 Horizontal AI tools handle generic tasks. Summarize this document. Write that email. Schedule a meeting. Useful, but not defensible. Any competitor can replicate the same capability with the same foundation models.
 

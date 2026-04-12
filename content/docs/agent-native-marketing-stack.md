@@ -14,7 +14,6 @@ keywords:
   - marketing AI stack 2026
 ---
 
-# Building Agent-Native Marketing Platforms: The 2026 Tech Stack Guide
 
 Manual campaign management is becoming a cost center. The teams that still brief agencies, wait for creative rounds, manually adjust bids, and compile weekly reports are spending time on work that multi-agent systems now handle faster and with better performance data.
 

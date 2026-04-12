@@ -1,0 +1,49 @@
+<!-- OG Image -->
+<meta property="og:image" content="{{ "images/og-default.svg" | absURL }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="twitter:image" content="{{ "images/og-default.svg" | absURL }}">
+
+<!-- Schema: Organization (homepage only) -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Agent Engine Optimization",
+  "url": "https://agent-engine-optimization.com",
+  "description": "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents.",
+  "foundingDate": "2026"
+}
+</script>
+{{ end }}
+
+<!-- Schema: Article (doc pages) -->
+{{ if and (eq .Section "docs") (not .IsSection) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Agent Engine Optimization",
+    "url": "https://agent-engine-optimization.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Agent Engine Optimization",
+    "url": "https://agent-engine-optimization.com"
+  },
+  "mainEntityOfPage": "{{ .Permalink }}"
+}
+</script>
+{{ end }}

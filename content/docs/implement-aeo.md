@@ -15,7 +15,6 @@ keywords:
   - structured data for agents
 ---
 
-# How to Implement Agent Engine Optimization on Your Website in 2026
 
 Agent Engine Optimization is the practical layer of visibility for a web shaped by autonomous systems. Search engine optimization helped pages rank. Generative engine optimization helped pages get cited in synthesized answers. AEO goes one step further. It helps AI agents understand what your site can do, decide whether it is safe and useful, and complete a task without friction.
 
@@ -63,7 +62,7 @@ A practical setup usually includes:
 - a short capability overview page
 - documentation for any transactional or request endpoints
 
-This removes guesswork. It also reduces hallucinated assumptions about what your system can actually do. The [AEO Framework](/docs/framework/) explains the structural logic behind this in more detail.
+This removes guesswork. It also reduces hallucinated assumptions about what your system can actually do. The [What is AEO](/docs/what-is-aeo/) explains the structural logic behind this in more detail.
 
 ## Step 3: Expose actions, not just information
 

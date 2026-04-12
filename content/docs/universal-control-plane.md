@@ -15,7 +15,6 @@ keywords:
   - Visa Agentic Ready
 ---
 
-# Universal Control Plane: Governance for the Execution Layer
 
 The [execution layer](/docs/execution-layer/) becomes dangerous the moment it is exposed without governance. That is why serious AEO architecture needs more than readable pages and callable endpoints. It needs a control system that decides what can be inspected, what can be executed, under which authority, and with which recovery logic when something fails.
 

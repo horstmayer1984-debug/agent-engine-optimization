@@ -14,7 +14,6 @@ keywords:
   - support resolution architecture
 ---
 
-# Agentic Customer Support: From Knowledge Retrieval to Executable Resolution
 
 Most customer support teams think they are preparing for AI because they improved search or added a chatbot. That does not solve the real problem. Better retrieval helps the agent understand the issue. It does not resolve the issue.
 
