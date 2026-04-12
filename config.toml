@@ -1,6 +1,6 @@
 baseURL = "https://agent-engine-optimization.com/"
 languageCode = "en"
-title = "Agent Engine Optimization — AEO Framework for the Agentic Web"
+title = "Agent Engine Optimization"
 theme = "hugo-book"
 enableRobotsTXT = false
 disablePathToLower = true

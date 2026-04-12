@@ -1,5 +1,5 @@
 ---
-title: "Agent Engine Optimization"
+title: "AEO Framework for the Agentic Web"
 type: page
 sitemap:
   priority: 1.0
