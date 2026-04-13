@@ -85,3 +85,7 @@ The Foundation works with regulated members (Visa, Mastercard, Stripe) to ensure
 
 **Should I implement x402 before having significant agent traffic?**
 The implementation cost is low (hours, not weeks). Having x402 ready when agent traffic arrives means you capture revenue immediately. The speculative investment is minimal.
+
+---
+
+*This article discusses payment protocols and cryptocurrency infrastructure for educational and informational purposes only. It does not constitute financial advice. See our [Legal Disclaimer](/docs/disclaimer/) for full terms.*

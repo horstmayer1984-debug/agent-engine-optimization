@@ -80,3 +80,7 @@ The protocol works for any HTTP client, but it is designed for autonomous machin
 
 **What happens if an agent payment fails?**
 The server returns the 402 response again. The agent can retry with a corrected payment or move to an alternative service. Failed payments do not grant access.
+
+---
+
+*This article discusses payment protocols and cryptocurrency infrastructure for educational and informational purposes only. It does not constitute financial advice. See our [Legal Disclaimer](/docs/disclaimer/) for full terms.*

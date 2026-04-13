@@ -94,3 +94,7 @@ Depends on traffic and pricing. A premium data endpoint serving 10,000 agent req
 
 **Is the full stack overkill for a small site?**
 Not if you have premium content or services that agents would pay for. The implementation cost is modest (under a week), and the infrastructure scales naturally with traffic.
+
+---
+
+*This article discusses payment protocols and cryptocurrency infrastructure for educational and informational purposes only. It does not constitute financial advice. See our [Legal Disclaimer](/docs/disclaimer/) for full terms.*

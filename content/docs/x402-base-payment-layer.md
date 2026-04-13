@@ -69,3 +69,7 @@ Base is a Coinbase-operated L2, which means it has a more centralized sequencer 
 
 **What is gas sponsorship?**
 A feature where the site operator pays the small blockchain transaction fee on behalf of the agent. It removes the requirement for agents to hold native chain tokens and reduces friction to zero.
+
+---
+
+*This article discusses payment protocols and cryptocurrency infrastructure for educational and informational purposes only. It does not constitute financial advice. See our [Legal Disclaimer](/docs/disclaimer/) for full terms.*

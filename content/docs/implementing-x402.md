@@ -89,3 +89,7 @@ Yes. Each endpoint can return its own 402 response with different pricing. A sim
 
 **What if an agent does not support x402?**
 The agent receives a 402 response it cannot process and moves on. You can offer alternative access methods (API keys, subscriptions) for non-x402 clients while keeping x402 as the primary agent payment path.
+
+---
+
+*This article discusses payment protocols and cryptocurrency infrastructure for educational and informational purposes only. It does not constitute financial advice. See our [Legal Disclaimer](/docs/disclaimer/) for full terms.*
