@@ -70,6 +70,26 @@ Most AEO advice addresses the read layer. This site covers both, with particular
 - [Agent-Native Marketing Stack](/docs/agent-native-marketing-stack/) — The 2026 tech stack guide.
 - [Agentic AI in Sports](/docs/agentic-ai-sports/) — Operations, fan engagement, and performance.
 
+
+---
+
+## Frequently Asked Questions
+
+**What is Agent Engine Optimization?**
+Agent Engine Optimization (AEO) is the discipline of making websites, APIs, and digital infrastructure readable, trustworthy, and actionable for autonomous AI agents. It goes beyond traditional SEO and GEO by adding the execution layer where agents can complete tasks, not just read content.
+
+**How is AEO different from SEO and GEO?**
+SEO targets rankings in search results. GEO targets citations in AI-generated answers. AEO adds the execution layer: making your infrastructure actionable for autonomous agents that book, purchase, compare, and orchestrate on behalf of users.
+
+**What is the execution layer?**
+The execution layer is the part of your digital presence that allows AI agents to perform actions through APIs, deterministic endpoints, and protocols like MCP and UCP. It is where agents move from reading to acting.
+
+**Do I need technical skills to implement AEO?**
+Not for the first phase. Content restructuring and schema markup require no coding. API endpoints and protocol integration benefit from developer skills but can be added incrementally.
+
+**How do I measure AEO success?**
+Track AI citation rates, agent traffic volume, endpoint completion rates, and agent-driven conversions. Traditional metrics like page views and bounce rate do not capture AEO performance.
+
 ## About this site
 
 Agent Engine Optimization is an independent research and strategy resource. All content follows a principle of operational specificity over conceptual abstraction. [Learn more about this site and its methodology.](/docs/about/)

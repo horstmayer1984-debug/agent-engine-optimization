@@ -1,49 +1,141 @@
-<!-- OG Image -->
-<meta property="og:image" content="{{ "images/og-default.svg" | absURL }}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<!-- Robots -->
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ .Title }}">
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta name="twitter:image" content="{{ "images/og-default.svg" | absURL }}">
+<!-- Favicon -->
+<link rel="apple-touch-icon" href="/images/og-default.svg">
+<link rel="icon" type="image/svg+xml" href="/images/og-default.svg">
 
-<!-- Schema: Organization (homepage only) -->
+<!-- Schema: @graph for homepage -->
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Agent Engine Optimization",
-  "url": "https://agent-engine-optimization.com",
-  "description": "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents.",
-  "foundingDate": "2026"
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://agent-engine-optimization.com/#organization",
+      "name": "Agent Engine Optimization",
+      "url": "https://agent-engine-optimization.com",
+      "description": "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents.",
+      "foundingDate": "2026"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://agent-engine-optimization.com/#website",
+      "url": "https://agent-engine-optimization.com/",
+      "name": "Agent Engine Optimization",
+      "description": "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents. Framework, audits, and guides for the execution layer.",
+      "publisher": {
+        "@id": "https://agent-engine-optimization.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://agent-engine-optimization.com/#webpage",
+      "url": "https://agent-engine-optimization.com/",
+      "name": "AEO Framework for the Agentic Web",
+      "description": "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents.",
+      "isPartOf": {
+        "@id": "https://agent-engine-optimization.com/#website"
+      }
+    }
+  ]
 }
 </script>
 {{ end }}
 
-<!-- Schema: Article (doc pages) -->
+<!-- Schema: Article + BreadcrumbList for doc pages -->
 {{ if and (eq .Section "docs") (not .IsSection) }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "{{ .Title }}",
-  "description": "{{ .Description }}",
-  "datePublished": "{{ .Date.Format "2006-01-02" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
-  "author": {
-    "@type": "Organization",
-    "name": "Agent Engine Optimization",
-    "url": "https://agent-engine-optimization.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Agent Engine Optimization",
-    "url": "https://agent-engine-optimization.com"
-  },
-  "mainEntityOfPage": "{{ .Permalink }}"
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "{{ .Title }}",
+      "description": "{{ .Description }}",
+      "datePublished": "{{ .Date.Format "2006-01-02" }}",
+      "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+      "author": {
+        "@type": "Organization",
+        "name": "Agent Engine Optimization",
+        "url": "https://agent-engine-optimization.com"
+      },
+      "publisher": {
+        "@id": "https://agent-engine-optimization.com/#organization"
+      },
+      "mainEntityOfPage": "{{ .Permalink }}"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://agent-engine-optimization.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ .Title }}",
+          "item": "{{ .Permalink }}"
+        }
+      ]
+    }
+  ]
+}
+</script>
+{{ end }}
+
+<!-- FAQPage Schema for homepage -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Agent Engine Optimization?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agent Engine Optimization (AEO) is the discipline of making websites, APIs, and digital infrastructure readable, trustworthy, and actionable for autonomous AI agents. It goes beyond traditional SEO and GEO by adding the execution layer where agents can complete tasks, not just read content."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is AEO different from SEO and GEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SEO targets rankings in search results. GEO targets citations in AI-generated answers. AEO adds the execution layer: making your infrastructure actionable for autonomous agents that book, purchase, compare, and orchestrate on behalf of users."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the execution layer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The execution layer is the part of your digital presence that allows AI agents to perform actions through APIs, deterministic endpoints, and protocols like MCP and UCP. It is where agents move from reading to acting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need technical skills to implement AEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not for the first phase. Content restructuring and schema markup require no coding. API endpoints and protocol integration benefit from developer skills but can be added incrementally."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I measure AEO success?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Track AI citation rates, agent traffic volume, endpoint completion rates, and agent-driven conversions. Traditional metrics like page views and bounce rate do not capture AEO performance."
+      }
+    }
+  ]
 }
 </script>
 {{ end }}
