@@ -44,7 +44,7 @@ body {
 header.book-header, .book-header {
   background: var(--aeo-black) !important;
   color: var(--aeo-white) !important;
-  padding: 20px 40px !important;
+  padding: 8px 20px !important;
   border-bottom: none !important;
   position: sticky;
   top: 0;
@@ -108,7 +108,7 @@ li { margin-bottom: 0.5rem; }
   h2 { font-size: 1.4rem; margin-top: 40px; }
   .book-page .markdown { padding: 0 20px; }
   .book-page .markdown > h1:first-child { font-size: 2.2rem; margin-top: 40px; }
-  header.book-header, .book-header { padding: 16px 20px !important; }
+  header.book-header, .book-header { padding: 6px 12px !important; }
 }
 
 @media (max-width: 480px) {
