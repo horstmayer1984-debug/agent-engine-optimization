@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AEO Readiness Checker — Free Agent Engine Optimization Score | agent-engine-optimization.com</title>
+<meta name="description" content="Check if your website is ready for autonomous AI agents. Free AEO Readiness Score across 14 checks covering discovery, read layer, execution layer, and trust.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://agent-engine-optimization.com/tools/aeo-readiness-checker.html">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#e5e5e5;font-family:'DM Sans',system-ui,sans-serif}
+a{color:#3b82f6;text-decoration:none}
+a:hover{opacity:0.8}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const {useState,useCallback} = React;
+
+const CHECKS = [
+  {id:"llms_txt",label:"llms.txt",description:"Machine-readable site summary for AI agents",weight:20,category:"Discovery"},
+  {id:"agent_card",label:"agent-card.json",description:"Capability manifest for agent-to-agent collaboration",weight:12,category:"Discovery"},
+  {id:"robots_ai",label:"AI crawlers allowed in robots.txt",description:"GPTBot, ClaudeBot, PerplexityBot not blocked",weight:15,category:"Discovery"},
+  {id:"schema_org",label:"Schema.org structured data",description:"JSON-LD markup for products, services, or articles",weight:15,category:"Read Layer"},
+  {id:"answer_first",label:"Answer-first content structure",description:"Direct answer in the first 60 words of key pages",weight:10,category:"Read Layer"},
+  {id:"faq_schema",label:"FAQ sections with FAQPage schema",description:"Structured Q&A that agents can extract directly",weight:8,category:"Read Layer"},
+  {id:"api_endpoints",label:"Documented API endpoints",description:"Machine-callable actions (booking, pricing, availability)",weight:20,category:"Execution Layer"},
+  {id:"action_schema",label:"Action schema markup",description:"PotentialAction, BuyAction, or ReserveAction in JSON-LD",weight:10,category:"Execution Layer"},
+  {id:"realtime_data",label:"Real-time data feeds",description:"Live pricing, inventory, or availability via API",weight:15,category:"Execution Layer"},
+  {id:"mcp_server",label:"MCP server or protocol support",description:"Model Context Protocol for dynamic tool discovery",weight:12,category:"Execution Layer"},
+  {id:"idempotent",label:"Idempotent transaction endpoints",description:"Safe retry handling for agent-initiated actions",weight:10,category:"Trust Layer"},
+  {id:"policies_structured",label:"Machine-readable policies",description:"Return, cancellation, shipping terms as structured data",weight:10,category:"Trust Layer"},
+  {id:"error_responses",label:"Structured error responses",description:"JSON error objects with specific failure reasons",weight:8,category:"Trust Layer"},
+  {id:"feedback_endpoint",label:"Agent feedback endpoint",description:"Public endpoint where agents can report data issues",weight:5,category:"Trust Layer"},
+];
+
+const CATEGORIES = ["Discovery","Read Layer","Execution Layer","Trust Layer"];
+const CAT_COLORS = {Discovery:"#3b82f6","Read Layer":"#10b981","Execution Layer":"#f59e0b","Trust Layer":"#8b5cf6"};
+const GRADES = [
+  {min:90,grade:"A+",color:"#10b981",label:"Agent-Ready"},
+  {min:75,grade:"A",color:"#22c55e",label:"Strong Foundation"},
+  {min:60,grade:"B",color:"#84cc16",label:"Good Progress"},
+  {min:45,grade:"C",color:"#f59e0b",label:"Needs Work"},
+  {min:25,grade:"D",color:"#f97316",label:"Early Stage"},
+  {min:0,grade:"F",color:"#ef4444",label:"Not Agent-Ready"},
+];
+
+function App(){
+  const [url,setUrl]=useState("");
+  const [checks,setChecks]=useState({});
+  const [activeCat,setActiveCat]=useState(null);
+  const totalW=CHECKS.reduce((s,c)=>s+c.weight,0);
+  const score=CHECKS.reduce((s,c)=>{if(checks[c.id]==="yes")return s+c.weight;if(checks[c.id]==="partial")return s+Math.floor(c.weight*0.5);return s},0);
+  const norm=Math.round((score/totalW)*100);
+  const grade=GRADES.find(g=>norm>=g.min)||GRADES[GRADES.length-1];
+  const catScores=CATEGORIES.map(cat=>{const cc=CHECKS.filter(c=>c.category===cat);const t=cc.reduce((s,c)=>s+c.weight,0);const sc=cc.reduce((s,c)=>{if(checks[c.id]==="yes")return s+c.weight;if(checks[c.id]==="partial")return s+Math.floor(c.weight*0.5);return s},0);return{name:cat,score:t>0?Math.round(sc/t*100):0}});
+  const toggle=useCallback((id,v)=>setChecks(p=>({...p,[id]:p[id]===v?undefined:v})),[]);
+  const answered=Object.keys(checks).filter(k=>checks[k]).length;
+  const missing=CHECKS.filter(c=>c.weight>=12&&checks[c.id]!=="yes").sort((a,b)=>b.weight-a.weight);
+
+  return React.createElement("div",{style:{maxWidth:720,margin:"0 auto",padding:"48px 24px"}},
+    React.createElement("div",{style:{marginBottom:48}},
+      React.createElement("a",{href:"/",style:{fontSize:11,fontWeight:700,letterSpacing:"0.12em",textTransform:"uppercase",color:"#3b82f6",textDecoration:"none",display:"block",marginBottom:12}},"Agent Engine Optimization"),
+      React.createElement("h1",{style:{fontSize:"2.2rem",fontWeight:700,lineHeight:1.15,color:"#fff",margin:"0 0 12px",letterSpacing:"-0.02em"}},"AEO Readiness Checker"),
+      React.createElement("p",{style:{fontSize:"1rem",color:"#888",lineHeight:1.6,margin:0}},"Evaluate whether your website is readable, actionable, and trustworthy for autonomous AI agents. Answer each check honestly — your score reflects how an agent would evaluate your infrastructure.")
+    ),
+    React.createElement("div",{style:{marginBottom:40}},
+      React.createElement("label",{style:{display:"block",fontSize:12,fontWeight:500,color:"#666",marginBottom:6,textTransform:"uppercase",letterSpacing:"0.08em"}},"Website URL (optional)"),
+      React.createElement("input",{type:"text",value:url,onChange:e=>setUrl(e.target.value),placeholder:"https://yoursite.com",style:{width:"100%",padding:"12px 16px",background:"#141414",border:"1px solid #262626",borderRadius:6,color:"#e5e5e5",fontSize:15,fontFamily:"'DM Mono',monospace",outline:"none",boxSizing:"border-box"}})
+    ),
+    React.createElement("div",{style:{display:"flex",gap:8,marginBottom:32,flexWrap:"wrap"}},
+      ...CATEGORIES.map(cat=>{const cs=catScores.find(c=>c.name===cat);const active=activeCat===cat;return React.createElement("button",{key:cat,onClick:()=>setActiveCat(active?null:cat),style:{padding:"8px 16px",background:active?CAT_COLORS[cat]+"18":"#141414",border:"1px solid "+(active?CAT_COLORS[cat]+"60":"#262626"),borderRadius:20,color:active?CAT_COLORS[cat]:"#888",fontSize:13,fontWeight:500,cursor:"pointer",fontFamily:"inherit"}},cat+(answered>0?" "+cs.score+"%":""))})
+    ),
+    ...CATEGORIES.filter(cat=>!activeCat||activeCat===cat).map(cat=>
+      React.createElement("div",{key:cat,style:{marginBottom:32}},
+        React.createElement("div",{style:{display:"flex",alignItems:"center",gap:10,marginBottom:16}},
+          React.createElement("div",{style:{width:8,height:8,borderRadius:"50%",background:CAT_COLORS[cat]}}),
+          React.createElement("h2",{style:{fontSize:14,fontWeight:700,color:"#fff",margin:0,textTransform:"uppercase",letterSpacing:"0.06em"}},cat)
+        ),
+        ...CHECKS.filter(c=>c.category===cat).map(check=>{
+          const val=checks[check.id];
+          return React.createElement("div",{key:check.id,style:{display:"flex",alignItems:"flex-start",justifyContent:"space-between",padding:"14px 16px",background:val==="yes"?"#10b98108":val==="no"?"#ef444408":"#141414",border:"1px solid "+(val==="yes"?"#10b98130":val==="no"?"#ef444430":"#1e1e1e"),borderRadius:8,marginBottom:8}},
+            React.createElement("div",{style:{flex:1,minWidth:0}},
+              React.createElement("div",{style:{display:"flex",alignItems:"center",gap:8,marginBottom:4}},
+                React.createElement("span",{style:{fontSize:14,fontWeight:500,color:"#e5e5e5",fontFamily:"'DM Mono',monospace"}},check.label),
+                React.createElement("span",{style:{fontSize:10,fontWeight:700,color:"#555",background:"#1a1a1a",padding:"2px 6px",borderRadius:3}},check.weight+"pt")
+              ),
+              React.createElement("div",{style:{fontSize:12,color:"#666",lineHeight:1.4}},check.description)
+            ),
+            React.createElement("div",{style:{display:"flex",gap:4,marginLeft:16,flexShrink:0}},
+              ...["yes","partial","no"].map(opt=>
+                React.createElement("button",{key:opt,onClick:()=>toggle(check.id,opt),style:{padding:"6px 10px",fontSize:11,fontWeight:val===opt?700:400,background:val===opt?(opt==="yes"?"#10b98120":opt==="partial"?"#f59e0b20":"#ef444420"):"transparent",border:"1px solid "+(val===opt?(opt==="yes"?"#10b98150":opt==="partial"?"#f59e0b50":"#ef444450"):"#333"),borderRadius:4,color:val===opt?(opt==="yes"?"#10b981":opt==="partial"?"#f59e0b":"#ef4444"):"#666",cursor:"pointer",fontFamily:"inherit",textTransform:"capitalize"}},opt)
+              )
+            )
+          )
+        })
+      )
+    ),
+    answered>=5&&React.createElement("div",{style:{marginTop:40,padding:32,background:"#111",border:"1px solid #262626",borderRadius:12}},
+      React.createElement("div",{style:{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:24,flexWrap:"wrap",gap:20}},
+        React.createElement("div",null,
+          React.createElement("div",{style:{fontSize:11,fontWeight:700,letterSpacing:"0.1em",textTransform:"uppercase",color:"#666",marginBottom:8}},"AEO Readiness Score"),
+          React.createElement("div",{style:{display:"flex",alignItems:"baseline",gap:12}},
+            React.createElement("span",{style:{fontSize:56,fontWeight:700,color:grade.color,lineHeight:1,fontFamily:"'DM Mono',monospace"}},norm),
+            React.createElement("span",{style:{fontSize:20,fontWeight:700,color:grade.color}},grade.grade)
+          ),
+          React.createElement("div",{style:{fontSize:14,color:"#888",marginTop:4}},grade.label)
+        ),
+        React.createElement("div",{style:{display:"flex",flexDirection:"column",gap:8,minWidth:200}},
+          ...catScores.map(cat=>
+            React.createElement("div",{key:cat.name,style:{display:"flex",alignItems:"center",gap:8}},
+              React.createElement("span",{style:{fontSize:11,color:"#666",width:90,textAlign:"right"}},cat.name),
+              React.createElement("div",{style:{flex:1,height:6,background:"#1a1a1a",borderRadius:3,overflow:"hidden"}},
+                React.createElement("div",{style:{width:cat.score+"%",height:"100%",background:CAT_COLORS[cat.name],borderRadius:3,transition:"width 0.5s"}})
+              ),
+              React.createElement("span",{style:{fontSize:11,color:"#888",fontFamily:"'DM Mono',monospace",width:32,textAlign:"right"}},cat.score+"%")
+            )
+          )
+        )
+      ),
+      missing.length>0&&React.createElement("div",{style:{borderTop:"1px solid #262626",paddingTop:20,marginTop:20}},
+        React.createElement("div",{style:{fontSize:12,fontWeight:700,color:"#888",textTransform:"uppercase",letterSpacing:"0.08em",marginBottom:12}},"Highest Impact Missing"),
+        ...missing.slice(0,5).map(c=>
+          React.createElement("div",{key:c.id,style:{display:"flex",alignItems:"center",gap:10,padding:"8px 0",borderBottom:"1px solid #1a1a1a"}},
+            React.createElement("span",{style:{width:6,height:6,borderRadius:"50%",background:CAT_COLORS[c.category],flexShrink:0}}),
+            React.createElement("span",{style:{fontSize:13,color:"#ccc",flex:1}},c.label),
+            React.createElement("span",{style:{fontSize:11,color:"#555",fontFamily:"'DM Mono',monospace"}},"+"+c.weight+"pt")
+          )
+        )
+      ),
+      React.createElement("div",{style:{borderTop:"1px solid #262626",paddingTop:20,marginTop:20}},
+        React.createElement("p",{style:{fontSize:13,color:"#888",lineHeight:1.7}},
+          norm>=75?"Your site has strong agent readiness. Focus on the execution layer and trust layer to reach excellence.":
+          norm>=45?"Your read layer is developing but the execution layer needs work. Agents can find you but may struggle to act through your infrastructure.":
+          "Your site is in early AEO stages. Start with llms.txt and schema markup (read layer), then build toward API endpoints (execution layer)."
+        )
+      ),
+      React.createElement("div",{style:{marginTop:20,display:"flex",gap:12,flexWrap:"wrap"}},
+        React.createElement("a",{href:"/docs/implement-aeo/",style:{padding:"10px 20px",background:"#3b82f6",color:"#fff",borderRadius:6,fontSize:13,fontWeight:600}},"Implementation Guide"),
+        React.createElement("a",{href:"/docs/audit/",style:{padding:"10px 20px",background:"transparent",color:"#3b82f6",border:"1px solid #3b82f630",borderRadius:6,fontSize:13,fontWeight:600}},"Professional Audit"),
+        React.createElement("button",{onClick:()=>{setChecks({});setUrl("");setActiveCat(null)},style:{padding:"10px 20px",background:"transparent",color:"#666",border:"1px solid #333",borderRadius:6,fontSize:13,cursor:"pointer",fontFamily:"inherit"}},"Reset")
+      )
+    ),
+    answered<5&&React.createElement("div",{style:{textAlign:"center",padding:"24px 0",color:"#555",fontSize:13}},"Answer at least 5 checks to see your AEO Readiness Score ("+answered+"/5)"),
+    React.createElement("div",{style:{marginTop:48,paddingTop:24,borderTop:"1px solid #1a1a1a",textAlign:"center"}},
+      React.createElement("p",{style:{fontSize:12,color:"#444"}},
+        "AEO Readiness Checker by ",
+        React.createElement("a",{href:"/"},"agent-engine-optimization.com")
+      )
+    )
+  );
+}
+
+ReactDOM.render(React.createElement(App),document.getElementById("root"));
+</script>
+</body>
+</html>
