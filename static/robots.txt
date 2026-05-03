@@ -2,3 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://agent-engine-optimization.com/sitemap.xml
+
+# AI discovery
+# LLM-readable site overview:
+# https://agent-engine-optimization.com/llms.txt

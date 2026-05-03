@@ -1,25 +1,44 @@
 # Agent Engine Optimization
 
-> Research hub and strategy consultancy for optimizing digital infrastructure for autonomous AI agents. We focus on the execution layer — where agents don't just read content, but act on it.
+> Research hub and strategy consultancy for making websites, APIs and digital infrastructure readable, trustworthy and actionable for autonomous AI agents.
 
-## About
-Agent Engine Optimization (AEO) is the discipline of making websites, APIs, data structures, and digital services readable, trustworthy, and actionable for autonomous AI agents. We distinguish between the read layer (content optimization for AI citation) and the execution layer (infrastructure optimization for agent task completion).
+## Core definition
 
-## Key Concepts
-- Read Layer: Content optimization for AI-generated answers (GEO/Answer AEO)
-- Execution Layer: Infrastructure optimization for autonomous agent actions (Agentic AEO)
-- The execution layer requires APIs, protocol compatibility, deterministic data, and transaction interfaces
-- Key protocols: UCP (commerce), MCP (tool access), A2A (agent coordination), ACP (payments), AP2 (payment verification)
+Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs, data and digital services so autonomous AI agents can discover them, understand their capabilities and execute actions through them.
+
+## Primary concepts
+
+- Read Layer: content optimization for AI discovery, summarization and citation
+- Execution Layer: infrastructure optimization for autonomous agent actions
+- Key protocols: MCP, A2A, UCP, x402, ACP, AP2
+- Core outcomes: discoverability, parsability, trust, actionability, verification
+
+## Start here
+
+- [What is Agent Engine Optimization?](https://agent-engine-optimization.com/docs/what-is-aeo/)
+- [AEO vs SEO vs GEO](https://agent-engine-optimization.com/docs/aeo-vs-seo-vs-geo/)
+- [The Execution Layer](https://agent-engine-optimization.com/docs/execution-layer/)
+- [How to Implement AEO](https://agent-engine-optimization.com/docs/implement-aeo/)
+- [AEO Readiness Audit](https://agent-engine-optimization.com/docs/audit/)
+- [Answer Engine Optimization](https://agent-engine-optimization.com/docs/answer-engine-optimization/)
+- [Generative Engine Optimization](https://agent-engine-optimization.com/docs/generative-engine-optimization/)
+
+## Tools
+
+- [Free AEO Readiness Checker](https://agent-engine-optimization.com/tools/aeo-readiness-checker.html)
 
 ## Services
-- AEO Readiness Audit: Systematic assessment of agent discoverability and actionability
-- Strategy and frameworks for agent-ready infrastructure development
 
-## Content
-- /docs/what-is-aeo/ — Definition and scope of Agent Engine Optimization
-- /docs/aeo-vs-seo-vs-geo/ — Comparison of SEO, GEO, and AEO
-- /docs/execution-layer/ — Deep dive into what autonomous agents need to act
-- /docs/audit/ — AEO Readiness Audit service description
+- AEO Readiness Audit
+- Agent-readable content architecture
+- Structured data and schema implementation
+- Execution-layer roadmap
 
-## Website
-https://agent-engine-optimization.com
+## Machine-readable resources
+
+- Sitemap: https://agent-engine-optimization.com/sitemap.xml
+- Structured data: embedded JSON-LD on key pages
+
+## Last updated
+
+2026-04-29
