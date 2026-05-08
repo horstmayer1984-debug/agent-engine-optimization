@@ -1,9 +1,9 @@
 ---
-title: "Agent Cards and A2A Protocol: Programming Your Site for Agent-to-Agent Collaboration"
+title: "Agent Cards and A2A Protocol for Agent-Ready Sites"
 date: 2026-04-12
 weight: 63
 category: "Architecture"
-description: "Agent Cards and the A2A protocol let autonomous agents discover your site and collaborate with it. Implementation guide with JSON structure, WebSocket patterns, and sandboxing."
+description: "How Agent Cards and A2A help autonomous agents discover capabilities, collaborate safely, and interact with agent-ready websites."
 summary: "Agent Cards tell other agents what your site can do. The A2A protocol enables direct agent-to-agent task exchange. Together they make your site discoverable and collaborative in multi-agent workflows."
 keywords:
   - agent card json

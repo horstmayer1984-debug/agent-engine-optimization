@@ -1,9 +1,9 @@
 ---
-title: "How to Implement Agent Buttons, APIs, and Action Schema for Agent Transactions in 2026"
+title: "Agent Buttons, APIs, and Action Schema for AEO"
 date: 2026-04-12
 weight: 57
 category: "Architecture"
-description: "Agent buttons and action schema turn passive pages into transactional surfaces. Implementation guide with schema examples, API patterns, security practices, and real deployment patterns."
+description: "How to expose actions with buttons, APIs, and schema so AI agents can complete transactions safely and reliably."
 summary: "Agent buttons, action schema, and API endpoints transform static content pages into surfaces where AI agents can execute real business transactions. Here is the complete implementation guide."
 keywords:
   - agent buttons implementation

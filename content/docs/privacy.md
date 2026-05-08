@@ -5,8 +5,6 @@ weight: 100
 description: "Privacy policy for agent-engine-optimization.com."
 ---
 
-# Privacy Policy
-
 **Last updated:** March 2026
 
 ## Data collection

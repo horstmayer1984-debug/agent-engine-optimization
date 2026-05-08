@@ -1,9 +1,9 @@
 ---
-title: "Top 10 AEO Strategies for Ecommerce Brands in the Agentic AI Era"
+title: "AEO for Ecommerce: 10 Strategies for AI Shopping Agents"
 date: 2026-03-18
 weight: 11
 category: "Industry"
-description: "Ten practical Agent Engine Optimization strategies for ecommerce. Covers product data structure, comparison readiness, purchase paths, inventory trust, and post-purchase verification."
+description: "Ten AEO strategies for ecommerce, covering product data, comparison readiness, checkout paths, inventory trust, and post-purchase verification."
 summary: "Ecommerce is the clearest proving ground for AEO. These ten strategies help online stores become readable, comparable, and transactable for AI agents."
 keywords:
   - AEO ecommerce

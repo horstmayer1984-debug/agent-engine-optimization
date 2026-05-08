@@ -1,5 +1,5 @@
 ---
-title: "What is Agent Engine Optimization?"
+title: "What Is Agent Engine Optimization?"
 date: 2026-03-09
 weight: 1
 category: "Framework"

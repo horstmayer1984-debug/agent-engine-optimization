@@ -5,8 +5,6 @@ weight: 99
 description: "Who is behind agent-engine-optimization.com, what this site covers, and why it exists."
 ---
 
-# About Agent Engine Optimization
-
 This site is a research hub and strategy resource for Agent Engine Optimization, the discipline of making websites, APIs, and digital infrastructure readable, trustworthy, and actionable for autonomous AI agents.
 
 ## What this site covers

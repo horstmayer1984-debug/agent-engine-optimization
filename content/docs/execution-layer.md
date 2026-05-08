@@ -1,5 +1,5 @@
 ---
-title: "The Execution Layer"
+title: "The Execution Layer: Where AI Agents Act"
 date: 2026-03-09
 weight: 3
 category: "Deep Dive"

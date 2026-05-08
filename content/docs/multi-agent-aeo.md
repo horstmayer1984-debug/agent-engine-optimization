@@ -2,7 +2,7 @@
 title: "Multi-Agent Systems and AEO: Optimizing for Orchestrated AI Workflows"
 date: 2026-03-18
 weight: 13
-category: "Deep Dive"
+category: "Architecture"
 description: "When multiple specialized AI agents cooperate in a workflow, websites must support coordinated machine interaction. This article explains how AEO adapts to multi-agent orchestration."
 summary: "Multi-agent systems raise the stakes for AEO. Instead of one model reading a page, several specialized agents cooperate across discovery, comparison, action, and verification."
 keywords:

@@ -1,9 +1,9 @@
 ---
-title: "AEO for Insurance Carriers: How AI Agents Are Reshaping the $6 Trillion Industry"
+title: "AEO for Insurance Carriers: AI Agent Readiness"
 date: 2026-04-14
 weight: 93
 category: "Industry"
-description: "AI agents are becoming the primary buyer for insurance products. How carriers must optimize underwriting APIs, policy documentation, and claims processing for autonomous agent workflows."
+description: "How insurance carriers can optimize underwriting APIs, policy data, claims workflows, and trust signals for autonomous AI agents."
 summary: "Insurance carriers that implement AEO see 2-3x higher agent-initiated policy conversions. Carriers without structured documentation get silently excluded from agent recommendation flows."
 keywords:
   - AEO insurance
