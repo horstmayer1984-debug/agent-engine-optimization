@@ -23,6 +23,16 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 - [Answer Engine Optimization](https://agent-engine-optimization.com/docs/answer-engine-optimization/)
 - [Generative Engine Optimization](https://agent-engine-optimization.com/docs/generative-engine-optimization/)
 
+
+## Agent payment protocols
+
+- [Agent Payment Protocols Compared](https://agent-engine-optimization.com/docs/agent-payment-protocols-compared/)
+- [x402 vs ACP vs MPP](https://agent-engine-optimization.com/docs/x402-vs-acp-vs-mpp/)
+- [AP2 vs x402](https://agent-engine-optimization.com/docs/ap2-vs-x402/)
+- [Visa TAP vs Mastercard Agent Pay](https://agent-engine-optimization.com/docs/visa-tap-mastercard-agent-pay/)
+- [Nevermined for AI Agent Payments](https://agent-engine-optimization.com/docs/nevermined-agent-payments/)
+- [x402 Agent Payments](https://agent-engine-optimization.com/docs/x402-agent-payments/)
+
 ## Tools
 
 - [Free AEO Readiness Checker](https://agent-engine-optimization.com/tools/aeo-readiness-checker.html)
@@ -41,4 +51,4 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 
 ## Last updated
 
-2026-04-29
+2026-05-08
