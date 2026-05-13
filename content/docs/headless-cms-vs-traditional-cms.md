@@ -46,7 +46,7 @@ For the broader concept, read [What Is Headless Software?](/docs/what-is-headles
 
 Neither model wins SEO by default. Search performance depends on implementation quality.
 
-Sistrix emphasizes that useful content must answer the real question, cover the topic properly, be structured for readers, and stay unique. That remains true whether the site runs on WordPress, Contentful, Sanity, Adobe Experience Manager, or a custom stack.
+Useful content must answer the real question, cover the topic properly, be structured for readers, and stay unique. That remains true whether the site runs on WordPress, Contentful, Sanity, Adobe Experience Manager, or a custom stack.
 
 | SEO factor | Traditional CMS | Headless CMS |
 |---|---|---|
@@ -129,4 +129,4 @@ Usually not. Beginners often get more value from a traditional CMS because setup
 
 ## Sources
 
-Primary and reference sources: [Sistrix content for SEO](https://www.sistrix.de/frag-sistrix/seo-grundlagen/content/), [Sistrix content creation and optimization](https://www.sistrix.de/tutorials/seo-strategie/content-erstellen-und-optimieren), [Contentful on headless CMS](https://www.contentful.com/headless-cms/), and [Adobe Experience Manager on headless CMS](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/headless/what-is-headless).
+Primary and reference sources: [Contentful on headless CMS](https://www.contentful.com/headless-cms/) and [Adobe Experience Manager on headless CMS](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/headless/what-is-headless).

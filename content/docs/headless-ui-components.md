@@ -91,7 +91,7 @@ It is often overkill for:
 - teams without CSS or accessibility experience
 - projects where speed matters more than UI control
 
-Sistrix's content guidance has a useful parallel: do not add complexity just because it looks advanced. Use the format that best serves the user. In frontend work, that means choosing headless only when custom behavior and design control create real value.
+Do not add complexity just because it looks advanced. Use the format that best serves the user. In frontend work, that means choosing headless only when custom behavior and design control create real value.
 
 ## SEO considerations
 
@@ -144,4 +144,4 @@ Beginners may find styled libraries easier. Headless UI is better for teams comf
 
 ## Sources
 
-Primary and reference sources: [WAI-ARIA Authoring Practices Guide](https://wai-aria-practices.netlify.app/aria-practices/), [MDN ARIA dialog role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/dialog_role), [Sistrix content creation and optimization](https://www.sistrix.de/tutorials/seo-strategie/content-erstellen-und-optimieren), and [Sistrix content for SEO](https://www.sistrix.de/frag-sistrix/seo-grundlagen/content/).
+Primary and reference sources: [WAI-ARIA Authoring Practices Guide](https://wai-aria-practices.netlify.app/aria-practices/) and [MDN ARIA dialog role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/dialog_role).

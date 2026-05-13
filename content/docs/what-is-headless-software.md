@@ -88,7 +88,7 @@ Headless software is not automatically better. It often moves complexity from th
 | Security exposure | APIs and tokens become critical | Use least privilege, logs, rate limits, and secret handling |
 | Overengineering | A simple site may not need a decoupled stack | Choose headless only when flexibility has business value |
 
-Sistrix's content guidance is relevant here: quality is not about word count or trend terms. A page must answer the searcher's real question, cover the topic properly, and add unique value. The same logic applies to architecture. Do not choose headless because it sounds modern. Choose it because it solves a real delivery, automation, or scaling problem.
+Quality is not about trend terms. A page must answer the reader's real question, cover the topic properly, and add unique value. The same logic applies to architecture. Do not choose headless because it sounds modern. Choose it because it solves a real delivery, automation, or scaling problem.
 
 ## When does headless software make sense?
 
@@ -120,4 +120,4 @@ A headless browser is the easiest example. It can open pages, click, test, and t
 
 ## Sources
 
-Primary and reference sources: [Sistrix content creation and optimization](https://www.sistrix.de/tutorials/seo-strategie/content-erstellen-und-optimieren), [Sistrix content for SEO](https://www.sistrix.de/frag-sistrix/seo-grundlagen/content/), [MDN API glossary](https://developer.mozilla.org/en-US/docs/Glossary/API), [Contentful on headless CMS](https://www.contentful.com/headless-cms/), and [Salesforce Headless 360 announcement](https://www.salesforce.com/news/stories/salesforce-headless-360-announcement/).
+Primary and reference sources: [MDN API glossary](https://developer.mozilla.org/en-US/docs/Glossary/API), [Contentful on headless CMS](https://www.contentful.com/headless-cms/), and [Salesforce Headless 360 announcement](https://www.salesforce.com/news/stories/salesforce-headless-360-announcement/).

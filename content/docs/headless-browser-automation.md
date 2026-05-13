@@ -64,7 +64,7 @@ Useful SEO checks include:
 - cookie banners blocking content
 - raw HTML versus rendered HTML differences
 
-Sistrix's content guidance focuses on usefulness, structure, and unique value. A headless browser does not make content better, but it can reveal whether search engines and users can actually see the content that was written.
+A headless browser does not make content better, but it can reveal whether search engines and users can actually see the content that was written.
 
 Related site reading: [Programming Websites for AI Agents](/docs/programming-websites-for-ai-agents/), [AEO Readiness Audit](/docs/audit/), and [What Is Headless Software?](/docs/what-is-headless-software/).
 
@@ -132,4 +132,4 @@ Yes. Headless browsers are one of the most practical tools for AI agents that ne
 
 ## Sources
 
-Primary and reference sources: [Playwright browsers documentation](https://playwright.dev/docs/browsers), [Puppeteer headless mode documentation](https://pptr.dev/guides/headless-modes), [Sistrix content creation and optimization](https://www.sistrix.de/tutorials/seo-strategie/content-erstellen-und-optimieren), and [Sistrix content for SEO](https://www.sistrix.de/frag-sistrix/seo-grundlagen/content/).
+Primary and reference sources: [Playwright browsers documentation](https://playwright.dev/docs/browsers) and [Puppeteer headless mode documentation](https://pptr.dev/guides/headless-modes).

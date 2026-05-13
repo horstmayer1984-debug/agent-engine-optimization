@@ -59,7 +59,7 @@ The goal is not "being headless." The goal is a commerce experience or operation
 
 Headless commerce can work well for SEO, but only when the frontend is built like a crawlable website, not only like an app.
 
-Sistrix emphasizes that strong SEO content answers real questions, covers the topic properly, uses clear structure, and stays unique. Product and category pages need the same discipline.
+Strong ecommerce SEO content answers real questions, covers the topic properly, uses clear structure, and stays unique. Product and category pages need the same discipline.
 
 Minimum SEO requirements:
 
@@ -131,4 +131,4 @@ Usually not. A simple shop often gets more value from good product pages, fast h
 
 ## Sources
 
-Primary and reference sources: [Shopify Storefront API](https://shopify.dev/docs/api/storefront/2024-07/full-index), [Shopify custom storefronts help](https://help.shopify.com/manual/custom-storefronts), [Hydrogen by Shopify](https://hydrogen.shopify.dev/), [Sistrix content for SEO](https://www.sistrix.de/frag-sistrix/seo-grundlagen/content/), and [Sistrix content creation and optimization](https://www.sistrix.de/tutorials/seo-strategie/content-erstellen-und-optimieren).
+Primary and reference sources: [Shopify Storefront API](https://shopify.dev/docs/api/storefront/2024-07/full-index), [Shopify custom storefronts help](https://help.shopify.com/manual/custom-storefronts), and [Hydrogen by Shopify](https://hydrogen.shopify.dev/).
