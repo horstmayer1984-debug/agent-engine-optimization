@@ -3,7 +3,10 @@
   {{ if .Params.category }}
   <div class="page-meta">{{ .Params.category }}</div>
   {{ end }}
+  {{ $hasMarkdownH1 := gt (len (findRE "(?m)^#[[:space:]]+" .RawContent)) 0 }}
+  {{ if not $hasMarkdownH1 }}
   <h1>{{ .Title }}</h1>
+  {{ end }}
   {{ if .Date }}
   <p style="font-size: 0.78rem; color: #6b6b6b; margin-top: -8px; margin-bottom: 36px; font-family: 'IBM Plex Mono', monospace; font-weight: 500;">
     {{ .Date.Format "January 2, 2006" }}

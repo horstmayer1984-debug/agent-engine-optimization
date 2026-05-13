@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  {{ $hasMarkdownH1 := gt (len (findRE "(?m)^#[[:space:]]+" .RawContent)) 0 }}
+  {{ if not $hasMarkdownH1 }}
+  <h1>{{ .Title }}</h1>
+  {{ end }}
+  {{ .Content }}
+  {{ if .Pages }}
+  <h2>Guides and Resources</h2>
+  <p>Use this index to find core frameworks, protocol explainers, industry guides, payment pages, and implementation checklists.</p>
+  <ul>
+    {{ range .Pages.ByWeight }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ with .Description }}<br><span style="color:#666; font-size:0.9rem;">{{ . }}</span>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  <h2>Recommended Starting Points</h2>
+  <ul>
+    <li><a href="/docs/what-is-aeo/">What Is Agent Engine Optimization?</a></li>
+    <li><a href="/docs/execution-layer/">The Execution Layer</a></li>
+    <li><a href="/docs/implement-aeo/">How to Implement AEO</a></li>
+    <li><a href="/docs/audit/">AEO Readiness Audit</a></li>
+  </ul>
+  {{ end }}
+</article>
+{{ end }}

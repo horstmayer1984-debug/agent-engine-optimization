@@ -43,6 +43,14 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 - [Headless UI Components: Meaning, Benefits, Risks, and Use Cases](https://agent-engine-optimization.com/docs/headless-ui-components/)
 - [AWS MCP Server GA: What It Changes for Agent-Readable Cloud Infrastructure](https://agent-engine-optimization.com/docs/aws-mcp-server-ga-agent-infrastructure/)
 - [Amazon Bedrock AgentCore Payments: Why Managed x402 Changes Agent Commerce](https://agent-engine-optimization.com/docs/bedrock-agentcore-payments-x402/)
+
+## Industry, country, and audience guides
+
+- [AEO for Healthcare Providers](https://agent-engine-optimization.com/docs/aeo-for-healthcare-providers/)
+- [AEO for Financial Services](https://agent-engine-optimization.com/docs/aeo-for-financial-services/)
+- [AEO for German Companies](https://agent-engine-optimization.com/docs/aeo-for-german-companies/)
+- [AEO for SMBs](https://agent-engine-optimization.com/docs/aeo-for-smbs/)
+
 ## Tools
 
 - [Free AEO Readiness Checker](https://agent-engine-optimization.com/tools/aeo-readiness-checker.html)

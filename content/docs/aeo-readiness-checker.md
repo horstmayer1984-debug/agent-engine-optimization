@@ -19,8 +19,12 @@ This free tool evaluates your website across 14 checks in four categories: Disco
 
 **[Open the AEO Readiness Checker](/tools/aeo-readiness-checker.html)**
 
+## What the checker evaluates
+
 The checker covers: llms.txt and agent-card.json presence, AI crawler access in robots.txt, schema markup quality, answer-first content structure, API endpoint documentation, action schema, real-time data availability, MCP support, idempotent endpoints, machine-readable policies, structured error handling, and agent feedback mechanisms.
 
 Your score maps to a grade from F (not agent-ready) to A+ (fully agent-ready), with specific guidance on which improvements deliver the highest impact.
+
+## Privacy and data handling
 
 The tool runs entirely in your browser. No data is collected or transmitted.

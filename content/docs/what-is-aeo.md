@@ -1,5 +1,7 @@
 ---
 title: "What Is Agent Engine Optimization?"
+description: "Understand Agent Engine Optimization: how websites, APIs, and data become discoverable, readable, and actionable for autonomous AI agents."
+summary: "A plain-English definition of Agent Engine Optimization and how it differs from SEO, GEO, answer optimization, and traditional web visibility."
 date: 2026-03-09
 weight: 1
 category: "Framework"

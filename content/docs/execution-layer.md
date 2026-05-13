@@ -1,5 +1,7 @@
 ---
 title: "The Execution Layer: Where AI Agents Act"
+description: "Learn what the execution layer is, why AI agents need it, and how websites expose actions, real-time data, verification, and protocols."
+summary: "A guide to the execution layer: the infrastructure that lets autonomous AI agents act through APIs, tools, data, and transaction endpoints."
 date: 2026-03-09
 weight: 3
 category: "Deep Dive"

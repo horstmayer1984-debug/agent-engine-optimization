@@ -1,5 +1,8 @@
 ---
 title: "AEO Readiness Audit"
+metaTitle: "AEO Readiness Audit for AI Agent Websites"
+description: "Audit your website, APIs, structured data, llms.txt, and execution-layer readiness for AI agents, answer engines, and agentic commerce."
+summary: "A practical AEO audit framework covering AI discoverability, structured content, protocol readiness, data determinism, and action capability."
 date: 2026-03-09
 weight: 10
 category: "Service"

@@ -1,8 +1,10 @@
 ---
 title: "Privacy Policy"
+metaTitle: "Privacy Policy for AEO Website Visitors"
+description: "Review how Agent Engine Optimization handles privacy, analytics, contact requests, and site data for visitors and business inquiries."
+summary: "Privacy information for visitors using agent-engine-optimization.com and its AEO research, tools, and contact options."
 date: 2026-03-08
 weight: 100
-description: "Privacy policy for agent-engine-optimization.com."
 ---
 
 **Last updated:** March 2026
