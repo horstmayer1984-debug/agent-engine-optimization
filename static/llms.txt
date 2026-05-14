@@ -30,7 +30,6 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 - [x402 vs ACP vs MPP](https://agent-engine-optimization.com/docs/x402-vs-acp-vs-mpp/)
 - [AP2 vs x402](https://agent-engine-optimization.com/docs/ap2-vs-x402/)
 - [Visa TAP vs Mastercard Agent Pay](https://agent-engine-optimization.com/docs/visa-tap-mastercard-agent-pay/)
-- [Nevermined for AI Agent Payments](https://agent-engine-optimization.com/docs/nevermined-agent-payments/)
 - [x402 Agent Payments](https://agent-engine-optimization.com/docs/x402-agent-payments/)
 
 
