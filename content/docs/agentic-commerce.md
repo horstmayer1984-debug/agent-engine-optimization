@@ -1,9 +1,11 @@
 ---
 title: "The Rise of Agentic Commerce: Why AEO Is Essential for Brands in 2026"
+metaTitle: "Agentic Commerce: Why AEO Matters"
 date: 2026-03-18
 weight: 12
 category: "Analysis"
 description: "Agentic commerce changes how brands compete. When AI agents compare, select, and transact on behalf of users, operational clarity becomes as important as brand perception."
+metaDescription: "Learn how agentic commerce changes brand competition when AI agents compare, select, and transact for users."
 summary: "Commerce is entering a new interface layer. Agentic commerce shifts competition from persuasion to transactability. AEO is the discipline that aligns brands with that reality."
 keywords:
   - agentic commerce

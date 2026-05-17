@@ -4,6 +4,7 @@ date: 2026-04-12
 weight: 71
 category: "Architecture"
 description: "Step-by-step guide to adding x402 payment middleware to your website or API. Covers the 402 response format, payment validation, integration with llms.txt and Agent Cards."
+metaDescription: "Add x402 payment middleware with 402 responses, validation, llms.txt integration, and Agent Cards for AI-agent payments."
 summary: "x402 makes your API instantly agent-monetizable. When an agent requests content or compute, your server returns 402, the agent pays with USDC, and access is granted. Here is the implementation guide."
 keywords:
   - implement x402

@@ -1,9 +1,11 @@
 ---
 title: "Preparing for the Agentic AI Era: A 2026 Roadmap for Businesses and Professionals"
+metaTitle: "Preparing for the Agentic AI Era"
 date: 2026-03-22
 weight: 42
 category: "Guide"
 description: "A practical 12-month roadmap for transitioning from task execution to agent orchestration. Covers skills, business model evolution, and daily habits that compound."
+metaDescription: "Use a 12-month roadmap for moving from task execution to agent orchestration, with skills, models, and habits to build."
 summary: "The agentic era demands a shift from task execution to agent orchestration. This roadmap covers the skills, business model transitions, and operational changes needed in the next 12 months."
 keywords:
   - preparing for agentic AI

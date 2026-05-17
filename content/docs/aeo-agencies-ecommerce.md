@@ -4,6 +4,7 @@ date: 2026-04-19
 weight: 110
 category: "Guide"
 description: "How to evaluate AEO agencies for ecommerce. What to look for, what to avoid, and how to distinguish real Agent Engine Optimization expertise from repackaged SEO services."
+metaDescription: "Learn how to evaluate AEO agencies for ecommerce, spot weak claims, and separate real expertise from repackaged SEO."
 summary: "Most agencies selling AEO offer repackaged GEO. Real Agent Engine Optimization for ecommerce requires execution layer expertise. Here is how to evaluate agencies and what to expect."
 keywords:
   - ecommerce aeo agency

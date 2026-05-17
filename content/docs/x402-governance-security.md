@@ -1,9 +1,11 @@
 ---
 title: "x402 Foundation, Governance, and Security: What Every AEO Builder Must Know"
+metaTitle: "x402 Governance and Security Guide"
 date: 2026-04-12
 weight: 73
 category: "Architecture"
 description: "The x402 Foundation under Linux Foundation provides neutral governance and security standards for agent payments. Best practices for rate limiting, identity, quotas, and dispute resolution."
+metaDescription: "Learn x402 governance and security practices for agent payments, including identity, quotas, rate limits, and disputes."
 summary: "The x402 Foundation ensures no single company controls agent payments. Open specification, founding members including Google, Stripe, and Visa, and clear security standards for production deployment."
 keywords:
   - x402 Foundation

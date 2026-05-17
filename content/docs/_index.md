@@ -1,8 +1,8 @@
 ---
 title: "Agent Engine Optimization Documentation"
 linkTitle: "Documentation"
-metaTitle: "Agent Engine Optimization Documentation"
-description: "Browse AEO guides, protocol explainers, implementation checklists, and industry pages for agent-readable websites and AI search visibility."
+metaTitle: "AEO Guides, Protocols, and Checklists for AI Agents"
+description: "Browse AEO guides, protocol explainers, implementation checklists, and industry pages for AI-agent-ready websites and AI search visibility."
 summary: "A structured index of Agent Engine Optimization guides, protocol explainers, implementation checklists, and industry pages."
 weight: 1
 bookFlatSection: true

@@ -1,9 +1,11 @@
 ---
 title: "Agentic Commerce: Building an Execution Layer That AI Can Actually Buy Through"
+metaTitle: "Agentic Commerce Execution Layer Guide"
 date: 2026-03-22
 weight: 20
 category: "Deep Dive"
 description: "Why structured product data alone does not make a store agent-ready. How to build deterministic checkout, inventory locks, and policy-aware transaction endpoints for autonomous AI purchasing."
+metaDescription: "Build agentic commerce beyond product schema with deterministic checkout, inventory locks, and policy-aware transactions."
 summary: "Agentic commerce is not product discovery with better metadata. It is stateful execution. This article explains what the execution layer needs to look like for AI agents that buy."
 keywords:
   - agentic commerce execution layer

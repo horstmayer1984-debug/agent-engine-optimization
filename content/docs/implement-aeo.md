@@ -1,9 +1,11 @@
 ---
 title: "How to Implement Agent Engine Optimization on Your Website in 2026"
+metaTitle: "How to Implement Agent Engine Optimization"
 date: 2026-03-18
 weight: 10
 category: "Guide"
 description: "A practical, step-by-step guide to making your website readable and actionable for autonomous AI agents. Covers content structure, action endpoints, trust signals, and measurement."
+metaDescription: "Follow a practical AEO implementation guide covering content structure, action endpoints, trust signals, and measurement."
 summary: "Agent Engine Optimization goes beyond SEO and GEO. This guide explains how to make your site legible and operable for AI agents that need to read, decide, and act."
 keywords:
   - agent engine optimization

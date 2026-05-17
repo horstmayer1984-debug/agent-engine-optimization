@@ -3,7 +3,7 @@ title: "12 Practical AEO Tips for Agent-Ready Websites"
 date: 2026-05-08
 weight: 116
 category: "Guide"
-description: "Twelve practical AEO tips to make websites easier for AI agents to discover, understand, trust, and act on."
+description: "Use 12 practical AEO tips to make websites easier for AI agents to discover, understand, verify, trust, and act on through clear next steps."
 summary: "A practical checklist of Agent Engine Optimization tips for improving discovery, extraction, execution, and trust."
 keywords:
   - AEO tips

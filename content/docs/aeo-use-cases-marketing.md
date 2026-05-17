@@ -1,9 +1,11 @@
 ---
 title: "Agent Engine Optimization Use Cases for Marketing and Content Discovery in 2026"
+metaTitle: "AEO Use Cases for Marketing Teams"
 date: 2026-03-19
 weight: 23
 category: "Use Cases"
 description: "How AEO shapes marketing: AI agents curate content, qualify leads, compare solutions, and drive discovery through optimized, machine readable marketing infrastructure."
+metaDescription: "See how AEO supports marketing through content curation, lead qualification, comparisons, and machine-readable discovery."
 summary: "Marketing content is consumed by AI agents before it reaches humans. AEO ensures your content gets selected, cited, and acted on in agent mediated discovery workflows."
 keywords:
   - AEO marketing

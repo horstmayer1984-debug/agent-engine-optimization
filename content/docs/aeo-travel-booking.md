@@ -1,9 +1,11 @@
 ---
 title: "AEO for Travel and Booking: How the Industry Restructures for AI Agents"
+metaTitle: "AEO for Travel Booking: AI Agent Readiness Guide"
 date: 2026-04-14
 weight: 100
 category: "Industry"
 description: "Travel platforms, hotels, airlines, and tour operators are rebuilding their digital systems for AI agents. How structured data, real-time APIs, and deterministic booking endpoints replace visual interfaces."
+metaDescription: "See how travel brands use structured data, real-time APIs, and deterministic booking endpoints to become usable by AI agents."
 summary: "Travel is one of the clearest AEO battlegrounds. AI agents that book flights, compare hotels, and assemble itineraries need real-time APIs, structured availability data, and deterministic checkout paths."
 keywords:
   - AEO travel industry

@@ -1,5 +1,6 @@
 ---
 title: "Optimizing B2B SaaS Platforms for AI Agent Discovery and Selection"
+metaTitle: "B2B SaaS AEO for AI Agent Discovery"
 date: 2026-03-22
 weight: 22
 category: "Industry"

@@ -1,5 +1,6 @@
 ---
 title: "LLM SEO: How to Make Content Easier for Language Models to Understand"
+metaTitle: "LLM SEO: Make Content Easier to Understand"
 date: 2026-04-29
 weight: 124
 category: "Guide"

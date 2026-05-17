@@ -1,9 +1,11 @@
 ---
 title: "AEO Content Strategy: How Marketing Teams Build Pages That Agents Can Use"
+metaTitle: "AEO Content Strategy for Marketing Teams"
 date: 2026-03-22
 weight: 23
 category: "Guide"
 description: "AEO content does more than rank. It reduces uncertainty for AI agents before action. How to build pages with entity coverage, decision variables, typed next steps, and real information gain."
+metaDescription: "Build AEO content with entity coverage, decision variables, typed next steps, and real information gain for AI agents."
 summary: "In an agent mediated web, content is valuable because it reduces uncertainty before action. This guide explains how marketing teams build pages that agents can actually use."
 keywords:
   - AEO content strategy

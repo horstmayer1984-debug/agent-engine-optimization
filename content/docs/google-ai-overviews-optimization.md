@@ -1,5 +1,6 @@
 ---
 title: "Google AI Overviews Optimization: What Website Owners Should Actually Do"
+metaTitle: "Google AI Overviews Optimization Guide"
 date: 2026-04-29
 weight: 127
 category: "Guide"

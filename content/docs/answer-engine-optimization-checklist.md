@@ -1,5 +1,6 @@
 ---
 title: "Answer Engine Optimization Checklist: 10 Steps to Better AI Answers"
+metaTitle: "Answer Engine Optimization Checklist"
 date: 2026-04-29
 weight: 130
 category: "Guide"

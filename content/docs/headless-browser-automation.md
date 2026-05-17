@@ -1,5 +1,6 @@
 ---
 title: "Headless Browser Automation: How It Works for AI Agents, SEO, and Testing"
+metaTitle: "Headless Browser Automation for AI Agents"
 date: 2026-05-13
 weight: 124
 category: "Architecture"

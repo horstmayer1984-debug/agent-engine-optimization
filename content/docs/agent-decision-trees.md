@@ -1,9 +1,11 @@
 ---
 title: "Deterministic Decision Trees: How AI Agents Evaluate Your Website Before Acting"
+metaTitle: "Decision Trees for AI Agents: AEO Evaluation Guide"
 date: 2026-04-14
 weight: 92
 category: "Architecture"
 description: "AI agents run strict pass/fail decision trees before transacting. Which deterministic questions they ask, what causes immediate exclusion, and how to pass every check."
+metaDescription: "Learn which pass/fail checks AI agents use before acting, what causes exclusion, and how to make your website easier to approve."
 summary: "Agents do not browse and decide intuitively. They execute deterministic decision trees with strict pass/fail criteria. Fail one check and the agent moves to a competitor."
 keywords:
   - agent decision trees

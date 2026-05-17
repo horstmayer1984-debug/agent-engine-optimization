@@ -1,5 +1,6 @@
 ---
 title: "x402 vs ACP vs MPP: Payment Layer, Checkout Layer, Machine Payment Layer"
+metaTitle: "x402 vs ACP vs MPP: Protocol Comparison"
 date: 2026-05-08
 weight: 119
 category: "Architecture"

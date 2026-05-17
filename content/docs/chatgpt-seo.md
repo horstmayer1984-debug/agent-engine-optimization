@@ -1,9 +1,11 @@
 ---
 title: "ChatGPT SEO: How to Become Easier to Reference in AI Conversations"
+metaTitle: "ChatGPT SEO: How to Earn AI References"
 date: 2026-04-29
 weight: 125
 category: "Guide"
 description: "ChatGPT SEO makes your brand and content easier to understand and reference in AI-assisted conversations. Content clarity, topical authority and structured answers."
+metaDescription: "Learn how ChatGPT SEO improves AI references through content clarity, topical authority, structured answers, and stronger entity signals."
 summary: "ChatGPT SEO is about becoming a better source for AI-assisted conversations. Clear explanations, comparison content and structured next steps make your content more useful."
 keywords:
   - ChatGPT SEO

@@ -1,9 +1,11 @@
 ---
 title: "How to Write llms.txt Correctly So AI Agents Find Your Website Instantly"
+metaTitle: "How to Write llms.txt for AI Agents"
 date: 2026-04-12
 weight: 62
 category: "Guide"
 description: "llms.txt is the simplest and most powerful agent discovery mechanism. Exact structure, content rules, dynamic generation for large sites, and integration with schema markup."
+metaDescription: "Learn how to write llms.txt for AI agents, including structure, content rules, dynamic generation, and schema integration."
 summary: "llms.txt tells AI agents what your site offers and how to interact with it. This guide covers the exact format, content rules, common mistakes, and how to generate it dynamically for large sites."
 keywords:
   - llms.txt guide

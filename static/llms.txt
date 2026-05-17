@@ -43,6 +43,19 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 - [AWS MCP Server GA: What It Changes for Agent-Readable Cloud Infrastructure](https://agent-engine-optimization.com/docs/aws-mcp-server-ga-agent-infrastructure/)
 - [Amazon Bedrock AgentCore Payments: Why Managed x402 Changes Agent Commerce](https://agent-engine-optimization.com/docs/bedrock-agentcore-payments-x402/)
 
+## May 2026 protocol, search, and agent infrastructure updates
+
+- [Circle Agent Stack: What It Means for Agent Payments and AEO](https://agent-engine-optimization.com/docs/circle-agent-stack-agent-payments/)
+- [WebMCP for Agent-Ready Websites](https://agent-engine-optimization.com/docs/webmcp-agent-ready-websites/)
+- [Lighthouse Agentic Browsing Audit](https://agent-engine-optimization.com/docs/lighthouse-agentic-browsing-audit/)
+- [Bing AI Performance Report for GEO and AEO](https://agent-engine-optimization.com/docs/bing-ai-performance-report/)
+- [IndexNow for AI Search Visibility](https://agent-engine-optimization.com/docs/indexnow-ai-search-visibility/)
+- [Cloudflare AI Crawl Control for AEO](https://agent-engine-optimization.com/docs/cloudflare-ai-crawl-control/)
+- [MCP Authorization with OAuth for AI Agents](https://agent-engine-optimization.com/docs/mcp-authorization-oauth-ai-agents/)
+- [Arazzo API Workflows for AI Agents](https://agent-engine-optimization.com/docs/arazzo-api-workflows-ai-agents/)
+- [ChatGPT Product Recommendations SEO Checklist](https://agent-engine-optimization.com/docs/chatgpt-product-recommendations-seo/)
+- [OWASP Agentic AI Top 10 and AEO Security](https://agent-engine-optimization.com/docs/owasp-agentic-ai-top-10/)
+
 ## Industry, country, and audience guides
 
 - [AEO for Healthcare Providers](https://agent-engine-optimization.com/docs/aeo-for-healthcare-providers/)
@@ -68,4 +81,4 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 
 ## Last updated
 
-2026-05-13
+2026-05-17

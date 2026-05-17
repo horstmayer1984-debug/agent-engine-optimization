@@ -1,8 +1,9 @@
 ---
 title: "About Agent Engine Optimization"
+metaTitle: "About Agent Engine Optimization: Research and Scope"
 date: 2026-03-08
 weight: 99
-description: "Who is behind agent-engine-optimization.com, what this site covers, and why it exists."
+description: "Learn who is behind agent-engine-optimization.com, what the research hub covers, how the methodology works, and why Agent Engine Optimization matters."
 ---
 
 This site is a research hub and strategy resource for Agent Engine Optimization, the discipline of making websites, APIs, and digital infrastructure readable, trustworthy, and actionable for autonomous AI agents.

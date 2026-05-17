@@ -1,5 +1,6 @@
 ---
 title: "Amazon Bedrock AgentCore Payments: Why Managed x402 Changes Agent Commerce"
+metaTitle: "Bedrock AgentCore Payments and x402"
 date: 2026-05-12
 weight: 120
 category: "Architecture"

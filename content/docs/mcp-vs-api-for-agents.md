@@ -4,6 +4,7 @@ date: 2026-04-12
 weight: 61
 category: "Architecture"
 description: "Normal APIs serve developers. MCP serves AI agents with dynamic discovery, typed tool schemas, and standardized interaction patterns. When to use each and how to implement MCP."
+metaDescription: "Compare MCP and APIs for AI agents: dynamic discovery, typed tool schemas, interaction patterns, and when each approach fits."
 summary: "APIs require hard-coded integration. MCP lets agents discover and call your tools dynamically. This guide explains the difference, when each applies, and how to add MCP to existing APIs."
 keywords:
   - MCP vs API

@@ -1,5 +1,6 @@
 ---
 title: "Headless CMS vs Traditional CMS: Which Is Better for SEO and Content Teams?"
+metaTitle: "Headless CMS vs Traditional CMS for SEO"
 date: 2026-05-13
 weight: 122
 category: "Guide"

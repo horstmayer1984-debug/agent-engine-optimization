@@ -1,9 +1,11 @@
 ---
 title: "Agentic AI in Sports: How Vertical Platforms Transform Operations, Fan Engagement, and Performance"
+metaTitle: "Agentic AI in Sports: Platform Guide"
 date: 2026-03-22
 weight: 44
 category: "Industry"
 description: "Sports organizations use agentic AI for dynamic pricing, fan engagement, scouting, and operations. How vertical platforms like Jump embed agents into ticketing, marketing, and performance workflows."
+metaDescription: "See how sports platforms use AI agents for pricing, fan engagement, scouting, marketing, and operations."
 summary: "Agentic AI in sports goes beyond analytics dashboards. Vertical platforms embed autonomous agents into pricing, marketing, scouting, and operations workflows for real-time decision making."
 keywords:
   - agentic AI sports

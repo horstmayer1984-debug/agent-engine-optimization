@@ -1,9 +1,10 @@
 ---
 title: "AI Agent Protocols for Agent Engine Optimization"
+metaTitle: "AI Agent Protocols for AEO: MCP, A2A, x402, UCP"
 date: 2026-05-08
 weight: 115
 category: "Architecture"
-description: "Guide to MCP, A2A, x402, UCP, OpenAPI, and agent-ready APIs for Agent Engine Optimization infrastructure."
+description: "Compare MCP, A2A, x402, UCP, OpenAPI, and agent-ready APIs to understand which protocols power Agent Engine Optimization infrastructure."
 summary: "Protocol hub for Agent Engine Optimization, covering MCP, A2A, x402, UCP, OpenAPI, and machine-readable discovery."
 keywords:
   - AI agent protocols

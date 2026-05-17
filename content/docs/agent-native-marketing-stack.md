@@ -1,9 +1,11 @@
 ---
 title: "Building Agent-Native Marketing Platforms: The 2026 Tech Stack Guide"
+metaTitle: "Agent-Native Marketing Stack Guide"
 date: 2026-03-22
 weight: 43
 category: "Architecture"
 description: "The complete tech stack for agent-native marketing platforms. From foundation models and orchestration frameworks to memory layers, tool integrations, and deployment patterns."
+metaDescription: "See the agent-native marketing stack from models and orchestration to memory, tools, and deployment patterns."
 summary: "Agent-native marketing replaces manual campaigns with autonomous multi-agent crews. This guide covers the exact tech stack: models, orchestration, memory, tools, and deployment."
 keywords:
   - agent native marketing platform

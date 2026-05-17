@@ -1,9 +1,11 @@
 ---
 title: "Observability, Guardrails, and AI Safety in Agent Engine Optimization"
+metaTitle: "Agent Observability and Guardrails for AEO"
 date: 2026-04-12
 weight: 82
 category: "Architecture"
 description: "Turn black-box agents into auditable, safe systems with real-time traces, anomaly detection, policy enforcement, and guardian agents. The production observability playbook for AEO."
+metaDescription: "Add traces, anomaly detection, policy enforcement, and guardrails to make agent systems safer and auditable."
 summary: "Without observability, agent systems are black boxes. OpenTelemetry tracing, dynamic guardrails, and guardian agents provide the visibility and safety required for production AEO."
 keywords:
   - agent observability

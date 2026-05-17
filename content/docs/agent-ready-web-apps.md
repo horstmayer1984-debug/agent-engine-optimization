@@ -1,9 +1,11 @@
 ---
 title: "How to Make Web Apps Agent-Ready: The Complete 2026 Developer Checklist"
+metaTitle: "Agent-Ready Web Apps: Developer Checklist"
 date: 2026-04-12
 weight: 64
 category: "Guide"
 description: "Web apps become agent-ready by starting backend-first, building clean APIs, adding MCP, removing CLI dependencies, and implementing per-agent security and feedback. The complete developer checklist."
+metaDescription: "Use a developer checklist for agent-ready web apps: backend-first design, clean APIs, MCP, security, and feedback loops."
 summary: "The agent-ready web app starts with the backend, not the frontend. Clean APIs, native MCP, agent-specific auth, cost quotas, and public feedback endpoints. Here is the developer checklist."
 keywords:
   - agent ready web apps

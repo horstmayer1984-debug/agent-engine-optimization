@@ -1,5 +1,6 @@
 ---
 title: "Headless Commerce Explained: Benefits, Risks, SEO, and Best Use Cases"
+metaTitle: "Headless Commerce: Benefits, Risks, and SEO"
 date: 2026-05-13
 weight: 123
 category: "Guide"

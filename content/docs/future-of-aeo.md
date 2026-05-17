@@ -1,9 +1,11 @@
 ---
 title: "The Future of AEO: What Agent Engine Optimization Looks Like Beyond 2026"
+metaTitle: "The Future of Agent Engine Optimization"
 date: 2026-03-18
 weight: 14
 category: "Analysis"
 description: "AEO is still early, but the direction is clear. This analysis maps how Agent Engine Optimization will evolve from niche tactic to baseline discipline across industries."
+metaDescription: "Explore how Agent Engine Optimization may move from niche tactic to baseline discipline across industries after 2026."
 summary: "AEO beyond 2026 becomes less about content tactics and more about whether a business can present itself as a trustworthy, executable system for AI agents."
 keywords:
   - future of AEO

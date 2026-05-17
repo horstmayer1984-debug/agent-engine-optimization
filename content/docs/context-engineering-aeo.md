@@ -4,6 +4,7 @@ date: 2026-04-12
 weight: 80
 category: "Architecture"
 description: "Context engineering dynamically selects, compresses, and structures information so AI agents make faster, more accurate decisions. The most important AEO lever in 2026."
+metaDescription: "Use context engineering to select, compress, and structure information so AI agents make faster, more accurate decisions."
 summary: "Agents fail 70% of multi-step tasks because of context pollution. Context engineering cuts token usage by 40-60% while boosting success rates above 95%. Here is how it works."
 keywords:
   - context engineering AEO

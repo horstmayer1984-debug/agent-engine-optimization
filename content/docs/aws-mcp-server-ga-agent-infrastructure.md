@@ -1,5 +1,6 @@
 ---
 title: "AWS MCP Server GA: What It Changes for Agent-Readable Cloud Infrastructure"
+metaTitle: "AWS MCP Server GA: AEO Infrastructure Guide"
 date: 2026-05-12
 weight: 119
 category: "Architecture"

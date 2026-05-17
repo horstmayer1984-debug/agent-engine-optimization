@@ -1,9 +1,11 @@
 ---
 title: "Vertical Agent Platforms in 2026: How AI Transforms Real Estate, Finance, Marketing, Travel, and Sports"
+metaTitle: "Vertical Agent Platforms in 2026"
 date: 2026-03-22
 weight: 41
 category: "Industry"
 description: "Vertical agent platforms encode industry rules, compliance, and proprietary data into end-to-end automation. Comparison across five industries with revenue models and implementation paths."
+metaDescription: "Compare vertical agent platforms across five industries, including rules, revenue models, and implementation paths."
 summary: "Horizontal AI tools handle generic tasks. Vertical agent platforms automate entire industry workflows by encoding domain rules, compliance, and proprietary data loops. Five industries are leading."
 keywords:
   - vertical agent platforms 2026
