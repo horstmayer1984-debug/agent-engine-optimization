@@ -8,7 +8,7 @@
   <h1>{{ .Title }}</h1>
   {{ end }}
   {{ if .Date }}
-  <p style="font-size: 0.78rem; color: #6b6b6b; margin-top: -8px; margin-bottom: 36px; font-family: 'IBM Plex Mono', monospace; font-weight: 500;">
+  <p style="font-size: 0.78rem; color: var(--text-dim); margin-top: -8px; margin-bottom: 36px; font-family: 'IBM Plex Mono', monospace; font-weight: 500;">
     {{ .Date.Format "January 2, 2006" }}
   </p>
   {{ end }}

@@ -12,7 +12,7 @@
     {{ range .Pages.ByWeight }}
     <li>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ with .Description }}<br><span style="color:#666; font-size:0.9rem;">{{ . }}</span>{{ end }}
+      {{ with .Description }}<br><span style="color:var(--text-muted); font-size:0.9rem;">{{ . }}</span>{{ end }}
     </li>
     {{ end }}
   </ul>

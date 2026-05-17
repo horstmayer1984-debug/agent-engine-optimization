@@ -7,23 +7,54 @@
 <meta name="description" content="Free AEO Readiness Checker for discovery, structured data, execution-layer readiness, trust signals, and agent-friendly infrastructure.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://agent-engine-optimization.com/tools/aeo-readiness-checker.html">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#0a0a0a;color:#e5e5e5;font-family:'DM Sans',system-ui,sans-serif}
-a{color:#3b82f6;text-decoration:none}
-a:hover{opacity:0.8}
-
-.seo-static-intro{max-width:720px;margin:0 auto;padding:40px 24px 0;color:#d4d4d4;font-family:'DM Sans',system-ui,sans-serif}
-.seo-static-intro h1{font-size:2.2rem;line-height:1.15;color:#fff;margin:0 0 12px;font-weight:700}
-.seo-static-intro p{font-size:1rem;line-height:1.6;color:#a3a3a3;margin:0 0 12px}
-.seo-static-intro nav{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:.95rem}
+:root{--bg:#f8f7f3;--bg-elevated:#fffdf9;--bg-subtle:#f1f4f7;--border:#dbe2e8;--border-strong:#bfd0dc;--text:#111315;--text-muted:#4e5963;--text-dim:#7c8790;--accent:#168bc2;--accent-deep:#0f6e9c;--accent-soft:#168bc214}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif}
+a{color:var(--accent-deep);text-decoration:none}
+a:hover{color:var(--accent)}
+.site-nav{border-bottom:1px solid var(--border);padding:16px 24px}
+.site-nav-inner{max-width:1120px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.site-brand{display:inline-flex;align-items:center;gap:12px;color:var(--text)}
+.site-brand strong{font-family:'Fraunces',serif;font-size:1.4rem;font-weight:500;letter-spacing:-.04em}
+.site-brand span{display:grid;gap:1px;font-size:.67rem;line-height:1.15;letter-spacing:.24em;text-transform:uppercase;font-weight:600}
+.site-links{display:flex;gap:18px;flex-wrap:wrap;font-size:.82rem;color:var(--text-muted)}
+.seo-static-intro{max-width:760px;margin:0 auto;padding:42px 24px 0;color:var(--text);font-family:'Inter',system-ui,sans-serif}
+.seo-static-intro h1{font-family:'Fraunces',serif;font-size:2.5rem;line-height:1.08;color:var(--text);margin:0 0 14px;font-weight:500}
+.seo-static-intro p{font-size:1rem;line-height:1.7;color:var(--text-muted);margin:0 0 12px}
+.seo-static-intro nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px;font-size:.95rem}
+@media(max-width:700px){
+  html,body{width:100%;max-width:100%}
+  body{overflow-x:hidden}
+  .site-nav{padding:16px 24px}
+  .site-nav-inner{width:100%;align-items:flex-start;flex-direction:column}
+  .site-links{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 18px}
+  .seo-static-intro{padding-top:34px}
+  .seo-static-intro h1{font-size:2rem}
+  .seo-static-intro p{overflow-wrap:anywhere}
+}
 </style>
 </head>
 <body>
+<header class="site-nav">
+  <div class="site-nav-inner">
+    <a class="site-brand" href="/">
+      <strong>AEO</strong>
+      <span><span>Agent Engine</span><span>Optimization</span></span>
+    </a>
+    <nav class="site-links" aria-label="Primary">
+      <a href="/docs/what-is-aeo/">Framework</a>
+      <a href="/docs/execution-layer/">Protocols</a>
+      <a href="/docs/implement-aeo/">Guides</a>
+      <a href="/docs/audit/">Resources</a>
+      <a href="/docs/future-of-aeo/">Research</a>
+    </nav>
+  </div>
+</header>
 <section id="seo-static-intro" class="seo-static-intro">
   <h1>AEO Readiness Checker</h1>
   <p>Use this free Agent Engine Optimization checker to evaluate whether a website is discoverable, readable, and actionable for autonomous AI agents.</p>
@@ -80,92 +111,92 @@ function App(){
   const answered=Object.keys(checks).filter(k=>checks[k]).length;
   const missing=CHECKS.filter(c=>c.weight>=12&&checks[c.id]!=="yes").sort((a,b)=>b.weight-a.weight);
 
-  return React.createElement("div",{style:{maxWidth:720,margin:"0 auto",padding:"48px 24px"}},
+  return React.createElement("div",{style:{maxWidth:760,margin:"0 auto",padding:"48px 24px"}},
     React.createElement("div",{style:{marginBottom:48}},
-      React.createElement("a",{href:"/",style:{fontSize:11,fontWeight:700,letterSpacing:"0.12em",textTransform:"uppercase",color:"#3b82f6",textDecoration:"none",display:"block",marginBottom:12}},"Agent Engine Optimization"),
-      React.createElement("h1",{style:{fontSize:"2.2rem",fontWeight:700,lineHeight:1.15,color:"#fff",margin:"0 0 12px",letterSpacing:"-0.02em"}},"AEO Readiness Checker"),
-      React.createElement("p",{style:{fontSize:"1rem",color:"#888",lineHeight:1.6,margin:0}},"Evaluate whether your website is readable, actionable, and trustworthy for autonomous AI agents. Answer each check honestly — your score reflects how an agent would evaluate your infrastructure.")
+      React.createElement("a",{href:"/",style:{fontSize:11,fontWeight:600,letterSpacing:"0.16em",textTransform:"uppercase",color:"#0f6e9c",textDecoration:"none",display:"block",marginBottom:12}},"Agent Engine Optimization"),
+      React.createElement("h1",{style:{fontFamily:"'Fraunces',serif",fontSize:"2.4rem",fontWeight:500,lineHeight:1.08,color:"#111315",margin:"0 0 12px"}},"AEO Readiness Checker"),
+      React.createElement("p",{style:{fontSize:"1rem",color:"#4e5963",lineHeight:1.7,margin:0}},"Evaluate whether your website is readable, actionable, and trustworthy for autonomous AI agents. Answer each check honestly — your score reflects how an agent would evaluate your infrastructure.")
     ),
     React.createElement("div",{style:{marginBottom:40}},
-      React.createElement("label",{style:{display:"block",fontSize:12,fontWeight:500,color:"#666",marginBottom:6,textTransform:"uppercase",letterSpacing:"0.08em"}},"Website URL (optional)"),
-      React.createElement("input",{type:"text",value:url,onChange:e=>setUrl(e.target.value),placeholder:"https://yoursite.com",style:{width:"100%",padding:"12px 16px",background:"#141414",border:"1px solid #262626",borderRadius:6,color:"#e5e5e5",fontSize:15,fontFamily:"'DM Mono',monospace",outline:"none",boxSizing:"border-box"}})
+      React.createElement("label",{style:{display:"block",fontSize:12,fontWeight:500,color:"#7c8790",marginBottom:6,textTransform:"uppercase",letterSpacing:"0.08em"}},"Website URL (optional)"),
+      React.createElement("input",{type:"text",value:url,onChange:e=>setUrl(e.target.value),placeholder:"https://yoursite.com",style:{width:"100%",padding:"12px 16px",background:"#fffdf9",border:"1px solid #dbe2e8",borderRadius:0,color:"#111315",fontSize:15,fontFamily:"'IBM Plex Mono',monospace",outline:"none",boxSizing:"border-box"}})
     ),
     React.createElement("div",{style:{display:"flex",gap:8,marginBottom:32,flexWrap:"wrap"}},
-      ...CATEGORIES.map(cat=>{const cs=catScores.find(c=>c.name===cat);const active=activeCat===cat;return React.createElement("button",{key:cat,onClick:()=>setActiveCat(active?null:cat),style:{padding:"8px 16px",background:active?CAT_COLORS[cat]+"18":"#141414",border:"1px solid "+(active?CAT_COLORS[cat]+"60":"#262626"),borderRadius:20,color:active?CAT_COLORS[cat]:"#888",fontSize:13,fontWeight:500,cursor:"pointer",fontFamily:"inherit"}},cat+(answered>0?" "+cs.score+"%":""))})
+      ...CATEGORIES.map(cat=>{const cs=catScores.find(c=>c.name===cat);const active=activeCat===cat;return React.createElement("button",{key:cat,onClick:()=>setActiveCat(active?null:cat),style:{padding:"8px 16px",background:active?CAT_COLORS[cat]+"14":"#fffdf9",border:"1px solid "+(active?CAT_COLORS[cat]+"70":"#dbe2e8"),borderRadius:20,color:active?CAT_COLORS[cat]:"#4e5963",fontSize:13,fontWeight:500,cursor:"pointer",fontFamily:"inherit"}},cat+(answered>0?" "+cs.score+"%":""))})
     ),
     ...CATEGORIES.filter(cat=>!activeCat||activeCat===cat).map(cat=>
       React.createElement("div",{key:cat,style:{marginBottom:32}},
         React.createElement("div",{style:{display:"flex",alignItems:"center",gap:10,marginBottom:16}},
           React.createElement("div",{style:{width:8,height:8,borderRadius:"50%",background:CAT_COLORS[cat]}}),
-          React.createElement("h2",{style:{fontSize:14,fontWeight:700,color:"#fff",margin:0,textTransform:"uppercase",letterSpacing:"0.06em"}},cat)
+          React.createElement("h2",{style:{fontSize:14,fontWeight:600,color:"#111315",margin:0,textTransform:"uppercase",letterSpacing:"0.08em"}},cat)
         ),
         ...CHECKS.filter(c=>c.category===cat).map(check=>{
           const val=checks[check.id];
-          return React.createElement("div",{key:check.id,style:{display:"flex",alignItems:"flex-start",justifyContent:"space-between",padding:"14px 16px",background:val==="yes"?"#10b98108":val==="no"?"#ef444408":"#141414",border:"1px solid "+(val==="yes"?"#10b98130":val==="no"?"#ef444430":"#1e1e1e"),borderRadius:8,marginBottom:8}},
+          return React.createElement("div",{key:check.id,style:{display:"flex",alignItems:"flex-start",justifyContent:"space-between",padding:"14px 16px",background:val==="yes"?"#10b98108":val==="no"?"#ef444408":"#fffdf9",border:"1px solid "+(val==="yes"?"#10b98130":val==="no"?"#ef444430":"#dbe2e8"),borderRadius:0,marginBottom:8}},
             React.createElement("div",{style:{flex:1,minWidth:0}},
               React.createElement("div",{style:{display:"flex",alignItems:"center",gap:8,marginBottom:4}},
-                React.createElement("span",{style:{fontSize:14,fontWeight:500,color:"#e5e5e5",fontFamily:"'DM Mono',monospace"}},check.label),
-                React.createElement("span",{style:{fontSize:10,fontWeight:700,color:"#555",background:"#1a1a1a",padding:"2px 6px",borderRadius:3}},check.weight+"pt")
+                React.createElement("span",{style:{fontSize:14,fontWeight:500,color:"#111315",fontFamily:"'IBM Plex Mono',monospace"}},check.label),
+                React.createElement("span",{style:{fontSize:10,fontWeight:700,color:"#7c8790",background:"#f1f4f7",padding:"2px 6px"}},check.weight+"pt")
               ),
-              React.createElement("div",{style:{fontSize:12,color:"#666",lineHeight:1.4}},check.description)
+              React.createElement("div",{style:{fontSize:12,color:"#4e5963",lineHeight:1.4}},check.description)
             ),
             React.createElement("div",{style:{display:"flex",gap:4,marginLeft:16,flexShrink:0}},
               ...["yes","partial","no"].map(opt=>
-                React.createElement("button",{key:opt,onClick:()=>toggle(check.id,opt),style:{padding:"6px 10px",fontSize:11,fontWeight:val===opt?700:400,background:val===opt?(opt==="yes"?"#10b98120":opt==="partial"?"#f59e0b20":"#ef444420"):"transparent",border:"1px solid "+(val===opt?(opt==="yes"?"#10b98150":opt==="partial"?"#f59e0b50":"#ef444450"):"#333"),borderRadius:4,color:val===opt?(opt==="yes"?"#10b981":opt==="partial"?"#f59e0b":"#ef4444"):"#666",cursor:"pointer",fontFamily:"inherit",textTransform:"capitalize"}},opt)
+                React.createElement("button",{key:opt,onClick:()=>toggle(check.id,opt),style:{padding:"6px 10px",fontSize:11,fontWeight:val===opt?700:400,background:val===opt?(opt==="yes"?"#10b98114":opt==="partial"?"#f59e0b14":"#ef444414"):"transparent",border:"1px solid "+(val===opt?(opt==="yes"?"#10b98150":opt==="partial"?"#f59e0b50":"#ef444450"):"#bfd0dc"),borderRadius:0,color:val===opt?(opt==="yes"?"#10b981":opt==="partial"?"#f59e0b":"#ef4444"):"#4e5963",cursor:"pointer",fontFamily:"inherit",textTransform:"capitalize"}},opt)
               )
             )
           )
         })
       )
     ),
-    answered>=5&&React.createElement("div",{style:{marginTop:40,padding:32,background:"#111",border:"1px solid #262626",borderRadius:12}},
+    answered>=5&&React.createElement("div",{style:{marginTop:40,padding:32,background:"#fffdf9",border:"1px solid #dbe2e8",borderRadius:0}},
       React.createElement("div",{style:{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:24,flexWrap:"wrap",gap:20}},
         React.createElement("div",null,
-          React.createElement("div",{style:{fontSize:11,fontWeight:700,letterSpacing:"0.1em",textTransform:"uppercase",color:"#666",marginBottom:8}},"AEO Readiness Score"),
+          React.createElement("div",{style:{fontSize:11,fontWeight:700,letterSpacing:"0.1em",textTransform:"uppercase",color:"#7c8790",marginBottom:8}},"AEO Readiness Score"),
           React.createElement("div",{style:{display:"flex",alignItems:"baseline",gap:12}},
-            React.createElement("span",{style:{fontSize:56,fontWeight:700,color:grade.color,lineHeight:1,fontFamily:"'DM Mono',monospace"}},norm),
+            React.createElement("span",{style:{fontSize:56,fontWeight:700,color:grade.color,lineHeight:1,fontFamily:"'IBM Plex Mono',monospace"}},norm),
             React.createElement("span",{style:{fontSize:20,fontWeight:700,color:grade.color}},grade.grade)
           ),
-          React.createElement("div",{style:{fontSize:14,color:"#888",marginTop:4}},grade.label)
+          React.createElement("div",{style:{fontSize:14,color:"#4e5963",marginTop:4}},grade.label)
         ),
         React.createElement("div",{style:{display:"flex",flexDirection:"column",gap:8,minWidth:200}},
           ...catScores.map(cat=>
             React.createElement("div",{key:cat.name,style:{display:"flex",alignItems:"center",gap:8}},
-              React.createElement("span",{style:{fontSize:11,color:"#666",width:90,textAlign:"right"}},cat.name),
-              React.createElement("div",{style:{flex:1,height:6,background:"#1a1a1a",borderRadius:3,overflow:"hidden"}},
+              React.createElement("span",{style:{fontSize:11,color:"#7c8790",width:90,textAlign:"right"}},cat.name),
+              React.createElement("div",{style:{flex:1,height:6,background:"#f1f4f7",borderRadius:3,overflow:"hidden"}},
                 React.createElement("div",{style:{width:cat.score+"%",height:"100%",background:CAT_COLORS[cat.name],borderRadius:3,transition:"width 0.5s"}})
               ),
-              React.createElement("span",{style:{fontSize:11,color:"#888",fontFamily:"'DM Mono',monospace",width:32,textAlign:"right"}},cat.score+"%")
+              React.createElement("span",{style:{fontSize:11,color:"#4e5963",fontFamily:"'IBM Plex Mono',monospace",width:32,textAlign:"right"}},cat.score+"%")
             )
           )
         )
       ),
-      missing.length>0&&React.createElement("div",{style:{borderTop:"1px solid #262626",paddingTop:20,marginTop:20}},
-        React.createElement("div",{style:{fontSize:12,fontWeight:700,color:"#888",textTransform:"uppercase",letterSpacing:"0.08em",marginBottom:12}},"Highest Impact Missing"),
+      missing.length>0&&React.createElement("div",{style:{borderTop:"1px solid #dbe2e8",paddingTop:20,marginTop:20}},
+        React.createElement("div",{style:{fontSize:12,fontWeight:700,color:"#7c8790",textTransform:"uppercase",letterSpacing:"0.08em",marginBottom:12}},"Highest Impact Missing"),
         ...missing.slice(0,5).map(c=>
-          React.createElement("div",{key:c.id,style:{display:"flex",alignItems:"center",gap:10,padding:"8px 0",borderBottom:"1px solid #1a1a1a"}},
+          React.createElement("div",{key:c.id,style:{display:"flex",alignItems:"center",gap:10,padding:"8px 0",borderBottom:"1px solid #dbe2e8"}},
             React.createElement("span",{style:{width:6,height:6,borderRadius:"50%",background:CAT_COLORS[c.category],flexShrink:0}}),
-            React.createElement("span",{style:{fontSize:13,color:"#ccc",flex:1}},c.label),
-            React.createElement("span",{style:{fontSize:11,color:"#555",fontFamily:"'DM Mono',monospace"}},"+"+c.weight+"pt")
+            React.createElement("span",{style:{fontSize:13,color:"#111315",flex:1}},c.label),
+            React.createElement("span",{style:{fontSize:11,color:"#7c8790",fontFamily:"'IBM Plex Mono',monospace"}},"+"+c.weight+"pt")
           )
         )
       ),
-      React.createElement("div",{style:{borderTop:"1px solid #262626",paddingTop:20,marginTop:20}},
-        React.createElement("p",{style:{fontSize:13,color:"#888",lineHeight:1.7}},
+      React.createElement("div",{style:{borderTop:"1px solid #dbe2e8",paddingTop:20,marginTop:20}},
+        React.createElement("p",{style:{fontSize:13,color:"#4e5963",lineHeight:1.7}},
           norm>=75?"Your site has strong agent readiness. Focus on the execution layer and trust layer to reach excellence.":
           norm>=45?"Your read layer is developing but the execution layer needs work. Agents can find you but may struggle to act through your infrastructure.":
           "Your site is in early AEO stages. Start with llms.txt and schema markup (read layer), then build toward API endpoints (execution layer)."
         )
       ),
       React.createElement("div",{style:{marginTop:20,display:"flex",gap:12,flexWrap:"wrap"}},
-        React.createElement("a",{href:"/docs/implement-aeo/",style:{padding:"10px 20px",background:"#3b82f6",color:"#fff",borderRadius:6,fontSize:13,fontWeight:600}},"Implementation Guide"),
-        React.createElement("a",{href:"/docs/audit/",style:{padding:"10px 20px",background:"transparent",color:"#3b82f6",border:"1px solid #3b82f630",borderRadius:6,fontSize:13,fontWeight:600}},"Professional Audit"),
-        React.createElement("button",{onClick:()=>{setChecks({});setUrl("");setActiveCat(null)},style:{padding:"10px 20px",background:"transparent",color:"#666",border:"1px solid #333",borderRadius:6,fontSize:13,cursor:"pointer",fontFamily:"inherit"}},"Reset")
+        React.createElement("a",{href:"/docs/implement-aeo/",style:{padding:"10px 20px",background:"#168bc2",color:"#fff",border:"1px solid #168bc2",fontSize:13,fontWeight:600}},"Implementation Guide"),
+        React.createElement("a",{href:"/docs/audit/",style:{padding:"10px 20px",background:"transparent",color:"#0f6e9c",border:"1px solid #bfd0dc",fontSize:13,fontWeight:600}},"Professional Audit"),
+        React.createElement("button",{onClick:()=>{setChecks({});setUrl("");setActiveCat(null)},style:{padding:"10px 20px",background:"transparent",color:"#4e5963",border:"1px solid #bfd0dc",fontSize:13,cursor:"pointer",fontFamily:"inherit"}},"Reset")
       )
     ),
-    answered<5&&React.createElement("div",{style:{textAlign:"center",padding:"24px 0",color:"#555",fontSize:13}},"Answer at least 5 checks to see your AEO Readiness Score ("+answered+"/5)"),
-    React.createElement("div",{style:{marginTop:48,paddingTop:24,borderTop:"1px solid #1a1a1a",textAlign:"center"}},
-      React.createElement("p",{style:{fontSize:12,color:"#444"}},
+    answered<5&&React.createElement("div",{style:{textAlign:"center",padding:"24px 0",color:"#7c8790",fontSize:13}},"Answer at least 5 checks to see your AEO Readiness Score ("+answered+"/5)"),
+    React.createElement("div",{style:{marginTop:48,paddingTop:24,borderTop:"1px solid #dbe2e8",textAlign:"center"}},
+      React.createElement("p",{style:{fontSize:12,color:"#7c8790"}},
         "AEO Readiness Checker by ",
         React.createElement("a",{href:"/"},"agent-engine-optimization.com")
       )
