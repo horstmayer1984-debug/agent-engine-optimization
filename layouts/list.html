@@ -1,16 +1,18 @@
 {{ define "main" }}
 <article class="markdown book-article editorial-shell">
   {{ $hasMarkdownH1 := gt (len (findRE "(?m)^#[[:space:]]+" .RawContent)) 0 }}
+  {{ $bodyContent := .Content }}
+  {{ if $hasMarkdownH1 }}
+  {{ $bodyContent = replaceRE "(?s)^<h1[^>]*>.*?</h1>" "" .Content 1 }}
+  {{ end }}
   <header class="subpage-hero">
     <div class="page-meta">AEO Library</div>
-    {{ if not $hasMarkdownH1 }}
     <h1>{{ .Title }}</h1>
-    {{ end }}
     {{ with .Description }}
     <p class="page-lede">{{ . }}</p>
     {{ end }}
   </header>
-  {{ .Content }}
+  {{ $bodyContent | safeHTML }}
   {{ if .Pages }}
   <h2>Guides and Resources</h2>
   <p>Use this index to find core frameworks, protocol explainers, industry guides, payment pages, and implementation checklists.</p>
