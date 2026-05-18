@@ -1,17 +1,28 @@
 {{ define "main" }}
-<article class="markdown book-article">
-  {{ if .Params.category }}
-  <div class="page-meta">{{ .Params.category }}</div>
-  {{ end }}
+<article class="markdown book-article editorial-shell">
   {{ $hasMarkdownH1 := gt (len (findRE "(?m)^#[[:space:]]+" .RawContent)) 0 }}
-  {{ if not $hasMarkdownH1 }}
-  <h1>{{ .Title }}</h1>
-  {{ end }}
-  {{ if .Date }}
-  <p style="font-size: 0.78rem; color: var(--text-dim); margin-top: -8px; margin-bottom: 36px; font-family: 'IBM Plex Mono', monospace; font-weight: 500;">
-    {{ .Date.Format "January 2, 2006" }}
-  </p>
-  {{ end }}
+  <header class="subpage-hero">
+    {{ if .Params.category }}
+    <div class="page-meta">{{ .Params.category }}</div>
+    {{ else }}
+    <div class="page-meta">AEO Library</div>
+    {{ end }}
+    {{ if not $hasMarkdownH1 }}
+    <h1>{{ .Title }}</h1>
+    {{ end }}
+    {{ with .Description }}
+    <p class="page-lede">{{ . }}</p>
+    {{ end }}
+    {{ if .Date }}
+    <p class="page-date">Updated {{ .Date.Format "January 2, 2006" }}</p>
+    {{ end }}
+  </header>
   {{ .Content }}
+  <nav class="subpage-nav" aria-label="Explore more">
+    <a href="/docs/what-is-aeo/"><small>01</small><strong>Framework</strong><span>Core definition</span></a>
+    <a href="/docs/execution-layer/"><small>02</small><strong>Protocols</strong><span>Execution layer</span></a>
+    <a href="/docs/implement-aeo/"><small>03</small><strong>Guides</strong><span>Implementation</span></a>
+    <a href="/tools/aeo-readiness-checker.html"><small>04</small><strong>Checker</strong><span>Readiness test</span></a>
+  </nav>
 </article>
 {{ end }}

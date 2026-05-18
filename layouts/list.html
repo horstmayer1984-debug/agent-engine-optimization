@@ -1,28 +1,35 @@
 {{ define "main" }}
-<article class="markdown book-article">
+<article class="markdown book-article editorial-shell">
   {{ $hasMarkdownH1 := gt (len (findRE "(?m)^#[[:space:]]+" .RawContent)) 0 }}
-  {{ if not $hasMarkdownH1 }}
-  <h1>{{ .Title }}</h1>
-  {{ end }}
+  <header class="subpage-hero">
+    <div class="page-meta">AEO Library</div>
+    {{ if not $hasMarkdownH1 }}
+    <h1>{{ .Title }}</h1>
+    {{ end }}
+    {{ with .Description }}
+    <p class="page-lede">{{ . }}</p>
+    {{ end }}
+  </header>
   {{ .Content }}
   {{ if .Pages }}
   <h2>Guides and Resources</h2>
   <p>Use this index to find core frameworks, protocol explainers, industry guides, payment pages, and implementation checklists.</p>
-  <ul>
+  <div class="resource-grid">
     {{ range .Pages.ByWeight }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ with .Description }}<br><span style="color:var(--text-muted); font-size:0.9rem;">{{ . }}</span>{{ end }}
-    </li>
+    <a class="resource-card" href="{{ .RelPermalink }}">
+      <em>{{ with .Params.category }}{{ . }}{{ else }}Guide{{ end }}</em>
+      <strong>{{ .Title }}</strong>
+      {{ with .Description }}<span>{{ . }}</span>{{ end }}
+    </a>
     {{ end }}
-  </ul>
+  </div>
   <h2>Recommended Starting Points</h2>
-  <ul>
-    <li><a href="/docs/what-is-aeo/">What Is Agent Engine Optimization?</a></li>
-    <li><a href="/docs/execution-layer/">The Execution Layer</a></li>
-    <li><a href="/docs/implement-aeo/">How to Implement AEO</a></li>
-    <li><a href="/docs/audit/">AEO Readiness Audit</a></li>
-  </ul>
+  <nav class="subpage-nav" aria-label="Recommended starting points">
+    <a href="/docs/what-is-aeo/"><small>01</small><strong>Definition</strong><span>What AEO is</span></a>
+    <a href="/docs/execution-layer/"><small>02</small><strong>Execution Layer</strong><span>How agents act</span></a>
+    <a href="/docs/implement-aeo/"><small>03</small><strong>Implementation</strong><span>How to build it</span></a>
+    <a href="/docs/audit/"><small>04</small><strong>Audit</strong><span>Assess readiness</span></a>
+  </nav>
   {{ end }}
 </article>
 {{ end }}
