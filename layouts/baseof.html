@@ -58,7 +58,7 @@
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
-      padding: 16px clamp(18px, 3vw, 40px);
+      padding: 0 clamp(18px, 3vw, 40px);
     }
     .site-nav nav {
       display: flex;
@@ -68,6 +68,7 @@
       max-width: 1120px;
       margin: 0 auto;
       gap: 24px;
+      min-height: 88px;
     }
     .site-nav .brand {
       display: inline-flex;
@@ -79,7 +80,7 @@
     }
     .site-nav .brand-mark {
       font-family: var(--font-display);
-      font-size: 1.4rem;
+      font-size: 2rem;
       line-height: 1;
       font-weight: 500;
       letter-spacing: -.04em;
@@ -87,7 +88,7 @@
     .site-nav .brand-copy {
       display: grid;
       gap: 1px;
-      font-size: .67rem;
+      font-size: .7rem;
       line-height: 1.15;
       letter-spacing: .24em;
       text-transform: uppercase;
@@ -353,15 +354,20 @@
     *:hover > a.anchor { opacity: .5; }
 
     .site-footer {
-      text-align: center;
-      padding: 42px 24px 60px;
+      padding: 34px clamp(18px, 3vw, 24px) 46px;
       border-top: 1px solid var(--border);
-      background: color-mix(in srgb, var(--bg-subtle) 65%, var(--bg));
+    }
+    .site-footer-inner {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
     }
     .site-footer nav {
-      margin-bottom: 16px;
       display: flex;
-      justify-content: center;
       gap: 18px;
       flex-wrap: wrap;
     }
@@ -371,10 +377,15 @@
       text-decoration: none;
     }
     .site-footer a:hover { color: var(--accent-deep); }
-    .site-footer p { font-size: .76rem; color: var(--text-dim); margin: 8px 0 0; }
+    .site-footer p { font-size: .8rem; color: var(--text-dim); margin: 0; }
 
     @media (max-width: 768px) {
-      .site-nav nav { align-items: flex-start; flex-direction: column; }
+      .site-nav nav {
+        min-height: auto;
+        padding: 22px 0;
+        align-items: flex-start;
+        flex-direction: column;
+      }
       .site-nav .links {
         width: 100%;
         display: grid;
@@ -439,15 +450,17 @@
     </div>
   </main>
   <footer class="site-footer">
-    <nav>
-      <a href="/docs/about/">About</a>
-      <a href="/tools/aeo-readiness-checker.html">Checker</a>
-      <a href="/docs/audit/">Audit</a>
-      <a href="/docs/privacy/">Privacy</a>
-      <a href="/docs/disclaimer/">Disclaimer</a>
-      <a href="/sitemap.xml">Sitemap</a>
-    </nav>
-    <p>&copy; 2026 Agent Engine Optimization. Built for agents. Readable by humans.</p>
+    <div class="site-footer-inner">
+      <p>&copy; 2026 Agent Engine Optimization</p>
+      <nav>
+        <a href="/docs/about/">About</a>
+        <a href="/tools/aeo-readiness-checker.html">Checker</a>
+        <a href="/docs/audit/">Audit</a>
+        <a href="/docs/privacy/">Privacy</a>
+        <a href="/docs/disclaimer/">Disclaimer</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </nav>
+    </div>
   </footer>
 </body>
 </html>

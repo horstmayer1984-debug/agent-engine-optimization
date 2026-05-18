@@ -162,12 +162,12 @@ header.book-header,
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   color: var(--text) !important;
-  padding: 16px 20px !important;
+  padding: 0 20px !important;
   border-bottom: 1px solid var(--border) !important;
   position: sticky;
   top: 0;
   z-index: 100;
-  nav { max-width: var(--nav-width); margin: 0 auto; }
+  nav { max-width: var(--nav-width); min-height: 88px; margin: 0 auto; }
   a {
     color: var(--text-muted) !important;
     text-decoration: none;
@@ -314,7 +314,6 @@ a.anchor { color: var(--text-dim) !important; opacity: 0; transition: opacity .2
 ::selection { background: rgba(22, 139, 194, .16); color: var(--text); }
 
 .book-footer {
-  background: color-mix(in srgb, var(--bg-subtle) 65%, var(--bg)) !important;
   border-top: 1px solid var(--border) !important;
 }
 .book-footer a {
@@ -336,10 +335,12 @@ a.anchor { color: var(--text-dim) !important; opacity: 0; transition: opacity .2
     grid-template-columns: 1fr;
   }
   header.book-header,
-  .book-header { padding: 12px !important; }
+  .book-header { padding: 0 12px !important; }
   header.book-header nav,
   .book-header nav {
     width: 100%;
+    min-height: auto !important;
+    padding: 22px 0;
     display: flex !important;
     align-items: flex-start !important;
     flex-direction: column !important;
