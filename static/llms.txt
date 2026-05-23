@@ -56,6 +56,19 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 - [ChatGPT Product Recommendations SEO Checklist](https://agent-engine-optimization.com/docs/chatgpt-product-recommendations-seo/)
 - [OWASP Agentic AI Top 10 and AEO Security](https://agent-engine-optimization.com/docs/owasp-agentic-ai-top-10/)
 
+## May 23, 2026 AI search, crawler trust, MCP, and coding-agent guides
+
+- [Google AI Mode in Search Console: What SEO Teams Can Measure](https://agent-engine-optimization.com/docs/google-ai-mode-search-console-reporting/)
+- [Google Search Live and AEO: How Real-Time AI Search Changes Content](https://agent-engine-optimization.com/docs/google-search-live-aeo/)
+- [Cloudflare AI Labyrinth: What It Means for AI Crawlers and AEO](https://agent-engine-optimization.com/docs/cloudflare-ai-labyrinth/)
+- [Web Bot Auth for AI Crawlers: A Practical AEO Guide](https://agent-engine-optimization.com/docs/web-bot-auth-ai-crawlers/)
+- [Fireblocks Agentic Payments Suite: What It Means for Agent Commerce](https://agent-engine-optimization.com/docs/fireblocks-agentic-payments-suite/)
+- [MCP Sampling Explained: How Servers Request AI Model Output](https://agent-engine-optimization.com/docs/mcp-sampling-ai-agents/)
+- [MCP Elicitation: Human Input for Safer Agent Workflows](https://agent-engine-optimization.com/docs/mcp-elicitation-human-input/)
+- [MCP Resources vs Tools vs Prompts: The Practical Difference](https://agent-engine-optimization.com/docs/mcp-resources-tools-prompts/)
+- [OpenAI Codex and Agent-Ready Repositories](https://agent-engine-optimization.com/docs/openai-codex-coding-agent/)
+- [GitHub Copilot Coding Agent: How to Prepare Agent-Ready Repos](https://agent-engine-optimization.com/docs/github-copilot-coding-agent-agent-ready-repos/)
+
 ## Search, discovery, and commerce implementation guides
 
 - [Google AI Mode SEO: What Website Owners Should Do](https://agent-engine-optimization.com/docs/google-ai-mode-seo/)
@@ -94,4 +107,4 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 
 ## Last updated
 
-2026-05-17
+2026-05-23
