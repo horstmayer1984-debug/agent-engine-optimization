@@ -57,7 +57,7 @@ At minimum, provide:
 
 If exact pricing genuinely depends on negotiation, at least provide published ranges and the variables that affect the price. An agent that can estimate "between 2,000 and 5,000 euros per month for 50 users" is far more useful to its human than one that reports "pricing not available."
 
-The [AEO Framework](/docs/framework/) explains why this shift from human-gated to machine-readable information is central to the execution layer.
+The [AEO framework](/docs/what-is-aeo/) explains why this shift from human-gated to machine-readable information is central to the execution layer.
 
 ## Compliance and security as verifiable data
 

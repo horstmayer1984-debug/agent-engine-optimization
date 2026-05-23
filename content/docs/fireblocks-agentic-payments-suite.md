@@ -1,5 +1,6 @@
 ---
 title: "Fireblocks Agentic Payments Suite: What It Means for Agent Commerce"
+metaTitle: "Fireblocks Agentic Payments Suite: AEO Guide"
 date: 2026-05-23
 weight: 132
 category: "Analysis"

@@ -4,7 +4,7 @@ date: 2026-04-29
 weight: 131
 category: "Guide"
 description: "Build an AI citation strategy with clear content, original frameworks, trust signals and topic authority. Make your website easier to reference in AI-generated answers."
-metaDescription: "Build an AI citation strategy with clear content, original frameworks, trust signals, and topical authority."
+metaDescription: "Build an AI citation strategy with clear content, original frameworks, source-backed claims, trust signals, and topical authority."
 summary: "A site becomes easier to cite by publishing content that is specific, reliable and easy to extract. Original frameworks, topic clusters and trust signals create citation advantage."
 keywords:
   - AI citation strategy

@@ -5,7 +5,7 @@ date: 2026-03-22
 weight: 22
 category: "Deep Dive"
 description: "Better retrieval helps AI agents understand support issues. It does not resolve them. How to build executable support workflows with bounded actions, policy awareness, and state visibility."
-metaDescription: "Build executable support workflows with bounded actions, policy awareness, and state visibility, not retrieval alone."
+metaDescription: "Build executable support workflows with bounded actions, policy awareness, state visibility, escalation rules, and verification, not retrieval alone."
 summary: "Agentic support starts when the system moves from diagnosis to action. This article explains how to design resolution endpoints that are safe, narrow, and policy aware."
 keywords:
   - agentic customer support

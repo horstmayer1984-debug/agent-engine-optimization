@@ -4,7 +4,7 @@ date: 2026-04-12
 weight: 70
 category: "Analysis"
 description: "x402 adds the missing economic layer to AEO. AI agents can now discover, act, and pay in one HTTP flow using stablecoins. How this transforms agent-ready infrastructure."
-metaDescription: "Learn how x402 lets AI agents discover, act, and pay in one HTTP flow using stablecoins."
+metaDescription: "Learn how x402 lets AI agents discover, act, and pay in one HTTP flow using stablecoins, policy controls, and agent-readable endpoints."
 summary: "x402 turns AEO from discoverability and action into a monetizable autonomous economy. Agents pay per request using USDC over HTTP 402, with no accounts, sessions, or human approval needed."
 keywords:
   - x402 agent payments

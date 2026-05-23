@@ -1,6 +1,6 @@
 ---
 title: "Visa TAP vs Mastercard Agent Pay: Card Network Payments for AI Agents"
-metaTitle: "Visa TAP vs Mastercard Agent Pay"
+metaTitle: "Visa TAP vs Mastercard Agent Pay: Protocol Guide"
 date: 2026-05-08
 weight: 121
 category: "Architecture"

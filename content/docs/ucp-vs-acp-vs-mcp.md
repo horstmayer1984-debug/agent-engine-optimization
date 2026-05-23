@@ -5,7 +5,7 @@ date: 2026-04-14
 weight: 90
 category: "Framework"
 description: "MCP provides context, UCP handles commerce lifecycles, ACP enables ChatGPT-native checkout. How the three core agent protocols differ and when to implement each one."
-metaDescription: "Compare MCP, UCP, and ACP: context, commerce lifecycles, checkout, and when each agent protocol fits."
+metaDescription: "Compare MCP, UCP, and ACP across context exchange, commerce lifecycles, checkout, tool use, and when each agent protocol fits."
 summary: "Three protocols dominate agentic infrastructure in 2026. MCP connects agents to data. UCP handles the full commerce lifecycle. ACP enables checkout inside ChatGPT. Here is when to use each."
 keywords:
   - UCP vs ACP vs MCP

@@ -1,6 +1,6 @@
 ---
 title: "Agent Payment Protocols Compared: x402, ACP, MPP, AP2, TAP, Agent Pay"
-metaTitle: "Agent Payment Protocols Compared"
+metaTitle: "Agent Payment Protocols Compared for AI Commerce"
 date: 2026-05-08
 weight: 118
 category: "Architecture"

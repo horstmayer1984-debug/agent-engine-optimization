@@ -1,11 +1,11 @@
 ---
 title: "AEO for Commercial Real Estate: Making Properties Agent-Discoverable and Transactable"
-metaTitle: "AEO for Commercial Real Estate"
+metaTitle: "AEO for Commercial Real Estate: Agent Readiness Guide"
 date: 2026-04-14
 weight: 94
 category: "Industry"
 description: "The $5.6 trillion CRE sector is shifting from static listings to agent-actionable marketplaces. How to structure property data, due diligence documents, and transaction endpoints for AI agents."
-metaDescription: "Learn how CRE teams structure property data, due diligence, and transaction endpoints for AI-agent-ready marketplaces."
+metaDescription: "Learn how CRE teams structure property data, due diligence, availability, broker contacts, and transaction endpoints for AI-agent-ready marketplaces."
 summary: "AI agents are compressing 60-day due diligence into hours. CRE firms that publish structured property data with AEO see 40-60% of institutional inquiries coming through agent workflows."
 keywords:
   - AEO commercial real estate

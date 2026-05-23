@@ -12,32 +12,7 @@ keywords:
   - SEO to AEO progression
 ---
 
-The AI Optimization Maturity Model shows how websites progress from basic crawlability to agent-ready execution. Most companies do not become agent-ready overnight. They move through levels.
-
-## Level 1: Crawlable
-
-Search engines and AI crawlers can access the content. Pages are not blocked by robots rules, broken redirects or rendering issues.
-
-## Level 2: Understandable
-cd ~/projects/agent-engine-optimization
-
-# === Artikel 10 fortsetzen (ai-optimization-maturity-model.md wurde abgeschnitten) ===
-cat > content/docs/ai-optimization-maturity-model.md << 'EOF'
----
-title: "The AI Optimization Maturity Model: From SEO to Agent Readiness"
-date: 2026-04-29
-weight: 129
-category: "Framework"
-description: "Seven levels from crawlable to verifiable. Use this maturity model to assess how far your website has progressed toward full agent readiness."
-summary: "AI optimization is a progression, not a single tactic. Seven levels from crawlable to verifiable show where your site stands and what to build next."
-keywords:
-  - AI optimization maturity model
-  - AEO maturity levels
-  - agent readiness levels
-  - SEO to AEO progression
----
-
-The AI Optimization Maturity Model shows how websites progress from basic crawlability to agent-ready execution. Most companies do not become agent-ready overnight. They move through levels.
+The AI Optimization Maturity Model shows how websites progress from basic crawlability to agent-ready execution. Most companies do not become agent-ready overnight. They move through levels, starting with indexable pages and ending with actions that agents can verify.
 
 ## Level 1: Crawlable
 
@@ -57,7 +32,7 @@ Content becomes useful for generated answers. It includes original frameworks, s
 
 ## Level 5: Comparable
 
-Agents and AI systems often need to compare options. A comparable website exposes product attributes, service criteria, pricing logic, use cases, constraints and trade-offs. Especially important for ecommerce, SaaS, insurance, travel and marketplaces.
+Agents and AI systems often need to compare options. A comparable website exposes product attributes, service criteria, pricing logic, use cases, constraints and tradeoffs. This is especially important for ecommerce, SaaS, insurance, travel and marketplaces.
 
 ## Level 6: Actionable
 
@@ -75,25 +50,26 @@ Actions have clear confirmation states. Errors are understandable. Policies are 
 | 2 | Understandable | Can AI systems understand the topic? | Content SEO |
 | 3 | Answerable | Can the page answer a specific question? | Answer Engine Optimization |
 | 4 | Citeable | Is the content worth citing? | GEO |
-| 5 | Comparable | Are products or services machine-comparable? | Structured Data |
+| 5 | Comparable | Are products or services machine-comparable? | Structured data |
 | 6 | Actionable | Can a task be completed? | Agent Engine Optimization |
-| 7 | Verifiable | Can success or failure be confirmed? | Trust and Governance |
+| 7 | Verifiable | Can success or failure be confirmed? | Trust and governance |
 
 ## How to use the model
 
 Audit your site by asking each question in order. Most sites will find gaps at several levels. Start with the lowest failing level. Actionability without clarity creates risk. Citability without crawlability is impossible.
 
-The [AEO Readiness Checker](/tools/aeo-readiness-checker.html) tests levels 1 through 6.
-
----
+The [AEO Readiness Checker](/tools/aeo-readiness-checker.html) tests the practical foundations, while the [implementation guide](/docs/implement-aeo/) explains how to move from content clarity into execution readiness.
 
 ## FAQ
 
-**Which level should I start with?**
+### Which level should I start with?
+
 Start with crawlability and content clarity. Advanced agent readiness depends on those foundations.
 
-**Can a site skip levels?**
-Not safely. Each level depends on the ones below it.
+### Can a site skip levels?
 
-**Who should use this model?**
-SEO teams, content teams, product teams, developers and digital strategists assessing their AI readiness.
+Not safely. Each level depends on the ones below it. A site that exposes actions before it has trust and verification creates operational risk.
+
+### Who should use this model?
+
+SEO teams, content teams, product teams, developers and digital strategists can use it to assess AI readiness and prioritize the next fix.

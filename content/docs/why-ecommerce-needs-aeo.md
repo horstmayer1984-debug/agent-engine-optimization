@@ -1,6 +1,6 @@
 ---
 title: "Why Ecommerce Brands Need AEO: Strategy and Implementation for 2026"
-metaTitle: "Why Ecommerce Brands Need AEO"
+metaTitle: "Why Ecommerce Brands Need AEO for AI Agents"
 date: 2026-03-22
 weight: 33
 category: "Analysis"

@@ -4,7 +4,7 @@ date: 2026-03-22
 weight: 20
 category: "Guide"
 description: "A technical guide for developers building agent-ready websites. Covers structured data, API design, sandbox testing, authentication, and server optimization for autonomous AI agents."
-metaDescription: "Build agent-ready websites with structured data, API design, sandbox testing, authentication, and server optimization."
+metaDescription: "Build agent-ready websites with structured data, API design, sandbox testing, authentication, server optimization, and clear execution paths."
 summary: "Developers must move beyond human-first web design. This guide covers the technical requirements for making websites operable by autonomous AI agents on the execution layer."
 keywords:
   - AEO for developers

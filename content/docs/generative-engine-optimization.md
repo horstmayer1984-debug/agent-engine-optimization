@@ -4,7 +4,7 @@ date: 2026-04-29
 weight: 121
 category: "Framework"
 description: "Generative Engine Optimization is the practice of improving how a brand appears in AI-generated answers. How it connects to SEO, Answer Engine Optimization and Agent Engine Optimization."
-metaDescription: "Learn what Generative Engine Optimization means and how GEO connects with SEO, Answer Engine Optimization, and AEO."
+metaDescription: "Learn what Generative Engine Optimization means and how GEO connects with SEO, Answer Engine Optimization, AI citations, and Agent Engine Optimization."
 summary: "GEO helps your brand appear in AI-generated answers. It matters because users increasingly ask AI systems to explain, compare and recommend. Here is how GEO works and where it connects to AEO."
 keywords:
   - generative engine optimization

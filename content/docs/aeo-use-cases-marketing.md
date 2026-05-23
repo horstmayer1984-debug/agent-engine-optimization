@@ -1,6 +1,6 @@
 ---
 title: "Agent Engine Optimization Use Cases for Marketing and Content Discovery in 2026"
-metaTitle: "AEO Use Cases for Marketing Teams"
+metaTitle: "AEO Use Cases for Marketing Teams and AI Search"
 date: 2026-03-19
 weight: 23
 category: "Use Cases"

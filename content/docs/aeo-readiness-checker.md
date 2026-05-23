@@ -4,7 +4,7 @@ date: 2026-04-14
 weight: 1
 category: "Tool"
 description: "Free tool to check if your website is ready for autonomous AI agents. 14 checks across discovery, read layer, execution layer, and trust. Get your AEO Readiness Score."
-metaDescription: "Check whether your website is ready for AI agents across discovery, read layer, execution layer, and trust signals."
+metaDescription: "Check whether your website is ready for AI agents across discovery, read layer, execution layer, structured data, trust signals, and actions."
 summary: "Check your website's readiness for AI agents with this free tool. 14 checks across four categories give you an actionable AEO Readiness Score with priority recommendations."
 keywords:
   - AEO readiness checker

@@ -1,11 +1,11 @@
 ---
 title: "x402 + MCP + A2A: The Complete Agent Engine Optimization Stack in 2026"
-metaTitle: "x402 + MCP + A2A: The AEO Stack"
+metaTitle: "x402 + MCP + A2A: Full-Stack AEO Architecture"
 date: 2026-04-12
 weight: 74
 category: "Framework"
 description: "x402 completes the AEO stack by adding payments to MCP tool calling and A2A agent collaboration. The four-layer architecture for fully autonomous agent commerce."
-metaDescription: "See how x402, MCP, and A2A combine into a four-layer architecture for autonomous agent commerce and payments."
+metaDescription: "See how x402, MCP, and A2A combine into a four-layer architecture for autonomous agent commerce, coordination, payments, and verification."
 summary: "Discovery through llms.txt, tool execution through MCP, collaboration through A2A, payment through x402. Together they form the complete AEO stack for fully autonomous agent interactions."
 keywords:
   - x402 MCP A2A stack

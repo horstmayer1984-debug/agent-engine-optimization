@@ -1,11 +1,11 @@
 ---
 title: "AEO for Automobile Sales: How AI Agents Are Transforming the $4.26 Trillion Market"
-metaTitle: "AEO for Automobile Sales"
+metaTitle: "AEO for Automobile Sales: AI Agent Readiness Guide"
 date: 2026-04-14
 weight: 95
 category: "Industry"
 description: "AI agents now build 100-vehicle shortlists in seconds. How OEMs and dealers must structure configurator data, fleet procurement endpoints, and aftermarket services for autonomous purchasing."
-metaDescription: "See how automotive sites structure configurator data, fleet procurement, and aftermarket services for AI agents."
+metaDescription: "See how automotive sites structure configurator data, inventory, fleet procurement, and service workflows so AI agents can compare vehicles and route buyers."
 summary: "OEMs adopting AEO capture 3-5x more agent-driven leads. Configuration agents, fleet procurement bots, and aftermarket service agents need structured vehicle data and deterministic ordering endpoints."
 keywords:
   - AEO automobile sales

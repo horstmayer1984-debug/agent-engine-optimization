@@ -1,5 +1,6 @@
 ---
 title: "Google Search Live and AEO: How Real-Time AI Search Changes Content"
+metaTitle: "Google Search Live AEO: Real-Time AI Search Guide"
 date: 2026-05-23
 weight: 138
 category: "Analysis"
