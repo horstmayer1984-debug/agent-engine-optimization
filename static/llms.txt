@@ -87,6 +87,7 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 - [MCP vs A2A](https://agent-engine-optimization.com/docs/mcp-vs-a2a/)
 - [Universal Commerce Protocol (UCP)](https://agent-engine-optimization.com/docs/universal-commerce-protocol/)
 - [Agentic Commerce Protocol (ACP)](https://agent-engine-optimization.com/docs/agentic-commerce-protocol/)
+- [The 5 Levels of Agentic Commerce: A Lifecycle Model](https://agent-engine-optimization.com/docs/five-levels-agentic-commerce/)
 - [Visa Trusted Agent Protocol](https://agent-engine-optimization.com/docs/visa-trusted-agent-protocol/)
 - [MCP Apps](https://agent-engine-optimization.com/docs/mcp-apps-guide/)
 - [MCP Registry](https://agent-engine-optimization.com/docs/mcp-registry-guide/)
