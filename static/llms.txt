@@ -23,6 +23,15 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 - [Answer Engine Optimization](https://agent-engine-optimization.com/docs/answer-engine-optimization/)
 - [Generative Engine Optimization](https://agent-engine-optimization.com/docs/generative-engine-optimization/)
 
+## AEO SEO query cluster
+
+- [AEO SEO: How Agent Engine Optimization Extends Search Engine Optimization](https://agent-engine-optimization.com/docs/aeo-seo/)
+- [AEO SEO Checklist: 25 Checks for Agent-Ready Search Visibility](https://agent-engine-optimization.com/docs/aeo-seo-checklist/)
+- [AEO SEO for Ecommerce: From Product Rankings to Agent-Ready Sales](https://agent-engine-optimization.com/docs/aeo-seo-for-ecommerce/)
+- [AEO SEO Implementation Plan: 30 Days From Search Visibility to Agent Readiness](https://agent-engine-optimization.com/docs/aeo-seo-implementation-plan/)
+- [Agent UX and AEO SEO: Designing Pages for Humans, Search Engines, and Agents](https://agent-engine-optimization.com/docs/agent-ux-aeo-seo/)
+- [AI Referral Attribution for AEO SEO: Measuring Search, Answers, and Agents](https://agent-engine-optimization.com/docs/ai-referral-attribution-seo/)
+
 
 ## Agent payment protocols
 
@@ -128,4 +137,4 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 
 ## Last updated
 
-2026-05-23
+2026-06-16
