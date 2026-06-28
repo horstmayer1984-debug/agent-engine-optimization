@@ -40,6 +40,19 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 - [Chrome WebMCP Origin Trial: Website Readiness Checklist](https://agent-engine-optimization.com/docs/chrome-webmcp-origin-trial/)
 - [Google Generative AI Search Guide 2026: What Actually Matters](https://agent-engine-optimization.com/docs/google-generative-ai-search-guide-2026/)
 
+## GitHub and Hugging Face agent infrastructure trends
+
+- [OpenAI Agents SDK and AEO: What Website Teams Should Learn](https://agent-engine-optimization.com/docs/openai-agents-sdk-aeo/)
+- [browser-use for Web Agents: AEO Lessons for Real Websites](https://agent-engine-optimization.com/docs/browser-use-web-agents/)
+- [LangGraph Agent Workflows: What They Mean for AEO](https://agent-engine-optimization.com/docs/langgraph-agent-workflows/)
+- [smolagents Tool Calling: AEO Lessons from Hugging Face Agents](https://agent-engine-optimization.com/docs/smolagents-tool-calling/)
+- [CrewAI Multi-Agent Workflows: What Website Teams Should Prepare](https://agent-engine-optimization.com/docs/crewai-multi-agent-workflows/)
+- [mem0 Agent Memory: Why Persistent Context Matters for AEO](https://agent-engine-optimization.com/docs/mem0-agent-memory/)
+- [FastMCP Agent Tools: A Practical Guide for Agent-Ready APIs](https://agent-engine-optimization.com/docs/fastmcp-agent-tools/)
+- [Qwen AgentWorld: What Agent Benchmarks Mean for AEO](https://agent-engine-optimization.com/docs/qwen-agentworld-agent-benchmark/)
+- [GLM-5.2 for Agentic Workflows: What AEO Teams Should Know](https://agent-engine-optimization.com/docs/glm-5-2-agentic-model/)
+- [BrowserGym and AutomationBench: Web Agent Benchmarks for AEO](https://agent-engine-optimization.com/docs/web-agent-benchmarks-browsergym-automationbench/)
+
 
 ## Agent payment protocols
 
