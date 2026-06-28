@@ -4,7 +4,7 @@ metaTitle: "Entity Mapping for AEO Citation Growth"
 date: 2026-04-12
 weight: 83
 category: "Guide"
-description: "Entity mapping builds machine-readable relationships between your brand, products, and topics so agents understand your authority and cite you accurately. Step-by-step entity SEO for AEO."
+description: "Entity mapping builds machine-readable relationships between your brand, products, and topics so agents understand your authority and cite you accurately."
 metaDescription: "Use entity mapping to connect brands, products, and topics so AI agents understand authority and cite pages more accurately."
 summary: "Agents cite sources they understand clearly. Entity mapping builds explicit, machine-readable relationships between your brand, products, and expertise so AI systems route queries to you accurately."
 keywords:

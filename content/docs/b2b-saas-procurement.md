@@ -4,7 +4,7 @@ metaTitle: "B2B SaaS Procurement for AI Buying Agents"
 date: 2026-03-22
 weight: 21
 category: "Industry"
-description: "SaaS websites built for human buying committees fail AI procurement agents. How to expose machine-readable capabilities, decision-grade pricing, and typed next steps."
+description: "SaaS websites built for human buying committees fail AI procurement agents. How to expose machine-readable capabilities, decision-grade pricing, and typed."
 metaDescription: "Learn how B2B SaaS sites can expose machine-readable capabilities, decision-grade pricing, and next steps for AI procurement agents."
 summary: "AI procurement agents compare feature coverage, pricing logic, compliance posture, and execution paths. SaaS vendors that expose these cleanly get shortlisted. The rest get eliminated before sales enters the conversation."
 keywords:

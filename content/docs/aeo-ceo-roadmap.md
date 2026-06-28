@@ -4,7 +4,7 @@ metaTitle: "AEO for CEOs: 90-Day Roadmap for Agent Readiness"
 date: 2026-04-14
 weight: 96
 category: "Guide"
-description: "A 90-day executive plan for making your company the default backend for autonomous AI agents. Budget allocation, organizational alignment, KPIs, and competitive moat strategy."
+description: "A CEO roadmap for Agent Engine Optimization, covering budget, team alignment, KPIs, governance, and execution-layer priorities."
 metaDescription: "Follow a 90-day AEO roadmap for CEOs covering budget, organizational alignment, KPIs, execution-layer priorities, and defensible competitive advantage."
 summary: "AEO is not a technical task. It is a strategic moat. This 90-day roadmap covers board alignment, budget allocation, organizational mandates, and measurement for executives."
 keywords:

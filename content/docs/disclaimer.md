@@ -3,7 +3,14 @@ title: "Legal Disclaimer"
 metaTitle: "Legal Disclaimer for AEO Research and Protocols"
 date: 2026-03-08
 weight: 101
+category: "Guide"
 description: "Legal disclaimer covering cryptocurrency, financial information, and payment-related content on agent-engine-optimization.com."
+summary: "Disclaimer for Agent Engine Optimization, including editorial scope, informational use, and limits of protocol and market analysis."
+keywords:
+  - AEO disclaimer
+  - site disclaimer
+  - Agent Engine Optimization
+  - AI research
 ---
 
 ## Legal Disclaimer: Cryptocurrency and Financial Information

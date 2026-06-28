@@ -4,7 +4,7 @@ metaTitle: "Agent Evaluation Benchmarks for Data-Driven AEO"
 date: 2026-04-12
 weight: 84
 category: "Guide"
-description: "Agent evaluation frameworks measure autonomy, accuracy, cost, latency, and task success across the full lifecycle. Turn AEO from guesswork into data-driven optimization."
+description: "Agent evaluation frameworks measure autonomy, accuracy, cost, latency, and task success across the full lifecycle. Turn AEO from guesswork into data-driven."
 metaDescription: "Use agent evaluation benchmarks to measure autonomy, accuracy, cost, latency, and task success across the full lifecycle."
 summary: "Evaluating agent performance goes beyond accuracy. Modern frameworks measure autonomy, cost efficiency, latency, and real-world task completion. Here is how to build an evaluation practice."
 keywords:

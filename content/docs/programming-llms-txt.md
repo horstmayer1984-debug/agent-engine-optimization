@@ -4,7 +4,7 @@ metaTitle: "How to Write llms.txt for AI Agents"
 date: 2026-04-12
 weight: 62
 category: "Guide"
-description: "llms.txt is the simplest and most powerful agent discovery mechanism. Exact structure, content rules, dynamic generation for large sites, and integration with schema markup."
+description: "llms.txt is the simplest and most capable agent discovery mechanism. Exact structure, content rules, dynamic generation for large sites, and integration."
 metaDescription: "Learn how to write llms.txt for AI agents, including structure, content rules, dynamic generation, and schema integration."
 summary: "llms.txt tells AI agents what your site offers and how to interact with it. This guide covers the exact format, content rules, common mistakes, and how to generate it dynamically for large sites."
 keywords:
@@ -45,7 +45,7 @@ llms.txt is a Markdown file. It uses headings to organize information and plain 
 
 ## Content rules
 
-Write for extraction, not persuasion. Every sentence should contain a fact that an agent can use. Remove adjectives that do not carry information. Replace "our powerful platform" with "API-based scheduling platform for healthcare providers."
+Write for extraction, not persuasion. Every sentence should contain a fact that an agent can use. Remove adjectives that do not carry information. Replace "our capable platform" with "API-based scheduling platform for healthcare providers."
 
 Keep descriptions to one or two sentences per item. Agents do not need paragraphs. They need precise claims they can match against user queries.
 

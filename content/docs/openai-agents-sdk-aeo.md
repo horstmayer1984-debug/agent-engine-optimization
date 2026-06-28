@@ -1,6 +1,6 @@
 ---
 title: "OpenAI Agents SDK and AEO: What Website Teams Should Learn"
-metaTitle: "OpenAI Agents SDK and AEO"
+metaTitle: "OpenAI Agents SDK and AEO Guide"
 date: 2026-06-28
 weight: 176
 category: "Architecture"

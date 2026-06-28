@@ -1,5 +1,6 @@
 ---
 title: "Cloudflare AI Labyrinth: What It Means for AI Crawlers and AEO"
+metaTitle: "Cloudflare AI Labyrinth and AEO"
 date: 2026-05-23
 weight: 130
 category: "Analysis"

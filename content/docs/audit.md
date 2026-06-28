@@ -3,9 +3,14 @@ title: "AEO Readiness Audit"
 metaTitle: "AEO Readiness Audit for AI Agent Websites"
 description: "Audit your website, APIs, structured data, llms.txt, and execution-layer readiness for AI agents, answer engines, and agentic commerce."
 summary: "A practical AEO audit framework covering AI discoverability, structured content, protocol readiness, data determinism, and action capability."
+keywords:
+  - AEO audit
+  - Agent Engine Optimization audit
+  - agent-ready website audit
+  - AI search readiness
 date: 2026-03-09
 weight: 10
-category: "Service"
+category: "Tool"
 ---
 
 A systematic evaluation of your digital infrastructure across two layers:
@@ -74,7 +79,7 @@ Focused on the read layer with an execution layer overview.
 
 Comprehensive assessment of both layers, including API infrastructure and protocol compatibility analysis.
 
-**Scope:** Website, APIs, data infrastructure, integration landscape.
+**Scope:** Website, APIs, data infrastructure, integration market.
 **Delivery:** 10 working days.
 **Best for:** E-commerce, SaaS, travel and booking, and any business with existing API infrastructure.
 

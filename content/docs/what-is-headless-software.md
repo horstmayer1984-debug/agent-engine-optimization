@@ -1,5 +1,6 @@
 ---
 title: "What Is Headless Software? Meaning, Examples, Benefits, and Risks"
+metaTitle: "What Is Headless Software? Meaning and Examples"
 date: 2026-05-13
 weight: 121
 category: "Guide"

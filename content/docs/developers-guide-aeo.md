@@ -1,9 +1,10 @@
 ---
 title: "How Developers Can Build Websites for Agent Engine Optimization"
+metaTitle: "Developer Guide to AEO and Agent-Ready Sites"
 date: 2026-03-22
 weight: 20
 category: "Guide"
-description: "A technical guide for developers building agent-ready websites. Covers structured data, API design, sandbox testing, authentication, and server optimization for autonomous AI agents."
+description: "A technical guide for developers building agent-ready websites. Covers structured data, API design, sandbox testing, authentication, and server optimization."
 metaDescription: "Build agent-ready websites with structured data, API design, sandbox testing, authentication, server optimization, and clear execution paths."
 summary: "Developers must move beyond human-first web design. This guide covers the technical requirements for making websites operable by autonomous AI agents on the execution layer."
 keywords:

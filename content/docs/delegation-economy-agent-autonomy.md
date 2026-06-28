@@ -1,9 +1,10 @@
 ---
 title: "The Delegation Economy: Five Levels of Agent Autonomy in Commerce"
+metaTitle: "Delegation Economy and Agent Autonomy"
 date: 2026-04-14
 weight: 91
 category: "Framework"
-description: "From human-only purchases to fully autonomous agent transactions. The five levels of delegation that define how AI agents participate in commerce and business processes."
+description: "Learn how delegated authority, approval rules, and autonomy levels shape AI agent participation in commerce and work."
 metaDescription: "Understand the five levels of agent autonomy, from human-only purchases to delegated approvals, supervised workflows, and fully autonomous transactions."
 summary: "Commerce is shifting from searching to delegating. Five levels of agent autonomy define how much control humans retain, from assisted browsing to fully autonomous purchasing."
 keywords:

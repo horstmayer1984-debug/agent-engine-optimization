@@ -1,6 +1,6 @@
 ---
 title: "Qwen AgentWorld: What Agent Benchmarks Mean for AEO"
-metaTitle: "Qwen AgentWorld and AEO"
+metaTitle: "Qwen AgentWorld and AEO Benchmark"
 date: 2026-06-28
 weight: 183
 category: "Analysis"

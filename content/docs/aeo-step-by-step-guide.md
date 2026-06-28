@@ -4,7 +4,7 @@ metaTitle: "Agent Engine Optimization Step-by-Step Guide"
 date: 2026-04-12
 weight: 50
 category: "Guide"
-description: "The most detailed practical AEO playbook for 2026. Five phases from content restructuring to feedback loops, with testing methodology and real implementation patterns."
+description: "The most detailed practical AEO playbook for 2026. Five phases from content restructuring to feedback loops, with testing methodology and real."
 metaDescription: "Follow a practical AEO playbook from content restructuring to schema, internal links, feedback loops, testing, and implementation patterns."
 summary: "AEO in practice means restructuring content for machine extraction, exposing action endpoints, building agent feedback loops, and testing with simulated agent traffic. This guide covers all five phases."
 keywords:

@@ -2,6 +2,11 @@
 title: "AEO vs. SEO vs. GEO — The Real Separation"
 description: "Compare AEO, SEO, and GEO by goal, user, optimization layer, and success metric so teams can choose the right strategy for AI search."
 summary: "A practical comparison of SEO, GEO, and Agent Engine Optimization across discovery, answer generation, and execution-layer readiness."
+keywords:
+  - AEO vs SEO vs GEO
+  - Agent Engine Optimization
+  - Generative Engine Optimization
+  - AI search optimization
 date: 2026-03-09
 weight: 2
 category: "Analysis"

@@ -4,7 +4,7 @@ metaTitle: "Agent Harnesses for Production Orchestration"
 date: 2026-04-12
 weight: 81
 category: "Architecture"
-description: "Agent harnesses are production-grade orchestration layers that manage lifecycles, approvals, tool routing, and state for multi-agent systems. The shift from demos to infrastructure."
+description: "Learn how agent harnesses coordinate tools, routing, state, memory, and evaluation for reliable multi-agent systems."
 metaDescription: "Learn how agent harnesses manage lifecycles, approvals, tool routing, memory, and state for production multi-agent systems."
 summary: "Single agents were demos. Harnesses turn them into reliable production systems by managing lifecycles, human approvals, sub-agent delegation, retries, and persistent state."
 keywords:

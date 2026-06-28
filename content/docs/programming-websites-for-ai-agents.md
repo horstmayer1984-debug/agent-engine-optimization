@@ -4,7 +4,7 @@ metaTitle: "How to Program Websites for AI Agents"
 date: 2026-04-12
 weight: 60
 category: "Architecture"
-description: "Make your website agent-ready with llms.txt, OpenAPI specs, MCP endpoints, semantic HTML, and Agent Cards. Includes sandboxing and real-time WebSocket patterns for production systems."
+description: "Make your website agent-ready with llms.txt, OpenAPI specs, MCP endpoints, semantic HTML, and Agent Cards. Includes sandboxing and real-time WebSocket."
 metaDescription: "Make websites agent-ready with llms.txt, OpenAPI, MCP endpoints, semantic HTML, Agent Cards, and production-safe patterns."
 summary: "Websites become agent-ready by adding llms.txt for discovery, OpenAPI specs with agent-friendly descriptions, MCP servers for dynamic tool access, semantic HTML for extraction, and Agent Cards for A2A collaboration."
 keywords:

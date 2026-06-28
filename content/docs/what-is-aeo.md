@@ -3,6 +3,11 @@ title: "What Is Agent Engine Optimization?"
 metaTitle: "What Is Agent Engine Optimization (AEO)?"
 description: "Learn what Agent Engine Optimization means, how it differs from SEO and GEO, and how websites become discoverable, readable, and actionable for AI agents."
 summary: "A plain-English definition of Agent Engine Optimization and how it differs from SEO, GEO, answer optimization, and traditional web visibility."
+keywords:
+  - Agent Engine Optimization
+  - what is AEO
+  - agent-ready websites
+  - AI agents
 date: 2026-03-09
 weight: 1
 category: "Framework"
@@ -75,7 +80,7 @@ This is the layer that creates real differentiation — and real business impact
 
 ---
 
-## The protocol landscape
+## The protocol market
 
 | Protocol | Developer | Purpose |
 |---|---|---|

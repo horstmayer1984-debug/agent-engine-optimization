@@ -3,8 +3,8 @@ title: "Agent Engine Optimization Use Cases for Developers and Code Automation i
 metaTitle: "AEO Use Cases for Developers and Code Workflows"
 date: 2026-03-19
 weight: 24
-category: "Use Cases"
-description: "How developers benefit from AEO: AI agents navigate documentation, generate code, debug issues, and orchestrate multi-step development workflows through optimized repos and APIs."
+category: "Guide"
+description: "How developers benefit from AEO: AI agents navigate documentation, generate code, debug issues, and orchestrate multi-step development workflows through."
 metaDescription: "See how AEO helps developers improve documentation, code generation, debugging, and multi-step workflows through optimized repos and APIs."
 summary: "Developer tools and documentation are prime territory for AEO. When repos, docs, and APIs are optimized for agent interaction, coding agents become dramatically more effective."
 keywords:

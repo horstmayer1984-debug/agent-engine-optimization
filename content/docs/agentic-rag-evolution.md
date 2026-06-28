@@ -4,7 +4,7 @@ metaTitle: "Agentic RAG in 2026: Retrieval Stack Guide"
 date: 2026-04-12
 weight: 85
 category: "Architecture"
-description: "Modern agentic RAG is modular, multi-hop, and self-correcting. Eight architecture patterns from basic retrieval to graph-based and hybrid RAG for production agent systems."
+description: "Modern agentic RAG is modular, multi-hop, and self-correcting. Eight architecture patterns from basic retrieval to graph-based and hybrid RAG for production."
 metaDescription: "Compare eight agentic RAG patterns, from basic retrieval to graph-based, tool-using, memory-aware, and hybrid systems for production AI agents."
 summary: "RAG in 2026 has evolved far beyond simple vector search. Agentic RAG, graph RAG, and hybrid approaches give agents self-correcting, multi-hop retrieval that dramatically improves extraction accuracy."
 keywords:

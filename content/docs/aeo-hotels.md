@@ -3,7 +3,7 @@ title: "AEO for Hotels: Making Rooms Bookable by AI Assistants"
 date: 2026-04-14
 weight: 101
 category: "Industry"
-description: "Hotels need invisible APIs instead of interactive calendars. How to structure room data, expose real-time availability, and build deterministic reservation endpoints for AI agents."
+description: "Hotels need invisible APIs instead of interactive calendars. How to structure room data, expose real-time availability, and build deterministic reservation."
 metaDescription: "Learn how hotels expose room data, real-time availability, amenities, policies, and reservation endpoints for AI booking assistants."
 summary: "AI assistants book hotels by querying APIs, not clicking calendars. Hotels that expose structured room data, real-time availability, and deterministic reservation endpoints capture agent-driven bookings."
 keywords:

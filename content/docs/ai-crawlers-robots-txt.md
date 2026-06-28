@@ -1,5 +1,6 @@
 ---
 title: "AI Crawlers and robots.txt: What to Allow, Block, and Monitor"
+metaTitle: "AI Crawlers and robots.txt"
 date: 2026-05-17
 weight: 129
 category: "Guide"

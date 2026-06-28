@@ -3,7 +3,7 @@ title: "MCP Elicitation: Human Input for Safer Agent Workflows"
 date: 2026-05-23
 weight: 134
 category: "Architecture"
-description: "MCP Elicitation lets servers request structured user input through the client. Learn when it helps, what it must not ask for, and how to design safe agent workflows."
+description: "MCP Elicitation lets servers request structured user input through the client. Learn when it helps, what it must not ask for, and how to design safe agent."
 summary: "A practical guide to MCP Elicitation, structured user input, accept/decline/cancel flows, human-in-the-loop design, and AEO workflow implications."
 keywords:
   - MCP Elicitation

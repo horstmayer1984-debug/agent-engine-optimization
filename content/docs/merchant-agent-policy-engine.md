@@ -1,5 +1,6 @@
 ---
 title: "Merchant Agent Policy Engines: Rules for Selling to AI Agents"
+metaTitle: "Merchant Agent Policy Engine"
 date: 2026-05-25
 weight: 154
 category: "Guide"

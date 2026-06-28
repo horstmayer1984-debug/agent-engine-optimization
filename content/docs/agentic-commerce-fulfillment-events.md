@@ -1,5 +1,6 @@
 ---
 title: "Agentic Commerce Fulfillment Events: Orders, Returns, and Loyalty"
+metaTitle: "Agentic Commerce Fulfillment Events"
 date: 2026-05-25
 weight: 156
 category: "Architecture"

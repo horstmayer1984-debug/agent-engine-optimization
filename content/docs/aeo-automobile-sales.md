@@ -4,7 +4,7 @@ metaTitle: "AEO for Automobile Sales: AI Agent Readiness Guide"
 date: 2026-04-14
 weight: 95
 category: "Industry"
-description: "AI agents now build 100-vehicle shortlists in seconds. How OEMs and dealers must structure configurator data, fleet procurement endpoints, and aftermarket services for autonomous purchasing."
+description: "AI agents now build 100-vehicle shortlists in seconds. How OEMs and dealers must structure configurator data, fleet procurement endpoints, and aftermarket."
 metaDescription: "See how automotive sites structure configurator data, inventory, fleet procurement, and service workflows so AI agents can compare vehicles and route buyers."
 summary: "OEMs adopting AEO capture 3-5x more agent-driven leads. Configuration agents, fleet procurement bots, and aftermarket service agents need structured vehicle data and deterministic ordering endpoints."
 keywords:

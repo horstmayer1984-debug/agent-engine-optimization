@@ -1,5 +1,6 @@
 ---
 title: "The AI Optimization Maturity Model: From SEO to Agent Readiness"
+metaTitle: "AI Optimization Maturity Model"
 date: 2026-04-29
 weight: 129
 category: "Framework"

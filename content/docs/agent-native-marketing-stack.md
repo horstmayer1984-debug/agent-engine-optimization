@@ -4,7 +4,7 @@ metaTitle: "Agent-Native Marketing Stack for AI Search and Agents"
 date: 2026-03-22
 weight: 43
 category: "Architecture"
-description: "The complete tech stack for agent-native marketing platforms. From foundation models and orchestration frameworks to memory layers, tool integrations, and deployment patterns."
+description: "Map the agent-native marketing stack, including orchestration, memory, tool integrations, attribution, and content systems."
 metaDescription: "See the agent-native marketing stack from models and orchestration to memory, tools, deployment patterns, measurement, and governance."
 summary: "Agent-native marketing replaces manual campaigns with autonomous multi-agent crews. This guide covers the exact tech stack: models, orchestration, memory, tools, and deployment."
 keywords:
@@ -69,7 +69,7 @@ AWS Bedrock offers managed infrastructure for agent deployment with built-in mod
 
 A production marketing agent system typically includes these roles:
 
-Researcher: scans competitive landscape, identifies trends, surfaces audience insights from the knowledge base.
+Researcher: scans competitive market, identifies trends, surfaces audience insights from the knowledge base.
 
 Strategist: defines campaign objectives, audience segments, channel mix, and budget allocation based on research output and historical performance.
 

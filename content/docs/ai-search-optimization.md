@@ -4,7 +4,7 @@ metaTitle: "AI Search Optimization: SEO, GEO, and AEO Framework"
 date: 2026-04-29
 weight: 123
 category: "Framework"
-description: "AI Search Optimization connects SEO, Answer Engine Optimization, GEO and Agent Engine Optimization into one practical framework. The AI Optimization Stack explained."
+description: "AI Search Optimization connects SEO, Answer Engine Optimization, GEO and Agent Engine Optimization into one practical framework. The AI Optimization Stack."
 metaDescription: "Understand AI Search Optimization across SEO, GEO, Answer Engine Optimization, and Agent Engine Optimization in one framework."
 summary: "AI Search Optimization is not one tactic. It is a layered strategy. SEO gets you found. AEO gets you answered. GEO gets you cited. Agent Engine Optimization gets you used."
 keywords:

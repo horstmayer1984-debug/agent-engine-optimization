@@ -4,7 +4,7 @@ metaTitle: "Agent UX and Human-in-the-Loop Design"
 date: 2026-04-12
 weight: 86
 category: "Guide"
-description: "Agent-responsive design makes interfaces bilingual for humans and machines. Semantic HTML, WebSocket endpoints, structured feedback, and approval flows that serve both audiences."
+description: "Learn how human-in-the-loop design improves agent UX with approvals, feedback, escalation paths, and safer execution."
 metaDescription: "Design interfaces for humans and AI agents with semantic HTML, approvals, structured feedback, status messages, and shared workflows."
 summary: "Modern interfaces must serve two audiences simultaneously: human users and AI agents. Agent-responsive design uses semantic HTML, structured endpoints, and feedback loops to satisfy both."
 keywords:

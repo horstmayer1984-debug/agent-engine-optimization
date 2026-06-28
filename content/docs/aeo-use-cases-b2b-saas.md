@@ -2,7 +2,7 @@
 title: "Agent Engine Optimization Use Cases for B2B SaaS in 2026"
 date: 2026-03-19
 weight: 21
-category: "Use Cases"
+category: "Guide"
 description: "How B2B SaaS companies benefit from AEO: AI agents research vendors, compare features, validate compliance, and initiate demos autonomously."
 summary: "B2B SaaS is where AEO meets long sales cycles. AI agents now research vendors, compare features, check compliance, and book demos before a human ever enters the conversation."
 keywords:

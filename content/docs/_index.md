@@ -1,10 +1,17 @@
 ---
 title: "Agent Engine Optimization Documentation"
+date: 2026-06-28
 linkTitle: "Documentation"
 metaTitle: "AEO Guides, Protocols, and Checklists for AI Agents"
 description: "Browse AEO guides, protocol explainers, implementation checklists, and industry pages for AI-agent-ready websites and AI search visibility."
-summary: "A structured index of Agent Engine Optimization guides, protocol explainers, implementation checklists, and industry pages."
+summary: "Documentation and research articles about Agent Engine Optimization, AI search, agentic commerce, MCP, payments, and agent-ready websites."
+keywords:
+  - Agent Engine Optimization
+  - AEO docs
+  - agent-ready websites
+  - AI agents
 weight: 1
+category: "Guide"
 bookFlatSection: true
 ---
 

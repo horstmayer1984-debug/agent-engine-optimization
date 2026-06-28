@@ -1,5 +1,6 @@
 ---
 title: "Agentic Authentication for Commerce: FIDO, AP2, and Verifiable Intent"
+metaTitle: "Agentic Authentication for Commerce"
 date: 2026-05-25
 weight: 152
 category: "Architecture"

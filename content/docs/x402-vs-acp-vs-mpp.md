@@ -35,7 +35,7 @@ If the agent buys one API response, x402 fits. If the agent buys a product from 
 
 x402 is attractive because it keeps the protocol close to the web. A server can respond with HTTP 402 Payment Required, specify the price and payment requirements, then verify payment before serving the resource.
 
-For agent workflows, this is powerful. It removes account setup, subscription negotiation, and API key provisioning from small digital transactions.
+For agent workflows, this is capable. It removes account setup, subscription negotiation, and API key provisioning from small digital transactions.
 
 Good x402 use cases include:
 

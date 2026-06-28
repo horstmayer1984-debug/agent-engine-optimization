@@ -1,6 +1,6 @@
 ---
 title: "FastMCP Agent Tools: A Practical Guide for Agent-Ready APIs"
-metaTitle: "FastMCP Agent Tools"
+metaTitle: "FastMCP Agent Tools for AEO"
 date: 2026-06-28
 weight: 182
 category: "Guide"

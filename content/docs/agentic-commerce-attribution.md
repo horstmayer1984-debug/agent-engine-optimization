@@ -1,5 +1,6 @@
 ---
 title: "Agentic Commerce Attribution: Measuring AI Referrals and Intent"
+metaTitle: "Agentic Commerce Attribution Guide"
 date: 2026-05-25
 weight: 151
 category: "Guide"

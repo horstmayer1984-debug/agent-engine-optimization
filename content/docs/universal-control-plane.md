@@ -3,7 +3,7 @@ title: "Universal Control Plane: Governance for the Execution Layer"
 date: 2026-03-22
 weight: 24
 category: "Architecture"
-description: "The execution layer becomes dangerous without governance. How to build a control plane that separates read from execute, enforces policy, handles retries, and makes autonomous workflows recoverable."
+description: "The execution layer becomes dangerous without governance. How to build a control plane that separates read from execute, enforces policy, handles retries."
 metaDescription: "Build a control plane for AI agents: separate read from execute, enforce policy, handle retries, and keep autonomous workflows recoverable."
 summary: "Once autonomous systems interact with internal services, a website becomes a boundary system. The Universal Control Plane governs what can be inspected, what can be executed, and under which authority."
 keywords:

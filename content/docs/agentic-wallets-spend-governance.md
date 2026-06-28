@@ -1,5 +1,6 @@
 ---
 title: "Agentic Wallets and Spend Governance: How AI Agents Pay Safely"
+metaTitle: "Agentic Wallets and Spend Governance"
 date: 2026-05-25
 weight: 153
 category: "Architecture"

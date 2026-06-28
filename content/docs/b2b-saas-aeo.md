@@ -27,7 +27,7 @@ The question for SaaS companies is straightforward: when that agent evaluates yo
 
 Marketing pages describe features in persuasive language. An agent needs data.
 
-"Powerful collaboration tools" means nothing to a machine. "Real-time document editing, up to 50 concurrent users, version history for 365 days, integrations with Slack, Microsoft Teams, and Google Workspace" means everything.
+"capable collaboration tools" means nothing to a machine. "Real-time document editing, up to 50 concurrent users, version history for 365 days, integrations with Slack, Microsoft Teams, and Google Workspace" means everything.
 
 For each feature, provide:
 

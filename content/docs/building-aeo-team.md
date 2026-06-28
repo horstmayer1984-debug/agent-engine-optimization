@@ -4,7 +4,7 @@ metaTitle: "How to Build an AEO Team for AI Search and Agents"
 date: 2026-04-19
 weight: 113
 category: "Guide"
-description: "Which roles an AEO team needs, what skills to hire for, and how to structure the team across content, engineering, and analytics. From solo operator to enterprise team."
+description: "Learn how to build an AEO team across content, engineering, analytics, product, and governance roles without overstaffing."
 metaDescription: "Learn which roles an AEO team needs, what skills to hire, how to divide ownership, and how to scale from solo operator to enterprise team."
 summary: "AEO requires skills that span content, engineering, and analytics. Here is how to build the team from solo operator to enterprise function, with specific role definitions and hiring priorities."
 keywords:

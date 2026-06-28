@@ -3,7 +3,7 @@ title: "GEO vs AEO: From AI Visibility to Agent Usability"
 date: 2026-04-29
 weight: 122
 category: "Framework"
-description: "GEO helps your brand appear in AI-generated answers. Agent Engine Optimization helps AI agents use your website. The strategic difference between visibility and actionability."
+description: "GEO helps your brand appear in AI-generated answers. Agent Engine Optimization helps AI agents use your website. The strategic difference between visibility."
 metaDescription: "Compare GEO and AEO: AI answer visibility versus websites that AI agents can understand, trust, compare, and use for real actions."
 summary: "GEO solves visibility. Agent Engine Optimization solves usability. Both matter, but they focus on different layers. Here is when each applies and how to connect them."
 keywords:

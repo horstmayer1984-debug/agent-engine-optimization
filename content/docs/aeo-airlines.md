@@ -4,7 +4,7 @@ metaTitle: "AEO for Airlines: AI Booking Readiness Guide"
 date: 2026-04-14
 weight: 102
 category: "Industry"
-description: "Airlines must deliver real-time pricing, structured ancillary data, and deterministic ticketing endpoints for AI agents that book flights in seconds. The AEO implementation path."
+description: "Learn how airlines can prepare booking flows, fare rules, baggage data, and APIs for AI agents that compare and book flights."
 metaDescription: "Learn how airlines use real-time pricing, structured ancillary data, and deterministic ticketing endpoints for AI booking agents."
 summary: "AI agents book flights by comparing real-time prices, checking ancillary costs, and executing ticketing in seconds. Airlines that deliver structured data with sub-second response times capture agent bookings."
 keywords:

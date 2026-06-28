@@ -1,6 +1,6 @@
 ---
 title: "browser-use for Web Agents: AEO Lessons for Real Websites"
-metaTitle: "browser-use for Web Agents"
+metaTitle: "browser-use for Web Agents and AEO"
 date: 2026-06-28
 weight: 177
 category: "Guide"

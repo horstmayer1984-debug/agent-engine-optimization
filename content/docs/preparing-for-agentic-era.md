@@ -4,7 +4,7 @@ metaTitle: "Preparing for the Agentic AI Era: AEO Roadmap"
 date: 2026-03-22
 weight: 42
 category: "Guide"
-description: "A practical 12-month roadmap for transitioning from task execution to agent orchestration. Covers skills, business model evolution, and daily habits that compound."
+description: "Prepare for the agentic era with practical updates to skills, business models, governance, workflows, and website readiness."
 metaDescription: "Use a 12-month roadmap for moving from task execution to agent orchestration, with skills, models, infrastructure, governance, and habits to build."
 summary: "The agentic era demands a shift from task execution to agent orchestration. This roadmap covers the skills, business model transitions, and operational changes needed in the next 12 months."
 keywords:
@@ -82,7 +82,7 @@ Maintain a personal knowledge base that agents can read and write. Every researc
 
 Run agents in parallel with your manual work. Let them handle the first draft while you focus on judgment calls. Review their output to calibrate quality and identify where the system needs improvement.
 
-Spend 30 minutes daily testing new agent capabilities in your domain. The landscape changes weekly. The professionals who maintain hands-on experience with current tools make better orchestration decisions than those who only read about them.
+Spend 30 minutes daily testing new agent capabilities in your domain. The market changes weekly. The professionals who maintain hands-on experience with current tools make better orchestration decisions than those who only read about them.
 
 ## What this means for AEO
 

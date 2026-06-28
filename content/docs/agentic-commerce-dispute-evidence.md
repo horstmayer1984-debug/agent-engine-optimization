@@ -1,5 +1,6 @@
 ---
 title: "Agentic Commerce Dispute Evidence: Audit Trails for AI Purchases"
+metaTitle: "Agentic Commerce Dispute Evidence"
 date: 2026-05-25
 weight: 157
 category: "Analysis"

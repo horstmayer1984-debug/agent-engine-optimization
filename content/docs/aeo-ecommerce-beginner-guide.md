@@ -4,7 +4,7 @@ metaTitle: "AEO for Ecommerce: Beginner Implementation Guide"
 date: 2026-03-22
 weight: 30
 category: "Guide"
-description: "A practical beginner's guide to implementing Answer Engine Optimization for ecommerce. Covers content audits, schema markup, answer-first structure, and AI citation measurement."
+description: "A practical beginner's guide to implementing Answer Engine Optimization for ecommerce. Covers content audits, schema markup, answer-first structure, and AI."
 metaDescription: "Start AEO for ecommerce with content audits, schema markup, answer-first product pages, crawler access, and AI citation measurement."
 summary: "AEO makes ecommerce sites visible in AI-generated answers. This guide walks through every step from content audit to citation tracking, with concrete examples for online stores."
 keywords:

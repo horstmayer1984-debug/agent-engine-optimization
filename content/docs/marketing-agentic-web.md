@@ -3,7 +3,7 @@ title: "Marketing Strategies for the Agentic Web"
 date: 2026-03-22
 weight: 23
 category: "Guide"
-description: "How marketing must evolve from persuasion to operational clarity. Covers content strategy, data-backed claims, structured formats, and cross-verification readiness for AI agents."
+description: "How marketing must evolve from persuasion to operational clarity. Covers content strategy, data-backed claims, structured formats, and cross-verification."
 metaDescription: "See how marketing changes for AI agents through operational clarity, structured formats, evidence, and cross-verification readiness."
 summary: "Marketing for machines means building trust through transparency. AI agents verify claims, extract data, and ignore persuasive copy that lacks factual backing."
 keywords:

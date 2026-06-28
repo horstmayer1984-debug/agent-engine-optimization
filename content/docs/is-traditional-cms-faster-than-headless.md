@@ -3,7 +3,7 @@ title: "Is a Traditional CMS Faster Than a Headless CMS?"
 date: 2026-05-23
 weight: 147
 category: "Analysis"
-description: "Compare traditional CMS and headless CMS performance for SEO, including caching, static generation, server rendering, JavaScript, images, and real-world tradeoffs."
+description: "Compare traditional CMS and headless CMS performance for SEO, including caching, static generation, server rendering, JavaScript, images, and real-world."
 summary: "A practical performance comparison of traditional CMS and headless CMS architecture, explaining when each can be faster and what SEO teams should test."
 keywords:
   - is traditional CMS faster than headless

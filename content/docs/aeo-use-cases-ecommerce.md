@@ -2,8 +2,8 @@
 title: "Agent Engine Optimization Use Cases for Ecommerce in 2026"
 date: 2026-03-19
 weight: 20
-category: "Use Cases"
-description: "Practical AEO use cases for ecommerce: how autonomous AI agents discover products, compare offers, negotiate prices, and complete purchases through optimized digital infrastructure."
+category: "Guide"
+description: "Practical AEO use cases for ecommerce: how autonomous AI agents discover products, compare offers, negotiate prices, and practical purchases through."
 metaDescription: "See how ecommerce AEO helps agents discover products, compare offers, evaluate trust, negotiate prices, and complete purchases."
 summary: "Ecommerce is where AEO becomes concrete. These use cases show how AI agents interact with online stores when product data, purchase paths, and policies are optimized for machine execution."
 keywords:

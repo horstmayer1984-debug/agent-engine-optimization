@@ -1,5 +1,6 @@
 ---
 title: "Universal Cart and Agentic Commerce: Merchant Readiness Guide"
+metaTitle: "Universal Cart and Agentic Commerce"
 date: 2026-05-25
 weight: 150
 category: "Guide"

@@ -1,6 +1,6 @@
 ---
 title: "mem0 Agent Memory: Why Persistent Context Matters for AEO"
-metaTitle: "mem0 Agent Memory and AEO"
+metaTitle: "mem0 Agent Memory for AEO"
 date: 2026-06-28
 weight: 181
 category: "Architecture"

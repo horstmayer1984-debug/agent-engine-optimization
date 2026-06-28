@@ -1,9 +1,10 @@
 ---
 title: "GitHub Copilot Coding Agent: How to Prepare Agent-Ready Repos"
+metaTitle: "GitHub Copilot Coding Agent Repos"
 date: 2026-05-23
 weight: 137
 category: "Guide"
-description: "GitHub Copilot coding agent brings asynchronous agent work into GitHub workflows. Learn how to structure repositories, issues, tests, and docs for better agent output."
+description: "GitHub Copilot coding agent brings asynchronous agent work into GitHub workflows. Learn how to structure repositories, issues, tests, and docs for better."
 summary: "A practical guide to GitHub Copilot coding agent readiness, covering repo hygiene, issue design, CI, permissions, and lessons for agent-readable systems."
 keywords:
   - GitHub Copilot coding agent

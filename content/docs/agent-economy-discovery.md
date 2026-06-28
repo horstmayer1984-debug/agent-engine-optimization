@@ -4,7 +4,7 @@ metaTitle: "Agent Economy Discovery: How AEO Helps Agents Find You"
 date: 2026-04-19
 weight: 115
 category: "Analysis"
-description: "The agent economy already processes 165 million transactions worth $50 million. But discovery and reporting remain broken. How Agent Engine Optimization solves the matching problem between agents and services."
+description: "The agent economy already processes 165 million transactions worth $50 million. But discovery and reporting remain broken. How Agent Engine Optimization."
 metaDescription: "See how AEO helps match agents with services when agent activity is growing but discovery, attribution, crawler access, and reporting still lag."
 summary: "480,000 active AI agents. 165 million transactions. $50 million spent. The agent economy is real but discovery is broken. AEO solves the matching problem between agents that have money to spend and services they cannot find."
 keywords:
