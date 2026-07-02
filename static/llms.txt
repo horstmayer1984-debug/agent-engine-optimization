@@ -40,6 +40,19 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 - [Chrome WebMCP Origin Trial: Website Readiness Checklist](https://agent-engine-optimization.com/docs/chrome-webmcp-origin-trial/)
 - [Google Generative AI Search Guide 2026: What Actually Matters](https://agent-engine-optimization.com/docs/google-generative-ai-search-guide-2026/)
 
+## July 2026 AEO, AI crawler, and agent framework updates
+
+- [Cloudflare Search, Agent, and Training Crawlers: What AEO Teams Should Do](https://agent-engine-optimization.com/docs/cloudflare-search-agent-training-crawlers/)
+- [Content-Signal for AI Crawler Policy: A Practical AEO Guide](https://agent-engine-optimization.com/docs/content-signal-ai-crawler-policy/)
+- [AI Crawl-to-Referral Ratio: How to Measure Crawler Value](https://agent-engine-optimization.com/docs/ai-crawl-to-referral-ratio/)
+- [Cloudflare Monetization Gateway and x402: What It Means for Agent Payments](https://agent-engine-optimization.com/docs/cloudflare-monetization-gateway-x402/)
+- [Pay Per Use for Answer Engines: The Next AI Search Monetization Model](https://agent-engine-optimization.com/docs/pay-per-use-answer-engines/)
+- [Google Genkit Agents API: What Agent-Ready Website Teams Should Learn](https://agent-engine-optimization.com/docs/google-genkit-agents-api/)
+- [Google ADK 2.0 and Deterministic Agent Workflows: AEO Lessons](https://agent-engine-optimization.com/docs/google-adk-2-deterministic-agent-workflows/)
+- [ChatGPT Thinking Mode Citations: What SEO and AEO Teams Should Track](https://agent-engine-optimization.com/docs/chatgpt-thinking-mode-citations/)
+- [AI Search Demand Redistribution: Why Traffic Is Moving, Not Simply Disappearing](https://agent-engine-optimization.com/docs/ai-search-demand-redistribution/)
+- [WPVibe WordPress MCP Server: What It Means for Agent-Ready CMS Workflows](https://agent-engine-optimization.com/docs/wpvibe-wordpress-mcp-server/)
+
 ## GitHub and Hugging Face agent infrastructure trends
 
 - [OpenAI Agents SDK and AEO: What Website Teams Should Learn](https://agent-engine-optimization.com/docs/openai-agents-sdk-aeo/)
@@ -158,4 +171,4 @@ Agent Engine Optimization (AEO) is the discipline of structuring websites, APIs,
 
 ## Last updated
 
-2026-06-28
+2026-07-02
