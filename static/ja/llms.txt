@@ -1,0 +1,16 @@
+# Agent Engine Optimization
+
+Agent Engine Optimization、エージェント対応ウェブサイト、AI検索、エージェントコマース、プロトコル、実行レイヤーに関する日本語のリサーチハブです。
+
+## 主要ドキュメント
+
+- https://agent-engine-optimization.com/ja/docs/what-is-aeo/
+- https://agent-engine-optimization.com/ja/docs/implement-aeo/
+- https://agent-engine-optimization.com/ja/docs/protocols/
+- https://agent-engine-optimization.com/ja/docs/audit/
+- https://agent-engine-optimization.com/ja/docs/aeo-ecommerce/
+- https://agent-engine-optimization.com/ja/docs/execution-layer/
+
+## エージェント向けの範囲
+
+コンテンツ、構造化データ、API、トランザクションフローを、自律型AIエージェントが発見し、解釈し、検証し、利用できるようにする方法を解説します。

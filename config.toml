@@ -29,6 +29,11 @@ disableKinds = ["taxonomy", "term"]
     languageCode = "de"
     title = "Agent Engine Optimization"
     weight = 4
+  [languages.ja]
+    languageName = "日本語"
+    languageCode = "ja"
+    title = "Agent Engine Optimization"
+    weight = 5
 
 [params]
   BookTheme = "light"

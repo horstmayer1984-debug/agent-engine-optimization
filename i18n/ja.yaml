@@ -1,0 +1,11 @@
+- id: Search
+  translation: 検索
+
+- id: Edit this page
+  translation: このページを編集
+
+- id: Last modified by
+  translation: 最終更新者
+
+- id: bookSearchConfig
+  translation: '{ cache: true }'
