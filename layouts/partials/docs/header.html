@@ -15,7 +15,7 @@
     <a href="{{ "/docs/future-of-aeo/" | relLangURL }}" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">{{ if eq .Language.Lang "es" }}Investigación{{ else }}Research{{ end }}</a>
     <a href="/tools/aeo-readiness-checker.html" style="font-size:.82rem; color:#0f6e9c !important; text-decoration:none; font-weight:600;">{{ if eq .Language.Lang "es" }}Comprobador{{ else }}Checker{{ end }}</a>
     <a href="{{ "/docs/audit/" | relLangURL }}" style="font-size:.82rem; color:#fff !important; text-decoration:none; font-weight:600; padding:7px 14px; background:#168bc2; border:1px solid #168bc2; border-radius:6px;">{{ if eq .Language.Lang "es" }}Auditoría{{ else }}Audit{{ end }}</a>
-    <a href="{{ if eq .Language.Lang "es" }}/{{ else }}/es/{{ end }}" style="font-size:.75rem; color:#fff !important; text-decoration:none; font-family:'IBM Plex Mono',monospace; font-weight:600; letter-spacing:.08em; padding:7px 11px; background:#0f6e9c; border:1px solid #0f6e9c; border-radius:6px;">{{ if eq .Language.Lang "es" }}EN{{ else }}ES{{ end }}</a>
+    <a href="{{ if eq .Language.Lang "es" }}/{{ else if eq .Language.Lang "pt" }}/{{ else }}/es/{{ end }}" style="font-size:.75rem; color:#fff !important; text-decoration:none; font-family:'IBM Plex Mono',monospace; font-weight:600; letter-spacing:.08em; padding:7px 11px; background:#0f6e9c; border:1px solid #0f6e9c; border-radius:6px;">{{ if eq .Language.Lang "es" }}EN{{ else if eq .Language.Lang "pt" }}EN{{ else }}ES{{ end }}</a>
   </div>
 </nav>
 </header>

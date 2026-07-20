@@ -19,6 +19,11 @@ disableKinds = ["taxonomy", "term"]
     languageCode = "es"
     title = "Optimización de Motores de Agentes"
     weight = 2
+  [languages.pt]
+    languageName = "Português"
+    languageCode = "pt"
+    title = "Otimização de Motores de Agentes"
+    weight = 3
 
 [params]
   BookTheme = "light"

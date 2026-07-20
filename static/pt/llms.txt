@@ -1,0 +1,16 @@
+# Otimização de Motores de Agentes
+
+Centro de pesquisa em português sobre AEO, sites preparados para agentes, busca com IA, comércio agêntico, protocolos e a camada de execução.
+
+## Documentação principal
+
+- https://agent-engine-optimization.com/pt/docs/what-is-aeo/
+- https://agent-engine-optimization.com/pt/docs/implement-aeo/
+- https://agent-engine-optimization.com/pt/docs/protocols/
+- https://agent-engine-optimization.com/pt/docs/audit/
+- https://agent-engine-optimization.com/pt/docs/aeo-ecommerce/
+- https://agent-engine-optimization.com/pt/docs/execution-layer/
+
+## Escopo para agentes
+
+As páginas explicam como tornar conteúdo, dados estruturados, APIs e fluxos transacionais descobríveis, interpretáveis, verificáveis e utilizáveis por agentes autônomos de IA.
