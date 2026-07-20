@@ -5,20 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#f8f7f3">
-  <title>{{ if eq .Language.Lang "pt" }}Otimização de Motores de Agentes (AEO): sites preparados para agentes{{ else if eq .Language.Lang "es" }}Optimización de Motores de Agentes (AEO): sitios web preparados para agentes{{ else }}Agent Engine Optimization (AEO): Agent-Ready Websites{{ end }}</title>
-  <meta name="description" content="{{ if eq .Language.Lang "pt" }}Aprenda AEO: prepare sites, APIs e conteúdos para que agentes de IA os descubram, compreendam e utilizem. Guias, auditorias e listas de verificação.{{ else if eq .Language.Lang "es" }}Aprende AEO: prepara sitios web, API y contenido para que los agentes de IA los descubran, entiendan y utilicen. Guías, auditorías y listas de control.{{ else }}Learn Agent Engine Optimization: make websites, APIs, and content discoverable, readable, and actionable for AI agents. Guides, audits, and checklists.{{ end }}">
+  <title>{{ if eq .Language.Lang "de" }}Agent Engine Optimization (AEO): Websites für KI-Agenten{{ else if eq .Language.Lang "pt" }}Otimização de Motores de Agentes (AEO): sites preparados para agentes{{ else if eq .Language.Lang "es" }}Optimización de Motores de Agentes (AEO): sitios web preparados para agentes{{ else }}Agent Engine Optimization (AEO): Agent-Ready Websites{{ end }}</title>
+  <meta name="description" content="{{ if eq .Language.Lang "de" }}Lernen Sie Agent Engine Optimization: Machen Sie Websites, APIs und Inhalte für autonome KI-Agenten auffindbar, verständlich und nutzbar.{{ else if eq .Language.Lang "pt" }}Aprenda AEO: prepare sites, APIs e conteúdos para que agentes de IA os descubram, compreendam e utilizem. Guias, auditorias e listas de verificação.{{ else if eq .Language.Lang "es" }}Aprende AEO: prepara sitios web, API y contenido para que los agentes de IA los descubran, entiendan y utilicen. Guías, auditorías y listas de control.{{ else }}Learn Agent Engine Optimization: make websites, APIs, and content discoverable, readable, and actionable for AI agents. Guides, audits, and checklists.{{ end }}">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="alternate" hreflang="en" href="https://agent-engine-optimization.com/">
   <link rel="alternate" hreflang="es" href="https://agent-engine-optimization.com/es/">
   <link rel="alternate" hreflang="pt" href="https://agent-engine-optimization.com/pt/">
+  <link rel="alternate" hreflang="de" href="https://agent-engine-optimization.com/de/">
   <link rel="alternate" hreflang="x-default" href="https://agent-engine-optimization.com/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="Agent Engine Optimization">
-  <meta property="og:title" content="{{ if eq .Language.Lang "pt" }}Otimização de Motores de Agentes (AEO): sites preparados para agentes{{ else if eq .Language.Lang "es" }}Optimización de Motores de Agentes (AEO): sitios web preparados para agentes{{ else }}Agent Engine Optimization (AEO): Agent-Ready Websites{{ end }}">
-  <meta property="og:description" content="{{ if eq .Language.Lang "pt" }}Prepare seu site para agentes de IA com guias de AEO, estruturas de execução, explicações de protocolos, auditorias e listas práticas.{{ else if eq .Language.Lang "es" }}Prepara tu sitio web para agentes de IA con guías de AEO, marcos de ejecución, protocolos, auditorías y listas prácticas.{{ else }}Make your website ready for AI agents with AEO guides, execution-layer frameworks, protocol explainers, audits, and practical checklists.{{ end }}">
-  <meta property="og:locale" content="{{ if eq .Language.Lang "pt" }}pt_BR{{ else if eq .Language.Lang "es" }}es_ES{{ else }}en_US{{ end }}">
+  <meta property="og:title" content="{{ if eq .Language.Lang "de" }}Agent Engine Optimization (AEO): Websites für KI-Agenten{{ else if eq .Language.Lang "pt" }}Otimização de Motores de Agentes (AEO): sites preparados para agentes{{ else if eq .Language.Lang "es" }}Optimización de Motores de Agentes (AEO): sitios web preparados para agentes{{ else }}Agent Engine Optimization (AEO): Agent-Ready Websites{{ end }}">
+  <meta property="og:description" content="{{ if eq .Language.Lang "de" }}Machen Sie Ihre Website mit AEO-Leitfäden, Ausführungsebenen, Protokollerklärungen, Audits und Checklisten bereit für KI-Agenten.{{ else if eq .Language.Lang "pt" }}Prepare seu site para agentes de IA com guias de AEO, estruturas de execução, explicações de protocolos, auditorias e listas práticas.{{ else if eq .Language.Lang "es" }}Prepara tu sitio web para agentes de IA con guías de AEO, marcos de ejecución, protocolos, auditorías y listas prácticas.{{ else }}Make your website ready for AI agents with AEO guides, execution-layer frameworks, protocol explainers, audits, and practical checklists.{{ end }}">
+  <meta property="og:locale" content="{{ if eq .Language.Lang "de" }}de_DE{{ else if eq .Language.Lang "pt" }}pt_BR{{ else if eq .Language.Lang "es" }}es_ES{{ else }}en_US{{ end }}">
   <meta property="og:image" content="https://agent-engine-optimization.com/images/og-default.svg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -517,7 +518,54 @@
   </style>
 </head>
 <body>
-{{ if eq .Language.Lang "pt" }}
+{{ if eq .Language.Lang "de" }}
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="/de/" class="brand"><span class="brand-mark">AEO</span><span class="brand-copy"><span>Agent Engine</span><span>Optimization</span></span></a>
+        <ul class="nav-links">
+          <li><a href="/de/docs/what-is-aeo/">Framework</a></li>
+          <li><a href="/de/docs/execution-layer/">Protocolos</a></li>
+          <li><a href="/de/docs/implement-aeo/">Leitfäden</a></li>
+          <li><a href="/de/docs/audit/">Recursos</a></li>
+          <li><a href="/de/docs/future-of-aeo/">Forschung</a></li>
+          <li><a class="language-switch" href="/">EN</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <section class="hero">
+        <div>
+          <div class="hero-side-label">Framework 2026</div>
+          <h1>Agent Engine Optimization</h1>
+          <p class="hero-lede">Lesbar für Agenten. In der realen Welt nutzbar.</p>
+          <p class="hero-copy">AEO bereitet Websites, APIs und Inhalte darauf vor, dass autonome KI-Systeme sie entdecken, verstehen, zitieren und mit geringer Mehrdeutigkeit Aktionen ausführen können.</p>
+          <div class="hero-actions"><a class="text-link primary" href="/de/docs/what-is-aeo/">Framework lesen <span>&rarr;</span></a><a class="text-link" href="/de/docs/audit/">Audit ansehen <span>&rarr;</span></a></div>
+        </div>
+        <div class="protocol-panel" aria-label="Ebenen einer agentenfähigen Infrastruktur">
+          <div class="protocol-row es-protocol-row"><strong>Inhalte</strong><span>Klare Definitionen, Quellen und strukturierte Daten.</span></div>
+          <div class="protocol-row es-protocol-row"><strong>OpenAPI</strong><span>Dokumentierte Fähigkeiten, Parameter und Zustände.</span></div>
+          <div class="protocol-row es-protocol-row"><strong>MCP</strong><span>Kontext und zugängliche Werkzeuge für Agenten.</span></div>
+          <div class="protocol-row es-protocol-row"><strong>UCP</strong><span>Nachvollziehbare Aktionen, Transaktionen und Ergebnisse.</span></div>
+        </div>
+      </section>
+      <nav class="topic-strip" aria-label="Wichtige Themen">
+        <a href="/de/docs/aeo-step-by-step-guide/"><small>01</small><strong>Leitfäden</strong><span>&rarr;</span></a>
+        <a href="/de/docs/aeo-ecommerce/"><small>02</small><strong>Branchen</strong><span>&rarr;</span></a>
+        <a href="/de/docs/ucp-vs-acp-vs-mcp/"><small>03</small><strong>Protocolos</strong><span>&rarr;</span></a>
+        <a href="/de/docs/audit/"><small>04</small><strong>Audits</strong><span>&rarr;</span></a>
+        <a href="/de/docs/future-of-aeo/"><small>05</small><strong>Forschung</strong><span>&rarr;</span></a>
+        <a href="/tools/aeo-readiness-checker.html"><small>06</small><strong>Tools</strong><span>&rarr;</span></a>
+      </nav>
+    </div>
+    <section><div class="wrap"><div class="section-kicker">AEO-Grundlagen</div><h2 class="section-title">Erst Klarheit, dann Ausführung.</h2><p class="section-intro">La Agent Engine Optimization une SEO, GEO y una capa de ejecución para que los agentes puedan encontrar información y completar tareas.</p><table class="compare"><thead><tr><th>Aspecto</th><th>Leseebene</th><th>Ausführungsebene</th></tr></thead><tbody><tr><td>Objetivo</td><td>Lesen, zusammenfassen und zitieren</td><td>Vergleichen, buchen, kaufen und prüfen</td></tr><tr><td>Technische Basis</td><td>HTML, schema y strukturierte Inhalte</td><td>API, MCP, UCP y endpoints deterministas</td></tr><tr><td>Métrica</td><td>Zitate, Erwähnungen und Sichtbarkeit</td><td>Aufgabenabschlüsse und Zustandsänderungen</td></tr></tbody></table></div></section>
+    <section><div class="wrap"><div class="section-kicker">Häufige Fragen</div><h2 class="section-title">Praktische Antworten für SEO-, Produkt- und Engineering-Teams.</h2><div class="faq"><details><summary>¿Qué es la Agent Engine Optimization?</summary><p>AEO strukturiert Inhalte, Daten, APIs und digitale Abläufe, damit KI-Agenten sie entdecken, interpretieren und nachvollziehbar nutzen können.</p></details><details><summary>Wie unterscheidet sich AEO von SEO und GEO?</summary><p>SEO zielt auf Sichtbarkeit in Suchergebnissen. GEO verbessert Zitate in KI-Antworten. AEO ergänzt die Fähigkeit, Aktionen über die Infrastruktur einer Organisation auszuführen.</p></details><details><summary>Was sollte ein Unternehmen zuerst tun?</summary><p>Es sollte wichtige Entitäten und Richtlinien definieren, stabile Informationen veröffentlichen und strukturierte Daten ergänzen, bevor es Transaktionsaktionen bereitstellt.</p></details></div></div></section>
+    <section class="cta-band"><div class="wrap cta-inner"><div><div class="section-kicker">Nächster Schritt</div><h2 class="section-title">Prüfen Sie, ob Ihre Infrastruktur für Agenten bereit ist.</h2><p>Beginnen Sie mit einem Audit von Inhalten, Daten, Zugänglichkeit, Protokollen und Verifizierung.</p></div><a class="text-link primary" href="/de/docs/audit/">Audit öffnen <span>&rarr;</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-row"><span>&copy; 2026 Agent Engine Optimization</span><div class="footer-links"><a href="/de/docs/about/">Über uns</a><a href="/de/docs/privacy/">Datenschutz</a><a href="/de/docs/disclaimer/">Aviso legal</a><a href="/sitemap.xml">Mapa del sitio</a></div></div></footer>
+{{ else if eq .Language.Lang "pt" }}
   <header class="site-header">
     <div class="wrap">
       <nav class="nav" aria-label="Navegação principal">

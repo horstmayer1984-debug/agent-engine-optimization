@@ -1,0 +1,16 @@
+# Agent Engine Optimization
+
+Deutsches Forschungszentrum für Agent Engine Optimization, agentenfähige Websites, KI-Suche, agentischen Handel, Protokolle und die Ausführungsebene.
+
+## Zentrale Dokumentation
+
+- https://agent-engine-optimization.com/de/docs/what-is-aeo/
+- https://agent-engine-optimization.com/de/docs/implement-aeo/
+- https://agent-engine-optimization.com/de/docs/protocols/
+- https://agent-engine-optimization.com/de/docs/audit/
+- https://agent-engine-optimization.com/de/docs/aeo-ecommerce/
+- https://agent-engine-optimization.com/de/docs/execution-layer/
+
+## Relevanz für Agenten
+
+Die Seiten zeigen, wie Inhalte, strukturierte Daten, APIs und Transaktionsabläufe für autonome KI-Agenten auffindbar, interpretierbar, überprüfbar und nutzbar werden.
