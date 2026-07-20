@@ -114,6 +114,18 @@
       font-size: .92rem;
     }
     .nav-links a:hover { color: var(--text); }
+    .language-switch {
+      color: #fff !important;
+      background: var(--accent-deep);
+      border: 1px solid var(--accent-deep);
+      padding: 8px 13px;
+      border-radius: var(--radius-sm);
+      font-family: var(--font-mono);
+      font-size: .72rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+    }
+    .language-switch:hover { background: var(--text) !important; border-color: var(--text); }
     .hero {
       display: grid;
       grid-template-columns: minmax(0, 1fr) minmax(360px, 520px);
@@ -234,6 +246,7 @@
       color: var(--text-muted);
       font-size: .88rem;
     }
+    .es-protocol-row { grid-template-columns: 108px 1fr; }
     .read-act {
       position: absolute;
       right: -4px;
@@ -474,6 +487,8 @@
       }
       .protocol-row { grid-template-columns: 36px 1fr; }
       .protocol-row span { grid-column: 2; }
+      .protocol-row.es-protocol-row { grid-template-columns: 96px 1fr; }
+      .protocol-row.es-protocol-row span { grid-column: 2; }
       .read-act { justify-content: flex-start; }
       .read-act::before { width: 32px; }
       .read-act b { width: 62px; height: 62px; }
@@ -512,6 +527,7 @@
           <li><a href="/es/docs/implement-aeo/">Guías</a></li>
           <li><a href="/es/docs/audit/">Recursos</a></li>
           <li><a href="/es/docs/future-of-aeo/">Investigación</a></li>
+          <li><a class="language-switch" href="/">EN</a></li>
         </ul>
       </nav>
     </div>
@@ -527,11 +543,10 @@
           <div class="hero-actions"><a class="text-link primary" href="/es/docs/what-is-aeo/">Leer el marco <span>&rarr;</span></a><a class="text-link" href="/es/docs/audit/">Ver la auditoría <span>&rarr;</span></a></div>
         </div>
         <div class="protocol-panel" aria-label="Capas de una infraestructura preparada para agentes">
-          <div class="protocol-row"><strong>Contenido</strong><span>Definiciones claras, fuentes y datos estructurados.</span></div>
-          <div class="protocol-row"><strong>OpenAPI</strong><span>Capacidades, parámetros y estados documentados.</span></div>
-          <div class="protocol-row"><strong>MCP</strong><span>Contexto y herramientas accesibles para agentes.</span></div>
-          <div class="protocol-row"><strong>UCP</strong><span>Acciones, transacciones y resultados verificables.</span></div>
-          <div class="read-act"><b>Leer</b><b>Actuar</b></div>
+          <div class="protocol-row es-protocol-row"><strong>Contenido</strong><span>Definiciones claras, fuentes y datos estructurados.</span></div>
+          <div class="protocol-row es-protocol-row"><strong>OpenAPI</strong><span>Capacidades, parámetros y estados documentados.</span></div>
+          <div class="protocol-row es-protocol-row"><strong>MCP</strong><span>Contexto y herramientas accesibles para agentes.</span></div>
+          <div class="protocol-row es-protocol-row"><strong>UCP</strong><span>Acciones, transacciones y resultados verificables.</span></div>
         </div>
       </section>
       <nav class="topic-strip" aria-label="Temas principales">
@@ -563,6 +578,7 @@
           <li><a href="/docs/audit/">Resources</a></li>
           <li><a href="/docs/future-of-aeo/">Research</a></li>
           <li><a href="/docs/about/">About</a></li>
+          <li><a class="language-switch" href="/es/">ES</a></li>
         </ul>
       </nav>
     </div>
@@ -601,10 +617,6 @@
             <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="m12 3 8 4.5-8 4.5-8-4.5z"/><path d="m4 12 8 4.5 8-4.5"/><path d="m4 16.5 8 4.5 8-4.5"/></svg>
             <strong>UCP</strong>
             <span>Unify actions, states, and outcomes.</span>
-          </div>
-          <div class="read-act">
-            <b>Read</b>
-            <b>Act</b>
           </div>
         </div>
       </section>
