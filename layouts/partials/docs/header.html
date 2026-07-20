@@ -1,6 +1,6 @@
 <header class="book-header" style="display:block !important; visibility:visible !important;">
 <nav style="display:flex; align-items:center; justify-content:space-between; width:100%; max-width:1120px; margin:0 auto; gap:24px; padding:0;">
-  <a href="/" style="display:inline-flex; align-items:center; gap:12px; text-decoration:none; color:#111315 !important;">
+  <a href="{{ "/" | relLangURL }}" style="display:inline-flex; align-items:center; gap:12px; text-decoration:none; color:#111315 !important;">
     <span style="font-family:'Fraunces',serif; font-size:2rem; line-height:1; font-weight:500; letter-spacing:-.04em;">AEO</span>
     <span style="display:grid; gap:1px; font-size:.7rem; line-height:1.15; letter-spacing:.24em; text-transform:uppercase; font-weight:600;">
       <span>Agent Engine</span>
@@ -8,13 +8,13 @@
     </span>
   </a>
   <div style="display:flex; gap:18px; align-items:center; flex-wrap:wrap; justify-content:flex-end; min-width:0;">
-    <a href="/docs/what-is-aeo/" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">Framework</a>
-    <a href="/docs/execution-layer/" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">Protocols</a>
-    <a href="/docs/implement-aeo/" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">Guides</a>
-    <a href="/docs/audit/" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">Resources</a>
-    <a href="/docs/future-of-aeo/" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">Research</a>
-    <a href="/tools/aeo-readiness-checker.html" style="font-size:.82rem; color:#0f6e9c !important; text-decoration:none; font-weight:600;">Checker</a>
-    <a href="/docs/audit/" style="font-size:.82rem; color:#fff !important; text-decoration:none; font-weight:600; padding:7px 14px; background:#168bc2; border:1px solid #168bc2; border-radius:6px;">Audit</a>
+    <a href="{{ "/docs/what-is-aeo/" | relLangURL }}" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">{{ if eq .Language.Lang "es" }}Marco{{ else }}Framework{{ end }}</a>
+    <a href="{{ "/docs/execution-layer/" | relLangURL }}" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">{{ if eq .Language.Lang "es" }}Protocolos{{ else }}Protocols{{ end }}</a>
+    <a href="{{ "/docs/implement-aeo/" | relLangURL }}" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">{{ if eq .Language.Lang "es" }}Guías{{ else }}Guides{{ end }}</a>
+    <a href="{{ "/docs/audit/" | relLangURL }}" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">{{ if eq .Language.Lang "es" }}Recursos{{ else }}Resources{{ end }}</a>
+    <a href="{{ "/docs/future-of-aeo/" | relLangURL }}" style="font-size:.82rem; color:#4e5963 !important; text-decoration:none;">{{ if eq .Language.Lang "es" }}Investigación{{ else }}Research{{ end }}</a>
+    <a href="/tools/aeo-readiness-checker.html" style="font-size:.82rem; color:#0f6e9c !important; text-decoration:none; font-weight:600;">{{ if eq .Language.Lang "es" }}Comprobador{{ else }}Checker{{ end }}</a>
+    <a href="{{ "/docs/audit/" | relLangURL }}" style="font-size:.82rem; color:#fff !important; text-decoration:none; font-weight:600; padding:7px 14px; background:#168bc2; border:1px solid #168bc2; border-radius:6px;">{{ if eq .Language.Lang "es" }}Auditoría{{ else }}Audit{{ end }}</a>
   </div>
 </nav>
 </header>
