@@ -4,7 +4,7 @@ metaTitle: "Agent Harnesses for Production Orchestration"
 date: 2026-04-12
 weight: 81
 category: "Architecture"
-description: "Learn how agent harnesses coordinate tools, routing, state, memory, and evaluation for reliable multi-agent systems."
+description: "Learn how agent harnesses coordinate tools, memory, approvals, retries, and observability for reliable production agent workflows."
 metaDescription: "Learn how agent harnesses manage lifecycles, approvals, tool routing, memory, and state for production multi-agent systems."
 summary: "Single agents were demos. Harnesses turn them into reliable production systems by managing lifecycles, human approvals, sub-agent delegation, retries, and persistent state."
 keywords:
@@ -94,3 +94,8 @@ Agent harnesses determine how reliably agents can complete multi-step workflows 
 
 **What is durable execution?**
 Checkpointing the workflow state at each step so that failures do not require restarting from the beginning. The harness restores the last good state and retries the failed step.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

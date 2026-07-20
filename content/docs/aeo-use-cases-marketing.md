@@ -15,7 +15,6 @@ keywords:
   - AEO lead generation
 ---
 
-
 Most marketing content is still written as if a human will read it from top to bottom. Increasingly, the first reader is an AI agent compiling a research brief, building a comparison, or qualifying a lead. That agent does not respond to brand tone or visual design. It responds to structured facts, clear claims, and extractable data.
 
 AEO for marketing means making your content selectable and usable inside agent mediated workflows, not just visible in search results or cited in AI answers.
@@ -70,3 +69,12 @@ Agents extract features, pricing, and positioning from multiple sources and asse
 
 **What role do freshness signals play in AEO for marketing?**
 Agents deprioritize outdated content. Visible publication dates, regular updates, and current data improve selection probability in agent mediated research.
+
+## Related guides
+
+* [Agent Engine Optimization guide](/docs/what-is-aeo/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

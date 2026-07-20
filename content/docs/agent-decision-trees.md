@@ -116,3 +116,12 @@ A machine-readable file that declares what your system can do. In UCP: /.well-kn
 
 **Why does idempotency matter so much?**
 Because agents retry on failure. A timeout does not mean the action failed. If your endpoint creates a duplicate order on retry, the agent has caused real damage. Idempotent endpoints handle retries safely by returning the same result for the same request.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

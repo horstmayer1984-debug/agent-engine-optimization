@@ -61,6 +61,14 @@ For commerce, this connects to [Agentic Commerce Attribution](/docs/agentic-comm
 | FAQ | Answer failure and eligibility questions. |
 | Analytics | Track task starts, pauses, approvals, and completions. |
 
+## Map website actions as state transitions
+
+For each agent accessible workflow, list the starting state, permitted action, required inputs, resulting state, and recovery path. A booking request, for example, should not jump from "option selected" to "confirmed" without an explicit authorization and a verifiable response.
+
+Give states stable names and keep presentation text separate. An interface can display "We are checking your request" while the machine state remains `pending_validation`. The agent needs the machine state to decide whether to wait, retry, ask the user, or stop.
+
+Test interrupted workflows too. Resume from a saved identifier, reject an expired state clearly, and prevent a retry from creating duplicate side effects. These controls make graph based orchestration safer regardless of which agent framework calls the site.
+
 ## FAQ
 
 ### Is LangGraph required for agent-ready websites?

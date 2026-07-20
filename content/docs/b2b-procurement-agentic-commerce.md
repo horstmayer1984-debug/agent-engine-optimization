@@ -85,6 +85,14 @@ For [Agent Engine Optimization](/docs/what-is-aeo/), this turns a supplier site 
 | Delivery failure | Lead time not current | Expose real-time availability |
 | Approval bypass | Agent completes before review | Require policy gates |
 
+## Publish a supplier capability record
+
+A procurement agent needs more than a product page. Give it one stable record that identifies the supplier, supported regions, currencies, contract prerequisites, order limits, fulfillment windows, authentication method, and available actions. Link each field to the authoritative policy or endpoint.
+
+Separate negotiable values from hard constraints. A minimum order quantity may be fixed, while price can depend on volume or contract status. Mixing both in prose forces the agent to guess which rule can change.
+
+Test the record with three requests: an allowed order, an order outside the delivery region, and an order above an approval threshold. Each response should state whether the request is accepted, rejected, or requires human approval, with a reason code that procurement systems can retain in the audit trail.
+
 ## FAQ
 
 ### Why is B2B procurement suited to agents?

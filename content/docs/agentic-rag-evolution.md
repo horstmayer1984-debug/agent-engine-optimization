@@ -102,3 +102,12 @@ A retrieval approach that follows entity relationships rather than text similari
 
 **Which RAG pattern benefits most from good AEO?**
 All of them, but agentic and graph RAG benefit most because they rely on structural clarity and entity relationships, both of which AEO directly improves.
+
+## Related guides
+
+* [Agent Engine Optimization guide](/docs/what-is-aeo/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

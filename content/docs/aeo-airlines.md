@@ -86,3 +86,13 @@ Very important. An agent that cannot calculate the true total cost (fare plus ba
 
 **What is the response time target for fare APIs?**
 Under 500 milliseconds for availability queries. Under 3 seconds for ticketing. Agents comparing dozens of airlines simultaneously penalize slow responders.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+* [agent payment protocols](/docs/agent-payment-protocols-compared/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

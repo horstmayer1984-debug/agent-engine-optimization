@@ -120,3 +120,8 @@ Not as the first protocol in most cases. Ecommerce merchants usually need commer
 ## Sources
 
 Primary references: [Google Cloud AP2 announcement](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol/), [Google AP2 FIDO Alliance update](https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/), [x402 documentation](https://docs.x402.org/faq), and [Linux Foundation x402 Foundation announcement](https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol).
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+* [agent payment protocols](/docs/agent-payment-protocols-compared/)

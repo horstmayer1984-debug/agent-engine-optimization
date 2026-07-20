@@ -16,7 +16,6 @@ keywords:
   - A2A protocol
 ---
 
-
 A single AI assistant already changes how people discover information and complete tasks online. Multi-agent systems raise the stakes. Instead of one model handling the whole interaction, several specialized agents cooperate. One may interpret intent. Another may compare providers. A third may handle compliance checks. A fourth may complete the transaction or verify the result.
 
 Once that kind of orchestration becomes common, websites are no longer interacting with one reader at a time. They are interacting with distributed decision systems.
@@ -117,3 +116,8 @@ Start with consistency: stable naming, explicit constraints, documented action p
 
 **What role does result verification play in multi-agent AEO?**
 Verification closes the loop. After an agent completes an action, another system often checks whether it succeeded. Without verifiable outcomes, trust degrades and your site may be excluded from future workflows.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

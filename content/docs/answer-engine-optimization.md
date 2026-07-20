@@ -68,3 +68,8 @@ No. It builds on SEO. Crawlability, indexability, internal links and authority a
 
 **What comes after Answer Engine Optimization?**
 Agent Engine Optimization: making websites, APIs and digital services actionable for autonomous AI agents. The [comparison page](/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/) explains all four layers.
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

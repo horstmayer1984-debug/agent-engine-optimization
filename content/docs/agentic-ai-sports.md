@@ -16,7 +16,6 @@ keywords:
   - Jump AI sports
 ---
 
-
 Sports organizations have used data analytics for years. Dashboards, reports, predictive models. All useful, all requiring a human to interpret the data and decide what to do. Agentic AI changes that relationship. Instead of presenting data for human decision making, agent systems make decisions and execute actions autonomously within defined boundaries.
 
 That shift is already visible in ticketing, fan engagement, scouting, and game-day operations.
@@ -85,3 +84,12 @@ Through pre-defined boundaries and escalation rules. If a pricing decision falls
 
 **What is the ROI timeline for agentic sports platforms?**
 Most organizations report measurable revenue improvements within one season. Pricing optimization alone typically generates 5 to 15 percent revenue increases, which funds further platform expansion.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

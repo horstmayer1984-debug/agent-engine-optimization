@@ -1,6 +1,6 @@
 ---
 title: "FastMCP Agent Tools: A Practical Guide for Agent-Ready APIs"
-metaTitle: "FastMCP Agent Tools for AEO"
+metaTitle: "FastMCP Tools: Build Agent-Ready APIs with MCP"
 date: 2026-06-28
 weight: 182
 category: "Guide"
@@ -59,6 +59,14 @@ This is where [The Execution Layer](/docs/execution-layer/) becomes practical.
 | Better for broad discovery | Better for bounded actions |
 
 Most sites need both. Pages explain. Tools execute.
+
+## Write the tool contract before the implementation
+
+Define a tool in plain language before exposing it through FastMCP. State what it does, required inputs, optional inputs, authorization scope, output schema, side effects, error codes, and whether the action is reversible. If the contract is ambiguous to a developer, it will also be ambiguous to an agent.
+
+Keep read operations separate from state changing operations. `get_order_status` and `cancel_order` should not be modes of one broad tool. Separate tools make permissions, logs, retries, and user approvals easier to reason about.
+
+Test invalid inputs as carefully as successful calls. Errors should identify the field, the rule that failed, and whether retrying with corrected data is allowed. Avoid returning a generic success message when the agent needs an identifier or status to verify the result.
 
 ## FAQ
 

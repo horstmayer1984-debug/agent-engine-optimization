@@ -60,6 +60,14 @@ Qwen AgentWorld does not prove that every agent can use every website. It shows 
 | "A model tag guarantees production readiness." | Treat model metadata as research and evaluation context. |
 | "AEO is only content." | Agent evaluation includes actions and outcomes. |
 
+## Turn agent benchmarks into website tests
+
+Create a small task suite from real website journeys. Each task needs a starting URL or capability, allowed tools, user constraints, expected final state, and a rule for judging success. Include at least one invalid input and one interrupted workflow.
+
+Score the site separately for discovery, interpretation, execution, and verification. A model may find the right page but misread a policy. It may choose the right action but fail to confirm the result. A single pass or fail score hides those differences.
+
+Use benchmark results to improve interfaces, not to publish unsupported model rankings. Keep the task version and site version with every result so a later change in content, schema, or endpoint behavior can be compared fairly.
+
 ## FAQ
 
 ### Is Qwen AgentWorld a website optimization tool?

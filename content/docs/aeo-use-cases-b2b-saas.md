@@ -13,7 +13,6 @@ keywords:
   - SaaS agent optimization
 ---
 
-
 B2B software purchasing has always been slow. Research, shortlisting, demos, procurement approval, compliance checks, contract negotiation. Most of these steps involve a human repeating work that could be structured and delegated.
 
 AI agents are starting to handle the early and middle stages of this process. An agent tasked with "find a CRM that integrates with Salesforce, supports GDPR compliance, costs under 50 euros per seat, and has SOC 2 certification" can research vendors, compare feature sets, verify compliance claims, and book a demo, all before a human decision maker gets involved.
@@ -68,3 +67,12 @@ Dedicated compliance page, explicit certification claims (SOC 2, GDPR, ISO 27001
 
 **Is AEO relevant for internal enterprise tools?**
 Yes. Internal AI agents need structured documentation and navigable knowledge bases to function effectively. AEO principles apply to internal systems as much as public facing sites.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

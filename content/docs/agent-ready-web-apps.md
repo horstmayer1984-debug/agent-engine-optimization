@@ -4,7 +4,7 @@ metaTitle: "Agent-Ready Web Apps: Developer Checklist"
 date: 2026-04-12
 weight: 64
 category: "Guide"
-description: "Learn how to make web apps agent-ready with clean APIs, MCP, secure actions, feedback loops, and per-agent controls."
+description: "Use this developer checklist to make web apps readable and actionable for AI agents through clear interfaces, APIs, states, and errors."
 metaDescription: "Use a developer checklist for agent-ready web apps: backend-first design, clean APIs, MCP, security, and feedback loops."
 summary: "The agent-ready web app starts with the backend, not the frontend. Clean APIs, native MCP, agent-specific auth, cost quotas, and public feedback endpoints. Here is the developer checklist."
 keywords:
@@ -109,3 +109,8 @@ Python and TypeScript have the most mature MCP SDKs. Go, Rust, and Java SDKs are
 
 **Is the public feedback API a security risk?**
 Not if implemented correctly. Accept structured reports (page URL, expected data, actual data, description). Do not expose internal system details in the response. Rate limit the endpoint. The trust benefit outweighs the minimal risk.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

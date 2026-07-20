@@ -97,3 +97,22 @@ Read more: [The Execution Layer](/docs/execution-layer/) — deep dive into what
 [AEO vs. SEO vs. GEO](/docs/aeo-vs-seo-vs-geo/) — the full comparison.
 
 [AEO Readiness Audit](/docs/audit/) — assess your infrastructure.
+
+## FAQ
+
+### Is Agent Engine Optimization the same as Answer Engine Optimization?
+
+No. Answer Engine Optimization focuses on visibility and citations in generated answers. Agent Engine Optimization also covers the interfaces and controls required for an agent to complete and verify a task.
+
+### Does every website need MCP or UCP?
+
+No. Content focused sites may start with clear HTML, structured data, source attribution, and discovery files. Protocols become relevant when the site exposes tools, transactions, or interagent workflows.
+
+### What should a company implement first?
+
+Start with the user tasks worth delegating, then audit whether an agent can discover the right information, interpret constraints, execute safely, and verify the result.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

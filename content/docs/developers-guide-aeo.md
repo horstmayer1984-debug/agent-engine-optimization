@@ -125,3 +125,8 @@ Under 200ms for read operations. Agents operating in multi-step workflows penali
 
 **What authentication should I use for AI agents?**
 OAuth 2.0 with scoped access tokens. Never expose full user credentials to agents. Scope tokens to the specific actions the agent is authorized to perform.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

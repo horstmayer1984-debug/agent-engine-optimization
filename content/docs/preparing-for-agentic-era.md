@@ -15,7 +15,6 @@ keywords:
   - AI agent workforce
 ---
 
-
 The shift from using AI as a tool to orchestrating AI as a workforce is already underway. In 2025, most professionals interacted with AI through chat interfaces, one prompt at a time. In 2026, the leading teams run multi-agent systems that handle entire workflows autonomously while humans focus on strategy, quality control, and exception handling.
 
 That transition requires new skills, different business model thinking, and changed daily habits. This roadmap covers all three.
@@ -107,4 +106,9 @@ Low-code tools lower the barrier for simple workflows. For production systems, y
 Compounding skill gaps. Professionals who start building agent experience in 2026 will have 12 to 18 months of accumulated knowledge and production systems by the time mainstream adoption hits. That gap is difficult to close.
 
 **Which vertical should I specialize in?**
-The one where you already have domain expertise. Agent orchestration is most valuable when combined with deep knowledge of industry workflows, compliance requirements, and edge cases.
+The one where you already have domain expertise. Agent orchestration is most useful when combined with deep knowledge of industry workflows, compliance requirements, and edge cases.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

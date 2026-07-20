@@ -94,3 +94,34 @@ Organizations that assess and prepare now build compounding advantages. Those th
 [The Execution Layer](/docs/execution-layer/) — understand what agents need.
 
 [AEO vs. SEO vs. GEO](/docs/aeo-vs-seo-vs-geo/) — how this fits into your broader strategy.
+
+## Evidence rules for a repeatable audit
+
+Every finding should include the tested URL or endpoint, the request method, the observed output, the expected output, and a severity based on user or business impact. Screenshots are useful for visual defects, but machine facing issues also need raw HTML, response bodies, headers, or schema validation results.
+
+Use the same sample set before and after remediation. A practical sample includes one pillar page, one comparison page, one transactional page, one API action, and one known error path. This avoids a false improvement caused by testing easier pages after the changes.
+
+Severity should reflect consequences. A missing optional description is low priority. A stale price, ambiguous authorization state, or action that can be repeated accidentally is high priority because an agent may make a wrong decision or create a duplicate transaction.
+
+## FAQ
+
+### What should an AEO audit test first?
+
+Start with canonical pages, structured content, important user tasks, and the interfaces that create a state change. Test both successful and failed paths.
+
+### Is an AEO audit only a content review?
+
+No. Content is part of the read layer. A full audit also checks APIs, protocol fit, authorization, deterministic data, errors, confirmations, and auditability.
+
+### How often should the audit be repeated?
+
+Repeat focused tests after material content, schema, API, policy, or workflow changes. Review the broader sample periodically as agent traffic and supported capabilities evolve.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

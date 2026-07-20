@@ -97,3 +97,12 @@ Sites that implement entity-first content restructuring typically see citation i
 
 **Can small sites benefit from entity mapping?**
 Yes. Smaller sites often benefit more because they can achieve entity consistency faster across fewer pages. A 20-page site with clear entity mapping can outperform a 2,000-page site with vague keyword coverage.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

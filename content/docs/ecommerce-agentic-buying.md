@@ -104,3 +104,8 @@ The agent registers the discrepancy as a system failure. Your store loses trust 
 
 **Do I need a separate API for AI agent purchases?**
 Not necessarily separate, but your purchase flow must be accessible without browser rendering. If your checkout requires JavaScript, cookies, or visual interaction, it is invisible to agents.
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

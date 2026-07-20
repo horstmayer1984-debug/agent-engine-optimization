@@ -15,7 +15,6 @@ keywords:
   - AI shopping agents ecommerce
 ---
 
-
 The acronym AEO carries two distinct meanings in 2026. Most of the market uses it for Answer Engine Optimization, the practice of getting cited in AI generated answers. A smaller but growing group uses it for Agent Engine Optimization, the practice of making digital infrastructure actionable for autonomous AI agents.
 
 For ecommerce, both meanings matter. But they solve different problems, require different technical work, and operate on different timelines.
@@ -84,3 +83,8 @@ No. AEO builds on SEO. Schema markup, content structure, topical authority, and 
 
 **What is the biggest risk of ignoring Agent Engine Optimization?**
 Being visible but not transactable when autonomous agents become a significant purchase channel. Competitors who build execution layer infrastructure early will be harder to displace.
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

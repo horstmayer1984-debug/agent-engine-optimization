@@ -1,6 +1,6 @@
 ---
 title: "GLM-5.2 for Agentic Workflows: What AEO Teams Should Know"
-metaTitle: "GLM-5.2 for Agentic Workflows"
+metaTitle: "GLM-5.2 Agentic Workflows: AEO Testing Guide"
 date: 2026-06-28
 weight: 184
 category: "Analysis"
@@ -61,6 +61,14 @@ For the crawl side, keep [Google Generative AI Search Guide 2026](/docs/google-g
 | Can it browse? | Depends on the product | Depends on local tool setup |
 | Does it use your `llms.txt`? | Depends on implementation | Depends on local agent workflow |
 | What should your site do? | Publish clear, stable interfaces | Same, plus compact machine-readable docs |
+
+## Build a model independent website test
+
+Do not treat one successful run with GLM-5.2 as proof of agent readiness. Use the same task, inputs, permissions, and success criteria across at least two different agent configurations. The purpose is to test the website contract, not to rank the models.
+
+Record whether each agent finds the correct source, extracts the same constraints, selects the right action, handles a validation error, and verifies the final state. Differences often reveal ambiguous labels or undocumented assumptions in the site.
+
+Keep model prompts out of the website acceptance criteria. A robust interface should not require a hidden prompt that explains basic field meanings. If one model succeeds only after special instructions, improve the page, schema, or tool description before drawing a conclusion about deployment readiness.
 
 ## FAQ
 

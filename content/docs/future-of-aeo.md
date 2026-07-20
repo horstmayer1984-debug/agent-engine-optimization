@@ -16,7 +16,6 @@ keywords:
   - execution layer evolution
 ---
 
-
 Agent Engine Optimization is still early, but the direction is already visible. The web is moving from a space designed mainly for human browsing toward one that must also support machine mediated discovery and action. That does not mean websites disappear. It means the interface layer changes. More decisions, more comparisons, and more administrative tasks will happen through AI systems acting with varying degrees of autonomy.
 
 As that shift continues, AEO will become less of a niche tactic and more of a baseline discipline.
@@ -119,3 +118,8 @@ AEO metrics focus on agent selection rates, task completion, workflow failure po
 
 **What is the most common AEO mistake?**
 Treating AEO as another label for SEO. AEO requires a different optimization target: not just visibility, but usability by autonomous machine systems.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

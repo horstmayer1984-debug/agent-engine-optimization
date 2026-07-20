@@ -58,7 +58,7 @@ See also [Answer Engine Optimization](/docs/answer-engine-optimization/), [AI Cr
 | Rights policy | Teams need to know what can be reused or licensed |
 | Server logs | Pay-per-use discussions need evidence |
 
-The goal is not to optimize for one vendor's experiment. The goal is to make valuable content easy to identify, verify, cite, and price if the ecosystem supports it.
+The goal is not to optimize for one vendor's experiment. The goal is to make useful content easy to identify, verify, cite, and price if the ecosystem supports it.
 
 ## A practical content model
 

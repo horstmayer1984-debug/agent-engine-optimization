@@ -86,3 +86,8 @@ Only when the FAQs are visible on the page and genuinely useful. Do not add sche
 
 **What is the most important checklist item?**
 Answer the main question early and clearly. Everything else builds on that foundation.
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

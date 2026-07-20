@@ -105,3 +105,12 @@ Tables, ordered lists, FAQ blocks, and summary sections. Avoid hiding informatio
 
 **Is SEO still relevant in the agentic web?**
 Yes. SEO remains the foundation for discoverability. AEO adds the execution layer: making content not just findable but actionable and verifiable by autonomous agents.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

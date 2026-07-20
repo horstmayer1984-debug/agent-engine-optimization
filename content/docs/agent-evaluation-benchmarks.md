@@ -105,3 +105,8 @@ Monitor server logs for agent traffic patterns. Track endpoint usage by non-brow
 
 **Is evaluation only for sites with high agent traffic?**
 No. Even sites with minimal agent traffic benefit from evaluation because it reveals content and structural problems that also affect human users and AI citations.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

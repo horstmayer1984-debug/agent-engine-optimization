@@ -16,7 +16,7 @@ keywords:
 
 Context engineering is the discipline of dynamically selecting, compressing, and structuring the exact information an AI agent needs at every step so it makes faster, more accurate decisions without hallucinating or running out of context window.
 
-In April 2026, this is the single highest-leverage optimization in Agent Engine Optimization. Agents fail the majority of multi-step tasks not because the model is weak but because the context is polluted with irrelevant information. Fix the context and the same model succeeds.
+In April 2026, this is the single highest impact optimization in Agent Engine Optimization. Agents fail the majority of multi-step tasks not because the model is weak but because the context is polluted with irrelevant information. Fix the context and the same model succeeds.
 
 ## Why context matters more than the model
 
@@ -105,3 +105,12 @@ A persistent storage layer outside the context window where agents write importa
 
 **How much do tokens cost with poor context engineering?**
 Exact costs vary by model, but context pollution typically increases token usage by 40 to 60 percent. For high-volume agent traffic, this translates directly into higher API costs for the agent operator, which may cause them to prefer sites that are easier to extract from.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

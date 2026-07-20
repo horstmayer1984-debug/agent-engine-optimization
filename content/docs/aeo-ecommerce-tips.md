@@ -13,7 +13,6 @@ keywords:
   - practical AEO 2026
 ---
 
-
 These twelve tips help ecommerce stores appear in AI generated answers, improve conversion from AI referred traffic, and prepare for the next phase where autonomous agents compare and buy products on behalf of users. Each tip is concrete enough to implement this week.
 
 ## 1. Break product data into atomic units
@@ -116,3 +115,13 @@ No. AEO builds on SEO. Strong technical foundations, proper indexing, and topica
 
 **What is the single most impactful AEO tip?**
 Schema markup combined with answer-first content structure. These two changes together make the biggest difference in AI citation rates for most ecommerce stores.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+* [agent payment protocols](/docs/agent-payment-protocols-compared/)
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

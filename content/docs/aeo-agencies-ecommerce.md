@@ -33,7 +33,7 @@ What they do: content restructuring for AI extraction, schema markup implementat
 
 Cost: typically 2,000 to 8,000 euros per month.
 
-This is where most agencies operate in April 2026. The work is valuable and produces measurable results (AI citation rates, referral traffic) within 4 to 8 weeks. Most ecommerce brands should start here.
+This is where most agencies operate in April 2026. The work is useful and produces measurable results (AI citation rates, referral traffic) within 4 to 8 weeks. Most ecommerce brands should start here.
 
 Platforms like [HubSpot AEO and Webflow AEO](/docs/hubspot-webflow-aeo-launch/) are beginning to automate parts of this tier, which will put pressure on agencies that offer only read-layer services.
 
@@ -113,3 +113,8 @@ No. The read layer work can start immediately with existing agencies or in-house
 
 **What is the ROI of hiring an AEO agency?**
 Read-layer optimization typically shows AI citation increases within 4 to 8 weeks. AI-referred traffic converts at higher rates than traditional organic. Exact ROI depends on your industry and conversion value.
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

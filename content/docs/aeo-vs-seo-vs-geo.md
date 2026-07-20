@@ -103,3 +103,26 @@ For most organizations in 2026:
 4. **Build toward execution layer compatibility.** Based on your industry and technical capacity.
 
 [The Execution Layer](/docs/execution-layer/) — what it takes to make infrastructure agent-actionable.
+
+## FAQ
+
+### Can one page support SEO, GEO, and AEO?
+
+Yes. A crawlable page can rank in search, provide citeable passages for generated answers, and link to structured actions. The execution layer may still require APIs or protocol support beyond the page itself.
+
+### Which discipline should a new site prioritize?
+
+Start with technical SEO and useful content. Add GEO extraction and citation work next. Build execution capabilities when users have a clear task that agents can perform safely.
+
+### How should success be measured?
+
+Measure rankings and clicks for SEO, mentions and citation quality for GEO, and task completion, errors, authorization, and verification for Agent Engine Optimization.
+
+## Related guides
+
+* [headless software guide](/docs/what-is-headless-software/)
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

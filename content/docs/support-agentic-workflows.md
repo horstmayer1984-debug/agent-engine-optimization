@@ -110,3 +110,8 @@ When an agent cannot resolve an issue, it calls an escalation endpoint that crea
 
 **What metrics matter for agentic customer support?**
 Autonomous resolution rate, resolution accuracy, escalation context quality, mean time to resolution, and failure point analysis replace traditional metrics like average handle time.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

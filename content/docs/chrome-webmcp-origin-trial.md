@@ -35,7 +35,7 @@ For a broader overview, see the existing [WebMCP for Agent-Ready Websites](/docs
 | Permissions | User approval for risky actions | Prevents silent account, payment, or data changes. |
 | Observability | Logs for tool calls and failed attempts | Teams need to debug agent behavior. |
 | Fallback UX | Normal human flow still works | WebMCP should be progressive enhancement. |
-| Abuse controls | Rate limits, auth checks, and policy gates | Structured tools can expose valuable operations. |
+| Abuse controls | Rate limits, auth checks, and policy gates | Structured tools can expose useful operations. |
 
 ## Good first WebMCP candidates
 

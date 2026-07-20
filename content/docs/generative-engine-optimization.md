@@ -64,3 +64,8 @@ They overlap, but Answer Engine Optimization focuses more on direct answers whil
 
 **What comes after GEO?**
 Agent Engine Optimization, where websites become usable by autonomous AI agents. The [GEO vs AEO comparison](/docs/geo-vs-aeo/) explains the distinction.
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

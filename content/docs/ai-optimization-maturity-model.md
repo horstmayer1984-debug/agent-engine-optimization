@@ -61,6 +61,20 @@ Audit your site by asking each question in order. Most sites will find gaps at s
 
 The [AEO Readiness Checker](/tools/aeo-readiness-checker.html) tests the practical foundations, while the [implementation guide](/docs/implement-aeo/) explains how to move from content clarity into execution readiness.
 
+## Use exit criteria between maturity levels
+
+Do not advance a site because a team completed a list of tasks. Advance it when the lower level works under test. For example, a page is not "understandable" merely because schema exists. Its visible text, metadata, schema, and linked data must describe the same entity without conflicting values.
+
+| Transition | Minimum exit test |
+|---|---|
+| Crawlable to understandable | A crawler retrieves the canonical page and extracts the correct entity |
+| Understandable to answerable | The main question can be answered from one or two self-contained passages |
+| Answerable to citeable | Important claims have named sources, dates, and clear attribution |
+| Comparable to actionable | Inputs, constraints, action states, and errors use stable fields |
+| Actionable to verifiable | The result can be checked through a receipt, status, or confirmation endpoint |
+
+Record failed tests as backlog items. That creates a more honest maturity score than averaging unrelated checklist points.
+
 ## FAQ
 
 ### Which level should I start with?
@@ -74,3 +88,8 @@ Not safely. Each level depends on the ones below it. A site that exposes actions
 ### Who should use this model?
 
 SEO teams, content teams, product teams, developers and digital strategists can use it to assess AI readiness and prioritize the next fix.
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

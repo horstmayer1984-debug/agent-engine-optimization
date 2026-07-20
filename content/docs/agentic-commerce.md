@@ -16,7 +16,6 @@ keywords:
   - AI purchasing agents
 ---
 
-
 Commerce is entering a new interface layer. For years, digital buying was shaped by pages, ads, search results, apps, and checkout flows designed for direct human navigation. That model is still here, but it is no longer the whole picture. Increasingly, people delegate parts of the buying process to AI systems that research options, compare constraints, filter offers, and sometimes complete the transaction.
 
 That shift changes how brands compete.
@@ -55,7 +54,7 @@ Search visibility, brand authority, and content quality still influence whether 
 
 AEO matters when the machine moves from knowing you exist to deciding whether it can rely on you. The [comparison between AEO, SEO, and GEO](/docs/aeo-vs-seo-vs-geo/) maps this progression in detail.
 
-That distinction becomes crucial in competitive categories. Two sellers may appear equally relevant at the awareness stage. The one with clearer constraints, better structured offer data, and cleaner transaction logic is more likely to be selected when the agent has to act.
+That distinction becomes important in competitive categories. Two sellers may appear equally relevant at the awareness stage. The one with clearer constraints, better structured offer data, and cleaner transaction logic is more likely to be selected when the agent has to act.
 
 ## Trust becomes explicit
 
@@ -109,3 +108,8 @@ No. Any industry where users delegate decision making to AI systems benefits fro
 
 **How does agentic commerce affect brand competition?**
 Brand reputation still matters for demand generation, but operational clarity increasingly determines which brands get selected when an agent acts on behalf of a user.
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

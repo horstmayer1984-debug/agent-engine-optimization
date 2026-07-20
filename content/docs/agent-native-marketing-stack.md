@@ -16,7 +16,6 @@ keywords:
   - marketing AI stack 2026
 ---
 
-
 Manual campaign management is becoming a cost center. The teams that still brief agencies, wait for creative rounds, manually adjust bids, and compile weekly reports are spending time on work that multi-agent systems now handle faster and with better performance data.
 
 Agent-native marketing platforms replace that manual loop with autonomous crews that plan, create, deploy, optimize, and report in real time. This guide covers the tech stack that makes it work.
@@ -115,3 +114,13 @@ Building the full stack before validating one workflow. Start with a single agen
 
 **How do guardrails work in marketing agent systems?**
 Content policies, brand guidelines, budget limits, and compliance rules are encoded as constraints that every agent checks before producing output or taking action. Violations trigger human review rather than automatic execution.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+* [the execution layer](/docs/execution-layer/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

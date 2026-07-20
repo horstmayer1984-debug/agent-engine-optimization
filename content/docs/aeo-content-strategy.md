@@ -6,7 +6,7 @@ weight: 23
 category: "Guide"
 description: "AEO content does more than rank. It reduces uncertainty for AI agents before action. How to build pages with entity coverage, decision variables, typed next."
 metaDescription: "Build AEO content with entity coverage, decision variables, typed next steps, source-backed evidence, and real information gain for AI agents."
-summary: "In an agent mediated web, content is valuable because it reduces uncertainty before action. This guide explains how marketing teams build pages that agents can actually use."
+summary: "In an agent mediated web, content is useful because it reduces uncertainty before action. This guide explains how marketing teams build pages that agents can actually use."
 keywords:
   - AEO content strategy
   - content for AI agents
@@ -16,10 +16,9 @@ keywords:
   - agent ready marketing
 ---
 
-
 Most marketing advice about AEO stays too close to old SEO language. It says publish structured data, answer questions clearly, and improve topical authority. That is fine as far as it goes. It does not address the bigger shift.
 
-In an agent mediated web, content is no longer valuable only because it is discoverable. It is valuable because it reduces uncertainty before action.
+In an agent mediated web, content is no longer useful only because it is discoverable. It is useful because it reduces uncertainty before action.
 
 ## What a good marketing page needs to do now
 
@@ -79,3 +78,12 @@ No. Narrative still matters. It just cannot replace operational clarity when age
 
 **What is entity coverage?**
 The explicit mention of products, features, constraints, metrics, conditions, and relationships on a page. Higher entity coverage makes content more useful for retrieval systems and agent planning.
+
+## Related guides
+
+* [Agent Engine Optimization guide](/docs/what-is-aeo/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

@@ -34,3 +34,8 @@ Where information is uncertain or forward-looking, it is marked as such. Assumpt
 ## Contact
 
 For audit inquiries, collaboration, or questions, reach out through the channels listed on this site.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+* [agent payment protocols](/docs/agent-payment-protocols-compared/)

@@ -102,3 +102,8 @@ Not in the foreseeable future. Traditional search still drives significant traff
 
 **What is the difference between Answer AEO and Agent AEO?**
 Answer AEO makes your content extractable as a featured answer. Agent AEO makes your infrastructure executable by autonomous agents. One targets citation, the other targets action.
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

@@ -114,3 +114,8 @@ No. WebSockets matter for multi-step transactional workflows. Simple content sit
 
 **How do I test whether my site is agent-ready?**
 Fetch your pages with curl (no JavaScript). Check your llms.txt for accuracy. Validate your OpenAPI spec. Test your MCP server with a compatible client. Ask AI assistants questions your site should answer.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

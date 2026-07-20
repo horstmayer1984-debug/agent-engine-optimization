@@ -1,6 +1,6 @@
 ---
 title: "AI Citation Strategy: How to Become a Source Worth Referencing"
-metaTitle: "AI Citation Strategy for AEO"
+metaTitle: "AI Citation Strategy: Earn Mentions in AI Answers"
 date: 2026-04-29
 weight: 131
 category: "Guide"
@@ -48,6 +48,21 @@ AI citations create visibility, but visibility alone is not a business outcome. 
 
 ---
 
+## Audit the evidence behind every citation target
+
+Choose the pages you want answer engines to reference, then classify every important statement on those pages. A statement can be a definition, an observation supported by a named source, a result from your own documented method, or an editorial recommendation. If it fits none of those categories, rewrite it or remove it.
+
+| Statement type | What the page should show |
+|---|---|
+| Definition | Clear scope and distinction from related terms |
+| External fact | Link to the primary source and relevant date |
+| Original finding | Method, sample, limitations, and update date |
+| Recommendation | Decision criteria and known tradeoffs |
+
+This review improves more than citation eligibility. It also makes updates easier because the editor can see which claims depend on changing documentation and which passages are stable analysis.
+
+Recheck the selected pages when a cited source changes, when the page receives materially different search queries, or when an answer engine repeatedly extracts the wrong passage. The goal is accurate representation, not the highest possible mention count.
+
 ## FAQ
 
 **Can AI citations be guaranteed?**
@@ -58,3 +73,8 @@ Definitions, comparisons, original frameworks, checklists and research-style pag
 
 **How does citation connect to Agent Engine Optimization?**
 Citation creates visibility. [Agent Engine Optimization](/docs/what-is-aeo/) helps turn visibility into action.
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

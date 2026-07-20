@@ -63,6 +63,22 @@ Check whether a model can extract the answer, next action, and constraints from 
 
 Track citations, agent referrals, API calls, completed actions, and failed workflows.
 
+## Turn the tips into an acceptance test
+
+A tip is useful only when a reviewer can decide whether it has been implemented. Convert each recommendation into a binary test and keep the evidence with the audit. This prevents teams from marking broad tasks such as "improve structured data" as complete without checking the generated page.
+
+| Test area | Pass condition | Evidence |
+|---|---|---|
+| Direct answer | The main question is answered before supporting detail | Rendered HTML excerpt |
+| Discovery | The page is linked from a crawlable hub or index | Source page and target URL |
+| Structure | Key facts are available as text, lists, or tables | HTML inspection |
+| Action | Inputs, constraints, result states, and errors are documented | API or workflow contract |
+| Verification | A user or agent can confirm the final state | Confirmation response or status endpoint |
+
+Run the test on a representative page first. If the test produces ambiguous results, tighten the pass condition before applying it across the site.
+
+Assign an owner and review date to every failed condition. A technical defect belongs with engineering, a source gap belongs with editorial, and an unclear commercial rule belongs with the business owner. This keeps the checklist from becoming an SEO document that nobody is accountable for implementing.
+
 ## FAQ
 
 **What is the most important AEO tip?**  
@@ -73,3 +89,14 @@ No. Structured data helps, but AEO also includes content design, APIs, trust, po
 
 **Which page should I optimize first?**  
 Start with pages that already have impressions in Google Search Console, then improve titles, introductions, internal links, and action clarity.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+* [the execution layer](/docs/execution-layer/)
+* [AEO implementation guide](/docs/implement-aeo/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

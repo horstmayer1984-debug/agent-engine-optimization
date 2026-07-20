@@ -36,6 +36,22 @@ Perplexity-style visibility creates attention, but attention is not completion. 
 
 ---
 
+## Run a citation readiness review
+
+Select five claims that make the page useful and inspect each one as a potential citation target. The wording should identify the subject, distinguish fact from recommendation, and link to the primary source when the claim depends on external evidence.
+
+Reject claims that use vague authority such as "experts say" or "research shows" without naming the source. Replace broad superlatives with the actual comparison criterion. If a claim changes over time, add the relevant date and make the update owner clear.
+
+The final test is simple: a reader following only the cited link should be able to understand why the claim appears on your page. This reduces citation errors and makes later content refreshes faster.
+
+## Separate citation monitoring from ranking reports
+
+Record the query, cited URL, quoted or summarized claim, date, and whether the citation represents the page accurately. A citation count without this context can reward irrelevant or misleading mentions. Review recurring errors first because they often point to an ambiguous definition, an outdated passage, or inconsistent information across the site.
+
+Keep corrected examples in the review log so later audits can test the same failure again.
+
+Related reading: [AI citation strategy](/docs/ai-citation-strategy/).
+
 ## FAQ
 
 **Is Perplexity SEO the same as GEO?**
@@ -43,3 +59,12 @@ It is part of GEO, focused specifically on citation-oriented AI search.
 
 **How does this connect to Agent Engine Optimization?**
 Citations create visibility. Agent-ready infrastructure creates actionability.
+
+## Related guides
+
+* [Agent Engine Optimization guide](/docs/what-is-aeo/)
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

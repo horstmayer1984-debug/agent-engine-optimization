@@ -14,7 +14,6 @@ keywords:
   - zero click ecommerce
 ---
 
-
 AI search is not replacing traditional search. It is adding a layer on top of it. Buyers now start purchase research inside ChatGPT, Perplexity, or Google AI Overviews and only click through to stores that the AI system recommends. Brands that do not appear in those recommendations lose traffic they never knew they were competing for.
 
 That makes AEO a strategic priority, not a technical detail.
@@ -79,3 +78,12 @@ No. AEO builds directly on SEO. Clean technical foundations, proper indexing, st
 
 **What is the ROI of AEO for ecommerce?**
 AI referred traffic converts at higher rates than traditional organic traffic. Early adopters report significant revenue contribution from AI channels within 6 months of implementation.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

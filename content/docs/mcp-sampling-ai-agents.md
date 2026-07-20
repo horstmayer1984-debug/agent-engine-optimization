@@ -107,7 +107,7 @@ It can be used carefully, but it needs prompt review, context review, logging, p
 
 ### Why does Sampling matter for AEO?
 
-It shows that agent workflows may ask models to reason over your content during execution, not only retrieve pages. Structured, source-backed content becomes more valuable.
+It shows that agent workflows may ask models to reason over your content during execution, not only retrieve pages. Structured, source-backed content becomes more useful.
 
 ## Bottom line
 

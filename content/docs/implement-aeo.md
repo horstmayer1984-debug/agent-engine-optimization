@@ -17,7 +17,6 @@ keywords:
   - structured data for agents
 ---
 
-
 Agent Engine Optimization is the practical layer of visibility for a web shaped by autonomous systems. Search engine optimization helped pages rank. Generative engine optimization helped pages get cited in synthesized answers. AEO goes one step further. It helps AI agents understand what your site can do, decide whether it is safe and useful, and complete a task without friction.
 
 That shift matters because agents do not browse like people. A human tolerates clutter, vague navigation, inconsistent flows. An agent cannot. It needs clear structure, stable endpoints, explicit capabilities, machine readable content, and predictable outcomes. If your site is difficult to parse or hard to act on, you might still get traffic from humans, but you will be invisible in agent driven workflows.
@@ -193,3 +192,8 @@ The execution layer is the part of your digital presence that allows agents to p
 
 **How do I measure AEO success?**
 Track agent facing metrics: endpoint usage by automated clients, task completion rates, failure points in action flows, and citation frequency in AI generated answers.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

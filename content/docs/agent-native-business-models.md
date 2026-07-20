@@ -16,7 +16,6 @@ keywords:
   - efficiency economy
 ---
 
-
 The internet was built for human attention. Pages, ads, click funnels, session tracking, impressions. Every monetization layer assumes a person is looking at a screen. That assumption is breaking.
 
 AI agents are beginning to generate more high volume transactional activity than humans in several commercial categories. They do not browse. They do not click ads. They do not abandon carts because a popup interrupted them. They query structured endpoints, compare offers against constraints, and execute transactions in seconds.
@@ -97,3 +96,12 @@ Expose clean APIs with deterministic behavior. Create structured data feeds. Off
 
 **What is the biggest risk of ignoring agent-native models?**
 Optimizing for a distribution model (human attention) that is losing share to a new one (machine-to-machine transactions). The transition will not be sudden, but it compounds.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

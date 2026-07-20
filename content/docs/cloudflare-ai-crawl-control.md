@@ -38,7 +38,7 @@ There is no universal "block all AI" or "allow all AI" answer. AEO requires a mo
 | Allow all AI crawlers | Maximum potential visibility | Less control over reuse and bandwidth |
 | Block all AI crawlers | Strong control | Lower AI search and agent discoverability |
 | Allow search crawlers, block training crawlers | Balanced discovery and control | Requires crawler classification |
-| Pay Per Crawl | Monetization path for valuable content | May reduce inclusion by systems unwilling to pay |
+| Pay Per Crawl | Monetization path for useful content | May reduce inclusion by systems unwilling to pay |
 | Content Signals | Expresses use preferences | Depends on crawler respect and ecosystem adoption |
 
 The right policy depends on the business model. A documentation site, publisher, ecommerce store, and API company should not use the same defaults.

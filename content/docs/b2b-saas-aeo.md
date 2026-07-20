@@ -106,3 +106,12 @@ Yes, if the booking system exposes an API or structured endpoint. The agent chec
 
 **What is the biggest AEO mistake SaaS companies make?**
 Hiding critical information behind PDFs, videos, or "contact us" gates. If an agent cannot extract the data from the page source or a documented API, the information does not exist for that agent.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

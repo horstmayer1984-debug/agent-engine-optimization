@@ -4,7 +4,7 @@ metaTitle: "AEO for Commercial Real Estate: Agent Readiness Guide"
 date: 2026-04-14
 weight: 94
 category: "Industry"
-description: "Learn how commercial real estate sites can structure listings, due diligence data, and deal workflows for AI agents."
+description: "Learn how commercial real estate sites can structure listings, availability, pricing, documents, and inquiry workflows for AI agents."
 metaDescription: "Learn how CRE teams structure property data, due diligence, availability, broker contacts, and transaction endpoints for AI-agent-ready marketplaces."
 summary: "AI agents are compressing 60-day due diligence into hours. CRE firms that publish structured property data with AEO see 40-60% of institutional inquiries coming through agent workflows."
 keywords:
@@ -77,3 +77,14 @@ Add jurisdiction-specific data fields (local zoning codes, tax structures, regul
 
 **What is the ROI timeline for CRE AEO?**
 Structured property data can be published in 4 to 8 weeks. Agent-driven inquiry volume typically becomes measurable within 2 to 3 months.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+* [the execution layer](/docs/execution-layer/)
+* [AEO implementation guide](/docs/implement-aeo/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

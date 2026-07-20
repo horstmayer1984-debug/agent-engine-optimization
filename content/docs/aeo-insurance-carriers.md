@@ -89,3 +89,12 @@ Term life, auto, renters, and standard health insurance see the highest agent ac
 
 **What happens if my quoting API returns stale data?**
 The agent loses trust. If a quoted premium does not match the application-stage premium, the agent classifies your system as unreliable and routes future queries to competitors.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

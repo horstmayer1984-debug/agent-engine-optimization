@@ -140,3 +140,12 @@ A functional AEO tool stack can start at under 50 euros per month (Make.com plus
 
 **Can I build AEO tools myself instead of buying them?**
 Yes for endpoint creation and logging (use any web framework). Citation monitoring is harder to build internally because it requires regular access to multiple AI platforms.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

@@ -51,6 +51,20 @@ LLM SEO improves understanding. [Agent Engine Optimization](/docs/what-is-aeo/) 
 
 ---
 
+## Create an entity fact sheet for important topics
+
+Maintain one internal record for each important organization, product, protocol, or concept. Include the canonical name, definition, aliases, relationships, authoritative URL, owner, and update date. Editors can use the record to keep terminology consistent across the site.
+
+| Field | Purpose |
+|---|---|
+| Canonical name | Prevents accidental renaming |
+| Definition | Keeps the scope stable |
+| Related entities | Makes relationships explicit |
+| Source URL | Supports verification |
+| Updated date | Flags facts that may be stale |
+
+The fact sheet is not keyword stuffing guidance. It prevents two pages from describing the same entity in conflicting ways, which makes both human reading and model extraction less reliable.
+
 ## FAQ
 
 **Is LLM SEO different from SEO?**
@@ -58,3 +72,13 @@ Yes. SEO focuses on discovery and rankings. LLM SEO focuses on understanding and
 
 **How does LLM SEO connect to Agent Engine Optimization?**
 LLM SEO helps agents understand. Agent Engine Optimization helps agents act.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+* [the execution layer](/docs/execution-layer/)
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

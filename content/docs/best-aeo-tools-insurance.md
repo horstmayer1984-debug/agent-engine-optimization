@@ -32,6 +32,28 @@ Insurance is trust-heavy and constraint-heavy. AEO tools should help expose cove
 
 Read next: [AEO for Insurance Carriers](/docs/aeo-insurance-carriers/), [Execution Layer](/docs/execution-layer/), and [AEO Readiness Audit](/docs/audit/).
 
+## Score tools against insurance workflows
+
+Do not select an AEO tool from a feature list alone. Test it against one real policy comparison, one quote request, and one claims intake workflow. The tool should preserve exclusions and eligibility rules when it transforms content or generates structured data.
+
+| Criterion | What to verify |
+|---|---|
+| Policy fidelity | Coverage, exclusions, limits, and effective dates remain explicit |
+| Workflow control | High impact actions can require identity checks or human approval |
+| Evidence | Generated output can be traced to an authoritative policy source |
+| Integration | APIs expose stable fields, validation errors, and status responses |
+| Governance | Teams can review changes and retain an audit history |
+
+A tool that improves citation visibility but cannot represent exclusions should remain in the content layer. It should not be used to automate quote or claim decisions.
+
+## Match the tool to the system of record
+
+Policy administration, claims, customer identity, and public content often live in different systems. An AEO tool should not become a second source of truth for regulated terms. It should retrieve or publish approved data from the owning system and preserve the version or effective date used for the response.
+
+Before procurement, ask where every generated field comes from, how corrections propagate, and what happens when two systems disagree. A useful pilot uses one policy type and a limited action, such as retrieving approved coverage details. Expand only after the team can trace the output back to the exact policy source and reproduce the result.
+
+Document the pilot's stop conditions in advance. Pause the rollout if the tool drops an exclusion, changes an effective date, exposes personal data beyond the stated purpose, or cannot explain which system supplied a decision relevant field. These are governance failures, not minor formatting defects.
+
 ## FAQ
 
 **What makes insurance different for AEO?**  
@@ -42,3 +64,8 @@ For quotes, claims, eligibility, and policy servicing, yes. Content alone is not
 
 **Which AEO tool should insurers start with?**  
 Start with structured policy content, schema markup, OpenAPI documentation, and an agent-readiness audit.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

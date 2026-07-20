@@ -44,6 +44,19 @@ The [AI Optimization Maturity Model](/docs/ai-optimization-maturity-model/) prov
 
 ---
 
+## Measure each discovery surface separately
+
+AI search is not one channel. A page can perform well in classic search, appear in generated answers, and still fail when an agent tries to use its data. Build a measurement view that separates those outcomes.
+
+| Layer | Primary question | Useful evidence |
+|---|---|---|
+| Search | Can users find the page? | Impressions, rankings, clicks, indexed status |
+| Answer | Is the page represented accurately? | Citations, mentions, extracted answer quality |
+| Agent | Can a task be completed? | Tool calls, validation errors, completion rate |
+| Business | Did the interaction create value? | Qualified leads, orders, retained users |
+
+Do not combine these measures into one score until the underlying events are reliable. A rise in citations can hide a broken booking path, while a low click count may be normal when an answer satisfies an informational query.
+
 ## FAQ
 
 **Is AI Search Optimization the same as SEO?**
@@ -54,3 +67,8 @@ Fix crawlability and content clarity before chasing advanced AI visibility.
 
 **What is the final layer?**
 Agent Engine Optimization, where websites become actionable for autonomous AI agents.
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

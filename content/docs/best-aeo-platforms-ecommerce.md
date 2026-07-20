@@ -57,7 +57,7 @@ Enterprise ecommerce (10,000 plus products): full platform stack for monitoring 
 ## FAQ
 
 **Do I need a dedicated AEO platform?**
-For basic AEO, no. Google Rich Results Test plus manual AI citation checks plus the implementation guide cover the essentials. Platforms become valuable when you need automated monitoring at scale.
+For basic AEO, no. Google Rich Results Test plus manual AI citation checks plus the implementation guide cover the essentials. Platforms become useful when you need automated monitoring at scale.
 
 **Which platform has the best ecommerce integration?**
 HubSpot AEO if you use HubSpot CRM. Webflow AEO if your site is on Webflow. For Shopify or WooCommerce stores, no platform offers deep native integration yet.
@@ -67,3 +67,8 @@ Likely, but not in 2026. Shopify's agentic storefronts are the closest platform-
 
 **How much should I spend on AEO platforms?**
 Start with free tools (Rich Results Test, manual citation checks). Add a paid visibility tracker at 100 to 300 euros per month when you need automated monitoring. Enterprise platforms (HubSpot, Conductor) make sense above 1 million euros annual ecommerce revenue.
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

@@ -15,7 +15,6 @@ keywords:
   - AI search optimization online store
 ---
 
-
 Answer Engine Optimization makes your ecommerce site visible inside AI generated answers. Instead of competing only for blue links, your products and brand get cited directly in responses from ChatGPT Search, Perplexity, Google AI Overviews, and similar systems. For online stores, that changes the math. AI referred traffic converts at significantly higher rates than traditional organic search because the user already received a recommendation before arriving.
 
 This guide covers the full implementation path, from audit to measurement.
@@ -118,3 +117,14 @@ No. AEO builds on SEO. Without clean technical foundations, proper indexing, and
 
 **How quickly do AEO changes take effect?**
 Schema markup and answer-first content restructuring often produce measurable AI citations within 4 to 8 weeks. Building topical authority through pillar cluster structures takes 3 to 6 months.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+* [agent payment protocols](/docs/agent-payment-protocols-compared/)
+* [the execution layer](/docs/execution-layer/)
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

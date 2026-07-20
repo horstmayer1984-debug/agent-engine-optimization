@@ -4,7 +4,7 @@ metaTitle: "AEO for Travel Booking: AI Agent Readiness Guide"
 date: 2026-04-14
 weight: 100
 category: "Industry"
-description: "Learn how travel booking sites can expose availability, prices, policies, and confirmation flows for AI travel agents."
+description: "Learn how travel and booking sites can expose availability, prices, policies, and reservation actions that autonomous AI agents can use."
 metaDescription: "See how travel brands use structured data, real-time APIs, and deterministic booking endpoints to become usable by AI agents."
 summary: "Travel is one of the clearest AEO battlegrounds. AI agents that book flights, compare hotels, and assemble itineraries need real-time APIs, structured availability data, and deterministic checkout paths."
 keywords:
@@ -100,3 +100,8 @@ Agents handle dynamic pricing well as long as the price returned by the API is t
 
 **Should small hotels invest in AEO?**
 If they list on platforms with agent-facing APIs (Booking.com, Expedia), the platform handles AEO for them. Direct booking through their own website requires their own structured data and booking endpoint.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

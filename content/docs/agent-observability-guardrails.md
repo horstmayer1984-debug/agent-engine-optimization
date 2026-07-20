@@ -99,3 +99,12 @@ Rate limiting controls volume (how many requests per time period). Guardrails co
 
 **What is the compliance benefit of observability?**
 Automatic audit trails that record every agent interaction, decision, and outcome. This satisfies regulatory requirements without manual log reconstruction.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

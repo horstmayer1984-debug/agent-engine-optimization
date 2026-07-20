@@ -109,3 +109,8 @@ That is the advantage. AEO trust patterns are self-reinforcing. Being first mean
 
 **Is AEO relevant for B2B companies?**
 Especially relevant. B2B procurement agents are moving faster toward autonomous purchasing than consumer agents. By 2028, an estimated 90 percent of B2B purchases will involve at least one agent layer.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

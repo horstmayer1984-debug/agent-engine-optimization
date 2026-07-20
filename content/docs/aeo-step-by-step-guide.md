@@ -106,3 +106,8 @@ Monitor server logs for non-browser user agents. Track API endpoint usage. Check
 
 **What is a feedback loop in AEO?**
 A closed system where agent interactions are logged, outcomes are evaluated, corrections are captured, and improvements are fed back into the content or system. It turns a static optimization into a continuously improving one.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

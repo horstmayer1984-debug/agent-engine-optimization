@@ -16,7 +16,6 @@ keywords:
   - CIPS autonomous procurement
 ---
 
-
 B2B SaaS websites are still built like persuasion surfaces. AI procurement will treat them like evaluation systems. That is the shift most vendors have not internalized yet.
 
 A buying agent does not care that your homepage feels enterprise grade. It cares whether it can verify capability, estimate cost, assess risk, and trigger the next approved step without ambiguity.
@@ -85,3 +84,8 @@ Usually sandbox or trial provisioning, because it converts vendor evaluation int
 
 **What does machine readable feature matrix mean?**
 A structured representation of product capabilities, integrations, limits, and compliance posture that an AI agent can parse without interpreting marketing copy.
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

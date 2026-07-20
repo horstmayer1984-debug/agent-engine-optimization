@@ -93,3 +93,12 @@ Prevent them through clear role boundaries. If two agents can modify the same da
 
 **When should I retire an agent?**
 When reviewing its output takes more time than doing the task manually, when it consistently produces errors that corrections do not fix, or when the workflow it handles is no longer needed.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

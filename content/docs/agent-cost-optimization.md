@@ -4,7 +4,7 @@ metaTitle: "AI Agent Cost Optimization Guide"
 date: 2026-04-12
 weight: 87
 category: "Guide"
-description: "Learn how to control AI agent costs with FinOps, caching, model routing, quotas, observability, and workflow design."
+description: "Reduce AI agent costs with model routing, tool limits, caching, observability, and clear budgets without weakening task reliability."
 metaDescription: "Reduce agent workflow cost with routing, caching, quotas, monitoring, FinOps practices, and cost-per-task benchmarks for sustainable scaling."
 summary: "Agent systems become expensive fast without cost controls. Caching, model routing, quota management, and per-agent billing turn experimental agent traffic into sustainable revenue."
 keywords:
@@ -109,3 +109,8 @@ Each agent receives an allocation of requests per time period. An /agent-quota e
 
 **At what scale do cost problems typically appear?**
 Above 10,000 agent interactions per day without caching. Below that threshold, costs are usually manageable even without optimization. Above it, unmanaged costs can exceed revenue quickly.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

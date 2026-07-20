@@ -14,7 +14,6 @@ keywords:
   - advanced AEO strategy
 ---
 
-
 Basic AEO, meaning schema markup and answer-first content, gets you into AI answers. Staying there requires something more systematic. The brands that maintain consistent visibility across ChatGPT, Perplexity, Google AI Overviews, and emerging shopping agents share a common trait: they treat their product data as a knowledge graph, not a collection of isolated pages.
 
 That distinction matters because AI systems do not evaluate pages independently the way traditional search rankings do. They build internal representations of entities and relationships. A brand that appears consistently across these representations earns compounding visibility. A brand that optimizes individual pages without connecting them earns scattered, fragile citations.
@@ -84,3 +83,12 @@ Run your core product queries through ChatGPT, Perplexity, and Google AI Overvie
 
 **Is AI-powered AEO only for large brands?**
 No. Smaller brands often benefit more because they can achieve entity consistency faster. The approach scales down to stores with 50 products.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

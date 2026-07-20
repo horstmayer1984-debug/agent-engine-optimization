@@ -101,3 +101,12 @@ Tools are actions the agent can execute (check availability, create booking). Re
 
 **Is MCP only for complex applications?**
 No. Even a simple website with a contact form and a pricing page benefits from MCP. The contact form becomes a tool, the pricing data becomes a resource, and agents can interact with both without scraping HTML.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+
+## Primary references
+
+* [Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18/basic/index)
+* [MCP server primitives](https://modelcontextprotocol.io/specification/2025-06-18/server/index)

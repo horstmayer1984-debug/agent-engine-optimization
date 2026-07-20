@@ -104,3 +104,13 @@ Yes, if your pricing is public. Include base pricing, pricing model (per seat, p
 
 **Can I have different llms.txt for different subdomains?**
 Yes. Each subdomain should have its own llms.txt that describes that subdomain's specific capabilities.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+* [the execution layer](/docs/execution-layer/)
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

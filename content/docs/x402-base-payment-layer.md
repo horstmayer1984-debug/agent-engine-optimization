@@ -73,3 +73,8 @@ A feature where the site operator pays the small blockchain transaction fee on b
 ---
 
 *This article discusses payment protocols and cryptocurrency infrastructure for educational and informational purposes only. It does not constitute financial advice. See our [Legal Disclaimer](/docs/disclaimer/) for full terms.*
+
+## Primary references
+
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)
+* [x402 specification repository](https://github.com/x402-foundation/x402)

@@ -1,6 +1,6 @@
 ---
 title: "mem0 Agent Memory: Why Persistent Context Matters for AEO"
-metaTitle: "mem0 Agent Memory for AEO"
+metaTitle: "mem0 Agent Memory: AEO, Consent, and Personalization"
 date: 2026-06-28
 weight: 181
 category: "Architecture"
@@ -59,6 +59,19 @@ For commerce, see [Agentic Wallets and Spend Governance](/docs/agentic-wallets-s
 | Consent acceptance | Memory features need explicit trust. |
 | Policy violation rate | Memory should not bypass rules. |
 | Support deflection | Better memory may reduce repeated tickets. |
+
+## Separate memory from transaction authority
+
+Remembered preferences can help an agent prepare a task, but memory should not silently authorize a consequential action. Store the distinction in the workflow. A preference such as "usually choose refundable fares" can influence a shortlist. It should not approve a purchase, override a budget, or accept changed terms.
+
+| Data type | Safe default |
+|---|---|
+| Preference | Reuse with a visible option to change it |
+| Sensitive profile data | Minimize, protect, and require a clear purpose |
+| Transaction constraint | Reconfirm when the action has material impact |
+| Authorization | Bind to the specific action and validity period |
+
+Provide a way to inspect, correct, and delete remembered data. When memory conflicts with the current instruction, the current instruction should win and the conflict should be recorded rather than guessed away.
 
 ## FAQ
 

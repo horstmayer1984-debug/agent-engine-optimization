@@ -14,7 +14,6 @@ keywords:
   - UCP ecommerce
 ---
 
-
 Ecommerce is one of the clearest proving grounds for Agent Engine Optimization. A product site already contains the ingredients agents care about: structured offers, prices, inventory, shipping rules, policies, and transactional flows. The difference is that most stores still expose those elements in ways built for browsing, not execution.
 
 That gap is now strategic. When AI agents compare products, shortlist offers, and complete purchases on behalf of users, the winning brand is not always the one with the prettiest site or the largest ad budget. It is often the brand that makes product information reliable, comparable, and easy to act on.
@@ -130,3 +129,8 @@ Agentic commerce describes purchasing flows where AI agents research, compare, a
 
 **How do I start with AEO for my online store?**
 Start by auditing product data structure, purchase path clarity, and policy accessibility. The AEO Readiness Audit provides a systematic assessment.
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

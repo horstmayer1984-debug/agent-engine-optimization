@@ -121,3 +121,8 @@ An AEO Content Lead or Generalist who can structure content, implement schema, a
 
 **How do I justify AEO headcount to leadership?**
 Track AI-referred traffic separately. Show the conversion rate difference versus traditional organic. Project the revenue impact of growing agent-driven transactions. The [CEO roadmap](/docs/aeo-ceo-roadmap/) provides the executive framing.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

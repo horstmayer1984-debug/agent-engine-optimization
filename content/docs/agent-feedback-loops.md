@@ -15,7 +15,7 @@ keywords:
   - agent correction systems
 ---
 
-AI agents without feedback loops repeat the same mistakes indefinitely. An agent that misreads your pricing once will misread it every time until something changes. Building effective feedback loops is the single highest-leverage investment in Agent Engine Optimization because it turns a static optimization into a system that improves automatically.
+AI agents without feedback loops repeat the same mistakes indefinitely. An agent that misreads your pricing once will misread it every time until something changes. Building effective feedback loops is the single highest impact investment in Agent Engine Optimization because it turns a static optimization into a system that improves automatically.
 
 ## What a feedback loop actually looks like
 
@@ -109,3 +109,13 @@ Yes, if your site serves significant agent traffic. It surfaces problems faster 
 
 **What is the Reflexion pattern?**
 An agent architecture where the agent evaluates its own output, identifies potential errors, and retries with the self-critique as context. It improves single-interaction accuracy without requiring external feedback.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+* [the execution layer](/docs/execution-layer/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

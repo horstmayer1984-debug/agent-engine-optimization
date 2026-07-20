@@ -16,7 +16,6 @@ keywords:
   - Visa Agentic Ready
 ---
 
-
 The [execution layer](/docs/execution-layer/) becomes dangerous the moment it is exposed without governance. That is why serious AEO architecture needs more than readable pages and callable endpoints. It needs a control system that decides what can be inspected, what can be executed, under which authority, and with which recovery logic when something fails.
 
 That governing surface is what many teams describe as a Universal Control Plane.
@@ -89,3 +88,8 @@ Because agent readiness depends on trusted execution. Visibility without governe
 
 **What is AP2?**
 The Agent Payments Protocol, part of Google's AI agent protocol stack. It extends UCP with cryptographic payment mandates and audit trails for autonomous transactions.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

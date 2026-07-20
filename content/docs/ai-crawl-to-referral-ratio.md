@@ -72,7 +72,7 @@ The result will be imperfect, but more useful than guessing.
 | Ratio pattern | Possible interpretation | Action |
 |---|---|---|
 | Low crawl, high referral | Efficient discovery | Keep access open and improve cited pages |
-| High crawl, high referral | Valuable but costly | Allow, monitor bandwidth, optimize cache |
+| High crawl, high referral | useful but costly | Allow, monitor bandwidth, optimize cache |
 | High crawl, low referral | Extraction risk | Rate limit, restrict, or negotiate access |
 | No crawl, high referral | Brand demand or indirect citation | Improve source clarity and landing pages |
 | No crawl, no referral | Not visible | Review blocking, content quality, and entity signals |

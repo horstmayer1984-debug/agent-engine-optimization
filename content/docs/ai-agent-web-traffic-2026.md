@@ -1,6 +1,6 @@
 ---
 title: "AI Agent Web Traffic in 2026: What Website Owners Should Track"
-metaTitle: "AI Agent Web Traffic in 2026"
+metaTitle: "AI Agent Web Traffic 2026: Metrics and Bot Analysis"
 date: 2026-06-28
 weight: 172
 category: "Analysis"

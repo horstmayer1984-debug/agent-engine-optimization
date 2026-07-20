@@ -29,3 +29,8 @@ Your score maps to a grade from F (not agent-ready) to A+ (fully agent-ready), w
 ## Privacy and data handling
 
 The tool runs entirely in your browser. No data is collected or transmitted.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+* [the execution layer](/docs/execution-layer/)

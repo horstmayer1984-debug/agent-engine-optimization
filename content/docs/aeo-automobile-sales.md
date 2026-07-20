@@ -91,3 +91,8 @@ Agents need structured data for both, with EV-specific fields: battery capacity,
 
 **What is the competitive risk of not implementing AEO?**
 Agents build shortlists from structured data. If your vehicles are not in the data, they are not on the list. As agent-driven discovery grows, the gap between AEO-ready and non-AEO brands widens.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

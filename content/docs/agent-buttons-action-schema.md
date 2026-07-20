@@ -13,7 +13,7 @@ keywords:
   - AEO endpoint security
 ---
 
-A content page that an agent can read is useful. A content page that an agent can act through is valuable. Agent buttons, action schema, and documented API endpoints are what make the difference. They transform static publishing surfaces into transactional interfaces where autonomous systems can check availability, request quotes, book appointments, and complete purchases.
+A content page that an agent can read is useful. A content page that an agent can act through is useful. Agent buttons, action schema, and documented API endpoints are what make the difference. They transform static publishing surfaces into transactional interfaces where autonomous systems can check availability, request quotes, book appointments, and complete purchases.
 
 ## What agent buttons actually are
 
@@ -99,3 +99,12 @@ Yes. n8n and Make.com both support webhook endpoints that accept structured JSON
 
 **What if my action schema describes a capability that is temporarily unavailable?**
 Return a clear, structured error response that explains the unavailability and when the service is expected to resume. Do not leave broken action schema on pages where the capability no longer exists.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+
+## Primary references
+
+* [Google structured data guidelines](https://developers.google.com/search/docs/appearance/structured-data/sd-policies)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

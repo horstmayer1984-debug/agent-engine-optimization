@@ -4,7 +4,7 @@ metaTitle: "Delegation Economy and Agent Autonomy"
 date: 2026-04-14
 weight: 91
 category: "Framework"
-description: "Learn how delegated authority, approval rules, and autonomy levels shape AI agent participation in commerce and work."
+description: "Explore five levels of agent autonomy in commerce, from assisted research to delegated purchasing governed by policies and controls."
 metaDescription: "Understand the five levels of agent autonomy, from human-only purchases to delegated approvals, supervised workflows, and fully autonomous transactions."
 summary: "Commerce is shifting from searching to delegating. Five levels of agent autonomy define how much control humans retain, from assisted browsing to fully autonomous purchasing."
 keywords:
@@ -102,3 +102,8 @@ Not all. High-touch, relationship-driven, and emotionally significant purchases 
 
 **What is the delegation economy?**
 The shift from consumers searching for products to consumers delegating purchase decisions to AI agents. The agent becomes the buyer. The human becomes the principal who sets constraints and reviews outcomes.
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

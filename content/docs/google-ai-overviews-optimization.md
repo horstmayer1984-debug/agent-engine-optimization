@@ -37,6 +37,16 @@ Appearing in an AI Overview helps visibility, but the user journey does not end 
 
 ---
 
+## Test whether key passages survive extraction
+
+Copy the paragraph that answers the main query into a blank document and remove the surrounding headings. It should still identify the subject, answer the question, and preserve any condition or limitation that changes the meaning.
+
+Repeat the test for definitions, comparison verdicts, and numerical claims. Add a source near claims that depend on external data, and include an update date when the information can change. Avoid pronouns whose meaning depends on the previous paragraph.
+
+This is not a method for forcing inclusion in AI Overviews. It is a quality test for passages that search systems may extract or summarize. The same work also improves featured snippets, accessibility, and ordinary readers who scan a page instead of reading every section.
+
+Track the underlying search query and landing page in Search Console, but avoid attributing every impression or click change to an AI Overview. Compare periods, devices, countries, and query groups, then annotate major content or technical changes before drawing a conclusion.
+
 ## FAQ
 
 **Is there special schema for AI Overviews?**
@@ -44,3 +54,12 @@ No guaranteed special markup forces inclusion. Focus on helpful content and tech
 
 **How does this relate to Agent Engine Optimization?**
 AI Overviews create visibility. Agent Engine Optimization prepares the site for action-oriented AI journeys.
+
+## Related guides
+
+* [AEO implementation guide](/docs/implement-aeo/)
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

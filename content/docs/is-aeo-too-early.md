@@ -53,9 +53,9 @@ This four-week start requires no coding, no APIs, and no special tools beyond a 
 
 "My industry is too traditional for AEO." Every industry where buyers research online is already being affected by AI-generated answers. Real estate, legal services, healthcare, manufacturing, professional services. The question is not whether AI will influence your industry. It is whether you will be cited when it does.
 
-"I cannot afford to hire an AEO specialist." You do not need one for the first phase. Content restructuring and basic schema markup are skills your existing team can learn in a week. Specialist help becomes valuable at the execution layer stage, typically months after you start.
+"I cannot afford to hire an AEO specialist." You do not need one for the first phase. Content restructuring and basic schema markup are skills your existing team can learn in a week. Specialist help becomes useful at the execution layer stage, typically months after you start.
 
-"The technology changes too fast to invest in." The foundational work (structured content, accurate schema, answer-first formatting) will remain valuable regardless of which specific protocols or platforms succeed. You are not betting on a protocol. You are making your content machine-readable, which is permanently useful.
+"The technology changes too fast to invest in." The foundational work (structured content, accurate schema, answer-first formatting) will remain useful regardless of which specific protocols or platforms succeed. You are not betting on a protocol. You are making your content machine-readable, which is permanently useful.
 
 "My competitors are not doing this yet." That is the advantage, not the objection. AEO citation patterns are self-reinforcing. The brands that establish AI visibility first develop stronger machine representations that compound over time. Waiting until your competitors start means competing against established citation patterns.
 
@@ -89,3 +89,12 @@ After your read-layer optimization shows measurable AI citations and you have a 
 
 **What is the biggest risk of starting AEO now?**
 The risk of starting is minimal because the foundational work (structured content, schema) has permanent value. The risk of waiting is that competitors who start now build citation patterns that become harder to displace over time.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

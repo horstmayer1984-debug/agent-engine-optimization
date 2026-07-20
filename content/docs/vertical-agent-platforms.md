@@ -16,7 +16,6 @@ keywords:
   - sports agentic AI
 ---
 
-
 Horizontal AI tools handle generic tasks. Summarize this document. Write that email. Schedule a meeting. Useful, but not defensible. Any competitor can replicate the same capability with the same foundation models.
 
 Vertical agent platforms are different. They encode industry rules, regulatory requirements, legacy system integrations, and proprietary workflows into systems that automate entire operational chains. The moat is not the AI. It is the domain knowledge baked into the orchestration layer.
@@ -103,3 +102,8 @@ Yes. Many offer lightweight versions with managed agents and simplified onboardi
 
 **What is the biggest risk for vertical platform builders?**
 Building too broadly before one workflow is reliable. The moat comes from depth, not breadth.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

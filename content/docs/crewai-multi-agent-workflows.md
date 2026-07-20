@@ -1,6 +1,6 @@
 ---
 title: "CrewAI Multi-Agent Workflows: What Website Teams Should Prepare"
-metaTitle: "CrewAI Multi-Agent Workflows"
+metaTitle: "CrewAI Workflows: Website Readiness for Agent Teams"
 date: 2026-06-28
 weight: 180
 category: "Architecture"
@@ -58,6 +58,14 @@ This connects to [Agentic Commerce Dispute Evidence](/docs/agentic-commerce-disp
 | Lost context | Use stable task IDs and status pages. |
 | Unsafe execution | Require approvals and scoped permissions. |
 | Attribution gaps | Track agent referrals, tool calls, and outcomes. |
+
+## Define contracts between agent roles
+
+Role names such as researcher, analyst, and executor do not create a reliable workflow. Each handoff needs a defined input, output, owner, validation rule, and failure route. The next agent should not have to infer whether the previous task is complete.
+
+For a commerce task, the research role might return candidate products with source URLs and timestamps. The comparison role can return a ranked list plus rejected options and reasons. The execution role should accept only a validated choice with explicit authorization constraints.
+
+Test what happens when a role returns incomplete data, conflicting data, or no result. A safe workflow stops, retries within a limit, or requests human input. It should never let an execution role fill missing commercial terms from its own assumptions.
 
 ## FAQ
 

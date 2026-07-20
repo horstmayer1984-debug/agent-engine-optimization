@@ -105,3 +105,8 @@ MCP has the broadest adoption (hundreds of thousands of sites). UCP is the domin
 
 **What is a Capability Declaration?**
 A JSON manifest published at /.well-known/ucp that tells agents exactly what your store supports: which transaction types, payment methods, discount rules, and policies are available. Agents read it before attempting any interaction.
+
+## Primary references
+
+* [Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18/basic/index)
+* [MCP server primitives](https://modelcontextprotocol.io/specification/2025-06-18/server/index)

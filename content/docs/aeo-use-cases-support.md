@@ -15,7 +15,6 @@ keywords:
   - agent driven customer service
 ---
 
-
 Customer support is one of the most mature areas for AI agent deployment. The pattern is clear: a user describes a problem, an agent searches for a solution, verifies it applies, and either resolves the issue directly or escalates with full context.
 
 What makes this work well or poorly is not the agent's reasoning ability. It is the quality of the support infrastructure the agent interacts with. A knowledge base full of vague, overlapping articles written for human skimming produces different results than a structured, explicit, machine readable support system.
@@ -72,3 +71,13 @@ By maintaining a single structured source of truth accessed by all channels. Con
 
 **What is post resolution verification?**
 After applying a fix, the agent checks whether the issue is actually resolved by querying status endpoints or verifying account state. This closes the support loop reliably.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+* [the execution layer](/docs/execution-layer/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

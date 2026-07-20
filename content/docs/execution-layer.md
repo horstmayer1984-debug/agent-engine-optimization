@@ -117,3 +117,26 @@ The execution layer is not something you build overnight. It is a capability you
 [AEO Readiness Audit](/docs/audit/) — start with a systematic assessment.
 
 [What is AEO?](/docs/what-is-aeo/) — full definition and scope.
+
+## FAQ
+
+### Does the execution layer replace the website interface?
+
+No. Human interfaces remain important. The execution layer adds structured paths that software can use without guessing how a visual interface works.
+
+### What makes an action safe for agents?
+
+The action needs explicit inputs, validation, authorization, stable states, bounded retries, clear errors, and a result that can be verified.
+
+### Should teams expose every internal action?
+
+No. Expose only actions with a defined user benefit, permission model, owner, audit trail, and failure recovery process.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

@@ -64,7 +64,7 @@ Standard request-response patterns work for simple tasks. Multi-step collaborati
 
 A WebSocket endpoint at /ws/agent-collaboration lets two agents maintain a persistent connection for workflows that require back-and-forth negotiation: checking multiple availability slots, comparing options, adjusting parameters based on intermediate results.
 
-This is particularly valuable for commerce workflows where an agent needs to reserve inventory, check shipping options, apply discount rules, and confirm payment authority in a coordinated sequence.
+This is particularly useful for commerce workflows where an agent needs to reserve inventory, check shipping options, apply discount rules, and confirm payment authority in a coordinated sequence.
 
 ## Agent sandboxing for security
 
@@ -106,3 +106,12 @@ Yes, through llms.txt, schema markup, or direct page crawling. An Agent Card acc
 
 **Is A2A only for large enterprises?**
 No. Any site that exposes actions agents can perform benefits from A2A. Even a small service with a booking endpoint can participate in multi-agent workflows through a simple Agent Card and task endpoint.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [A2A protocol specification](https://github.com/a2aproject/A2A/blob/main/docs/specification.md)
+* [Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18/basic/index)

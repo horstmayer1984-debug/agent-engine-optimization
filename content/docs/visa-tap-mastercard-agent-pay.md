@@ -106,3 +106,8 @@ Retailers should make product data, policies, checkout requirements, and post pu
 ## Sources
 
 Primary references: [Visa Trusted Agent Protocol developer overview](https://developer.visa.com/capabilities/trusted-agent-protocol/overview), [Visa TAP announcement](https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-unveils-trusted-agent-protocol-for-ai-commerce.html), [Mastercard Agent Pay announcement](https://www.mastercard.com/news/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai/), and [x402 documentation](https://docs.x402.org/faq).
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+* [agent payment protocols](/docs/agent-payment-protocols-compared/)

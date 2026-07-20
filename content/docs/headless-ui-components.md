@@ -1,6 +1,6 @@
 ---
 title: "Headless UI Components: Meaning, Benefits, Risks, and Use Cases"
-metaTitle: "Headless UI Components Guide"
+metaTitle: "Headless UI Components: Benefits, Risks, Use Cases"
 date: 2026-05-13
 weight: 125
 category: "Guide"

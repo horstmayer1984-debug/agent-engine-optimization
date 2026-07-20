@@ -15,7 +15,6 @@ keywords:
   - agentic development workflow
 ---
 
-
 Developer tools already operate in a largely text based, structured environment. Documentation, API specifications, code repositories, and configuration files are inherently more machine readable than most web content. That gives developer focused AEO a head start, but it does not mean the work is done.
 
 Most documentation is written for humans who will browse, search, and read in context. AI coding agents interact differently. They need to locate specific information fast, extract it accurately, apply it to a task, and verify the result. When documentation supports that workflow, agent effectiveness improves significantly.
@@ -74,3 +73,12 @@ Yes. Agents evaluate documentation quality, completeness, and structure when sel
 
 **How does multi-agent development relate to AEO?**
 Multiple specialized agents (planner, coder, tester, reviewer) need different views of documentation. AEO ensures each role can access relevant, structured information efficiently.
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

@@ -4,7 +4,7 @@ metaTitle: "Agent UX and Human-in-the-Loop Design"
 date: 2026-04-12
 weight: 86
 category: "Guide"
-description: "Learn how human-in-the-loop design improves agent UX with approvals, feedback, escalation paths, and safer execution."
+description: "Design agent UX with approvals, previews, reversibility, and clear status feedback so people can supervise high-impact AI actions safely."
 metaDescription: "Design interfaces for humans and AI agents with semantic HTML, approvals, structured feedback, status messages, and shared workflows."
 summary: "Modern interfaces must serve two audiences simultaneously: human users and AI agents. Agent-responsive design uses semantic HTML, structured endpoints, and feedback loops to satisfy both."
 keywords:
@@ -85,7 +85,12 @@ Not usually. One well-structured page with semantic HTML, schema markup, and doc
 It provides a safety net for high-stakes agent actions. The agent proposes, the human approves, the system executes. This builds trust and prevents costly errors from fully autonomous systems.
 
 **How do WebSocket endpoints help agents?**
-They maintain session state across multi-step workflows, preventing context loss between sequential REST calls. This is particularly valuable for purchase flows and complex service interactions.
+They maintain session state across multi-step workflows, preventing context loss between sequential REST calls. This is particularly useful for purchase flows and complex service interactions.
 
 **Should I prioritize human UX or agent UX?**
 Both. If forced to choose a starting point, human UX with semantic HTML gives you both audiences. Agent-specific endpoints (MCP, WebSocket) can be added incrementally.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

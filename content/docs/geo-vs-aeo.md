@@ -52,6 +52,20 @@ The [AI Search Optimization framework](/docs/ai-search-optimization/) explains h
 
 ---
 
+## Decide whether the gap is visibility or execution
+
+Use the failed user journey to choose the discipline. If an AI answer omits the brand or describes it incorrectly, investigate entity clarity, source quality, internal linking, and GEO citation signals. If the brand is recommended but the agent cannot check availability, calculate a total, or complete the task, the gap sits in the execution layer.
+
+| Observed failure | Primary response |
+|---|---|
+| Brand is absent from relevant answers | GEO and topical authority work |
+| Facts are quoted incorrectly | Source clarity and structured content |
+| Agent cannot compare options | Deterministic fields and constraints |
+| Agent cannot complete an action | API, protocol, authorization, and state design |
+| Outcome cannot be confirmed | Receipt or verification endpoint |
+
+Many journeys contain both gaps. Fix discovery first when the page cannot be found, then test the action path separately.
+
 ## FAQ
 
 **Is GEO better than AEO?**
@@ -62,3 +76,8 @@ Yes, but it may create visibility without conversion. The strongest position com
 
 **Where should I start?**
 Start with content clarity and structured pages. Then improve action paths, data quality and agent-readable workflows.
+
+## Primary references
+
+* [Google guidance for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+* [Google Search Essentials](https://developers.google.com/search/docs/essentials)

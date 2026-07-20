@@ -75,6 +75,14 @@ The [Universal Cart guide](/docs/universal-cart-agentic-commerce/) covers the pr
 | Loyalty mismatch | User loses benefits | Support identity linking where available |
 | Refund opacity | Support volume increases | Expose refund status and amount |
 
+## Define fulfillment events as a stable contract
+
+Each fulfillment event should identify the order, event type, timestamp, current state, previous state, and the next actions allowed. The event also needs a stable identifier so a repeated webhook does not create a duplicate refund, cancellation, or loyalty adjustment.
+
+Treat human readable status text as presentation, not as the contract. An agent should act on a documented state such as `shipped`, `delivered`, `return_requested`, or `refunded`. Free text such as "on its way" can remain in customer messages, but it should not control workflow logic.
+
+Test three failure cases before launch: events arriving out of order, the same event arriving twice, and a partial refund that does not close the whole order. A reliable implementation preserves history and exposes the current authoritative state after each case.
+
 ## FAQ
 
 ### Why do agents need fulfillment events?

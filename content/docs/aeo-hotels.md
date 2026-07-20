@@ -87,3 +87,8 @@ No. Keep the visual interface for human guests. Add the API layer alongside it. 
 
 **What is the most common reason agents skip a hotel?**
 Missing or stale availability data. If the agent cannot verify current room availability through a structured query, the hotel is excluded from comparison.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

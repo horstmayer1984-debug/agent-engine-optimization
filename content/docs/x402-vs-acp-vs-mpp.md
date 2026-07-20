@@ -124,3 +124,9 @@ x402 is the clearest fit for lightweight stablecoin micropayments over HTTP. Str
 ## Sources
 
 Primary references: [x402 documentation](https://docs.x402.org/faq), [Linux Foundation x402 Foundation announcement](https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol), [Stripe ACP announcement](https://stripe.com/newsroom/news/stripe-openai-instant-checkout), [Stripe agentic commerce documentation](https://docs.stripe.com/agentic-commerce), [Stripe Machine Payments documentation](https://docs.stripe.com/payments/machine), and [Stripe MPP announcement](https://stripe.com/blog/machine-payments-protocol).
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+* [agent payment protocols](/docs/agent-payment-protocols-compared/)
+* [the execution layer](/docs/execution-layer/)

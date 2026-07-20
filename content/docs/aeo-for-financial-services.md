@@ -104,6 +104,8 @@ The SEC Regulation S-P materials are relevant for covered financial institutions
 
 The [AEO readiness checker](/tools/aeo-readiness-checker.html) can score the public discovery layer before deeper execution-layer work begins.
 
+Use the [full AEO readiness audit](/docs/audit/) when the scope includes authenticated actions, policy controls, or regulated decision paths.
+
 ## FAQ
 
 ### Can AI agents recommend financial products?

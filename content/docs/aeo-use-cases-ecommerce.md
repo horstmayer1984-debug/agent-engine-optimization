@@ -14,7 +14,6 @@ keywords:
   - autonomous purchasing
 ---
 
-
 Ecommerce is the first sector where Agent Engine Optimization produces measurable outcomes. The reason is structural: online stores already hold the data agents need (prices, inventory, specs, policies) but most of them expose it in formats designed for human browsing, not machine execution.
 
 When that changes, the results are immediate. An agent that can read your product catalog, compare it against competitors, verify stock, and complete a checkout without friction will prefer your store over one that requires guessing.
@@ -85,3 +84,12 @@ Not immediately. Clean structured data, explicit pricing, and reliable checkout 
 
 **How does AEO differ from traditional ecommerce conversion optimization?**
 Traditional CRO optimizes for human behavior (clicks, visual persuasion). AEO optimizes for machine behavior (data extraction, constraint matching, action completion).
+
+## Related guides
+
+* [agentic commerce architecture](/docs/agentic-commerce/)
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

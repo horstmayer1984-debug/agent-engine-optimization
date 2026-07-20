@@ -114,3 +114,8 @@ Yes. Agents operate with funded wallets (x402/USDC), delegated card authority (V
 
 **What makes an agent choose one service over another?**
 Exact parameter match (price, speed, capability), transaction reliability (historical success rate), and discovery clarity (how quickly the agent can verify the service meets requirements). Brand reputation carries zero weight in agent selection.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

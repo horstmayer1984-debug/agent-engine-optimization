@@ -60,6 +60,14 @@ For technical background, see [Headless Browser Automation](/docs/headless-brows
 
 Both trends point in the same direction: websites need to be usable by agents, not merely readable by crawlers.
 
+## Keep a browser agent failure log
+
+Record failures by task step rather than by page visit. A useful entry contains the target action, page URL, element or field involved, expected state, observed state, recovery attempt, and final outcome. This separates a content problem from an interaction problem.
+
+Use a small fixed test suite after every major interface change: locate a policy, choose an option, submit a valid form, trigger a validation error, recover from that error, and confirm the final state. Run the same tasks with keyboard navigation because accessible labels often improve agent interpretation too.
+
+If a browser agent fails while a documented API succeeds, keep the API as the preferred execution path and treat browser automation as a fallback. If both fail at the same business rule, fix the underlying contract rather than adding more browser instructions.
+
 ## FAQ
 
 ### Is browser-use an SEO tool?

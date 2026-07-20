@@ -4,7 +4,7 @@ metaTitle: "HubSpot and Webflow AEO Tools Explained"
 date: 2026-04-14
 weight: 103
 category: "Analysis"
-description: "Learn what HubSpot and Webflow AI optimization launches mean for CMS teams, AI visibility, structured content, and AEO."
+description: "Review HubSpot and Webflow AEO features, their limits, and what teams still need for AI visibility, agent access, and execution readiness."
 metaDescription: "See what HubSpot and Webflow AEO tools change for AI visibility, CMS workflows, structured content, and the wider AEO market."
 summary: "On April 14, 2026, HubSpot launched AEO with CRM-powered prompt intelligence and Webflow launched AEO with in-CMS agent optimization. Both signal that agent optimization is moving from theory to platform feature."
 keywords:
@@ -84,3 +84,8 @@ These are aggregate numbers across HubSpot's customer base. Individual results v
 
 **Should I wait for more AEO platform tools before investing?**
 No. Platform tools automate the read layer. The execution layer requires custom work regardless of which platform you use. Starting the execution layer work now gives you a structural advantage that platform tools cannot replicate.
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

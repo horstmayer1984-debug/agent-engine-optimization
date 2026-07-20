@@ -53,7 +53,7 @@ AI Labyrinth belongs in the same conversation as the [execution layer](/docs/exe
 AI Labyrinth is most useful when a site has:
 
 - repeated scraping from crawlers that ignore policy
-- valuable content that should remain discoverable but not harvested at scale
+- useful content that should remain discoverable but not harvested at scale
 - Cloudflare bot data showing suspicious crawler depth or behavior
 - a clear allowlist for important search and AI discovery systems
 - separate public summaries for content that should remain visible

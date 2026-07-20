@@ -103,3 +103,8 @@ The framework (read layer, execution layer, trust layer) is identical. The imple
 
 **When should an enterprise start AEO?**
 Now. B2B procurement agents are moving faster toward autonomous evaluation than consumer shopping agents. By 2028, an estimated 90 percent of B2B purchases will involve at least one agent layer. Starting in 2026 builds the trust patterns that compound over time.
+
+## Primary references
+
+* [Universal Commerce Protocol specification](https://ucp.dev/2026-04-08/specification/overview/)
+* [Coinbase x402 documentation](https://docs.cdp.coinbase.com/x402/welcome)

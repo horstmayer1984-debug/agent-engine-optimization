@@ -109,3 +109,12 @@ User agent strings, request patterns (no rendering, rapid sequential requests), 
 
 **What is a good agent retention rate?**
 Above 40 percent at 30 days indicates healthy trust. Below 20 percent suggests data quality or endpoint reliability problems that need investigation.
+
+## Related guides
+
+* [AI agent protocols](/docs/protocols/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)

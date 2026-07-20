@@ -16,7 +16,6 @@ keywords:
   - support resolution architecture
 ---
 
-
 Most customer support teams think they are preparing for AI because they improved search or added a chatbot. That does not solve the real problem. Better retrieval helps the agent understand the issue. It does not resolve the issue.
 
 Agentic support starts when the system can move from diagnosis to action without losing reliability, policy control, or account safety.
@@ -81,3 +80,12 @@ Narrow scope, explicit policy checks, precise identity boundaries, and machine r
 
 **What is resolution state?**
 A structured response that tells the agent exactly what happened, why, and what the next valid step is. It replaces ambiguous conversational confirmations with machine readable outcomes.
+
+## Related guides
+
+* [Agent Engine Optimization guide](/docs/what-is-aeo/)
+
+## Primary references
+
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+* [Schema.org documentation](https://schema.org/docs/documents.html)
