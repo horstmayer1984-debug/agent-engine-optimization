@@ -48,7 +48,7 @@ Auf vielen Websites gibt es bereits Aktionen: einen Termin buchen, ein Produkt i
 
 Ein Browser-Agent kann versuchen, die Seite wie eine Person zu bedienen, aber das ist fragil. Die Beschriftungen ändern sich. Es treten Manieren auf. Die Felder sind ausgeblendet. A/B-Tests verändern das DOM. WebMCP bietet der Site die Möglichkeit, die Aktion direkt anzugeben: Dieses Formular bucht einen Termin, diese Felder sind erforderlich, diese Aktion muss verwendet werden, wenn der Benutzer eine Reservierung wünscht.
 
-Das ist ein stärkeres [Ausführungsschicht](/es/docs/execution-layer/)-Signal als eine Schaltflächenbeschriftung allein.
+Das ist ein stärkeres [Ausführungsschicht](/de/docs/execution-layer/)-Signal als eine Schaltflächenbeschriftung allein.
 
 ## Implementierungsmuster
 
@@ -91,7 +91,7 @@ Die nützliche SEO/AEO-Sequenz ist:
 
 1. Machen Sie die Seite crawlbar und indexierbar.
 2. Fügen Sie klare Inhalte, Titel, Gliederungen und interne Links hinzu.
-3. Veröffentlichen Sie Erkennungsdateien als [llms.txt](/es/docs/programming-llms-txt/).
+3. Veröffentlichen Sie Erkennungsdateien als [llms.txt](/de/docs/programming-llms-txt/).
 4. Fügen Sie WebMCP-Tools für hochwertige Aktien hinzu.
 5. Probieren Sie Lighthouse Agent Navigation Audits aus.
 6. Überwachen Sie das Ausfüllen von Formularen und die von Agenten ausgelösten Ereignisse.

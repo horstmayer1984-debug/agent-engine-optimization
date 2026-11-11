@@ -4,7 +4,6 @@ date: 2026-03-19
 weight: 20
 category: "Guide"
 description: "Praktische AEO-Anwendungsfälle für den E-Commerce: Wie autonome KI-Agenten Produkte entdecken, Angebote vergleichen und Preise aushandeln."
-metaDescription: "Vea cómo el comercio electrónico AEO ayuda a los agentes a descubrir productos, comparar ofertas, evaluar la confianza, negociar precios y completar compras."
 summary: "Im E-Commerce wird AEO konkret. Diese Anwendungsfälle zeigen, wie KI-Agenten mit Online-Shops interagieren, wenn Produktdaten, Kaufpfade und Richtlinien für die automatische Ausführung optimiert werden."
 keywords:
   - "AEO-E-Commerce-Anwendungsfälle"
@@ -27,7 +26,7 @@ Dies funktioniert, wenn Geschäfte Produktdaten in einem sauberen, maschinenlesb
 
 Shops, die einen strukturierten Produkt-Feed anbieten oder ein sauberes Schema-Markup (Produkt, Angebot, AggregateRating) beibehalten, werden zu Standardkandidaten. Shops, die Spezifikationen innerhalb der Marketingprosa verbergen, werden weggelassen.
 
-Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt die technischen Schritte, um die Produktdatenextraktion zuverlässig zu gestalten.
+Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt die technischen Schritte, um die Produktdatenextraktion zuverlässig zu gestalten.
 
 ## Vergleich von Preisen und Angeboten zwischen Anbietern
 
@@ -53,7 +52,7 @@ Nach einem Kauf müssen Agenten oft das Ergebnis überprüfen: Wurde die Bestell
 
 Geschäfte, die Bestellstatus, Tracking-Informationen und Rückgabeberechtigung auf strukturierte Weise offenlegen, unterstützen den gesamten Agenten-Workflow. Dadurch schließt sich der Kreis und es entsteht das Vertrauen, das zur erneuten Auswahl führt.
 
-Der Artikel [AEO E-Commerce-Strategien](/es/docs/aeo-ecommerce/) behandelt zehn Optimierungsansätze im Detail.
+Der Artikel [AEO E-Commerce-Strategien](/de/docs/aeo-ecommerce/) behandelt zehn Optimierungsansätze im Detail.
 
 ##Richtliniengesteuerte Empfehlung
 
@@ -80,7 +79,7 @@ Traditionelles CRO optimiert das menschliche Verhalten (Klicks, visuelle Überze
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

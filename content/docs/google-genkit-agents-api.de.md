@@ -38,7 +38,7 @@ Genkit bündelt allgemeine Agentenanforderungen in einem Entwicklungsframework:
 | Menschliche Zustimmung | Riskante Aktionen brauchen Bestätigungstüren |
 | Subagenten | Bei komplexen Aufgaben können spezialisierte Agenten beteiligt sein |
 
-Dies verstärkt die Unterscheidung zwischen [Response Engine Optimization](/es/docs/answer-engine-optimization/) und [Agent Engine Optimization](/es/docs/what-is-aeo/). Antwortmaschinen zitieren Inhalte. Agenten müssen die Arbeit auch abschließen.
+Dies verstärkt die Unterscheidung zwischen [Response Engine Optimization](/de/docs/answer-engine-optimization/) und [Agent Engine Optimization](/de/docs/what-is-aeo/). Antwortmaschinen zitieren Inhalte. Agenten müssen die Arbeit auch abschließen.
 
 ## Was auf einer Website angezeigt werden soll
 
@@ -51,7 +51,7 @@ Eine agentenbereite Site sollte wichtige Aufgaben als strukturierte Arbeitsablä
 5. Bitten Sie vor unumkehrbaren Handlungen um menschliche Bestätigung.
 6. Geben Sie einen klaren Status über Erfolg, Misserfolg oder den nächsten Schritt zurück.
 
-Das ist in der Praxis [Ausführungsschicht](/es/docs/execution-layer/).
+Das ist in der Praxis [Ausführungsschicht](/de/docs/execution-layer/).
 
 ## Genkit vs. gewöhnliche Seitenoptimierung
 
@@ -74,7 +74,7 @@ Beide Schichten sind wichtig. Eine Website, die nur Seiten optimiert, wird mögl
 4. Fügen Sie vor riskanten Handlungen die Zustimmung des Menschen hinzu.
 5. Zeichnen Sie Agentenaktionen getrennt von menschlichen Klicks auf.
 6. Machen Sie Status- und Bestätigungsseiten maschinenlesbar.
-7. Testen Sie Aufgaben mit Browser-Automatisierung und MCP-ähnlichen Tools.Eine ausführlichere Checkliste finden Sie unter [So bereiten Sie Webanwendungen für Agenten vor](/es/docs/agent-ready-web-apps/) und [MCP vs. APIs für Agenten](/es/docs/mcp-vs-api-for-agents/).
+7. Testen Sie Aufgaben mit Browser-Automatisierung und MCP-ähnlichen Tools.Eine ausführlichere Checkliste finden Sie unter [So bereiten Sie Webanwendungen für Agenten vor](/de/docs/agent-ready-web-apps/) und [MCP vs. APIs für Agenten](/de/docs/mcp-vs-api-for-agents/).
 
 ## Häufig gestellte Fragen
 

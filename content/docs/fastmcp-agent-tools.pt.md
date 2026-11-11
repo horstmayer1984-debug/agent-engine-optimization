@@ -23,7 +23,7 @@ O plug-in GitHub trouxe à luz as ferramentas MCP e os metadados da API GitHub v
 
 FastMCP não substitui a estratégia. É um caminho de implementação uma vez que a equipe sabe quais ações precisam ser convertidas em ferramentas.
 
-Para obter informações básicas sobre o protocolo, leia [Recursos MCP versus Ferramentas versus Prompts](/es/docs/mcp-resources-tools-prompts/) e [API MCP versus Agente](/es/docs/mcp-vs-api-for-agents/).
+Para obter informações básicas sobre o protocolo, leia [Recursos MCP versus Ferramentas versus Prompts](/pt/docs/mcp-resources-tools-prompts/) e [API MCP versus Agente](/pt/docs/mcp-vs-api-for-agents/).
 
 ## O que deve se tornar uma ferramenta MCP?
 
@@ -49,7 +49,7 @@ Para obter informações básicas sobre o protocolo, leia [Recursos MCP versus F
 7. Adicione registros e IDs de rastreamento.
 8. Vincule os documentos da ferramenta em `llms.txt` ou em um centro de desenvolvedores.
 
-É aqui que [A Camada de Execução](/es/docs/execution-layer/) se torna útil.
+É aqui que [A Camada de Execução](/pt/docs/execution-layer/) se torna útil.
 
 ## Ferramentas MCP versus páginas do site
 

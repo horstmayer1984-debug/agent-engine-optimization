@@ -46,7 +46,7 @@ NLWeb tem como alvo uma quarta camada: endpoints de linguagem natural para agent
 | Ponto final NLWeb | Agente humano ou de IA fazendo uma pergunta sobre uma tarefa | Interface de linguagem natural suportada por dados do site |
 | Ferramenta MCP | Agente que necessita de ação estruturada | Esquema de ferramentas e ponto final |
 
-Para arquitetura relacionada, consulte [Recursos, ferramentas e mensagens do MCP](/es/docs/mcp-resources-tools-prompts/) e [MCP vs. API para agentes](/es/docs/mcp-vs-api-for-agents/).
+Para arquitetura relacionada, consulte [Recursos, ferramentas e mensagens do MCP](/pt/docs/mcp-resources-tools-prompts/) e [MCP vs. API para agentes](/pt/docs/mcp-vs-api-for-agents/).
 
 ## Quais sites devem ver o NLWeb primeiro?
 
@@ -74,7 +74,7 @@ Mesmo que você ainda não implemente o NLWeb, prepare a camada de dados:
 5. Documente a frequência de atualização e as regras de disponibilidade.
 6. Decida quais data brokers podem consultar e quais dados requerem autenticação.7. Mapeie possíveis perguntas para campos de dados de origem.
 
-Isso se sobrepõe a [Programação de site do agente de IA](/es/docs/programming-websites-for-ai-agents/) e [Aplicativos Web prontos para agente](/es/docs/agent-ready-web-apps/).
+Isso se sobrepõe a [Programação de site do agente de IA](/pt/docs/programming-websites-for-ai-agents/) e [Aplicativos Web prontos para agente](/pt/docs/agent-ready-web-apps/).
 
 ## NLWeb vs raspagem| Pergunta | Raspado | Ponto de extremidade estilo NLWeb |
 |

@@ -29,7 +29,7 @@ AEO SEO とは、従来の SEO を発見ベースとして使用し、AI 検索�
 
 Google の [SEO スターター ガイド] (https://developers.google.com/search/docs/fundamentals/seo-starter-guide) は、クロール可能性、有用なコンテンツ、リンク、タイトル、スニペット、サイト構造が基本層であるため、依然として重要です。 Google の [AI 機能ドキュメント] (https://developers.google.com/search/docs/appearance/ai-features) も、通常の検索資格が AI 機能にとって引き続き重要であることを明らかにしています。
 
-さらに詳細な比較については、[AEO vs SEO vs GEO](/es/docs/aeo-vs-seo-vs-geo/) および [SEO vs GEO vs Answer AEO vs Agent AEO](/es/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/) をご覧ください。
+さらに詳細な比較については、[AEO vs SEO vs GEO](/ja/docs/aeo-vs-seo-vs-geo/) および [SEO vs GEO vs Answer AEO vs Agent AEO](/ja/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/) をご覧ください。
 
 ## 単一テーブルの AEO SEO
 
@@ -62,11 +62,11 @@ AEO SEO は次のように追加します。
 - ポリシー、価格設定、制限事項、および次のステップは明確ですか?
 - マシンはアクションを完了または検証できますか?
 
-[実行層](/es/docs/execution-layer/)が境界線となります。 SEO によりページが見つけやすくなります。 AEO によりシステムが使用可能になります。
+[実行層](/ja/docs/execution-layer/)が境界線となります。 SEO によりページが見つけやすくなります。 AEO によりシステムが使用可能になります。
 
 ## AEO SEO の実践例
 
-eコマース サイトの場合、AEO SEO とは、商品ページに追跡可能な商品名、価格設定、在庫状況、バリアント データ、配送ルール、返品ポリシー、構造化データを含めることを意味します。 [eコマースの AEO 使用例](/es/docs/aeo-use-cases-ecommerce/) を参照してください。
+eコマース サイトの場合、AEO SEO とは、商品ページに追跡可能な商品名、価格設定、在庫状況、バリアント データ、配送ルール、返品ポリシー、構造化データを含めることを意味します。 [eコマースの AEO 使用例](/ja/docs/aeo-use-cases-ecommerce/) を参照してください。
 
 SaaS サイトの場合、価格設定、統合、コンプライアンス、デモ、ドキュメント、サポート パスが、調達エージェントが比較できる程度に機械可読である必要があることを意味します。
 
@@ -82,7 +82,7 @@ SaaS サイトの場合、価格設定、統合、コンプライアンス、デ
 8. エージェントが実行できるタスクの実行パスを追加します。
 9. Search Console のクエリ、AI の紹介、タスクの完了を測定します。
 
-[AEO 実装ガイド](/es/docs/implement-aeo/) には完全なシーケンスが記載されています。
+[AEO 実装ガイド](/ja/docs/implement-aeo/) には完全なシーケンスが記載されています。
 
 ## よくある質問
 

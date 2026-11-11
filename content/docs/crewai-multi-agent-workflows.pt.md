@@ -23,7 +23,7 @@ O plug-in GitHub trouxe à tona o ecossistema CrewAI, e os metadados da API GitH
 
 Isso não significa que todo site precisa do CrewAI. Isso significa que os padrões multiagentes são comuns o suficiente para que a arquitetura do site leve em consideração o trabalho delegado.
 
-Para um tópico mais amplo, consulte [Gerenciamento multiagente de IA](/es/docs/managing-multiple-ai-agents/) e [AEO multiagente](/es/docs/multi-agent-aeo/).
+Para um tópico mais amplo, consulte [Gerenciamento multiagente de IA](/pt/docs/managing-multiple-ai-agents/) e [AEO multiagente](/pt/docs/multi-agent-aeo/).
 
 ## O que os agentes baseados em funções precisam dos sites
 
@@ -49,7 +49,7 @@ Se esses sinais forem dispersos ou vagos, os agentes confiarão em suposições.
 6. Explicitar caminhos de apoio e escalada.
 7. Mantenha as páginas de origem atualizadas.
 
-Isso se conecta a [Evidência de Disputas Comerciais entre Agentes](/es/docs/agentic-commerce-dispute-evidence/) e [Barreiras de Observabilidade e Proteção de Agentes](/es/docs/agent-observability-guardrails/).
+Isso se conecta a [Evidência de Disputas Comerciais entre Agentes](/pt/docs/agentic-commerce-dispute-evidence/) e [Barreiras de Observabilidade e Proteção de Agentes](/pt/docs/agent-observability-guardrails/).
 
 ## Riscos multiagentes
 

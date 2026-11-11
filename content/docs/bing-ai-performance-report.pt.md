@@ -44,7 +44,7 @@ O Bing deixa claro que a contagem de citações não é o mesmo que classificaç
 
 ## Por que isso é importante para os AEOs
 
-[Generative Engine Optimization](/es/docs/generative-engine-optimization/) se concentra em ser citado nas respostas de IA. [Agent Engine Optimization](/es/docs/what-is-aeo/) vai além, mas as citações ainda são importantes porque os agentes e mecanismos de resposta precisam de fontes confiáveis ​​antes de agir.
+[Generative Engine Optimization](/pt/docs/generative-engine-optimization/) se concentra em ser citado nas respostas de IA. [Agent Engine Optimization](/pt/docs/what-is-aeo/) vai além, mas as citações ainda são importantes porque os agentes e mecanismos de resposta precisam de fontes confiáveis ​​antes de agir.
 
 O relatório do Bing ajuda a responder três questões práticas:
 
@@ -65,7 +65,7 @@ As consultas informadas são especialmente úteis porque revelam a linguagem de 
 | Um nome de produto ou protocolo | Adicionar contexto de entidade e links de origem || Um avaliador local ou do setor | Adicione exemplos de casos de uso específicos |
 | Um formato de pergunta | Adicione perguntas frequentes e blocos de resposta direta |
 
-O [Guia de estratégia de namoro AI](/es/docs/ai-citation-strategy/) fornece uma estrutura mais ampla para converter oportunidades de namoro em atualizações de conteúdo.
+O [Guia de estratégia de namoro AI](/pt/docs/ai-citation-strategy/) fornece uma estrutura mais ampla para converter oportunidades de namoro em atualizações de conteúdo.
 
 ## Como melhorar as páginas citadas
 
@@ -87,7 +87,7 @@ O Bing conecta a visibilidade das respostas de IA com novidades. Seu anúncio AI
 
 Isso é importante para o AEO porque páginas desatualizadas podem envenenar a confiança. Se um sistema de IA citar um status de protocolo, regra de preços ou política de rastreador desatualizados, a página se tornará menos útil.
 
-O [guia IndexNow para pesquisa de IA] (/es/docs/indexnow-ai-search-visibility/) cobre o caminho de implementação.
+O [guia IndexNow para pesquisa de IA](/pt/docs/indexnow-ai-search-visibility/) cobre o caminho de implementação.
 
 ## Como relatar a visibilidade da IA internamente
 

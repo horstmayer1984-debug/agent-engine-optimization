@@ -56,7 +56,7 @@ Use `llms.txt` quando desejar uma visão geral concisa e selecionada dos recurso
 - documentos importantes ou referências de protocolo
 - recursos legíveis por máquina, como um mapa do site
 
-O [guia llms.txt](/es/docs/programming-llms-txt/) cobre detalhes de implementação. O [Guia de navegação do agente Lighthouse](/es/docs/lighthouse-agentic-browsing-audit/) explica por que as ferramentas do navegador começaram a procurá-lo.
+O [guia llms.txt](/pt/docs/programming-llms-txt/) cobre detalhes de implementação. O [Guia de navegação do agente Lighthouse](/pt/docs/lighthouse-agentic-browsing-audit/) explica por que as ferramentas do navegador começaram a procurá-lo.
 
 ## Por que as pessoas os confundem
 
@@ -80,7 +80,7 @@ Para um site pronto para agente, use ambos:1. Mantenha o `robots.txt` válido e 
 4. Teste novamente após grandes alterações no modelo ou CDN.
 5. Adicione superfícies de ação separadamente por meio de API, MCP, UCP ou protocolos semelhantes.
 
-Esse último ponto é importante. Um site pode ter arquivos de texto perfeitos e ainda assim ser inutilizável para agentes se uma [camada de tempo de execução](/es/docs/execution-layer/) não existir.
+Esse último ponto é importante. Um site pode ter arquivos de texto perfeitos e ainda assim ser inutilizável para agentes se uma [camada de tempo de execução](/pt/docs/execution-layer/) não existir.
 
 ## Erros comuns- trate `llms.txt` como um arquivo de permissões do rastreador
 - preencha `llms.txt` com cada URL do site

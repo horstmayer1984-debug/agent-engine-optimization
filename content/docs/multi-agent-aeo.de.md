@@ -5,7 +5,6 @@ date: 2026-03-18
 weight: 13
 category: "Architecture"
 description: "Entdecken Sie, wie Multi-Agent AEO Inhalte, Tools, Berechtigungen und Arbeitsabläufe für eine koordinierte Maschine-zu-Maschine-Interaktion strukturiert."
-metaDescription: "Descubra cómo los sitios web deberían admitir la interacción coordinada de las máquinas cuando varios agentes de IA planifican, comparan, delegan y ejecutan."
 summary: "Multiagentensysteme erhöhen den Einsatz für AEOs. Anstatt dass ein Modell eine Seite liest, arbeiten mehrere spezialisierte Agenten bei der Entdeckung, dem Vergleich, der Aktion und der Überprüfung zusammen."
 keywords:
   - "AEO-Multiagentensysteme"
@@ -35,7 +34,7 @@ Ein menschlicher Benutzer kann Inkonsistenzen mit gesundem Menschenverstand behe
 
 Die Bereitschaft für mehrere Agenten hängt von stabilen Namenskonventionen, konsistenter Feldlogik, expliziten Einschränkungen, vorhersehbaren Aktionsdefinitionen und überprüfbaren Ergebnissen ab.
 
-Je spezialisierter das Agenten-Ökosystem wird, desto weniger Toleranz besteht für verwirrendes Seitendesign. [Was ist AEO](/es/docs/what-is-aeo/) erfasst dies in seiner Unterscheidung zwischen der Leseschicht und der [Ausführungsschicht](/es/docs/execution-layer/).
+Je spezialisierter das Agenten-Ökosystem wird, desto weniger Toleranz besteht für verwirrendes Seitendesign. [Was ist AEO](/de/docs/what-is-aeo/) erfasst dies in seiner Unterscheidung zwischen der Leseschicht und der [Ausführungsschicht](/de/docs/execution-layer/).
 
 ## Design für rollenbasierte Interaktion
 

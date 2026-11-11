@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 41
 category: "Industry"
 description: "Vertikale Agentenplattformen kodifizieren Branchenregeln, Compliance und proprietäre Daten in der Edge-Automatisierung."
-metaDescription: "Compare plataformas de agentes verticales en cinco industrias, incluida la regulación, las necesidades de datos, los modelos de ingresos, los flujos."
 summary: "Horizontale KI-Tools übernehmen generische Aufgaben. Vertikale Agentenplattformen automatisieren die Arbeitsabläufe ganzer Branchen durch die Kodifizierung von Domänenregeln, Compliance und proprietären Datenschleifen. Fünf Branchen machen es vor."
 keywords:
   - "Vertikale Agentenplattformen 2026"
@@ -79,7 +78,7 @@ Plattformen wie Jump integrieren Agenten direkt in Ticketing-Workflows. Der Prei
 
 Erweitern Sie die Funktion erst dann auf benachbarte Workflows, wenn der erste zuverlässig ausgeführt wird. Eine vorzeitige Ausweitung auf mehrere Arbeitsabläufe, bevor sich einer von ihnen stabilisiert, ist das häufigste Fehlermuster.
 
-Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt die technischen Grundlagen. Im [Multi-Agent AEO-Artikel] (/docs/multi-agent-aeo/) werden Orchestrierungsmuster ausführlich erläutert.
+Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt die technischen Grundlagen. Im [Multi-Agent AEO-Artikel] (/docs/multi-agent-aeo/) werden Orchestrierungsmuster ausführlich erläutert.
 
 ---
 

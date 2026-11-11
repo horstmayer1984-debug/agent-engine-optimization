@@ -45,7 +45,7 @@ Crie sinais EAT por meio de conteúdo real de testes de produtos, análises de e
 
 ### Fase 4: Preparação do Agente (6 a 12 meses)
 
-Prepare dados estruturados para agentes de compras autônomos. Exponha preços em tempo real, status de estoque e políticas de envio em formatos legíveis por máquina. Crie endpoints determinísticos de comparação de produtos. Esta fase prepara para a [camada de execução](/es/docs/execution-layer/) onde os agentes agem sobre seus dados, e não apenas os leem.
+Prepare dados estruturados para agentes de compras autônomos. Exponha preços em tempo real, status de estoque e políticas de envio em formatos legíveis por máquina. Crie endpoints determinísticos de comparação de produtos. Esta fase prepara para a [camada de execução](/pt/docs/execution-layer/) onde os agentes agem sobre seus dados, e não apenas os leem.
 
 ## O que acontece se você esperar? A dinâmica competitiva do AEO favorece mais os pioneiros do que o SEO tradicional. Na pesquisa tradicional, uma página forte pode eventualmente superar um concorrente estabelecido. Nas respostas de IA, os padrões de citação tendem a se auto-reforçar. Os sistemas de IA que citam uma marca repetidamente desenvolvem representações internas mais fortes, tornando mais prováveis ​​citações futuras.
 
@@ -53,7 +53,7 @@ As marcas que estabelecerem visibilidade da IA em 2026 serão mais difíceis de 
 
 ##Quadro de mediçãoAcompanhe essas métricas em todas as quatro fases: taxa de citação de IA por categoria de produto e tipo de consulta, volume de tráfego de referência de IA e taxa de conversão, participação de voz nas respostas de IA em relação aos principais concorrentes, taxa de aprovação de validação de esquema e pontuação de atualização de conteúdo para páginas de pilares e grupos.
 
-A [Auditoria de Preparação AEO](/es/docs/audit/) fornece uma estrutura de avaliação estruturada.
+A [Auditoria de Preparação AEO](/pt/docs/audit/) fornece uma estrutura de avaliação estruturada.
 
 ---
 
@@ -76,7 +76,7 @@ O tráfego referido por IA converte a uma taxa mais alta do que o tráfego orgâ
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

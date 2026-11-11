@@ -38,7 +38,7 @@ O Genkit empacota requisitos comuns de agentes em uma estrutura de desenvolvimen
 | Aprovação humana | Ações arriscadas precisam de portas de confirmação |
 | Subagentes | Tarefas complexas podem envolver agentes especializados |
 
-Isso reforça a distinção entre [Otimização do Mecanismo de Resposta](/es/docs/answer-engine-optimization/) e [Otimização do Mecanismo de Agente](/es/docs/what-is-aeo/). Os mecanismos de resposta citam o conteúdo. Os agentes também devem concluir o trabalho.
+Isso reforça a distinção entre [Otimização do Mecanismo de Resposta](/pt/docs/answer-engine-optimization/) e [Otimização do Mecanismo de Agente](/pt/docs/what-is-aeo/). Os mecanismos de resposta citam o conteúdo. Os agentes também devem concluir o trabalho.
 
 ## O que exibir em um site
 
@@ -51,7 +51,7 @@ Um site pronto para agente deve expor tarefas importantes como fluxos de trabalh
 5. Peça confirmação humana antes de ações irreversíveis.
 6. Retorne um status claro de sucesso, fracasso ou próximo passo.
 
-Isso é [Camada de Execução](/es/docs/execution-layer/) na prática.
+Isso é [Camada de Execução](/pt/docs/execution-layer/) na prática.
 
 ## Genkit vs otimização de página comum
 
@@ -74,7 +74,7 @@ Ambas as camadas são importantes. Um site que apenas otimiza páginas pode ser 
 4. Adicione aprovação humana antes de ações arriscadas.
 5. Registre as ações do agente separadamente dos cliques humanos.
 6. Torne as páginas de status e de confirmação legíveis por máquina.
-7. Teste tarefas com automação de navegador e ferramentas estilo MCP.Para obter uma lista de verificação mais extensa, use [Como preparar aplicativos Web para agentes](/es/docs/agent-ready-web-apps/) e [MCP vs APIs para agentes](/es/docs/mcp-vs-api-for-agents/).
+7. Teste tarefas com automação de navegador e ferramentas estilo MCP.Para obter uma lista de verificação mais extensa, use [Como preparar aplicativos Web para agentes](/pt/docs/agent-ready-web-apps/) e [MCP vs APIs para agentes](/pt/docs/mcp-vs-api-for-agents/).
 
 ## Perguntas frequentes
 

@@ -25,11 +25,11 @@ keywords:
 
 - [MCP認可仕様](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization)
 - [MCP ロードマップ 2026](https://modelcontextprotocol.io/development/roadmap)
-- [このサイトの MCP 対 API ガイド](/es/docs/mcp-vs-api-for-agents/)
+- [このサイトの MCP 対 API ガイド](/ja/docs/mcp-vs-api-for-agents/)
 
 ## 認可が AEO 問題となる理由
 
-[実行層](/es/docs/execution-layer/) は、各アクションがパブリックである場合、または各アクションで人間が資格情報を手動でコピーする必要がある場合には役に立ちません。エージェントには制御されたアクセスが必要です。
+[実行層](/ja/docs/execution-layer/) は、各アクションがパブリックである場合、または各アクションで人間が資格情報を手動でコピーする必要がある場合には役に立ちません。エージェントには制御されたアクセスが必要です。
 
 例:
 
@@ -77,7 +77,7 @@ keywords:
 4. 顧客が見つけられる場所に認証メタデータを公開します。
 5. リスクの高い株式には短期間のトークンを使用します。
 6. エージェント ID、ユーザー ID、ツール名、入力概要、および結果ステータスを記録します。
-7. 取り消し不能またはコストのかかるアクションについては人間による確認を追加します。[エージェント ガードレールと可観測性ガイド](/es/docs/agent-observability-guardrails/) では、これを運用監視まで拡張しています。
+7. 取り消し不能またはコストのかかるアクションについては人間による確認を追加します。[エージェント ガードレールと可観測性ガイド](/ja/docs/agent-observability-guardrails/) では、これを運用監視まで拡張しています。
 
 ## スコープの設計例
 
@@ -102,7 +102,7 @@ keywords:
 - 人間による確認手順が必要な場合
 - 登録と取り消しの仕組み
 
-[llms.txt](/es/docs/programming-llms-txt/) からこれらのドキュメントへのリンクを追加すると、エージェントがツールを呼び出す前にアクセス モデルを発見できるようになります。
+[llms.txt](/ja/docs/programming-llms-txt/) からこれらのドキュメントへのリンクを追加すると、エージェントがツールを呼び出す前にアクセス モデルを発見できるようになります。
 
 ## よくあるエラー
 

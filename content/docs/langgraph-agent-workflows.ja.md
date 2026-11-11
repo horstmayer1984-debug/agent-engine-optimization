@@ -23,7 +23,7 @@ GitHub プラグインは、主要なエージェント ワークフロー リ�
 
 LangGraph は、1 回限りのプロンプトから長期にわたるステートフルなワークフローまで、エージェント システムがどこに向かっているのかを反映しているため、道しるべとして役立ちます。
 
-これは、[エージェント オーケストレーションとハーネス](/es/docs/agent-harnesses-orchestration/) と [複数の AI エージェントの管理](/es/docs/managing-multiple-ai-agents/) のアイデアを拡張したものです。
+これは、[エージェント オーケストレーションとハーネス](/ja/docs/agent-harnesses-orchestration/) と [複数の AI エージェントの管理](/ja/docs/managing-multiple-ai-agents/) のアイデアを拡張したものです。
 
 ## グラフベースのエージェントの AEO への影響
 
@@ -50,7 +50,7 @@ LangGraph は、1 回限りのプロンプトから長期にわたるステー�
 6. エラーステータスと回復パスを公開します。
 7. 最終結果を記録します。
 
-取引の場合、これは [Trade Agent Attribution](/es/docs/agentic-commerce-attribution/) および [Trade Agent Policy Engine](/es/docs/merchant-agent-policy-engine/) に接続します。
+取引の場合、これは [Trade Agent Attribution](/ja/docs/agentic-commerce-attribution/) および [Trade Agent Policy Engine](/ja/docs/merchant-agent-policy-engine/) に接続します。
 
 ##ワークフローSEOチェックリスト
 

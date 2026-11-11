@@ -37,7 +37,7 @@ Evite jargões internos. Se sua equipe chamar internamente o painel de configura
 
 ## Endpoints de resolução: permitir que os agentes resolvam o problema
 
-Explicar uma solução é a camada de leitura. A execução da correção é a [camada de execução](/es/docs/execution-layer/).
+Explicar uma solução é a camada de leitura. A execução da correção é a [camada de execução](/pt/docs/execution-layer/).
 
 Para cada ação de suporte comum, exponha um endpoint documentado:
 
@@ -85,7 +85,7 @@ As métricas de suporte tradicionais (tempo médio de atendimento, tempo de prim
 - tempo médio para resolução: desde a solicitação do agente até a solução confirmada
 - Análise de pontos de falha: onde os fluxos de trabalho dos agentes são interrompidos com mais frequência?
 
-Essas métricas informam onde melhorar sua infraestrutura de suporte orientada a máquinas. A [Auditoria de Preparação AEO](/es/docs/audit/) inclui avaliação do sistema de apoio.
+Essas métricas informam onde melhorar sua infraestrutura de suporte orientada a máquinas. A [Auditoria de Preparação AEO](/pt/docs/audit/) inclui avaliação do sistema de apoio.
 
 ---
 

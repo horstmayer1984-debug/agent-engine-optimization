@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 82
 category: "Architecture"
 description: "Verwandeln Sie Black-Box-Agenten in sichere, überprüfbare Systeme mit Echtzeitverfolgung, Anomalieerkennung und Richtliniendurchsetzung."
-metaDescription: "Agregue seguimientos, detección de anomalías, aplicación de políticas, comprobaciones de permisos y barreras de seguridad para que los sistemas de agentes."
 summary: "Ohne Beobachtbarkeit sind Agentensysteme Black Boxes. OpenTelemetry-Tracking, dynamische Leitplanken und Watchdogs sorgen für die nötige Transparenz und Sicherheit für die AEO-Produktion."
 keywords:
   - "Beobachtbarkeit des Agenten"
@@ -59,7 +58,7 @@ Reinigung. Wenn ein Agent falsche Informationen von Ihrer Site abruft, zeigen Tr
 
 Einhaltung. Durch Observability-Instrumentierung generierte Prüfprotokolle erfüllen regulatorische Anforderungen für automatisierte Transaktionen, insbesondere in den Bereichen Finanzen, Gesundheitswesen und regulierter Handel.
 
-Der [Artikel zur universellen Kontrollebene](/es/docs/universal-control-plane/) behandelt die Governance-Architektur. Der [Feedback-Loop-Leitfaden](/es/docs/agent-feedback-loops/) erklärt, wie Beobachtbarkeitsdaten in Verbesserungszyklen integriert werden.
+Der [Artikel zur universellen Kontrollebene](/de/docs/universal-control-plane/) behandelt die Governance-Architektur. Der [Feedback-Loop-Leitfaden](/de/docs/agent-feedback-loops/) erklärt, wie Beobachtbarkeitsdaten in Verbesserungszyklen integriert werden.
 
 ## Vergleich: ohne vs. mit Beobachtbarkeit
 
@@ -99,7 +98,7 @@ Automatische Audit-Trails, die jede Agenteninteraktion, Entscheidung und jedes E
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

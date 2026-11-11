@@ -100,7 +100,7 @@ Para cada ação a pagar, documente:
 6. Como são tratados erros e reembolsos
 7. Como um agente verifica a conclusão
 
-Esta documentação deve estar vinculada ao [llms.txt](/llms.txt), ao [centro de protocolo](/es/docs/protocols/) e às páginas de ação relevantes.
+Esta documentação deve estar vinculada ao [llms.txt](/llms.txt), ao [centro de protocolo](/pt/docs/protocols/) e às páginas de ação relevantes.
 
 ## Perguntas frequentes
 
@@ -120,5 +120,5 @@ Não como primeiro protocolo na maioria dos casos. Os comerciantes de comércio 
 
 Referências principais: [anúncio do Google Cloud AP2](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol/), [atualização da Google AP2 FIDO Alliance](https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/), [documentação x402](https://docs.x402.org/faq) e [anúncio da x402 Linux Foundation](https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol).
 
-## Guias relacionados* [arquitetura de comércio de agente](/es/docs/agentic-commerce/)
-* [protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/)
+## Guias relacionados* [arquitetura de comércio de agente](/pt/docs/agentic-commerce/)
+* [protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/)

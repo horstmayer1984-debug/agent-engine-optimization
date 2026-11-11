@@ -34,7 +34,7 @@ As páginas de comércio eletrônico já contêm as informações de que os agen
 
 O problema é que muitas lojas expõem esses fatos aos humanos, não às máquinas. Uma página pode parecer sofisticada e ainda assim fraca para a seleção do agente.
 
-Leia a página existente [Casos de uso de comércio eletrônico AEO](/es/docs/aeo-use-cases-ecommerce/) para obter uma oportunidade mais ampla.
+Leia a página existente [Casos de uso de comércio eletrônico AEO](/pt/docs/aeo-use-cases-ecommerce/) para obter uma oportunidade mais ampla.
 
 ## SEO de comércio eletrônico vs. SEO de comércio eletrônico AEO
 
@@ -84,7 +84,7 @@ Você precisa de:
 - confirmação do pedido
 - status de entrega
 
-As páginas [Guia do carrinho universal](/es/docs/universal-cart-agentic-commerce/) e [Preparação do catálogo de compras AI](/es/docs/ai-shopping-catalog-readiness/) explicam essas camadas de negócios mais recentes.
+As páginas [Guia do carrinho universal](/pt/docs/universal-cart-agentic-commerce/) e [Preparação do catálogo de compras AI](/pt/docs/ai-shopping-catalog-readiness/) explicam essas camadas de negócios mais recentes.
 
 ## Medindo SEO de comércio eletrônico AEO
 
@@ -100,7 +100,7 @@ Acompanhe mais do que sessões orgânicas:| Métrica | Por que é importante |
 | Taxa de incumprimento de pagamentos | Mostra problemas de execução |
 | Exceções pós-compra | Mostre confiança na conformidade |
 
-O guia [atribuição de negociação do agente](/es/docs/agentic-commerce-attribution/) cobre a camada de medição.
+O guia [atribuição de negociação do agente](/pt/docs/agentic-commerce-attribution/) cobre a camada de medição.
 
 ## Perguntas frequentes
 

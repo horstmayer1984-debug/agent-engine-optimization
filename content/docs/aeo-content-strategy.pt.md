@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 23
 category: "Guide"
 description: "O conteúdo AEO faz mais do que classificação. Reduz a incerteza dos agentes de IA antes de agir. Como criar páginas com cobertura de entidade."
-metaDescription: "Cree contenido AEO con cobertura de entidades, variables de decisión, próximos pasos escritos, evidencia respaldada por fuentes y ganancia de información."
 summary: "Em um website mediado por agentes, o conteúdo é útil porque reduz a incerteza antes da ação. Este guia explica como as equipes de marketing criam páginas que os agentes podem realmente usar."
 keywords:
   - "Estratégia de conteúdo AEO"
@@ -45,7 +44,7 @@ Um FAQ fraco é repetido na forma de uma pergunta. A diferença não é o format
 
 ## Onde a camada de execução entra no marketing
 
-A [camada de execução](/es/docs/execution-layer/) entra no marketing no momento em que o conteúdo entra em ação. Baixar um guia é um tipo de ação. Solicitar um sandbox é outra. Gerar uma estimativa, agendar uma avaliação, verificar a adequação da integração ou validar a elegibilidade são exemplos mais fortes.
+A [camada de execução](/pt/docs/execution-layer/) entra no marketing no momento em que o conteúdo entra em ação. Baixar um guia é um tipo de ação. Solicitar um sandbox é outra. Gerar uma estimativa, agendar uma avaliação, verificar a adequação da integração ou validar a elegibilidade são exemplos mais fortes.
 
 As equipes de marketing precisam parar de agrupar cada CTA em “agendar uma demonstração” ou “contatar vendas”. Essas ações são muito genéricas para caminhos de agentes. O sistema funciona melhor quando você anota e descreve a próxima etapa.
 
@@ -55,7 +54,7 @@ As equipes de marketing precisam parar de agrupar cada CTA em “agendar uma dem
 
 Substitua declarações amplas por condições verificáveis. Substitua páginas de categorias finas por páginas que expõem variáveis ​​de decisão. Substitua CTAs genéricos pelas próximas etapas escritas. Crie seções de perguntas frequentes que resolvam incertezas reais. Trate o conteúdo como a superfície legível de um sistema operacional, não como um artefato de persuasão independente.
 
-Assim que essa mudança ocorrer, SEO e AEO param de competir entre si e passam a reforçar a mesma arquitetura. O [guia de implementação AEO](/es/docs/implement-aeo/) fornece o processo passo a passo.
+Assim que essa mudança ocorrer, SEO e AEO param de competir entre si e passam a reforçar a mesma arquitetura. O [guia de implementação AEO](/pt/docs/implement-aeo/) fornece o processo passo a passo.
 
 ---
 
@@ -78,7 +77,7 @@ A menção explícita de produtos, recursos, restrições, métricas, condiçõe
 
 ## Guias relacionados
 
-* [Guia de otimização do Agent Engine](/es/docs/what-is-aeo/)
+* [Guia de otimização do Agent Engine](/pt/docs/what-is-aeo/)
 
 ## Referências primárias
 

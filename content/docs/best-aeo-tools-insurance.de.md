@@ -31,7 +31,7 @@ Die besten AEO-Tools für Versicherungsunternehmen helfen KI-Agenten, Policen zu
 
 Versicherungen sind auf Vertrauen und Einschränkungen angewiesen. AEO-Tools sollten dabei helfen, Deckungsgrenzen, Anspruchsregeln, erforderliche Dokumente, Anspruchsschritte, geografische Beschränkungen, Stornierungsregeln und Eskalationswege festzulegen.
 
-Lesen Sie weiter: [AEO für Versicherungsunternehmen](/es/docs/aeo-insurance-carriers/), [Ausführungsschicht](/es/docs/execution-layer/) und [AEO-Bereitschaftsaudit](/es/docs/audit/).
+Lesen Sie weiter: [AEO für Versicherungsunternehmen](/de/docs/aeo-insurance-carriers/), [Ausführungsschicht](/de/docs/execution-layer/) und [AEO-Bereitschaftsaudit](/de/docs/audit/).
 
 ## Bewertungstools für Versicherungsabläufe
 

@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 44
 category: "Industry"
 description: "As organizações esportivas usam IA de agente para preços dinâmicos, envolvimento de fãs, observação e operações. Como as plataformas."
-metaDescription: "Vea cómo las plataformas deportivas utilizan agentes de IA para fijar precios, involucrar a los fanáticos, explorar, operaciones de contenido, patrocinio."
 summary: "A IA do agente nos esportes vai além dos painéis analíticos. As plataformas verticais incorporam agentes autônomos em fluxos de trabalho de precificação, marketing, exploração e operações para tomada de decisões em tempo real."
 keywords:
   - "Agentes esportivos de IA"
@@ -35,7 +34,7 @@ Um agente de engajamento de fãs acessa histórico de compras, padrões de frequ
 
 Os detentores de ingressos para a temporada que assistem a todos os jogos recebem mensagens diferentes dos torcedores casuais que comparecem duas vezes por ano. O agente lida com essa segmentação automaticamente, em escala e em tempo real.
 
-A ligação com a AEO é direta. O conteúdo direcionado aos fãs deve ser estruturado tanto para consumo humano quanto para extração mecânica. As páginas de produtos para ingressos, mercadorias e experiências precisam da mesma [camada de execução](/es/docs/execution-layer/) que qualquer operação de comércio eletrônico.
+A ligação com a AEO é direta. O conteúdo direcionado aos fãs deve ser estruturado tanto para consumo humano quanto para extração mecânica. As páginas de produtos para ingressos, mercadorias e experiências precisam da mesma [camada de execução](/pt/docs/execution-layer/) que qualquer operação de comércio eletrônico.
 
 ## Exploração e otimização de desempenho
 
@@ -59,7 +58,7 @@ Os esportes combinam diversas características que favorecem plataformas vertica
 
 As organizações que adotam plataformas de agentes desde o início colhem benefícios cumulativos. Melhores dados de preços melhoram as futuras decisões de preços. Melhores dados de envolvimento dos fãs melhoram a personalização futura. Os loops de dados são reforçados.
 
-O [artigo sobre plataformas de agentes verticais](/es/docs/vertical-agent-platforms/) compara o esporte a outras indústrias que adotam esse modelo.
+O [artigo sobre plataformas de agentes verticais](/pt/docs/vertical-agent-platforms/) compara o esporte a outras indústrias que adotam esse modelo.
 
 ---
 
@@ -79,7 +78,7 @@ A maioria das organizações relata melhorias mensuráveis nas receitas em uma �
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

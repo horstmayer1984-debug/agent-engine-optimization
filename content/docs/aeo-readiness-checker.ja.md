@@ -4,7 +4,6 @@ date: 2026-04-14
 weight: 1
 category: "Tool"
 description: "Web サイトが自律型 AI エージェントに対応できるかどうかを確認する無料のツール。 14 チェックインのディスカバリー、読み取りレイヤー、レイヤー。"
-metaDescription: "Compruebe si su sitio web está listo para agentes de IA en descubrimiento, capa de lectura, capa de ejecución, datos estructurados, señales de confianza."
 summary: "この無料ツールを使用して、Web サイトが AI エージェントに対応できるかどうかを確認してください。 4 つのカテゴリにわたる 14 のチェックにより、優先的な推奨事項を含む実用的な AEO 準備スコアが得られます。"
 keywords:
   - "AEO準備状況チェッカー"
@@ -31,5 +30,5 @@ keywords:
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)
-* [実行層](/es/docs/execution-layer/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)
+* [実行層](/ja/docs/execution-layer/)

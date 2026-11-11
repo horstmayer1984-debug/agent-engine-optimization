@@ -47,7 +47,7 @@ A política apropriada depende do modelo de negócio. Um site de documentação,
 
 ## Por que o robots.txt não é suficiente
 
-O [guia robots.txt para rastreadores de IA](/es/docs/programming-llms-txt/) ainda é importante, mas o robots.txt comunica apenas preferências de rastreamento. Ele não autentica o rastreador, não prova sua identidade, define preços de acesso ou impõe regras de uso de conteúdo após o acesso.
+O [guia robots.txt para rastreadores de IA](/pt/docs/programming-llms-txt/) ainda é importante, mas o robots.txt comunica apenas preferências de rastreamento. Ele não autentica o rastreador, não prova sua identidade, define preços de acesso ou impõe regras de uso de conteúdo após o acesso.
 
 As ferramentas da Cloudflare estão mais próximas da camada de aplicação da lei:
 
@@ -71,7 +71,7 @@ Para o AEO, o segredo é evitar bloquear acidentalmente os rastreadores e sistem
 | Negócios locais | Mantenha a descoberta aberta; bloquear apenas bots abusivos |
 | Mercado de APIs | Permitir páginas de descoberta; endpoints pagos via autenticação ou x402 |
 
-A [camada de execução](/es/docs/execution-layer/) inicia somente depois que o agente consegue descobrir e compreender os pontos de entrada públicos.## Política de sinais de conteúdo
+A [camada de execução](/pt/docs/execution-layer/) inicia somente depois que o agente consegue descobrir e compreender os pontos de entrada públicos.## Política de sinais de conteúdo
 
 A Política de Sinais de Conteúdo da Cloudflare oferece aos proprietários de sites uma maneira de expressar preferências, como o uso de pesquisa, treinamento de IA e uso de informações de IA. Trate-o como uma camada de preferência legível por máquina, não como uma garantia de que todos os bots irão cumprir.
 
@@ -87,7 +87,7 @@ Essa separação é mais prática do que um arquivo robots.txt do tipo tudo ou n
 
 ## Pagamento por rastreamento e economia de agência
 
-O pagamento por rastreamento da Cloudflare aponta para um futuro onde o acesso a conteúdo de alto valor poderá ter um preço para os rastreadores de IA. Isso está relacionado aos [protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/), mas se aplica ao rastreamento e não à compra de um produto ou serviço.
+O pagamento por rastreamento da Cloudflare aponta para um futuro onde o acesso a conteúdo de alto valor poderá ter um preço para os rastreadores de IA. Isso está relacionado aos [protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/), mas se aplica ao rastreamento e não à compra de um produto ou serviço.
 
 Use com cuidado. Se uma página tem como objetivo atrair clientes, cobrar dos rastreadores pode reduzir a descoberta. Se uma página contiver pesquisa premium, pode fazer sentido definir um preço para o acesso ao rastreador.
 

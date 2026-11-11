@@ -58,9 +58,9 @@ Implemente validação de entrada que rejeite solicitações malformadas antes q
 
 Use chaves idempotentes para qualquer ação que crie ou modifique o estado. Se a mesma solicitação chegar duas vezes (comum em novas tentativas do agente), a segunda solicitação deverá retornar o mesmo resultado sem criar uma reserva ou pedido duplicado.
 
-Registre cada interação do agente. Carimbos de data e hora, cargas de solicitação, cargas de resposta e identificador do agente de origem. Isso é essencial para [loops de feedback](/es/docs/agent-feedback-loops/) que melhoram a precisão ao longo do tempo.
+Registre cada interação do agente. Carimbos de data e hora, cargas de solicitação, cargas de resposta e identificador do agente de origem. Isso é essencial para [loops de feedback](/pt/docs/agent-feedback-loops/) que melhoram a precisão ao longo do tempo.
 
-O [artigo do plano de controle universal](/es/docs/universal-control-plane/) abrange a arquitetura de governança completa para endpoints voltados para agentes.
+O [artigo do plano de controle universal](/pt/docs/universal-control-plane/) abrange a arquitetura de governança completa para endpoints voltados para agentes.
 
 ##Testar transações do agente
 
@@ -93,7 +93,7 @@ Retorne uma resposta de erro clara e estruturada que explique a indisponibilidad
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
 
 ## Referências primárias
 

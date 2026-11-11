@@ -23,7 +23,7 @@ Das GitHub-Plugin brachte das CrewAI-Ökosystem an die Oberfläche, und die am 2
 
 Das bedeutet nicht, dass jede Website CrewAI benötigt. Das bedeutet, dass Multi-Agent-Muster so verbreitet sind, dass die Website-Architektur delegierte Arbeit berücksichtigen muss.
 
-Ein umfassenderes Thema finden Sie unter [AI Multi-Agent Management](/es/docs/managing-multiple-ai-agents/) und [Multi-Agent AEO](/es/docs/multi-agent-aeo/).
+Ein umfassenderes Thema finden Sie unter [AI Multi-Agent Management](/de/docs/managing-multiple-ai-agents/) und [Multi-Agent AEO](/de/docs/multi-agent-aeo/).
 
 ## Was rollenbasierte Agenten von Websites benötigen
 
@@ -49,7 +49,7 @@ Wenn diese Signale verstreut oder vage sind, verlassen sich die Agenten auf Verm
 6. Machen Sie Unterstützungs- und Kletterwege deutlich.
 7. Halten Sie die Quellseiten auf dem neuesten Stand.
 
-Dies steht im Zusammenhang mit [Beweis für Agentengeschäftsstreitigkeiten] (/es/docs/agentic-commerce-dispute-evidence/) und [Beobachtbarkeit und Schutzbarrieren von Agenten] (/es/docs/agent-observability-guardrails/).
+Dies steht im Zusammenhang mit [Beweis für Agentengeschäftsstreitigkeiten](/de/docs/agentic-commerce-dispute-evidence/) und [Beobachtbarkeit und Schutzbarrieren von Agenten](/de/docs/agent-observability-guardrails/).
 
 ## Multi-Agent-Risiken
 

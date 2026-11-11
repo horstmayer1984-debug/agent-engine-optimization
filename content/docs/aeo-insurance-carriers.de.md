@@ -69,7 +69,7 @@ Betreiber, die den vollständigen AEO-Stack einsetzen, berichten von zwei- bis d
 | Ansprüche | Telefonanruf oder Portal-Login | Strukturierte Versand- und Tracking-APIs |
 | Agentensichtbarkeit | Niedrig bis Null | Hoch, von Vergleichsagenturen bevorzugt |
 
-Der [Leitfaden zur Ausführungsebene](/es/docs/execution-layer/) deckt die allgemeine Architektur ab. Der [Artikel zur B2B-SaaS-Beschaffung](/es/docs/b2b-saas-procurement/) wendet ähnliche Grundsätze auf den Kauf von Software an.
+Der [Leitfaden zur Ausführungsebene](/de/docs/execution-layer/) deckt die allgemeine Architektur ab. Der [Artikel zur B2B-SaaS-Beschaffung](/de/docs/b2b-saas-procurement/) wendet ähnliche Grundsätze auf den Kauf von Software an.
 
 ---
 
@@ -89,7 +89,7 @@ Der Agent verliert das Vertrauen. Wenn eine angebotene Prämie nicht mit der Pr�
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
 
 ## Primäre Referenzen
 

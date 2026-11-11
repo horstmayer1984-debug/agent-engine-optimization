@@ -54,7 +54,7 @@ Ziel: Konversionsraten der Agenten, die Ihren menschlichen Konversionsraten ents
 
 Was es misst: Der Prozentsatz der Agenteninteraktionen, die zu korrekten Ergebnissen führen, und wie sich dieser Prozentsatz im Laufe der Zeit verbessert.
 
-Dies ist eine Qualitätsmetrik. Hoher Agentenverkehr mit geringer Genauigkeit bedeutet, dass Ihre strukturierten Daten oder Endpunkte Probleme haben, die behoben werden müssen.Messen Sie es über die Rückkopplungsschleife, die im [Rückkopplungsschleifen-Leitfaden](/es/docs/agent-feedback-loops/) beschrieben ist. Zeichnen Sie Ergebnisse auf, bewerten Sie die Richtigkeit und verfolgen Sie die Genauigkeitsrate wöchentlich.
+Dies ist eine Qualitätsmetrik. Hoher Agentenverkehr mit geringer Genauigkeit bedeutet, dass Ihre strukturierten Daten oder Endpunkte Probleme haben, die behoben werden müssen.Messen Sie es über die Rückkopplungsschleife, die im [Rückkopplungsschleifen-Leitfaden](/de/docs/agent-feedback-loops/) beschrieben ist. Zeichnen Sie Ergebnisse auf, bewerten Sie die Richtigkeit und verfolgen Sie die Genauigkeitsrate wöchentlich.
 
 Der Trend ist wichtiger als die absolute Zahl. Eine Genauigkeitsrate, die bei 70 Prozent beginnt und in vier Wochen 95 Prozent erreicht, zeigt einen gesunden Zyklus. Eine Genauigkeitsrate von 80 Prozent deutet darauf hin, dass die Fehlerbehebungen nicht an der Ursache ansetzen.
 
@@ -84,7 +84,7 @@ Aktualisieren Sie das Dashboard wöchentlich. Monatlich ist für AEO zu langsam,
 
 Diese Benchmarks werden sich mit zunehmender Akzeptanz ändern, sie bieten jedoch nützliche Ziele für die anfängliche Implementierung.
 
-Das [AEO Readiness Audit](/es/docs/audit/) bietet eine strukturierte Bewertung, wo Ihre aktuelle Implementierung mit diesen Benchmarks verglichen wird.
+Das [AEO Readiness Audit](/de/docs/audit/) bietet eine strukturierte Bewertung, wo Ihre aktuelle Implementierung mit diesen Benchmarks verglichen wird.
 
 ---
 
@@ -105,7 +105,7 @@ Mehr als 40 Prozent nach 30 Tagen weisen auf ein gesundes Selbstvertrauen hin. U
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
 
 ## Primäre Referenzen
 

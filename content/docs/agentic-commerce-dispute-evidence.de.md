@@ -45,7 +45,7 @@ Sowohl AP2 als auch Verifiable Intent konzentrieren sich darauf, Absicht und Aut
 | Compliance | Versand, Lieferung, Rückerstattung, Rückgabestatus |
 | Politische Entscheidung | Warum der Händler angenommen, abgelehnt oder eskaliert wurde |
 
-Dies stellt eine Verbindung zu [Agent-Authentifizierung](/es/docs/agentic-authentication-commerce/) und [Agent-Wallets](/es/docs/agentic-wallets-spend-governance/) her.
+Dies stellt eine Verbindung zu [Agent-Authentifizierung](/de/docs/agentic-authentication-commerce/) und [Agent-Wallets](/de/docs/agentic-wallets-spend-governance/) her.
 
 ## AP2 und Befehle
 
@@ -71,7 +71,7 @@ Für Händler bedeutet das, dass die Vorbereitung auf Streitfälle bereits vor d
 8. Konformitätsstatus.
 9. Rückgabe- und Rückerstattungsereignisse.10. Supportkontakte und Eskalationen.
 
-Im Leitfaden zur [Business Agent Policy Engine](/es/docs/merchant-agent-policy-engine/) wird die Richtlinienregistrierung erläutert.
+Im Leitfaden zur [Business Agent Policy Engine](/de/docs/merchant-agent-policy-engine/) wird die Richtlinienregistrierung erläutert.
 
 ## Häufig gestellte Fragen
 

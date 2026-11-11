@@ -121,6 +121,6 @@ Principais referências: [documentação x402](https://docs.x402.org/faq), [anú
 
 ## Guias relacionados
 
-* [arquitetura de comércio do agente](/es/docs/agentic-commerce/)
-* [protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/)
-* [camada de execução](/es/docs/execution-layer/)
+* [arquitetura de comércio do agente](/pt/docs/agentic-commerce/)
+* [protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/)
+* [camada de execução](/pt/docs/execution-layer/)

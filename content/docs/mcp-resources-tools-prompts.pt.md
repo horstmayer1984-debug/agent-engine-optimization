@@ -26,7 +26,7 @@ Use-os assim:
 - ferramentas: "Aqui está algo que você pode fazer."
 - mensagens: "Aqui está um modelo de fluxo de trabalho que o usuário pode escolher."
 
-Para obter mais contexto, consulte [API MCP vs Agent](/es/docs/mcp-vs-api-for-agents/), [Registro MCP](/es/docs/mcp-registry-guide/) e o [Guia do desenvolvedor AEO](/es/docs/developers-guide-aeo/).
+Para obter mais contexto, consulte [API MCP vs Agent](/pt/docs/mcp-vs-api-for-agents/), [Registro MCP](/pt/docs/mcp-registry-guide/) e o [Guia do desenvolvedor AEO](/pt/docs/developers-guide-aeo/).
 
 ## Tabela comparativa
 
@@ -70,7 +70,7 @@ Bons exemplos de ferramentas:
 -`submit_refund_request`
 - `run_lighthouse_audit`
 
-As ferramentas precisam de esquemas, validação, limites de taxa, controle de acesso e registros de auditoria. A página [proteção de observabilidade do agente](/es/docs/agent-observability-guardrails/) é relevante aqui.
+As ferramentas precisam de esquemas, validação, limites de taxa, controle de acesso e registros de auditoria. A página [proteção de observabilidade do agente](/pt/docs/agent-observability-guardrails/) é relevante aqui.
 
 ## Para que servem os prompts do MCPOs prompts são modelos reutilizáveis. Eles ajudam usuários ou clientes a acionar um fluxo de trabalho conhecido com argumentos. Uma mensagem pode coletar instruções para revisão de código, redação de conteúdo, integração ou triagem de suporte.
 
@@ -104,7 +104,7 @@ Por exemplo:
 - uma API de pagamento é uma ação semelhante a uma ferramenta
 - um guia do comprador é uma ajuda rápida para o fluxo de trabalho
 
-Uma separação clara ajuda os agentes de IA a entender o que podem ler, o que podem recomendar e o que podem executar. Essa é a base prática do [Agent Engine Optimization](/es/docs/what-is-aeo/).
+Uma separação clara ajuda os agentes de IA a entender o que podem ler, o que podem recomendar e o que podem executar. Essa é a base prática do [Agent Engine Optimization](/pt/docs/what-is-aeo/).
 
 ## Lista de verificação de implantação
 

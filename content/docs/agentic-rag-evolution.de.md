@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 85
 category: "Architecture"
 description: "Der moderne RAG-Agent ist modular, multi-hop und selbstkorrigierend. Acht Architekturmuster, von der einfachen Wiederherstellung bis hin zu Hybrid und RAG-basiert."
-metaDescription: "Compare ocho patrones RAG agentes, desde recuperación básica hasta sistemas híbridos, basados ​​en gráficos, con uso de herramientas y con reconocimiento."
 summary: "RAG im Jahr 2026 hat sich weit über die einfache Vektorsuche hinaus entwickelt. Agentic RAG, Graph RAG und Hybridansätze bieten Agenten einen selbstkorrigierenden Multi-Hop-Abruf, der die Extraktionsgenauigkeit erheblich verbessert."
 keywords:
   - "RAG-Agent 2026"
@@ -62,7 +61,7 @@ Erstellen Sie Entitätsverbindungen zwischen Seiten. Graph RAG folgt Beziehungen
 
 Stellen Sie mehrere Inhaltsformate bereit. Tabellen für vergleichende Abfragen. FAQ-Blöcke für Direct-Response-Anfragen. Prosa für kontextreiche Abfragen. Verschiedene RAG-Ansätze funktionieren am besten mit unterschiedlichen Formaten.
 
-Der [Feature-Mapping-Leitfaden](/es/docs/entity-mapping-semantic-aeo/) behandelt die Erstellung des Feature-Layers. Der [Artikel zur AEO-Inhaltsstrategie](/es/docs/aeo-content-strategy/) behandelt die Struktur auf Seitenebene.
+Der [Feature-Mapping-Leitfaden](/de/docs/entity-mapping-semantic-aeo/) behandelt die Erstellung des Feature-Layers. Der [Artikel zur AEO-Inhaltsstrategie](/de/docs/aeo-content-strategy/) behandelt die Struktur auf Seitenebene.
 
 ## Vergleich: Basic RAG vs. Agent
 
@@ -103,7 +102,7 @@ Sie alle, aber der RAG-Agent und der RAG-Graph profitieren am meisten, da sie au
 
 ## Verwandte Anleitungen
 
-* [Anleitung zur Agent Engine-Optimierung](/es/docs/what-is-aeo/)
+* [Anleitung zur Agent Engine-Optimierung](/de/docs/what-is-aeo/)
 
 ## Primäre Referenzen
 

@@ -62,7 +62,7 @@ MCP-Anwendungen ersetzen nicht alle Webanwendungen. Sie sind nützlich, wenn die
 
 ## AEO-Auswirkungen
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) benötigt häufig einen menschlichen Prüfpunkt. MCP-Anwendungen können diesen Kontrollpunkt praktisch machen:
+Die [Ausführungsschicht](/de/docs/execution-layer/) benötigt häufig einen menschlichen Prüfpunkt. MCP-Anwendungen können diesen Kontrollpunkt praktisch machen:
 
 - eine Rückerstattung genehmigen
 - Sehen Sie sich ein Angebot an
@@ -70,7 +70,7 @@ Die [Ausführungsschicht](/es/docs/execution-layer/) benötigt häufig einen men
 - Sehen Sie sich eine Grafik an
 - eine riskante Aktion bestätigen
 
-Dies hängt natürlich mit [Benutzererfahrung von Agenten und Human-in-the-Loop-Design] (/es/docs/agent-ux-human-in-the-loop/) zusammen, wo die Frage nicht „Mensch oder Agent“ lautet, sondern „Welche Teile benötigen welche Schnittstelle?“
+Dies hängt natürlich mit [Benutzererfahrung von Agenten und Human-in-the-Loop-Design](/de/docs/agent-ux-human-in-the-loop/) zusammen, wo die Frage nicht „Mensch oder Agent“ lautet, sondern „Welche Teile benötigen welche Schnittstelle?“
 
 ## Wann MCP-Anwendungen verwendet werden sollten
 
@@ -93,7 +93,7 @@ Offizielle Dokumente beschreiben Sandbox-Rendering und eine sichere Nachrichtenb
 - Welches Tool kann den UI-Aufruf auslösen?
 - wenn eine Genehmigung erforderlich ist
 - wie der Status erfasst wird
-- wie unterschiedlich der Host-Support istDer [MCP-Autorisierungsleitfaden](/es/docs/mcp-authorization-oauth-ai-agents/) ist immer noch relevant, da die umfangreiche Benutzeroberfläche die Notwendigkeit strenger Berechtigungen nicht überflüssig macht.
+- wie unterschiedlich der Host-Support istDer [MCP-Autorisierungsleitfaden](/de/docs/mcp-authorization-oauth-ai-agents/) ist immer noch relevant, da die umfangreiche Benutzeroberfläche die Notwendigkeit strenger Berechtigungen nicht überflüssig macht.
 
 ## Häufig gestellte Fragen
 

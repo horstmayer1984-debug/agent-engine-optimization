@@ -22,7 +22,7 @@ Ein Headless-CMS ist normalerweise ein traditionelles oder gekoppeltes CMS. Dass
 
 Dies ist standardmäßig nicht veraltet. Es ist oft die richtige Architektur für kleinere Websites und schnelllebige Redaktionsteams.
 
-Für einen umfassenderen Vergleich siehe [CMS vs. Headless CMS](/es/docs/cms-vs-headless-cms/) und [Headless CMS vs. traditionelles CMS](/es/docs/headless-cms-vs-traditional-cms/).
+Für einen umfassenderen Vergleich siehe [CMS vs. Headless CMS](/de/docs/cms-vs-headless-cms/) und [Headless CMS vs. traditionelles CMS](/de/docs/headless-cms-vs-traditional-cms/).
 
 ## Entscheidungstabelle
 
@@ -53,11 +53,11 @@ Headless-CMS-Plattformen können hervorragendes SEO erzeugen, aber nur, wenn die
 - interne Links
 - Sitemaps
 
-Nutzen Sie die [Headless CMS SEO Checklist](/es/docs/headless-cms-seo/), bevor Sie sich für ein CMS entscheiden oder migrieren.
+Nutzen Sie die [Headless CMS SEO Checklist](/de/docs/headless-cms-seo/), bevor Sie sich für ein CMS entscheiden oder migrieren.
 
 ##KI-Optimierungsvergleich
 
-Für [AEO](/es/docs/what-is-aeo/) haben Headless-CMS-Plattformen einen strukturellen Vorteil: Inhalte können als Daten modelliert werden. Dies erleichtert die Bereitstellung von Definitionen, häufig gestellten Fragen, Produktattributen und Vergleichskriterien für Systeme der künstlichen Intelligenz.
+Für [AEO](/de/docs/what-is-aeo/) haben Headless-CMS-Plattformen einen strukturellen Vorteil: Inhalte können als Daten modelliert werden. Dies erleichtert die Bereitstellung von Definitionen, häufig gestellten Fragen, Produktattributen und Vergleichskriterien für Systeme der künstlichen Intelligenz.
 
 Headless-Websites können jedoch immer noch eine gute Leistung erbringen, wenn die Seiten klar, quellengestützt und intern verlinkt sind. Bei der KI-Optimierung geht es zuerst um Klarheit und dann um Architektur.
 

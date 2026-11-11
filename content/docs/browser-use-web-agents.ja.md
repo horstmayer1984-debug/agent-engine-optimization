@@ -21,7 +21,7 @@ keywords:
 
 GitHub プラグインは、ブラウザー エージェントの検索で [ブラウザー使用/ブラウザー使用](https://github.com/browser-use/browser-use) として表示されました。 2026 年 6 月 28 日にチェックされた GitHub メタデータには 100,000 を超えるスターが示されており、最も注目されているオープンソース ブラウザ エージェント プロジェクトの 1 つとなっています。
 
-リポジトリの位置付けは単純です。AI エージェントが Web サイトにアクセスできるようにするだけです。これは、[エージェント UX とヒューマンインザループ設計](/es/docs/agent-ux-human-in-the-loop/) および [Lighthouse Agentic Browsing Audit](/es/docs/lighthouse-agentic-browsing-audit/) に直接マッピングされます。
+リポジトリの位置付けは単純です。AI エージェントが Web サイトにアクセスできるようにするだけです。これは、[エージェント UX とヒューマンインザループ設計](/ja/docs/agent-ux-human-in-the-loop/) および [Lighthouse Agentic Browsing Audit](/ja/docs/lighthouse-agentic-browsing-audit/) に直接マッピングされます。
 
 ## ブラウザーエージェントが Web サイトに関して明らかにすること
 
@@ -48,7 +48,7 @@ GitHub プラグインは、ブラウザー エージェントの検索で [ブ�
 6. 購入やアカウントの変更には人間の承認が必要です。
 7. 通常の人間のセッションとは別に、エージェントのようなセッションを登録します。
 
-技術情報については、[ヘッドレス ブラウザ オートメーション](/es/docs/headless-browser-automation/) および [Chrome WebMCP オリジン テスト チェックリスト](/es/docs/chrome-webmcp-origin-trial/) を参照してください。
+技術情報については、[ヘッドレス ブラウザ オートメーション](/ja/docs/headless-browser-automation/) および [Chrome WebMCP オリジン テスト チェックリスト](/ja/docs/chrome-webmcp-origin-trial/) を参照してください。
 
 ## ブラウザの使用状況と WebMCP の比較
 

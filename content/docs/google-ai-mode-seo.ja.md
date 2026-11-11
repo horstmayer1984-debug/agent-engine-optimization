@@ -53,7 +53,7 @@ Google の公式 AI 機能ドキュメントには、AI の概要と AI モー�
 - 社内の絆が強い
 - 独立性のある証拠が豊富な回答
 
-[AI 検索最適化フレームワーク](/es/docs/ai-search-optimization/) では、より広範なスタックについて説明しています。 [AEO コンテンツ戦略ガイド](/es/docs/aeo-content-strategy/) では、エージェントが 1 つの意思決定レイヤーから次の意思決定レイヤーに移動できるようにグループを構成する方法を示しています。
+[AI 検索最適化フレームワーク](/ja/docs/ai-search-optimization/) では、より広範なスタックについて説明しています。 [AEO コンテンツ戦略ガイド](/ja/docs/aeo-content-strategy/) では、エージェントが 1 つの意思決定レイヤーから次の意思決定レイヤーに移動できるようにグループを構成する方法を示しています。
 
 ##ページの改善点
 
@@ -80,7 +80,7 @@ Google のドキュメントの更新では、AI モードが Search Console の
 - サポート リンクからトラフィックを取得するページからのコンバージョン
 - クリック後のエンゲージメント
 
-[Bing AI パフォーマンス レポート ガイド](/es/docs/bing-ai-performance-report/) は、AI 引用と引用 URL の別のビューを提供するため、Google Search Console と併用すると便利です。
+[Bing AI パフォーマンス レポート ガイド](/ja/docs/bing-ai-performance-report/) は、AI 引用と引用 URL の別のビューを提供するため、Google Search Console と併用すると便利です。
 
 ## してはいけないこと
 
@@ -92,7 +92,7 @@ Google のドキュメントの更新では、AI モードが Search Console の
 4. AI モードを、クロール、インデックス作成、またはサイト アーキテクチャの代替として扱います。
 5. 次に役立つアクションではなく、メンションのみを最適化します。
 
-AI の可視性は読書層です。エージェントもサイトを使用する必要がある場合は、[実行層](/es/docs/execution-layer/) に接続します。
+AI の可視性は読書層です。エージェントもサイトを使用する必要がある場合は、[実行層](/ja/docs/execution-layer/) に接続します。
 
 ## よくある質問
 

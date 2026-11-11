@@ -22,7 +22,7 @@ A negociação do agente começa antes do pagamento. Um agente não pode comprar
 
 Isto torna a preparação do catálogo uma tarefa central do AEO.
 
-Leia o [guia de dados estruturados do produto](/es/docs/product-structured-data-ai-shopping/) relacionado para obter detalhes em nível de esquema e [preparação universal do carrinho](/es/docs/universal-cart-agentic-commerce/) para obter implicações do carrinho.
+Leia o [guia de dados estruturados do produto](/pt/docs/product-structured-data-ai-shopping/) relacionado para obter detalhes em nível de esquema e [preparação universal do carrinho](/pt/docs/universal-cart-agentic-commerce/) para obter implicações do carrinho.
 
 ## Campos mínimos do catálogo
 
@@ -71,7 +71,7 @@ Essas falhas prejudicam a conversão humana e a seleção de agentes.
 
 ## Pesquisa de IA e implicações de AEO
 
-Para [otimização de pesquisa de IA](/es/docs/ai-search-optimization/), a preparação do catálogo melhora a qualidade das citações e recomendações. Para [Agent Engine Optimization](/es/docs/what-is-aeo/), oferece suporte à mudança da recomendação para a ação. Os agentes precisam saber:
+Para [otimização de pesquisa de IA](/pt/docs/ai-search-optimization/), a preparação do catálogo melhora a qualidade das citações e recomendações. Para [Agent Engine Optimization](/pt/docs/what-is-aeo/), oferece suporte à mudança da recomendação para a ação. Os agentes precisam saber:
 
 - qual é o produto
 - para quem é

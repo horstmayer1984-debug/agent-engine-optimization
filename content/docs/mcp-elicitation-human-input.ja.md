@@ -28,7 +28,7 @@ MCP エリシテーションを使用すると、MCP サーバーは、ワーク
 
 この単純な応答モデルが重要です。ユーザー制御を維持するための明確な方法を顧客に提供します。
 
-関連するアーキテクチャについては、[MCP とエージェント API](/es/docs/mcp-vs-api-for-agents/)、[エージェント UX とヒューマンインザループ設計](/es/docs/agent-ux-human-in-the-loop/)、および [OAuth による MCP 認証](/es/docs/mcp-authorization-oauth-ai-agents/) を参照してください。
+関連するアーキテクチャについては、[MCP とエージェント API](/ja/docs/mcp-vs-api-for-agents/)、[エージェント UX とヒューマンインザループ設計](/ja/docs/agent-ux-human-in-the-loop/)、および [OAuth による MCP 認証](/ja/docs/mcp-authorization-oauth-ai-agents/) を参照してください。
 
 ## 引き出しが存在する理由
 
@@ -69,7 +69,7 @@ MCP 仕様では、サーバーは get を使用して機密情報を要求す�
 - 使い捨てアクセスコード
 - 生のアクセストークン
 - 機密の個人データ
-- 安全なボールトに属するシークレット ワークフローで機密認証が必要な場合は、get ではなく適切な認証フローを使用します。 [実行層](/es/docs/execution-layer/) は信頼できる境界に依存します。
+- 安全なボールトに属するシークレット ワークフローで機密認証が必要な場合は、get ではなく適切な認証フローを使用します。 [実行層](/ja/docs/execution-layer/) は信頼できる境界に依存します。
 
 ## 良い使用例
 
@@ -99,7 +99,7 @@ MCP 仕様では、サーバーは get を使用して機密情報を要求す�
 - 有効なエントリの例
 - エージェントが理解できるエラー メッセージ
 
-これにより、漠然とした人間の形がエージェントに適したワークフローに変わります。ガイド [AI Agent Programming Websites](/es/docs/programming-websites-for-ai-agents/) では、その準備作業について詳しく説明しています。
+これにより、漠然とした人間の形がエージェントに適したワークフローに変わります。ガイド [AI Agent Programming Websites](/ja/docs/programming-websites-for-ai-agents/) では、その準備作業について詳しく説明しています。
 
 ## 設計チェックリスト
 

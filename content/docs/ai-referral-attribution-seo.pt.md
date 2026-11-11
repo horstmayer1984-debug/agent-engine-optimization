@@ -43,7 +43,7 @@ Mas o Search Console não mostra todos os tours de IA:
 | Sessões de agente | Registros e rastreamento de eventos | Os agentes leem, comparam ou agem? |
 | Resultados da execução | Cadastros de produtos, carrinhos, API, reservas ou pedidos | A tarefa foi bem sucedida? |
 
-O [guia de medição de KPI AEO](/es/docs/aeo-kpis-measurement/) explica o modelo de KPI mais amplo.
+O [guia de medição de KPI AEO](/pt/docs/aeo-kpis-measurement/) explica o modelo de KPI mais amplo.
 
 ## O que registrar no AEO SEO
 
@@ -60,7 +60,7 @@ No mínimo:
 - rejeições políticas
 - status de conformidade ou confirmação
 
-Para saber mais sobre fluxos de trabalho de negociação, leia [Atribuição de negociação do agente](/es/docs/agentic-commerce-attribution/). Para uma camada de pesquisa mais ampla, consulte [Modo Google AI no Search Console](/es/docs/google-ai-mode-search-console-reporting/).
+Para saber mais sobre fluxos de trabalho de negociação, leia [Atribuição de negociação do agente](/pt/docs/agentic-commerce-attribution/). Para uma camada de pesquisa mais ampla, consulte [Modo Google AI no Search Console](/pt/docs/google-ai-mode-search-console-reporting/).
 
 ## Usando um sinal de consulta ascendente
 
@@ -73,7 +73,7 @@ Quando uma consulta aumenta:
 5. Adicione essas páginas ao llms.txt se forem estrategicamente importantes.
 6. Verifique o Search Console novamente após rastrear novamente.
 
-O [Plano de implementação de SEO AEO](/es/docs/aeo-seo-implementation-plan/) transforma isso em um sprint de 30 dias.
+O [Plano de implementação de SEO AEO](/pt/docs/aeo-seo-implementation-plan/) transforma isso em um sprint de 30 dias.
 
 ## Lacunas de atribuição esperadas
 

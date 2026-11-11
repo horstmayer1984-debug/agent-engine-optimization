@@ -25,7 +25,7 @@ In einem Headless-Setup wird das Business-Backend zum Motor. Eine eigenständige
 
 Die Storefront-API von Shopify ist ein offizielles Beispiel. Laut Shopify ermöglicht es personalisierte Einkaufserlebnisse im gesamten Web, in Apps und Spielen, einschließlich Produkt-Browsing, Warenkörben und Checkout-bezogenen Abläufen.
 
-Informationen zum umfassenderen Architekturmuster finden Sie unter [Was ist Headless-Software?](/es/docs/what-is-headless-software/).
+Informationen zum umfassenderen Architekturmuster finden Sie unter [Was ist Headless-Software?](/de/docs/what-is-headless-software/).
 
 ## Warum entscheiden sich Marken für Headless Commerce?
 
@@ -75,7 +75,7 @@ Mindestanforderungen an SEO:
 - Optimierte Bilder mit Alternativtext
 - schnelles Laden und stabiles DesignWenn ein Headless-Shop den gesamten Produktinhalt nach clientseitigem JavaScript lädt, sehen Suchmaschinen und Antwortmaschinen möglicherweise weniger als das, was Benutzer sehen. Dies ist besonders riskant bei Long-Tail-Produktanfragen.
 
-Informationen zum Kontext der Ausführungsschicht finden Sie unter [AI Agent Protocols](/es/docs/protocols/) und [x402 Agent Payments](/es/docs/x402-agent-payments/).
+Informationen zum Kontext der Ausführungsschicht finden Sie unter [AI Agent Protocols](/de/docs/protocols/) und [x402 Agent Payments](/de/docs/x402-agent-payments/).
 
 ## Die Zahlung ist der sensible Teil
 
@@ -83,7 +83,7 @@ Beim Bezahlvorgang werden Headless-Projekte oft teuer. Dazu gehören Zahlungssic
 
 Viele Marken behalten den nativen Checkout der Plattform bei und passen den Rest der Storefront individuell an. Dies ist oft sicherer, als das gesamte Checkout-Erlebnis neu aufzubauen.
 
-Der Agentenhandel erhöht den Einsatz noch weiter. Wenn ein KI-Agent Artikel in einen Warenkorb legen oder für eine Ressource bezahlen kann, muss die Website explizite Regeln für Preisgestaltung, Autorisierung, Rückgabe und Überprüfung veröffentlichen. Hier beginnt die Überschneidung zwischen Headless Commerce und [Vergleich der Agent Payment Protocols](/es/docs/agent-payment-protocols-compared/).
+Der Agentenhandel erhöht den Einsatz noch weiter. Wenn ein KI-Agent Artikel in einen Warenkorb legen oder für eine Ressource bezahlen kann, muss die Website explizite Regeln für Preisgestaltung, Autorisierung, Rückgabe und Überprüfung veröffentlichen. Hier beginnt die Überschneidung zwischen Headless Commerce und [Vergleich der Agent Payment Protocols](/de/docs/agent-payment-protocols-compared/).
 
 ## Headless Shopify und Headless WooCommerce
 

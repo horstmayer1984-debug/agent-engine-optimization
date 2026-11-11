@@ -22,7 +22,7 @@ keywords:
 
 つまり、SEO への影響は自動的には起こらないということです。このアーキテクチャにより、より詳細な制御が可能になりますが、一部のデフォルトも排除されます。
 
-より広範なアーキテクチャの比較については、[ヘッドレス CMS と従来の CMS](/es/docs/headless-cms-vs-traditional-cms/) および [ヘッドレス ソフトウェアとは?](/es/docs/what-is-headless-software/) から始めてください。
+より広範なアーキテクチャの比較については、[ヘッドレス CMS と従来の CMS](/ja/docs/headless-cms-vs-traditional-cms/) および [ヘッドレス ソフトウェアとは?](/ja/docs/what-is-headless-software/) から始めてください。
 
 ## SEO へのプラスの影響
 
@@ -70,7 +70,7 @@ Google の [JavaScript SEO Basics] (https://developers.google.com/search/docs/cr
 
 ヘッドレス CMS のコンテンツはすでに構造化されているため、AI システムに役立ちます。ヘルプ記事、製品ガイド、FAQ、または比較表は、不透明な HTML BLOB の代わりにフィールドとして保存できます。
 
-これは、エンド サイトでも以下が公開されている場合に、[AI 検索の最適化](/es/docs/ai-search-optimization/) と [エージェント エンジンの最適化](/es/docs/what-is-aeo/) に役立ちます。
+これは、エンド サイトでも以下が公開されている場合に、[AI 検索の最適化](/ja/docs/ai-search-optimization/) と [エージェント エンジンの最適化](/ja/docs/what-is-aeo/) に役立ちます。
 
 - クロール可能な HTML
 - 情報源によって裏付けられた事実
@@ -79,7 +79,7 @@ Google の [JavaScript SEO Basics] (https://developers.google.com/search/docs/cr
 - 関連ページ間の内部リンク
 - エージェントの次のステップを明確にする
 
-[実行層](/es/docs/execution-layer/) には依然として API またはアクション エンドポイントが必要です。ヘッドレス CMS は、まず読み取り層を支援します。
+[実行層](/ja/docs/execution-layer/) には依然として API またはアクション エンドポイントが必要です。ヘッドレス CMS は、まず読み取り層を支援します。
 
 ## 移行チェックリスト
 

@@ -5,7 +5,6 @@ date: 2026-03-18
 weight: 13
 category: "Architecture"
 description: "マルチエージェント AEO が、調整されたマシン間の対話のためにコンテンツ、ツール、権限、ワークフローをどのように構築するかをご覧ください。"
-metaDescription: "Descubra cómo los sitios web deberían admitir la interacción coordinada de las máquinas cuando varios agentes de IA planifican, comparan, delegan y ejecutan."
 summary: "マルチエージェント システムは、AEO のリスクを高めます。 1 つのモデルがページを読み取るのではなく、複数の専門エージェントが協力して検出、比較、アクション、検証を行います。"
 keywords:
   - "AEOマルチエージェントシステム"
@@ -35,7 +34,7 @@ keywords:
 
 マルチエージェントへの対応は、安定した命名規則、一貫したフィールド ロジック、明示的な制約、予測可能なアクション定義、および検証可能な結果に依存します。
 
-エージェントのエコシステムがより専門化すればするほど、混乱を招くページデザインに対する許容度は低くなります。 [AEO とは](/es/docs/what-is-aeo/) は、読み取り層と [実行層](/es/docs/execution-layer/) の区別でこれを捉えています。
+エージェントのエコシステムがより専門化すればするほど、混乱を招くページデザインに対する許容度は低くなります。 [AEO とは](/ja/docs/what-is-aeo/) は、読み取り層と [実行層](/ja/docs/execution-layer/) の区別でこれを捉えています。
 
 ## ロールベースのインタラクションを設計する
 

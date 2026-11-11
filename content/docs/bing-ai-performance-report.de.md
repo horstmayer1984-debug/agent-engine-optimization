@@ -44,7 +44,7 @@ Bing macht klar, dass die Anzahl der Zitate nicht dasselbe ist wie die Rangfolge
 
 ## Warum dies für AEOs wichtig ist
 
-[Generative Engine Optimization](/es/docs/generative-engine-optimization/) konzentriert sich auf die Zitierung in KI-Antworten. [Agent Engine Optimization](/es/docs/what-is-aeo/) geht noch weiter, aber Zitate sind immer noch wichtig, da Agenten und Antwort-Engines vertrauenswürdige Quellen benötigen, bevor sie handeln.
+[Generative Engine Optimization](/de/docs/generative-engine-optimization/) konzentriert sich auf die Zitierung in KI-Antworten. [Agent Engine Optimization](/de/docs/what-is-aeo/) geht noch weiter, aber Zitate sind immer noch wichtig, da Agenten und Antwort-Engines vertrauenswürdige Quellen benötigen, bevor sie handeln.
 
 Der Bing-Bericht hilft bei der Beantwortung von drei praktischen Fragen:
 
@@ -65,7 +65,7 @@ Informierte Abfragen sind besonders nützlich, da sie die Abrufsprache hinter KI
 | Ein Produkt- oder Protokollname | Entitätskontext und Quelllinks hinzufügen || Ein lokaler oder branchenspezifischer Bewerter | Spezifische Anwendungsfallbeispiele hinzufügen |
 | Ein Frageformat | FAQs und Direktantwortblöcke hinzufügen |
 
-Der [AI Dating Strategy Guide](/es/docs/ai-citation-strategy/) bietet einen umfassenderen Rahmen für die Umwandlung von Dating-Möglichkeiten in Inhaltsaktualisierungen.
+Der [AI Dating Strategy Guide](/de/docs/ai-citation-strategy/) bietet einen umfassenderen Rahmen für die Umwandlung von Dating-Möglichkeiten in Inhaltsaktualisierungen.
 
 ## So verbessern Sie zitierte Seiten
 
@@ -87,7 +87,7 @@ Bing verbindet die Sichtbarkeit von KI-Antworten mit Frische. Seine AI Performan
 
 Das ist für AEO wichtig, denn veraltete Seiten können das Vertrauen gefährden. Wenn ein KI-System einen veralteten Protokollstatus, eine veraltete Preisregel oder eine veraltete Tracker-Richtlinie angibt, wird die Seite weniger nützlich.
 
-Der [IndexNow-Leitfaden zur KI-Suche](/es/docs/indexnow-ai-search-visibility/) deckt den Implementierungspfad ab.
+Der [IndexNow-Leitfaden zur KI-Suche](/de/docs/indexnow-ai-search-visibility/) deckt den Implementierungspfad ab.
 
 ## So melden Sie die KI-Sichtbarkeit intern
 

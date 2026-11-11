@@ -37,7 +37,7 @@ Para as equipes do site, o sinal é simples: os agentes estão sendo testados no
 | Tarefas de longo prazo | Os fluxos de trabalho de várias etapas devem ser recuperáveis. |
 | Verificação | Os agentes precisam de provas de que a tarefa foi concluída. |
 
-Isso se conecta a [Parâmetros de avaliação do agente](/es/docs/agent-evaluation-benchmarks/) e [Árvores de decisão do agente](/es/docs/agent-decision-trees/).
+Isso se conecta a [Parâmetros de avaliação do agente](/pt/docs/agent-evaluation-benchmarks/) e [Árvores de decisão do agente](/pt/docs/agent-decision-trees/).
 
 ## Como tornar sites compatíveis com benchmarks
 
@@ -49,7 +49,7 @@ Isso se conecta a [Parâmetros de avaliação do agente](/es/docs/agent-evaluati
 6. Registre transições de estado.
 7. Teste agentes com a mesma tarefa mensalmente.
 
-Para medição operacional, use [AEO KPI](/es/docs/aeo-kpis-measurement/).
+Para medição operacional, use [AEO KPI](/pt/docs/aeo-kpis-measurement/).
 
 ## O que não inferir
 

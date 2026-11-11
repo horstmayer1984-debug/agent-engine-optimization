@@ -62,7 +62,7 @@ Para o AEO, a lição é mais ampla: se uma máquina deve decidir se o seu servi
 | Cartão de agente | Declarar as capacidades de um agente para interação ponto a ponto |
 | Esquema OpenAPI ou MCP | Descrevendo operações que podem ser chamadas |
 
-O [guia llms.txt](/es/docs/programming-llms-txt/), [guia do cartão do agente](/es/docs/agent-cards-a2a-protocol/) e [guia MCP vs API](/es/docs/mcp-vs-api-for-agents/) cobrem as camadas vizinhas.
+O [guia llms.txt](/pt/docs/programming-llms-txt/), [guia do cartão do agente](/pt/docs/agent-cards-a2a-protocol/) e [guia MCP vs API](/pt/docs/mcp-vs-api-for-agents/) cobrem as camadas vizinhas.
 
 ## O que os editores do servidor devem preparar?
 
@@ -80,7 +80,7 @@ Terceiro, autenticação de documentos e variáveis de ambiente.
 
 Os documentos do MCP indicam que o Registro está em versão prévia e pode mudar antes da disponibilidade geral. Isso significa que as equipes devem usá-lo, aprender com ele e evitar suposições codificadas que custariam caro para serem desfeitas posteriormente.
 
-O [guia de autorização MCP](/es/docs/mcp-authorization-oauth-ai-agents/) também é importante aqui: a descoberta nunca deve superar o controle de acesso.
+O [guia de autorização MCP](/pt/docs/mcp-authorization-oauth-ai-agents/) também é importante aqui: a descoberta nunca deve superar o controle de acesso.
 
 ## Perguntas frequentes
 

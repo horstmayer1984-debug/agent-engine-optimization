@@ -19,7 +19,7 @@ Ein Kunde sagt zu seinem KI-Assistenten: „Kauf mir ein blaues Baumwollshirt f�
 
 Der Laden, der diesen Verkauf gewinnt, ist nicht der mit der besten Fotografie oder dem intelligentesten Werbetext. Es ist das Lager, in dem jeder Datenpunkt eindeutig ist, jede Richtlinie maschinenlesbar ist und der Zahlungsvorgang ohne Browser funktioniert.
 
-So sieht [Agentenhandel](/es/docs/agentic-commerce/) in der Praxis aus. Das müssen Online-Shops ändern.
+So sieht [Agentenhandel](/de/docs/agentic-commerce/) in der Praxis aus. Das müssen Online-Shops ändern.
 
 ## Produktdaten müssen vollständig, strukturiert und aktuell sein.
 
@@ -47,7 +47,7 @@ Ein Mensch könnte eine Entschuldigungs-E-Mail für einen nicht vorrätigen Arti
 
 Stellen Sie Inventar über einen dedizierten Endpunkt oder zumindest über präzises Schema-Markup bereit, das in Minuten statt Stunden aktualisiert wird. Wenn genaue Zahlen nicht praktikabel sind, verwenden Sie ehrliche Statusgruppen: auf Lager, begrenzte Verfügbarkeit, Vorbestellung, nicht auf Lager.
 
-[Top 10 AEO-Strategien für E-Commerce] (/es/docs/aeo-ecommerce/) behandelt die Bestandssicherheit ausführlicher.
+[Top 10 AEO-Strategien für E-Commerce](/de/docs/aeo-ecommerce/) behandelt die Bestandssicherheit ausführlicher.
 
 ## Headless Checkout für automatisierte Transaktionen. Traditionelle Checkout-Abläufe sind für Menschen konzipiert: visuelle Schritte, Fortschrittsbalken, Formularfelder, Bestätigungsmodalitäten. Ein Agent braucht nichts davon. Sie benötigen einen eindeutigen, dokumentierten API-Aufruf.
 
@@ -73,7 +73,7 @@ Ein Agent, der so programmiert ist, dass er „30 Tage lang nur in Geschäften m
 - Garantiedauer
 - Versandgarantie (Lieferung innerhalb von X Tagen oder Rückerstattung)
 
-Betten Sie es als strukturierte Daten ein oder stellen Sie es über einen dedizierten Richtlinienendpunkt bereit. Marken, die Richtlinien maschinenlesbar machen, verschaffen sich beim agentenvermittelten Targeting einen messbaren Vorteil. Die [Ausführungsschicht](/es/docs/execution-layer/) erklärt, warum dieser Wandel von Menschenlesbarkeit zu Maschinenverarbeitbarkeit den Kern von AEO ausmacht.
+Betten Sie es als strukturierte Daten ein oder stellen Sie es über einen dedizierten Richtlinienendpunkt bereit. Marken, die Richtlinien maschinenlesbar machen, verschaffen sich beim agentenvermittelten Targeting einen messbaren Vorteil. Die [Ausführungsschicht](/de/docs/execution-layer/) erklärt, warum dieser Wandel von Menschenlesbarkeit zu Maschinenverarbeitbarkeit den Kern von AEO ausmacht.
 
 ## Der Preisvergleich muss deterministisch sein
 

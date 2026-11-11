@@ -35,7 +35,7 @@ Der GLM-Forschungspfad umfasst [GLM-5: From Vibe Coding to Agent Engineering] (h
 | Interesse am Umgang mit Werkzeugen | Werkzeugschemata und Fehlerzustände müssen explizit sein. |
 | Mehrsprachige Unterstützung | Entitätsnamen und Richtlinien sollten in allen Sprachen konsistent sein. |
 
-Dies stellt eine Verbindung zum [AEO-Entwicklerhandbuch](/es/docs/developers-guide-aeo/) und zu [Agent-Ready Web Apps](/es/docs/agent-ready-web-apps/) her.
+Dies stellt eine Verbindung zum [AEO-Entwicklerhandbuch](/de/docs/developers-guide-aeo/) und zu [Agent-Ready Web Apps](/de/docs/agent-ready-web-apps/) her.
 
 ## Was man nicht tun sollte
 
@@ -52,7 +52,7 @@ Optimieren Sie stattdessen für stabile Oberflächen:
 7. Audit-Protokolle.
 8. Aktuelle „llms.txt“ für Agenten, die sie verwenden.
 
-Beachten Sie beim Crawlen den [2026 Google Generative AI Search Guide](/es/docs/google-generative-ai-search-guide-2026/): Die Google-Suche benötigt für die Sichtbarkeit keine reinen KI-Dateien, obwohl Agenten dennoch von ihnen profitieren können.
+Beachten Sie beim Crawlen den [2026 Google Generative AI Search Guide](/de/docs/google-generative-ai-search-guide-2026/): Die Google-Suche benötigt für die Sichtbarkeit keine reinen KI-Dateien, obwohl Agenten dennoch von ihnen profitieren können.
 
 ## GLM-5.2 versus lokale Agentenbereitstellung
 

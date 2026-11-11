@@ -4,7 +4,6 @@ date: 2026-04-12
 weight: 80
 category: "Architecture"
 description: "A engenharia de contexto seleciona, compacta e estrutura informações de forma dinâmica para que os agentes de IA tomem decisões mais rápidas e precisas."
-metaDescription: "Utilice la ingeniería de contexto para seleccionar, comprimir y estructurar información para que los agentes de IA tomen decisiones más rápidas y precisas."
 summary: "Os agentes falham em 70% das tarefas de várias etapas devido à poluição do contexto. A engenharia de contexto reduz o uso de tokens em 40% a 60% enquanto aumenta as taxas de sucesso acima de 95%. É assim que funciona."
 keywords:
   - "Engenharia de contexto AEO"
@@ -63,7 +62,7 @@ Use tabelas e blocos estruturados para dados comparativos. Os agentes compactam 
 
 Mantenha as respostas às perguntas frequentes completas de forma independente. Cada resposta deve fazer sentido sem ler a pergunta acima ou a resposta abaixo. Os agentes normalmente obtêm respostas individuais, não seções inteiras de perguntas frequentes.
 
-O [artigo de estratégia de conteúdo AEO](/es/docs/aeo-content-strategy/) cobre a estrutura em nível de página. O [guia de implementação AEO](/es/docs/implement-aeo/) cobre a base técnica.
+O [artigo de estratégia de conteúdo AEO](/pt/docs/aeo-content-strategy/) cobre a estrutura em nível de página. O [guia de implementação AEO](/pt/docs/implement-aeo/) cobre a base técnica.
 
 ## Comparação: engenharia rápida vs engenharia de contexto
 
@@ -102,7 +101,7 @@ Os custos exatos variam de acordo com o modelo, mas a poluição do contexto nor
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
 
 ## Referências primárias
 

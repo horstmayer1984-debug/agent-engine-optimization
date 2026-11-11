@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 86
 category: "Guide"
 description: "Entwerfen Sie Agent UX mit klaren Genehmigungen, Vorschauen, Reversibilität und Status-Feedback, damit Mitarbeiter Aktionen überwachen können."
-metaDescription: "Diseñe interfaces para humanos y agentes de IA con HTML semántico, aprobaciones, comentarios estructurados, mensajes de estado y flujos de trabajo."
 summary: "Moderne Schnittstellen müssen zwei Zielgruppen gleichzeitig bedienen: menschliche Benutzer und KI-Agenten. Das responsive Design des Agenten nutzt semantisches HTML, strukturierte Endpunkte und Feedbackschleifen, um beides zu erfüllen."
 keywords:
   - "Agenten-UX-Design"
@@ -32,7 +31,7 @@ Verwenden Sie native HTML-Elemente anstelle von formatierten Divs. Ein Schaltfl�
 
 Fügen Sie Aria-Label-Attribute hinzu, wenn der Zweck des Elements nicht aus seinem Inhalt ersichtlich ist. Ein Agent, der Ihre Seite analysiert, profitiert von den gleichen Zugänglichkeitspraktiken wie Screenreader.
 
-Verarbeiten Sie alle kritischen Inhalte auf dem Server. Wenn Ihr Produktname, Ihr Preis und Ihre Verfügbarkeit die Anzeige von JavaScript erfordern, können Agenten diese nicht sehen. Der [Agent Website Programming Guide](/es/docs/programming-websites-for-ai-agents/) deckt die technischen Anforderungen ab.
+Verarbeiten Sie alle kritischen Inhalte auf dem Server. Wenn Ihr Produktname, Ihr Preis und Ihre Verfügbarkeit die Anzeige von JavaScript erfordern, können Agenten diese nicht sehen. Der [Agent Website Programming Guide](/de/docs/programming-websites-for-ai-agents/) deckt die technischen Anforderungen ab.
 
 ##Human-in-the-Loop-Genehmigungsabläufe
 
@@ -48,7 +47,7 @@ Sowohl Menschen als auch Agenten müssen Probleme melden. Aber sie berichten and
 
 Menschliches Feedback: ein Kommentarfeld, eine Sternebewertung, ein Support-Ticket. Unstrukturiert, kontextreich, bedarf der Interpretation.
 
-Agenten-Feedback: Ein strukturierter Endpunkt, der die URL einer Seite, erwartete Daten, tatsächlich gefundene Daten und Fehlerklassifizierung akzeptiert. Keine Interpretation erforderlich.Baue beides. Das menschliche Feedback-Formular ist auf der Seite sichtbar. Der Feedback-Endpunkt des Agenten, dokumentiert in Ihrer llms.txt-Datei und Ihrer Agentenkarte. Beide fördern den gleichen Verbesserungsprozess durch ihre [Feedbackschleifen](/es/docs/agent-feedback-loops/).
+Agenten-Feedback: Ein strukturierter Endpunkt, der die URL einer Seite, erwartete Daten, tatsächlich gefundene Daten und Fehlerklassifizierung akzeptiert. Keine Interpretation erforderlich.Baue beides. Das menschliche Feedback-Formular ist auf der Seite sichtbar. Der Feedback-Endpunkt des Agenten, dokumentiert in Ihrer llms.txt-Datei und Ihrer Agentenkarte. Beide fördern den gleichen Verbesserungsprozess durch ihre [Feedbackschleifen](/de/docs/agent-feedback-loops/).
 
 ## WebSocket-Endpunkte für Live-Sitzungen
 
@@ -64,7 +63,7 @@ Ihre Schnittstelle sollte auf allen Funktionsebenen funktionieren: vollständige
 
 Jede Ebene bedient einen anderen Kunden. Entwerfen Sie es so, dass durch das Entfernen einer Schicht die darunter liegenden Schichten nicht beschädigt werden. Wenn Ihr JavaScript fehlschlägt, sollte der HTML-Code immer noch wichtige Informationen enthalten. Wenn Ihre Endpunkte nicht funktionieren, sollte der HTML-Code weiterhin lesbar sein.
 
-Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt die Struktur der Inhaltsschicht.
+Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt die Struktur der Inhaltsschicht.
 
 ---
 

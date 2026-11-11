@@ -45,7 +45,7 @@ A maioria dos debates sobre o AEO centra-se na questão de saber se os sistemas 
 | Publicação | Clique humano | Primeiro rascunho do fluxo de trabalho com confirmação |
 | Auditoria | Histórico e registros do usuário | Registros de chamadas de ferramentas e registros de aprovação |
 
-Isso se conecta a [API MCP vs Agente](/es/docs/mcp-vs-api-for-agents/), [Como implementar AEO](/es/docs/implement-aeo/) e [Aplicativos Web prontos para agente](/es/docs/agent-ready-web-apps/).
+Isso se conecta a [API MCP vs Agente](/pt/docs/mcp-vs-api-for-agents/), [Como implementar AEO](/pt/docs/implement-aeo/) e [Aplicativos Web prontos para agente](/pt/docs/agent-ready-web-apps/).
 
 ## O padrão de aprovação é o verdadeiro sinal
 

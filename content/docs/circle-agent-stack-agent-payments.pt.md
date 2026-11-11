@@ -31,7 +31,7 @@ Fontes primárias úteis:
 
 O SEO clássico pergunta se uma página pode ser descoberta por um ser humano. GEO pergunta se um mecanismo de resposta pode citá-lo. O Agent Engine Optimization adiciona uma camada mais difícil: se um sistema autônomo pode entender a oferta, verificar as restrições, executar a ação, pagar e verificar o resultado.
 
-O Circle Agent Stack fica diretamente nessa [camada de execução] (/es/docs/execution-layer/). Não é um substituto para otimização de conteúdo, esquema ou [llms.txt](/es/docs/programming-llms-txt/). Alterar o que acontece após a descoberta: os agentes podem passar da avaliação para o pagamento quando o comerciante, a API ou o serviço oferecem suporte ao fluxo de pagamento correto.
+O Circle Agent Stack fica diretamente nessa [camada de execução](/pt/docs/execution-layer/). Não é um substituto para otimização de conteúdo, esquema ou [llms.txt](/pt/docs/programming-llms-txt/). Alterar o que acontece após a descoberta: os agentes podem passar da avaliação para o pagamento quando o comerciante, a API ou o serviço oferecem suporte ao fluxo de pagamento correto.
 
 ## Componentes principais e implicações do AEO
 
@@ -71,7 +71,7 @@ Circle Agent Stack não significa que todos os sites precisam aceitar USDC amanh
 | Camada de capacidade | APIs e ações legíveis por máquina | `get_price`, `create_order`, `verify_access` |
 | Camada de pagamento | Via de pagamento utilizável pelo agente | x402 ou uma API de pagamento que retorna confirmação determinística |
 
-Comece com o [guia de implementação do AEO](/es/docs/implement-aeo/) e [comparação de protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/) antes de adicionar a lógica de pagamento.
+Comece com o [guia de implementação do AEO](/pt/docs/implement-aeo/) e [comparação de protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/) antes de adicionar a lógica de pagamento.
 
 ## Casos de uso com ajuste forte
 
@@ -100,7 +100,7 @@ Um bom design de pagamento de agente deve incluir:
 - política clara de reembolso ou reversão sempre que possível
 - recibos estruturados
 - tratamento de pagamentos falhados
-- registros de auditoria vinculados à identidade do agenteO [guia de governança x402](/es/docs/x402-governance-security/) é o companheiro certo ao passar do protótipo para a produção.
+- registros de auditoria vinculados à identidade do agenteO [guia de governança x402](/pt/docs/x402-governance-security/) é o companheiro certo ao passar do protótipo para a produção.
 
 ## Perguntas frequentes
 

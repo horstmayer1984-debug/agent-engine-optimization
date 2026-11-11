@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 81
 category: "Architecture"
 description: "Saiba como o agente aproveita ferramentas de orquestração, memória, aprovações, novas tentativas e observabilidade para alcançar fluxos."
-metaDescription: "Descubra cómo los arneses de agentes gestionan los ciclos de vida, las aprobaciones, el enrutamiento de herramientas, la memoria y el estado de los sistemas."
 summary: "Agentes individuais eram demonstrações. Os aproveitamentos os transformam em sistemas de produção confiáveis, gerenciando ciclos de vida, aprovações humanas, delegação de subagentes, novas tentativas e estado persistente."
 keywords:
   - "chicotes de agente"
@@ -29,7 +28,7 @@ O arnês é a camada que proporciona tudo isso. Sem ele, cada agente opera isola
 
 A maioria das implementações de chicote de produção usa um padrão orquestrador-trabalhador. Um agente supervisor recebe a tarefa de nível superior, decompõe-a em subtarefas, delega cada subtarefa a um agente trabalhador especializado, coleta os resultados e sintetiza o resultado final.
 
-Os trabalhadores operam em contextos isolados. Eles recebem apenas as informações relevantes para sua subtarefa, e não todo o estado do fluxo de trabalho. Isso evita a poluição do contexto (consulte [guia de engenharia de contexto](/es/docs/context-engineering-aeo/)) e facilita a depuração e substituição de agentes individuais.
+Os trabalhadores operam em contextos isolados. Eles recebem apenas as informações relevantes para sua subtarefa, e não todo o estado do fluxo de trabalho. Isso evita a poluição do contexto (consulte [guia de engenharia de contexto](/pt/docs/context-engineering-aeo/)) e facilita a depuração e substituição de agentes individuais.
 
 O supervisor é responsável pela coordenação e não pela execução. Ele decide qual trabalhador lida com qual tarefa, gerencia a sequência e resolve conflitos entre as saídas dos trabalhadores.
 
@@ -37,7 +36,7 @@ O supervisor é responsável pela coordenação e não pela execução. Ele deci
 
 Os agentes de produção falham. Tempo limite das APIs. Os modelos produzem resultados inválidos. Serviços externos retornam erros. Um chicote deve lidar com tudo isso sem perder o estado do fluxo de trabalho.
 
-A execução durável significa que o chicote controla o estado do fluxo de trabalho em cada etapa. Se um agente falhar na etapa quatro de um fluxo de trabalho de seis etapas, o chicote poderá tentar novamente a etapa quatro sem executar novamente as etapas de um a três. Isto é particularmente importante para o AEO porque os agentes que interagem com o seu site podem encontrar erros intermitentes. Um equipamento com lógica de repetição adequada tentará a interação novamente em vez de abandonar o fluxo de trabalho. Seus endpoints devem suportar isso sendo idempotentes (o [artigo do plano de controle universal](/es/docs/universal-control-plane/) cobre os requisitos idempotentes).
+A execução durável significa que o chicote controla o estado do fluxo de trabalho em cada etapa. Se um agente falhar na etapa quatro de um fluxo de trabalho de seis etapas, o chicote poderá tentar novamente a etapa quatro sem executar novamente as etapas de um a três. Isto é particularmente importante para o AEO porque os agentes que interagem com o seu site podem encontrar erros intermitentes. Um equipamento com lógica de repetição adequada tentará a interação novamente em vez de abandonar o fluxo de trabalho. Seus endpoints devem suportar isso sendo idempotentes (o [artigo do plano de controle universal](/pt/docs/universal-control-plane/) cobre os requisitos idempotentes).
 
 ## Portas humanas no circuito
 
@@ -53,7 +52,7 @@ CrewAI lida com fluxos de trabalho de equipe baseados em funções, onde os agen
 
 Ambas as estruturas suportam o padrão supervisor, execução durável e portas humanas. Escolha LangGraph para lógica condicional complexa e CrewAI para fluxos de trabalho simples baseados em equipe.
 
-O [Guia de pilha de marketing nativo do agente](/es/docs/agent-native-marketing-stack/) cobre a seleção da estrutura em detalhes. O [guia de gerenciamento multiagente](/es/docs/managing-multiple-ai-agents/) abrange o gerenciamento operacional.
+O [Guia de pilha de marketing nativo do agente](/pt/docs/agent-native-marketing-stack/) cobre a seleção da estrutura em detalhes. O [guia de gerenciamento multiagente](/pt/docs/managing-multiple-ai-agents/) abrange o gerenciamento operacional.
 
 ##Comparação: Agente Único vs. Multiagente Aproveitado
 

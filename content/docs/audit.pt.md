@@ -86,9 +86,9 @@ Os protocolos estão ativos. O UCP foi lançado em janeiro de 2026. O MCP está 
 
 As organizações que avaliam e se preparam agora colhem benefícios crescentes. Aqueles que esperarem até que o tráfego de agentes seja significativo enfrentarão uma modernização mais dispendiosa e disruptiva.
 
-[A camada de execução](/es/docs/execution-layer/): Entenda o que os agentes precisam.
+[A camada de execução](/pt/docs/execution-layer/): Entenda o que os agentes precisam.
 
-[AEO x SEO x GEO](/es/docs/aeo-vs-seo-vs-geo/): como isso se encaixa em sua estratégia mais ampla.
+[AEO x SEO x GEO](/pt/docs/aeo-vs-seo-vs-geo/): como isso se encaixa em sua estratégia mais ampla.
 
 ## Regras de evidência para uma auditoria repetível
 
@@ -112,7 +112,7 @@ Não. O conteúdo faz parte da camada de leitura. Uma auditoria completa também
 
 Repita testes específicos após alterações no conteúdo do material, esquema, API, política ou fluxo de trabalho. Revise periodicamente a amostra maior à medida que o tráfego do agente e os recursos suportados evoluem.
 
-## Guias relacionados* [arquitetura de comércio de agente](/es/docs/agentic-commerce/)
+## Guias relacionados* [arquitetura de comércio de agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

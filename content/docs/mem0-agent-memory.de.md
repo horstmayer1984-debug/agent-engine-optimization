@@ -23,7 +23,7 @@ Das GitHub-Plugin erschien [mem0ai/mem0](https://github.com/mem0ai/mem0) und die
 
 Für AEO ist die wichtige Frage nicht, welches Speichersystem gewinnt. Es ist das, was den persistenten Agentenspeicher für Websites verändert.
 
-Lesen Sie dies in Verbindung mit [Context Engineering für AEO](/es/docs/context-engineering-aeo/) und [Agent Feedback Loops](/es/docs/agent-feedback-loops/).
+Lesen Sie dies in Verbindung mit [Context Engineering für AEO](/de/docs/context-engineering-aeo/) und [Agent Feedback Loops](/de/docs/agent-feedback-loops/).
 
 ##Welcher Agent verändert das Gedächtnis?
 
@@ -49,7 +49,7 @@ Persistenter Speicher kann die Aufgabenerledigung verbessern, wirft aber auch Go
 6. Ermöglichen Sie Benutzern, veralteten oder falschen Speicher zu reparieren.
 7. Vermeiden Sie es, sich bei wichtigen Entscheidungen auf versteckte Anpassungen zu verlassen.
 
-Informationen zum Handel finden Sie unter [Agentic Wallets and Spending Governance](/es/docs/agentic-wallets-spend-governance/) und [Agentic Authentication for Commerce](/es/docs/agentic-authentication-commerce/).
+Informationen zum Handel finden Sie unter [Agentic Wallets and Spending Governance](/de/docs/agentic-wallets-spend-governance/) und [Agentic Authentication for Commerce](/de/docs/agentic-authentication-commerce/).
 
 ## Auswirkungen auf die Messung
 

@@ -22,7 +22,7 @@ A [especificação de amostragem de protocolo de contexto de modelo] oficial (ht
 
 Isso parece abstrato, então aqui está a versão simples: um servidor de ferramentas pode pedir ao cliente de IA do usuário para pensar, resumir, classificar ou gerar texto como parte de um fluxo de ferramenta.
 
-Para um contexto mais amplo, consulte [APIs MCP vs Agente](/es/docs/mcp-vs-api-for-agents/), [Autorização MCP com OAuth](/es/docs/mcp-authorization-oauth-ai-agents/) e [Aplicativos MCP](/es/docs/mcp-apps-guide/).
+Para um contexto mais amplo, consulte [APIs MCP vs Agente](/pt/docs/mcp-vs-api-for-agents/), [Autorização MCP com OAuth](/pt/docs/mcp-authorization-oauth-ai-agents/) e [Aplicativos MCP](/pt/docs/mcp-apps-guide/).
 
 ## Por que existe amostragem
 
@@ -76,7 +76,7 @@ Essa é uma exigência séria. Caso contrário, a amostragem pode se tornar uma 
 | Saída incorreta | A resposta gerada pode ser imprecisa | Revisão antes da entrega final |
 | Excesso de servidor | Servidor pode solicitar trabalho de modelo desnecessário | Exigir suporte de capacidade explícito |
 
-O guia [Agent Observability Guardrails](/es/docs/agent-observability-guardrails/) estende essa camada de governança.
+O guia [Agent Observability Guardrails](/pt/docs/agent-observability-guardrails/) estende essa camada de governança.
 
 ## Implicações do AEO
 
@@ -91,7 +91,7 @@ Para proprietários de sites, isso significa:
 - documentar páginas de origem da verdade
 - fornecer identificadores estáveis para entidades e ações
 
-O [Guia do desenvolvedor AEO](/es/docs/developers-guide-aeo/) é o próximo passo natural.
+O [Guia do desenvolvedor AEO](/pt/docs/developers-guide-aeo/) é o próximo passo natural.
 
 ## Perguntas frequentes
 

@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 44
 category: "Industry"
 description: "Sportorganisationen nutzen Agenten-KI für dynamische Preisgestaltung, Fan-Engagement, Scouting und Betrieb. Wie die Plattformen."
-metaDescription: "Vea cómo las plataformas deportivas utilizan agentes de IA para fijar precios, involucrar a los fanáticos, explorar, operaciones de contenido, patrocinio."
 summary: "Agenten-KI im Sport geht über Analyse-Dashboards hinaus. Vertikale Plattformen integrieren autonome Agenten in Preis-, Marketing-, Explorations- und Betriebsabläufe für die Entscheidungsfindung in Echtzeit."
 keywords:
   - "KI-Sportagenten"
@@ -35,7 +34,7 @@ Ein Fan-Engagement-Agent greift in Echtzeit auf Kaufhistorie, Besuchermuster, In
 
 Dauerkarteninhaber, die jedes Spiel besuchen, erhalten andere Nachrichten als Gelegenheitsfans, die zweimal im Jahr kommen. Der Agent führt diese Segmentierung automatisch, maßstabsgetreu und in Echtzeit durch.
 
-Die Verbindung mit AEO ist direkt. Auf Fans zugeschnittene Inhalte sollten sowohl für den menschlichen Konsum als auch für die maschinelle Extraktion strukturiert sein. Produktseiten für Tickets, Waren und Erlebnisse benötigen dieselbe [Ausführungsschicht](/es/docs/execution-layer/) wie jeder E-Commerce-Vorgang.
+Die Verbindung mit AEO ist direkt. Auf Fans zugeschnittene Inhalte sollten sowohl für den menschlichen Konsum als auch für die maschinelle Extraktion strukturiert sein. Produktseiten für Tickets, Waren und Erlebnisse benötigen dieselbe [Ausführungsschicht](/de/docs/execution-layer/) wie jeder E-Commerce-Vorgang.
 
 ## Leistungsuntersuchung und -optimierung
 
@@ -59,7 +58,7 @@ Der Sport vereint mehrere Merkmale, die vertikale Agentenplattformen begünstige
 
 Organisationen, die Agentenplattformen frühzeitig einführen, profitieren von kumulativen Vorteilen. Bessere Preisdaten verbessern zukünftige Preisentscheidungen. Bessere Daten zum Fan-Engagement verbessern die zukünftige Personalisierung. Datenschleifen werden verstärkt.
 
-Der [Artikel über vertikale Agentenplattformen](/es/docs/vertical-agent-platforms/) vergleicht Sport mit anderen Branchen, die dieses Modell übernehmen.
+Der [Artikel über vertikale Agentenplattformen](/de/docs/vertical-agent-platforms/) vergleicht Sport mit anderen Branchen, die dieses Modell übernehmen.
 
 ---
 
@@ -79,7 +78,7 @@ Die meisten Organisationen berichten von messbaren Umsatzverbesserungen in einer
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

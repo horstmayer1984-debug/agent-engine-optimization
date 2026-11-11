@@ -20,7 +20,7 @@ Deutsche Unternehmen brauchen AEO, weil KI-Agenten zunehmend Lieferanten entdeck
 
 Deutsche Käufer erwarten typischerweise detaillierte Spezifikationen, formelle Beschaffungsschritte, Klarheit zum Datenschutz und zuverlässige Dokumentation. KI-Agenten verstärken diese Erwartungen. Wenn es auf der Seite eines Lieferanten an strukturierten Produktdaten, Servicebereichsregeln, Preiskontext, Dokumentation oder einem klaren Kontaktpfad mangelt, kann ein Agent sie überspringen und sich für einen Mitbewerber mit saubereren Daten entscheiden.
 
-Die [Protokollübersicht](/es/docs/protocols/) erläutert den Infrastrukturaspekt. Für deutsche Unternehmen sind Protokolle erst dann von Bedeutung, wenn die Grundlagen stimmen: auffindbare Seiten, konsistente Entitätsdaten, maschinenlesbare Servicebeschreibungen und klare Grenzen für die Möglichkeiten der Agenten.
+Die [Protokollübersicht](/de/docs/protocols/) erläutert den Infrastrukturaspekt. Für deutsche Unternehmen sind Protokolle erst dann von Bedeutung, wenn die Grundlagen stimmen: auffindbare Seiten, konsistente Entitätsdaten, maschinenlesbare Servicebeschreibungen und klare Grenzen für die Möglichkeiten der Agenten.
 
 ## Länderspezifische AEO-Prioritäten
 
@@ -35,7 +35,7 @@ Die [Protokollübersicht](/es/docs/protocols/) erläutert den Infrastrukturaspek
 | B2B-Akquise | Viele Verkaufsreisen in Deutschland erfordern viele Vorgaben | Strukturdatenblätter, Zertifizierungen und Erwerbsschritte |
 | API-Disziplin | Agenten bevorzugen deterministische Antworten | Versionen, Statuscodes und Dokumentation hinzufügen |
 
-Der [Bereitstellungsleitfaden](/es/docs/implement-aeo/) ist der beste Ausgangspunkt, um diese Prioritäten in Site-Änderungen umzusetzen.
+Der [Bereitstellungsleitfaden](/de/docs/implement-aeo/) ist der beste Ausgangspunkt, um diese Prioritäten in Site-Änderungen umzusetzen.
 
 ##Layer-Checkliste lesen
 
@@ -49,7 +49,7 @@ Jedes deutsche Unternehmen, das sich auf Agent Discovery konzentriert, sollte di
 - Kontaktseiten: Vertrieb, Support, Akquise und Presseweiterleitung.
 - „llms.txt“: kompakter, maschinenlesbarer Site-Index
 
-Verwenden Sie interne Links von Unternehmensseiten zu verweisenden Seiten. Beispielsweise sollte eine Produktseite einen Link zu Dokumentation, Datenschutzinformationen, Implementierungsdetails und Supportoptionen enthalten. Das [AEO Readiness Audit](/es/docs/audit/) kann Lücken in dieser Ebene identifizieren.
+Verwenden Sie interne Links von Unternehmensseiten zu verweisenden Seiten. Beispielsweise sollte eine Produktseite einen Link zu Dokumentation, Datenschutzinformationen, Implementierungsdetails und Supportoptionen enthalten. Das [AEO Readiness Audit](/de/docs/audit/) kann Lücken in dieser Ebene identifizieren.
 
 ##Checkliste für die Ausführungsebene
 
@@ -64,7 +64,7 @@ Deutsche Unternehmen sollten es vermeiden, die Handlungen unbeschränkter Agente
 | Vertrags- oder Bestellhandlung | Nicht erste Phase | Authentifizierung, Autorisierung, Audit-Protokolle |
 | Support-Workflow | Authentifizierte Portalaktion | Identitätsprüfung und Eskalation |
 
-Bei der Ausführungsebene AEO geht es nicht nur darum, „eine KI auf die Website klicken zu lassen“. Es bedeutet, eine explizite Maschinenschnittstelle für erlaubte Aktionen zu entwerfen. Die [Ausführungsebenenseite](/es/docs/execution-layer/) stellt die Architektur bereit.
+Bei der Ausführungsebene AEO geht es nicht nur darum, „eine KI auf die Website klicken zu lassen“. Es bedeutet, eine explizite Maschinenschnittstelle für erlaubte Aktionen zu entwerfen. Die [Ausführungsebenenseite](/de/docs/execution-layer/) stellt die Architektur bereit.
 
 ## EU-KI- und Sicherheitskontext
 

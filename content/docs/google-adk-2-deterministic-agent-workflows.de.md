@@ -37,7 +37,7 @@ Viele Webaufgaben sollten nicht improvisiert werden. Eine Rückerstattung, eine 
 | Deterministischer Workflow | Bekannte mehrstufige Prozesse | Erfordert anfängliche Modellierung |
 | Menschlicher Arbeitsablauf im Kreislauf | Riskante oder irreversible Handlungen | Langsamer, aber sicherer |
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) sollte deterministische Pfade für wichtige Geschäftsaktionen bevorzugen.
+Die [Ausführungsschicht](/de/docs/execution-layer/) sollte deterministische Pfade für wichtige Geschäftsaktionen bevorzugen.
 
 ## AEO-Auswirkungen für Websites
 
@@ -54,7 +54,7 @@ Das bedeutet Folgendes zu definieren:
 - Letzte Bestätigungsnachrichten
 - Audit-Protokolle
 
-Dies verbindet sich mit [Agent UX und Human-in-the-Loop Design] (/es/docs/agent-ux-human-in-the-loop/), [Multi-Agent AEO] (/es/docs/multi-agent-aeo/) und [Agent-Ready Web Apps] (/es/docs/agent-ready-web-apps/).
+Dies verbindet sich mit [Agent UX und Human-in-the-Loop Design](/de/docs/agent-ux-human-in-the-loop/), [Multi-Agent AEO](/de/docs/multi-agent-aeo/) und [Agent-Ready Web Apps](/de/docs/agent-ready-web-apps/).
 
 ## Beispiel: Terminbuchung
 

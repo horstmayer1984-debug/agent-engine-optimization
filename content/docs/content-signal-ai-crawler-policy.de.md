@@ -48,7 +48,7 @@ Bei AEO geht es nicht nur darum, ob ein KI-System eine Seite crawlen kann. Es ge
 - Nutzung der Seite im zulässigen Rahmen
 - Gegebenenfalls sichere Maßnahmen durchführen
 
-Content-Signal befindet sich zwischen [AI Crawlers und robots.txt](/es/docs/ai-crawlers-robots-txt/) und [Execution Layer](/es/docs/execution-layer/). Es ist kein Ersatz für APIs, Authentifizierung, Preisgestaltung oder Einwilligung. Es verleiht den Maschinen eine hellere Beschichtung nach Wunsch.
+Content-Signal befindet sich zwischen [AI Crawlers und robots.txt](/de/docs/ai-crawlers-robots-txt/) und [Execution Layer](/de/docs/execution-layer/). Es ist kein Ersatz für APIs, Authentifizierung, Preisgestaltung oder Einwilligung. Es verleiht den Maschinen eine hellere Beschichtung nach Wunsch.
 
 ## Content Signal vs. robots.txt vs. llms.txt
 
@@ -81,7 +81,7 @@ Verwenden Sie [AEO Readiness Checker](/tools/aeo-readiness-checker.html), nachde
 
 Content-Signal ist ein Präferenzsignal, kein allgemein durchsetzbarer Mechanismus. Ein Roboter kann es ignorieren. Möglicherweise ist weiterhin Infrastruktur wie Cloudflare-Regeln, Authentifizierung, signierte Anfragen, Ratenlimits oder Zahlungsprotokolle erforderlich.
 
-Informationen zum kommerziellen Zugang finden Sie unter [Vergleich der Agent Payment Protocols](/es/docs/agent-payment-protocols-compared/) und [x402 Agent Payments](/es/docs/x402-agent-payments/).
+Informationen zum kommerziellen Zugang finden Sie unter [Vergleich der Agent Payment Protocols](/de/docs/agent-payment-protocols-compared/) und [x402 Agent Payments](/de/docs/x402-agent-payments/).
 
 ## Checkliste für die Bereitstellung
 

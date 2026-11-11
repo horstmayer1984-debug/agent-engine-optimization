@@ -42,7 +42,7 @@ Dadurch ändert sich das Optimierungsziel:
 | Statische Seitenmetadaten | Strukturierte Produktdaten |
 | Kategorie Absicht | Konversationskaufabsicht |
 
-Der [AEO-E-Commerce-Leitfaden](/es/docs/aeo-ecommerce/) erklärt den umfassenderen Wandel vom Seitenranking zum Agentenkauf.
+Der [AEO-E-Commerce-Leitfaden](/de/docs/aeo-ecommerce/) erklärt den umfassenderen Wandel vom Seitenranking zum Agentenkauf.
 
 ##Grundlegende Checkliste
 
@@ -72,7 +72,7 @@ User-agent: OAI-SearchBot
 Allow: /
 ```
 
-Stellen Sie dann sicher, dass wichtige Produktseiten den Status 200 an den Crawler zurückgeben und nicht durch den Bot-Schutz blockiert werden. Der [Cloudflare AI Crawl Control Guide](/es/docs/cloudflare-ai-crawl-control/) erläutert die Zugriffsentschädigung.
+Stellen Sie dann sicher, dass wichtige Produktseiten den Status 200 an den Crawler zurückgeben und nicht durch den Bot-Schutz blockiert werden. Der [Cloudflare AI Crawl Control Guide](/de/docs/cloudflare-ai-crawl-control/) erläutert die Zugriffsentschädigung.
 
 ## Produktdaten, die von KI-Systemen benötigt werden
 
@@ -105,7 +105,7 @@ Wenn diese Daten fehlen oder in Bildern verborgen sind, wird ein Produkt möglic
 - strukturierte FAQ
 - Produktübersicht
 
-Der [Agent-Commerce-Leitfaden](/es/docs/agentic-commerce/) behandelt, was nach der Entdeckung passiert, einschließlich Zahlungs- und Nachkaufabläufen.
+Der [Agent-Commerce-Leitfaden](/de/docs/agentic-commerce/) behandelt, was nach der Entdeckung passiert, einschließlich Zahlungs- und Nachkaufabläufen.
 
 ## Händler-Feeds und strukturierte Daten
 

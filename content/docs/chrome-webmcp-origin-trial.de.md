@@ -23,7 +23,7 @@ Die Chrome [WebMCP-Dokumentation] (https://developer.chrome.com/docs/ai/webmcp) 
 
 Das [I/O 2026-Entwicklerupdate] (https://developer.chrome.com/blog/chrome-at-io26) von Chrome beschreibt WebMCP als eine Möglichkeit, Websites in Agent-Toolkits umzuwandeln. Die WebMCP-Seite verweist auch auf lokale Entwicklungsflags und einen Quelltestpfad.
 
-Eine umfassendere Übersicht finden Sie im vorhandenen Leitfaden [WebMCP for Agent-Ready Websites] (/es/docs/webmcp-agent-ready-websites/). Diese Seite konzentriert sich auf die Vorbereitungsarbeit, bevor Teams an einem Quelltest oder Prototyp-Tools teilnehmen.
+Eine umfassendere Übersicht finden Sie im vorhandenen Leitfaden [WebMCP for Agent-Ready Websites](/de/docs/webmcp-agent-ready-websites/). Diese Seite konzentriert sich auf die Vorbereitungsarbeit, bevor Teams an einem Quelltest oder Prototyp-Tools teilnehmen.
 
 ## Die Vorbereitungscheckliste
 
@@ -61,7 +61,7 @@ Vermeiden Sie zunächst risikoreiche Handlungen wie Käufe, Kontolöschungen, Ve
 4. Fügen Sie stabile IDs oder Namen zu Formularsteuerelementen hinzu.
 5. Dokumentieren Sie die Ergebnisse einer erfolgreichen Aktion.
 6. Dokumentieren Sie, was ein Fehler bedeutet und wie Sie ihn beheben können.
-7. Trennen Sie schreibgeschützte Tools von Schreibaktionen. Dieselben Korrekturen verbessern [Agent UX und AEO SEO](/es/docs/agent-ux-aeo-seo/) und [Lighthouse Agentic Browsing Audit](/es/docs/lighthouse-agentic-browsing-audit/).
+7. Trennen Sie schreibgeschützte Tools von Schreibaktionen. Dieselben Korrekturen verbessern [Agent UX und AEO SEO](/de/docs/agent-ux-aeo-seo/) und [Lighthouse Agentic Browsing Audit](/de/docs/lighthouse-agentic-browsing-audit/).
 
 ## WebMCP vs. einfache Browser-Automatisierung| Dimension | Einfache Leistung | Tools im WebMCP-Stil |
 |

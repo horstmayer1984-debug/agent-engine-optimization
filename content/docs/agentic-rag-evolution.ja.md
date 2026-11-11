@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 85
 category: "Architecture"
 description: "最新の RAG エージェントはモジュール式、マルチホップ、自己修正機能を備えています。基本的なリカバリからハイブリッドおよび RAG ベースまで 8 つのアーキテクチャ パターン。"
-metaDescription: "Compare ocho patrones RAG agentes, desde recuperación básica hasta sistemas híbridos, basados ​​en gráficos, con uso de herramientas y con reconocimiento."
 summary: "2026 年の RAG は、単純なベクトル検索をはるかに超えて進化しました。 Agentic RAG、Graph RAG、およびハイブリッド アプローチは、抽出精度を大幅に向上させる自己修正マルチホップ取得をエージェントに提供します。"
 keywords:
   - "RAG エージェント 2026"
@@ -62,7 +61,7 @@ Agentic RAG (2026): エージェントは回復プロセスを制御します。
 
 複数のコンテンツ形式を提供します。比較クエリのテーブル。直接応答のクエリ用の FAQ ブロック。コンテキスト豊富なクエリの散文。異なる RAG アプローチは、異なる形式で最適に機能します。
 
-[フィーチャ マッピング ガイド](/es/docs/entity-mapping-semantic-aeo/) では、フィーチャ レイヤーの構築方法について説明します。 [AEO コンテンツ戦略の記事](/es/docs/aeo-content-strategy/) では、ページレベルの構造について説明しています。
+[フィーチャ マッピング ガイド](/ja/docs/entity-mapping-semantic-aeo/) では、フィーチャ レイヤーの構築方法について説明します。 [AEO コンテンツ戦略の記事](/ja/docs/aeo-content-strategy/) では、ページレベルの構造について説明しています。
 
 ## 比較: 基本的な RAG とエージェント
 
@@ -103,7 +102,7 @@ RAG が向上すると、エージェントは適切に構造化されたコン�
 
 ## 関連ガイド
 
-* [エージェント エンジン最適化ガイド](/es/docs/what-is-aeo/)
+* [エージェント エンジン最適化ガイド](/ja/docs/what-is-aeo/)
 
 ## 主な参考文献
 

@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 41
 category: "Industry"
 description: "Plataformas verticais de agentes codificam regras do setor, conformidade e dados proprietários em automação de borda."
-metaDescription: "Compare plataformas de agentes verticales en cinco industrias, incluida la regulación, las necesidades de datos, los modelos de ingresos, los flujos."
 summary: "As ferramentas horizontais de IA lidam com tarefas genéricas. As plataformas verticais de agentes automatizam fluxos de trabalho inteiros do setor, codificando regras de domínio, conformidade e loops de dados proprietários. Cinco indústrias estão liderando o caminho."
 keywords:
   - "plataformas verticais de agentes 2026"
@@ -79,7 +78,7 @@ Plataformas como o Jump integram agentes diretamente nos fluxos de trabalho de e
 
 Expanda para fluxos de trabalho adjacentes somente depois que o primeiro for executado de forma confiável. A expansão prematura em vários fluxos de trabalho antes que qualquer um deles se estabilize é o padrão de falha mais comum.
 
-O [guia de implementação AEO](/es/docs/implement-aeo/) cobre os fundamentos técnicos. O [artigo AEO multiagente] (/docs/multi-agent-aeo/) explica os padrões de orquestração em detalhes.
+O [guia de implementação AEO](/pt/docs/implement-aeo/) cobre os fundamentos técnicos. O [artigo AEO multiagente] (/docs/multi-agent-aeo/) explica os padrões de orquestração em detalhes.
 
 ---
 

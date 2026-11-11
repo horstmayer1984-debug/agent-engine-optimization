@@ -23,7 +23,7 @@ Chrome [WebMCP ドキュメント] (https://developer.chrome.com/docs/ai/webmcp)
 
 Chrome の [I/O 2026 開発者アップデート] (https://developer.chrome.com/blog/chrome-at-io26) では、Web サイトをエージェント ツールキットに変換する方法として WebMCP について説明しています。 WebMCP ページでは、ローカル開発フラグとソース テスト パスも参照します。
 
-より広範な概要については、既存のガイド [WebMCP for Agent-Ready Websites](/es/docs/webmcp-agent-ready-websites/) を参照してください。このページでは、チームがソース テストまたはプロトタイプ ツールに参加する前の準備作業に焦点を当てます。
+より広範な概要については、既存のガイド [WebMCP for Agent-Ready Websites](/ja/docs/webmcp-agent-ready-websites/) を参照してください。このページでは、チームがソース テストまたはプロトタイプ ツールに参加する前の準備作業に焦点を当てます。
 
 ## 準備チェックリスト
 
@@ -61,7 +61,7 @@ Chrome の [I/O 2026 開発者アップデート] (https://developer.chrome.com/
 4. 安定した ID または名前をフォーム コントロールに追加します。
 5. 成功したアクションの結果を文書化します。
 6. エラーの意味とエラーからの回復方法を文書化します。
-7. 読み取り専用ツールを書き込みアクションから分離します。これらの同じ修正により、[エージェント UX と AEO SEO](/es/docs/agent-ux-aeo-seo/) および [Lighthouse Agentic Browsing Audit](/es/docs/lighthouse-agentic-browsing-audit/) が改善されます。
+7. 読み取り専用ツールを書き込みアクションから分離します。これらの同じ修正により、[エージェント UX と AEO SEO](/ja/docs/agent-ux-aeo-seo/) および [Lighthouse Agentic Browsing Audit](/ja/docs/lighthouse-agentic-browsing-audit/) が改善されます。
 
 ## WebMCP と単純なブラウザ自動化|寸法 |シンプルなパフォーマンス | WebMCP スタイル ツール |
 |

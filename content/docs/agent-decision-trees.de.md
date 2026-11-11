@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 92
 category: "Architecture"
 description: "KI-Agenten führen strenge Pass/Fail-Entscheidungsbäume durch, bevor sie Transaktionen durchführen. Welche deterministischen Fragen stellen sie, welche Ursache."
-metaDescription: "Descubra qué comprobaciones de aprobación/rechazo utilizan los agentes de IA antes de actuar, qué causa la exclusión y cómo hacer que su sitio web sea más."
 summary: "Agenten navigieren oder entscheiden nicht intuitiv. Sie führen deterministische Entscheidungsbäume mit strengen Pass/Fail-Kriterien aus. Eine Prüfung schlägt fehl und der Agent wechselt zu einem Konkurrenten."
 keywords:
   - "Agentenentscheidungsbäume"
@@ -89,7 +88,7 @@ Ein Agent duldet nichts davon. Jede Unklarheit ist eine Bedingung des Scheiterns
 
 Aus diesem Grund können Websites, die für Menschen elegant aussehen, bei Agenten null Punkte erzielen. Visuelles Design, Markenruf und überzeugende Texte haben in einem deterministischen Entscheidungsbaum keine Bedeutung.
 
-Der [Leitfaden zur Ausführungsebene](/es/docs/execution-layer/) erläutert die Infrastrukturanforderungen. Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt den schrittweisen Optimierungspfad.
+Der [Leitfaden zur Ausführungsebene](/de/docs/execution-layer/) erläutert die Infrastrukturanforderungen. Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt den schrittweisen Optimierungspfad.
 
 ---
 
@@ -110,7 +109,7 @@ Denn Agenten versuchen es erneut, wenn sie scheitern. Eine Zeitüberschreitung b
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

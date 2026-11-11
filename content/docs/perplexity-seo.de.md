@@ -11,7 +11,7 @@ keywords:
   - "KI-Dating-Inhalte"
   - "Ratlosigkeitsoptimierung"
 ---
-Unter Perplexity SEO versteht man die Erstellung klarer, quellenwürdiger Inhalte, die KI-generierte Antworten mit Zitaten unterstützen können. Es gehört zum breiteren Bereich der [Generative Engine-Optimierung] (/es/docs/generative-engine-optimization/), mit einem besonderen Schwerpunkt: nützlich genug sein, um als Referenz verwendet zu werden.
+Unter Perplexity SEO versteht man die Erstellung klarer, quellenwürdiger Inhalte, die KI-generierte Antworten mit Zitaten unterstützen können. Es gehört zum breiteren Bereich der [Generative Engine-Optimierung](/de/docs/generative-engine-optimization/), mit einem besonderen Schwerpunkt: nützlich genug sein, um als Referenz verwendet zu werden.
 
 Zitierorientierte KI-Suche belohnt Seiten, die direkt, vertrauenswürdig und leicht zu überprüfen sind. Vage Inhalte sind schwach. Der Oberflächengehalt ist schwach. Eine Seite muss dem System etwas Erwähnenswertes bieten.
 
@@ -47,7 +47,7 @@ Der abschließende Test ist einfach: Ein Leser, der nur dem zitierten Link folgt
 
 Bewahren Sie korrigierte Beispiele im Überprüfungsprotokoll auf, damit spätere Audits erneut auf denselben Fehler prüfen können.
 
-Verwandte Lektüre: [KI-Dating-Strategie](/es/docs/ai-citation-strategy/).
+Verwandte Lektüre: [KI-Dating-Strategie](/de/docs/ai-citation-strategy/).
 
 ## Häufig gestellte Fragen
 
@@ -57,7 +57,7 @@ Zitate schaffen Sichtbarkeit. Eine agentenbereite Infrastruktur schafft Handlung
 
 ## Verwandte Anleitungen
 
-* [Anleitung zur Agent Engine-Optimierung](/es/docs/what-is-aeo/)
+* [Anleitung zur Agent Engine-Optimierung](/de/docs/what-is-aeo/)
 
 ## Primäre Referenzen
 

@@ -46,7 +46,7 @@ NLWeb は、AI 支援エージェントとユーザーのための自然言語�
 | NLWeb エンドポイント |タスクについて質問する人間または AI エージェント |サイト データによってサポートされる自然言語インターフェイス |
 | MCPツール |構造化されたアクションが必要なエージェント |ツール スキームとエンドポイント |
 
-関連するアーキテクチャについては、[MCP リソース、ツール、メッセージ](/es/docs/mcp-resources-tools-prompts/) および [エージェント用の MCP と API](/es/docs/mcp-vs-api-for-agents/) を参照してください。
+関連するアーキテクチャについては、[MCP リソース、ツール、メッセージ](/ja/docs/mcp-resources-tools-prompts/) および [エージェント用の MCP と API](/ja/docs/mcp-vs-api-for-agents/) を参照してください。
 
 ## どのサイトが最初に NLWeb を参照する必要がありますか?
 
@@ -74,7 +74,7 @@ NLWeb をまだ実装していない場合でも、データ層を準備しま�
 5. 文書の更新頻度と可用性のルール。
 6. どのデータ ブローカーがクエリできるか、どのデータに認証が必要かを決定します。7.潜在的な質問をソース データ フィールドにマッピングします。
 
-これは、[AI エージェント Web サイト プログラミング](/es/docs/programming-websites-for-ai-agents/) および [エージェント対応 Web アプリケーション](/es/docs/agent-ready-web-apps/) と重複します。
+これは、[AI エージェント Web サイト プログラミング](/ja/docs/programming-websites-for-ai-agents/) および [エージェント対応 Web アプリケーション](/ja/docs/agent-ready-web-apps/) と重複します。
 
 ## NLWeb とスクレイピング|質問 |削られた | NLWeb スタイルのエンドポイント |
 |

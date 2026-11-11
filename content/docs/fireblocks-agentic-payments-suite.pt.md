@@ -23,7 +23,7 @@ Em 20 de maio de 2026, a Fireblocks anunciou via [PR Newswire](https://www.prnew
 
 A Fireblocks também afirma que o pacote oferece suporte a padrões emergentes de pagamento de agentes, incluindo x402 e MPP, dentro de controles definidos e trilhas de auditoria.
 
-Para contextualizar, consulte os guias existentes para [protocolos de pagamento de agente](/es/docs/agent-payment-protocols-compared/), [pagamentos de agente x402](/es/docs/x402-agent-payments/) e [Pilha de agente circular](/es/docs/circle-agent-stack-agent-payments/).
+Para contextualizar, consulte os guias existentes para [protocolos de pagamento de agente](/pt/docs/agent-payment-protocols-compared/), [pagamentos de agente x402](/pt/docs/x402-agent-payments/) e [Pilha de agente circular](/pt/docs/circle-agent-stack-agent-payments/).
 
 ##Por que isso é diferente de uma carteira normal?
 
@@ -67,7 +67,7 @@ O Agent Engine Optimization possui uma camada de execução. Se um site quiser s
 - Quais limites de gastos se aplicam? - Como o resultado é confirmado?
 - O que acontece se o pagamento falhar?
 
-Isso significa que a prontidão para pagamento precisa estar próxima dos dados do produto, do design da API e da documentação de pagamento legível por máquina. O [guia de negociação do agente](/es/docs/agentic-commerce/) explica a jornada mais ampla do comprador.
+Isso significa que a prontidão para pagamento precisa estar próxima dos dados do produto, do design da API e da documentação de pagamento legível por máquina. O [guia de negociação do agente](/pt/docs/agentic-commerce/) explica a jornada mais ampla do comprador.
 
 ## Casos de uso que podem ser beneficiados| Caso de uso | Por que os pagamentos dos agentes são importantes |
 |
@@ -97,7 +97,7 @@ Os pagamentos dos agentes precisam de mais do que um bom diagrama de protocolo.
 | Fragmentação do protocolo | As abordagens x402, MPP e placa de rede podem ser diferentes | Planejamento multiprotocolo |
 | Lacunas de conformidade | Os fluxos de stablecoin podem ser regulados | Registros, KYC/KYT, relatórios |
 
-A comparação [x402 vs ACP vs MPP](/es/docs/x402-vs-acp-vs-mpp/) é útil para equipes que avaliam o ajuste do protocolo.
+A comparação [x402 vs ACP vs MPP](/pt/docs/x402-vs-acp-vs-mpp/) é útil para equipes que avaliam o ajuste do protocolo.
 
 ## Lista de verificação de preparação
 

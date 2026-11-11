@@ -50,7 +50,7 @@ Für Händler ist das Signal klar: Agentenidentität und delegierte Authentifizi
 | FIDO | Normungsgremium für Authentifizierungs- und Agenteninteraktionsarbeit |
 | Handelssysteme | Richtlinien-, Zahlungs-, Compliance- und Supportentscheidungen durchsetzen |
 
-Dies verbindet sich mit [AP2 vs. x402](/es/docs/ap2-vs-x402/) und [Visa TAP vs. Mastercard Agent Pay](/es/docs/visa-tap-mastercard-agent-pay/).
+Dies verbindet sich mit [AP2 vs. x402](/de/docs/ap2-vs-x402/) und [Visa TAP vs. Mastercard Agent Pay](/de/docs/visa-tap-mastercard-agent-pay/).
 
 ## Auswirkungen auf die Händlerimplementierung
 
@@ -78,7 +78,7 @@ Dies ist nicht nur eine kostenpflichtige Funktion. Es betrifft Support, Betrug, 
 | Können wir Prüfungsnachweise speichern? | Streitigkeiten brauchen Fakten |
 | Können Benutzer die Agentenberechtigung widerrufen? | Die Kontrolle muss beim Benutzer verbleiben |
 
-Die Seite [Beweise von Agentengeschäftsstreitigkeiten](/es/docs/agentic-commerce-dispute-evidence/) befasst sich mit der Prüfungsebene.
+Die Seite [Beweise von Agentengeschäftsstreitigkeiten](/de/docs/agentic-commerce-dispute-evidence/) befasst sich mit der Prüfungsebene.
 
 ## Häufig gestellte Fragen
 

@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 43
 category: "Architecture"
 description: "Ordnen Sie den nativen Marketing-Stack des Agenten zu, einschließlich Orchestrierung, Speicher, Tool-Integrationen, Attribution und Systeme."
-metaDescription: "Vea la pila de marketing nativo de agentes, desde modelos y orquestación hasta memoria, herramientas, patrones de implementación, medición y gobernanza."
 summary: "Native Agent-Marketing ersetzt manuelle Kampagnen durch autonome Multi-Agent-Teams. Dieser Leitfaden behandelt den genauen Technologie-Stack: Modelle, Orchestrierung, Speicher, Tools und Implementierung."
 keywords:
   - "Native Marketingplattform für Agenten"
@@ -87,7 +86,7 @@ Für Teams, die weniger als 500 Euro pro Monat für Infrastruktur ausgeben:
 
 FastAPI als Anwendungsframework. LangGraph für die Orchestrierung. Von Groq gehostete Anrufe für Hochleistungsaufgaben. Supabase für strukturierte Datenspeicherung. Selbstgehostetes N8n für visuelles Workflow-Management und einfache Automatisierungen. Dieser Stack verarbeitet kleine und mittlere Kampagnenvolumina. Skalieren Sie auf die gesamte Suite, wenn die Komplexität und das Budget der Kampagne die Investition rechtfertigen.
 
-Der [Artikel zur AEO-Inhaltsstrategie](/es/docs/aeo-content-strategy/) erläutert, wie die von diesen Agenten produzierten Inhalte sowohl für menschliche Leser als auch für die KI-Extraktion strukturiert sein sollten.
+Der [Artikel zur AEO-Inhaltsstrategie](/de/docs/aeo-content-strategy/) erläutert, wie die von diesen Agenten produzierten Inhalte sowohl für menschliche Leser als auch für die KI-Extraktion strukturiert sein sollten.
 
 ---
 
@@ -108,8 +107,8 @@ Inhaltsrichtlinien, Markenrichtlinien, Budgetgrenzen und Compliance-Regeln werde
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
-* [Ausführungsschicht](/es/docs/execution-layer/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
+* [Ausführungsschicht](/de/docs/execution-layer/)
 
 ## Primäre Referenzen
 

@@ -4,7 +4,6 @@ date: 2026-03-19
 weight: 20
 category: "Guide"
 description: "Casos de uso práticos de AEO para comércio eletrônico: como agentes autônomos de IA descobrem produtos, comparam ofertas e negociam preços."
-metaDescription: "Vea cómo el comercio electrónico AEO ayuda a los agentes a descubrir productos, comparar ofertas, evaluar la confianza, negociar precios y completar compras."
 summary: "O comércio eletrónico é onde o AEO se torna concreto. Esses casos de uso mostram como os agentes de IA interagem com lojas online quando dados de produtos, caminhos de compra e políticas são otimizados para execução automática."
 keywords:
   - "Casos de uso de comércio eletrônico AEO"
@@ -27,7 +26,7 @@ Isso funciona quando as lojas expõem os dados do produto em um formato limpo e 
 
 Lojas que oferecem um feed de produtos estruturado ou mantêm uma marcação de esquema limpa (Produto, Oferta, AggregateRating) tornam-se candidatas padrão. Lojas que ocultam especificações em textos de marketing são omitidas.
 
-O [Guia de Implementação AEO](/es/docs/implement-aeo/) cobre as etapas técnicas para tornar confiável a extração de dados do produto.
+O [Guia de Implementação AEO](/pt/docs/implement-aeo/) cobre as etapas técnicas para tornar confiável a extração de dados do produto.
 
 ## Comparação de preços e ofertas entre fornecedores
 
@@ -53,7 +52,7 @@ Após uma compra, os agentes muitas vezes precisam verificar o resultado: o pedi
 
 Lojas que expõem o status do pedido, informações de rastreamento e elegibilidade de devolução de forma estruturada dão suporte a todo o fluxo de trabalho do agente. Isso fecha o círculo e gera a confiança que leva à repetição da seleção.
 
-O artigo [Estratégias de comércio eletrônico AEO] (/es/docs/aeo-ecommerce/) cobre dez abordagens de otimização em detalhes.
+O artigo [Estratégias de comércio eletrônico AEO](/pt/docs/aeo-ecommerce/) cobre dez abordagens de otimização em detalhes.
 
 ##Recomendação baseada em políticas
 
@@ -80,7 +79,7 @@ O CRO tradicional otimiza o comportamento humano (cliques, persuasão visual). A
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

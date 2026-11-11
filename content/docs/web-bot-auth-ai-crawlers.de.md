@@ -22,7 +22,7 @@ Cloudflares Web Bot Authentication Documentation (https://developers.cloudflare.
 
 Laienhaft ausgedrückt: Ein Tracker veröffentlicht einen öffentlichen Schlüssel, signiert Anfragen mit seinem privaten Schlüssel und die empfangende Infrastruktur kann überprüfen, ob die Anfrage wirklich von diesem Tracker kommt.
 
-Dies ist ein anderes Problem als [robots.txt für KI-Crawler](/es/docs/ai-crawlers-robots-txt/). Robots.txt sagt, was ein Crawler tun soll. Web Bot Auth hilft beim Nachweis, wer der Tracker ist.
+Dies ist ein anderes Problem als [robots.txt für KI-Crawler](/de/docs/ai-crawlers-robots-txt/). Robots.txt sagt, was ein Crawler tun soll. Web Bot Auth hilft beim Nachweis, wer der Tracker ist.
 
 ## Warum die Tracker-Identität jetzt wichtig ist
 
@@ -75,7 +75,7 @@ Für eine AEO-fähige Website kann dies Folgendes beeinflussen:- ob KI-Crawler a
 – wenn API-Dokumente sichtbar sind, Ausführungsendpunkte jedoch eine Authentifizierung erfordern
 - ob signierte Agenten anders behandelt werden als anonyme Bots
 
-Dies stellt eine direkte Verbindung zur [Ausführungsebene](/es/docs/execution-layer/) und zu den [Beobachtbarkeitsleitplanken für Agenten](/es/docs/agent-observability-guardrails/) her.
+Dies stellt eine direkte Verbindung zur [Ausführungsebene](/de/docs/execution-layer/) und zu den [Beobachtbarkeitsleitplanken für Agenten](/de/docs/agent-observability-guardrails/) her.
 
 ## Empfohlenes Zugangslayout
 
@@ -96,7 +96,7 @@ Ziel ist es, das öffentliche Web für Agenten nutzbar zu machen, ohne private S
 
 1. Inventarisieren Sie Bots, die derzeit auf der Website eintreffen.
 2. Separate Suche, künstliche Intelligenz, Schulung, Überwachung und Scraping-Verkehr.
-3. Halten Sie [llms.txt](/es/docs/llms-txt-vs-robots-txt/) und öffentliche Dokumente zugänglich.
+3. Halten Sie [llms.txt](/de/docs/llms-txt-vs-robots-txt/) und öffentliche Dokumente zugänglich.
 4. Fügen Sie Bot-Regeln hinzu, die Googlebot, Bingbot und andere beliebte Erkennungssysteme nicht versehentlich blockieren.
 5. Verwenden Sie Web Bot Auth oder eine ähnliche Überprüfung, sofern unterstützt.
 6. Notieren Sie den Verifizierungsstatus zusammen mit der URL, dem Statuscode und der Ratenbegrenzungsaktion.

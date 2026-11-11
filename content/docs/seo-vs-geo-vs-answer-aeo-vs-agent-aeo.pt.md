@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 51
 category: "Framework"
 description: "A comparação definitiva entre SEO, GEO, Answer Engine Optimization e Agent Engine Optimization. Quatro disciplinas diferentes com objetivos diferentes."
-metaDescription: "Compare SEO, GEO, optimización de Answer Engine y optimización de Agent Engine por objetivos, tácticas, requisitos técnicos y métricas de éxito."
 summary: "Quatro siglas, quatro disciplinas diferentes. SEO visa classificações. GEO tem como alvo compromissos de IA. Objetivos da resposta AEO apresentou respostas. O agente AEO visa a realização autônoma de tarefas. Veja como eles diferem e onde se sobrepõem."
 keywords:
   - "SEO, GEO e AEO"

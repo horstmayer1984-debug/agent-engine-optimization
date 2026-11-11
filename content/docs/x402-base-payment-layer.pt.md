@@ -46,7 +46,7 @@ As taxas da rede principal Ethereum tornam os micropagamentos impraticáveis ​
 
 Crie uma carteira USDC no Base por meio da Coinbase Developer Platform ou de qualquer provedor de carteira compatível. Atualize seu middleware x402 para especificar "base" como uma string no corpo da resposta 402. Use o recurso de patrocínio de gás da Coinbase para que os agentes que pagam por seus endpoints não precisem manter ETH separadamente. Para testes, use Base Sepolia (o testnet) com teste USDC. Implante seu middleware, execute pagamentos de teste e verifique todo o fluxo antes de passar para a produção.
 
-O [Guia de implantação x402](/es/docs/implementing-x402/) aborda a configuração de middleware. A [visão geral do x402](/es/docs/x402-agent-payments/) explica o contexto estratégico.
+O [Guia de implantação x402](/pt/docs/implementing-x402/) aborda a configuração de middleware. A [visão geral do x402](/pt/docs/x402-agent-payments/) explica o contexto estratégico.
 
 ---
 
@@ -67,7 +67,7 @@ Um recurso onde o operador do site paga uma pequena taxa de transação blockcha
 
 ---
 
-*Este artigo discute protocolos de pagamento e infraestrutura de criptomoeda apenas para fins educacionais e informativos. Não constitui aconselhamento financeiro. Consulte nosso [Aviso Legal](/es/docs/disclaimer/) para obter os termos completos.*
+*Este artigo discute protocolos de pagamento e infraestrutura de criptomoeda apenas para fins educacionais e informativos. Não constitui aconselhamento financeiro. Consulte nosso [Aviso Legal](/pt/docs/disclaimer/) para obter os termos completos.*
 
 ## Referências primárias
 

@@ -34,7 +34,7 @@ Die SEO-Dokumentation von Google beginnt immer noch mit den Grundlagen: Sie helf
 | 7. Interne Links | Wichtige Seiten werden von relevanten Hubs aus verlinkt |
 | 8. Sitemap | XML-Sitemap enthält indizierbare kanonische URLs |
 
-Für einen vollständigen Prüfungsablauf verwenden Sie [AEO-Vorbereitungsprüfung](/es/docs/audit/).
+Für einen vollständigen Prüfungsablauf verwenden Sie [AEO-Vorbereitungsprüfung](/de/docs/audit/).
 
 ## Ebene 2: Bereiten Sie sich auf die KI-Reaktion vor
 
@@ -53,7 +53,7 @@ KI-Reaktionssysteme benötigen eine abnehmbare Struktur. Das bedeutet nicht, das
 | 15. Entitätskohärenz | Namen, Protokolle, Produkte und Konzepte sind stabil |
 | 16. Aktualität der Inhalte | Seiten zeigen den aktuellen Protokoll- oder Marktstatus |
 
-Das [AI Search Optimization Framework](/es/docs/ai-search-optimization/) erklärt diese Ebene ausführlicher.
+Das [AI Search Optimization Framework](/de/docs/ai-search-optimization/) erklärt diese Ebene ausführlicher.
 
 ## Schicht 3: Agent Engine-Optimierung
 
@@ -73,7 +73,7 @@ Die Optimierung der Agent Engine beginnt, wenn das System genutzt und nicht nur 
 | 24. Namensnennung | KI-Verweise und Agentenquellensitzungen werden gemessen |
 | 25. Rückkopplungsschleife | Aus Versagen der Agenten werden Lösungen |
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) und der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) decken diese Schicht ab.
+Die [Ausführungsschicht](/de/docs/execution-layer/) und der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) decken diese Schicht ab.
 
 ## So verwenden Sie die ChecklisteBeginnen Sie mit Seiten, die bereits Impressionen von „AEO SEO“, „Agent Engine Optimization“ oder verwandten Begriffen erhalten. Der Leistungsbericht der Search Console kann zeigen, welche Suchanfragen und Seiten an Sichtbarkeit gewinnen. Verbessern Sie dann die Seiten mit den meisten Drucken, bevor Sie neue Seiten erstellen.
 

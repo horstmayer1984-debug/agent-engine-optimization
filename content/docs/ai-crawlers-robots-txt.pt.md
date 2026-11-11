@@ -73,7 +73,7 @@ Não copie as regras cegamente. Valide o que o rastreador realmente recebe por m
 4. Esquecer que páginas de produto, documentação e suporte podem precisar de políticas diferentes.
 5. Publique regras conflitantes em `robots.txt`, cabeçalhos e controles de borda.
 
-O [Guia de controle de rastreamento de IA da Cloudflare](/es/docs/cloudflare-ai-crawl-control/) cobre o lado da política de perímetro. A [Lista de verificação de recomendações de produtos ChatGPT] (/es/docs/chatgpt-product-recommendations-seo/) mostra por que o acesso ao rastreador é importante para a descoberta de comércio eletrônico.
+O [Guia de controle de rastreamento de IA da Cloudflare](/pt/docs/cloudflare-ai-crawl-control/) cobre o lado da política de perímetro. A [Lista de verificação de recomendações de produtos ChatGPT](/pt/docs/chatgpt-product-recommendations-seo/) mostra por que o acesso ao rastreador é importante para a descoberta de comércio eletrônico.
 
 ## O que monitorar| Sinal | Por que é importante |
 |
@@ -85,7 +85,7 @@ O [Guia de controle de rastreamento de IA da Cloudflare](/es/docs/cloudflare-ai-
 | Atualização da página do produto | Proteja a qualidade das compras com IA |
 | Erros de rastreamento | Encontre respostas acidentais 403, 429 ou 5xx |
 
-Para uma medida mais ampla de AEO, conecte os dados de rastreamento ao [guia de KPI AEO](/es/docs/aeo-kpis-measurement/).
+Para uma medida mais ampla de AEO, conecte os dados de rastreamento ao [guia de KPI AEO](/pt/docs/aeo-kpis-measurement/).
 
 ## robots.txt não é uma estratégia AEO
 
@@ -98,7 +98,7 @@ Uma boa política de rastreamento é apenas o ponto de entrada. Os agentes ainda
 - dados de produtos ou serviços legíveis por máquina
 - caminhos seguros de ação
 
-É por isso que `robots.txt` pertence à camada de leitura, enquanto a conclusão da tarefa pertence à [camada de execução](/es/docs/execution-layer/).
+É por isso que `robots.txt` pertence à camada de leitura, enquanto a conclusão da tarefa pertence à [camada de execução](/pt/docs/execution-layer/).
 
 ## Perguntas frequentes
 

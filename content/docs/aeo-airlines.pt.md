@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 102
 category: "Industry"
 description: "Saiba como as companhias aéreas podem preparar fluxos de reserva, regras tarifárias, dados de bagagem e APIs para agentes de IA que comparam e reservam voos."
-metaDescription: "Descubra cómo las aerolíneas utilizan precios en tiempo real, datos auxiliares estructurados y puntos finales de emisión de boletos deterministas."
 summary: "As IAs reservam voos comparando preços em tempo real, verificando custos acessórios e emitindo passagens em segundos. As companhias aéreas que oferecem dados estruturados com tempos de resposta inferiores a um segundo capturam as reservas dos agentes."
 keywords:
   - "Companhias aéreas AEO"
@@ -66,7 +65,7 @@ O principal requisito: o preço cotado através da API deve corresponder ao pre�
 | Venda de ingressos | Check-out de várias páginas com interação humana | API determinística com confirmação instantânea |
 | Alterar termos | Documento legal em prosa | Dados estruturados por classe tarifária |
 
-O [artigo de viagens AEO](/es/docs/aeo-travel-booking/) cobre o contexto mais amplo da indústria.
+O [artigo de viagens AEO](/pt/docs/aeo-travel-booking/) cobre o contexto mais amplo da indústria.
 
 ---
 
@@ -88,8 +87,8 @@ Menos de 500 milissegundos para consultas de disponibilidade. Menos de 3 segundo
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
-* [protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
+* [protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/)
 
 ## Referências primárias
 

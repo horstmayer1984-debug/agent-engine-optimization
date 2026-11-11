@@ -39,7 +39,7 @@ Google の [Google 検索における生成 AI 機能の最適化ガイド](http
 |セマンティック HTML |ユーザー、スクリーン リーダー、マシンに対して明確な構造を使用します。 |
 |構造化データ |ギミックとしてではなく、目に見えるコンテンツと一致する場所で使用してください。 |
 
-実装については、[Google SEO AI モード](/es/docs/google-ai-mode-seo/) および [Search Console の Google AI モード](/es/docs/google-ai-mode-search-console-reporting/) をお読みください。
+実装については、[Google SEO AI モード](/ja/docs/google-ai-mode-seo/) および [Search Console の Google AI モード](/ja/docs/google-ai-mode-search-console-reporting/) をお読みください。
 
 ## Google が検索で無視するよう指示しているもの
 
@@ -57,7 +57,7 @@ Google は、サイト所有者が、生成 AI 機能を含む Google 検索に�
 | `llms.txt` | Google 検索では特に使用されません |これを読むことを選択したエージェントまたはサービスに役立ちます。
 |販売ミラー | Google AI 機能には必要ありません | || エージェントや LLM ツールが分析しやすくなる可能性があります ||構造化データ |表示されているコンテンツと一致する場合にサポート |また、マシンがエンティティを解釈するのにも役立ちます。
 
-エージェント側については、[llms.txt と robots.txt](/es/docs/llms-txt-vs-robots-txt/) および [llms.txt スケジューリング](/es/docs/programming-llms-txt/) を参照してください。
+エージェント側については、[llms.txt と robots.txt](/ja/docs/llms-txt-vs-robots-txt/) および [llms.txt スケジューリング](/ja/docs/programming-llms-txt/) を参照してください。
 
 ## 準備不足にならずにこのガイドを使用する方法
 
@@ -69,7 +69,7 @@ Google 検索については、基本を正しく理解してください。 AI 
 2. AI 応答システムには、ソースにサポートされた明確な抽出が必要です。
 3. AI エージェントには、構造化された実行パス、ポリシー、アクションが必要です。
 
-だからこそ、[SEO vs GEO vs Answer AEO vs Agent AEO](/es/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/) が依然として有用です。チャネルは、代理店ネットワーク全体を定義するものではありません。
+だからこそ、[SEO vs GEO vs Answer AEO vs Agent AEO](/ja/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/) が依然として有用です。チャネルは、代理店ネットワーク全体を定義するものではありません。
 
 ## 30 分間の実地監査
 

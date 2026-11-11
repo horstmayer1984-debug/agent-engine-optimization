@@ -56,7 +56,7 @@ No mínimo, forneça:
 
 Se o preço exato realmente depende da negociação, pelo menos forneça os intervalos e variáveis publicados que afetam o preço. Um agente que consegue estimar “entre 2.000 e 5.000 euros por mês para 50 utilizadores” é muito mais útil ao seu humano do que aquele que reporta “preços não disponíveis”.
 
-A [estrutura AEO](/es/docs/what-is-aeo/) explica por que essa mudança de informações controladas por humanos para informações legíveis por máquina é crítica para a camada de execução.
+A [estrutura AEO](/pt/docs/what-is-aeo/) explica por que essa mudança de informações controladas por humanos para informações legíveis por máquina é crítica para a camada de execução.
 
 ## Conformidade e segurança como dados verificáveis ​​Os compradores empresariais têm requisitos rigorosos: residência de dados, padrões de criptografia, controles de acesso, registros de auditoria. Hoje, uma equipe de compras lê um whitepaper de segurança. Amanhã, um agente verificará automaticamente a conformidade.
 
@@ -81,7 +81,7 @@ Requisitos:
 
 Se o botão "Agendar uma demonstração" abrir um link do Calendly que requer renderização de JavaScript e aceitação de cookies, muitos agentes falharão nesta etapa.
 
-O [guia de implementação](/es/docs/implement-aeo/) aborda os detalhes técnicos de exposição dos fluxos de reserva aos agentes.
+O [guia de implementação](/pt/docs/implement-aeo/) aborda os detalhes técnicos de exposição dos fluxos de reserva aos agentes.
 
 ---
 
@@ -103,7 +103,7 @@ Sim, se o sistema de reservas expõe uma API ou um endpoint estruturado. O agent
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
 
 ## Referências primárias
 

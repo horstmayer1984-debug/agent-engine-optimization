@@ -5,7 +5,6 @@ date: 2026-04-19
 weight: 115
 category: "Analysis"
 description: "Die Agentenökonomie verarbeitet bereits 165 Millionen Transaktionen im Wert von 50 Millionen US-Dollar. Sondern Entdeckung und Berichterstattung."
-metaDescription: "Vea cómo AEO ayuda a conectar a los agentes con los servicios cuando la actividad de los agentes está creciendo pero el descubrimiento, la atribución."
 summary: "480.000 aktive KI-Agenten. 165 Millionen Transaktionen. 50 Millionen Dollar wurden ausgegeben. Die Agentenökonomie ist real, aber Entdeckung funktioniert nicht. AEO löst das Matching-Problem zwischen Agenten, die Geld zum Ausgeben haben, und Dienstleistungen, die sie nicht finden können."
 keywords:
   - "Agentenökonomie"
@@ -57,31 +56,31 @@ SEO gelöste Entdeckung für Menschen. Es löst nicht die Entdeckung der Maschin
 
 Ihre Leistung muss in maschinenlesbarer Form mit genauen Parametern beschrieben werden. Es ist nicht „schnell und erschwinglich“, sondern „durchschnittliche Antwortzeit: 1,4 Sekunden, Preis: 0,03 $ pro Anfrage, Eingabe: UTF-8-Text mit bis zu 10.000 Zeichen, Ausgabe: JSON mit Zusammenfassungsfeld.“
 
-Verwenden Sie [llms.txt](/es/docs/programming-llms-txt/) für die Erkennung auf Site-Ebene, [Agent Cards](/es/docs/agent-cards-a2a-protocol/) für Funktionsmanifeste und Schema-Markup für einzelne Serviceseiten.
+Verwenden Sie [llms.txt](/de/docs/programming-llms-txt/) für die Erkennung auf Site-Ebene, [Agent Cards](/de/docs/agent-cards-a2a-protocol/) für Funktionsmanifeste und Schema-Markup für einzelne Serviceseiten.
 
 ### Schicht 2: Registrierung auf Protokollebene
 
-Registrieren Sie Ihre Dienste in Protokollregistern, in denen Agenten aktiv suchen. MCP-Tool-Registrierungen, [UCP Capability Statements](/es/docs/ucp-vs-acp-vs-mcp/) in /.well-known/ucp und Markteinträge auf Plattformen wie Agentic.Market.
+Registrieren Sie Ihre Dienste in Protokollregistern, in denen Agenten aktiv suchen. MCP-Tool-Registrierungen, [UCP Capability Statements](/de/docs/ucp-vs-acp-vs-mcp/) in /.well-known/ucp und Markteinträge auf Plattformen wie Agentic.Market.
 
 Ein Agent, der Ihren Service durch die Registrierung entdeckt, hat eine höhere Conversion-Absicht als einer, der Ihre Website findet. Die Präsenz in der Registrierung entspricht dem Erscheinen des Agenten in den Suchergebnissen.
 
 ### Schicht 3: Transaktionsvorbereitung
 
-Eine Entdeckung ohne Transaktionskapazität ist eine Sackgasse. Der Agent findet Ihre Dienstleistung, bewertet sie und Sie müssen dann bezahlen und erhalten das Ergebnis. [Mikrozahlungen x402](/es/docs/x402-agent-payments/) kümmern sich um die Zahlungsschicht. Ihre API übernimmt die Ausführung. Beide müssen in weniger als 3 Sekunden funktionieren, damit der Agent die Transaktion abschließen kann.
+Eine Entdeckung ohne Transaktionskapazität ist eine Sackgasse. Der Agent findet Ihre Dienstleistung, bewertet sie und Sie müssen dann bezahlen und erhalten das Ergebnis. [Mikrozahlungen x402](/de/docs/x402-agent-payments/) kümmern sich um die Zahlungsschicht. Ihre API übernimmt die Ausführung. Beide müssen in weniger als 3 Sekunden funktionieren, damit der Agent die Transaktion abschließen kann.
 
-Der [Leitfaden zur Ausführungsebene](/es/docs/execution-layer/) behandelt die technische Architektur.
+Der [Leitfaden zur Ausführungsebene](/de/docs/execution-layer/) behandelt die technische Architektur.
 
 ## Legen Sie Regeln fest, die Agenten durchsetzen können
 
 Agenten können Mehrdeutigkeiten nicht interpretieren. Sie können den Kundendienst nicht anrufen. Sie können nicht informell verhandeln. Jeder Parameter muss absolut ausgedrückt werden. Preis: genauer Betrag pro Arbeitseinheit, in welcher Währung, gültig für welchen Zeitraum. Reaktionszeit: garantiertes Maximum, gemessen wie, mit welcher Strafe bei Überschreitung. Eingabebeschränkungen: genaues Format, maximale Größe, Pflichtfelder. Ausgabeformat: genaue Struktur, garantierte Felder, Fehlerschema. Verfügbarkeit: Verfügbarkeitsgarantie, Wartungsfenster, beeinträchtigtes Serviceverhalten.
 
-Es werden Dienste ausgewählt, die diese Parameter als strukturierte Daten in ihren [Fähigkeitsmanifesten](/es/docs/agent-decision-trees/) veröffentlichen. Dienste, die Parameter hinter „Kontakt“ oder „Ab“ verbergen, werden von jedem [deterministischen Entscheidungsbaum](/es/docs/agent-decision-trees/) ausgeschlossen, den ein Agent ausführt.
+Es werden Dienste ausgewählt, die diese Parameter als strukturierte Daten in ihren [Fähigkeitsmanifesten](/de/docs/agent-decision-trees/) veröffentlichen. Dienste, die Parameter hinter „Kontakt“ oder „Ab“ verbergen, werden von jedem [deterministischen Entscheidungsbaum](/de/docs/agent-decision-trees/) ausgeschlossen, den ein Agent ausführt.
 
 ## Der Vorteil der Großschreibung
 
 Pioniere in der Wirkstoffentdeckung schaffen Compounding-Vorteile. Ein Agent, der erfolgreich mit Ihrem Dienst Geschäfte abwickelt, fügt Sie einmal seiner Liste der bevorzugten Anbieter hinzu. Nachfolgende Aufgaben, die Ihrem Kapazitätsprofil entsprechen, werden automatisch an Sie weitergeleitet. Die Vertrauenswerte häufen sich. Der Transaktionsverlauf wird erstellt.
 
-Ein Dienst, der sechs Monate später auf den Markt kommt, beginnt mit null Vertrauen, null Transaktionshistorie und null Status als bevorzugter Anbieter. Sie müssen mit etablierten Diensten konkurrieren, denen Makler bereits vertrauen. Das Entdeckungsproblem wird umso schwieriger zu lösen, je länger man wartet.Aus diesem Grund wird im [AEO-Bereitstellungshandbuch] (/es/docs/implement-aeo/) Wert darauf gelegt, mit der grundlegenden Erkennung (llms.txt, Schema-Markup, Agentenkarten) zu beginnen, noch bevor die Ausführungsschicht abgeschlossen ist. Die frühzeitige Erkennbarkeit auch bei begrenzter Kapazität schafft eine Vertrauensbasis, die sich mit der Zeit aufbaut.
+Ein Dienst, der sechs Monate später auf den Markt kommt, beginnt mit null Vertrauen, null Transaktionshistorie und null Status als bevorzugter Anbieter. Sie müssen mit etablierten Diensten konkurrieren, denen Makler bereits vertrauen. Das Entdeckungsproblem wird umso schwieriger zu lösen, je länger man wartet.Aus diesem Grund wird im [AEO-Bereitstellungshandbuch](/de/docs/implement-aeo/) Wert darauf gelegt, mit der grundlegenden Erkennung (llms.txt, Schema-Markup, Agentenkarten) zu beginnen, noch bevor die Ausführungsschicht abgeschlossen ist. Die frühzeitige Erkennbarkeit auch bei begrenzter Kapazität schafft eine Vertrauensbasis, die sich mit der Zeit aufbaut.
 
 ## Was passiert als nächstes?
 
@@ -89,7 +88,7 @@ Die Agentenwirtschaft wächst schneller, als den meisten Unternehmen bewusst ist
 
 Unternehmen, die ihre Dienste für die Agentenerkennung instrumentieren, erschließen sich jetzt eine wachsende Einnahmequelle, die Wettbewerber nicht sehen und daher nicht darauf reagieren können. Wenn die Agentenökonomie in traditionellen Maßstäben sichtbar wird, werden Entdeckungspositionen etabliert und schwer zu verdrängen sein.
 
-Der [Artikel zu Geschäftsmodellen nativer Agenten](/es/docs/agent-native-business-models/) behandelt den umfassenderen wirtschaftlichen Wandel. Der [Leitfaden zur Delegationsökonomie](/es/docs/delegation-economy-agent-autonomy/) erklärt die fünf Ebenen der Autonomie der Agenten, die diesen Übergang vorantreiben.
+Der [Artikel zu Geschäftsmodellen nativer Agenten](/de/docs/agent-native-business-models/) behandelt den umfassenderen wirtschaftlichen Wandel. Der [Leitfaden zur Delegationsökonomie](/de/docs/delegation-economy-agent-autonomy/) erklärt die fünf Ebenen der Autonomie der Agenten, die diesen Übergang vorantreiben.
 
 ---
 

@@ -49,7 +49,7 @@ x402 revive o padrão HTTP 402 Payment Required para pagamentos de agentes e API
 
 O x402 é forte quando o produto é pequeno, digital, baseado em API ou com preço por solicitação. Um endpoint climático, uma fonte de dados premium, uma ferramenta MCP, uma chamada de inferência ou um relatório legível por máquina podem cobrar por invocação sem a necessidade de criar uma conta.Sua limitação também é clara. x402 estabelece o valor. Não resolve todo o processo de compra sozinho. Um comerciante ainda precisa de descoberta de produtos, divulgação de políticas, controles de fraude, reembolsos, identidade, impostos, suporte e gerenciamento de disputas.
 
-Leia o guia do site: [Agent Payments x402](/es/docs/x402-agent-payments/).
+Leia o guia do site: [Agent Payments x402](/pt/docs/x402-agent-payments/).
 
 ## Camada de Comércio: ACP e UCP
 
@@ -104,7 +104,7 @@ Isso torna o Nevermined relevante para equipes que desejam uma camada de pagamen
 
 Para AEO, o padrão vencedor é uma pilha híbrida.
 
-Um site deve publicar dados de produtos ou serviços legíveis por máquina, expor caminhos de ação determinísticos, documentar autorização e requisitos de pagamento e tornar o resultado verificável. Os protocolos de pagamento só ajudam depois que o agente consegue entender o que o site oferece e quais ações são seguras a serem tomadas. Próximas etapas internas: Leia [Protocolos de Agente AI](/es/docs/protocols/), [Camada de Execução](/es/docs/execution-layer/) e [x402 MCP A2A Full Stack](/es/docs/x402-mcp-a2a-full-stack/).
+Um site deve publicar dados de produtos ou serviços legíveis por máquina, expor caminhos de ação determinísticos, documentar autorização e requisitos de pagamento e tornar o resultado verificável. Os protocolos de pagamento só ajudam depois que o agente consegue entender o que o site oferece e quais ações são seguras a serem tomadas. Próximas etapas internas: Leia [Protocolos de Agente AI](/pt/docs/protocols/), [Camada de Execução](/pt/docs/execution-layer/) e [x402 MCP A2A Full Stack](/pt/docs/x402-mcp-a2a-full-stack/).
 
 ## Perguntas frequentes
 

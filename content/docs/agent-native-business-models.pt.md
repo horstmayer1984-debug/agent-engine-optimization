@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 40
 category: "Analysis"
 description: "Explore modelos de negócios de agentes nativos, desde infraestrutura de protocolo e mercados de ferramentas até serviços baseados em agentes."
-metaDescription: "Compare cinco modelos de negocio nativos de agentes creados en torno a la economía de pago por tarea, flujos de trabajo delegados, precios de uso y demanda."
 summary: "A economia da Internet está a ser reestruturada em torno das interações entre máquinas. Os modelos de agentes nativos vendem resultados e tarefas, não assentos ou painéis. Cinco modelos já estão sendo formados."
 keywords:
   - "modelos de negócios de agentes nativos"
@@ -41,7 +40,7 @@ Esta é a camada fundamental. Quem controla o roteamento e a infraestrutura conf
 
 A pesquisa otimizada para agentes não se parece em nada com a pesquisa otimizada para humanos. Não existem dez links azuis. Existem dados estruturados, verificáveis ​​e comparáveis ​​por máquina, classificados por precisão e atualidade, em vez de autoridade de domínio ou gastos com publicidade.
 
-Os sinais de classificação mudam completamente. A qualidade dos dados, a integridade do esquema, a latência de resposta e o determinismo dos resultados são mais importantes do que os sinais tradicionais de SEO. A [camada de execução](/es/docs/execution-layer/) torna-se a principal superfície competitiva.
+Os sinais de classificação mudam completamente. A qualidade dos dados, a integridade do esquema, a latência de resposta e o determinismo dos resultados são mais importantes do que os sinais tradicionais de SEO. A [camada de execução](/pt/docs/execution-layer/) torna-se a principal superfície competitiva.
 
 ### 3. Plataformas de negociação autônomas
 
@@ -71,7 +70,7 @@ Ignore a conformidade em setores regulamentados. Os agentes que operam nos setor
 
 Construa plataformas horizontais genéricas quando o valor for vertical. Os fossos mais profundos se formam em sistemas específicos do setor, onde o conhecimento do domínio e a conformidade criam barreiras que as ferramentas horizontais não conseguem ultrapassar.
 
-O [artigo do plano de controle universal](/es/docs/universal-control-plane/) explica a arquitetura de governança que esses modelos exigem.
+O [artigo do plano de controle universal](/pt/docs/universal-control-plane/) explica a arquitetura de governança que esses modelos exigem.
 
 ---
 
@@ -90,7 +89,7 @@ Otimizando para um modelo de distribuição (atenção humana) que está perdend
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

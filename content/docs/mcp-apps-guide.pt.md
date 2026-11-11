@@ -62,7 +62,7 @@ Os aplicativos MCP não substituem todos os aplicativos da web. Eles são úteis
 
 ## Implicações do AEO
 
-A [camada de execução](/es/docs/execution-layer/) geralmente precisa de um ponto de verificação humano. Os aplicativos MCP podem tornar esse ponto de verificação prático:
+A [camada de execução](/pt/docs/execution-layer/) geralmente precisa de um ponto de verificação humano. Os aplicativos MCP podem tornar esse ponto de verificação prático:
 
 - aprovar um reembolso
 - inspecionar uma cotação
@@ -70,7 +70,7 @@ A [camada de execução](/es/docs/execution-layer/) geralmente precisa de um pon
 - revisar um gráfico
 - confirmar uma ação arriscada
 
-Isso se conecta naturalmente à [experiência do usuário do agente e design humano no circuito] (/es/docs/agent-ux-human-in-the-loop/), onde a questão não é "humano ou agente", mas "quais partes precisam de qual interface?"
+Isso se conecta naturalmente à [experiência do usuário do agente e design humano no circuito](/pt/docs/agent-ux-human-in-the-loop/), onde a questão não é "humano ou agente", mas "quais partes precisam de qual interface?"
 
 ## Quando usar aplicativos MCP
 
@@ -93,7 +93,7 @@ Documentos oficiais descrevem a renderização em sandbox e uma ponte de mensage
 - qual ferramenta pode acionar a chamada da IU
 - se a aprovação for necessária
 - como o status é registrado
-- como o suporte do anfitrião variaO [guia de autorização MCP](/es/docs/mcp-authorization-oauth-ai-agents/) ainda é relevante porque a interface de usuário avançada não elimina a necessidade de permissões estritas.
+- como o suporte do anfitrião variaO [guia de autorização MCP](/pt/docs/mcp-authorization-oauth-ai-agents/) ainda é relevante porque a interface de usuário avançada não elimina a necessidade de permissões estritas.
 
 ## Perguntas frequentes
 

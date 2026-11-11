@@ -5,7 +5,6 @@ date: 2026-03-19
 weight: 23
 category: "Guide"
 description: "Wie AEO das Marketing gestaltet: KI-Agenten kuratieren Inhalte, qualifizieren Leads, vergleichen Lösungen und fördern die Entdeckung."
-metaDescription: "Vea cómo AEO respalda el marketing mediante la selección de contenido, la calificación de clientes potenciales, comparaciones y descubrimientos legibles."
 summary: "KI-Agenten konsumieren Marketinginhalte, bevor sie den Menschen erreichen. AEO stellt sicher, dass Ihre Inhalte kuratiert, zitiert und in agentenvermittelten Erkennungsworkflows angewendet werden."
 keywords:
   - "AEO-Marketing"
@@ -24,7 +23,7 @@ Wenn ein Benutzer einen KI-Assistenten fragt: „Was sind die effektivsten Strat
 
 Der in diesem Prozess ausgewählte Inhalt weist bestimmte Eigenschaften auf: klare Themenumrisse, explizite Aussagen mit unterstützendem Kontext, strukturierte Formatierung (Überschriften, die wahrscheinlichen Suchanfragen entsprechen, Daten in Tabellen, Definitionen in unabhängigen Sätzen) und Hinweise auf Aktualität.
 
-Hier überschneiden sich AEO und GEO. Der Unterschied besteht darin, dass der AEO auch berücksichtigt, ob der Agent auf den Inhalt reagieren und ihn nicht nur zitieren kann. Der Vergleich [AEO vs. SEO vs. GEO](/es/docs/aeo-vs-seo-vs-geo/) bildet diese Unterscheidung ab.
+Hier überschneiden sich AEO und GEO. Der Unterschied besteht darin, dass der AEO auch berücksichtigt, ob der Agent auf den Inhalt reagieren und ihn nicht nur zitieren kann. Der Vergleich [AEO vs. SEO vs. GEO](/de/docs/aeo-vs-seo-vs-geo/) bildet diese Unterscheidung ab.
 
 ## Lead-Qualifizierung durch Agenten
 
@@ -40,7 +39,7 @@ Ihre Marketinginhalte tragen zu Ihrem Erscheinungsbild in diesen Vergleichen bei
 
 ## Inhaltsaktualisierungen und Autoritätssignale
 
-Agenten bewerten die Glaubwürdigkeit von Inhalten unter anderem anhand ihrer Aktualität. Ein Artikel aus dem Jahr 2024 wird gegenüber einem Markt aus dem Jahr 2026 priorisiert. Regelmäßige Aktualisierungen, sichtbare Veröffentlichungstermine und klare Hinweise zur Urheberschaft tragen dazu bei, dass Inhalte ihre Auswahlpriorität behalten. Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt Vertrauenssignale für die maschinelle Entscheidungsfindung, einschließlich Aktualität, Urheberschaft und Quellenangabe.
+Agenten bewerten die Glaubwürdigkeit von Inhalten unter anderem anhand ihrer Aktualität. Ein Artikel aus dem Jahr 2024 wird gegenüber einem Markt aus dem Jahr 2026 priorisiert. Regelmäßige Aktualisierungen, sichtbare Veröffentlichungstermine und klare Hinweise zur Urheberschaft tragen dazu bei, dass Inhalte ihre Auswahlpriorität behalten. Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt Vertrauenssignale für die maschinelle Entscheidungsfindung, einschließlich Aktualität, Urheberschaft und Quellenangabe.
 
 ## Empfehlungs- und Empfehlungsworkflows
 
@@ -67,7 +66,7 @@ Agenten priorisieren veraltete Inhalte. Sichtbare Veröffentlichungstermine, reg
 
 ## Verwandte Anleitungen
 
-* [Anleitung zur Agent Engine-Optimierung](/es/docs/what-is-aeo/)
+* [Anleitung zur Agent Engine-Optimierung](/de/docs/what-is-aeo/)
 
 ## Primäre Referenzen
 

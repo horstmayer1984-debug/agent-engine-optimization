@@ -22,7 +22,7 @@ In der Google-Dokumentation [KI-Funktionen und Ihre Website] (https://developers
 
 Das ist wichtig, da viele Teams nach einem sauberen Filter für „Impressionen im KI-Modus“ suchen. Ab diesem Update ist die praktische Antwort eingeschränkter: Sie können die aggregierte Leistung der Google-Suche sehen, aber Sie können nicht jede AI-Modus-Präsenz innerhalb der Search Console allein zuverlässig isolieren.
 
-Eine ausführlichere Optimierungsanleitung finden Sie in der vorhandenen Anleitung zu [Google AI Mode SEO](/es/docs/google-ai-mode-seo/), [AEO KPI Framework](/es/docs/aeo-kpis-measurement/) und [AI Search Optimization Framework](/es/docs/ai-search-optimization/).
+Eine ausführlichere Optimierungsanleitung finden Sie in der vorhandenen Anleitung zu [Google AI Mode SEO](/de/docs/google-ai-mode-seo/), [AEO KPI Framework](/de/docs/aeo-kpis-measurement/) und [AI Search Optimization Framework](/de/docs/ai-search-optimization/).
 
 ## Was Sie messen können und was nicht
 
@@ -62,7 +62,7 @@ Hinweis:- Impressionen pro Gruppe
 - Crawler-Zugriffsprobleme aufgrund von robots.txt, CDN-Regeln oder Bot-Einstellungen
 - Update-Update für Protokollseiten
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) wird erst messbar, nachdem die Erkennungsschicht ausgeführt wird.
+Die [Ausführungsschicht](/de/docs/execution-layer/) wird erst messbar, nachdem die Erkennungsschicht ausgeführt wird.
 
 ## So lesen Sie CTR-Abfälle
 
@@ -89,7 +89,7 @@ Diagnostizieren Sie die Auswirkungen des KI-Modus nicht anhand einer einzelnen M
 4. Schauen Sie sich Long-Tail-Impressionen an, nicht nur die Top-Ten-Keywords.
 5. Verbinden Sie die Landingpages der Search Console mit Analytics-Conversions.
 6. Überprüfen Sie die Titel und Meta-Beschreibungen von Seiten mit hohen Impressionen und schwacher CTR.
-7. Aktualisieren Sie die Seiten, auf denen Sie den Quellsatz geändert haben. Auch hier hilft [KI-Zitierstrategie](/es/docs/ai-citation-strategy/). Seiten, die leicht zu zitieren sind, verfügen in der Regel über klarere Definitionen, klarere Tabellen und bessere Pfade zu Quellen.
+7. Aktualisieren Sie die Seiten, auf denen Sie den Quellsatz geändert haben. Auch hier hilft [KI-Zitierstrategie](/de/docs/ai-citation-strategy/). Seiten, die leicht zu zitieren sind, verfügen in der Regel über klarere Definitionen, klarere Tabellen und bessere Pfade zu Quellen.
 
 ## Häufige Berichtsfehler
 

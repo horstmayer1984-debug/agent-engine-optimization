@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 102
 category: "Industry"
 description: "航空会社が予約フロー、運賃規則、手荷物データ、フライトを比較して予約する AI エージェント用の API をどのように準備できるかを学びましょう。"
-metaDescription: "Descubra cómo las aerolíneas utilizan precios en tiempo real, datos auxiliares estructurados y puntos finales de emisión de boletos deterministas."
 summary: "AI はリアルタイムで価格を比較し、付随費用を確認し、数秒でチケットを発行してフライトを予約します。 1 秒未満の応答時間で構造化データを提供する航空会社は、エージェントの予約を獲得します。"
 keywords:
   - "AEO航空会社"
@@ -66,7 +65,7 @@ keywords:
 |チケット販売 |人間の対話による複数ページのチェックアウト |即時確認を備えた確定的 API |
 |規約の変更 |散文で書かれた法的文書 |運賃クラスごとに構造化されたデータ |
 
-[AEO 旅行記事](/es/docs/aeo-travel-booking/) は、業界のより広範な状況をカバーしています。
+[AEO 旅行記事](/ja/docs/aeo-travel-booking/) は、業界のより広範な状況をカバーしています。
 
 ---
 
@@ -88,8 +87,8 @@ NDC は、より充実した構造化された料金配分を目的として設�
 
 ## 関連ガイド
 
-* [エージェント取引アーキテクチャ](/es/docs/agentic-commerce/)
-* [エージェント支払いプロトコル](/es/docs/agent-payment-protocols-compared/)
+* [エージェント取引アーキテクチャ](/ja/docs/agentic-commerce/)
+* [エージェント支払いプロトコル](/ja/docs/agent-payment-protocols-compared/)
 
 ## 主な参考文献
 

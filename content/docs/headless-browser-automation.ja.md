@@ -66,7 +66,7 @@ SEO チームは、プレーンな HTML では不十分な場合にヘッドレ�
 - コンテンツをブロックする Cookie バナー
 - 生の HTML とレンダリングされた HTML の違い ヘッドレス ブラウザはコンテンツを改善しませんが、検索エンジンとユーザーが書かれたコンテンツを実際に見ることができるかどうかを明らかにすることができます。
 
-関連サイトの内容: [AI Agent Website Programming](/es/docs/programming-websites-for-ai-agents/)、[AEO Readiness Audit](/es/docs/audit/)、および [Headless Software とは?](/es/docs/what-is-headless-software/)。
+関連サイトの内容: [AI Agent Website Programming](/ja/docs/programming-websites-for-ai-agents/)、[AEO Readiness Audit](/ja/docs/audit/)、および [Headless Software とは?](/ja/docs/what-is-headless-software/)。
 
 ## 劇作家 vs 人形遣い|基準 |劇作家 |人形遣い |
 |

@@ -19,7 +19,7 @@ Um cliente diz ao seu assistente de IA: “Compre-me uma camisa de algodão azul
 
 A loja que ganha esta venda não é aquela que tem a melhor fotografia ou o texto publicitário mais inteligente. É o armazém onde cada ponto de dados é explícito, cada política pode ser lida por máquina e o processo de pagamento funciona sem navegador.
 
-Isto é o que [negociação de agente](/es/docs/agentic-commerce/) parece na prática. É isso que as lojas online devem mudar.
+Isto é o que [negociação de agente](/pt/docs/agentic-commerce/) parece na prática. É isso que as lojas online devem mudar.
 
 ## Os dados do produto devem estar completos, estruturados e atualizados.
 
@@ -47,7 +47,7 @@ Um ser humano pode aceitar um e-mail de desculpas por um item fora de estoque. U
 
 Exponha o inventário por meio de um endpoint dedicado ou, no mínimo, por meio de marcação de esquema precisa que é atualizada em minutos, não em horas. Se as contagens exatas não forem práticas, use grupos de status honestos: em estoque, disponibilidade limitada, pré-encomenda, fora de estoque.
 
-[As 10 principais estratégias de AEO para comércio eletrônico] (/es/docs/aeo-ecommerce/) aborda a confiança do estoque com mais detalhes.
+[As 10 principais estratégias de AEO para comércio eletrônico](/pt/docs/aeo-ecommerce/) aborda a confiança do estoque com mais detalhes.
 
 ## Check-out sem cabeça para transações automatizadas Os fluxos de checkout tradicionais são projetados para humanos: etapas visuais, barras de progresso, campos de formulário, modais de confirmação. Um agente não precisa de nada disso. Você precisa de uma chamada de API exclusiva e documentada.
 
@@ -73,7 +73,7 @@ Um agente programado para “comprar apenas em lojas com devolução gratuita po
 - duração da garantia
 - garantia de envio (entrega em X dias ou reembolso)
 
-Incorpore-os como dados estruturados ou exponha-os por meio de um endpoint de política dedicado. Marcas que tornam as políticas legíveis por máquina ganham uma vantagem mensurável na segmentação mediada por agentes. A [camada de execução](/es/docs/execution-layer/) explica por que essa mudança de legível por humanos para processável por máquina está no cerne do AEO.
+Incorpore-os como dados estruturados ou exponha-os por meio de um endpoint de política dedicado. Marcas que tornam as políticas legíveis por máquina ganham uma vantagem mensurável na segmentação mediada por agentes. A [camada de execução](/pt/docs/execution-layer/) explica por que essa mudança de legível por humanos para processável por máquina está no cerne do AEO.
 
 ## A comparação de preços deve ser determinística
 

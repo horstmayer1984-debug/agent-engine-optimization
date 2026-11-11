@@ -56,7 +56,7 @@ Stellen Sie mindestens Folgendes bereit:
 
 Wenn der genaue Preis wirklich von der Verhandlung abhängt, geben Sie zumindest die veröffentlichten Spannen und Variablen an, die sich auf den Preis auswirken. Ein Agent, der „zwischen 2.000 und 5.000 Euro pro Monat für 50 Benutzer“ veranschlagen kann, ist für seinen Menschen viel nützlicher als einer, der „Preise nicht verfügbar“ meldet.
 
-Das [AEO-Framework](/es/docs/what-is-aeo/) erklärt, warum dieser Übergang von menschengesteuerten Informationen zu maschinenlesbaren Informationen für die Ausführungsebene von entscheidender Bedeutung ist.
+Das [AEO-Framework](/de/docs/what-is-aeo/) erklärt, warum dieser Übergang von menschengesteuerten Informationen zu maschinenlesbaren Informationen für die Ausführungsebene von entscheidender Bedeutung ist.
 
 ## Compliance und Sicherheit als überprüfbare Daten. Unternehmenskäufer haben strenge Anforderungen: Datenresidenz, Verschlüsselungsstandards, Zugriffskontrollen, Prüfprotokolle. Heute liest ein Beschaffungsteam ein Sicherheits-Whitepaper. Morgen wird ein Agent automatisch die Einhaltung prüfen.
 
@@ -81,7 +81,7 @@ Anforderungen:
 
 Wenn Ihre Schaltfläche „Demo buchen“ einen Calendly-Link öffnet, der JavaScript-Rendering und Cookie-Akzeptanz erfordert, scheitern viele Agenten bei diesem Schritt.
 
-Der [Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt die technischen Details zum Offenlegen von Buchungsflüssen für Agenten.
+Der [Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt die technischen Details zum Offenlegen von Buchungsflüssen für Agenten.
 
 ---
 
@@ -103,7 +103,7 @@ Ja, wenn das Reservierungssystem eine API oder einen strukturierten Endpunkt ber
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
 
 ## Primäre Referenzen
 

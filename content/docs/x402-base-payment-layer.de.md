@@ -46,7 +46,7 @@ Die Mainnet-Gebühren von Ethereum machen Mikrozahlungen für die meisten Anwend
 
 Erstellen Sie über die Coinbase Developer Platform oder einen anderen unterstützten Wallet-Anbieter ein USDC-Wallet auf Base. Aktualisieren Sie Ihre x402-Middleware, um „base“ als Zeichenfolge im Hauptteil der 402-Antwort anzugeben. Nutzen Sie die Gas-Sponsoring-Funktion von Coinbase, damit Agenten, die für Ihre Endpunkte bezahlen, ETH nicht separat halten müssen. Verwenden Sie zum Testen Base Sepolia (das Testnetz) mit Test-USDC. Stellen Sie Ihre Middleware bereit, führen Sie Testzahlungen durch und überprüfen Sie den gesamten Ablauf, bevor Sie in die Produktion übergehen.
 
-Das [x402-Bereitstellungshandbuch](/es/docs/implementing-x402/) behandelt die Middleware-Konfiguration. Die [x402-Übersicht](/es/docs/x402-agent-payments/) erläutert den strategischen Kontext.
+Das [x402-Bereitstellungshandbuch](/de/docs/implementing-x402/) behandelt die Middleware-Konfiguration. Die [x402-Übersicht](/de/docs/x402-agent-payments/) erläutert den strategischen Kontext.
 
 ---
 
@@ -67,7 +67,7 @@ Eine Funktion, bei der der Website-Betreiber im Namen des Agenten eine geringe B
 
 ---
 
-*In diesem Artikel werden Zahlungsprotokolle und Kryptowährungsinfrastruktur nur zu Bildungs- und Informationszwecken behandelt. Es handelt sich nicht um eine Finanzberatung. Die vollständigen Bedingungen finden Sie in unserem [Rechtlichen Hinweis](/es/docs/disclaimer/).*
+*In diesem Artikel werden Zahlungsprotokolle und Kryptowährungsinfrastruktur nur zu Bildungs- und Informationszwecken behandelt. Es handelt sich nicht um eine Finanzberatung. Die vollständigen Bedingungen finden Sie in unserem [Rechtlichen Hinweis](/de/docs/disclaimer/).*
 
 ## Primäre Referenzen
 

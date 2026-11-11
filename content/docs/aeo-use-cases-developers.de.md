@@ -5,7 +5,6 @@ date: 2026-03-19
 weight: 24
 category: "Guide"
 description: "Wie Entwickler von AEO profitieren: KI-Agenten navigieren durch die Dokumentation, generieren Code, debuggen Probleme und organisieren Abläufe."
-metaDescription: "Vea cómo AEO ayuda a los desarrolladores a mejorar la documentación, la generación de código, la depuración y los flujos de trabajo de varios pasos a través."
 summary: "Entwicklungstools und Dokumentation sind für AEO das Hauptgebiet. Wenn Repositorys, Dokumente und APIs für die Agenteninteraktion optimiert werden, werden Codierungsagenten erheblich effektiver."
 keywords:
   - "AEO-Entwickler"
@@ -42,13 +41,13 @@ Dieser Arbeitsablauf setzt eine strukturierte Fehlerdokumentation voraus. Jeder 
 
 Komplexe Entwicklungsaufgaben erfordern die Zusammenarbeit mehrerer Agenten. Ein Agent plant die Architektur, ein anderer schreibt die Implementierung, ein dritter generiert Tests und ein vierter überprüft Sicherheitsprobleme.
 
-Jeder Agent in dieser Kette benötigt Zugriff auf verschiedene Teile der Dokumentation und Codebasis. AEO für die Multi-Agent-Entwicklung bedeutet die Offenlegung modularer, rollengerechter Informationen: Architekturentscheidungen für den Planer, API-Details für den Implementierer, Testmuster für den Testautor, Sicherheitsrichtlinien für den Prüfer.Der Artikel [Multi-Agent AEO](/es/docs/multi-agent-aeo/) behandelt die Orchestrierungsoptimierung im Detail.
+Jeder Agent in dieser Kette benötigt Zugriff auf verschiedene Teile der Dokumentation und Codebasis. AEO für die Multi-Agent-Entwicklung bedeutet die Offenlegung modularer, rollengerechter Informationen: Architekturentscheidungen für den Planer, API-Details für den Implementierer, Testmuster für den Testautor, Sicherheitsrichtlinien für den Prüfer.Der Artikel [Multi-Agent AEO](/de/docs/multi-agent-aeo/) behandelt die Orchestrierungsoptimierung im Detail.
 
 ## Tool- und API-Erkennung
 
 Agenten wählen anhand der verfügbaren Informationen aus, welche Tools und Bibliotheken sie verwenden möchten. Eine gut dokumentierte Bibliothek mit klaren Installationsanweisungen, Schnellstartanleitungen und strukturierten Funktionsbeschreibungen wird einer ebenso leistungsfähigen, aber schlecht dokumentierten Alternative vorgezogen.
 
-Dies ist das Entwickleräquivalent zur Produkterkennung im E-Commerce. [Was ist AEO?](/es/docs/what-is-aeo/) erklärt das Strukturmodell, das in beiden Bereichen angewendet wird.
+Dies ist das Entwickleräquivalent zur Produkterkennung im E-Commerce. [Was ist AEO?](/de/docs/what-is-aeo/) erklärt das Strukturmodell, das in beiden Bereichen angewendet wird.
 
 ---
 
@@ -71,7 +70,7 @@ Mehrere spezialisierte Agenten (Planer, Programmierer, Tester, Prüfer) benötig
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

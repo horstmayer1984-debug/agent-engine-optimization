@@ -30,7 +30,7 @@ Por exemplo, um agente pode precisar:
 - aplicar benefícios de fidelidade
 - verifique se uma assinatura foi iniciada
 
-Este é o comportamento da camada de execução. Pertence junto com [execução de negociação de agente](/es/docs/agentic-commerce-execution/) e [Os 5 níveis de negociação de agente](/es/docs/five-levels-agentic-commerce/).
+Este é o comportamento da camada de execução. Pertence junto com [execução de negociação de agente](/pt/docs/agentic-commerce-execution/) e [Os 5 níveis de negociação de agente](/pt/docs/five-levels-agentic-commerce/).
 
 ## Eventos pós-compra que os agentes precisam
 
@@ -64,7 +64,7 @@ Isso é importante porque os agentes precisam de mais do que um recibo. Eles pre
 7. Registrar eventos de ordem de origem do agente para equipes de suporte.
 8. Forneça estados de erro que os agentes possam explicar aos usuários.
 
-O [Guia do carrinho universal](/es/docs/universal-cart-agentic-commerce/) cobre o lado do pré-pagamento; Esta página cobre após o pagamento.
+O [Guia do carrinho universal](/pt/docs/universal-cart-agentic-commerce/) cobre o lado do pré-pagamento; Esta página cobre após o pagamento.
 
 ## Tabela de risco de conformidade
 

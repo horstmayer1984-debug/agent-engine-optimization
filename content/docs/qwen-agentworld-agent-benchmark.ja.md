@@ -37,7 +37,7 @@ Web サイト チームにとって、シグナルは単純です。エージェ
 |長期的なタスク |複数ステップのワークフローは回復可能である必要があります。 |
 |検証 |エージェントはタスクが完了したことを証明する必要があります。 |
 
-これは、[エージェント評価パラメータ](/es/docs/agent-evaluation-benchmarks/)と[エージェント決定ツリー](/es/docs/agent-decision-trees/)に接続されます。
+これは、[エージェント評価パラメータ](/ja/docs/agent-evaluation-benchmarks/)と[エージェント決定ツリー](/ja/docs/agent-decision-trees/)に接続されます。
 
 ## Web サイトをベンチマークに適したものにする方法
 
@@ -49,7 +49,7 @@ Web サイト チームにとって、シグナルは単純です。エージェ
 6. 状態遷移を記録します。
 7. 同じタスクでエージェントを毎月テストします。
 
-運用測定には、[AEO KPI](/es/docs/aeo-kpis-measurement/) を使用します。
+運用測定には、[AEO KPI](/ja/docs/aeo-kpis-measurement/) を使用します。
 
 ## 推測してはいけないこと
 

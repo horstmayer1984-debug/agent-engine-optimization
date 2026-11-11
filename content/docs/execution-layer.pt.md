@@ -107,9 +107,9 @@ A camada de execução não é algo construído da noite para o dia. É uma capa
 
 **Fase 2 (3 a 6 meses):** Implemente otimizações da camada de leitura e comece a planejar a infraestrutura da camada de execução. Adicione esquemas de ação, crie documentação de recursos, avalie a compatibilidade de protocolos.
 
-**Fase 3 (6 a 18 meses):** Desenvolver recursos da camada de execução. Exponha APIs, implemente suporte a protocolos, crie endpoints de dados voltados para agentes, desenvolva mecanismos de verificação de integridade.[Auditoria de prontidão AEO](/es/docs/audit/) – Comece com uma avaliação sistemática.
+**Fase 3 (6 a 18 meses):** Desenvolver recursos da camada de execução. Exponha APIs, implemente suporte a protocolos, crie endpoints de dados voltados para agentes, desenvolva mecanismos de verificação de integridade.[Auditoria de prontidão AEO](/pt/docs/audit/) – Comece com uma avaliação sistemática.
 
-[O que é AEO?](/es/docs/what-is-aeo/): Definição completa e escopo.
+[O que é AEO?](/pt/docs/what-is-aeo/): Definição completa e escopo.
 
 ## Perguntas frequentes
 
@@ -127,7 +127,7 @@ Não. Exponha apenas ações com benefício de usuário, modelo de permissão, p
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

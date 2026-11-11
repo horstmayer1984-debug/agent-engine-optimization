@@ -46,7 +46,7 @@ Os exemplos tornam concretas as ideias abstratas. Uma página sobre LLM SEO deve
 
 ## Conecte LLM SEO com Agent Engine Optimization
 
-LLM SEO melhora a compreensão. [Agent Engine Optimization](/es/docs/what-is-aeo/) melhora a usabilidade. Uma página pode ser fácil para um modelo de linguagem resumir, mas ainda assim impossível para um agente agir. A progressão: o conteúdo pode ser lido, compreendido, citado e então usado.
+LLM SEO melhora a compreensão. [Agent Engine Optimization](/pt/docs/what-is-aeo/) melhora a usabilidade. Uma página pode ser fácil para um modelo de linguagem resumir, mas ainda assim impossível para um agente agir. A progressão: o conteúdo pode ser lido, compreendido, citado e então usado.
 
 ---
 
@@ -73,8 +73,8 @@ LLM SEO ajuda os agentes a entender. A Agent Engine Optimization ajuda os agente
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
-* [camada de execução](/es/docs/execution-layer/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
+* [camada de execução](/pt/docs/execution-layer/)
 
 ## Referências primárias
 

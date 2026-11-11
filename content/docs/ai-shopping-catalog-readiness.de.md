@@ -22,7 +22,7 @@ Der Agentenhandel beginnt vor der Zahlung. Ein Agent kann nicht kaufen, was er n
 
 Damit ist die Katalogerstellung eine zentrale Aufgabe des AEO.
 
-Lesen Sie den zugehörigen [Leitfaden zu strukturierten Produktdaten](/es/docs/product-structured-data-ai-shopping/) für Details auf Schemaebene und [Universelle Warenkorbvorbereitung](/es/docs/universal-cart-agentic-commerce/) für die Auswirkungen auf den Warenkorb.
+Lesen Sie den zugehörigen [Leitfaden zu strukturierten Produktdaten](/de/docs/product-structured-data-ai-shopping/) für Details auf Schemaebene und [Universelle Warenkorbvorbereitung](/de/docs/universal-cart-agentic-commerce/) für die Auswirkungen auf den Warenkorb.
 
 ## Mindestkatalogfelder
 
@@ -71,7 +71,7 @@ Diese Fehler beeinträchtigen die menschliche Konversion und die Agentenauswahl.
 
 ## KI-Suche und AEO-Auswirkungen
 
-Bei der [KI-Suchoptimierung](/es/docs/ai-search-optimization/) verbessert die Katalogerstellung die Qualität von Zitaten und Empfehlungen. Unterstützt für [Agent Engine Optimization](/es/docs/what-is-aeo/) den Übergang von der Empfehlung zur Aktion. Agenten müssen wissen:
+Bei der [KI-Suchoptimierung](/de/docs/ai-search-optimization/) verbessert die Katalogerstellung die Qualität von Zitaten und Empfehlungen. Unterstützt für [Agent Engine Optimization](/de/docs/what-is-aeo/) den Übergang von der Empfehlung zur Aktion. Agenten müssen wissen:
 
 - Was ist das Produkt?
 - Für wen ist es?

@@ -39,7 +39,7 @@ AEO チームは 3 つの質問に答える必要があります。
 
 トラッカーの音量だけでは不十分です。大容量トラッカーは将来的に可視性を生み出す可能性があります。また、帯域幅が消費され、発見、予約、コンバージョンが発生しない可能性もあります。
 
-これは、[AEO SEO の AI Referral Attribution](/es/docs/ai-referral-attribution-seo/)、[2026 年の AI Agent Web Traffic](/es/docs/ai-agent-web-traffic-2026/)、および [Cloudflare AI Crawl Control](/es/docs/cloudflare-ai-crawl-control/) に直接接続します。
+これは、[AEO SEO の AI Referral Attribution](/ja/docs/ai-referral-attribution-seo/)、[2026 年の AI Agent Web Traffic](/ja/docs/ai-agent-web-traffic-2026/)、および [Cloudflare AI Crawl Control](/ja/docs/cloudflare-ai-crawl-control/) に直接接続します。
 
 ## 何を測定するか
 

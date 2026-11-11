@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 90
 category: "Framework"
 description: "MCP stellt Kontext bereit, UCP kümmert sich um die Handelslebenszyklen, ACP ermöglicht den nativen ChatGPT-Checkout. Wie sich die drei Protokolle unterscheiden."
-metaDescription: "Compare MCP, UCP y ACP en el intercambio de contexto, los ciclos de vida del comercio, el pago, el uso de herramientas y cuándo encaja cada protocolo."
 summary: "Im Jahr 2026 werden drei Protokolle die Agenteninfrastruktur dominieren. MCP verbindet Agenten mit Daten. UCP übernimmt den gesamten Handelslebenszyklus. ACP ermöglicht die Zahlung innerhalb von ChatGPT. Hier erfahren Sie, wann Sie die einzelnen Elemente verwenden sollten."
 keywords:
   - "UCP vs. ACP vs. MCP"

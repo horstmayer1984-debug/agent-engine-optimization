@@ -54,7 +54,7 @@ Meta: Taxas de conversão de agentes iguais ou superiores às taxas de conversã
 
 O que mede: A percentagem de interações entre agentes que produzem resultados corretos e como essa percentagem melhora ao longo do tempo.
 
-Esta é uma métrica de qualidade. Alto tráfego de agentes com baixa precisão significa que seus dados estruturados ou endpoints têm problemas que precisam ser corrigidos.Meça através do ciclo de feedback descrito no [guia do ciclo de feedback](/es/docs/agent-feedback-loops/). Registre os resultados, avalie a exatidão e acompanhe a taxa de precisão semanalmente.
+Esta é uma métrica de qualidade. Alto tráfego de agentes com baixa precisão significa que seus dados estruturados ou endpoints têm problemas que precisam ser corrigidos.Meça através do ciclo de feedback descrito no [guia do ciclo de feedback](/pt/docs/agent-feedback-loops/). Registre os resultados, avalie a exatidão e acompanhe a taxa de precisão semanalmente.
 
 A tendência é mais importante do que o número absoluto. Uma taxa de precisão que começa em 70% e chega a 95% em quatro semanas mostra um ciclo saudável. Uma taxa de precisão estagnada em 80% sugere que as soluções não estão atingindo a causa raiz.
 
@@ -84,7 +84,7 @@ Atualize o painel semanalmente. Mensalmente é muito lento para o AEO porque o c
 
 Esses benchmarks mudarão à medida que a adoção aumentar, mas fornecem metas úteis para a implementação inicial.
 
-A [Auditoria de Preparação AEO](/es/docs/audit/) fornece uma avaliação estruturada de onde sua implementação atual é comparada a esses benchmarks.
+A [Auditoria de Preparação AEO](/pt/docs/audit/) fornece uma avaliação estruturada de onde sua implementação atual é comparada a esses benchmarks.
 
 ---
 
@@ -105,7 +105,7 @@ Mais de 40% em 30 dias indica confiança saudável. Abaixo de 20% sugere problem
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
 
 ## Referências primárias
 

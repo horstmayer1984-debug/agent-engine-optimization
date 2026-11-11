@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 52
 category: "Architecture"
 description: "Saiba como os ciclos de feedback dos agentes capturam correções, melhoram a precisão e convertem interações de IA com falha."
-metaDescription: "Aprenda a registrar las interacciones de los agentes, capturar correcciones, medir fallas y crear ciclos de retroalimentación que mejoren los sistemas AEO."
 summary: "Sem ciclos de feedback, um agente que comete um erro o repete para sempre. Este guia aborda a arquitetura de loop de quatro etapas, padrões de implementação e técnicas avançadas, como cadeias de reflexão."
 keywords:
   - "Ciclos de feedback do agente de IA"
@@ -82,7 +81,7 @@ Registre interações, mas nunca revise os logs. Logs sem análise são custos d
 
 Resolva os sintomas em vez das causas. Se os agentes estão constantemente obtendo preços incorretos, a solução é não atualizar o preço em uma página. Trata-se de corrigir o modelo de esquema que gera marcação incorreta em todas as páginas.
 
-O [artigo do plano de controle universal](/es/docs/universal-control-plane/) explica como os ciclos de feedback se integram à arquitetura de governança mais ampla.
+O [artigo do plano de controle universal](/pt/docs/universal-control-plane/) explica como os ciclos de feedback se integram à arquitetura de governança mais ampla.
 
 ---
 
@@ -103,8 +102,8 @@ Uma arquitetura de agente onde o agente avalia sua própria saída, identifica p
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
-* [camada de execução](/es/docs/execution-layer/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
+* [camada de execução](/pt/docs/execution-layer/)
 
 ## Referências primárias
 

@@ -5,7 +5,6 @@ date: 2026-03-19
 weight: 23
 category: "Guide"
 description: "Como o AEO molda o marketing: os agentes de IA selecionam conteúdo, qualificam leads, comparam soluções e impulsionam a descoberta."
-metaDescription: "Vea cómo AEO respalda el marketing mediante la selección de contenido, la calificación de clientes potenciales, comparaciones y descubrimientos legibles."
 summary: "Os agentes de IA consomem conteúdo de marketing antes que ele chegue aos humanos. AEO garante que seu conteúdo seja selecionado, citado e aplicado em fluxos de trabalho de descoberta mediados por agentes."
 keywords:
   - "Marketing AEO"
@@ -24,7 +23,7 @@ Quando um usuário pergunta a um assistente de IA “quais são as estratégias 
 
 O conteúdo selecionado neste processo possui qualidades específicas: escopo claro do tema, declarações explícitas com contexto de apoio, formatação estruturada (títulos que correspondem a consultas prováveis, dados em tabelas, definições em frases independentes) e dicas de atualidade.
 
-É aqui que AEO e GEO se sobrepõem. A diferença é que o OEA também considera se o agente pode agir sobre o conteúdo, e não apenas citá-lo. A comparação [AEO vs. SEO vs. GEO](/es/docs/aeo-vs-seo-vs-geo/) mapeia essa distinção.
+É aqui que AEO e GEO se sobrepõem. A diferença é que o OEA também considera se o agente pode agir sobre o conteúdo, e não apenas citá-lo. A comparação [AEO vs. SEO vs. GEO](/pt/docs/aeo-vs-seo-vs-geo/) mapeia essa distinção.
 
 ## Qualificação de leads por agentes
 
@@ -40,7 +39,7 @@ Seu conteúdo de marketing contribui para sua aparição nessas comparações. S
 
 ## Atualizações de conteúdo e sinais de autoridade
 
-Os agentes avaliam a credibilidade do conteúdo, em parte, pela sua atualidade. Um artigo de 2024 não tem prioridade em relação a um mercado de 2026. Atualizações regulares, datas de publicação visíveis e sinais claros de autoria ajudam o conteúdo a manter a prioridade de seleção. O [Guia de implementação AEO](/es/docs/implement-aeo/) cobre sinais de confiança para a tomada de decisões da máquina, incluindo atualidade, autoria e atribuição de fonte.
+Os agentes avaliam a credibilidade do conteúdo, em parte, pela sua atualidade. Um artigo de 2024 não tem prioridade em relação a um mercado de 2026. Atualizações regulares, datas de publicação visíveis e sinais claros de autoria ajudam o conteúdo a manter a prioridade de seleção. O [Guia de implementação AEO](/pt/docs/implement-aeo/) cobre sinais de confiança para a tomada de decisões da máquina, incluindo atualidade, autoria e atribuição de fonte.
 
 ## Fluxos de trabalho de recomendação e referência
 
@@ -67,7 +66,7 @@ Os agentes desvalorizam conteúdo desatualizado. Datas de publicação visíveis
 
 ## Guias relacionados
 
-* [Guia de otimização do Agent Engine](/es/docs/what-is-aeo/)
+* [Guia de otimização do Agent Engine](/pt/docs/what-is-aeo/)
 
 ## Referências primárias
 

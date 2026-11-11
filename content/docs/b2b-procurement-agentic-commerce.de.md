@@ -29,7 +29,7 @@ Beispiele:
 - Käufe durch Genehmigungsworkflows weiterleiten
 - Überprüfen Sie den Liefer- und Rechnungsstatus
 
-Dies macht B2B zu einem praktischen Weg zur Autonomie der Level 3 und 4 auf den [fünf Ebenen des Agenturhandels](/es/docs/five-levels-agentic-commerce/).
+Dies macht B2B zu einem praktischen Weg zur Autonomie der Level 3 und 4 auf den [fünf Ebenen des Agenturhandels](/de/docs/five-levels-agentic-commerce/).
 
 ## Vorbereitungstisch für Lieferanten
 
@@ -45,7 +45,7 @@ Dies macht B2B zu einem praktischen Weg zur Autonomie der Level 3 und 4 auf den 
 | Zahlungsregeln | Bestell-, Karten-, Rechnungs- oder Stablecoin-Route |
 | Compliance-Ereignisse | Lieferungs- und Ausnahmemanagement |
 
-Der [B2B-SaaS-Einkaufsleitfaden](/es/docs/b2b-saas-procurement/) behandelt den Kauf von Software; Diese Seite wendet das Muster auf umfassendere Akquisitionen an.
+Der [B2B-SaaS-Einkaufsleitfaden](/de/docs/b2b-saas-procurement/) behandelt den Kauf von Software; Diese Seite wendet das Muster auf umfassendere Akquisitionen an.
 
 ## Auswirkungen auf das Protokoll
 
@@ -57,7 +57,7 @@ Beschaffungsagenten benötigen möglicherweise mehrere Standards:
 - A2A zur Koordination von Einkäufern, Lieferanten und Genehmigungsbehörden.
 - Karten- oder Wallet-Netzwerkkontrollen für delegierte Ausgaben
 
-Die Seite [Agent Trading Protocol Interoperability](/es/docs/agentic-commerce-protocol-interoperability/) bildet diese Teile ab.
+Die Seite [Agent Trading Protocol Interoperability](/de/docs/agentic-commerce-protocol-interoperability/) bildet diese Teile ab.
 
 ## Welche Anbieter veröffentlichen müssen
 
@@ -74,7 +74,7 @@ Anbieter müssen die Analyse folgender Punkte ermöglichen:
 - Rechnungs- und Zahlungsoptionen
 - Stornierungsregeln
 
-Bei der [Agent Engine Optimization](/es/docs/what-is-aeo/) wird dadurch die Website eines Anbieters zu einem System, das Agenten bewerten können, und nicht nur zu einer Broschüre.
+Bei der [Agent Engine Optimization](/de/docs/what-is-aeo/) wird dadurch die Website eines Anbieters zu einem System, das Agenten bewerten können, und nicht nur zu einer Broschüre.
 
 ## Risiken
 

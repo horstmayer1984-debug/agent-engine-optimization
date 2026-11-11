@@ -25,7 +25,7 @@ Em uma configuração headless, o back-end do negócio se torna o mecanismo. Uma
 
 A API Storefront do Shopify é um exemplo oficial. Shopify afirma que permite experiências de compra personalizadas na web, aplicativos e jogos, incluindo navegação de produtos, carrinhos e fluxos relacionados ao checkout.
 
-Para um padrão de arquitetura mais amplo, leia [O que é software headless?](/es/docs/what-is-headless-software/).
+Para um padrão de arquitetura mais amplo, leia [O que é software headless?](/pt/docs/what-is-headless-software/).
 
 ## Por que as marcas escolhem o comércio sem cabeça?
 
@@ -75,7 +75,7 @@ Requisitos mínimos de SEO:
 - imagens otimizadas com texto alternativo
 - carregamento rápido e design estávelSe uma loja headless carregar todo o conteúdo do produto após o JavaScript do lado do cliente, os mecanismos de pesquisa e de resposta poderão ver menos do que os usuários veem. Isso é especialmente arriscado para consultas de produtos de cauda longa.
 
-Para o contexto da camada de execução, consulte [Protocolos de Agente AI](/es/docs/protocols/) e [Pagamentos de Agente x402](/es/docs/x402-agent-payments/).
+Para o contexto da camada de execução, consulte [Protocolos de Agente AI](/pt/docs/protocols/) e [Pagamentos de Agente x402](/pt/docs/x402-agent-payments/).
 
 ## O pagamento é a parte sensível
 
@@ -83,7 +83,7 @@ O processo de pagamento é onde os projetos headless geralmente ficam caros. Iss
 
 Muitas marcas mantêm o checkout nativo da plataforma e customizam o restante da vitrine. Muitas vezes, isso é mais seguro do que reconstruir toda a experiência de checkout.
 
-A negociação de agentes aumenta ainda mais os riscos. Se um agente de IA puder adicionar itens a um carrinho ou pagar por um recurso, o site deverá publicar regras explícitas para preços, autorização, devoluções e verificação. É aqui que o comércio sem cabeça começa a se sobrepor ao [Protocolos de pagamento de agente comparados] (/es/docs/agent-payment-protocols-compared/).
+A negociação de agentes aumenta ainda mais os riscos. Se um agente de IA puder adicionar itens a um carrinho ou pagar por um recurso, o site deverá publicar regras explícitas para preços, autorização, devoluções e verificação. É aqui que o comércio sem cabeça começa a se sobrepor ao [Protocolos de pagamento de agente comparados](/pt/docs/agent-payment-protocols-compared/).
 
 ## Shopify sem cabeça e WooCommerce sem cabeça
 

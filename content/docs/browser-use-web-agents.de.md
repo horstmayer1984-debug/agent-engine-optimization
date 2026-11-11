@@ -21,7 +21,7 @@ Die Browsernutzung ist für AEO wichtig, da sie ein schnell wachsendes Muster da
 
 Das GitHub-Plugin erschien [browser-use/browser-use](https://github.com/browser-use/browser-use) bei Browser-Agent-Suchen. Die am 28. Juni 2026 überprüften GitHub-Metadaten zeigten über 100.000 Sterne, was es zu einem der sichtbarsten Open-Source-Browser-Agent-Projekte macht.
 
-Die Positionierung des Repositorys ist einfach: Websites für KI-Agenten zugänglich machen. Dies ist direkt auf [Agent UX und Human-in-the-Loop-Design] (/es/docs/agent-ux-human-in-the-loop/) und [Lighthouse Agentic Browsing Audit] (/es/docs/lighthouse-agentic-browsing-audit/) zurückzuführen.
+Die Positionierung des Repositorys ist einfach: Websites für KI-Agenten zugänglich machen. Dies ist direkt auf [Agent UX und Human-in-the-Loop-Design](/de/docs/agent-ux-human-in-the-loop/) und [Lighthouse Agentic Browsing Audit](/de/docs/lighthouse-agentic-browsing-audit/) zurückzuführen.
 
 ## Was Browser-Agenten über Websites verraten
 
@@ -48,7 +48,7 @@ Die beste Lösung ist normalerweise normale UX-Disziplin, ausgedrückt in einem 
 6. Für Käufe und Kontoänderungen ist eine menschliche Genehmigung erforderlich.
 7. Registrieren Sie agentenähnliche Sitzungen getrennt von normalen menschlichen Sitzungen.
 
-Technische Informationen finden Sie unter [Headless Browser Automation](/es/docs/headless-browser-automation/) und [Chrome WebMCP Origin Testing Checklist](/es/docs/chrome-webmcp-origin-trial/).
+Technische Informationen finden Sie unter [Headless Browser Automation](/de/docs/headless-browser-automation/) und [Chrome WebMCP Origin Testing Checklist](/de/docs/chrome-webmcp-origin-trial/).
 
 ## Browsernutzung vs. WebMCP
 

@@ -62,7 +62,7 @@ Für AEO ist die Lektion umfassender: Wenn eine Maschine entscheiden muss, ob Ih
 | Agentenkarte | Deklarieren Sie die Fähigkeiten eines Agenten für die Peer-to-Peer-Interaktion |
 | OpenAPI- oder MCP-Schema | Aufrufbare Operationen beschreiben |
 
-Der [llms.txt-Leitfaden](/es/docs/programming-llms-txt/), der [Agentenkarten-Leitfaden](/es/docs/agent-cards-a2a-protocol/) und der [MCP vs. API-Leitfaden](/es/docs/mcp-vs-api-for-agents/) decken die benachbarten Ebenen ab.
+Der [llms.txt-Leitfaden](/de/docs/programming-llms-txt/), der [Agentenkarten-Leitfaden](/de/docs/agent-cards-a2a-protocol/) und der [MCP vs. API-Leitfaden](/de/docs/mcp-vs-api-for-agents/) decken die benachbarten Ebenen ab.
 
 ## Was sollten Server-Redakteure vorbereiten?
 
@@ -80,7 +80,7 @@ Drittens Dokumentauthentifizierung und Umgebungsvariablen.
 
 Aus MCP-Dokumenten geht hervor, dass sich die Registry in der Vorschau befindet und sich vor der allgemeinen Verfügbarkeit ändern kann. Das bedeutet, dass Teams es nutzen, daraus lernen und hartcodierte Annahmen vermeiden sollten, deren Rückgängigmachung später kostspielig wäre.
 
-Auch hier ist der [MCP-Autorisierungsleitfaden](/es/docs/mcp-authorization-oauth-ai-agents/) wichtig: Die Erkennung sollte niemals die Zugriffskontrolle überwinden.
+Auch hier ist der [MCP-Autorisierungsleitfaden](/de/docs/mcp-authorization-oauth-ai-agents/) wichtig: Die Erkennung sollte niemals die Zugriffskontrolle überwinden.
 
 ## Häufig gestellte Fragen
 

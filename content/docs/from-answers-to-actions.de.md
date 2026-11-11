@@ -17,11 +17,11 @@ Die nächste Änderung in der KI-Suche ist der Übergang von Antworten zu Aktion
 
 Die erste Phase war die Suche. Benutzer gaben Suchanfragen ein, scannten Ergebnisse und klickten auf Links. SEO hat dazu beigetragen, Websites auffindbar zu machen.
 
-Die zweite Phase sind die Antworten. Nutzer stellen Fragen und erwarten direkte Erklärungen. [Response Engine Optimization](/es/docs/answer-engine-optimization/) und [GEO](/es/docs/generative-engine-optimization/) reagieren auf diese Änderung.
+Die zweite Phase sind die Antworten. Nutzer stellen Fragen und erwarten direkte Erklärungen. [Response Engine Optimization](/de/docs/answer-engine-optimization/) und [GEO](/de/docs/generative-engine-optimization/) reagieren auf diese Änderung.
 
 Die dritte Phase ist Agent. Benutzer delegieren Ergebnisse. „Finden Sie den besten Lieferanten und fordern Sie Angebote an.“ „Buchen Sie ein Hotel, das diesen Einschränkungen entspricht.“ „Vergleichen Sie Versicherungen und empfehlen Sie eine.“
 
-In diesen Fällen reicht eine Antwort nicht aus. Das KI-System muss mit der digitalen Infrastruktur interagieren. Deshalb ist [Agent Engine Optimization](/es/docs/what-is-aeo/) wichtig.
+In diesen Fällen reicht eine Antwort nicht aus. Das KI-System muss mit der digitalen Infrastruktur interagieren. Deshalb ist [Agent Engine Optimization](/de/docs/what-is-aeo/) wichtig.
 
 ## Warum Inhalte allein nicht ausreichen
 
@@ -31,7 +31,7 @@ Inhalte können ein Produkt erklären. Möglicherweise schließen Sie eine Trans
 
 Die meisten Marken legen Wert auf Sichtbarkeit. Der Wettbewerbsvorteil liegt bei Marken, die für Agenten einfach zu verwenden sind. Wenn zwei Unternehmen gleichermaßen sichtbar sind, bevorzugt der Agent das Unternehmen mit klareren Daten, weniger Fehlern und sichereren Arbeitsabläufen.
 
-Die [Delegationsökonomie](/es/docs/delegation-economy-agent-autonomy/) erklärt die fünf Ebenen der Autonomie der Agenten, die diesen Übergang vorantreiben.
+Die [Delegationsökonomie](/de/docs/delegation-economy-agent-autonomy/) erklärt die fünf Ebenen der Autonomie der Agenten, die diesen Übergang vorantreiben.
 
 ---
 

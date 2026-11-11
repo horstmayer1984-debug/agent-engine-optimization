@@ -22,7 +22,7 @@ Die offizielle [Model Context Protocol Sampling Specification] (https://modelcon
 
 Das klingt abstrakt, deshalb hier die einfache Version: Ein Tool-Server kann den KI-Client des Benutzers auffordern, im Rahmen eines Tool-Flows Text zu denken, zusammenzufassen, zu sortieren oder zu generieren.
 
-Für einen breiteren Kontext siehe [MCP vs. Agent-APIs](/es/docs/mcp-vs-api-for-agents/), [MCP-Autorisierung mit OAuth](/es/docs/mcp-authorization-oauth-ai-agents/) und [MCP-Anwendungen](/es/docs/mcp-apps-guide/).
+Für einen breiteren Kontext siehe [MCP vs. Agent-APIs](/de/docs/mcp-vs-api-for-agents/), [MCP-Autorisierung mit OAuth](/de/docs/mcp-authorization-oauth-ai-agents/) und [MCP-Anwendungen](/de/docs/mcp-apps-guide/).
 
 ## Warum Sampling existiert
 
@@ -76,7 +76,7 @@ Das ist eine ernsthafte Forderung. Andernfalls kann das Sampling zu einem verste
 | Falsche Ausgabe | Die generierte Antwort ist möglicherweise ungenau | Überprüfung vor der endgültigen Lieferung |
 | Serverüberschreitung | Der Server fordert möglicherweise unnötige Modellarbeit an | Erfordern explizite Funktionsunterstützung |
 
-Der Leitfaden [Agent Observability Guardrails](/es/docs/agent-observability-guardrails/) erweitert diese Governance-Ebene.
+Der Leitfaden [Agent Observability Guardrails](/de/docs/agent-observability-guardrails/) erweitert diese Governance-Ebene.
 
 ## AEO-Auswirkungen
 
@@ -91,7 +91,7 @@ Für Website-Betreiber bedeutet das:
 - Quellseiten der Wahrheit dokumentieren
 - Bereitstellung stabiler Identifikatoren für Entitäten und Aktionen
 
-Das [AEO-Entwicklerhandbuch](/es/docs/developers-guide-aeo/) ist der natürliche nächste Schritt.
+Das [AEO-Entwicklerhandbuch](/de/docs/developers-guide-aeo/) ist der natürliche nächste Schritt.
 
 ## Häufig gestellte Fragen
 

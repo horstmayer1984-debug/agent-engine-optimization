@@ -40,7 +40,7 @@ HTTP já possui um código de status para o pagamento exigido: `402`. x402 forne
 
 Esse fluxo é mais fácil para os agentes do que uma tela de checkout humana. Um agente não pode interpretar com segurança todas as páginas de preços, pop-ups, paredes de login e formulários de cartão. Pode funcionar com um protocolo claro.
 
-Isso amplia a lógica abordada em [Pagamentos de agente x402](/es/docs/x402-agent-payments/), [x402 vs ACP vs MPP](/es/docs/x402-vs-acp-vs-mpp/) e [Protocolos de pagamento de agente comparados](/es/docs/agent-payment-protocols-compared/).
+Isso amplia a lógica abordada em [Pagamentos de agente x402](/pt/docs/x402-agent-payments/), [x402 vs ACP vs MPP](/pt/docs/x402-vs-acp-vs-mpp/) e [Protocolos de pagamento de agente comparados](/pt/docs/agent-payment-protocols-compared/).
 
 ## Onde isso afeta o AEO?
 
@@ -77,7 +77,7 @@ AEO ainda começa com capacidade de descoberta. Se um agente não conseguir enco
 | Preços | O preço por solicitação pode não corresponder ao valor do usuário |
 | Indexação | Conteúdo totalmente privado pode perder visibilidade de pesquisa e resposta |
 
-Use [Mecanismos de política de agente comercial](/es/docs/merchant-agent-policy-engine/) para entender as regras sobre quem pode comprar ou acessar o quê.
+Use [Mecanismos de política de agente comercial](/pt/docs/merchant-agent-policy-engine/) para entender as regras sobre quem pode comprar ou acessar o quê.
 
 ## Perguntas frequentes
 

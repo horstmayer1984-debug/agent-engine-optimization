@@ -22,7 +22,7 @@ In vielen herkömmlichen CMS-Plattformen sind Bildfelder, Alternativtext und Med
 
 Dadurch entsteht ein praktisches Problem: Ein Bild kann in der Ressourcenbibliothek generischen Alternativtext enthalten, aber verschiedene Seiten benötigen je nach Kontext möglicherweise unterschiedliche Alternativtexte.
 
-Weitere technische Anforderungen finden Sie unter [Headless CMS SEO](/es/docs/headless-cms-seo/) und [Headless SEO](/es/docs/headless-seo/).
+Weitere technische Anforderungen finden Sie unter [Headless CMS SEO](/de/docs/headless-cms-seo/) und [Headless SEO](/de/docs/headless-seo/).
 
 ## Zu modellierende Bildfelder
 
@@ -85,7 +85,7 @@ Headless CMS-Image-Pipelines verwenden normalerweise ein Image-CDN. Dies kann si
 
 ## Strukturierte Daten und ProduktbilderFür Produktseiten, Rezepte, Artikel und Software können Bildfelder strukturierte Daten liefern. Das Schema muss mit dem sichtbaren Inhalt übereinstimmen und auf crawlbare Bild-URLs verweisen.
 
-Dies ist besonders wichtig für [KI-Einkauf und strukturierte Produktdaten] (/es/docs/product-structured-data-ai-shopping/) und [Agent Engine Optimization] (/es/docs/what-is-aeo/).
+Dies ist besonders wichtig für [KI-Einkauf und strukturierte Produktdaten](/de/docs/product-structured-data-ai-shopping/) und [Agent Engine Optimization](/de/docs/what-is-aeo/).
 
 ## Häufig gestellte Fragen
 

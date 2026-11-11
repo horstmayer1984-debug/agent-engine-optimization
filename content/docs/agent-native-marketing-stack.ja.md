@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 43
 category: "Architecture"
 description: "オーケストレーション、メモリ、ツール統合、アトリビューション、システムなど、エージェントのネイティブ マーケティング スタックをマッピングします。"
-metaDescription: "Vea la pila de marketing nativo de agentes, desde modelos y orquestación hasta memoria, herramientas, patrones de implementación, medición y gobernanza."
 summary: "ネイティブ エージェント マーケティングは、手動キャンペーンを自律的なマルチエージェント チームに置き換えます。このガイドでは、モデル、オーケストレーション、メモリ、ツール、実装などのテクノロジー スタックを正確に説明します。"
 keywords:
   - "エージェント向けのネイティブ マーケティング プラットフォーム"
@@ -87,7 +86,7 @@ Writer: メモリ層に保存されたブランド ガイドラインに従っ�
 
 アプリケーション フレームワークとしての FastAPI。オーケストレーション用の LangGraph。 Groq がホストする呼び出しには、高パフォーマンスのタスクが必要です。構造化データストレージ用の Supabase。視覚的なワークフロー管理とシンプルな自動化のためのセルフホスト型 N8n。このスタックは、小規模および中規模のキャンペーン量を処理します。キャンペーンの複雑さと予算に見合った投資に応じて、完全なスイートに拡張できます。
 
-[AEO コンテンツ戦略の記事](/es/docs/aeo-content-strategy/) では、これらのエージェントが作成するコンテンツを人間の読者と AI 抽出の両方に合わせてどのように構成する必要があるかについて説明しています。
+[AEO コンテンツ戦略の記事](/ja/docs/aeo-content-strategy/) では、これらのエージェントが作成するコンテンツを人間の読者と AI 抽出の両方に合わせてどのように構成する必要があるかについて説明しています。
 
 ---
 
@@ -108,8 +107,8 @@ Writer: メモリ層に保存されたブランド ガイドラインに従っ�
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)
-* [実行層](/es/docs/execution-layer/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)
+* [実行層](/ja/docs/execution-layer/)
 
 ## 主な参考文献
 

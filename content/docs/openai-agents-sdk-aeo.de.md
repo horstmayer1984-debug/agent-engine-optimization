@@ -23,7 +23,7 @@ Das GitHub-Plugin erschien [openai/openai-agents-python](https://github.com/open
 
 Diese Beliebtheit ist hilfreich, aber der SEO-Aspekt lautet nicht: „Was ist das SDK?“ Der beste Aspekt ist: Was sollten Websites offenlegen, damit vom SDK erstellte Agenten sie sicher verwenden können?
 
-Dies stellt eine direkte Verbindung zu [der Ausführungsschicht](/es/docs/execution-layer/), [UX- und AEO-SEO-Agent](/es/docs/agent-ux-aeo-seo/) und [So implementieren Sie AEO](/es/docs/implement-aeo/) her.
+Dies stellt eine direkte Verbindung zu [der Ausführungsschicht](/de/docs/execution-layer/), [UX- und AEO-SEO-Agent](/de/docs/agent-ux-aeo-seo/) und [So implementieren Sie AEO](/de/docs/implement-aeo/) her.
 
 ##AEO-Lektionen aus dem Agent SDK Design
 
@@ -66,7 +66,7 @@ Für jede Aktion müssen Eingaben, Ausgaben, zulässige Zustände und Fehlerbeha
 | Werkzeugaufrufprotokolle aufzeichnen | Teams müssen das Agentenverhalten debuggen und prüfen. |
 | Öffentliche Dokumente auf dem neuesten Stand halten | Agenten folgen veralteten Dokumenten, genau wie Menschen. |
 
-Kombinieren Sie dies für API-orientiertes Arbeiten mit [MCP vs. Agent API](/es/docs/mcp-vs-api-for-agents/) und [MCP-Ressourcen vs. Tools vs. Eingabeaufforderungen](/es/docs/mcp-resources-tools-prompts/).
+Kombinieren Sie dies für API-orientiertes Arbeiten mit [MCP vs. Agent API](/de/docs/mcp-vs-api-for-agents/) und [MCP-Ressourcen vs. Tools vs. Eingabeaufforderungen](/de/docs/mcp-resources-tools-prompts/).
 
 ## Häufig gestellte Fragen
 

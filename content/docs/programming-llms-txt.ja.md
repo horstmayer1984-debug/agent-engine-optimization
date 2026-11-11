@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 62
 category: "Guide"
 description: "llms.txt は、最もシンプルで最も機能的なエージェント検出メカニズムです。正確な構造、コンテンツ ルール、大規模サイトの動的生成 e."
-metaDescription: "Aprenda a escribir llms.txt para agentes de IA, incluida la estructura, las reglas de contenido, la generación dinámica y la integración de esquemas."
 summary: "llms.txt は、サイトが提供するものとその操作方法を AI エージェントに伝えます。このガイドでは、正確な書式設定、コンテンツ ルール、よくある間違い、および大規模なサイト向けに書式を動的に生成する方法について説明します。"
 keywords:
   - "ガイド llms.txt"
@@ -103,8 +102,8 @@ llms.txt をマーケティング テキストとして記述します。エー�
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)
-* [実行層](/es/docs/execution-layer/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)
+* [実行層](/ja/docs/execution-layer/)
 
 ## 主な参考文献* [生成 AI 機能に関する Google ガイド](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
 * [Google 検索の基本](https://developers.google.com/search/docs/essentials)

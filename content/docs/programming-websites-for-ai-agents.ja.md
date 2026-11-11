@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 60
 category: "Architecture"
 description: "llms.txt、OpenAPI 仕様、MCP エンドポイント、セマンティック HTML、およびエージェント カードを使用して、エージェント用の Web サイトを準備します。サンドボックス機能が含まれます。"
-metaDescription: "Prepare los sitios web para agentes con llms.txt, OpenAPI, puntos finales MCP, HTML semántico, tarjetas de agente y patrones seguros para producción."
 summary: "Web サイトは、検出用の llms.txt、エージェント向けの説明を含む OpenAPI 仕様、動的ツール アクセス用の MCP サーバー、抽出用のセマンティック HTML、A2A コラボレーション用のエージェント カードを追加することでエージェント対応になります。"
 keywords:
   - "AI エージェント向けの Web サイト プログラミング。"
@@ -25,7 +24,7 @@ Web サイトは、明確な REST API、llms.txt、MCP エンドポイント、�
 
 エージェントはサイト全体をクロールする前に、llms.txt を探します。サイトにそれがない場合、エージェントは何が利用可能かを推測する必要があります。明確で最新の llms.txt が含まれるサイトは、より迅速に発見され、より正確に理解されます。
 
-常に最新の状態に保ってください。存在しなくなったエンドポイントを説明する llms.txt は、llms.txt がまったく存在しない場合よりも信頼を損ないます。 [llms.txt プログラミング ガイド](/es/docs/programming-llms-txt/) では、この形式について詳しく説明しています。
+常に最新の状態に保ってください。存在しなくなったエンドポイントを説明する llms.txt は、llms.txt がまったく存在しない場合よりも信頼を損ないます。 [llms.txt プログラミング ガイド](/ja/docs/programming-llms-txt/) では、この形式について詳しく説明しています。
 
 ## 2. エージェントにわかりやすい説明を含む OpenAPI 仕様を作成する
 

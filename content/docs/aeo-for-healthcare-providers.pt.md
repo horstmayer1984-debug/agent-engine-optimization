@@ -22,7 +22,7 @@ O conteúdo de saúde tem um nível de confiança mais alto do que a maioria do 
 
 Isso faz com que o AEO da área de saúde tenha menos a ver com automação agressiva e mais com estrutura segura. O site deve informar aos agentes exatamente o que eles podem ler, o que podem fazer e quando a revisão humana é necessária.
 
-O [guia sobre o que é AEO](/es/docs/what-is-aeo/) explica a estrutura geral. Os prestadores de cuidados de saúde devem tratar essa estrutura como uma camada de governação, e não apenas como uma tática de SEO.
+O [guia sobre o que é AEO](/pt/docs/what-is-aeo/) explica a estrutura geral. Os prestadores de cuidados de saúde devem tratar essa estrutura como uma camada de governação, e não apenas como uma tática de SEO.
 
 ##Tarefas do agente que os sites de saúde podem oferecer suporte
 
@@ -56,7 +56,7 @@ Cada página de serviço deve incluir:
 
 Evite enterrar essas informações em folhetos ou arquivos PDF longos. Os arquivos PDF podem ser úteis para os pacientes, mas os agentes precisam de HTML conciso com títulos claros e URLs estáveis.
 
-O [guia de implementação](/es/docs/implement-aeo/) cobre a lista de verificação em nível de site para HTML estruturado, esquema, `llms.txt` e links internos.
+O [guia de implementação](/pt/docs/implement-aeo/) cobre a lista de verificação em nível de site para HTML estruturado, esquema, `llms.txt` e links internos.
 
 ## Requisitos da camada de execução
 
@@ -92,7 +92,7 @@ Para o AEO, os sinais práticos de confiança são:
 - Namoro e fluxos de contato com privacidade segura
 - Limites legíveis por máquina sobre o que os agentes podem fazer
 
-A [Auditoria de Prontidão AEO](/es/docs/audit/) pode ser usada para verificar se esses sinais são visíveis tanto para humanos quanto para agentes.
+A [Auditoria de Prontidão AEO](/pt/docs/audit/) pode ser usada para verificar se esses sinais são visíveis tanto para humanos quanto para agentes.
 
 ## Exemplo de implementação
 

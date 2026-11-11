@@ -16,7 +16,7 @@ Este site é um centro de pesquisa e recurso estratégico para Agent Engine Opti
 
 ## O que este site cobre
 
-O foco principal é a distinção entre a camada de leitura (conteúdo que os sistemas de IA podem encontrar e citar) e a [camada de execução](/es/docs/execution-layer/) (infraestrutura através da qual os agentes de IA podem atuar). A maior parte do que o mercado chama hoje de AEO aborda a camada de leitura. Este site cobre ambos, com particular profundidade na camada de execução que a maioria dos recursos ignora.
+O foco principal é a distinção entre a camada de leitura (conteúdo que os sistemas de IA podem encontrar e citar) e a [camada de execução](/pt/docs/execution-layer/) (infraestrutura através da qual os agentes de IA podem atuar). A maior parte do que o mercado chama hoje de AEO aborda a camada de leitura. Este site cobre ambos, com particular profundidade na camada de execução que a maioria dos recursos ignora.
 
 Os tópicos incluem estruturas e metodologia AEO, análise de protocolo (UCP, MCP, A2A, AP2), estratégias AEO específicas do setor para comércio eletrônico, SaaS B2B, suporte e marketing, guias de implementação técnica e análise de mercado de agentes web.
 
@@ -36,5 +36,5 @@ Para consultas de auditoria, colaboração ou dúvidas, entre em contato atravé
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
-* [protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
+* [protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/)

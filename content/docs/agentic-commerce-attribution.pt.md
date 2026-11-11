@@ -23,7 +23,7 @@ A análise clássica de comércio eletrônico pressupõe que o comprador clica e
 
 A pesquisa comercial do PayPal observa que as empresas estão se preparando para sistemas de inteligência artificial que influenciam a descoberta antes que o comprador chegue ao site. O Google também enquadra o UCP e o Universal Cart como infraestrutura para o comércio de agentes nas superfícies do Google.
 
-É por isso que a [medição AEO](/es/docs/aeo-kpis-measurement/) precisa de mais do que classificações e cliques.
+É por isso que a [medição AEO](/pt/docs/aeo-kpis-measurement/) precisa de mais do que classificações e cliques.
 
 ## O que os comerciantes devem atribuir
 
@@ -39,7 +39,7 @@ A pesquisa comercial do PayPal observa que as empresas estão se preparando para
 | Referência de comando ou autorização | Links com intenção de pagamento quando suportado |
 | Resultado de conformidade | Conecte transações de origem do agente com entregas e devoluções |
 
-O modelo [cinco níveis de comércio de agentes](/es/docs/five-levels-agentic-commerce/) é útil porque a maturidade da atribuição muda em cada nível.
+O modelo [cinco níveis de comércio de agentes](/pt/docs/five-levels-agentic-commerce/) é útil porque a maturidade da atribuição muda em cada nível.
 
 ## O problema UTM
 
@@ -69,7 +69,7 @@ Isso está mais próximo do rastreamento de transações do que do rastreamento 
 | Conclusão do pagamento do agente | Se a transferência ou pagamento nativo funcionar |
 | Taxa de rejeição de políticas | Se as políticas bloquearem as transações do agente || Taxa de exceção pós-compra | Se pedidos provenientes de agentes causarem mais reembolsos ou problemas de suporte |
 
-Vincule essas métricas à [camada de execução](/es/docs/execution-layer/), não apenas aos relatórios de conteúdo.
+Vincule essas métricas à [camada de execução](/pt/docs/execution-layer/), não apenas aos relatórios de conteúdo.
 
 ## Lista de verificação de implantação1. Preservar o rastreamento de referência normal e UTM.
 2. Adicione nomes de eventos de origem ao agente em análise.
@@ -79,7 +79,7 @@ Vincule essas métricas à [camada de execução](/es/docs/execution-layer/), n�
 6. Rastreie erros de pagamento separadamente para sessões de origem do agente.
 7. Conecte dados de pedidos, reembolsos e suporte ao contexto de origem.
 
-O [Guia do Protocolo de Negociação Universal](/es/docs/universal-commerce-protocol/) explica onde a negociação pode se encaixar no contexto da negociação.
+O [Guia do Protocolo de Negociação Universal](/pt/docs/universal-commerce-protocol/) explica onde a negociação pode se encaixar no contexto da negociação.
 
 ## Perguntas frequentes
 

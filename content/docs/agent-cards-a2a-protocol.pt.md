@@ -82,7 +82,7 @@ Para a maioria dos sites, o sandbox se torna relevante quando você expõe endpo
 | O melhor para | Execução direta de ferramentas | Fluxos de trabalho colaborativos em várias etapas |
 | Sua implementação | Servidor JSON-RPC | Terminais de tarefa mais cartão de agente |
 
-Ambos os protocolos se complementam. O MCP lida com as ferramentas. A2A lida com a colaboração entre agentes usando essas ferramentas. O [artigo multiagente AEO](/es/docs/multi-agent-aeo/) explica como os fluxos de trabalho orquestrados dependem desses protocolos. O [guia MCP vs API](/es/docs/mcp-vs-api-for-agents/) cobre detalhadamente a camada de acesso à ferramenta.
+Ambos os protocolos se complementam. O MCP lida com as ferramentas. A2A lida com a colaboração entre agentes usando essas ferramentas. O [artigo multiagente AEO](/pt/docs/multi-agent-aeo/) explica como os fluxos de trabalho orquestrados dependem desses protocolos. O [guia MCP vs API](/pt/docs/mcp-vs-api-for-agents/) cobre detalhadamente a camada de acesso à ferramenta.
 
 ---
 
@@ -103,7 +103,7 @@ Sim, via llms.txt, marcação de esquema ou rastreamento direto de página. Um c
 **A2A é apenas para grandes empresas?**
 Qualquer site que exiba ações do corretor pode gerar lucros A2A. Mesmo um pequeno serviço com um endpoint de reserva pode participar de fluxos de trabalho multiagentes por meio de um simples cartão de agente e um endpoint de tarefa.## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

@@ -39,7 +39,7 @@ Os relatórios clássicos de SEO costumam perguntar: “Ainda estamos classifica
 | As visões gerais da IA ​​apareceram? | A seguinte ação do usuário ocorreu sem clicar? |
 | Estamos convocados? | Somos citados pelo modo ou superfície que os compradores realmente utilizam? |
 
-É por isso que [AEO SEO](/es/docs/aeo-seo/) precisa de métricas de pesquisa e de mecanismo de resposta.
+É por isso que [AEO SEO](/pt/docs/aeo-seo/) precisa de métricas de pesquisa e de mecanismo de resposta.
 
 ## O que medir por grupo de consulta
 
@@ -54,7 +54,7 @@ Os relatórios clássicos de SEO costumam perguntar: “Ainda estamos classifica
 | Suporte | Atualizações de documentos, páginas de solução de problemas, citações de fóruns |
 | Transacional | Ações legíveis pelo agente, processo de pagamento ou reserva |
 
-Para comércio eletrônico, combine isso com [AEO SEO para comércio eletrônico](/es/docs/aeo-seo-for-ecommerce/) e [Dados estruturados de produtos para agentes de compras de IA](/es/docs/product-structured-data-ai-shopping/).
+Para comércio eletrônico, combine isso com [AEO SEO para comércio eletrônico](/pt/docs/aeo-seo-for-ecommerce/) e [Dados estruturados de produtos para agentes de compras de IA](/pt/docs/product-structured-data-ai-shopping/).
 
 ## Um processo prático de auditoria
 
@@ -65,7 +65,7 @@ Para comércio eletrônico, combine isso com [AEO SEO para comércio eletrônico
 6. Rastreie a presença de citações, URLs de origem e precisão das respostas.
 7. Atualize páginas que ainda têm demanda, mas baixa visibilidade de fontes de IA.
 
-Use [KPIs e medições de AEO](/es/docs/aeo-kpis-measurement/) para a camada de relatórios.
+Use [KPIs e medições de AEO](/pt/docs/aeo-kpis-measurement/) para a camada de relatórios.
 
 ## Implicações da estratégia de conteúdoA redistribuição de demanda recompensa sites que cobrem tarefas, não apenas palavras-chave. Se uma consulta informativa perder cliques, as consultas relacionadas a decisões e implementação poderão aumentar. A resposta não é publicar guias mais genéricos. A resposta é construir um cluster mais forte:
 

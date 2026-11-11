@@ -22,7 +22,7 @@ Stellen Sie sich ein herkömmliches CMS als ein einziges Paket vor: Editor, Them
 
 Stellen Sie sich ein Headless-CMS als Content-Backend vor: Eingaben, Felder, Assets, Workflows, Rollen und APIs. Die Website wird separat erstellt.
 
-Die bestehende Seite [Headless CMS vs Traditional CMS](/es/docs/headless-cms-vs-traditional-cms/) ist ausführlicher. Diese Seite richtet sich an Teams, die zunächst eine einfache Antwort auf Entscheidungsebene wünschen.
+Die bestehende Seite [Headless CMS vs Traditional CMS](/de/docs/headless-cms-vs-traditional-cms/) ist ausführlicher. Diese Seite richtet sich an Teams, die zunächst eine einfache Antwort auf Entscheidungsebene wünschen.
 
 ## Vergleich von CMS und Headless CMS
 
@@ -62,7 +62,7 @@ Das Risiko ist unterschiedlich. Herkömmliche CMS-Sites leiden oft unter einer �
 
 ##KI-Optimierungsunterschied
 
-Bei [KI-Suchoptimierung](/es/docs/ai-search-optimization/) und [AEO](/es/docs/what-is-aeo/) kann eine Headless-Architektur hilfreich sein, da der Inhalt an der Quelle strukturiert wird. Ein Produkt, ein Artikel, eine FAQ oder ein Autorenprofil können als Felder gespeichert und in HTML, API-Antworten, Anwendungen und maschinenlesbaren Indizes wiederverwendet werden.
+Bei [KI-Suchoptimierung](/de/docs/ai-search-optimization/) und [AEO](/de/docs/what-is-aeo/) kann eine Headless-Architektur hilfreich sein, da der Inhalt an der Quelle strukturiert wird. Ein Produkt, ein Artikel, eine FAQ oder ein Autorenprofil können als Felder gespeichert und in HTML, API-Antworten, Anwendungen und maschinenlesbaren Indizes wiederverwendet werden.
 
 Aber KI-Systeme benötigen weiterhin crawlbare Seiten, klare Definitionen, Quelllinks und interne Links. Ein Headless-CMS ist keine Abkürzung, wenn es um die Qualität von Inhalten geht.
 
@@ -85,7 +85,7 @@ Wählen Sie ein Headless-CMS, wenn:
 - Komponentenleistungs- und Steuerungsproblem
 - Inhalte müssen in strukturierte Daten umgewandelt werden
 - Entwickler können den Stack verwalten
-– KI-Agenten und Antwort-Engines benötigen saubere InhaltsoberflächenFür Implementierungsdetails verwenden Sie [Headless CMS SEO](/es/docs/headless-cms-seo/) und [Headless SEO](/es/docs/headless-seo/).
+– KI-Agenten und Antwort-Engines benötigen saubere InhaltsoberflächenFür Implementierungsdetails verwenden Sie [Headless CMS SEO](/de/docs/headless-cms-seo/) und [Headless SEO](/de/docs/headless-seo/).
 
 ## Häufig gestellte Fragen
 

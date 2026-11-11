@@ -30,7 +30,7 @@ Beispielsweise muss ein Agent möglicherweise Folgendes tun:
 - Treuevorteile anwenden
 - Überprüfen Sie, ob ein Abonnement gestartet wurde
 
-Dies ist das Verhalten der Ausführungsschicht. Es gehört zusammen mit [Ausführung des Agentenhandels](/es/docs/agentic-commerce-execution/) und [Die 5 Ebenen des Agentenhandels](/es/docs/five-levels-agentic-commerce/).
+Dies ist das Verhalten der Ausführungsschicht. Es gehört zusammen mit [Ausführung des Agentenhandels](/de/docs/agentic-commerce-execution/) und [Die 5 Ebenen des Agentenhandels](/de/docs/five-levels-agentic-commerce/).
 
 ## Ereignisse nach dem Kauf, die Agenten benötigen
 
@@ -64,7 +64,7 @@ Das ist wichtig, denn Agenten benötigen mehr als nur eine Quittung. Sie brauche
 7. Protokollieren Sie Agentenerstellungsauftragsereignisse für Supportteams.
 8. Stellen Sie Fehlerzustände bereit, die Agenten den Benutzern erklären können.
 
-Der [Universal Cart Guide](/es/docs/universal-cart-agentic-commerce/) deckt die Vorauszahlungsseite ab; Diese Seite gilt nach Zahlungseingang.
+Der [Universal Cart Guide](/de/docs/universal-cart-agentic-commerce/) deckt die Vorauszahlungsseite ab; Diese Seite gilt nach Zahlungseingang.
 
 ## Compliance-Risikotabelle
 

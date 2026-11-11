@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 71
 category: "Architecture"
 description: "Schritt-für-Schritt-Anleitung zum Hinzufügen von x402-Zahlungsmiddleware zu Ihrer Website oder API. Deckt das 402-Antwortformat, die Zahlungsvalidierung und die Integration mit llms.txt ab."
-metaDescription: "Agregue middleware de pago x402 con respuestas 402, validación, integración de llms.txt y tarjetas de agente para pagos de agentes de IA."
 summary: "x402 macht Ihre API für den Agenten sofort monetarisierbar. Wenn ein Agent Inhalte oder Computer anfordert, gibt Ihr Server 402 zurück, der Agent zahlt mit USDC und erhält Zugriff. Hier ist der Implementierungsleitfaden."
 keywords:
   - "x402 implementieren"
@@ -41,7 +40,7 @@ Die Validierung muss innerhalb des Anforderungslebenszyklus abgeschlossen sein. 
 
 Sobald die Zahlung bestätigt ist, verarbeiten Sie die ursprüngliche Anfrage normal und senden Sie die Antwort zurück. Zeichnen Sie die Transaktion auf: Agenten-ID, gezahlter Betrag, zugegriffener Endpunkt, zurückgegebene Antwort, Zeitstempel.
 
-Diese Protokolle speisen Ihre [Feedbackschleifen](/es/docs/agent-feedback-loops/) und Ihre Umsatzanalyse.
+Diese Protokolle speisen Ihre [Feedbackschleifen](/de/docs/agent-feedback-loops/) und Ihre Umsatzanalyse.
 
 ### Schritt 5 – Veröffentlichen Sie Ihre x402-Endpunkte in Erkennungsdateien
 
@@ -71,7 +70,7 @@ Veröffentlichen Sie keine x402-Endpunkte in Erkennungsdateien. Wenn Agenten nic
 
 Für Mikrozahlungs-Anwendungsfälle sind die Preise zu hoch angesetzt. Die Leistung von x402 ermöglicht Zahlungen, die zuvor zu klein waren, um verarbeitet zu werden. Eine Datenabfrage, die 5 $ kostet, erhält weniger Agentenanrufe als eine, die 0,01 $ kostet und deren Volumen zunimmt.
 
-Die [x402-Übersicht](/es/docs/x402-agent-payments/) erläutert den strategischen Kontext. Die [Agent-Ready Web Applications Checklist](/es/docs/agent-ready-web-apps/) deckt die umfassendere Einrichtung für Entwickler ab.
+Die [x402-Übersicht](/de/docs/x402-agent-payments/) erläutert den strategischen Kontext. Die [Agent-Ready Web Applications Checklist](/de/docs/agent-ready-web-apps/) deckt die umfassendere Einrichtung für Entwickler ab.
 
 ---
 
@@ -92,7 +91,7 @@ Ja. Jeder Endpunkt kann seine eigene 402-Antwort mit unterschiedlichen Preisen z
 **Was passiert, wenn ein Agent x402 nicht unterstützt?**
 Der Agent erhält eine 402-Antwort, die er nicht verarbeiten kann, und fährt fort. Sie können alternative Zugriffsmethoden (API-Schlüssel, Abonnements) für Nicht-x402-Kunden anbieten und dabei x402 als primären Zahlungspfad des Agenten beibehalten.
 
----*Dieser Artikel behandelt Zahlungsprotokolle und Kryptowährungsinfrastruktur nur zu Bildungs- und Informationszwecken. Es handelt sich nicht um eine Finanzberatung. Die vollständigen Bedingungen finden Sie in unserem [Rechtlichen Hinweis](/es/docs/disclaimer/).*
+---*Dieser Artikel behandelt Zahlungsprotokolle und Kryptowährungsinfrastruktur nur zu Bildungs- und Informationszwecken. Es handelt sich nicht um eine Finanzberatung. Die vollständigen Bedingungen finden Sie in unserem [Rechtlichen Hinweis](/de/docs/disclaimer/).*
 
 ## Primäre Referenzen
 

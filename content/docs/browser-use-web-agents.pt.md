@@ -21,7 +21,7 @@ O uso do navegador é importante para o AEO porque representa um padrão de ráp
 
 O plugin GitHub apareceu [browser-use/browser-use](https://github.com/browser-use/browser-use) em pesquisas de agentes de navegador. Os metadados do GitHub verificados em 28 de junho de 2026 mostraram mais de 100.000 estrelas, tornando-o um dos projetos de agente de navegador de código aberto mais visíveis.
 
-O posicionamento do repositório é simples: tornar os sites acessíveis aos agentes de IA. Isso é mapeado diretamente para [Agent UX e Human-in-the-Loop Design](/es/docs/agent-ux-human-in-the-loop/) e [Lighthouse Agentic Browsing Audit](/es/docs/lighthouse-agentic-browsing-audit/).
+O posicionamento do repositório é simples: tornar os sites acessíveis aos agentes de IA. Isso é mapeado diretamente para [Agent UX e Human-in-the-Loop Design](/pt/docs/agent-ux-human-in-the-loop/) e [Lighthouse Agentic Browsing Audit](/pt/docs/lighthouse-agentic-browsing-audit/).
 
 ## O que os agentes do navegador revelam sobre os sites
 
@@ -48,7 +48,7 @@ A melhor solução geralmente é a disciplina UX normal expressa em um formato l
 6. Exija aprovação humana para compras e alterações de conta.
 7. Registre sessões semelhantes a agentes separadamente das sessões humanas normais.
 
-Para obter informações técnicas, consulte [Automação de navegador sem cabeça](/es/docs/headless-browser-automation/) e [Lista de verificação de testes de origem do Chrome WebMCP](/es/docs/chrome-webmcp-origin-trial/).
+Para obter informações técnicas, consulte [Automação de navegador sem cabeça](/pt/docs/headless-browser-automation/) e [Lista de verificação de testes de origem do Chrome WebMCP](/pt/docs/chrome-webmcp-origin-trial/).
 
 ## uso do navegador versus WebMCP
 

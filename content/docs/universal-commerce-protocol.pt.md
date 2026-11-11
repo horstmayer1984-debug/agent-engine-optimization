@@ -70,7 +70,7 @@ O UCP não elimina a necessidade de boas APIs. Ele fornece às operações comer
 6. Visibilidade do status do pedido
 7. Auditabilidade para ações automatizadas
 
-Essa preparação se sobrepõe fortemente ao [guia de comércio eletrônico AEO] (/es/docs/aeo-ecommerce/) porque um corretor não pode concluir a negociação com segurança se os dados subjacentes forem vagos.
+Essa preparação se sobrepõe fortemente ao [guia de comércio eletrônico AEO](/pt/docs/aeo-ecommerce/) porque um corretor não pode concluir a negociação com segurança se os dados subjacentes forem vagos.
 
 ## Onde o UCP se encaixa na pilha| Camada | Função de exemplo |
 |

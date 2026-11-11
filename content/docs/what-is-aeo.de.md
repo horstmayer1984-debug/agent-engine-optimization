@@ -90,9 +90,9 @@ Machen Sie digitale Dienste durch autonome Agenten umsetzbar. Dazu gehören APIs
 
 Diese Protokolle ergänzen sich und sind nicht konkurrierend. Eine vollständige Agenteninteraktion könnte MCP für den Datenzugriff, UCP für Transaktionen, AP2 für Zahlungen und A2A für die Koordination mehrerer Agenten verwenden.
 
-Lesen Sie mehr: [Die Ausführungsebene](/es/docs/execution-layer/) – Tauchen Sie tiefer in die grundlegenden Unterschiede der Agentenoptimierung ein.
+Lesen Sie mehr: [Die Ausführungsebene](/de/docs/execution-layer/) – Tauchen Sie tiefer in die grundlegenden Unterschiede der Agentenoptimierung ein.
 
-[AEO vs. SEO vs. GEO](/es/docs/aeo-vs-seo-vs-geo/): der vollständige Vergleich.
+[AEO vs. SEO vs. GEO](/de/docs/aeo-vs-seo-vs-geo/): der vollständige Vergleich.
 
 [AEO Readiness Audit] (/docs/audit/) – Bewerten Sie Ihre Infrastruktur.
 

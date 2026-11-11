@@ -45,7 +45,7 @@ Die meisten Debatten über AEO drehen sich darum, ob KI-Systeme eine Website les
 | Veröffentlichung | Menschlicher Klick | Erster Entwurf des Workflows mit Bestätigung |
 | Prüfung | Benutzerverlauf und Aufzeichnungen | Tool-Aufrufprotokolle und Genehmigungsprotokolle |
 
-Dies stellt eine Verbindung zu [MCP vs. Agent API](/es/docs/mcp-vs-api-for-agents/), [So implementieren Sie AEO](/es/docs/implement-aeo/) und [Agent-Ready Web Apps](/es/docs/agent-ready-web-apps/) her.
+Dies stellt eine Verbindung zu [MCP vs. Agent API](/de/docs/mcp-vs-api-for-agents/), [So implementieren Sie AEO](/de/docs/implement-aeo/) und [Agent-Ready Web Apps](/de/docs/agent-ready-web-apps/) her.
 
 ## Das Zustimmungsmuster ist das wahre Signal
 

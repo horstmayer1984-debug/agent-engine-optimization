@@ -57,7 +57,7 @@ Se uma resposta da IA citar uma página desatualizada, o usuário poderá recebe
 | Rastreamento normal | Os mecanismos de pesquisa revisitam as páginas de acordo com sua própria programação | Conteúdo estável |
 | ÍndiceAgora | Notificar os mecanismos participantes sobre URLs alterados | Conteúdo novo ou atualizado com frequência |
 
-Para AEO, use todos eles. Um mapa do site fornece o mapa. IndexNow envia sinais de atualização. [llms.txt](/es/docs/programming-llms-txt/) fornece aos agentes um caminho de leitura compactado.
+Para AEO, use todos eles. Um mapa do site fornece o mapa. IndexNow envia sinais de atualização. [llms.txt](/pt/docs/programming-llms-txt/) fornece aos agentes um caminho de leitura compactado.
 
 ## Onde o IndexNow se encaixa em um fluxo de trabalho AEO
 
@@ -83,7 +83,7 @@ O padrão de implementação é:1. Gere ou hospede uma chave IndexNow.
 4. Verifique as respostas.
 5. Monitore as Ferramentas do Google para webmasters em busca de alterações na visibilidade e no rastreamento da IA.
 
-Para sites estáticos, adicione o envio do IndexNow após a construção do Hugo e antes ou depois da verificação da implantação.Para a parte de relatórios desse fluxo de trabalho, combine o IndexNow com o [Relatório de desempenho de IA do Bing](/es/docs/bing-ai-performance-report/) para que os sinais de atualização e as evidências de citação de IA sejam revisados ​​juntos.
+Para sites estáticos, adicione o envio do IndexNow após a construção do Hugo e antes ou depois da verificação da implantação.Para a parte de relatórios desse fluxo de trabalho, combine o IndexNow com o [Relatório de desempenho de IA do Bing](/pt/docs/bing-ai-performance-report/) para que os sinais de atualização e as evidências de citação de IA sejam revisados ​​juntos.
 
 ## Regras específicas de arquivamento do AEO
 
@@ -106,7 +106,7 @@ Candidatos ruins:
 - URLs redirecionados
 - variantes não canônicas
 
-O [guia AEO KPI](/es/docs/aeo-kpis-measurement/) pode ajudar a separar o trabalho de atualização dos resultados de visibilidade.
+O [guia AEO KPI](/pt/docs/aeo-kpis-measurement/) pode ajudar a separar o trabalho de atualização dos resultados de visibilidade.
 
 ## Como medir o impacto
 

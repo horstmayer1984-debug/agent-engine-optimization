@@ -23,7 +23,7 @@ GitHub プラグインは CrewAI エコシステムを表面化し、2026 年 6 
 
 すべての Web サイトに CrewAI が必要というわけではありません。これは、Web サイトのアーキテクチャで委任された作業を考慮する必要があるほど、マルチエージェント パターンが一般的であることを意味します。
 
-より広範なトピックについては、[AI マルチエージェント管理](/es/docs/managing-multiple-ai-agents/) および [マルチエージェント AEO](/es/docs/multi-agent-aeo/) を参照してください。
+より広範なトピックについては、[AI マルチエージェント管理](/ja/docs/managing-multiple-ai-agents/) および [マルチエージェント AEO](/ja/docs/multi-agent-aeo/) を参照してください。
 
 ## 役割ベースのエージェントが Web サイトに必要なもの
 
@@ -49,7 +49,7 @@ GitHub プラグインは CrewAI エコシステムを表面化し、2026 年 6 
 6. サポートと登山道を明確にします。
 7. ソースページを最新の状態に保ちます。
 
-これは、[エージェントのビジネス上の紛争の証拠](/es/docs/agentic-commerce-dispute-evidence/) および [エージェントの監視可能性と保護の障壁](/es/docs/agent-observability-guardrails/) につながります。
+これは、[エージェントのビジネス上の紛争の証拠](/ja/docs/agentic-commerce-dispute-evidence/) および [エージェントの監視可能性と保護の障壁](/ja/docs/agent-observability-guardrails/) につながります。
 
 ## 複数のエージェントによるリスク
 

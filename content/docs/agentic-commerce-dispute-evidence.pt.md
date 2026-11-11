@@ -45,7 +45,7 @@ Tanto o AP2 quanto o Verifiable Intent se concentram em tornar a intenção e a 
 | Conformidade | Envio, entrega, reembolso, status de devolução |
 | Decisão política | Por que o comerciante foi aceito, rejeitado ou escalonado |
 
-Isso se conecta a [autenticação de agente](/es/docs/agentic-authentication-commerce/) e [carteiras de agente](/es/docs/agentic-wallets-spend-governance/).
+Isso se conecta a [autenticação de agente](/pt/docs/agentic-authentication-commerce/) e [carteiras de agente](/pt/docs/agentic-wallets-spend-governance/).
 
 ## AP2 e comandos
 
@@ -71,7 +71,7 @@ Para os comerciantes, isso significa que a preparação para as disputas começa
 8. Status de conformidade.
 9. Eventos de devolução e reembolso.10. Contatos de suporte e escalonamentos.
 
-O guia [Business Agent Policy Engine](/es/docs/merchant-agent-policy-engine/) explica o registro de políticas.
+O guia [Business Agent Policy Engine](/pt/docs/merchant-agent-policy-engine/) explica o registro de políticas.
 
 ## Perguntas frequentes
 

@@ -23,7 +23,7 @@ O plugin GitHub apareceu [mem0ai/mem0](https://github.com/mem0ai/mem0) e os meta
 
 Para a AEO, a questão importante não é qual sistema de memória vence. É o que altera a memória persistente do agente nos sites.
 
-Leia isto em conjunto com [Engenharia de contexto para AEO](/es/docs/context-engineering-aeo/) e [Loops de feedback do agente](/es/docs/agent-feedback-loops/).
+Leia isto em conjunto com [Engenharia de contexto para AEO](/pt/docs/context-engineering-aeo/) e [Loops de feedback do agente](/pt/docs/agent-feedback-loops/).
 
 ##Qual agente altera a memória?
 
@@ -49,7 +49,7 @@ A memória persistente pode melhorar a conclusão de tarefas, mas também levant
 6. Permitir que os usuários consertem memória desatualizada ou incorreta.
 7. Evite confiar na personalização oculta para decisões críticas.
 
-Para comércio, consulte [Carteiras Agentes e Governança de Gastos](/es/docs/agentic-wallets-spend-governance/) e [Autenticação Agente para Comércio](/es/docs/agentic-authentication-commerce/).
+Para comércio, consulte [Carteiras Agentes e Governança de Gastos](/pt/docs/agentic-wallets-spend-governance/) e [Autenticação Agente para Comércio](/pt/docs/agentic-authentication-commerce/).
 
 ## Implicações de medição
 

@@ -4,7 +4,6 @@ date: 2026-03-22
 weight: 24
 category: "Architecture"
 description: "A camada de execução torna-se perigosa sem governança. Como construir um plano de controle que separe a leitura da execução, aplique políticas e controle."
-metaDescription: "Cree un plano de control para los agentes de IA: separe la lectura de la ejecución, aplique políticas, maneje los reintentos y mantenga los flujos de trabajo."
 summary: "Uma vez que os sistemas autônomos interagem com os serviços internos, um site se torna um sistema de fronteiras. O Plano de Controle Universal governa o que pode ser inspecionado, o que pode ser executado e sob que autoridade."
 keywords:
   - "arquitetura de plano de controle universal"
@@ -15,7 +14,7 @@ keywords:
   - "Protocolo AP2"
   - "Agente Visa pronto"
 ---
-A [camada de execução](/es/docs/execution-layer/) torna-se perigosa no momento em que é exposta sem governança. É por isso que uma arquitetura AEO séria precisa de mais do que páginas legíveis e terminais que podem ser chamados. Você precisa de um sistema de controle que decida o que pode ser inspecionado, o que pode ser executado, sob que autoridade e com qual lógica de recuperação quando algo falha.
+A [camada de execução](/pt/docs/execution-layer/) torna-se perigosa no momento em que é exposta sem governança. É por isso que uma arquitetura AEO séria precisa de mais do que páginas legíveis e terminais que podem ser chamados. Você precisa de um sistema de controle que decida o que pode ser inspecionado, o que pode ser executado, sob que autoridade e com qual lógica de recuperação quando algo falha.
 
 Essa superfície governante é o que muitas equipes descrevem como Plano de Controle Universal.
 

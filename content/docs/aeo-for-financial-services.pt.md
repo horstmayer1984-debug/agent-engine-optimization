@@ -31,7 +31,7 @@ Um agente que compara contas, cartões, empréstimos ou serviços de consultoria
 - Método de aplicação
 - Rota de escalada humana
 
-O [guia da camada de execução](/es/docs/execution-layer/) explica por que os agentes precisam de dados estruturados atuais, e não apenas de cópias persuasivas.
+O [guia da camada de execução](/pt/docs/execution-layer/) explica por que os agentes precisam de dados estruturados atuais, e não apenas de cópias persuasivas.
 
 ## Casos de uso de AEO financeiro
 
@@ -65,7 +65,7 @@ Cada página deve incluir:
 - Contate ou solicite rota
 - Notas de risco em linguagem simples
 
-Para sistemas de pesquisa e resposta de IA, use títulos concisos, blocos de perguntas frequentes e links internos para produtos relacionados. A [Comparação de AEO, SEO e GEO](/es/docs/aeo-vs-seo-vs-geo/) é útil aqui porque as equipes financeiras geralmente precisam de todas as três camadas: classificações, citações de IA e prontidão para ação da máquina.
+Para sistemas de pesquisa e resposta de IA, use títulos concisos, blocos de perguntas frequentes e links internos para produtos relacionados. A [Comparação de AEO, SEO e GEO](/pt/docs/aeo-vs-seo-vs-geo/) é útil aqui porque as equipes financeiras geralmente precisam de todas as três camadas: classificações, citações de IA e prontidão para ação da máquina.
 
 ## Requisitos da camada de execução
 
@@ -107,7 +107,7 @@ Os materiais da Regra SP da SEC são relevantes para instituições financeiras 
 
 O [verificador de prontidão AEO](/tools/aeo-readiness-checker.html) pode qualificar a camada de descoberta pública antes que um trabalho mais profundo na camada de execução comece.
 
-Use a [Auditoria de prontidão AEO completa](/es/docs/audit/) quando o escopo incluir ações autenticadas, controles de política ou caminhos de decisão regulamentados.
+Use a [Auditoria de prontidão AEO completa](/pt/docs/audit/) quando o escopo incluir ações autenticadas, controles de política ou caminhos de decisão regulamentados.
 
 ## Perguntas frequentes
 

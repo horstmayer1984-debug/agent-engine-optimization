@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 82
 category: "Architecture"
 description: "ブラックボックスエージェントを、リアルタイムトレース、異常検出、ポリシー適用を備えた安全で監査可能なシステムに変えます。"
-metaDescription: "Agregue seguimientos, detección de anomalías, aplicación de políticas, comprobaciones de permisos y barreras de seguridad para que los sistemas de agentes."
 summary: "可観測性がなければ、エージェント システムはブラック ボックスになります。 OpenTelemetry 追跡、動的ガードレール、およびウォッチドッグは、AEO 制作に必要な可視性とセキュリティを提供します。"
 keywords:
   - "エージェントの可観測性"
@@ -59,7 +58,7 @@ OpenTelemetry は、2026 年の分散トレースの標準です。エージェ�
 
 コンプライアンス。可観測性計測によって生成された監査ログは、特に金融、医療、規制取引における自動トランザクションの規制要件を満たしています。
 
-[ユニバーサル コントロール プレーンの記事](/es/docs/universal-control-plane/) では、ガバナンス アーキテクチャについて説明しています。 [フィードバック ループ ガイド](/es/docs/agent-feedback-loops/) では、可観測性データが改善サイクルにどのように組み込まれるかを説明しています。
+[ユニバーサル コントロール プレーンの記事](/ja/docs/universal-control-plane/) では、ガバナンス アーキテクチャについて説明しています。 [フィードバック ループ ガイド](/ja/docs/agent-feedback-loops/) では、可観測性データが改善サイクルにどのように組み込まれるかを説明しています。
 
 ## 比較: 可観測性なしと可観測性あり
 
@@ -99,7 +98,7 @@ OpenTelemetry は、2026 年の分散トレースの標準です。エージェ�
 
 ## 関連ガイド
 
-* [エージェント取引アーキテクチャ](/es/docs/agentic-commerce/)
+* [エージェント取引アーキテクチャ](/ja/docs/agentic-commerce/)
 
 ## 主な参考文献
 

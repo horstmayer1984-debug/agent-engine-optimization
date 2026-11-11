@@ -54,7 +54,7 @@ Wenn eine Website bei schnellen Antworten gut abschneidet, bei tiefergehenden Ü
 5. Vergleichen Sie die Angebote der Mitbewerber in allen Modi.
 6. Verbessern Sie die Seiten, die Systeme im Argumentationsmodus bevorzugen: Dokumentation, Richtlinien, Vergleiche, Datenseiten und unterstützende Inhalte.
 
-Dies gilt für [AI Appointment Strategy](/es/docs/ai-citation-strategy/), [AEO KPIs & Measurement](/es/docs/aeo-kpis-measurement/) und [Generative Engine Optimization](/es/docs/generative-engine-optimization/).
+Dies gilt für [AI Appointment Strategy](/de/docs/ai-citation-strategy/), [AEO KPIs & Measurement](/de/docs/aeo-kpis-measurement/) und [Generative Engine Optimization](/de/docs/generative-engine-optimization/).
 
 ##Welcher Inhalt erhält tiefere Zitate?
 
@@ -70,7 +70,7 @@ Gut begründete Antworten erfordern oft Beweise, Einschränkungen und Details. T
 | Richtlinienseiten | Klären Sie Berechtigung, Sicherheit, Rückerstattungen und Beschränkungen |
 | Änderungsprotokolle | Upgrade- und Versionsstatus demonstrieren |
 
-Dies ist besonders wichtig für die [Leseebene](/es/docs/answer-engine-optimization/). Für die [Ausführungsschicht](/es/docs/execution-layer/) müssen noch Tools und Arbeitsabläufe vorbereitet werden.
+Dies ist besonders wichtig für die [Leseebene](/de/docs/answer-engine-optimization/). Für die [Ausführungsschicht](/de/docs/execution-layer/) müssen noch Tools und Arbeitsabläufe vorbereitet werden.
 
 ## TestvorlageVerwenden Sie eine Tabelle mit diesen Feldern:
 

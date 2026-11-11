@@ -5,7 +5,6 @@ date: 2026-04-19
 weight: 115
 category: "Analysis"
 description: "エージェントエコノミーはすでに 5,000 万ドル相当の 1 億 6,500 万件のトランザクションを処理しています。しかし、発見と報告。"
-metaDescription: "Vea cómo AEO ayuda a conectar a los agentes con los servicios cuando la actividad de los agentes está creciendo pero el descubrimiento, la atribución."
 summary: "アクティブな AI エージェントは 480,000 人。 1 億 6,500 万件のトランザクション。 5000万ドルが費やされました。エージェント経済は現実ですが、発見は機能しません。 AEO は、お金を使えるエージェントと見つからないサービスとの間のマッチングの問題を解決します。"
 keywords:
   - "エージェントエコノミー"
@@ -57,31 +56,31 @@ SEO は人間の発見を解決しました。マシンの発見は解決され�
 
 サービスは、正確なパラメータを使用して機械可読形式で記述する必要があります。 「速くて手頃な価格」ではありませんが、「平均応答時間: 1.4 秒、価格: リクエストあたり 0.03 ドル、入力: 最大 10,000 文字の UTF-8 テキスト、出力: 概要フィールド付きの JSON」です。
 
-サイトレベルの検出には [llms.txt](/es/docs/programming-llms-txt/)、機能マニフェストには [エージェント カード](/es/docs/agent-cards-a2a-protocol/)、個々のサービス ページにはスキーマ マークアップを使用します。
+サイトレベルの検出には [llms.txt](/ja/docs/programming-llms-txt/)、機能マニフェストには [エージェント カード](/ja/docs/agent-cards-a2a-protocol/)、個々のサービス ページにはスキーマ マークアップを使用します。
 
 ### Layer 2: protocol level registration
 
-エージェントがアクティブに検索するプロトコル レジストリにサービスを登録します。 MCP ツールの登録、/.well-known/ucp の [UCP 機能ステートメント](/es/docs/ucp-vs-acp-vs-mcp/)、および Agentic.Market などのプラットフォーム上の市場リスト。
+エージェントがアクティブに検索するプロトコル レジストリにサービスを登録します。 MCP ツールの登録、/.well-known/ucp の [UCP 機能ステートメント](/ja/docs/ucp-vs-acp-vs-mcp/)、および Agentic.Market などのプラットフォーム上の市場リスト。
 
 登録を通じてサービスを発見したエージェントは、Web サイトを見つけたエージェントよりも高いコンバージョン意図を持っています。レジストリ上の存在は、エージェントが検索結果に表示されることと同等です。
 
 ### Layer 3: Transaction Preparation
 
-トランザクション容量のないディスカバリは行き止まりです。エージェントはあなたのサービスを見つけて評価し、あなたは支払いをして結果を受け取る必要があります。 [micropayments x402](/es/docs/x402-agent-payments/) は支払いレイヤーを処理します。 Your API handles the execution.エージェントがトランザクションを完了するには、両方とも 3 秒以内に動作する必要があります。
+トランザクション容量のないディスカバリは行き止まりです。エージェントはあなたのサービスを見つけて評価し、あなたは支払いをして結果を受け取る必要があります。 [micropayments x402](/ja/docs/x402-agent-payments/) は支払いレイヤーを処理します。 Your API handles the execution.エージェントがトランザクションを完了するには、両方とも 3 秒以内に動作する必要があります。
 
-[実行層ガイド](/es/docs/execution-layer/) では、技術的なアーキテクチャについて説明しています。
+[実行層ガイド](/ja/docs/execution-layer/) では、技術的なアーキテクチャについて説明しています。
 
 ## Set rules that agents can enforce
 
 Agents cannot interpret ambiguity. They can't call customer service. They cannot negotiate informally. Each parameter must be expressed as absolute.価格: 作業単位あたりの正確な金額、通貨、有効期間。応答時間: 最大値を保証し、それを超過した場合のペナルティをどのように測定したのか。入力制限: 正確な形式、最大サイズ、必須フィールド。出力形式: 正確な構造、保証されたフィールド、エラー スキーマ。可用性: 稼働時間の保証、メンテナンス期間、サービス動作の低下。
 
-これらのパラメーターを [機能マニフェスト](/es/docs/agent-decision-trees/) で構造化データとして公開するサービスが選択されます。 「お問い合わせ」または「開始元」の背後にパラメータを隠すサービスは、エージェントが実行するすべての [決定的デシジョン ツリー](/es/docs/agent-decision-trees/) から除外されます。
+これらのパラメーターを [機能マニフェスト](/ja/docs/agent-decision-trees/) で構造化データとして公開するサービスが選択されます。 「お問い合わせ」または「開始元」の背後にパラメータを隠すサービスは、エージェントが実行するすべての [決定的デシジョン ツリー](/ja/docs/agent-decision-trees/) から除外されます。
 
 ## The advantage of capitalization
 
 エージェント発見の先駆者は、複合的な利点を生み出します。あなたのサービスとの取引に成功したエージェントは、あなたを優先プロバイダーのリストに追加します。容量プロファイルに一致する後続のタスクは、自動的にルーティングされます。 Confidence scores accumulate. The transaction history is built.
 
-6 か月後に市場に参入するサービスは、信頼性、取引履歴、優先プロバイダー ステータスがゼロの状態で開始されます。エージェントがすでに信頼している確立されたサービスと競合する必要があります。発見の問題は、待つ時間が長くなるほど解決が難しくなります。そのため、[AEO 導入ガイド](/es/docs/implement-aeo/) では、実行層が完了する前であっても、基本的な検出 (llms.txt、スキーマ マークアップ、エージェント カード) から始めることを強調しています。能力が限られている場合でも、早期に検出できることで、時間の経過とともに構築される信頼の基盤が生まれます。
+6 か月後に市場に参入するサービスは、信頼性、取引履歴、優先プロバイダー ステータスがゼロの状態で開始されます。エージェントがすでに信頼している確立されたサービスと競合する必要があります。発見の問題は、待つ時間が長くなるほど解決が難しくなります。そのため、[AEO 導入ガイド](/ja/docs/implement-aeo/) では、実行層が完了する前であっても、基本的な検出 (llms.txt、スキーマ マークアップ、エージェント カード) から始めることを強調しています。能力が限られている場合でも、早期に検出できることで、時間の経過とともに構築される信頼の基盤が生まれます。
 
 ## 次に何が起こるでしょうか?
 
@@ -89,7 +88,7 @@ Agents cannot interpret ambiguity. They can't call customer service. They cannot
 
 エージェント発見のためのサービスを提供する企業は、競合他社が目に見えず、したがって対応できない成長する収益源を獲得しています。エージェントのエコノミーが従来の指標で可視化されるまでに、ディスカバリのポジションは確立され、置き換えるのは困難になります。
 
-[ネイティブ エージェント ビジネス モデルの記事](/es/docs/agent-native-business-models/) では、より広範な経済変化について説明しています。 [委任経済ガイド](/es/docs/delegation-economy-agent-autonomy/) では、この移行を推進するエージェントの 5 つのレベルの自律性について説明しています。
+[ネイティブ エージェント ビジネス モデルの記事](/ja/docs/agent-native-business-models/) では、より広範な経済変化について説明しています。 [委任経済ガイド](/ja/docs/delegation-economy-agent-autonomy/) では、この移行を推進するエージェントの 5 つのレベルの自律性について説明しています。
 
 ---
 

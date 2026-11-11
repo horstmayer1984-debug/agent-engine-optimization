@@ -31,7 +31,7 @@ Ein Agent, der Konten, Karten, Kredite oder Beratungsleistungen vergleicht, ben�
 - Bewerbungsmethode
 - Kletterroute für Menschen
 
-Der [Leitfaden zur Ausführungsebene](/es/docs/execution-layer/) erklärt, warum Agenten aktuelle strukturierte Daten und nicht nur überzeugende Kopien benötigen.
+Der [Leitfaden zur Ausführungsebene](/de/docs/execution-layer/) erklärt, warum Agenten aktuelle strukturierte Daten und nicht nur überzeugende Kopien benötigen.
 
 ## Finanzielle AEO-Anwendungsfälle
 
@@ -65,7 +65,7 @@ Jede Seite muss Folgendes enthalten:
 - Kontakt aufnehmen oder Route anfordern
 - Risikohinweise in einfacher Sprache
 
-Verwenden Sie für KI-Such- und Antwortsysteme prägnante Titel, FAQ-Blöcke und interne Links zu verwandten Produkten. Der [AEO-, SEO- und GEO-Vergleich] (/es/docs/aeo-vs-seo-vs-geo/) ist hier nützlich, da Finanzteams oft alle drei Ebenen benötigen: Klassifizierungen, KI-Zitate und Bereitschaft für maschinelle Maßnahmen.
+Verwenden Sie für KI-Such- und Antwortsysteme prägnante Titel, FAQ-Blöcke und interne Links zu verwandten Produkten. Der [AEO-, SEO- und GEO-Vergleich](/de/docs/aeo-vs-seo-vs-geo/) ist hier nützlich, da Finanzteams oft alle drei Ebenen benötigen: Klassifizierungen, KI-Zitate und Bereitschaft für maschinelle Maßnahmen.
 
 ## Anforderungen an die Ausführungsebene
 
@@ -107,7 +107,7 @@ Die Materialien zur SEC-Regel S-P sind für Finanzinstitute relevant, die unter 
 
 Der [AEO-Bereitschaftsprüfer](/tools/aeo-readiness-checker.html) kann die öffentliche Erkennungsschicht qualifizieren, bevor tiefergehende Arbeiten an der Ausführungsschicht beginnen.
 
-Verwenden Sie das [Vollständige AEO-Bereitschaftsaudit] (/es/docs/audit/), wenn der Umfang authentifizierte Aktionen, Richtlinienkontrollen oder regulierte Entscheidungspfade umfasst.
+Verwenden Sie das [Vollständige AEO-Bereitschaftsaudit](/de/docs/audit/), wenn der Umfang authentifizierte Aktionen, Richtlinienkontrollen oder regulierte Entscheidungspfade umfasst.
 
 ## Häufig gestellte Fragen
 

@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 21
 category: "Industry"
 description: "SaaS-Websites, die für menschliche Einkaufsausschüsse erstellt wurden, scheitern an KI-Beschaffungsagenten. So stellen Sie maschinenlesbare Funktionen bereit."
-metaDescription: "Descubra cómo los sitios B2B SaaS pueden exponer capacidades legibles por máquina, precios de grado de decisión y próximos pasos para los agentes."
 summary: "KI-Beschaffungsagenten vergleichen Funktionsabdeckung, Preislogik, Compliance-Status und Ausführungspfade. SaaS-Anbieter, die dies klar angeben, kommen in die engere Auswahl. Der Rest wird eliminiert, bevor Verkäufe ins Gespräch kommen."
 keywords:
   - "AEO B2B SaaS-Akquisition"
@@ -41,7 +40,7 @@ Ohne dies können Beschaffungsagenten die Gesamtbetriebskosten nicht modellieren
 
 ## Wo die Ausführungsschicht beginnt
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) beginnt dort, wo die Bewertung zur Bewegung wird. Bei SaaS ist dieser Schritt nicht immer ein Kauf. Manchmal geht es darum, eine Sandbox bereitzustellen, ein Sicherheitspaket anzufordern, eine technische Überprüfung einzuleiten, eine Scope-Demo zu buchen, einen Testarbeitsbereich zu erstellen oder den Zugriff auf die Integration zu validieren. Diese Aktionen sollten nicht hinter generischen Lead-Formularen zurückbleiben, die Daten in ein CRM herunterladen. Sie müssen als typisierte Ströme mit genauen Eingängen, genauen Ausgängen und klaren politischen Grenzen existieren.
+Die [Ausführungsschicht](/de/docs/execution-layer/) beginnt dort, wo die Bewertung zur Bewegung wird. Bei SaaS ist dieser Schritt nicht immer ein Kauf. Manchmal geht es darum, eine Sandbox bereitzustellen, ein Sicherheitspaket anzufordern, eine technische Überprüfung einzuleiten, eine Scope-Demo zu buchen, einen Testarbeitsbereich zu erstellen oder den Zugriff auf die Integration zu validieren. Diese Aktionen sollten nicht hinter generischen Lead-Formularen zurückbleiben, die Daten in ein CRM herunterladen. Sie müssen als typisierte Ströme mit genauen Eingängen, genauen Ausgängen und klaren politischen Grenzen existieren.
 
 ## Die Validierung dieser Woche: Autonome CIPS-Verträge
 
@@ -59,7 +58,7 @@ Dies hat einen direkten SEO-Wert, da sich das Suchverhalten vor dem Klick änder
 
 Die Seiten mit der besten Leistung werden nicht diejenigen sein, die am intelligentesten klingen. Sie werden diejenigen sein, die die sauberste Beziehung zwischen der Produkteinheit, den Kaufkriterien und dem nächsten ausführbaren Schritt offenlegen.
 
-Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) erläutert die technischen Schritte. Das [Was ist AEO](/es/docs/what-is-aeo/) erklärt das Strukturmodell.
+Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) erläutert die technischen Schritte. Das [Was ist AEO](/de/docs/what-is-aeo/) erklärt das Strukturmodell.
 
 ---
 

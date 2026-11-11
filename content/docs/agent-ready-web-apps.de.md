@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 64
 category: "Guide"
 description: "Verwenden Sie diese Entwickler-Checkliste, um Webanwendungen für KI-Agenten lesbar und umsetzbar zu machen."
-metaDescription: "Utilice una lista de verificación para desarrolladores para aplicaciones web listas para agentes: diseño de backend primero, API limpias, MCP, seguridad."
 summary: "Die agentenbereite Webanwendung beginnt mit dem Backend, nicht mit dem Frontend. Saubere APIs, natives MCP, agentenspezifische Authentifizierung, Kostenkontingente und öffentliche Kommentarendpunkte. Hier ist die Entwickler-Checkliste."
 keywords:
   - "Agentenfähige Webanwendungen"
@@ -41,7 +40,7 @@ Für eine Webanwendung mit Benutzerverwaltung, Planung und Abrechnung können MC
 
 Der MCP-Server fügt möglicherweise 200–500 Codezeilen zusätzlich zu Ihrer vorhandenen API hinzu. Die Rendite ist die universelle Agentenunterstützung.
 
-Der [MCP vs. API-Leitfaden](/es/docs/mcp-vs-api-for-agents/) erklärt das Protokoll im Detail.
+Der [MCP vs. API-Leitfaden](/de/docs/mcp-vs-api-for-agents/) erklärt das Protokoll im Detail.
 
 ## 4. Ersetzen Sie zuerst CLIs durch API-Muster
 
@@ -65,7 +64,7 @@ Machen Sie den Sitzungsstatus über Ihre API verfügbar. Lassen Sie Agenten ihre
 
 Fügen Sie einen öffentlichen Feedback-Endpunkt (/agent-feedback) hinzu, über den Agenten Datenqualitätsprobleme, Endpunktfehler oder Dokumentationsungenauigkeiten melden können. Dies bringt Probleme schneller ans Licht als die interne Überwachung und schafft Vertrauen in das Agenten-Ökosystem.
 
-Der [Feedback-Loop-Leitfaden](/es/docs/agent-feedback-loops/) deckt die gesamte Architektur ab.
+Der [Feedback-Loop-Leitfaden](/de/docs/agent-feedback-loops/) deckt die gesamte Architektur ab.
 
 ## Vergleich: Herkömmliche vs. Agent Ready Web App
 
@@ -85,7 +84,7 @@ Der [Feedback-Loop-Leitfaden](/es/docs/agent-feedback-loops/) deckt die gesamte 
 
 Erstellen Sie zuerst die Schnittstelle und behandeln Sie den Agentenzugriff als ein Integrationsproblem, das später gelöst werden muss. Wenn Agentenunterstützung hinzugefügt wird, wird die Geschäftslogik mit der UI-Statusverwaltung verknüpft, was eine saubere API-Extraktion schwierig und teuer macht.
 
-Lösung: Beginnen Sie immer mit der API. Die Benutzeroberfläche ist ein Client. Agenten sind ein weiterer Kunde. Beide nutzen dasselbe Backend. Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) deckt den umfassenderen Optimierungspfad ab. Der [Artikel zur universellen Kontrollebene](/es/docs/universal-control-plane/) erläutert die Governance von agentenseitigen Endpunkten.
+Lösung: Beginnen Sie immer mit der API. Die Benutzeroberfläche ist ein Client. Agenten sind ein weiterer Kunde. Beide nutzen dasselbe Backend. Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) deckt den umfassenderen Optimierungspfad ab. Der [Artikel zur universellen Kontrollebene](/de/docs/universal-control-plane/) erläutert die Governance von agentenseitigen Endpunkten.
 
 ---
 

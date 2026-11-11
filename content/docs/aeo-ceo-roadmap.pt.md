@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 96
 category: "Guide"
 description: "Um roteiro do CEO para otimização do mecanismo do agente, abrangendo orçamento, alinhamento da equipe e KPIs."
-metaDescription: "Siga una hoja de ruta de AEO de 90 días para directores ejecutivos que cubre el presupuesto y la organización alineación, KPI, prioridades de la capa."
 summary: "AEO não é uma tarefa técnica. É um fosso estratégico. Este roteiro de 90 dias abrange alinhamento do conselho, alocação orçamentária, mandatos organizacionais e medição para executivos."
 keywords:
   - "Roteiro do CEO da AEO"
@@ -26,7 +25,7 @@ Agende uma apresentação do conselho de duas horas. Cubra três pontos.
 
 Primeiro, a mudança do mercado. Os agentes de IA estão se tornando a principal interface para descoberta, comparação e compra de produtos. Até o final de 2026, a maioria dos fluxos de trabalho de compras empresariais e uma proporção crescente de compras de consumidores envolverão pelo menos uma camada de agentes.
 
-Em segundo lugar, o risco de inacção. Os agentes executam [árvores de decisão determinísticas](/es/docs/agent-decision-trees/) com critérios rígidos de aprovação/reprovação. Empresas sem dados legíveis por máquina, APIs estruturadas e conformidade de protocolo são silenciosamente excluídas. Não há queda na classificação para diagnosticar. Existe simplesmente uma ausência nos fluxos de trabalho dos agentes.
+Em segundo lugar, o risco de inacção. Os agentes executam [árvores de decisão determinísticas](/pt/docs/agent-decision-trees/) com critérios rígidos de aprovação/reprovação. Empresas sem dados legíveis por máquina, APIs estruturadas e conformidade de protocolo são silenciosamente excluídas. Não há queda na classificação para diagnosticar. Existe simplesmente uma ausência nos fluxos de trabalho dos agentes.
 
 Terceiro, oportunidade. Os pioneiros ganham vantagens crescentes. Os padrões de confiança dos agentes se auto-reforçam. As empresas que estabelecerem a visibilidade dos agentes agora serão mais difíceis de serem substituídas à medida que a adoção acelera.
 
@@ -78,7 +77,7 @@ Anuncie sua liderança AEO externamente. Publique seu llms.txt e abordagem de ca
 
 ### Nova exploração de receita
 
-Avalie produtos de API prontos para agentes: feeds de dados de marca branca, APIs de produtos estruturados para plataformas de parceiros e endpoints de agentes premium monetizados via [x402](/es/docs/x402-agent-payments/).
+Avalie produtos de API prontos para agentes: feeds de dados de marca branca, APIs de produtos estruturados para plataformas de parceiros e endpoints de agentes premium monetizados via [x402](/pt/docs/x402-agent-payments/).
 
 ## O argumento competitivo
 
@@ -86,7 +85,7 @@ Cada mês de atraso aumenta a desvantagem. Os agentes desenvolvem perfis de conf
 
 É por isso que o AEO é um fosso estratégico e não um projecto técnico. O trabalho técnico é finito. A vantagem competitiva que ela cria aumenta indefinidamente.
 
-O Roteiro de Preparação da Era do Agente (/es/docs/preparing-for-agentic-era/) cobre o desenvolvimento de habilidades individuais. A [Auditoria de Preparação AEO](/es/docs/audit/) fornece a estrutura de avaliação.
+O Roteiro de Preparação da Era do Agente (/es/docs/preparing-for-agentic-era/) cobre o desenvolvimento de habilidades individuais. A [Auditoria de Preparação AEO](/pt/docs/audit/) fornece a estrutura de avaliação.
 
 ---
 

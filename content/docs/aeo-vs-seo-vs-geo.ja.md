@@ -96,10 +96,10 @@ SEO は 25 年間にわたって主要な分野であり、依然として不可
 
 1. **SEO の基盤が強固であることを確認してください。** AI システムは依然として発見のために検索インデックスを使用します。
 2. **読書層 (GEO) 向けに最適化します。** AI の引用と要約に合わせてコンテンツを構造化します。
-3. **実行層の準備状況を評価します。** [AEO 準備状況監査](/es/docs/audit/) を参照してください。
+3. **実行層の準備状況を評価します。** [AEO 準備状況監査](/ja/docs/audit/) を参照してください。
 4. **ランタイム層の互換性を目指します。** 業界および技術的能力に応じて。
 
-[実行層](/es/docs/execution-layer/) – インフラストラクチャ エージェントを処理可能にするために必要なもの。
+[実行層](/ja/docs/execution-layer/) – インフラストラクチャ エージェントを処理可能にするために必要なもの。
 
 ## よくある質問
 
@@ -117,7 +117,7 @@ SEO ではランキングとクリック数、GEO ではメンションと引用
 
 ## 関連ガイド
 
-* [ヘッドレス ソフトウェア ガイド](/es/docs/what-is-headless-software/)
+* [ヘッドレス ソフトウェア ガイド](/ja/docs/what-is-headless-software/)
 
 ## 主な参考文献* [生成 AI 機能に関する Google ガイド](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
 * [Google 検索の基本](https://developers.google.com/search/docs/essentials)

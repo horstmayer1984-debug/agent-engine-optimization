@@ -46,7 +46,7 @@ AI の紹介やエージェントの検索は役立ちますが、タスクの�
 |ボット ユーザー エージェント |ツール呼び出しが成功しました |
 |ページ滞在時間 |準拠完了 |
 
-より広範な追跡については、[AEO KPI](/es/docs/aeo-kpis-measurement/) および [2026 年の AI エージェント Web トラフィック](/es/docs/ai-agent-web-traffic-2026/) を参照してください。
+より広範な追跡については、[AEO KPI](/ja/docs/aeo-kpis-measurement/) および [2026 年の AI エージェント Web トラフィック](/ja/docs/ai-agent-web-traffic-2026/) を参照してください。
 
 ## サイトの小さな参照ポイントを作成します
 
@@ -81,7 +81,7 @@ AI の紹介やエージェントの検索は役立ちますが、タスクの�
 6. 人間による承認の移転。
 7. 最終状態の検証。
 
-これは、[エージェント評価パラメータ](/es/docs/agent-evaluation-benchmarks/) および [エージェントの可観測性と保護バリア](/es/docs/agent-observability-guardrails/) に直接リンクしています。
+これは、[エージェント評価パラメータ](/ja/docs/agent-evaluation-benchmarks/) および [エージェントの可観測性と保護バリア](/ja/docs/agent-observability-guardrails/) に直接リンクしています。
 
 ## よくある質問### BrowserGym と AutomationBench は SEO ツールですか?
 

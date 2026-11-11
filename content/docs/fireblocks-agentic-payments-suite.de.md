@@ -23,7 +23,7 @@ Am 20. Mai 2026 gab Fireblocks über [PR Newswire](https://www.prnewswire.com/ne
 
 Laut Fireblocks unterstützt die Suite außerdem neue Agentenzahlungsstandards, einschließlich x402 und MPP, im Rahmen definierter Kontrollen und Prüfpfade.
 
-Den Kontext finden Sie in den vorhandenen Leitfäden für [Agentenzahlungsprotokolle](/es/docs/agent-payment-protocols-compared/), [x402-Agentenzahlungen](/es/docs/x402-agent-payments/) und [Circular Agent Stack](/es/docs/circle-agent-stack-agent-payments/).
+Den Kontext finden Sie in den vorhandenen Leitfäden für [Agentenzahlungsprotokolle](/de/docs/agent-payment-protocols-compared/), [x402-Agentenzahlungen](/de/docs/x402-agent-payments/) und [Circular Agent Stack](/de/docs/circle-agent-stack-agent-payments/).
 
 ##Warum unterscheidet sich das von einer normalen Geldbörse?
 
@@ -67,7 +67,7 @@ Die Agent Engine-Optimierung verfügt über eine Ausführungsebene. Wenn eine We
 - Welche Ausgabengrenzen gelten? - Wie wird das Ergebnis bestätigt?
 - Was passiert, wenn die Zahlung fehlschlägt?
 
-Das bedeutet, dass die Zahlungsbereitschaft nah an Produktdaten, API-Design und maschinenlesbarer Zahlungsdokumentation liegen muss. Der [Handelsleitfaden für Agenten](/es/docs/agentic-commerce/) erklärt die umfassende Käuferreise.
+Das bedeutet, dass die Zahlungsbereitschaft nah an Produktdaten, API-Design und maschinenlesbarer Zahlungsdokumentation liegen muss. Der [Handelsleitfaden für Agenten](/de/docs/agentic-commerce/) erklärt die umfassende Käuferreise.
 
 ## Anwendungsfälle, die profitieren könnten| Anwendungsfall | Warum Agentenzahlungen wichtig sind |
 |
@@ -97,7 +97,7 @@ Agentenzahlungen erfordern mehr als ein gutes Protokolldiagramm.
 | Protokollfragmentierung | x402-, MPP- und Netzwerkkarten-Ansätze können unterschiedlich sein | Multiprotokollplanung |
 | Compliance-Lücken | Stablecoin-Flüsse können reguliert werden | Registrierungen, KYC/KYT, Berichte |
 
-Der Vergleich [x402 vs. ACP vs. MPP](/es/docs/x402-vs-acp-vs-mpp/) ist für Teams nützlich, die die Protokolloptimierung bewerten.
+Der Vergleich [x402 vs. ACP vs. MPP](/de/docs/x402-vs-acp-vs-mpp/) ist für Teams nützlich, die die Protokolloptimierung bewerten.
 
 ## Vorbereitungscheckliste
 

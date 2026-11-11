@@ -37,7 +37,7 @@ Für Website-Teams ist das Signal einfach: Agenten werden in Umgebungen getestet
 | Langfristige Aufgaben | Mehrstufige Arbeitsabläufe müssen wiederherstellbar sein. |
 | Verifizierung | Agenten benötigen einen Nachweis, dass die Aufgabe erledigt wurde. |
 
-Dies stellt eine Verbindung zu [Agentenbewertungsparametern](/es/docs/agent-evaluation-benchmarks/) und [Agentenentscheidungsbäumen](/es/docs/agent-decision-trees/) her.
+Dies stellt eine Verbindung zu [Agentenbewertungsparametern](/de/docs/agent-evaluation-benchmarks/) und [Agentenentscheidungsbäumen](/de/docs/agent-decision-trees/) her.
 
 ## So machen Sie Websites Benchmark-freundlich
 
@@ -49,7 +49,7 @@ Dies stellt eine Verbindung zu [Agentenbewertungsparametern](/es/docs/agent-eval
 6. Zustandsübergänge aufzeichnen.
 7. Testen Sie Agenten monatlich mit der gleichen Aufgabe.
 
-Verwenden Sie für die Betriebsmessung [AEO KPI](/es/docs/aeo-kpis-measurement/).
+Verwenden Sie für die Betriebsmessung [AEO KPI](/de/docs/aeo-kpis-measurement/).
 
 ## Was man nicht ableiten sollte
 

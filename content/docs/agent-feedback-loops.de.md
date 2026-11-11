@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 52
 category: "Architecture"
 description: "Erfahren Sie, wie Agenten-Feedbackschleifen Korrekturen erfassen, die Genauigkeit verbessern und fehlgeschlagene KI-Interaktionen umwandeln."
-metaDescription: "Aprenda a registrar las interacciones de los agentes, capturar correcciones, medir fallas y crear ciclos de retroalimentación que mejoren los sistemas AEO."
 summary: "Ohne Rückkopplungsschleifen wiederholt ein Agent, der einen Fehler macht, diesen für immer. Dieser Leitfaden behandelt die vierstufige Schleifenarchitektur, Implementierungsmuster und fortgeschrittene Techniken wie Reflexionsketten."
 keywords:
   - "KI-Agent-Feedbackschleifen"
@@ -82,7 +81,7 @@ Zeichnen Sie Interaktionen auf, überprüfen Sie jedoch niemals die Protokolle. 
 
 Lösen Sie Symptome statt Ursachen. Wenn Agenten ständig falsche Preise angeben, besteht die Lösung darin, den Preis auf einer Seite nicht zu aktualisieren. Hier geht es darum, die Schemavorlage zu reparieren, die auf allen Seiten falsches Markup generiert.
 
-Der [Artikel zur universellen Kontrollebene](/es/docs/universal-control-plane/) erklärt, wie sich Feedbackschleifen in die breitere Governance-Architektur integrieren.
+Der [Artikel zur universellen Kontrollebene](/de/docs/universal-control-plane/) erklärt, wie sich Feedbackschleifen in die breitere Governance-Architektur integrieren.
 
 ---
 
@@ -103,8 +102,8 @@ Eine Agentenarchitektur, bei der der Agent seine eigene Ausgabe bewertet, potenz
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
-* [Ausführungsschicht](/es/docs/execution-layer/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
+* [Ausführungsschicht](/de/docs/execution-layer/)
 
 ## Primäre Referenzen
 

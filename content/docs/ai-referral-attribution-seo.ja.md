@@ -43,7 +43,7 @@ Search Console のパフォーマンス レポートは、クエリ、ページ�
 |エージェントセッション |ログとイベント追跡 |エージェントは読み取り、比較、または行動しますか? |
 |実行結果 |製品登録、カート、API、予約または注文 |タスクは成功しましたか? |
 
-[AEO KPI 測定ガイド](/es/docs/aeo-kpis-measurement/) では、より広範な KPI モデルについて説明しています。
+[AEO KPI 測定ガイド](/ja/docs/aeo-kpis-measurement/) では、より広範な KPI モデルについて説明しています。
 
 ## AEO SEOに登録するもの
 
@@ -60,7 +60,7 @@ Search Console のパフォーマンス レポートは、クエリ、ページ�
 - ポリシーの拒否
 - 準拠または確認ステータス
 
-取引ワークフローについて詳しくは、[エージェント取引属性](/es/docs/agentic-commerce-attribution/) をご覧ください。より広範な検索レイヤーについては、[Search Console の Google AI モード](/es/docs/google-ai-mode-search-console-reporting/) をご覧ください。
+取引ワークフローについて詳しくは、[エージェント取引属性](/ja/docs/agentic-commerce-attribution/) をご覧ください。より広範な検索レイヤーについては、[Search Console の Google AI モード](/ja/docs/google-ai-mode-search-console-reporting/) をご覧ください。
 
 ## 昇順クエリ信号の使用
 
@@ -73,7 +73,7 @@ Search Console のパフォーマンス レポートは、クエリ、ページ�
 5. 戦略的に重要なページがある場合は、それらのページを llms.txt に追加します。
 6. 再度クロールした後、もう一度 Search Console を確認します。
 
-[AEO SEO 実装計画](/es/docs/aeo-seo-implementation-plan/) は、これを 30 日間のスプリントに変えます。
+[AEO SEO 実装計画](/ja/docs/aeo-seo-implementation-plan/) は、これを 30 日間のスプリントに変えます。
 
 ## 予想されるアトリビューションのギャップ
 

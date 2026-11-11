@@ -22,7 +22,7 @@ O comércio tem muitos estágios do ciclo de vida. Descoberta, carrinho, checkou
 
 Não se deve esperar que um único protocolo resolva todos eles.
 
-A página existente [UCP vs ACP vs MCP](/es/docs/ucp-vs-acp-vs-mcp/) compara três padrões principais. Esta página mapeia a pilha mais ampla de negociação de agentes.
+A página existente [UCP vs ACP vs MCP](/pt/docs/ucp-vs-acp-vs-mcp/) compara três padrões principais. Esta página mapeia a pilha mais ampla de negociação de agentes.
 
 ## Mapa de funções do protocolo
 
@@ -38,7 +38,7 @@ A página existente [UCP vs ACP vs MCP](/es/docs/ucp-vs-acp-vs-mcp/) compara tr�
 | x402 | Solicitação de pagamento HTTP nativo e padrão de liquidação | API, conteúdo e pagamentos automáticos |
 | Intenção verificável / TAP / Pagamento do agente | Confiança, identidade, tokenização e responsabilidade | Autorização e risco de pagamento |
 
-A [comparação de protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/) explica o lado do pagamento com mais detalhes.
+A [comparação de protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/) explica o lado do pagamento com mais detalhes.
 
 ## Fluxo de exemplo
 
@@ -52,7 +52,7 @@ Uma compra de agente poderia funcionar assim:
 6. Os eventos de atendimento atualizam o agente após o pagamento.
 7. As evidências de disputa vinculam a intenção do usuário, a ação do agente, o carrinho, o pagamento e a entrega.
 
-Isso explica por que [Agent Engine Optimization](/es/docs/what-is-aeo/) precisa de trabalho tanto na camada de leitura quanto na camada de execução.
+Isso explica por que [Agent Engine Optimization](/pt/docs/what-is-aeo/) precisa de trabalho tanto na camada de leitura quanto na camada de execução.
 
 ## O que os comerciantes não devem fazer
 
@@ -81,7 +81,7 @@ Em seguida, mapeie esses conceitos para protocolos à medida que amadurecem.
 | Encomendar | API de eventos e status de conformidade |
 | Auditoria | Trilha de evidências compartilhadas |
 
-A página [evidência de disputas comerciais entre agentes](/es/docs/agentic-commerce-dispute-evidence/) cobre a camada de auditoria.
+A página [evidência de disputas comerciais entre agentes](/pt/docs/agentic-commerce-dispute-evidence/) cobre a camada de auditoria.
 
 ## Perguntas frequentes
 

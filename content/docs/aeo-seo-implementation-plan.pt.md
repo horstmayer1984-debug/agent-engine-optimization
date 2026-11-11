@@ -23,7 +23,7 @@ Use este plano quando o Search Console mostrar um aumento de impressões para co
 
 O relatório de desempenho do Search Console pode mostrar consultas, páginas, impressões, cliques, CTR e posição média. Isso o torna o ponto de partida certo para decidir o que melhorar.
 
-Para obter orientações mais extensas, leia [Guia passo a passo do Agent Engine Optimization](/es/docs/aeo-step-by-step-guide/) e [Como implementar AEO](/es/docs/implement-aeo/).
+Para obter orientações mais extensas, leia [Guia passo a passo do Agent Engine Optimization](/pt/docs/aeo-step-by-step-guide/) e [Como implementar AEO](/pt/docs/implement-aeo/).
 
 ## Dia 1 a 5: Diagnosticar a consulta
 
@@ -65,7 +65,7 @@ Crie apenas páginas com uma intenção distinta. Para `aeo seo`, isso pode sign
 - um plano de implementação
 - um guia de medição
 
-É por isso que esta página tem links para [AEO SEO](/es/docs/aeo-seo/), [Lista de verificação de AEO SEO](/es/docs/aeo-seo-checklist/) e [AEO SEO para comércio eletrônico](/es/docs/aeo-seo-for-ecommerce/).
+É por isso que esta página tem links para [AEO SEO](/pt/docs/aeo-seo/), [Lista de verificação de AEO SEO](/pt/docs/aeo-seo-checklist/) e [AEO SEO para comércio eletrônico](/pt/docs/aeo-seo-for-ecommerce/).
 
 ## Dia 19 a 24: Adicionar IA e estrutura de preparação de agentes
 
@@ -92,7 +92,7 @@ Dica:
 - Sessões de referência de IA
 - conversões ou conclusão de tarefas
 
-O [guia de medição AEO KPI](/es/docs/aeo-kpis-measurement/) explica o modelo de medição.
+O [guia de medição AEO KPI](/pt/docs/aeo-kpis-measurement/) explica o modelo de medição.
 
 ## Perguntas frequentes
 

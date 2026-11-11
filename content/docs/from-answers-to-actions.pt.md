@@ -17,11 +17,11 @@ A próxima mudança na pesquisa de IA é a passagem das respostas às ações. O
 
 A primeira fase foi a busca. Os usuários digitaram consultas, verificaram os resultados e clicaram em links. O SEO ajudou a tornar os sites detectáveis.
 
-A segunda fase são as respostas. Os usuários fazem perguntas e esperam explicações diretas. [Otimização do mecanismo de resposta](/es/docs/answer-engine-optimization/) e [GEO](/es/docs/generative-engine-optimization/) respondem a essa alteração.
+A segunda fase são as respostas. Os usuários fazem perguntas e esperam explicações diretas. [Otimização do mecanismo de resposta](/pt/docs/answer-engine-optimization/) e [GEO](/pt/docs/generative-engine-optimization/) respondem a essa alteração.
 
 A terceira fase é agente. Os usuários delegam resultados. "Encontre o melhor fornecedor e solicite orçamentos." "Reserve um hotel que atenda a essas limitações." "Compare apólices de seguro e recomende uma."
 
-Nestes casos, uma resposta não é suficiente. O sistema de IA precisa interagir com a infraestrutura digital. É por isso que [Agent Engine Optimization](/es/docs/what-is-aeo/) é importante.
+Nestes casos, uma resposta não é suficiente. O sistema de IA precisa interagir com a infraestrutura digital. É por isso que [Agent Engine Optimization](/pt/docs/what-is-aeo/) é importante.
 
 ## Por que o conteúdo por si só é insuficiente
 
@@ -31,7 +31,7 @@ O conteúdo pode explicar um produto. Nem sempre você pode concluir uma transa�
 
 A maioria das marcas se concentra na visibilidade. A vantagem competitiva pertencerá a marcas que sejam fáceis de usar pelos agentes. Se duas empresas são igualmente visíveis, o agente prefere aquela com dados mais claros, menos erros e fluxos de trabalho mais seguros.
 
-A [economia de delegação](/es/docs/delegation-economy-agent-autonomy/) explica os cinco níveis de autonomia dos agentes que impulsionam esta transição.
+A [economia de delegação](/pt/docs/delegation-economy-agent-autonomy/) explica os cinco níveis de autonomia dos agentes que impulsionam esta transição.
 
 ---
 

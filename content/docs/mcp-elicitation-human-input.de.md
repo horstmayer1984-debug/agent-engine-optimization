@@ -28,7 +28,7 @@ Der Benutzer kann auf drei Arten reagieren:
 
 Dieses einfache Reaktionsmodell ist wichtig. Bietet dem Kunden eine klare Möglichkeit, die Benutzerkontrolle zu behalten.
 
-Informationen zur zugehörigen Architektur finden Sie unter [MCP vs. Agent API](/es/docs/mcp-vs-api-for-agents/), [Agent UX und Human-in-the-Loop-Design](/es/docs/agent-ux-human-in-the-loop/) und [MCP-Autorisierung mit OAuth](/es/docs/mcp-authorization-oauth-ai-agents/).
+Informationen zur zugehörigen Architektur finden Sie unter [MCP vs. Agent API](/de/docs/mcp-vs-api-for-agents/), [Agent UX und Human-in-the-Loop-Design](/de/docs/agent-ux-human-in-the-loop/) und [MCP-Autorisierung mit OAuth](/de/docs/mcp-authorization-oauth-ai-agents/).
 
 ## Warum es Erhebung gibt
 
@@ -69,7 +69,7 @@ Die MCP-Spezifikation besagt, dass Server get nicht zum Anfordern vertraulicher 
 - Zugangscodes zur einmaligen Nutzung
 - Rohzugriffstoken
 - vertrauliche personenbezogene Daten
-– Geheimnisse, die zu einem sicheren Tresor gehören. Wenn ein Workflow eine vertrauliche Autorisierung erfordert, verwenden Sie einen geeigneten Authentifizierungsfluss und keinen Get. Die [Ausführungsschicht](/es/docs/execution-layer/) hängt von vertrauenswürdigen Grenzen ab.
+– Geheimnisse, die zu einem sicheren Tresor gehören. Wenn ein Workflow eine vertrauliche Autorisierung erfordert, verwenden Sie einen geeigneten Authentifizierungsfluss und keinen Get. Die [Ausführungsschicht](/de/docs/execution-layer/) hängt von vertrauenswürdigen Grenzen ab.
 
 ## Gute Anwendungsfälle
 
@@ -99,7 +99,7 @@ Websites und APIs, die sich darauf vorbereiten, können Folgendes veröffentlich
 - Beispiele für gültige Einträge
 - Fehlermeldungen, die Agenten verstehen können
 
-Dadurch werden vage menschliche Formen in agentenfreundliche Arbeitsabläufe umgewandelt. Der Leitfaden [AI Agent Programming Websites] (/es/docs/programming-websites-for-ai-agents/) behandelt weitere dieser Vorbereitungsarbeiten.
+Dadurch werden vage menschliche Formen in agentenfreundliche Arbeitsabläufe umgewandelt. Der Leitfaden [AI Agent Programming Websites](/de/docs/programming-websites-for-ai-agents/) behandelt weitere dieser Vorbereitungsarbeiten.
 
 ## Design-Checkliste
 

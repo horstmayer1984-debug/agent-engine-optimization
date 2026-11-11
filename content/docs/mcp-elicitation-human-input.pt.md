@@ -28,7 +28,7 @@ O usuário pode responder de três maneiras:
 
 Esse modelo de resposta simples é importante. Oferece ao cliente uma maneira clara de manter o controle do usuário.
 
-Para arquitetura relacionada, leia [MCP vs Agent API](/es/docs/mcp-vs-api-for-agents/), [Agent UX e Human-in-the-Loop Design](/es/docs/agent-ux-human-in-the-loop/) e [MCP Authorization with OAuth](/es/docs/mcp-authorization-oauth-ai-agents/).
+Para arquitetura relacionada, leia [MCP vs Agent API](/pt/docs/mcp-vs-api-for-agents/), [Agent UX e Human-in-the-Loop Design](/pt/docs/agent-ux-human-in-the-loop/) e [MCP Authorization with OAuth](/pt/docs/mcp-authorization-oauth-ai-agents/).
 
 ## Por que existe a elicitação
 
@@ -69,7 +69,7 @@ A especificação MCP diz que os servidores não devem usar get para solicitar i
 - códigos de acesso de uso único
 - tokens de acesso brutos
 - dados pessoais confidenciais
-- segredos que pertencem a um cofre seguro. Se um fluxo de trabalho exigir autorização confidencial, use um fluxo de autenticação apropriado, não um get. A [camada de execução](/es/docs/execution-layer/) depende de limites confiáveis.
+- segredos que pertencem a um cofre seguro. Se um fluxo de trabalho exigir autorização confidencial, use um fluxo de autenticação apropriado, não um get. A [camada de execução](/pt/docs/execution-layer/) depende de limites confiáveis.
 
 ## Bons casos de uso
 
@@ -99,7 +99,7 @@ Sites e APIs que se preparam para isso podem publicar:
 - exemplos de entradas válidas
 - mensagens de erro que os agentes podem entender
 
-Isso transforma formas humanas vagas em fluxos de trabalho amigáveis aos agentes. O guia [Sites de programação de agentes de IA](/es/docs/programming-websites-for-ai-agents/) cobre mais desse trabalho de preparação.
+Isso transforma formas humanas vagas em fluxos de trabalho amigáveis aos agentes. O guia [Sites de programação de agentes de IA](/pt/docs/programming-websites-for-ai-agents/) cobre mais desse trabalho de preparação.
 
 ## Lista de verificação de design
 

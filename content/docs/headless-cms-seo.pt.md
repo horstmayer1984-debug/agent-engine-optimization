@@ -20,7 +20,7 @@ Headless CMS SEO funciona quando o modelo de conteúdo do CMS e a camada de rend
 
 Em um CMS tradicional, as configurações de SEO são frequentemente encontradas em plug-ins. Em um CMS headless, esses padrões podem desaparecer. A equipe deve incorporar o SEO em modelos de conteúdo, componentes, roteamento e implantação.
 
-Use esta página como sua lista de verificação de implementação. Para aprender a estratégia e as vantagens e desvantagens, leia [CMS sem cabeça vs. CMS tradicional] (/es/docs/headless-cms-vs-traditional-cms/) e [Impacto do CMS sem cabeça no SEO] (/es/docs/headless-cms-impact-on-seo/).
+Use esta página como sua lista de verificação de implementação. Para aprender a estratégia e as vantagens e desvantagens, leia [CMS sem cabeça vs. CMS tradicional](/pt/docs/headless-cms-vs-traditional-cms/) e [Impacto do CMS sem cabeça no SEO](/pt/docs/headless-cms-impact-on-seo/).
 
 ## Campos obrigatórios do CMS
 
@@ -70,7 +70,7 @@ Um site headless tecnicamente correto ainda pode falhar editorialmente. Os edito
 - lançamento agendado que atualiza a interface
 - limpar rascunho e visualizar isolamento
 
-O [Guia de estratégia de conteúdo AEO] (/es/docs/aeo-content-strategy/) explica por que as escolhas editoriais estruturadas são importantes para sistemas de IA e mecanismos de pesquisa.
+O [Guia de estratégia de conteúdo AEO](/pt/docs/aeo-content-strategy/) explica por que as escolhas editoriais estruturadas são importantes para sistemas de IA e mecanismos de pesquisa.
 
 ## Lista de verificação de contornoAdicione o contorno somente quando ele corresponder ao conteúdo visível. Os tipos comuns de esquema CMS headless incluem:
 
@@ -95,7 +95,7 @@ O [Guia de estratégia de conteúdo AEO] (/es/docs/aeo-content-strategy/) explic
 | Links centrais | Conecte páginas de grupo a páginas de pilar |
 | Próxima etapa Links | Adicionar referências de CTA por intenção |
 
-Este site usa o mesmo padrão: [O que é software headless?](/es/docs/what-is-headless-software/) atua como um pilar mais amplo, enquanto esta página trata da lista de verificação técnica.
+Este site usa o mesmo padrão: [O que é software headless?](/pt/docs/what-is-headless-software/) atua como um pilar mais amplo, enquanto esta página trata da lista de verificação técnica.
 
 ## Liberação de controle de qualidade
 

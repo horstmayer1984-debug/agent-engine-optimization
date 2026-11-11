@@ -24,11 +24,11 @@ Der Inhalt ist klar strukturiert. Die Titel machen Sinn. Die Definitionen sind d
 
 ## Level 3: Verantwortungsbewusst
 
-Die Seiten sind um echte Fragen herum aufgebaut. Dazu gehören Antworteinleitungen, häufig gestellte Fragen, Beispiele und prägnante Erklärungen. Hier wird [Antwort-Engine-Optimierung](/es/docs/answer-engine-optimization/) wichtig.
+Die Seiten sind um echte Fragen herum aufgebaut. Dazu gehören Antworteinleitungen, häufig gestellte Fragen, Beispiele und prägnante Erklärungen. Hier wird [Antwort-Engine-Optimierung](/de/docs/answer-engine-optimization/) wichtig.
 
 ## Level 4: Zitierfähig
 
-Der Inhalt wird für die generierten Antworten nützlich. Enthält Original-Frameworks, quellengestützte Behauptungen, Vergleichstabellen und eine klare Terminologie. Dies ist die [GEO](/es/docs/generative-engine-optimization/)-Ebene. Die Seite ist nicht nur verständlich. Es lohnt sich, darauf zu verweisen.
+Der Inhalt wird für die generierten Antworten nützlich. Enthält Original-Frameworks, quellengestützte Behauptungen, Vergleichstabellen und eine klare Terminologie. Dies ist die [GEO](/de/docs/generative-engine-optimization/)-Ebene. Die Seite ist nicht nur verständlich. Es lohnt sich, darauf zu verweisen.
 
 ## Level 5: Vergleichbar
 
@@ -36,7 +36,7 @@ Agenten und KI-Systeme müssen häufig Optionen vergleichen. Auf einer vergleich
 
 ## Level 6: Umsetzbar
 
-Agenten können über das Lesen hinausgehen. Sie können Formulare einreichen, Angebote anfordern, die Verfügbarkeit prüfen, Termine buchen, Käufe anstoßen oder Workflows aktivieren. Hier kommt [Agent Engine Optimization](/es/docs/what-is-aeo/) ins Spiel. Die Seite unterstützt die Ausführung, nicht nur die Erklärung.
+Agenten können über das Lesen hinausgehen. Sie können Formulare einreichen, Angebote anfordern, die Verfügbarkeit prüfen, Termine buchen, Käufe anstoßen oder Workflows aktivieren. Hier kommt [Agent Engine Optimization](/de/docs/what-is-aeo/) ins Spiel. Die Seite unterstützt die Ausführung, nicht nur die Erklärung.
 
 ## Level 7: Überprüfbar
 
@@ -59,7 +59,7 @@ Aktionen haben eindeutige Bestätigungsstatus. Die Fehler sind verständlich. Di
 
 ## So verwenden Sie das Modell
 
-Überprüfen Sie Ihre Website, indem Sie jede Frage der Reihe nach stellen. Die meisten Websites werden Lücken auf verschiedenen Ebenen finden. Beginnen Sie mit der niedrigsten Fehlerstufe. Die Fähigkeit, ohne Klarheit zu handeln, birgt Risiken. Zitierbarkeit ohne Rückverfolgbarkeit ist unmöglich.Der [AEO Readiness Checker](/tools/aeo-readiness-checker.html) testet die praktischen Grundlagen, während der [Implementierungsleitfaden](/es/docs/implement-aeo/) erklärt, wie man von der Klarheit des Inhalts zur Bereitschaft für die Ausführung gelangt.
+Überprüfen Sie Ihre Website, indem Sie jede Frage der Reihe nach stellen. Die meisten Websites werden Lücken auf verschiedenen Ebenen finden. Beginnen Sie mit der niedrigsten Fehlerstufe. Die Fähigkeit, ohne Klarheit zu handeln, birgt Risiken. Zitierbarkeit ohne Rückverfolgbarkeit ist unmöglich.Der [AEO Readiness Checker](/tools/aeo-readiness-checker.html) testet die praktischen Grundlagen, während der [Implementierungsleitfaden](/de/docs/implement-aeo/) erklärt, wie man von der Klarheit des Inhalts zur Bereitschaft für die Ausführung gelangt.
 
 ## Verwenden Sie Ausstiegskriterien zwischen Reifegraden
 

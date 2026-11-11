@@ -4,7 +4,6 @@ date: 2026-03-22
 weight: 23
 category: "Guide"
 description: "Como o marketing deve evoluir da persuasão para a clareza operacional. Abrange estratégia de conteúdo e reivindicações baseadas em dados."
-metaDescription: "Vea cómo cambia el marketing para los agentes de IA a través de claridad operativa, formatos estructurados, evidencia y preparación para la verificación."
 summary: "O marketing mecânico significa construir confiança por meio da transparência. Os agentes de IA verificam reivindicações, extraem dados e ignoram cópias persuasivas que carecem de suporte factual."
 keywords:
   - "agente de web marketing"
@@ -20,7 +19,7 @@ Por vinte anos, marketing significou classificar uma página para que um ser hum
 
 Os agentes de IA não clicam. Eles extraem, comparam, verificam e agem. Eles não respondem a narrativas emocionais ou metáforas inteligentes. Eles respondem a dados estruturados, afirmações factuais e resultados verificáveis.
 
-Esta não é uma mudança sutil. Isso muda o que as equipes de marketing produzem, como medem o sucesso e o que “bom conteúdo” realmente significa. A [comparação entre AEO, SEO e GEO](/es/docs/aeo-vs-seo-vs-geo/) mapeia essa progressão da visibilidade à ação.
+Esta não é uma mudança sutil. Isso muda o que as equipes de marketing produzem, como medem o sucesso e o que “bom conteúdo” realmente significa. A [comparação entre AEO, SEO e GEO](/pt/docs/aeo-vs-seo-vs-geo/) mapeia essa progressão da visibilidade à ação.
 
 ## Da persuasão à clareza operacional
 
@@ -54,7 +53,7 @@ Você ainda pode contar a história. Mas coloque os dados resumidos em um bloco 
 
 Os agentes usam tutoriais para aprender como os produtos funcionam. Se o seu conteúdo instrucional estiver estruturado como instruções passo a passo com entradas claras e resultados esperados em cada etapa, um agente poderá segui-lo. Se o seu tutorial disser "então você desejará ajustar as configurações para algo que funcione para sua equipe", o agente não poderá executar essa etapa. Você precisa: "Vá para Configurações > Notificações > defina a frequência de e-mail como semanal > clique em Salvar. Resultado esperado: um banner de confirmação é exibido."
 
-A precisão não é útil apenas para os agentes. Também melhora a usabilidade humana. O [Guia de Implementação AEO](/es/docs/implement-aeo/) explica como estruturar o conteúdo para leitura dupla.
+A precisão não é útil apenas para os agentes. Também melhora a usabilidade humana. O [Guia de Implementação AEO](/pt/docs/implement-aeo/) explica como estruturar o conteúdo para leitura dupla.
 
 ## Preparação para verificação cruzada
 
@@ -102,7 +101,7 @@ Sim. SEO ainda é a base da visibilidade. AEO adiciona a camada de execução: t
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

@@ -25,9 +25,9 @@ Isso torna o AI Labyrinth diferente do robots.txt. Robots.txt comunica preferên
 
 Guias de sites relacionados:
 
-- [Controle de rastreamento AI da Cloudflare para AEO](/es/docs/cloudflare-ai-crawl-control/)
-- [Rastreadores de IA e robots.txt](/es/docs/ai-crawlers-robots-txt/)
-- [llms.txt vs robots.txt](/es/docs/llms-txt-vs-robots-txt/)
+- [Controle de rastreamento AI da Cloudflare para AEO](/pt/docs/cloudflare-ai-crawl-control/)
+- [Rastreadores de IA e robots.txt](/pt/docs/ai-crawlers-robots-txt/)
+- [llms.txt vs robots.txt](/pt/docs/llms-txt-vs-robots-txt/)
 
 ## AI Labyrinth vs outros controles de rastreamento
 
@@ -49,7 +49,7 @@ A configuração correta não é “ativar todas as defesas”. É uma política
 
 O Agent Engine Optimization requer capacidade de descoberta. Se suas melhores páginas não puderem ser rastreadas, os mecanismos de resposta e os agentes de IA poderão não citá-las. Ao mesmo tempo, a raspagem irrestrita pode levar a custos de largura de banda, preocupações com o uso do treinamento e problemas de controle de conteúdo.
 
-O AI Labyrinth pertence à mesma conversa que a [camada de execução](/es/docs/execution-layer/): depois que os agentes conseguem descobrir um site, o site ainda precisa de regras sobre quem pode agir, rastrear, pagar ou recuperar conteúdo mais profundo.
+O AI Labyrinth pertence à mesma conversa que a [camada de execução](/pt/docs/execution-layer/): depois que os agentes conseguem descobrir um site, o site ainda precisa de regras sobre quem pode agir, rastrear, pagar ou recuperar conteúdo mais profundo.
 
 ## Quando o AI Labyrinth faz sentido
 
@@ -72,7 +72,7 @@ Tome especial cuidado com:
 - páginas usadas por agentes de suporte, agentes de compras ou sistemas de comparação
 - sites com baixa atividade de rastreamento
 
-Para muitas pequenas empresas, uma política de bots mais leve é suficiente. O [guia de implementação AEO](/es/docs/implement-aeo/) é um ponto de partida melhor do que uma defesa agressiva contra farejadores.
+Para muitas pequenas empresas, uma política de bots mais leve é suficiente. O [guia de implementação AEO](/pt/docs/implement-aeo/) é um ponto de partida melhor do que uma defesa agressiva contra farejadores.
 
 ## Política recomendada por tipo de conteúdo
 
@@ -98,7 +98,7 @@ Para muitas pequenas empresas, uma política de bots mais leve é suficiente. O 
 7. Monitore o Search Console e os logs do servidor após as alterações.
 8. Verifique URLs importantes com ferramentas de pesquisa.
 
-A [auditoria de prontidão AEO](/es/docs/audit/) deve incluir acesso do rastreador, não apenas metadados e dados estruturados.
+A [auditoria de prontidão AEO](/pt/docs/audit/) deve incluir acesso do rastreador, não apenas metadados e dados estruturados.
 
 ## Perguntas frequentes
 

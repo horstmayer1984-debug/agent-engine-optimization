@@ -46,7 +46,7 @@ As referências de IA e as pesquisas de agentes são úteis, mas não demonstram
 | Agente de usuário de bot | Chamada de ferramenta bem-sucedida |
 | Tempo na página | Conclusão conforme |
 
-Para um rastreamento mais amplo, consulte [AEO KPI](/es/docs/aeo-kpis-measurement/) e [AI Agent Web Traffic em 2026](/es/docs/ai-agent-web-traffic-2026/).
+Para um rastreamento mais amplo, consulte [AEO KPI](/pt/docs/aeo-kpis-measurement/) e [AI Agent Web Traffic em 2026](/pt/docs/ai-agent-web-traffic-2026/).
 
 ## Crie um pequeno ponto de referência para seu site
 
@@ -81,7 +81,7 @@ Tarefas de exemplo:
 6. Transferências de aprovação humana.
 7. Verificação do estado final.
 
-Isso está diretamente vinculado a [Parâmetros de avaliação do agente](/es/docs/agent-evaluation-benchmarks/) e [Observabilidade do agente e barreiras de proteção](/es/docs/agent-observability-guardrails/).
+Isso está diretamente vinculado a [Parâmetros de avaliação do agente](/pt/docs/agent-evaluation-benchmarks/) e [Observabilidade do agente e barreiras de proteção](/pt/docs/agent-observability-guardrails/).
 
 ## Perguntas frequentes### O BrowserGym e o AutomationBench são ferramentas de SEO?
 

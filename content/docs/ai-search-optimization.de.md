@@ -5,7 +5,6 @@ date: 2026-04-29
 weight: 123
 category: "Framework"
 description: "AI Search Optimization verbindet SEO, Answer Engine Optimization, GEO und Agent Engine Optimization in einem praktischen Framework. Der KI-Optimierungsstack."
-metaDescription: "Comprenda la optimización de búsqueda con IA en SEO, GEO, optimización del motor de respuesta y optimización del motor de agentes en un solo marco."
 summary: "Suchoptimierung mit KI ist keine Taktik. Es handelt sich um eine mehrschichtige Strategie. Durch SEO werden Sie gefunden. AEO bietet Ihnen Antworten. GEO zitiert Sie. Mit der Agent Engine-Optimierung gewöhnen Sie sich daran."
 keywords:
   - "KI-Suchoptimierung"
@@ -21,7 +20,7 @@ Der Ausdruck „KI-Suche“ wird lose verwendet. Manche verweisen auf die KI-Üb
 
 Eine nützliche Möglichkeit, die KI-Suchoptimierung zu verstehen, ist der KI-Optimierungsstapel:
 
-SEO: Können Suchmaschinen die Seite finden und indizieren? [Antwort-Engine-Optimierung](/es/docs/answer-engine-optimization/): Können KI-Systeme eine klare Antwort extrahieren? [GEO](/es/docs/generative-engine-optimization/): Können generative Motoren die Quelle zitieren oder erwähnen? [Agent Engine Optimization](/es/docs/what-is-aeo/): Können autonome Agenten die Site nutzen, um eine Aufgabe abzuschließen?
+SEO: Können Suchmaschinen die Seite finden und indizieren? [Antwort-Engine-Optimierung](/de/docs/answer-engine-optimization/): Können KI-Systeme eine klare Antwort extrahieren? [GEO](/de/docs/generative-engine-optimization/): Können generative Motoren die Quelle zitieren oder erwähnen? [Agent Engine Optimization](/de/docs/what-is-aeo/): Können autonome Agenten die Site nutzen, um eine Aufgabe abzuschließen?
 
 Jede Ebene hängt von der darunter liegenden ab. Eine Website, die nicht gecrawlt werden kann, hat Probleme mit der KI-Sichtbarkeit. Eine Website, die sichtbar, aber unklar ist, wird Schwierigkeiten haben, zitiert zu werden. Eine zitierte, aber nicht umsetzbare Website wird bei von Agenten geführten Reisen Schwierigkeiten haben.
 
@@ -39,7 +38,7 @@ Die Suchoptimierung mit KI sollte sich nicht auf die Sichtbarkeit der Antworten 
 
 Eine starke KI-Suchoptimierungsstrategie umfasst: technische SEO-Hygiene, klare Informationsarchitektur, Themencluster rund um die tatsächliche Suchabsicht, entitätsreiche Inhalte, FAQ- und Vergleichsinhalte, strukturierte Daten, llms.txt oder ähnliche Erkennungshilfen, transparente Richtlinien, saubere Formulare und Konvertierungspfade sowie maschinenlesbare Produkt-, Service- oder Fähigkeitsdaten.
 
-Das [AI Optimization Maturity Model] (/es/docs/ai-optimization-maturity-model/) bietet einen Level-by-Level-Bewertungsrahmen.
+Das [AI Optimization Maturity Model](/de/docs/ai-optimization-maturity-model/) bietet einen Level-by-Level-Bewertungsrahmen.
 
 ---
 

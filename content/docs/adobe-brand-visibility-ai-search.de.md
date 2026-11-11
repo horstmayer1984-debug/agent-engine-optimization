@@ -35,7 +35,7 @@ Die Suchnachfrage rund um „Adobe-Markensichtbarkeit“ unterscheidet sich wahr
 4. Ob Unternehmen Arbeitsabläufe ändern sollten, bevor sie diese übernehmen.
 5. Wie es mit der bestehenden KI-Sichtbarkeitsüberwachung verglichen wird.
 
-Für einen breiteren Kontext siehe [Generative Engine Optimization](/es/docs/generative-engine-optimization/) und [AI Dating Strategy](/es/docs/ai-citation-strategy/).
+Für einen breiteren Kontext siehe [Generative Engine Optimization](/de/docs/generative-engine-optimization/) und [AI Dating Strategy](/de/docs/ai-citation-strategy/).
 
 ## Sichtbarkeit der Marke Adobe in einer einzigen Tabelle
 
@@ -59,7 +59,7 @@ Werkzeuge können schwaches Ausgangsmaterial nicht reparieren. Bevor Sie Adobe B
 6. Verfolgen Sie KI-Empfehlungen getrennt von normalen organischen Sitzungen.
 7. Halten Sie „llms.txt“ für Agenten nützlich, die es verwenden möchten, und befolgen Sie gleichzeitig die Anweisungen der Google-Suche für die normale Indizierung.
 
-Der praktische Ablauf wird in [AEO SEO Implementation Plan](/es/docs/aeo-seo-implementation-plan/) und [How to Implement AEO](/es/docs/implement-aeo/) behandelt.
+Der praktische Ablauf wird in [AEO SEO Implementation Plan](/de/docs/aeo-seo-implementation-plan/) und [How to Implement AEO](/de/docs/implement-aeo/) behandelt.
 
 ## Was Adobe Brand Visibility nicht alleine löst
 
@@ -74,7 +74,7 @@ Ein KI-Sichtbarkeitstool kann zwar Lücken aufzeigen, eine Website aber nicht au
 | Governance | Teams benötigen Regeln für Ansprüche, Aktualisierungszyklen, schnelle Probenentnahme und Ursprungsgenehmigung. |
 | Messung | Die Sichtbarkeit von Terminen sollte mit Leads, Verkäufen, Tests oder Supportergebnissen verknüpft sein. |
 
-Beginnen Sie für die Arbeit auf der Ausführungsschicht mit [Ausführungsschicht](/es/docs/execution-layer/) und [UX-Agent und Human Design in the Loop](/es/docs/agent-ux-human-in-the-loop/).
+Beginnen Sie für die Arbeit auf der Ausführungsschicht mit [Ausführungsschicht](/de/docs/execution-layer/) und [UX-Agent und Human Design in the Loop](/de/docs/agent-ux-human-in-the-loop/).
 
 ## Häufig gestellte Fragen
 

@@ -23,7 +23,7 @@ Die klassische E-Commerce-Analyse geht davon aus, dass der Käufer auf einen Lin
 
 Untersuchungen von PayPal-Händlern zeigen, dass sich Unternehmen auf künstliche Intelligenzsysteme vorbereiten, die die Erkennung beeinflussen, bevor der Käufer die Website erreicht. Google bezeichnet UCP und Universal Cart auch als Infrastruktur für den Agentenhandel auf Google-Oberflächen.
 
-Deshalb benötigt [AEO-Messung](/es/docs/aeo-kpis-measurement/) mehr als Rankings und Klicks.
+Deshalb benötigt [AEO-Messung](/de/docs/aeo-kpis-measurement/) mehr als Rankings und Klicks.
 
 ## Was sollten Händler zuordnen?
 
@@ -39,7 +39,7 @@ Deshalb benötigt [AEO-Messung](/es/docs/aeo-kpis-measurement/) mehr als Ranking
 | Befehls- oder Autorisierungsreferenz | Links mit Zahlungsabsicht, sofern unterstützt |
 | Compliance-Ergebnis | Verknüpfen Sie Agenten-Ursprungstransaktionen mit Lieferungen und Retouren |
 
-Das Modell [Fünf Ebenen des Agentenhandels] (/es/docs/five-levels-agentic-commerce/) ist nützlich, da sich die Attributionsreife auf jeder Ebene ändert.
+Das Modell [Fünf Ebenen des Agentenhandels](/de/docs/five-levels-agentic-commerce/) ist nützlich, da sich die Attributionsreife auf jeder Ebene ändert.
 
 ## Das UTM-Problem
 
@@ -69,7 +69,7 @@ Dies kommt der Transaktionsverfolgung näher als der Kampagnenverfolgung.
 | Abschluss der Agentenzahlung | Funktioniert die Überweisung bzw. native Zahlung |
 | Ablehnungsrate von Richtlinien | Wenn Richtlinien Agententransaktionen blockieren || Ausnahmequote nach dem Kauf | Wenn von Agenten bezogene Bestellungen zu mehr Rückerstattungen oder Supportproblemen führen |
 
-Verknüpfen Sie diese Metriken mit der [Ausführungsschicht](/es/docs/execution-layer/), nicht nur mit Inhaltsberichten.
+Verknüpfen Sie diese Metriken mit der [Ausführungsschicht](/de/docs/execution-layer/), nicht nur mit Inhaltsberichten.
 
 ## Checkliste für die Bereitstellung1. Behalten Sie die normale Referenzverfolgung und UTM bei.
 2. Fügen Sie dem zu analysierenden Agenten Quellereignisnamen hinzu.
@@ -79,7 +79,7 @@ Verknüpfen Sie diese Metriken mit der [Ausführungsschicht](/es/docs/execution-
 6. Verfolgen Sie Zahlungsfehler separat für Agentenquellensitzungen.
 7. Bestell-, Rückerstattungs- und Supportdaten mit dem Quellkontext verknüpfen.
 
-Der [Universal Trading Protocol-Leitfaden](/es/docs/universal-commerce-protocol/) erklärt, wo der Handel in den Handelskontext eingepasst werden kann.
+Der [Universal Trading Protocol-Leitfaden](/de/docs/universal-commerce-protocol/) erklärt, wo der Handel in den Handelskontext eingepasst werden kann.
 
 ## Häufig gestellte Fragen
 

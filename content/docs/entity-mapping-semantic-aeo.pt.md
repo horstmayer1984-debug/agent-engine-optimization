@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 83
 category: "Guide"
 description: "O mapeamento de entidades cria relacionamentos legíveis por máquina entre sua marca, produtos e tópicos para que os agentes entendam sua autoridade e citem você."
-metaDescription: "Utilice el mapeo de entidades para conectar marcas, productos y temas para que los agentes de IA comprendan la autoridad y citen páginas con mayor precisión."
 summary: "Os agentes citam fontes que entendem claramente. O mapeamento de entidades cria relacionamentos explícitos e legíveis por máquina entre sua marca, produtos e experiência para que os sistemas de IA possam encaminhar consultas para você com precisão."
 keywords:
   - "Mapeamento de entidade AEO"
@@ -57,7 +56,7 @@ A segunda versão declara entidades (Agent Engine Optimization, camada de leitur
 
 Use a marcação Schema.org para formalizar declarações de entidade. Esquema de organização da sua marca. Esquema de produto para seus produtos. Esquema de serviço para suas ofertas. Propriedades SameAs para conectar suas entidades com referências externas autorizadas (Wikipedia, Wikidata, especificações oficiais).
 
-O [guia de implementação do AEO](/es/docs/implement-aeo/) abrange a implementação do regime. O [artigo AEO baseado em IA](/es/docs/ai-powered-aeo-ecommerce/) cobre abordagens de gráfico de conhecimento.
+O [guia de implementação do AEO](/pt/docs/implement-aeo/) abrange a implementação do regime. O [artigo AEO baseado em IA](/pt/docs/ai-powered-aeo-ecommerce/) cobre abordagens de gráfico de conhecimento.
 
 ##Comparação: otimização de palavras-chave versus mapeamento de entidades
 
@@ -94,7 +93,7 @@ Sites que implementam reestruturação de conteúdo com foco em entidades normal
 **Sites pequenos podem se beneficiar do mapeamento de entidades?**
 Sim. Sites menores normalmente se beneficiam mais porque podem alcançar consistência de entidade mais rapidamente em menos páginas. Um site de 20 páginas com mapeamento de entidade claro pode superar um site de 2.000 páginas com cobertura vaga de palavras-chave.## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

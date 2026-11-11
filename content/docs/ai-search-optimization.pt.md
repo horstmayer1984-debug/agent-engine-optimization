@@ -5,7 +5,6 @@ date: 2026-04-29
 weight: 123
 category: "Framework"
 description: "AI Search Optimization conecta SEO, Answer Engine Optimization, GEO e Agent Engine Optimization em uma estrutura prática. A pilha de otimização de IA."
-metaDescription: "Comprenda la optimización de búsqueda con IA en SEO, GEO, optimización del motor de respuesta y optimización del motor de agentes en un solo marco."
 summary: "A otimização de pesquisa com IA não é uma tática. É uma estratégia em camadas. SEO permite que você seja encontrado. AEO oferece respostas. GEO cita você. A otimização do Agent Engine faz você se acostumar."
 keywords:
   - "Otimização de pesquisa de IA"
@@ -21,7 +20,7 @@ A frase “pesquisa de IA” é usada vagamente. Algumas pessoas referem-se às 
 
 Uma maneira útil de entender a otimização de pesquisa de IA é a pilha de otimização de IA:
 
-SEO: os motores de busca podem encontrar e indexar a página? [Otimização do mecanismo de resposta](/es/docs/answer-engine-optimization/): Os sistemas de IA podem extrair uma resposta clara? [GEO](/es/docs/generative-engine-optimization/): Os motores generativos podem citar ou mencionar a fonte? [Otimização do mecanismo do agente](/es/docs/what-is-aeo/): Os agentes autônomos podem usar o site para concluir uma tarefa?
+SEO: os motores de busca podem encontrar e indexar a página? [Otimização do mecanismo de resposta](/pt/docs/answer-engine-optimization/): Os sistemas de IA podem extrair uma resposta clara? [GEO](/pt/docs/generative-engine-optimization/): Os motores generativos podem citar ou mencionar a fonte? [Otimização do mecanismo do agente](/pt/docs/what-is-aeo/): Os agentes autônomos podem usar o site para concluir uma tarefa?
 
 Cada camada depende daquela abaixo dela. Um site que não pode ser rastreado terá dificuldades com a visibilidade da IA. Um site visível, mas pouco claro, terá dificuldade em ser citado. Um site citado, mas não acionável, terá dificuldade em viagens lideradas por agentes.
 
@@ -39,7 +38,7 @@ A otimização de pesquisa com IA não deve se limitar à visibilidade da respos
 
 Uma forte estratégia de otimização de pesquisa de IA inclui: higiene técnica de SEO, arquitetura de informações clara, grupos de tópicos em torno da intenção de pesquisa real, conteúdo rico em entidades, perguntas frequentes e conteúdo de comparação, dados estruturados, llms.txt ou recursos de descoberta semelhantes, políticas transparentes, formulários e caminhos de conversão limpos e dados de produtos, serviços ou capacidades legíveis por máquina.
 
-O [Modelo de Maturidade de Otimização de IA](/es/docs/ai-optimization-maturity-model/) fornece uma estrutura de avaliação nível por nível.
+O [Modelo de Maturidade de Otimização de IA](/pt/docs/ai-optimization-maturity-model/) fornece uma estrutura de avaliação nível por nível.
 
 ---
 

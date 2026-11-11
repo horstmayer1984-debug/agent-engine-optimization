@@ -47,7 +47,7 @@ Cloudflare の投稿 [Making AI search Smarter](https://blog.cloudflare.com/maki
 - コンテンツライセンス
 - 機械可読アクセスルール
 
-[レスポンス エンジンの最適化](/es/docs/answer-engine-optimization/)、[AI クロールと参照の比率](/es/docs/ai-crawl-to-referral-ratio/)、および [AEO SEO の AI 参照アトリビューション](/es/docs/ai-referral-attribution-seo/) も参照してください。
+[レスポンス エンジンの最適化](/ja/docs/answer-engine-optimization/)、[AI クロールと参照の比率](/ja/docs/ai-crawl-to-referral-ratio/)、および [AEO SEO の AI 参照アトリビューション](/ja/docs/ai-referral-attribution-seo/) も参照してください。
 
 ## 編集者が準備すべきもの
 

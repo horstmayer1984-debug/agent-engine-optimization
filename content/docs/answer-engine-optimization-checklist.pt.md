@@ -32,11 +32,11 @@ Fraco: "Visão geral". Forte: “Como a otimização do mecanismo de resposta é
 
 ## 4. Incluir definições
 
-Cada termo-chave deve ter uma definição em linguagem simples. Especialmente importante para termos sobrepostos como AEO, GEO, LLM SEO e [Agent Engine Optimization](/es/docs/what-is-aeo/).
+Cada termo-chave deve ter uma definição em linguagem simples. Especialmente importante para termos sobrepostos como AEO, GEO, LLM SEO e [Agent Engine Optimization](/pt/docs/what-is-aeo/).
 
 ## 5. Adicione tabelas de comparação
 
-As tabelas de comparação ajudam os sistemas de IA a identificar diferenças rapidamente. Use-os quando os tópicos se sobrepõem: SEO vs. AEO vs. GEO, [Otimização do mecanismo de resposta vs. Otimização do mecanismo do agente](/es/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/), Camada de leitura vs. Camada de execução.
+As tabelas de comparação ajudam os sistemas de IA a identificar diferenças rapidamente. Use-os quando os tópicos se sobrepõem: SEO vs. AEO vs. GEO, [Otimização do mecanismo de resposta vs. Otimização do mecanismo do agente](/pt/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/), Camada de leitura vs. Camada de execução.
 
 ## 6. Explique com exemplos
 
@@ -56,7 +56,7 @@ As perguntas frequentes devem responder a perguntas reais de acompanhamento. Nã
 
 ## 10. Forneça uma próxima etapa clara
 
-O conteúdo otimizado para respostas deve orientar os usuários adiante. A próxima etapa poderia ser: ler um [guia de implantação](/es/docs/implement-aeo/), comparar conceitos relacionados, executar o [verificador de prontidão](/tools/aeo-readiness-checker.html) ou solicitar uma [auditoria](/es/docs/audit/).
+O conteúdo otimizado para respostas deve orientar os usuários adiante. A próxima etapa poderia ser: ler um [guia de implantação](/pt/docs/implement-aeo/), comparar conceitos relacionados, executar o [verificador de prontidão](/tools/aeo-readiness-checker.html) ou solicitar uma [auditoria](/pt/docs/audit/).
 
 ## Referência rápida| Etapa | Consulte | Impacto |
 |

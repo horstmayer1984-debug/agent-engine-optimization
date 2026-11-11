@@ -5,7 +5,6 @@ date: 2026-04-29
 weight: 125
 category: "Guide"
 description: "ChatGPT SEO を使用すると、AI 支援の会話でブランドとコンテンツが理解しやすくなり、参照しやすくなります。内容の明瞭さ。"
-metaDescription: "Descubra cómo ChatGPT SEO mejora las referencias de IA a través de claridad de contenido, autoridad temática, respuestas estructuradas y señales de entidad."
 summary: "ChatGPT SEO は、AI 支援による会話のより良いソースになることを目指しています。明確な説明、比較コンテンツ、構造化された次のステップにより、コンテンツがより有用になります。"
 keywords:
   - "ChatGPT SEO"
@@ -33,7 +32,7 @@ AI システムには、コンテンツが具体的で信頼できるという�
 
 ## エージェント追跡の準備をする
 
-AI に関する会話はますます行動につながります。ユーザーは概要をリクエストし、アシスタントにオプションを検索して比較し、次のステップに進むように依頼できます。 ChatGPT SEO は [エージェント エンジン最適化](/es/docs/what-is-aeo/) に接続する必要があります。内容は単に説明するだけではありません。それは、構造化されたツール、フォーム、ポリシー、または行動経路につながる必要があります。
+AI に関する会話はますます行動につながります。ユーザーは概要をリクエストし、アシスタントにオプションを検索して比較し、次のステップに進むように依頼できます。 ChatGPT SEO は [エージェント エンジン最適化](/ja/docs/what-is-aeo/) に接続する必要があります。内容は単に説明するだけではありません。それは、構造化されたツール、フォーム、ポリシー、または行動経路につながる必要があります。
 
 ---
 
@@ -60,8 +59,8 @@ AI に関する会話はますます行動につながります。ユーザー�
 
 ## 関連ガイド
 
-* [AEO実装ガイド](/es/docs/implement-aeo/)
-* [AEO 準備監査](/es/docs/audit/)
+* [AEO実装ガイド](/ja/docs/implement-aeo/)
+* [AEO 準備監査](/ja/docs/audit/)
 
 ## 主な参考文献
 

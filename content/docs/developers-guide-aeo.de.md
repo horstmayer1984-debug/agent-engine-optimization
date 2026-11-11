@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 20
 category: "Guide"
 description: "Ein technischer Leitfaden für Entwickler, die agentenbereite Websites erstellen. Umfasst strukturierte Daten, API-Design und Sandbox-Tests."
-metaDescription: "Cree sitios web listos para agentes con datos estructurados, diseño de API, pruebas de espacio aislado, autenticación, optimización del servidor y rutas."
 summary: "Entwickler müssen über das menschenzentrierte Webdesign hinausgehen. Dieser Leitfaden behandelt die technischen Anforderungen für Websites, die von autonomen KI-Agenten auf der Laufzeitebene betrieben werden können."
 keywords:
   - "AEO für Entwickler"
@@ -21,7 +20,7 @@ Die meisten Websites sind für Menschen konzipiert. Eine Person liest eine Über
 
 Ein Agent führt keinen Scan durch. Es wird extrahiert. Es klickt nicht auf die Schaltflächen. Endpunkte anrufen. Duldet keine Mehrdeutigkeit. Es benötigt deterministische Eingaben, vorhersehbare Ergebnisse und explizite Einschränkungen. Wenn Ihre Website dies nicht bieten kann, macht der Agent weiter.
 
-Dieser Leitfaden behandelt die technische Arbeit, die erforderlich ist, um eine Website auf der [Laufzeitebene](/es/docs/execution-layer/) betriebsbereit zu machen, dem Teil der Agent Engine-Optimierung, der über die Lesbarkeit von Inhalten hinausgeht.
+Dieser Leitfaden behandelt die technische Arbeit, die erforderlich ist, um eine Website auf der [Laufzeitebene](/de/docs/execution-layer/) betriebsbereit zu machen, dem Teil der Agent Engine-Optimierung, der über die Lesbarkeit von Inhalten hinausgeht.
 
 ## Strukturierte Daten sind das Minimum, nicht das Ziel
 
@@ -47,13 +46,13 @@ Definieren Sie für jede hochwertige Aktion auf Ihrer Website (Reservierung, Kau
 
 Wenn Ihr Checkout nur über ein in JavaScript gerendertes mehrstufiges Formular funktioniert, kann ein Agent es nicht verwenden. Wenn Ihr Preis das Navigieren durch drei Dropdown-Menüs und ein Modal erfordert, kann ein Agent dies nicht abrufen.
 
-Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) deckt den breiteren strategischen Rahmen ab. Dieser Abschnitt konzentriert sich auf die technische Seite.
+Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) deckt den breiteren strategischen Rahmen ab. Dieser Abschnitt konzentriert sich auf die technische Seite.
 
 ## OpenAPI-Spezifikationen und MCP-Unterstützung
 
 Dokumentieren Sie Ihre APIs mit OpenAPI (ehemals Swagger). Dadurch erhalten Agenten und Orchestrierungssysteme einen maschinenlesbaren Vertrag für die Interaktion mit Ihren Diensten.
 
-Für eine tiefere Integration mit KI-Systemen sollten Sie den Aufbau eines MCP-Servers (Model Context Protocol) in Betracht ziehen. MCP ermöglicht es KI-Agenten, seine Tools direkt zu entdecken und zu nutzen. Ein MCP-Tool-Manifest beschreibt, was Ihr Dienst tun kann, welche Eingaben er benötigt und was er zurückgibt. Dies ist heute der direkteste Weg zur Agenteninteroperabilität. Die [Protokollübersicht](/es/docs/protocols/) vergleicht MCP mit UCP, A2A und ACP.
+Für eine tiefere Integration mit KI-Systemen sollten Sie den Aufbau eines MCP-Servers (Model Context Protocol) in Betracht ziehen. MCP ermöglicht es KI-Agenten, seine Tools direkt zu entdecken und zu nutzen. Ein MCP-Tool-Manifest beschreibt, was Ihr Dienst tun kann, welche Eingaben er benötigt und was er zurückgibt. Dies ist heute der direkteste Weg zur Agenteninteroperabilität. Die [Protokollübersicht](/de/docs/protocols/) vergleicht MCP mit UCP, A2A und ACP.
 
 ## Sandbox-Umgebungen für Agententests
 
@@ -98,7 +97,7 @@ Jede Fehlerantwort muss maschinell verarbeitbar sein. Definieren Sie ein konsist
 - Für Menschen lesbare Nachricht (zum Protokollieren und Debuggen)
 – Empfohlenes Wiederholungsverhalten (Wiederholung nach
 
-Wenn Sie eine strukturierte Bewertung der Agentenbereitschaft Ihrer Site wünschen, bewertet das [AEO Readiness Audit] (/es/docs/audit/) sowohl die Leseschicht als auch die Ausführungsschicht.
+Wenn Sie eine strukturierte Bewertung der Agentenbereitschaft Ihrer Site wünschen, bewertet das [AEO Readiness Audit](/de/docs/audit/) sowohl die Leseschicht als auch die Ausführungsschicht.
 
 ---
 

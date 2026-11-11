@@ -58,9 +58,9 @@ Implementieren Sie eine Eingabevalidierung, die fehlerhafte Anfragen zurückweis
 
 Verwenden Sie idempotente Schlüssel für jede Aktion, die einen Zustand erstellt oder ändert. Wenn dieselbe Anfrage zweimal eintrifft (üblich bei Wiederholungsversuchen durch Agenten), sollte die zweite Anfrage dasselbe Ergebnis zurückgeben, ohne dass eine doppelte Reservierung oder Bestellung erstellt wird.
 
-Zeichnen Sie jede Agenteninteraktion auf. Zeitstempel, Anforderungsnutzlasten, Antwortnutzlasten und Quellagenten-ID. Dies ist wichtig für [Rückkopplungsschleifen](/es/docs/agent-feedback-loops/), die die Genauigkeit im Laufe der Zeit verbessern.
+Zeichnen Sie jede Agenteninteraktion auf. Zeitstempel, Anforderungsnutzlasten, Antwortnutzlasten und Quellagenten-ID. Dies ist wichtig für [Rückkopplungsschleifen](/de/docs/agent-feedback-loops/), die die Genauigkeit im Laufe der Zeit verbessern.
 
-Der [Artikel zur universellen Steuerungsebene](/es/docs/universal-control-plane/) deckt die vollständige Governance-Architektur für agentenseitige Endpunkte ab.
+Der [Artikel zur universellen Steuerungsebene](/de/docs/universal-control-plane/) deckt die vollständige Governance-Architektur für agentenseitige Endpunkte ab.
 
 ##Agent-Transaktionen testen
 
@@ -93,7 +93,7 @@ Geben Sie eine klare und strukturierte Fehlerantwort zurück, die die Nichtverf�
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
 
 ## Primäre Referenzen
 

@@ -37,7 +37,7 @@ Muitas tarefas web não devem ser improvisadas. Um reembolso, pagamento, solicit
 | Fluxo de trabalho determinístico | Processos de várias etapas conhecidos | Requer modelagem inicial |
 | Fluxo de trabalho humano em constante evolução | Ações arriscadas ou irreversíveis | Mais lento, mas mais seguro |
 
-A [Camada de Execução](/es/docs/execution-layer/) deve favorecer caminhos determinísticos para ações comerciais importantes.
+A [Camada de Execução](/pt/docs/execution-layer/) deve favorecer caminhos determinísticos para ações comerciais importantes.
 
 ## Impacto do AEO para sites
 
@@ -54,7 +54,7 @@ Isso significa definir:
 - mensagens finais de confirmação
 - registros de auditoria
 
-Isso se conecta a [Agent UX e Human-in-the-Loop Design](/es/docs/agent-ux-human-in-the-loop/), [Multi-Agent AEO](/es/docs/multi-agent-aeo/) e [Aplicativos Web prontos para agente](/es/docs/agent-ready-web-apps/).
+Isso se conecta a [Agent UX e Human-in-the-Loop Design](/pt/docs/agent-ux-human-in-the-loop/), [Multi-Agent AEO](/pt/docs/multi-agent-aeo/) e [Aplicativos Web prontos para agente](/pt/docs/agent-ready-web-apps/).
 
 ## Exemplo: agendamento de consulta
 

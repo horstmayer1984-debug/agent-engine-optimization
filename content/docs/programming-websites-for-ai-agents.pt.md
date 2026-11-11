@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 60
 category: "Architecture"
 description: "Prepare seu site para agentes com llms.txt, especificações OpenAPI, endpoints MCP, HTML semântico e cartões de agente. Inclui sandbox."
-metaDescription: "Prepare los sitios web para agentes con llms.txt, OpenAPI, puntos finales MCP, HTML semántico, tarjetas de agente y patrones seguros para producción."
 summary: "Os sites estão prontos para agentes adicionando llms.txt para descoberta, especificações OpenAPI com descrições amigáveis ​​para agentes, servidores MCP para acesso dinâmico a ferramentas, HTML semântico para extração e cartões de agente para colaboração A2A."
 keywords:
   - "Programação de sites para agentes de IA."
@@ -25,7 +24,7 @@ Um llms.txt útil inclui o nome do seu produto ou serviço e uma descrição de 
 
 Os agentes procuram llms.txt antes de rastrear todo o site. Um site sem site força o agente a adivinhar o que está disponível. Um site com um llms.txt claro e atualizado é descoberto com mais rapidez e compreendido com mais precisão.
 
-Mantenha-o atualizado. Um llms.txt que descreve endpoints que não existem mais prejudica mais a confiança do que não ter nenhum llms.txt. O [guia de programação llms.txt](/es/docs/programming-llms-txt/) cobre o formato em detalhes.
+Mantenha-o atualizado. Um llms.txt que descreve endpoints que não existem mais prejudica mais a confiança do que não ter nenhum llms.txt. O [guia de programação llms.txt](/pt/docs/programming-llms-txt/) cobre o formato em detalhes.
 
 ## 2. Escreva especificações OpenAPI com descrições amigáveis ao agente
 

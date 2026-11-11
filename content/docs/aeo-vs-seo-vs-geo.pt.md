@@ -96,10 +96,10 @@ Para a maioria das organizações em 2026:
 
 1. **Certifique-se de que sua base de SEO seja sólida.** Os sistemas de IA ainda usam índices de pesquisa para descoberta.
 2. **Otimize para a camada de leitura (GEO).** Estruture seu conteúdo para citações e resumos de IA.
-3. **Avalie a prontidão da sua camada de execução.** Consulte [Auditoria de prontidão AEO](/es/docs/audit/).
+3. **Avalie a prontidão da sua camada de execução.** Consulte [Auditoria de prontidão AEO](/pt/docs/audit/).
 4. **Avançar em direção à compatibilidade da camada de tempo de execução.** Dependendo do seu setor e da capacidade técnica.
 
-[A Camada de Execução](/es/docs/execution-layer/) – O que é necessário para tornar o agente de infraestrutura processável.
+[A Camada de Execução](/pt/docs/execution-layer/) – O que é necessário para tornar o agente de infraestrutura processável.
 
 ## Perguntas frequentes
 
@@ -117,7 +117,7 @@ Meça classificações e cliques para SEO, qualidade de menções e citações p
 
 ## Guias relacionados
 
-* [guia de software sem cabeça](/es/docs/what-is-headless-software/)
+* [guia de software sem cabeça](/pt/docs/what-is-headless-software/)
 
 ## Referências primárias* [Guia do Google para recursos de IA generativa](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
 * [Noções básicas da Pesquisa Google](https://developers.google.com/search/docs/essentials)

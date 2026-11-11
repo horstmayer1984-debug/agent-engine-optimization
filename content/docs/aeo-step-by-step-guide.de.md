@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 50
 category: "Guide"
 description: "Das ausführlichste AEO-Praxishandbuch für 2026. Fünf Phasen von der inhaltlichen Umstrukturierung bis hin zu Feedbackschleifen, mit Methodik."
-metaDescription: "Siga un manual práctico de AEO desde la reestructuración del contenido hasta el esquema, los enlaces internos, los bucles de retroalimentación, las pruebas."
 summary: "In der Praxis bedeutet AEO, Inhalte für die automatische Extraktion umzustrukturieren, Aktionsendpunkte offenzulegen, Agenten-Feedbackschleifen zu erstellen und mit simuliertem Agentenverkehr zu testen. Dieser Leitfaden deckt alle fünf Phasen ab."
 keywords:
   - "wie AEO funktioniert"
@@ -31,7 +30,7 @@ Praktische Schritte für jede Seite:
 
 Schreiben Sie die ersten 60 Wörter als direkte Antwort auf die Hauptfrage der Seite neu. Verwandeln Sie erläuternde Absätze in H2-Fragen mit prägnanten Antworten unten. Verwenden Sie Tabellen für alle Vergleichsdaten. Verwenden Sie Aufzählungspunkte für Spezifikationen, Anforderungen oder Funktionslisten. Eliminieren Sie Adjektive, die kein wirkliches Gewicht haben.
 
-Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt die technische Inhaltsebene im Detail.
+Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt die technische Inhaltsebene im Detail.
 
 ## Phase 2: Strukturierte Daten hinzufügen, die Agenten als Anweisungen analysieren können
 
@@ -51,7 +50,7 @@ Ein Aktionsendpunkt ist jede URL oder jeder API-Aufruf, der es einem Agenten erm
 
 Es müssen nicht vom ersten Tag an komplexe REST-APIs sein. Um loszulegen, benötigen Sie lediglich einen Webhook-Endpunkt über n8n oder Make.com, der strukturiertes JSON akzeptiert und einen Geschäftsprozess auslöst. Entscheidend ist, dass der Endpunkt existiert, dokumentiert ist und eine vorhersehbare Antwort zurückgibt.Platzieren Sie auf jeder Serviceseite klare Handlungsaufforderungen, die auf den verfügbaren Endpunkt verweisen. „Jetzt Verfügbarkeit prüfen“ ist mit einem Endpunkt verknüpft, der den aktuellen Lagerbestand oder Terminslots zurückgibt. „Angebot anfordern“, verknüpft mit einem Endpunkt, der Spezifikationen akzeptiert und ein Angebot zurückgibt.
 
-Der [Leitfaden zur Ausführungsebene](/es/docs/execution-layer/) erläutert die technische Architektur. Der [Agent Commerce-Artikel](/es/docs/agentic-commerce-execution/) zeigt, wie dies speziell für E-Commerce-Zahlungen funktioniert.
+Der [Leitfaden zur Ausführungsebene](/de/docs/execution-layer/) erläutert die technische Architektur. Der [Agent Commerce-Artikel](/de/docs/agentic-commerce-execution/) zeigt, wie dies speziell für E-Commerce-Zahlungen funktioniert.
 
 ## Phase 4: Erstellen Sie Feedbackschleifen, die die Genauigkeit der Agenten im Laufe der Zeit verbessern
 
@@ -71,7 +70,7 @@ Beginnen Sie während der Entwicklung mit 10 Probebesuchen pro Tag. Skalieren Si
 
 Messen Sie drei Dinge: Extraktionsgenauigkeit (der Agent hat richtig erkannt, was die Seite bot), Aktionsabschlussrate (der Endpunkt hat ein gültiges Ergebnis zurückgegeben) und Antwortzeit (alles wurde innerhalb einer akzeptablen Latenz abgeschlossen).
 
-Der [Multi-Agent-AEO-Artikel](/es/docs/multi-agent-aeo/) behandelt Testmuster für komplexere orchestrierte Arbeitsabläufe.
+Der [Multi-Agent-AEO-Artikel](/de/docs/multi-agent-aeo/) behandelt Testmuster für komplexere orchestrierte Arbeitsabläufe.
 
 ## Häufige Fehler und wie man sie behebt
 

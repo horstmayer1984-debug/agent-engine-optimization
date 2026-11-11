@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 41
 category: "Industry"
 description: "垂直エージェント プラットフォームは、業界ルール、コンプライアンス、独自データをエッジ オートメーションに体系化します。"
-metaDescription: "Compare plataformas de agentes verticales en cinco industrias, incluida la regulación, las necesidades de datos, los modelos de ingresos, los flujos."
 summary: "水平型 AI ツールは一般的なタスクを処理します。垂直エージェント プラットフォームは、ドメイン ルール、コンプライアンス、独自のデータ ループを成文化することで、業界全体のワークフローを自動化します。 5つの業界がその道をリードしています。"
 keywords:
   - "垂直エージェント プラットフォーム 2026"
@@ -79,7 +78,7 @@ Jump のようなプラットフォームは、エージェントを発券ワー
 
 最初のワークフローが確実に実行された後にのみ、隣接するワークフローに拡張します。複数のワークフローのいずれかが安定する前に、複数のワークフローにわたる時期尚早な拡張が最も一般的な失敗パターンです。
 
-[AEO 実装ガイド](/es/docs/implement-aeo/) では、技術的な基礎について説明しています。 [マルチエージェント AEO の記事] (/docs/multi-agent-aeo/) では、オーケストレーション パターンについて詳しく説明しています。
+[AEO 実装ガイド](/ja/docs/implement-aeo/) では、技術的な基礎について説明しています。 [マルチエージェント AEO の記事] (/docs/multi-agent-aeo/) では、オーケストレーション パターンについて詳しく説明しています。
 
 ---
 

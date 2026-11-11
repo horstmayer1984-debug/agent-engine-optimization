@@ -5,7 +5,6 @@ date: 2026-03-19
 weight: 22
 category: "Guide"
 description: "Como o AEO melhora o atendimento ao cliente com tecnologia de IA: resolução autônoma de tickets, prevenção proativa de problemas, coordenação entre canais."
-metaDescription: "Vea cómo AEO mejora la atención al cliente con resolución autónoma, prevención proactiva, coordinación entre canales y verificación."
 summary: "O atendimento ao cliente é onde o AEO passa da teoria à operação diária. Os agentes de IA resolvem tickets, evitam problemas e coordenam canais quando a infraestrutura de suporte é otimizada para interação com máquinas."
 keywords:
   - "Atendimento ao Cliente AEO"
@@ -42,7 +41,7 @@ AEO para suporte entre canais significa manter uma única fonte estruturada de v
 
 ##Escalonamento com preservação de contextoNem todos os problemas podem ser resolvidos de forma autônoma. Quando um agente passa a ser humano, a qualidade dessa transferência determina a experiência do cliente. Um agente que transmite um resumo estruturado (descrição do problema, etapas tentadas, detalhes relevantes da conta, sensibilidade ao tempo) economiza um esforço significativo do agente humano.
 
-O artigo [AEO multiagente](/es/docs/multi-agent-aeo/) aborda detalhadamente a otimização de handover, já que o escalonamento é essencialmente uma transferência de agente para agente (ou de agente para humano).
+O artigo [AEO multiagente](/pt/docs/multi-agent-aeo/) aborda detalhadamente a otimização de handover, já que o escalonamento é essencialmente uma transferência de agente para agente (ou de agente para humano).
 
 ## Verificação pós-resolução
 
@@ -69,8 +68,8 @@ Depois de aplicar uma correção, o agente verifica se o problema foi realmente 
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
-* [camada de execução](/es/docs/execution-layer/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
+* [camada de execução](/pt/docs/execution-layer/)
 
 ## Referências primárias
 

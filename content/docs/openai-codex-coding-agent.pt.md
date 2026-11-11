@@ -24,9 +24,9 @@ Este artigo não é uma análise do produto. A lição útil do SEO e do AEO é 
 
 Páginas relacionadas:
 
-- [AEO para desenvolvedores](/es/docs/aeo-use-cases-developers/)
-- [Guia do desenvolvedor AEO](/es/docs/developers-guide-aeo/)
-- [Aplicativos Web prontos para agente](/es/docs/agent-ready-web-apps/)
+- [AEO para desenvolvedores](/pt/docs/aeo-use-cases-developers/)
+- [Guia do desenvolvedor AEO](/pt/docs/developers-guide-aeo/)
+- [Aplicativos Web prontos para agente](/pt/docs/agent-ready-web-apps/)
 
 ## O que os agentes de codificação precisam de um repositório
 
@@ -60,7 +60,7 @@ Para sites, os sinais equivalentes são:
 - páginas de origem da verdade
 - índices legíveis por máquina como llms.txt
 
-A [camada de execução](/es/docs/execution-layer/) é iniciada quando um agente pode fazer algo, mas só funciona se o agente primeiro entender o sistema.
+A [camada de execução](/pt/docs/execution-layer/) é iniciada quando um agente pode fazer algo, mas só funciona se o agente primeiro entender o sistema.
 
 ## Como preparar um repositório para agentes de codificação
 
@@ -103,7 +103,7 @@ Evite:
 - descrições vagas de problemas
 - sem reversão ou notas de implementação
 
-O guia [Programação de sites para agentes de IA] (/es/docs/programming-websites-for-ai-agents/) aplica a mesma disciplina a sistemas web públicos.
+O guia [Programação de sites para agentes de IA](/pt/docs/programming-websites-for-ai-agents/) aplica a mesma disciplina a sistemas web públicos.
 
 ## Perguntas frequentes
 

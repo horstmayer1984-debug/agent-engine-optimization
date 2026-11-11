@@ -90,9 +90,9 @@ Google Search Console ですでにインプレッションが発生している�
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)
-* [実行層](/es/docs/execution-layer/)
-* [AEO実装ガイド](/es/docs/implement-aeo/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)
+* [実行層](/ja/docs/execution-layer/)
+* [AEO実装ガイド](/ja/docs/implement-aeo/)
 
 ## 主な参考文献
 

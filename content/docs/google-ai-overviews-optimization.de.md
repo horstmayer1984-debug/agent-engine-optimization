@@ -28,11 +28,11 @@ Für die Sichtbarkeit der KI-Suche ist der erste Abschnitt wichtig. Platzieren S
 
 ## Themenautorität aufbauen
 
-Eine Seite reicht selten aus. Eine Website benötigt Gruppen verwandter Inhalte. Das [AI Optimization Maturity Model](/es/docs/ai-optimization-maturity-model/) zeigt, wie sich Websites von crawlbar zu umsetzbaren entwickeln.
+Eine Seite reicht selten aus. Eine Website benötigt Gruppen verwandter Inhalte. Das [AI Optimization Maturity Model](/de/docs/ai-optimization-maturity-model/) zeigt, wie sich Websites von crawlbar zu umsetzbaren entwickeln.
 
 ## Mit der nächsten Aktion verbinden
 
-Die Erwähnung in einer KI-Übersicht erhöht die Sichtbarkeit, aber die User Journey endet hier nicht. Wenn der Benutzer klickt, sollte die Seite Tiefe und einen nächsten Schritt bieten: eine Checkliste, ein Tool, einen Implementierungsleitfaden, eine Vergleichsseite oder eine Audit-Anfrage. Hier verbindet sich AI Visibility mit [Agent Engine Optimization](/es/docs/what-is-aeo/).
+Die Erwähnung in einer KI-Übersicht erhöht die Sichtbarkeit, aber die User Journey endet hier nicht. Wenn der Benutzer klickt, sollte die Seite Tiefe und einen nächsten Schritt bieten: eine Checkliste, ein Tool, einen Implementierungsleitfaden, eine Vergleichsseite oder eine Audit-Anfrage. Hier verbindet sich AI Visibility mit [Agent Engine Optimization](/de/docs/what-is-aeo/).
 
 ---
 
@@ -52,7 +52,7 @@ Die Einbeziehung besonderer Markierungskräfte ist nicht gewährleistet. Konzent
 **In welcher Beziehung steht dies zur Agent Engine-Optimierung?**
 KI-Übersichten schaffen Sichtbarkeit. Die Agent-Engine-Optimierung bereitet die Website auf aktionsorientierte KI-Reisen vor.## Verwandte Anleitungen
 
-* [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/)
+* [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/)
 
 ## Primäre Referenzen
 

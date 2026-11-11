@@ -73,7 +73,7 @@ Wenn diese Grundlagen schwach sind, können Signale von vertrauenswürdigen Agen
 | Handelslebenszyklus | CPU || Zahlungserfahrung | AKP |
 | Zahlungsabwicklung | Kartennetzwerkschienen, Geldbörsen und Flows im x402-Stil |
 
-Der [Vergleich der Agent-Zahlungsprotokolle] (/es/docs/agent-payment-protocols-compared/) hilft dabei, TAP neben zahlungsorientierten Systemen zu platzieren.
+Der [Vergleich der Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/) hilft dabei, TAP neben zahlungsorientierten Systemen zu platzieren.
 
 ## Häufig gestellte Fragen
 

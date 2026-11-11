@@ -45,7 +45,7 @@ Fireblocks の Agentic Payments Suite と Mastercard Agent Pay は、この変�
 |失効 |ユーザーはエージェント トークンまたはウォレットの付与を無効にできます。
 |監査証跡 |各アクションは、意図、支払い、結果を記録します。
 
-これらのコントロールは [実行層](/es/docs/execution-layer/) に不可欠です。
+これらのコントロールは [実行層](/ja/docs/execution-layer/) に不可欠です。
 
 ## カードトークンとステーブルコインウォレットの比較
 
@@ -59,7 +59,7 @@ Fireblocks の Agentic Payments Suite と Mastercard Agent Pay は、この変�
 |アカウントクレジット | SaaS と API に便利 | 1 つのプラットフォームに限定 |
 |リアルタイム銀行振込・鉄道 |請求書の支払いが迅速な市場に最適 |在庫状況と返金ロジックは異なります |
 
-[エージェント支払いプロトコルの比較](/es/docs/agent-payment-protocols-compared/) はプロトコル層をマッピングします。このページではウォレット制御層に焦点を当てます。
+[エージェント支払いプロトコルの比較](/ja/docs/agent-payment-protocols-compared/) はプロトコル層をマッピングします。このページではウォレット制御層に焦点を当てます。
 
 ## ビジネスへの影響
 
@@ -81,7 +81,7 @@ Fireblocks の Agentic Payments Suite と Mastercard Agent Pay は、この変�
 5. エージェントが提供する取引に関する不正行為のルールを確認します。
 6. 払い戻しおよびキャンセル明細を機械で読み取り可能な状態に保ちます。
 
-記事 [Fireblocks Agentic Payments Suite](/es/docs/fireblocks-agentic-payments-suite/) では、インフラストラクチャの例について説明しています。
+記事 [Fireblocks Agentic Payments Suite](/ja/docs/fireblocks-agentic-payments-suite/) では、インフラストラクチャの例について説明しています。
 
 ## よくある質問
 

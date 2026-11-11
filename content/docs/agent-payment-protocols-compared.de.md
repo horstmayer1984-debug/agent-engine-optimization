@@ -49,7 +49,7 @@ x402 belebt das HTTP 402 Payment Required-Muster für Agent- und API-Zahlungen w
 
 x402 ist stark, wenn das Produkt klein, digital, API-basiert oder auf Anfrage erhältlich ist. Ein Wetterendpunkt, eine Premium-Datenquelle, ein MCP-Tool, ein Inferenzaufruf oder ein maschinenlesbarer Bericht kann pro Aufruf berechnet werden, ohne dass ein Konto erstellt werden muss.Seine Begrenzung ist ebenfalls klar. x402 legt den Wert fest. Es löst nicht den gesamten Kaufprozess von alleine. Ein Händler benötigt weiterhin Produkterkennung, Offenlegung von Richtlinien, Betrugskontrolle, Rückerstattungen, Identität, Steuern, Support und Streitbeilegung.
 
-Lesen Sie den Site-Leitfaden: [Agent Payments x402](/es/docs/x402-agent-payments/).
+Lesen Sie den Site-Leitfaden: [Agent Payments x402](/de/docs/x402-agent-payments/).
 
 ## Handelsschicht: ACP und UCP
 
@@ -104,7 +104,7 @@ Das macht Nevermined für Teams relevant, die eine praktische Zahlungsebene für
 
 Für AEO ist das Erfolgsmuster ein Hybrid-Stack.
 
-Eine Website muss maschinenlesbare Produkt- oder Servicedaten veröffentlichen, deterministische Aktionspfade offenlegen, Autorisierungs- und Zahlungsanforderungen dokumentieren und das Ergebnis überprüfbar machen. Zahlungsprotokolle helfen erst, wenn der Agent versteht, was die Website bietet und welche Maßnahmen sicher sind. Nächste interne Schritte: Lesen Sie [AI Agent Protocols](/es/docs/protocols/), [Execution Layer](/es/docs/execution-layer/) und [x402 MCP A2A Full Stack](/es/docs/x402-mcp-a2a-full-stack/).
+Eine Website muss maschinenlesbare Produkt- oder Servicedaten veröffentlichen, deterministische Aktionspfade offenlegen, Autorisierungs- und Zahlungsanforderungen dokumentieren und das Ergebnis überprüfbar machen. Zahlungsprotokolle helfen erst, wenn der Agent versteht, was die Website bietet und welche Maßnahmen sicher sind. Nächste interne Schritte: Lesen Sie [AI Agent Protocols](/de/docs/protocols/), [Execution Layer](/de/docs/execution-layer/) und [x402 MCP A2A Full Stack](/de/docs/x402-mcp-a2a-full-stack/).
 
 ## Häufig gestellte Fragen
 

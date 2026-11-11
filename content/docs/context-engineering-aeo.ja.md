@@ -4,7 +4,6 @@ date: 2026-04-12
 weight: 80
 category: "Architecture"
 description: "コンテキスト エンジニアリングは、AI エージェントがより迅速かつ正確な意思決定を行えるように、情報を動的に選択、圧縮、構造化します。"
-metaDescription: "Utilice la ingeniería de contexto para seleccionar, comprimir y estructurar información para que los agentes de IA tomen decisiones más rápidas y precisas."
 summary: "コンテキスト汚染により、エージェントは複数ステップのタスクの 70% に失敗します。コンテキスト エンジニアリングにより、トークンの使用量が 40% ～ 60% 削減され、成功率が 95% 以上に向上します。それが仕組みです。"
 keywords:
   - "AEOコンテキストエンジニアリング"
@@ -63,7 +62,7 @@ Web サイトでは、これは最も重要な事実を最初に置き (応答�
 
 FAQ への回答は個別に完了してください。それぞれの回答は、上の質問や下の回答を読まなくても意味がわかるはずです。通常、エージェントは FAQ セクション全体ではなく、個別の回答を引き出します。
 
-[AEO コンテンツ戦略の記事](/es/docs/aeo-content-strategy/) では、ページレベルの構造について説明しています。 [AEO 実装ガイド](/es/docs/implement-aeo/) は技術的な基礎をカバーしています。
+[AEO コンテンツ戦略の記事](/ja/docs/aeo-content-strategy/) では、ページレベルの構造について説明しています。 [AEO 実装ガイド](/ja/docs/implement-aeo/) は技術的な基礎をカバーしています。
 
 ## 比較: ラピッド エンジニアリングとコンテキスト エンジニアリング
 
@@ -102,7 +101,7 @@ AI エージェントがあらゆるステップで必要なものを正確に�
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)
 
 ## 主な参考文献
 

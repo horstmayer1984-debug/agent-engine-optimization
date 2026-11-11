@@ -4,7 +4,6 @@ date: 2026-03-22
 weight: 24
 category: "Architecture"
 description: "Ohne Governance wird die Ausführungsschicht gefährlich. So erstellen Sie eine Steuerungsebene, die das Lesen von der Ausführung trennt, Richtlinien durchsetzt und Handles durchführt."
-metaDescription: "Cree un plano de control para los agentes de IA: separe la lectura de la ejecución, aplique políticas, maneje los reintentos y mantenga los flujos de trabajo."
 summary: "Sobald autonome Systeme mit internen Diensten interagieren, wird eine Website zu einem Grenzsystem. Die Universal Control Plane regelt, was inspiziert werden kann, was ausgeführt werden kann und unter welcher Autorität."
 keywords:
   - "Universelle Steuerungsebenenarchitektur"
@@ -15,7 +14,7 @@ keywords:
   - "AP2-Protokoll"
   - "Visa-Agent bereit"
 ---
-Die [Ausführungsschicht](/es/docs/execution-layer/) wird gefährlich, sobald sie ohne Governance offengelegt wird. Aus diesem Grund benötigt eine seriöse AEO-Architektur mehr als nur lesbare Seiten und aufrufbare Endpunkte. Sie benötigen ein Kontrollsystem, das entscheidet, was überprüft werden kann, was ausgeführt werden kann, unter welcher Autorität und mit welcher Wiederherstellungslogik, wenn etwas fehlschlägt.
+Die [Ausführungsschicht](/de/docs/execution-layer/) wird gefährlich, sobald sie ohne Governance offengelegt wird. Aus diesem Grund benötigt eine seriöse AEO-Architektur mehr als nur lesbare Seiten und aufrufbare Endpunkte. Sie benötigen ein Kontrollsystem, das entscheidet, was überprüft werden kann, was ausgeführt werden kann, unter welcher Autorität und mit welcher Wiederherstellungslogik, wenn etwas fehlschlägt.
 
 Diese Führungsoberfläche wird von vielen Teams als universelle Kontrollebene bezeichnet.
 

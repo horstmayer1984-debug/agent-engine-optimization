@@ -29,7 +29,7 @@ Die kurze Antwort: AEO ist kein Ersatz für SEO. Er erweitert es.
 
 Der [SEO Getting Started Guide] (https://developers.google.com/search/docs/fundamentals/seo-starter-guide) von Google ist immer noch wichtig, da Crawlbarkeit, nützliche Inhalte, Links, Titel, Snippets und Site-Struktur die Basisebene bilden. Auch die [AI Features Documentation] (https://developers.google.com/search/docs/appearance/ai-features) von Google macht deutlich, dass die normale Suchberechtigung für AI Features weiterhin wichtig ist.
 
-Für einen ausführlicheren Vergleich lesen Sie [AEO vs SEO vs GEO](/es/docs/aeo-vs-seo-vs-geo/) und [SEO vs GEO vs Answer AEO vs AEO Agent](/es/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/).
+Für einen ausführlicheren Vergleich lesen Sie [AEO vs SEO vs GEO](/de/docs/aeo-vs-seo-vs-geo/) und [SEO vs GEO vs Answer AEO vs AEO Agent](/de/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/).
 
 ## AEO SEO in einer einzigen Tabelle
 
@@ -62,11 +62,11 @@ AEO SEO fügt hinzu:
 - Sind Richtlinien, Preise, Einschränkungen und nächste Schritte explizit?
 - Kann eine Maschine eine Aktion ausführen oder überprüfen?
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) ist die Trennlinie. SEO macht die Seite auffindbar. AEO macht das System nutzbar.
+Die [Ausführungsschicht](/de/docs/execution-layer/) ist die Trennlinie. SEO macht die Seite auffindbar. AEO macht das System nutzbar.
 
 ## Praktische AEO-SEO-Beispiele
 
-Für eine E-Commerce-Website bedeutet AEO SEO, dass die Produktseiten nachverfolgbare Produktnamen, Preise, Verfügbarkeit, Variantendaten, Versandregeln, Rückgaberichtlinien und strukturierte Daten enthalten sollten. Siehe [AEO-Anwendungsfälle für E-Commerce](/es/docs/aeo-use-cases-ecommerce/).
+Für eine E-Commerce-Website bedeutet AEO SEO, dass die Produktseiten nachverfolgbare Produktnamen, Preise, Verfügbarkeit, Variantendaten, Versandregeln, Rückgaberichtlinien und strukturierte Daten enthalten sollten. Siehe [AEO-Anwendungsfälle für E-Commerce](/de/docs/aeo-use-cases-ecommerce/).
 
 Für eine SaaS-Site bedeutet das, dass Preise, Integrationen, Compliance, Demos, Dokumente und Supportpfade maschinenlesbar genug sein müssen, damit Beschaffungsmitarbeiter sie vergleichen können.
 
@@ -82,7 +82,7 @@ Für eine Content-Site bedeutet das klare Definitionen, Vergleichstabellen, Link
 8. Fügen Sie Ausführungspfade für Aufgaben hinzu, die Agenten ausführen können.
 9. Messen Sie Search Console-Anfragen, KI-Verweise und Aufgabenerledigungen.
 
-Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) bietet die vollständige Sequenz.
+Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) bietet die vollständige Sequenz.
 
 ## Häufig gestellte Fragen
 

@@ -29,7 +29,7 @@ Ein KI-Agent muss Folgendes verstehen:
 - wenn menschliche Zustimmung erforderlich ist
 - ob eine Aktion erfolgreich war oder fehlgeschlagen ist
 
-Die vorhandene Seite [Agent UX and Human-in-the-Loop Design](/es/docs/agent-ux-human-in-the-loop/) deckt das Schnittstellenmuster ab. Diese Seite verbindet diese Arbeit mit Suchsichtbarkeit und AEO.
+Die vorhandene Seite [Agent UX and Human-in-the-Loop Design](/de/docs/agent-ux-human-in-the-loop/) deckt das Schnittstellenmuster ab. Diese Seite verbindet diese Arbeit mit Suchsichtbarkeit und AEO.
 
 ## Human UX vs. Agent UX
 
@@ -83,7 +83,7 @@ Für AEO SEO ist dies wichtig, da Agenten wissen müssen, welche Aktionen eine B
 5. Fügen Sie strukturierte Fehler- und Erfolgsmeldungen hinzu.
 6. Verwenden Sie nach Möglichkeit Bestätigungsseiten mit stabilen URLs.
 7. Standards für die Dokumentengenehmigung.
-8. Fügen Sie Feedbackpfade für Agentenfehler hinzu. Der [AEO-Entwicklerleitfaden](/es/docs/developers-guide-aeo/) und die [Websites zur Programmierung von KI-Agenten](/es/docs/programming-websites-for-ai-agents/) gehen ausführlich auf die Implementierung ein.
+8. Fügen Sie Feedbackpfade für Agentenfehler hinzu. Der [AEO-Entwicklerleitfaden](/de/docs/developers-guide-aeo/) und die [Websites zur Programmierung von KI-Agenten](/de/docs/programming-websites-for-ai-agents/) gehen ausführlich auf die Implementierung ein.
 
 ## Häufig gestellte Fragen
 

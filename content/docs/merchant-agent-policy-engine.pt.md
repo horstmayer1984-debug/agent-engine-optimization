@@ -47,7 +47,7 @@ A pesquisa de comerciantes do PayPal mostra que as empresas já estão se prepar
 | Devoluções | Exigir comando original ou contexto de pedido para devoluções automáticas |
 | Lealdade | Permitir a busca de lucro somente após vinculação de identidade |
 
-É aqui que [AEO](/es/docs/what-is-aeo/) passa do conteúdo para a governança.
+É aqui que [AEO](/pt/docs/what-is-aeo/) passa do conteúdo para a governança.
 
 ##Mecanismo de política versus mecanismo de fraude
 

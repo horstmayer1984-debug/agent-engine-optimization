@@ -4,7 +4,6 @@ date: 2026-04-12
 weight: 56
 category: "Guide"
 description: "2026 年の AEO 実装に向けた 7 つのツールの詳細なレビュー。ワイヤーフレーム ジェネレーター、ワークフローの自動化をカバーします。"
-metaDescription: "Compare siete herramientas AEO para esquemas, automatización del flujo de trabajo, orquestación, monitoreo de visibilidad de IA, comprobaciones."
 summary: "AEO スタック全体をカバーする 7 つのツール: スキーマ マークアップ、ワークフロー自動化、エージェント オーケストレーション、可視性モニタリング、テスト。価格、長所、制限、構成ガイダンスを含みます。"
 keywords:
   - "2026 年のベスト AEO ツール"
@@ -55,7 +54,7 @@ AEO にとって重要な理由: LangGraph は、複雑なエージェント オ
 
 制限事項: Python 開発スキルが必要です。コーディング機能のないコンピューターには適していません。セットアップ: pip install langgraph。公式チュートリアルに従って、最初の 2 エージェントのワークフローを作成します。
 
-[エージェント ネイティブ マーケティング スタック ガイド](/es/docs/agent-native-marketing-stack/) では、LangGraph の使用方法について詳しく説明しています。
+[エージェント ネイティブ マーケティング スタック ガイド](/ja/docs/agent-native-marketing-stack/) では、LangGraph の使用方法について詳しく説明しています。
 
 ## 4. CrewAI (役割ベースのエージェント チーム)
 
@@ -105,7 +104,7 @@ AEO にとって重要な理由: 測定できないものを最適化するこ�
 
 制限: このカテゴリは若いです。精度はプロバイダーによって異なります。新しい AI プラットフォームのカバーは遅れる可能性があります。
 
-[AEO KPI ガイド](/es/docs/aeo-kpis-measurement/) では、これらのツールで追跡する指標について説明しています。
+[AEO KPI ガイド](/ja/docs/aeo-kpis-measurement/) では、これらのツールで追跡する指標について説明しています。
 
 ## バッテリーの選び方
 
@@ -134,7 +133,7 @@ Google リッチリザルト テスト (無料、スキーマを検証) と Make
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)
 
 ## 主な参考文献
 

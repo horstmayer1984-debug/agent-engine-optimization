@@ -26,7 +26,7 @@ Benutzen Sie sie so:
 - Werkzeuge: „Hier ist etwas, was Sie tun können.“
 - Meldungen: „Hier ist eine Workflow-Vorlage, aus der der Benutzer auswählen kann.“
 
-Weitere Informationen finden Sie unter [MCP vs. Agent API](/es/docs/mcp-vs-api-for-agents/), [MCP-Registrierung](/es/docs/mcp-registry-guide/) und im [AEO-Entwicklerhandbuch](/es/docs/developers-guide-aeo/).
+Weitere Informationen finden Sie unter [MCP vs. Agent API](/de/docs/mcp-vs-api-for-agents/), [MCP-Registrierung](/de/docs/mcp-registry-guide/) und im [AEO-Entwicklerhandbuch](/de/docs/developers-guide-aeo/).
 
 ## Vergleichstabelle
 
@@ -70,7 +70,7 @@ Gute Beispiele für Tools:
 -`submit_refund_request`
 - `run_lighthouse_audit`
 
-Die Tools benötigen Schemata, Validierung, Ratenbegrenzungen, Zugriffskontrolle und Prüfprotokolle. Die Seite [Agent Observability Guardrails](/es/docs/agent-observability-guardrails/) ist hier relevant.
+Die Tools benötigen Schemata, Validierung, Ratenbegrenzungen, Zugriffskontrolle und Prüfprotokolle. Die Seite [Agent Observability Guardrails](/de/docs/agent-observability-guardrails/) ist hier relevant.
 
 ## Wozu dienen MCP-Eingabeaufforderungen? Die Eingabeaufforderungen sind wiederverwendbare Vorlagen. Sie helfen Benutzern oder Kunden, einen bekannten Workflow mit Argumenten auszulösen. Eine Nachricht kann Anweisungen zur Codeüberprüfung, zum Schreiben von Inhalten, zum Onboarding oder zur Support-Triage sammeln.
 
@@ -104,7 +104,7 @@ Zum Beispiel:
 - Eine Zahlungs-API ist eine Tool-ähnliche Aktion
 - Ein Einkaufsführer ist eine schnelle Hilfe für den Arbeitsablauf
 
-Eine klare Trennung hilft KI-Agenten zu verstehen, was sie lesen, was sie empfehlen und was sie ausführen können. Das ist die praktische Grundlage der [Agent Engine Optimization](/es/docs/what-is-aeo/).
+Eine klare Trennung hilft KI-Agenten zu verstehen, was sie lesen, was sie empfehlen und was sie ausführen können. Das ist die praktische Grundlage der [Agent Engine Optimization](/de/docs/what-is-aeo/).
 
 ## Checkliste für die Bereitstellung
 

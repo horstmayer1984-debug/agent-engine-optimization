@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 92
 category: "Architecture"
 description: "Os agentes de IA executam árvores de decisão rigorosas de aprovação/reprovação antes de fazer transações. Que perguntas determinísticas eles fazem, qual a causa."
-metaDescription: "Descubra qué comprobaciones de aprobación/rechazo utilizan los agentes de IA antes de actuar, qué causa la exclusión y cómo hacer que su sitio web sea más."
 summary: "Os agentes não navegam nem decidem intuitivamente. Eles executam árvores de decisão determinísticas com critérios rígidos de aprovação/reprovação. Uma verificação falha e o agente passa para um concorrente."
 keywords:
   - "árvores de decisão do agente"
@@ -89,7 +88,7 @@ Um agente não tolera nada disso. Toda ambigüidade é uma condição de fracass
 
 É por isso que sites que parecem sofisticados para os humanos podem pontuar zero com os agentes. O design visual, a reputação da marca e o texto persuasivo não têm peso em uma árvore de decisão determinística.
 
-O [guia da camada de execução](/es/docs/execution-layer/) explica os requisitos de infraestrutura. O [guia de implementação AEO](/es/docs/implement-aeo/) cobre o caminho de otimização passo a passo.
+O [guia da camada de execução](/pt/docs/execution-layer/) explica os requisitos de infraestrutura. O [guia de implementação AEO](/pt/docs/implement-aeo/) cobre o caminho de otimização passo a passo.
 
 ---
 
@@ -110,7 +109,7 @@ Porque os agentes tentam novamente se falharem. Um tempo limite não significa q
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 91
 category: "Framework"
 description: "Explore cinco níveis de autonomia do agente no comércio, desde pesquisa assistida até compras delegadas governadas por políticas."
-metaDescription: "Comprenda los cinco niveles de autonomía de los agentes, desde compras realizadas únicamente por humanos hasta aprobaciones delegadas, flujos de trabajo."
 summary: "O comércio está passando da busca para a delegação. Cinco níveis de autonomia do agente definem quanto controle os humanos mantêm, desde a navegação assistida até a compra totalmente autônoma."
 keywords:
   - "economia de delegação"
@@ -39,7 +38,7 @@ O agente é responsável pela pesquisa, comparação e montagem do carro. Verifi
 
 O ser humano mantém o poder de veto. O agente faz o trabalho. É aqui que opera a maior parte do comércio de agentes voltados para o consumidor no início de 2026. Agentes de compras que criam tabelas de comparação e recomendam produtos, mas aguardam a confirmação humana antes de comprar.
 
-Relevância do AEO: elevada. Os dados do seu produto devem ser estruturados o suficiente para que o agente possa avaliá-los com precisão. A [camada de execução](/es/docs/execution-layer/) torna-se importante porque o agente não apenas lê seu conteúdo. É comparar seus dados estruturados com os da concorrência.
+Relevância do AEO: elevada. Os dados do seu produto devem ser estruturados o suficiente para que o agente possa avaliá-los com precisão. A [camada de execução](/pt/docs/execution-layer/) torna-se importante porque o agente não apenas lê seu conteúdo. É comparar seus dados estruturados com os da concorrência.
 
 ## Nível 3: mediado pelo agente
 
@@ -73,7 +72,7 @@ A maior parte do comércio de agentes voltados para o consumidor opera nos níve
 
 As compras B2B estão avançando mais rapidamente em direção ao Nível 3. Agentes de negócios que avaliam fornecedores, modelam o custo total de propriedade e geram pedidos de compra dentro dos orçamentos aprovados já estão em produção em diversas grandes organizações. O Nível 4 está operacional em domínios limitados: reordenamento automatizado de suprimentos, gerenciamento de assinaturas e negociação algorítmica. A adoção generalizada do Nível 4 pelos consumidores provavelmente ocorrerá entre 2027 e 2028.
 
-As empresas que prepararem agora a sua infraestrutura para os níveis 3 e 4 terão uma vantagem significativa à medida que a adoção acelera. O [artigo sobre execução de negociação do agente](/es/docs/agentic-commerce-execution/) cobre os requisitos técnicos.
+As empresas que prepararem agora a sua infraestrutura para os níveis 3 e 4 terão uma vantagem significativa à medida que a adoção acelera. O [artigo sobre execução de negociação do agente](/pt/docs/agentic-commerce-execution/) cobre os requisitos técnicos.
 
 ## O efeito de compressão da jornada do cliente
 
@@ -90,7 +89,7 @@ Otimize para o nível em que seus clientes estão hoje (provavelmente Nível 1-2
 Monitore o tráfego do agente nos logs do servidor. Os agentes que apenas leem as páginas dos produtos são de nível 1 a 2. Os agentes que ligam para pontos finais de preços e verificam a disponibilidade são de nível 2 a 3. Os agentes que concluem transações são de nível 3 a 4.
 
 **O nível 4 é seguro?**
-Com barreiras de segurança adequadas: limites de gastos, restrições políticas, confirmação de transações de alto valor e trilhas de auditoria. Sem barreiras de segurança, as compras autónomas criam riscos financeiros. O [artigo do plano de controle universal](/es/docs/universal-control-plane/) cobre os requisitos de governança.
+Com barreiras de segurança adequadas: limites de gastos, restrições políticas, confirmação de transações de alto valor e trilhas de auditoria. Sem barreiras de segurança, as compras autónomas criam riscos financeiros. O [artigo do plano de controle universal](/pt/docs/universal-control-plane/) cobre os requisitos de governança.
 
 **Será que todo o comércio atingirá o nível 4?**
 Nem todos. Compras de alto contato, voltadas para o relacionamento e emocionalmente significativas manterão o envolvimento humano. A compra rotineira e repetível de commodities avançará em direção à automação total. A maioria das categorias será colocada no Nível 2 ou 3.

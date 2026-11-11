@@ -40,7 +40,7 @@ Contentful descreve esse padrão como a separação da camada de apresentação 
 
 Isso torna a arquitetura CMS headless especialmente útil para conteúdo estruturado. Uma definição de produto, biografia do autor, artigo de ajuda ou nota de conformidade podem ser reutilizados sem serem copiados entre sistemas.
 
-Para um conceito mais amplo, leia [O que é software headless?](/es/docs/what-is-headless-software/).
+Para um conceito mais amplo, leia [O que é software headless?](/pt/docs/what-is-headless-software/).
 
 ## Que tipo de CMS é melhor para SEO?
 
@@ -67,7 +67,7 @@ As plataformas Headless CMS também podem oferecer suporte a fluxos de trabalho 
 
 ## Experiência do desenvolvedor
 
-Os desenvolvedores geralmente preferem plataformas CMS headless porque podem escolher a estrutura da interface, definir componentes reutilizáveis e evitar lutar contra um sistema temático. O conteúdo headless também é mais adequado para [aplicativos da web prontos para agente] (/es/docs/agent-ready-web-apps/) porque o conteúdo pode ser exposto como dados estruturados em vez de apenas páginas renderizadas.
+Os desenvolvedores geralmente preferem plataformas CMS headless porque podem escolher a estrutura da interface, definir componentes reutilizáveis e evitar lutar contra um sistema temático. O conteúdo headless também é mais adequado para [aplicativos da web prontos para agente](/pt/docs/agent-ready-web-apps/) porque o conteúdo pode ser exposto como dados estruturados em vez de apenas páginas renderizadas.
 
 A compensação é a manutenção. Um site headless normalmente precisa de hospedagem, implantação, lógica de visualização, modelos de conteúdo, clientes de API e monitoramento separados.
 
@@ -91,7 +91,7 @@ Escolha um CMS tradicional quando a velocidade, o orçamento e a independência 
 
 ## Quando você deve escolher um CMS headless? Escolha um CMS headless quando o conteúdo precisar atender a vários canais, a interface for altamente personalizada ou a organização desejar que o conteúdo funcione como dados estruturados. Isso é ideal para centros de documentação, sites SaaS, plataformas de conteúdo internacional, portais de clientes e sistemas de publicação legíveis por IA.
 
-O guia relacionado [Headless Commerce Explained](/es/docs/headless-commerce-explained/) cobre a mesma divisão backend/frontend para lojas online.
+O guia relacionado [Headless Commerce Explained](/pt/docs/headless-commerce-explained/) cobre a mesma divisão backend/frontend para lojas online.
 
 ## Erros comuns
 
@@ -108,7 +108,7 @@ Antes de mover sem cabeça, defina:
 - permissões de publicação
 - comportamento de fallback quando as APIs falham
 
-Para [implementação de AEO](/es/docs/implement-aeo/), defina também como os agentes devem descobrir o conteúdo e se uma superfície Markdown, JSON ou API deve existir ao lado da página HTML.
+Para [implementação de AEO](/pt/docs/implement-aeo/), defina também como os agentes devem descobrir o conteúdo e se uma superfície Markdown, JSON ou API deve existir ao lado da página HTML.
 
 ## Perguntas frequentes
 

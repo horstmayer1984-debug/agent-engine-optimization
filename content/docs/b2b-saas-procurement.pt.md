@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 21
 category: "Industry"
 description: "Sites SaaS criados para comitês de compras humanos reprovam os agentes de compras de IA. Como expor recursos legíveis por máquina."
-metaDescription: "Descubra cómo los sitios B2B SaaS pueden exponer capacidades legibles por máquina, precios de grado de decisión y próximos pasos para los agentes."
 summary: "Os agentes de compras de IA comparam a cobertura de recursos, a lógica de preços, a postura de conformidade e os caminhos de execução. Os provedores de SaaS que declaram isso claramente são pré-selecionados. O resto é eliminado antes que as vendas entrem na conversa."
 keywords:
   - "Aquisição de SaaS B2B AEO"
@@ -41,7 +40,7 @@ Sem isso, os agentes de compras não podem modelar o custo total de propriedade 
 
 ## Onde começa a camada de execução
 
-A [camada de execução](/es/docs/execution-layer/) começa onde a avaliação se torna movimento. No SaaS, essa mudança nem sempre é uma compra. Às vezes, envolve o provisionamento de um sandbox, a solicitação de um pacote de segurança, o início de uma revisão técnica, a reserva de uma demonstração de escopo, a criação de um espaço de trabalho de teste ou a validação do acesso à integração. Essas ações não devem ser deixadas para trás em formulários genéricos de leads que baixam dados em um CRM. Eles devem existir como fluxos tipificados com entradas e saídas exatas e fronteiras políticas claras.
+A [camada de execução](/pt/docs/execution-layer/) começa onde a avaliação se torna movimento. No SaaS, essa mudança nem sempre é uma compra. Às vezes, envolve o provisionamento de um sandbox, a solicitação de um pacote de segurança, o início de uma revisão técnica, a reserva de uma demonstração de escopo, a criação de um espaço de trabalho de teste ou a validação do acesso à integração. Essas ações não devem ser deixadas para trás em formulários genéricos de leads que baixam dados em um CRM. Eles devem existir como fluxos tipificados com entradas e saídas exatas e fronteiras políticas claras.
 
 ## Validação desta semana: contratação autônoma CIPS
 
@@ -59,7 +58,7 @@ Isso tem valor direto de SEO porque o comportamento de pesquisa muda antes do cl
 
 As páginas com melhor desempenho não serão aquelas que parecerão mais inteligentes. Serão eles que expõem a relação mais limpa entre a entidade do produto, os critérios de compra e o próximo passo executável.
 
-O [guia de implementação AEO](/es/docs/implement-aeo/) explica as etapas técnicas. O [O que é AEO](/es/docs/what-is-aeo/) explica o modelo estrutural.
+O [guia de implementação AEO](/pt/docs/implement-aeo/) explica as etapas técnicas. O [O que é AEO](/pt/docs/what-is-aeo/) explica o modelo estrutural.
 
 ---
 

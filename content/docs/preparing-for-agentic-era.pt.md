@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 42
 category: "Guide"
 description: "Prepare-se para a era da agência com atualizações práticas sobre habilidades, modelos de negócios, governança, fluxos de trabalho e preparação."
-metaDescription: "Utilice una hoja de ruta de 12 meses para pasar de la ejecución de tareas a la orquestación de agentes, con habilidades, modelos, infraestructura, gobernanza."
 summary: "A era dos agentes exige uma mudança da execução de tarefas para a orquestração de agentes. Este roteiro abrange as competências, transições de modelos de negócios e mudanças operacionais necessárias nos próximos 12 meses."
 keywords:
   - "preparando-se para o agente AI"

@@ -32,7 +32,7 @@ KI-Agentenprotokolle definieren, wie autonome Systeme Fähigkeiten entdecken, Ko
 
 Beginnen Sie mit lesbaren Erkennungsdateien wie [llms.txt](/llms.txt), dokumentieren Sie dann APIs mit OpenAPI und stellen Sie dann hochwertige Aktionen über stabile Endpunkte bereit.
 
-Lesen Sie weiter: [MCP vs. Agent API](/es/docs/mcp-vs-api-for-agents/), [Agent Cards und A2A-Protokoll](/es/docs/agent-cards-a2a-protocol/), [x402 Agent Payments](/es/docs/x402-agent-payments/) und [Execution Layer](/es/docs/execution-layer/).
+Lesen Sie weiter: [MCP vs. Agent API](/de/docs/mcp-vs-api-for-agents/), [Agent Cards und A2A-Protokoll](/de/docs/agent-cards-a2a-protocol/), [x402 Agent Payments](/de/docs/x402-agent-payments/) und [Execution Layer](/de/docs/execution-layer/).
 
 ## Wählen Sie Protokolle nach Verantwortung aus
 

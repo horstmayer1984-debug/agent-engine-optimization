@@ -39,7 +39,7 @@ Boas páginas de produtos precisam de ambos, mas os agentes os tratam de maneira
 
 A cópia persuasiva pode influenciar um ser humano. A cópia objetiva determina se uma máquina pode raciocinar com precisão. Evite que as duas camadas sangrem uma na outra. Não oculte limites de remessa, notas de compatibilidade ou regras de estoque na linguagem genérica da marca.
 
-Uma página que parece polida, mas esconde a verdade operacional, é fraca para a negociação de agentes. [camada de execução](/es/docs/execution-layer/) depende da precisão factual, não do tom de marketing.
+Uma página que parece polida, mas esconde a verdade operacional, é fraca para a negociação de agentes. [camada de execução](/pt/docs/execution-layer/) depende da precisão factual, não do tom de marketing.
 
 ## 4. Publique caminhos de compra claros
 
@@ -69,7 +69,7 @@ As equipes de comércio eletrônico costumam sobrecarregar as páginas de produt
 
 Priorize a extração primeiro: títulos estáveis, blocos de especificações limpos, lógica de preços visível, declarações diretas de disponibilidade, notas de remessa explícitas e resumos de análises acessíveis.
 
-Você ainda pode manter a expressão da marca. Só não deixe a apresentação enterrar os fatos. O [guia de implementação AEO](/es/docs/implement-aeo/) cobre detalhadamente o lado técnico disso.
+Você ainda pode manter a expressão da marca. Só não deixe a apresentação enterrar os fatos. O [guia de implementação AEO](/pt/docs/implement-aeo/) cobre detalhadamente o lado técnico disso.
 
 ## 8. Suporte à verificação pós-compra
 
@@ -102,7 +102,7 @@ Isso muda o que significa “visibilidade”. A classificação ainda é importa
 
 AEO para comércio eletrônico não é uma camada adicionada após a construção da loja. É uma disciplina de design. Você está moldando a loja para que um sistema autônomo possa ler, comparar, decidir, comprar e verificar com o mínimo de ambiguidade.As marcas que avançam cedo ganham duas vantagens. Eles se tornam mais fáceis de recomendar e negociar. Em um ambiente onde mais decisões de compra começam em fluxos de trabalho mediados por IA, isso não é um detalhe técnico menor. É distribuição.
 
-Se você quiser avaliar onde sua loja está agora, a [Auditoria de Prontidão AEO](/es/docs/audit/) avalia tanto a camada de leitura quanto a camada de execução da sua infraestrutura digital.
+Se você quiser avaliar onde sua loja está agora, a [Auditoria de Prontidão AEO](/pt/docs/audit/) avalia tanto a camada de leitura quanto a camada de execução da sua infraestrutura digital.
 
 ---
 

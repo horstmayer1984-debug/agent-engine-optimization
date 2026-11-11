@@ -5,7 +5,6 @@ date: 2026-04-19
 weight: 115
 category: "Analysis"
 description: "A economia agente já processa 165 milhões de transações no valor de US$ 50 milhões. Mas descoberta e relatórios."
-metaDescription: "Vea cómo AEO ayuda a conectar a los agentes con los servicios cuando la actividad de los agentes está creciendo pero el descubrimiento, la atribución."
 summary: "480.000 agentes de IA ativos. 165 milhões de transações. Foram gastos 50 milhões de dólares. A economia do agente é real, mas a descoberta não funciona. O AEO resolve o problema de correspondência entre agentes que têm dinheiro para gastar e serviços que não conseguem encontrar."
 keywords:
   - "economia do agente"
@@ -57,31 +56,31 @@ SEO resolveu descoberta para humanos. Não resolve a descoberta das máquinas. A
 
 Seu serviço deve ser descrito em formato legível por máquina com parâmetros exatos. Não é “rápido e acessível”, mas “tempo médio de resposta: 1,4 segundos, preço: US$ 0,03 por solicitação, entrada: texto UTF-8 de até 10.000 caracteres, saída: JSON com campo de resumo”.
 
-Use [llms.txt](/es/docs/programming-llms-txt/) para descoberta em nível de site, [Cartões de agente](/es/docs/agent-cards-a2a-protocol/) para manifestos de capacidade e marcação de esquema para páginas de serviço individuais.
+Use [llms.txt](/pt/docs/programming-llms-txt/) para descoberta em nível de site, [Cartões de agente](/pt/docs/agent-cards-a2a-protocol/) para manifestos de capacidade e marcação de esquema para páginas de serviço individuais.
 
 ### Camada 2: registro em nível de protocolo
 
-Registre seus serviços em registros de protocolo onde os agentes pesquisam ativamente. Registros de ferramentas MCP, [Declarações de capacidade UCP](/es/docs/ucp-vs-acp-vs-mcp/) em /.well-known/ucp e listagens de mercado em plataformas como Agentic.Market.
+Registre seus serviços em registros de protocolo onde os agentes pesquisam ativamente. Registros de ferramentas MCP, [Declarações de capacidade UCP](/pt/docs/ucp-vs-acp-vs-mcp/) em /.well-known/ucp e listagens de mercado em plataformas como Agentic.Market.
 
 Um agente que descobre seu serviço por meio do registro tem uma intenção de conversão maior do que aquele que encontra seu site. A presença no registro equivale, para o agente, a aparecer nos resultados da pesquisa.
 
 ### Camada 3: Preparação da Transação
 
-A descoberta sem capacidade de transação é um beco sem saída. O agente encontra o seu serviço, avalia e então você deve pagar e receber o resultado. [micropagamentos x402](/es/docs/x402-agent-payments/) lidam com a camada de pagamento. Sua API cuida da execução. Ambos devem funcionar em menos de 3 segundos para que o agente conclua a transação.
+A descoberta sem capacidade de transação é um beco sem saída. O agente encontra o seu serviço, avalia e então você deve pagar e receber o resultado. [micropagamentos x402](/pt/docs/x402-agent-payments/) lidam com a camada de pagamento. Sua API cuida da execução. Ambos devem funcionar em menos de 3 segundos para que o agente conclua a transação.
 
-O [guia da camada de execução](/es/docs/execution-layer/) cobre a arquitetura técnica.
+O [guia da camada de execução](/pt/docs/execution-layer/) cobre a arquitetura técnica.
 
 ## Defina regras que os agentes podem aplicar
 
 Os agentes não podem interpretar a ambiguidade. Eles não podem ligar para o atendimento ao cliente. Eles não podem negociar informalmente. Cada parâmetro deve ser expresso como absoluto. Preço: valor exato por unidade de trabalho, em que moeda, válido por qual período de tempo. Tempo de resposta: máximo garantido, medido como, com que penalidade por ultrapassá-lo. Restrições de entrada: formato exato, tamanho máximo, campos obrigatórios. Formato de saída: estrutura exata, campos garantidos, esquema de erro. Disponibilidade: Garantia de tempo de atividade, janelas de manutenção, comportamento de serviço degradado.
 
-Os serviços que publicam esses parâmetros como dados estruturados em seus [manifestos de capacidade](/es/docs/agent-decision-trees/) são selecionados. Os serviços que ocultam parâmetros atrás de "entre em contato conosco" ou "a partir de" são excluídos de cada [árvore de decisão determinística](/es/docs/agent-decision-trees/) executada por um agente.
+Os serviços que publicam esses parâmetros como dados estruturados em seus [manifestos de capacidade](/pt/docs/agent-decision-trees/) são selecionados. Os serviços que ocultam parâmetros atrás de "entre em contato conosco" ou "a partir de" são excluídos de cada [árvore de decisão determinística](/pt/docs/agent-decision-trees/) executada por um agente.
 
 ## A vantagem da capitalização
 
 Os pioneiros na descoberta de agentes criam vantagens combinadas. Um agente que realiza transações com sucesso com seu serviço adiciona você à sua lista de provedores preferenciais. As tarefas subsequentes que correspondam ao seu perfil de capacidade serão roteadas para você automaticamente. As pontuações de confiança se acumulam. O histórico de transações é construído.
 
-Um serviço que entra no mercado seis meses depois começa com zero confiança, zero histórico de transações e zero status de provedor preferencial. Você deve competir com serviços estabelecidos nos quais os agentes já confiam. O problema da descoberta se torna mais difícil de resolver quanto mais você espera.É por isso que o [Guia de implantação do AEO](/es/docs/implement-aeo/) enfatiza o início da descoberta básica (llms.txt, marcação de esquema, cartões de agente) mesmo antes da conclusão da camada de execução. Ser detectável precocemente, mesmo com capacidade limitada, cria uma base de confiança que se desenvolve ao longo do tempo.
+Um serviço que entra no mercado seis meses depois começa com zero confiança, zero histórico de transações e zero status de provedor preferencial. Você deve competir com serviços estabelecidos nos quais os agentes já confiam. O problema da descoberta se torna mais difícil de resolver quanto mais você espera.É por isso que o [Guia de implantação do AEO](/pt/docs/implement-aeo/) enfatiza o início da descoberta básica (llms.txt, marcação de esquema, cartões de agente) mesmo antes da conclusão da camada de execução. Ser detectável precocemente, mesmo com capacidade limitada, cria uma base de confiança que se desenvolve ao longo do tempo.
 
 ## O que acontece a seguir?
 
@@ -89,7 +88,7 @@ A economia dos agentes está a crescer mais rapidamente do que a maioria das emp
 
 As empresas que instrumentam os seus serviços para a descoberta de agentes captam agora um fluxo de receitas crescente que os concorrentes não conseguem ver e, portanto, não conseguem responder. Quando a economia do agente se tornar visível nas métricas tradicionais, as posições de descoberta estarão estabelecidas e serão difíceis de deslocar.
 
-O [artigo sobre modelos de negócios de agentes nativos](/es/docs/agent-native-business-models/) cobre a mudança econômica mais ampla. O [guia de economia de delegação](/es/docs/delegation-economy-agent-autonomy/) explica os cinco níveis de autonomia dos agentes que impulsionam esta transição.
+O [artigo sobre modelos de negócios de agentes nativos](/pt/docs/agent-native-business-models/) cobre a mudança econômica mais ampla. O [guia de economia de delegação](/pt/docs/delegation-economy-agent-autonomy/) explica os cinco níveis de autonomia dos agentes que impulsionam esta transição.
 
 ---
 

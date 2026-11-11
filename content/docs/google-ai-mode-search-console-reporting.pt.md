@@ -22,7 +22,7 @@ A documentação do Google [AI Features and Your Website](https://developers.goo
 
 Isso é importante porque muitas equipes estão procurando um filtro limpo de “impressões no modo IA”. A partir desta atualização, a resposta prática é mais limitada: você pode ver o desempenho agregado da Pesquisa Google, mas não pode isolar de forma confiável cada exposição do Modo AI apenas no Search Console.
 
-Para obter um guia de otimização mais extenso, leia o guia existente sobre [Google AI Mode SEO](/es/docs/google-ai-mode-seo/), [AEO KPI Framework](/es/docs/aeo-kpis-measurement/) e [AI Search Optimization Framework](/es/docs/ai-search-optimization/).
+Para obter um guia de otimização mais extenso, leia o guia existente sobre [Google AI Mode SEO](/pt/docs/google-ai-mode-seo/), [AEO KPI Framework](/pt/docs/aeo-kpis-measurement/) e [AI Search Optimization Framework](/pt/docs/ai-search-optimization/).
 
 ## O que você pode e não pode medir
 
@@ -62,7 +62,7 @@ Dica:- impressões por grupo
 - problemas de acesso do rastreador em robots.txt, regras de CDN ou configurações de bot
 - atualização de atualização para páginas de protocolo
 
-A [camada de execução](/es/docs/execution-layer/) torna-se mensurável somente após a camada de descoberta estar em execução.
+A [camada de execução](/pt/docs/execution-layer/) torna-se mensurável somente após a camada de descoberta estar em execução.
 
 ## Como ler quedas de CTR
 
@@ -89,7 +89,7 @@ Não diagnostique o impacto do modo IA a partir de uma métrica. Use um pequeno 
 4. Observe as impressões de cauda longa, não apenas as dez principais palavras-chave.
 5. Conecte as páginas de destino do Search Console às conversões analíticas.
 6. Revise os títulos e meta descrições de páginas com altas impressões e CTR fraco.
-7. Atualize as páginas onde você alterou o conjunto de origem. É aqui também que a [estratégia de citação de IA] (/es/docs/ai-citation-strategy/) ajuda. Páginas fáceis de citar tendem a ter definições mais claras, tabelas mais claras e melhores caminhos para as fontes.
+7. Atualize as páginas onde você alterou o conjunto de origem. É aqui também que a [estratégia de citação de IA](/pt/docs/ai-citation-strategy/) ajuda. Páginas fáceis de citar tendem a ter definições mais claras, tabelas mais claras e melhores caminhos para as fontes.
 
 ## Erros comuns de relatórios
 

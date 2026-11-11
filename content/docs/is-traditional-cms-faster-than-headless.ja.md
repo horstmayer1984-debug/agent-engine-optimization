@@ -31,7 +31,7 @@ keywords:
 - データベースクエリ
 - 構築および実装戦略
 
-より広範なトレードオフについては、[ヘッドレス CMS と従来の CMS](/es/docs/headless-cms-vs-traditional-cms/) を参照してください。
+より広範なトレードオフについては、[ヘッドレス CMS と従来の CMS](/ja/docs/headless-cms-vs-traditional-cms/) を参照してください。
 
 ## パフォーマンスの比較
 
@@ -85,7 +85,7 @@ Next.js のドキュメントには、静的生成によりビルド時にペー
 |最適化されていない画像 |両方 |最悪の LCP と帯域幅 |
 |キャッシュエラー |両方 | TTFBが遅い |
 |クライアント向けの独占コンテンツ |ほとんど頭なし |クロールとインデックス作成のリスク |
-|サードパーティのラベル |両方 | Poor Basic Web Vitals |[Headless SEO](/es/docs/headless-seo/) ガイドでは、速度とクローラビリティを同時にテストする必要がある理由を説明しています。 CMS 固有の実装の詳細については、[ヘッドレス CMS SEO チェックリスト](/es/docs/headless-cms-seo/) を使用してください。
+|サードパーティのラベル |両方 | Poor Basic Web Vitals |[Headless SEO](/ja/docs/headless-seo/) ガイドでは、速度とクローラビリティを同時にテストする必要がある理由を説明しています。 CMS 固有の実装の詳細については、[ヘッドレス CMS SEO チェックリスト](/ja/docs/headless-cms-seo/) を使用してください。
 
 ## 何を測定するか
 

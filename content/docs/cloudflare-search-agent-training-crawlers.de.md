@@ -41,7 +41,7 @@ Traditionelles SEO behandelt Crawler in erster Linie als Indexer. AEO sollte aut
 - ein Browser-Agent, der klicken, vergleichen oder senden kann
 - ein Trainings-Tracker, der Inhalte aufnehmen kann, ohne Traffic zurückzugeben
 
-Deshalb trennt [Agent Engine Optimization](/es/docs/what-is-aeo/) die [Leseschicht](/es/docs/answer-engine-optimization/) von der [Ausführungsschicht](/es/docs/execution-layer/). Suchcrawler gehören hauptsächlich zur Leseschicht. Agenten-Tracker sind näher an der Ausführung.
+Deshalb trennt [Agent Engine Optimization](/de/docs/what-is-aeo/) die [Leseschicht](/de/docs/answer-engine-optimization/) von der [Ausführungsschicht](/de/docs/execution-layer/). Suchcrawler gehören hauptsächlich zur Leseschicht. Agenten-Tracker sind näher an der Ausführung.
 
 ## Die Standardänderung vom 15. September 2026
 
@@ -63,7 +63,7 @@ Das stellt ein echtes Risiko für SEO dar. Ein Herausgeber versucht möglicherwe
 | Bezahlte Forschung | Vielleicht Fragmente zulassen | Einschränken | Blockieren oder monetarisieren | Berücksichtigen Sie Zusammenfassungen und private Details |
 | Interne Werkzeuge | Blockieren | Nur Authentifizierung | Blockieren | Kein öffentlicher Trackerwert |
 
-Dies sollte mit [AI Crawlers and robots.txt](/es/docs/ai-crawlers-robots-txt/) und [Cloudflare AI Crawl Control](/es/docs/cloudflare-ai-crawl-control/) kombiniert werden.
+Dies sollte mit [AI Crawlers and robots.txt](/de/docs/ai-crawlers-robots-txt/) und [Cloudflare AI Crawl Control](/de/docs/cloudflare-ai-crawl-control/) kombiniert werden.
 
 ## Checkliste für die Bereitstellung
 

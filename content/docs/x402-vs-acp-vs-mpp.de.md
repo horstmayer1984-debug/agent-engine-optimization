@@ -121,6 +121,6 @@ Top-Referenzen: [x402-Dokumentation](https://docs.x402.org/faq), [Ankündigung d
 
 ## Verwandte Anleitungen
 
-* [Agent-Commerce-Architektur](/es/docs/agentic-commerce/)
-* [Agent-Zahlungsprotokolle](/es/docs/agent-payment-protocols-compared/)
-* [Ausführungsebene](/es/docs/execution-layer/)
+* [Agent-Commerce-Architektur](/de/docs/agentic-commerce/)
+* [Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/)
+* [Ausführungsebene](/de/docs/execution-layer/)

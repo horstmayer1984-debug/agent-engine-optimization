@@ -46,7 +46,7 @@ Eine AEO-Strategie sollte alle drei unterstützen, sofern relevant: Dokumente f�
 6. Beispiele, die zum Produktionsverhalten passen.
 7. Versionshinweise, wenn sich Tools ändern.
 
-Anleitungen auf Protokollebene finden Sie unter [MCP-Ressourcen vs. Tools vs. Eingabeaufforderungen](/es/docs/mcp-resources-tools-prompts/) und [MCP vs. Agent-API](/es/docs/mcp-vs-api-for-agents/).
+Anleitungen auf Protokollebene finden Sie unter [MCP-Ressourcen vs. Tools vs. Eingabeaufforderungen](/de/docs/mcp-resources-tools-prompts/) und [MCP vs. Agent-API](/de/docs/mcp-vs-api-for-agents/).
 
 ## Auswirkungen auf die Website
 
@@ -61,7 +61,7 @@ smolagents ist kein Website-Optimierungstool. Es ist ein Zeichen dafür, wie Age
 | E-Commerce-Seite | Anzeigevarianten, Lagerbestand, Preis, Versand und Retouren. |
 | Support-Seite | Leiten Sie Vorfälle nach Typ und erforderlichen Daten weiter. |
 
-Das praktische Ziel ist die [Ausführungsschicht](/es/docs/execution-layer/): Agenten müssen vom Lesen einer Seite zum Abschließen einer begrenzten Aufgabe mit Validierung und Wiederherstellung übergehen.
+Das praktische Ziel ist die [Ausführungsschicht](/de/docs/execution-layer/): Agenten müssen vom Lesen einer Seite zum Abschließen einer begrenzten Aufgabe mit Validierung und Wiederherstellung übergehen.
 
 ## Häufig gestellte Fragen
 

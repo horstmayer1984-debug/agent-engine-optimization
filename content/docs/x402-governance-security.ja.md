@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 73
 category: "Architecture"
 description: "Linux Foundation の下にある x402 Foundation は、エージェントの支払いに対する中立的なセキュリティとガバナンスの標準を提供します。ベストプラクティス。"
-metaDescription: "Conozca las prácticas de seguridad y gobernanza de x402 para pagos de agentes, incluidas identidades, cuotas, límites de gasto, límites de tarifas."
 summary: "x402 Foundation は、いかなる企業も代理店への支払いを管理しないことを保証します。オープンな仕様、Google、Stripe、Visa などの創設メンバー、および運用環境の導入のための明確なセキュリティ標準。"
 keywords:
   - "x402財団"
@@ -51,7 +50,7 @@ x402 Foundation 仕様には、異議のある支払いに対する紛争解決�
 
 ## 将来のアドレス: Google AP2 を使用した x402
 
-2026 年末までに、x402 と Google の Agent Payments Protocol (AP2) が統合される予定です。 AP2 は、暗号通貨の支払い義務と監査証跡を [Universal Trade Protocol](/es/docs/agentic-commerce-execution/) に追加します。 x402 と組み合わせることで、管理された検証可能な支払いフローによる真のエージェント間のネゴシエーションが可能になります。Nevermined の 4 月 9 日の開始により、すでに x402 と従来のカード支払いの橋渡しが行われ、代理店が Visa に委任された権限を使用できるようになり、販売者は標準プロセッサを通じて決済を受け取ることができます。
+2026 年末までに、x402 と Google の Agent Payments Protocol (AP2) が統合される予定です。 AP2 は、暗号通貨の支払い義務と監査証跡を [Universal Trade Protocol](/ja/docs/agentic-commerce-execution/) に追加します。 x402 と組み合わせることで、管理された検証可能な支払いフローによる真のエージェント間のネゴシエーションが可能になります。Nevermined の 4 月 9 日の開始により、すでに x402 と従来のカード支払いの橋渡しが行われ、代理店が Visa に委任された権限を使用できるようになり、販売者は標準プロセッサを通じて決済を受け取ることができます。
 
 ## 比較: 集中型 Foundation モデルと x402
 
@@ -83,7 +82,7 @@ x402 Foundation 仕様には、異議のある支払いに対する紛争解決�
 **エージェント トラフィックが大量になる前に x402 を導入する必要がありますか?**
 導入コストは低いです (数週間ではなく数時間)。エージェントのトラフィックが到着したときに x402 を準備しておけば、すぐに収益を得ることができます。投機的な投資は最小限です。
 
----*この記事では、教育および情報提供のみを目的として、支払いプロトコルと暗号通貨インフラストラクチャについて説明します。これは財務上のアドバイスを構成するものではありません。全規約については、[法的通知](/es/docs/disclaimer/) をご覧ください。*
+---*この記事では、教育および情報提供のみを目的として、支払いプロトコルと暗号通貨インフラストラクチャについて説明します。これは財務上のアドバイスを構成するものではありません。全規約については、[法的通知](/ja/docs/disclaimer/) をご覧ください。*
 
 ## 主な参考文献
 

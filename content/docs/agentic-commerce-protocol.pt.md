@@ -36,7 +36,7 @@ Fontes primárias:
 | PCM | Acesso a ferramentas e dados para agentes |
 | x402 | Fluxo de pagamento automático para recursos HTTP |
 
-O [guia UCP, ACP e MCP](/es/docs/ucp-vs-acp-vs-mcp/) cobre uma comparação mais ampla. O ACP é melhor entendido como um protocolo de experiência de negócios focado, e não como um substituto para qualquer outra parte de uma pilha pronta para agente.
+O [guia UCP, ACP e MCP](/pt/docs/ucp-vs-acp-vs-mcp/) cobre uma comparação mais ampla. O ACP é melhor entendido como um protocolo de experiência de negócios focado, e não como um substituto para qualquer outra parte de uma pilha pronta para agente.
 
 ## Quando o ACP é importante
 
@@ -47,7 +47,7 @@ O ACP torna-se relevante quando:
 - A superfície AI está se tornando um verdadeiro canal de vendas
 - o comerciante já possui dados de produtos, preços e informações de política suficientes para fazer compras automatizadas
 
-Este último ponto é fácil de subestimar. O pagamento não resgata dados incorretos do produto. [Lista de verificação de SEO para recomendações de produtos ChatGPT] (/es/docs/chatgpt-product-recommendations-seo/) explica o que precisa acontecer antes da seleção.
+Este último ponto é fácil de subestimar. O pagamento não resgata dados incorretos do produto. [Lista de verificação de SEO para recomendações de produtos ChatGPT](/pt/docs/chatgpt-product-recommendations-seo/) explica o que precisa acontecer antes da seleção.
 
 ##O que os traders devem preparar primeiro?
 
@@ -61,7 +61,7 @@ Este último ponto é fácil de subestimar. O pagamento não resgata dados incor
 | Controles de fraude | Pedidos conduzidos por agentes ainda precisam de gerenciamento de risco |
 | Confirmação do pedido | O resultado deve ser determinístico e auditável |
 
-O ACP pode reduzir o atrito no processo de checkout, mas a [camada de execução](/es/docs/execution-layer/) ainda precisa de transições de estado de back-end confiáveis.
+O ACP pode reduzir o atrito no processo de checkout, mas a [camada de execução](/pt/docs/execution-layer/) ainda precisa de transições de estado de back-end confiáveis.
 
 ## ACP versus pagamento de comércio eletrônico tradicional | Caixa tradicional | Fluxo estilo ACP |
 |

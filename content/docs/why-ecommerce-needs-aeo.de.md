@@ -45,7 +45,7 @@ Erstellen Sie E-E-A-T-Signale durch echte Produkttestinhalte, Expertenbewertunge
 
 ### Phase 4: Agentenvorbereitung (Monate 6 bis 12)
 
-Bereiten Sie strukturierte Daten für freiberufliche Einkäufer vor. Stellen Sie Preise, Lagerbestandsstatus und Versandrichtlinien in Echtzeit in maschinenlesbaren Formaten bereit. Erstellen Sie deterministische Produktvergleichsendpunkte. Diese Phase bereitet sich auf die [Ausführungsschicht](/es/docs/execution-layer/) vor, in der Agenten auf Ihre Daten reagieren und diese nicht nur lesen.
+Bereiten Sie strukturierte Daten für freiberufliche Einkäufer vor. Stellen Sie Preise, Lagerbestandsstatus und Versandrichtlinien in Echtzeit in maschinenlesbaren Formaten bereit. Erstellen Sie deterministische Produktvergleichsendpunkte. Diese Phase bereitet sich auf die [Ausführungsschicht](/de/docs/execution-layer/) vor, in der Agenten auf Ihre Daten reagieren und diese nicht nur lesen.
 
 ## Was passiert, wenn Sie warten? Die Wettbewerbsdynamik von AEO begünstigt Pioniere mehr als traditionelles SEO. Bei der herkömmlichen Suche kann eine starke Seite letztendlich einen etablierten Konkurrenten übertreffen. Bei KI-Antworten neigen Zitiermuster dazu, sich selbst zu verstärken. KI-Systeme, die eine Marke immer wieder zitieren, entwickeln stärkere interne Darstellungen, was zukünftige Zitate wahrscheinlicher macht.
 
@@ -53,7 +53,7 @@ Marken, die im Jahr 2026 KI-Sichtbarkeit schaffen, werden im Jahr 2027 schwerer 
 
 ##MessrahmenVerfolgen Sie diese Kennzahlen in allen vier Phasen: AI-Zitatrate nach Produktkategorie und Abfragetyp, AI-Referenz-Traffic-Volumen und Conversion-Rate, Share of Voice in AI-Antworten im Vergleich zu wichtigen Konkurrenten, Erfolgsquote bei der Schemavalidierung und Inhaltsaktualisierungsbewertung für Säulen- und Gruppenseiten.
 
-Das [AEO Readiness Audit](/es/docs/audit/) bietet einen strukturierten Bewertungsrahmen.
+Das [AEO Readiness Audit](/de/docs/audit/) bietet einen strukturierten Bewertungsrahmen.
 
 ---
 
@@ -76,7 +76,7 @@ KI-vermittelter Traffic führt zu einer höheren Konvertierungsrate als herkömm
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

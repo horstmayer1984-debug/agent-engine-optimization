@@ -54,7 +54,7 @@ Se um site tem um bom desempenho com respostas rápidas, mas desaparece com um r
 5. Compare as cotações dos concorrentes em todas as modalidades.
 6. Melhorar as páginas preferidas pelos sistemas no modo de raciocínio: documentação, políticas, comparações, páginas de dados e conteúdo de apoio.
 
-Isso se encaixa em [Estratégia de nomeação de IA](/es/docs/ai-citation-strategy/), [KPIs e medição de AEO](/es/docs/aeo-kpis-measurement/) e [Otimização de mecanismo generativo](/es/docs/generative-engine-optimization/).
+Isso se encaixa em [Estratégia de nomeação de IA](/pt/docs/ai-citation-strategy/), [KPIs e medição de AEO](/pt/docs/aeo-kpis-measurement/) e [Otimização de mecanismo generativo](/pt/docs/generative-engine-optimization/).
 
 ##Qual conteúdo recebe citações mais profundas?
 
@@ -70,7 +70,7 @@ Respostas bem fundamentadas muitas vezes necessitam de evidências, limitações
 | Páginas de políticas | Esclarecer elegibilidade, segurança, reembolsos e limites |
 | Registros de alterações | Demonstrar status de atualização e versão |
 
-Isto é especialmente importante para [Camada de leitura](/es/docs/answer-engine-optimization/). A [Camada de Execução](/es/docs/execution-layer/) ainda precisa de ferramentas e fluxo de trabalho preparados.
+Isto é especialmente importante para [Camada de leitura](/pt/docs/answer-engine-optimization/). A [Camada de Execução](/pt/docs/execution-layer/) ainda precisa de ferramentas e fluxo de trabalho preparados.
 
 ## Modelo de testeUse uma planilha com estes campos:
 

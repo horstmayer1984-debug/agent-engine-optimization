@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 22
 category: "Analysis"
 description: "Uma melhor recuperação ajuda os agentes de IA a compreender os problemas de suporte. Isso não os resolve. Como criar fluxos de trabalho de suporte executáveis."
-metaDescription: "Cree flujos de trabajo de soporte ejecutables con acciones limitadas, conocimiento de políticas, visibilidad del estado, reglas de escalamiento."
 summary: "O suporte do agente começa quando o sistema passa do diagnóstico à ação. Este artigo explica como projetar pontos de extremidade de resolução seguros, limitados e com reconhecimento de políticas."
 keywords:
   - "agente de atendimento ao cliente"
@@ -21,7 +20,7 @@ O suporte do agente começa quando o sistema pode passar do diagnóstico à aç�
 
 ##A divisão entre a camada de leitura e execução
 
-A divisão entre a camada de leitura e a [camada de execução](/es/docs/execution-layer/) torna-se operacionalmente importante no suporte.
+A divisão entre a camada de leitura e a [camada de execução](/pt/docs/execution-layer/) torna-se operacionalmente importante no suporte.
 
 A camada de leitura contém conteúdo de suporte, atribuições de bugs, explicações de políticas, guias de configuração, lógica de solução de problemas e restrições de produtos. Seu trabalho é interpretação. Diz ao agente qual é provavelmente o problema e quais caminhos estão teoricamente disponíveis.
 
@@ -55,7 +54,7 @@ Os artigos de apoio deveriam parar de fingir que o próprio artigo é a resoluç
 
 O artigo explica o problema, a elegibilidade e as verificações necessárias. A camada de execução faz a correção real. Uma vez conectados de forma limpa, o suporte deixa de ser um centro de custos cheio de explicações repetitivas e se torna um ambiente no qual humanos e agentes podem navegar com menos atrito.
 
-A [Comparação de AEO, SEO e GEO](/es/docs/aeo-vs-seo-vs-geo/) explica como isso se relaciona com a estrutura de otimização mais ampla.
+A [Comparação de AEO, SEO e GEO](/pt/docs/aeo-vs-seo-vs-geo/) explica como isso se relaciona com a estrutura de otimização mais ampla.
 
 ---
 
@@ -78,7 +77,7 @@ Uma resposta estruturada que informa ao agente exatamente o que aconteceu, por q
 
 ## Guias relacionados
 
-* [Guia de otimização do Agent Engine](/es/docs/what-is-aeo/)
+* [Guia de otimização do Agent Engine](/pt/docs/what-is-aeo/)
 
 ## Referências primárias
 

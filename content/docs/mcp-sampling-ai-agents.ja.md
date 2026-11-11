@@ -22,7 +22,7 @@ MCP サンプリングを使用すると、MCP サーバーはワークフロー
 
 抽象的に聞こえるので、簡単に説明します。ツール サーバーは、ユーザーの AI クライアントに、ツール フローの一部としてテキストの思考、要約、並べ替え、生成を依頼できます。
 
-より広範なコンテキストについては、[MCP とエージェント API](/es/docs/mcp-vs-api-for-agents/)、[OAuth による MCP 認証](/es/docs/mcp-authorization-oauth-ai-agents/)、および [MCP アプリケーション](/es/docs/mcp-apps-guide/) を参照してください。
+より広範なコンテキストについては、[MCP とエージェント API](/ja/docs/mcp-vs-api-for-agents/)、[OAuth による MCP 認証](/ja/docs/mcp-authorization-oauth-ai-agents/)、および [MCP アプリケーション](/ja/docs/mcp-apps-guide/) を参照してください。
 
 ## サンプリングが存在する理由
 
@@ -76,7 +76,7 @@ MCP サンプリングを使用すると、MCP サーバーはワークフロー
 |間違った出力 |生成された応答は不正確である可能性があります。最終納品前のレビュー |
 |サーバーのオーバーリーチ |サーバーは不要なモデル作業を要求する可能性があります。明示的な機能サポートが必要 |
 
-[Agent Observability Guardrails](/es/docs/agent-observability-guardrails/) ガイドは、このガバナンス層を拡張します。
+[Agent Observability Guardrails](/ja/docs/agent-observability-guardrails/) ガイドは、このガバナンス層を拡張します。
 
 ## AEO への影響
 
@@ -91,7 +91,7 @@ Web サイト所有者にとって、これは次のことを意味します。
 - 真実の文書ソースページ
 - エンティティとアクションに安定した識別子を提供します
 
-[AEO 開発者ガイド](/es/docs/developers-guide-aeo/) は当然の次のステップです。
+[AEO 開発者ガイド](/ja/docs/developers-guide-aeo/) は当然の次のステップです。
 
 ## よくある質問
 

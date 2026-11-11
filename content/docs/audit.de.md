@@ -86,9 +86,9 @@ Die Protokolle sind live. UCP wurde im Januar 2026 auf den Markt gebracht. MCP i
 
 Organisationen, die bewerten und vorbereiten, profitieren jetzt von noch größeren Vorteilen. Wer wartet, bis der Agentenverkehr erheblich ist, muss mit einer kostspieligeren und störenderen Modernisierung rechnen.
 
-[Die Ausführungsschicht](/es/docs/execution-layer/): Verstehen Sie, was Agenten benötigen.
+[Die Ausführungsschicht](/de/docs/execution-layer/): Verstehen Sie, was Agenten benötigen.
 
-[AEO vs. SEO vs. GEO](/es/docs/aeo-vs-seo-vs-geo/): Wie dies in Ihre umfassendere Strategie passt.
+[AEO vs. SEO vs. GEO](/de/docs/aeo-vs-seo-vs-geo/): Wie dies in Ihre umfassendere Strategie passt.
 
 ## Beweisregeln für eine wiederholbare Prüfung
 
@@ -112,7 +112,7 @@ Nein. Der Inhalt ist Teil der Leseschicht. Bei einem vollständigen Audit werden
 
 Wiederholen Sie bestimmte Tests nach Materialinhalts-, Schema-, API-, Richtlinien- oder Workflow-Änderungen. Überprüfen Sie regelmäßig die größere Stichprobe, während sich der Agentenverkehr und die unterstützten Funktionen weiterentwickeln.
 
-## Verwandte Leitfäden* [Agent-Commerce-Architektur](/es/docs/agentic-commerce/)
+## Verwandte Leitfäden* [Agent-Commerce-Architektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

@@ -22,7 +22,7 @@ Headless-Architektur verändert, wem SEO gehört. In einem herkömmlichen CMS si
 
 Das bedeutet, dass die SEO-Auswirkungen nicht automatisch eintreten. Die Architektur bietet mehr Kontrolle, eliminiert aber auch einige Standardeinstellungen.
 
-Für einen umfassenderen Architekturvergleich beginnen Sie mit [Headless CMS vs. Traditional CMS](/es/docs/headless-cms-vs-traditional-cms/) und [Was ist Headless Software?](/es/docs/what-is-headless-software/).
+Für einen umfassenderen Architekturvergleich beginnen Sie mit [Headless CMS vs. Traditional CMS](/de/docs/headless-cms-vs-traditional-cms/) und [Was ist Headless Software?](/de/docs/what-is-headless-software/).
 
 ## Positive SEO-Auswirkungen
 
@@ -70,7 +70,7 @@ Googles [JavaScript SEO Basics] (https://developers.google.com/search/docs/crawl
 
 Der Inhalt eines Headless CMS kann für KI-Systeme nützlich sein, da er bereits strukturiert ist. Ein Hilfeartikel, ein Produkthandbuch, eine FAQ oder eine Vergleichstabelle können als Felder anstelle eines undurchsichtigen HTML-Blobs gespeichert werden.
 
-Das hilft [AI Search Optimization](/es/docs/ai-search-optimization/) und [Agent Engine Optimization](/es/docs/what-is-aeo/), wenn die End-Site auch Folgendes offenlegt:
+Das hilft [AI Search Optimization](/de/docs/ai-search-optimization/) und [Agent Engine Optimization](/de/docs/what-is-aeo/), wenn die End-Site auch Folgendes offenlegt:
 
 - Crawlbares HTML
 - Fakten, die durch Quellen gestützt werden
@@ -79,7 +79,7 @@ Das hilft [AI Search Optimization](/es/docs/ai-search-optimization/) und [Agent 
 - interne Links zwischen verwandten Seiten
 - Klare nächste Schritte für Agenten
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) benötigt weiterhin APIs oder Aktionsendpunkte. Ein Headless-CMS hilft zunächst der Leseschicht.
+Die [Ausführungsschicht](/de/docs/execution-layer/) benötigt weiterhin APIs oder Aktionsendpunkte. Ein Headless-CMS hilft zunächst der Leseschicht.
 
 ## Migrationscheckliste
 

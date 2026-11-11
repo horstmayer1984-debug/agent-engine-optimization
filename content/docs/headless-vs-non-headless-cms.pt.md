@@ -22,7 +22,7 @@ Um CMS headless geralmente é um CMS tradicional ou acoplado. O mesmo sistema ge
 
 Isso não está desatualizado por padrão. Muitas vezes é a arquitetura certa para sites menores e equipes editoriais em rápida evolução.
 
-Para uma comparação mais ampla, consulte [CMS vs CMS sem cabeça](/es/docs/cms-vs-headless-cms/) e [CMS sem cabeça vs CMS tradicional](/es/docs/headless-cms-vs-traditional-cms/).
+Para uma comparação mais ampla, consulte [CMS vs CMS sem cabeça](/pt/docs/cms-vs-headless-cms/) e [CMS sem cabeça vs CMS tradicional](/pt/docs/headless-cms-vs-traditional-cms/).
 
 ## Tabela de decisão
 
@@ -53,11 +53,11 @@ Plataformas CMS sem cabeça podem produzir SEO excelente, mas apenas se a interf
 - links internos
 - mapas de sites
 
-Use a [Lista de verificação de SEO do Headless CMS] (/es/docs/headless-cms-seo/) antes de escolher ou migrar.
+Use a [Lista de verificação de SEO do Headless CMS](/pt/docs/headless-cms-seo/) antes de escolher ou migrar.
 
 ##Comparação de otimização de IA
 
-Para [AEO](/es/docs/what-is-aeo/), as plataformas CMS headless têm uma vantagem estrutural: o conteúdo pode ser modelado como dados. Isso facilita a exposição de definições, perguntas frequentes, atributos de produtos e critérios de comparação aos sistemas de inteligência artificial.
+Para [AEO](/pt/docs/what-is-aeo/), as plataformas CMS headless têm uma vantagem estrutural: o conteúdo pode ser modelado como dados. Isso facilita a exposição de definições, perguntas frequentes, atributos de produtos e critérios de comparação aos sistemas de inteligência artificial.
 
 Mas os sites headless ainda podem ter um bom desempenho quando as páginas são claras, baseadas na fonte e vinculadas internamente. A otimização de IA envolve primeiro a clareza e depois a arquitetura.
 

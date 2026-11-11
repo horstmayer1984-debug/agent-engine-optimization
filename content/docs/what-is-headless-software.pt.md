@@ -24,7 +24,7 @@ A “cabeça” é a parte que um ser humano normalmente vê: o tema do site, a 
 
 O back-end ainda existe. Dados do produto, conteúdo, regras de fluxo de trabalho, permissões e lógica de negócios ainda funcionam. O que muda é o modelo de acesso. Em vez de forçar cada usuário ou sistema a passar por uma interface, o backend expõe acesso estruturado a diferentes interfaces e ferramentas.
 
-É por isso que o software headless é importante para [Agent Engine Optimization](/es/docs/what-is-aeo/). Os agentes de IA não precisam de um painel de controle como um ser humano. Eles precisam de documentação clara, APIs previsíveis, dados legíveis por máquina e caminhos de ação seguros.
+É por isso que o software headless é importante para [Agent Engine Optimization](/pt/docs/what-is-aeo/). Os agentes de IA não precisam de um painel de controle como um ser humano. Eles precisam de documentação clara, APIs previsíveis, dados legíveis por máquina e caminhos de ação seguros.
 
 ##Como funciona o software sem cabeça?
 
@@ -47,11 +47,11 @@ A maioria dos sistemas headless se comunica por meio de uma API. MDN define uma 
 
 Um CMS headless armazena e gerencia conteúdo, mas não força um tema de site. Contentful descreve um CMS headless como um sistema que separa a camada de apresentação do backend para que o conteúdo possa ser entregue em diferentes canais digitais. Isso é útil quando um artigo, guia de produto ou página de ajuda precisa aparecer em um site, aplicativo, portal do cliente, fluxo de e-mail ou terminal legível por IA.
 
-Leia a página de comparação: [CMS sem cabeça vs. CMS tradicional] (/es/docs/headless-cms-vs-traditional-cms/).
+Leia a página de comparação: [CMS sem cabeça vs. CMS tradicional](/pt/docs/headless-cms-vs-traditional-cms/).
 
 ### Comércio sem cabeça O comércio sem cabeça separa a vitrine do back-end do comércio. O backend lida com produtos, estoque, carrinhos, pagamentos, checkouts e pedidos. O frontend controla a experiência do cliente. A API Storefront do Shopify é um exemplo oficial de API usada para criar vitrines personalizadas.
 
-Leia o guia de negociação: [Explicação do Headless Trading](/es/docs/headless-commerce-explained/).
+Leia o guia de negociação: [Explicação do Headless Trading](/pt/docs/headless-commerce-explained/).
 
 ### Automação de navegador sem cabeçaUm navegador headless carrega e interage com sites sem exibir uma janela visível do navegador. Tanto o Playwright quanto o Puppeteer suportam a operação do navegador sem cabeça. Isso é útil para testes, auditorias de SEO, capturas de tela, monitoramento, raspagem quando permitido e fluxos de trabalho de agentes de IA baseados em navegador.
 
@@ -73,7 +73,7 @@ O principal benefício é a flexibilidade. Um back-end pode servir vários canai
 
 A arquitetura headless também pode oferecer suporte ao desempenho quando a interface é gerada estaticamente, processada no servidor ou cuidadosamente armazenada em cache. Ele pode melhorar a capacidade de reutilização quando o conteúdo e os dados precisam passar por vários pontos de contato.
 
-Para a [camada de execução](/es/docs/execution-layer/), o benefício importante é a capacidade de ação. Um sistema headless oferece aos agentes um caminho mais limpo para inspecionar, decidir e agir.
+Para a [camada de execução](/pt/docs/execution-layer/), o benefício importante é a capacidade de ação. Um sistema headless oferece aos agentes um caminho mais limpo para inspecionar, decidir e agir.
 
 ##Quais são os riscos?
 

@@ -28,7 +28,7 @@ Fontes primárias:
 
 ## Por que isso pertence ao AEO
 
-A [camada de execução](/es/docs/execution-layer/) permite que os agentes façam coisas: reservar, comprar, atualizar, recuperar, comparar e ativar fluxos de trabalho. É precisamente por isso que a segurança é importante.
+A [camada de execução](/pt/docs/execution-layer/) permite que os agentes façam coisas: reservar, comprar, atualizar, recuperar, comparar e ativar fluxos de trabalho. É precisamente por isso que a segurança é importante.
 
 O risco tradicional do SEO é principalmente a reputação e a indexação. O risco AEO inclui:
 
@@ -58,7 +58,7 @@ O objetivo não é impedir o acesso do agente. O objetivo é expor as ações co
 | Memória do agente | O contexto malicioso pode persistir? | Isolamento e expiração |
 | Registros | As ações podem ser auditadas? | ID do agente, ID do usuário, ferramenta, resultado |
 
-O [guia de observabilidade do agente](/es/docs/agent-observability-guardrails/) aborda o monitoramento com mais detalhes.
+O [guia de observabilidade do agente](/pt/docs/agent-observability-guardrails/) aborda o monitoramento com mais detalhes.
 
 ##Agência excessiva
 
@@ -115,7 +115,7 @@ Os sinais de confiança devem ser visíveis tanto para humanos como para máquin
 - permissões de ferramentas documentadas
 - Status da API ou página de informações de saúde
 
-A [auditoria de prontidão AEO](/es/docs/audit/) deve incluir controles de segurança antes que qualquer fluxo de trabalho de agente de alto risco seja ativado.
+A [auditoria de prontidão AEO](/pt/docs/audit/) deve incluir controles de segurança antes que qualquer fluxo de trabalho de agente de alto risco seja ativado.
 
 ## Perguntas frequentes
 

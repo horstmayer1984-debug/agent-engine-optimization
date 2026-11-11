@@ -36,7 +36,7 @@ Um CMS headless elimina a camada de apresentação fixa. Armazena conteúdo e en
 
 Isso é útil quando o conteúdo precisa aparecer em vários lugares: sites, aplicativos, portais de documentação, quiosques, e-mails e superfícies legíveis por IA.
 
-Leia [O que é software headless?](/es/docs/what-is-headless-software/) para aprender o conceito mais amplo.
+Leia [O que é software headless?](/pt/docs/what-is-headless-software/) para aprender o conceito mais amplo.
 
 ## Comparação sem cabeça e com cabeça
 
@@ -80,9 +80,9 @@ Headless CMS SEO geralmente falha devido a uma implementação ausente:
 - sitemaps não gerados
 - campos de imagem incompletos
 
-Use [Headless SEO](/es/docs/headless-seo/) e [Image SEO em um Headless CMS](/es/docs/image-seo-headless-cms/) se o site estiver desacoplado.## Implicações de AEO
+Use [Headless SEO](/pt/docs/headless-seo/) e [Image SEO em um Headless CMS](/pt/docs/image-seo-headless-cms/) se o site estiver desacoplado.## Implicações de AEO
 
-Para [Agent Engine Optimization](/es/docs/what-is-aeo/), sistemas híbridos e headless podem facilitar a exposição do conteúdo como dados estruturados. Mas sistemas headful ainda funcionam se produzirem páginas públicas sólidas.
+Para [Agent Engine Optimization](/pt/docs/what-is-aeo/), sistemas híbridos e headless podem facilitar a exposição do conteúdo como dados estruturados. Mas sistemas headful ainda funcionam se produzirem páginas públicas sólidas.
 
 A chave não é o rótulo. Trata-se de saber se os agentes podem descobrir, compreender, citar e, em última análise, agir.
 

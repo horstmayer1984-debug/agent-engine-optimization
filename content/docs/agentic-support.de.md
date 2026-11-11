@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 22
 category: "Analysis"
 description: "Eine bessere Wiederherstellung hilft KI-Agenten, Supportprobleme zu verstehen. Es löst sie nicht. So erstellen Sie ausführbare Support-Workflows."
-metaDescription: "Cree flujos de trabajo de soporte ejecutables con acciones limitadas, conocimiento de políticas, visibilidad del estado, reglas de escalamiento."
 summary: "Die Agentenunterstützung beginnt, wenn das System von der Diagnose zur Aktion übergeht. In diesem Artikel wird erläutert, wie Sie Auflösungsendpunkte entwerfen, die sicher, eingeschränkt und richtlinienbewusst sind."
 keywords:
   - "Kundendienstmitarbeiter"
@@ -21,7 +20,7 @@ Die Agentenunterstützung beginnt, wenn das System von der Diagnose zur Aktion �
 
 ##Die Aufteilung zwischen Lese- und Ausführungsschicht
 
-Die Trennung zwischen der Leseschicht und der [Ausführungsschicht](/es/docs/execution-layer/) wird für den Support operativ wichtig.
+Die Trennung zwischen der Leseschicht und der [Ausführungsschicht](/de/docs/execution-layer/) wird für den Support operativ wichtig.
 
 Die Leseschicht enthält Supportinhalte, Fehlerzuweisungen, Richtlinienerklärungen, Konfigurationshandbücher, Fehlerbehebungslogik und Produkteinschränkungen. Sein Job ist die Interpretation. Es teilt dem Agenten mit, welches Problem wahrscheinlich vorliegt und welche Wege theoretisch verfügbar sind.
 
@@ -55,7 +54,7 @@ Support-Artikel sollten aufhören, so zu tun, als sei der Artikel selbst die Lö
 
 Der Artikel erläutert das Problem, die Berechtigung und die erforderlichen Prüfungen. Die eigentliche Korrektur erfolgt durch die Ausführungsschicht. Sobald sie sauber miteinander verbunden sind, ist der Support nicht länger eine Kostenstelle voller sich wiederholender Erklärungen, sondern wird zu einer Umgebung, in der sich sowohl Menschen als auch Agenten reibungsloser zurechtfinden.
 
-Der [AEO-, SEO- und GEO-Vergleich] (/es/docs/aeo-vs-seo-vs-geo/) erklärt, wie dies mit dem breiteren Optimierungsrahmen zusammenhängt.
+Der [AEO-, SEO- und GEO-Vergleich](/de/docs/aeo-vs-seo-vs-geo/) erklärt, wie dies mit dem breiteren Optimierungsrahmen zusammenhängt.
 
 ---
 
@@ -78,7 +77,7 @@ Eine strukturierte Antwort, die dem Agenten genau sagt, was passiert ist, warum 
 
 ## Verwandte Anleitungen
 
-* [Anleitung zur Agent Engine-Optimierung](/es/docs/what-is-aeo/)
+* [Anleitung zur Agent Engine-Optimierung](/de/docs/what-is-aeo/)
 
 ## Primäre Referenzen
 

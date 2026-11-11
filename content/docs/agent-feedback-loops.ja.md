@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 52
 category: "Architecture"
 description: "エージェントのフィードバック ループが修正を取得し、精度を向上させ、失敗した AI インタラクションを変換する方法を学びます。"
-metaDescription: "Aprenda a registrar las interacciones de los agentes, capturar correcciones, medir fallas y crear ciclos de retroalimentación que mejoren los sistemas AEO."
 summary: "フィードバック ループがなければ、エージェントは間違いを犯してしまい、それを永遠に繰り返すことになります。このガイドでは、4 ステップのループ アーキテクチャ、実装パターン、およびリフレクション チェーンなどの高度なテクニックについて説明します。"
 keywords:
   - "AI エージェントのフィードバック ループ"
@@ -82,7 +81,7 @@ The fix then triggers a specific fix. Incorrect price extraction? Check the sche
 
 原因ではなく症状を解決しましょう。エージェントが常に間違った価格を提示する場合、解決策はページ上の価格を更新しないことです。これは、すべてのページで不正なマークアップを生成するスキーマ テンプレートの修正に関するものです。
 
-[ユニバーサル コントロール プレーンの記事](/es/docs/universal-control-plane/) では、フィードバック ループがより広範なガバナンス アーキテクチャとどのように統合されるかについて説明しています。
+[ユニバーサル コントロール プレーンの記事](/ja/docs/universal-control-plane/) では、フィードバック ループがより広範なガバナンス アーキテクチャとどのように統合されるかについて説明しています。
 
 ---
 
@@ -103,8 +102,8 @@ The fix then triggers a specific fix. Incorrect price extraction? Check the sche
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)
-* [実行層](/es/docs/execution-layer/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)
+* [実行層](/ja/docs/execution-layer/)
 
 ## 主な参考文献
 

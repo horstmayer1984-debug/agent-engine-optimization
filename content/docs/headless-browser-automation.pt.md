@@ -66,7 +66,7 @@ Verificações úteis de SEO incluem:
 - banners de cookies que bloqueiam conteúdo
 - Diferenças entre HTML bruto e HTML renderizado Um navegador headless não melhora o conteúdo, mas pode revelar se os mecanismos de pesquisa e os usuários podem realmente ver o conteúdo escrito.
 
-Leitura de sites relacionados: [Programação de site do agente AI](/es/docs/programming-websites-for-ai-agents/), [Auditoria de prontidão AEO](/es/docs/audit/) e [O que é software sem cabeça?](/es/docs/what-is-headless-software/).
+Leitura de sites relacionados: [Programação de site do agente AI](/pt/docs/programming-websites-for-ai-agents/), [Auditoria de prontidão AEO](/pt/docs/audit/) e [O que é software sem cabeça?](/pt/docs/what-is-headless-software/).
 
 ## Dramaturgo vs marionetista| Critério | Dramaturgo | Marionetista |
 |

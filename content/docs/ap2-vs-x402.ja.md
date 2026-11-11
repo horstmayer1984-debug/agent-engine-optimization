@@ -100,7 +100,7 @@ AEO チームは、支払いと承認の要件を機械可読形式で表示す�
 6. エラーと返金の処理方法
 7. エージェントが完了を確認する方法
 
-このドキュメントは、[llms.txt](/llms.txt)、[プロトコル センター](/es/docs/protocols/)、および関連するアクション ページからリンクする必要があります。
+このドキュメントは、[llms.txt](/llms.txt)、[プロトコル センター](/ja/docs/protocols/)、および関連するアクション ページからリンクする必要があります。
 
 ## よくある質問
 
@@ -120,5 +120,5 @@ AP2 は支払い方法に依存せず、さまざまなレールで動作しま�
 
 主な参考資料: [Google Cloud AP2 の発表](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol/)、[Google AP2 FIDO Alliance の更新](https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/)、[x402 ドキュメント](https://docs.x402.org/faq)、および [x402 Linux Foundation の発表](https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol)。
 
-## 関連ガイド* [エージェント コマース アーキテクチャ](/es/docs/agentic-commerce/)
-* [エージェント支払いプロトコル](/es/docs/agent-payment-protocols-compared/)
+## 関連ガイド* [エージェント コマース アーキテクチャ](/ja/docs/agentic-commerce/)
+* [エージェント支払いプロトコル](/ja/docs/agent-payment-protocols-compared/)

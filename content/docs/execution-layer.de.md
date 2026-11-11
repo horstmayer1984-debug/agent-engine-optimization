@@ -107,9 +107,9 @@ Die Ausführungsschicht wird nicht über Nacht aufgebaut. Es handelt sich um ein
 
 **Phase 2 (3 bis 6 Monate):** Implementieren Sie Optimierungen der Leseebene und beginnen Sie mit der Planung der Infrastruktur der Ausführungsebene. Fügen Sie Aktionsschemata hinzu, erstellen Sie eine Funktionsdokumentation und bewerten Sie die Protokollkompatibilität.
 
-**Phase 3 (6 bis 18 Monate):** Entwickeln Sie Funktionen auf der Ausführungsebene. Stellen Sie APIs bereit, implementieren Sie Protokollunterstützung, erstellen Sie agentenorientierte Datenendpunkte, entwickeln Sie Mechanismen zur Integritätsprüfung.[AEO Readiness Audit](/es/docs/audit/) – Beginnen Sie mit einer systematischen Bewertung.
+**Phase 3 (6 bis 18 Monate):** Entwickeln Sie Funktionen auf der Ausführungsebene. Stellen Sie APIs bereit, implementieren Sie Protokollunterstützung, erstellen Sie agentenorientierte Datenendpunkte, entwickeln Sie Mechanismen zur Integritätsprüfung.[AEO Readiness Audit](/de/docs/audit/) – Beginnen Sie mit einer systematischen Bewertung.
 
-[Was ist AEO?](/es/docs/what-is-aeo/): Vollständige Definition und Geltungsbereich.
+[Was ist AEO?](/de/docs/what-is-aeo/): Vollständige Definition und Geltungsbereich.
 
 ## Häufig gestellte Fragen
 
@@ -127,7 +127,7 @@ Nein. Stellen Sie nur Aktionen mit einem definierten Benutzernutzen, Berechtigun
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

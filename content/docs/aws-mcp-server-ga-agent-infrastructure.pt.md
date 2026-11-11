@@ -42,7 +42,7 @@ O SEO tradicional ajuda a encontrar uma página. O AEO levanta uma segunda quest
 
 O servidor AWS MCP se enquadra nessa segunda camada. Isso não torna os sites mais rastreáveis ​​por si só. Isso torna os sistemas baseados em nuvem mais utilizáveis ​​pelos agentes, uma vez que a intenção é clara. Essa distinção é importante para organizações que criam documentação legível por agentes, terminais de ação e caminhos de automação controlados.
 
-Para leitores novos no tópico, comece com [Agent Engine Optimization](/es/docs/what-is-aeo/), [a camada de execução](/es/docs/execution-layer/) e [como implementar AEO](/es/docs/implement-aeo/).
+Para leitores novos no tópico, comece com [Agent Engine Optimization](/pt/docs/what-is-aeo/), [a camada de execução](/pt/docs/execution-layer/) e [como implementar AEO](/pt/docs/implement-aeo/).
 
 ## Servidor MCP GA vs. Exposição de API clássica
 
@@ -66,7 +66,7 @@ As equipes que criam experiências de agentes com tecnologia AWS precisam pensar
 
 Na prática, isso significa que a camada de conteúdo e a camada de execução devem ser projetadas juntas. Uma página que explica um fluxo de trabalho, mas não aponta para nenhuma interface que possa ser chamada, ainda é fraca do ponto de vista da agência. Uma interface que pode ser chamada sem documentação reconhecível também é fraca.
 
-Os guias do site relacionado sobre [protocolos de agente de IA](/es/docs/protocols/) e [MCP vs API](/es/docs/mcp-vs-api-for-agents/) explicam essa divisão com mais detalhes.
+Os guias do site relacionado sobre [protocolos de agente de IA](/pt/docs/protocols/) e [MCP vs API](/pt/docs/mcp-vs-api-for-agents/) explicam essa divisão com mais detalhes.
 
 ## Onde o AWS MCP Server GA é especialmente útil
 

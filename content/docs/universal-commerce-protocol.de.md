@@ -70,7 +70,7 @@ UCP macht gute APIs nicht überflüssig. Es bietet Handelsabläufen eine gemeins
 6. Sichtbarkeit des Bestellstatus
 7. Überprüfbarkeit für automatisierte Aktionen
 
-Diese Vorbereitung überschneidet sich stark mit dem [AEO-E-Commerce-Leitfaden](/es/docs/aeo-ecommerce/), da ein Broker den Handel nicht sicher abschließen kann, wenn die zugrunde liegenden Daten vage sind.
+Diese Vorbereitung überschneidet sich stark mit dem [AEO-E-Commerce-Leitfaden](/de/docs/aeo-ecommerce/), da ein Broker den Handel nicht sicher abschließen kann, wenn die zugrunde liegenden Daten vage sind.
 
 ## Wo passt UCP in den Stapel?| Schicht | Beispielrolle |
 |

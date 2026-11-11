@@ -85,7 +85,7 @@ Use ambos quando possível. O Google observa explicitamente que dados estruturad
 4. Adicione detalhes de envio e devolução quando for elegível.
 5. Mantenha o conteúdo da página visível alinhado com os dados estruturados.
 6. Valide com o Search Console e ferramentas de pesquisa aprimorada.
-7. Teste novamente após alterações no modelo.O [guia AEO de comércio eletrônico] (/docs/aeo-ecommerce/) mostra como os dados do produto se encaixam na preparação mais ampla do agente. O [guia do rastreador de IA](/es/docs/ai-crawlers-robots-txt/) explica por que a página também deve estar acessível.
+7. Teste novamente após alterações no modelo.O [guia AEO de comércio eletrônico] (/docs/aeo-ecommerce/) mostra como os dados do produto se encaixam na preparação mais ampla do agente. O [guia do rastreador de IA](/pt/docs/ai-crawlers-robots-txt/) explica por que a página também deve estar acessível.
 
 ##O que os dados estruturados não podem corrigir
 

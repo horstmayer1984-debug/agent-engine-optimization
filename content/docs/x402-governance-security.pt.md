@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 73
 category: "Architecture"
 description: "A x402 Foundation da Linux Foundation fornece padrões neutros de segurança e governança para pagamentos de agentes. Melhores práticas."
-metaDescription: "Conozca las prácticas de seguridad y gobernanza de x402 para pagos de agentes, incluidas identidades, cuotas, límites de gasto, límites de tarifas."
 summary: "A x402 Foundation garante que nenhuma empresa controle os pagamentos dos agentes. Especificações abertas, membros fundadores como Google, Stripe e Visa e padrões de segurança claros para implantação em produção."
 keywords:
   - "Fundação x402"
@@ -51,7 +50,7 @@ A especificação x402 Foundation inclui mecanismos de resolução de disputas p
 
 ## Endereço futuro: x402 com Google AP2
 
-Até o final de 2026, espera-se a integração entre o x402 e o Agent Payments Protocol (AP2) do Google. AP2 adiciona mandatos de pagamento criptográfico e trilhas de auditoria ao [Protocolo de Comércio Universal] (/es/docs/agentic-commerce-execution/). Combinado com o x402, isso permite uma verdadeira negociação entre agentes com fluxos de pagamento governados e verificáveis.O lançamento da Nevermined em 9 de abril já une pagamentos com cartão x402 e tradicionais, permitindo que os agentes usem a autoridade delegada da Visa enquanto os comerciantes recebem liquidação por meio de processadores padrão.
+Até o final de 2026, espera-se a integração entre o x402 e o Agent Payments Protocol (AP2) do Google. AP2 adiciona mandatos de pagamento criptográfico e trilhas de auditoria ao [Protocolo de Comércio Universal](/pt/docs/agentic-commerce-execution/). Combinado com o x402, isso permite uma verdadeira negociação entre agentes com fluxos de pagamento governados e verificáveis.O lançamento da Nevermined em 9 de abril já une pagamentos com cartão x402 e tradicionais, permitindo que os agentes usem a autoridade delegada da Visa enquanto os comerciantes recebem liquidação por meio de processadores padrão.
 
 ## Comparação: modelo Foundation centralizado vs x402
 
@@ -83,7 +82,7 @@ A Fundação trabalha com membros regulamentados (Visa, Mastercard, Stripe) para
 **Devo implantar x402 antes de ter tráfego de agente significativo?**
 O custo de implementação é baixo (horas, não semanas). Ter o x402 pronto quando o tráfego do agente chegar significa que você obterá receita imediatamente. O investimento especulativo é mínimo.
 
----*Este artigo discute protocolos de pagamento e infraestrutura de criptomoeda apenas para fins educacionais e informativos. Não constitui aconselhamento financeiro. Consulte nosso [Aviso Legal](/es/docs/disclaimer/) para obter os termos completos.*
+---*Este artigo discute protocolos de pagamento e infraestrutura de criptomoeda apenas para fins educacionais e informativos. Não constitui aconselhamento financeiro. Consulte nosso [Aviso Legal](/pt/docs/disclaimer/) para obter os termos completos.*
 
 ## Referências primárias
 

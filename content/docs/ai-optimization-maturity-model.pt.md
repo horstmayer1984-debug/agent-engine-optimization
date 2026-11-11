@@ -24,11 +24,11 @@ O conteúdo está claramente estruturado. Os títulos fazem sentido. As definiç
 
 ## Nível 3: Responsável
 
-As páginas são construídas em torno de questões reais. Eles incluem introduções de respostas, perguntas frequentes, exemplos e explicações concisas. É aqui que [Otimização do Mecanismo de Resposta](/es/docs/answer-engine-optimization/) se torna importante.
+As páginas são construídas em torno de questões reais. Eles incluem introduções de respostas, perguntas frequentes, exemplos e explicações concisas. É aqui que [Otimização do Mecanismo de Resposta](/pt/docs/answer-engine-optimization/) se torna importante.
 
 ## Nível 4: cotável
 
-O conteúdo torna-se útil para as respostas geradas. Inclui estruturas originais, declarações baseadas em fontes, tabelas de comparação e terminologia clara. Esta é a camada [GEO](/es/docs/generative-engine-optimization/). A página não é apenas compreensível. Vale a pena referenciar.
+O conteúdo torna-se útil para as respostas geradas. Inclui estruturas originais, declarações baseadas em fontes, tabelas de comparação e terminologia clara. Esta é a camada [GEO](/pt/docs/generative-engine-optimization/). A página não é apenas compreensível. Vale a pena referenciar.
 
 ## Nível 5: Comparável
 
@@ -36,7 +36,7 @@ Os agentes e os sistemas de IA muitas vezes precisam comparar opções. Um site 
 
 ## Nível 6: Acionável
 
-Os agentes podem ir além da leitura. Eles podem enviar formulários, solicitar orçamentos, verificar disponibilidade, marcar compromissos, iniciar compras ou ativar fluxos de trabalho. É aqui que a [Otimização do Agent Engine](/es/docs/what-is-aeo/) entra em ação. O site apoia a execução, não apenas a explicação.
+Os agentes podem ir além da leitura. Eles podem enviar formulários, solicitar orçamentos, verificar disponibilidade, marcar compromissos, iniciar compras ou ativar fluxos de trabalho. É aqui que a [Otimização do Agent Engine](/pt/docs/what-is-aeo/) entra em ação. O site apoia a execução, não apenas a explicação.
 
 ## Nível 7: Verificável
 
@@ -59,7 +59,7 @@ As ações têm estados de confirmação claros. Os erros são compreensíveis. 
 
 ## Como usar o modelo
 
-Audite seu site fazendo cada pergunta em ordem. A maioria dos sites encontrará lacunas em vários níveis. Comece com o nível de falha mais baixo. A capacidade de agir sem clareza cria riscos. Citabilidade sem rastreabilidade é impossível.O [AEO Readiness Checker](/tools/aeo-readiness-checker.html) testa os fundamentos práticos, enquanto o [guia de implementação](/es/docs/implement-aeo/) explica como passar da clareza do conteúdo à prontidão para execução.
+Audite seu site fazendo cada pergunta em ordem. A maioria dos sites encontrará lacunas em vários níveis. Comece com o nível de falha mais baixo. A capacidade de agir sem clareza cria riscos. Citabilidade sem rastreabilidade é impossível.O [AEO Readiness Checker](/tools/aeo-readiness-checker.html) testa os fundamentos práticos, enquanto o [guia de implementação](/pt/docs/implement-aeo/) explica como passar da clareza do conteúdo à prontidão para execução.
 
 ## Use critérios de saída entre níveis de maturidade
 

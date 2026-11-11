@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 100
 category: "Industry"
 description: "Descubra como os sites de viagens e reservas podem expor disponibilidade, preços, políticas e ações de reserva realizadas pelos agentes."
-metaDescription: "Vea cómo las marcas de viajes utilizan datos estructurados, API en tiempo real y puntos finales de reserva deterministas para que los agentes de IA puedan."
 summary: "As viagens são um dos campos de batalha mais claros do AEO. Os agentes de IA que reservam voos, comparam hotéis e criam itinerários precisam de APIs em tempo real, dados estruturados de disponibilidade e rotas de pagamento determinísticas."
 keywords:
   - "Indústria de viagens AEO"
@@ -55,7 +54,7 @@ As plataformas de reservas enfrentam um desafio específico: agregar ofertas de 
 
 Uma plataforma que apresenta os serviços de um hotel como uma lista estruturada e os de outro como um parágrafo de marketing força o agente a lidar com dois padrões de extração diferentes. Os agentes preferem plataformas que normalizem todas as listagens em dados estruturados consistentes porque reduzem a complexidade da extração.
 
-As plataformas que investem agora na normalização de dados irão capturar a proporção crescente de reservas feitas pelos agentes. O [guia da camada de execução](/es/docs/execution-layer/) explica os requisitos arquitetônicos.
+As plataformas que investem agora na normalização de dados irão capturar a proporção crescente de reservas feitas pelos agentes. O [guia da camada de execução](/pt/docs/execution-layer/) explica os requisitos arquitetônicos.
 
 ## Operadores turísticos e atividades locais
 
@@ -76,7 +75,7 @@ A listagem de fornecedores em plataformas com boas APIs voltadas para agentes é
 | Políticas | Página jurídica em prosa | Dados estruturados com termos específicos |
 | Interação com Agente | Impossível sem raspar | Nativo através de APIs e protocolos |
 
-O [artigo sobre execução de negociação do agente](/es/docs/agentic-commerce-execution/) cobre a arquitetura geral de negociação. O [artigo de economia da delegação](/es/docs/delegation-economy-agent-autonomy/) explica como a delegação de viajantes aos agentes segue os cinco níveis de autonomia.
+O [artigo sobre execução de negociação do agente](/pt/docs/agentic-commerce-execution/) cobre a arquitetura geral de negociação. O [artigo de economia da delegação](/pt/docs/delegation-economy-agent-autonomy/) explica como a delegação de viajantes aos agentes segue os cinco níveis de autonomia.
 
 ---
 

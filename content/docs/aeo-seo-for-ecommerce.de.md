@@ -34,7 +34,7 @@ E-Commerce-Seiten enthalten bereits die Informationen, die Agenten benötigen:
 
 Das Problem besteht darin, dass viele Geschäfte diese Fakten Menschen und nicht Maschinen zugänglich machen. Eine Seite kann poliert aussehen und dennoch für die Agentenauswahl schwach sein.
 
-Lesen Sie die bestehende Seite [AEO eCommerce-Anwendungsfälle] (/es/docs/aeo-use-cases-ecommerce/), um mehr über die umfassenderen Möglichkeiten zu erfahren.
+Lesen Sie die bestehende Seite [AEO eCommerce-Anwendungsfälle](/de/docs/aeo-use-cases-ecommerce/), um mehr über die umfassenderen Möglichkeiten zu erfahren.
 
 ## E-Commerce-SEO vs. E-Commerce-AEO-SEO
 
@@ -84,7 +84,7 @@ Sie benötigen:
 - Auftragsbestätigung
 - Lieferstatus
 
-Auf den Seiten [Universal Cart Guide](/es/docs/universal-cart-agentic-commerce/) und [AI Shopping Catalog-Vorbereitung](/es/docs/ai-shopping-catalog-readiness/) werden diese neueren Geschäftsebenen erläutert.
+Auf den Seiten [Universal Cart Guide](/de/docs/universal-cart-agentic-commerce/) und [AI Shopping Catalog-Vorbereitung](/de/docs/ai-shopping-catalog-readiness/) werden diese neueren Geschäftsebenen erläutert.
 
 ## E-Commerce-SEO AEO messen
 
@@ -100,7 +100,7 @@ Verfolgen Sie mehr als nur organische Sitzungen:| Metrisch | Warum ist es wichti
 | Zahlungsausfallrate | Zeigt Ausführungsprobleme |
 | Ausnahmen nach dem Kauf | Zeigen Sie Vertrauen in Compliance |
 
-Der Leitfaden [Agent Trading Attribution](/es/docs/agentic-commerce-attribution/) deckt die Messebene ab.
+Der Leitfaden [Agent Trading Attribution](/de/docs/agentic-commerce-attribution/) deckt die Messebene ab.
 
 ## Häufig gestellte Fragen
 

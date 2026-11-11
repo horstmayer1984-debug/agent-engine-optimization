@@ -36,7 +36,7 @@ Primärquellen:
 | PCM | Zugriff auf Tools und Daten für Agenten |
 | x402 | Automatischer Zahlungsfluss für HTTP-Ressourcen |
 
-Der [UCP-, ACP- und MCP-Leitfaden](/es/docs/ucp-vs-acp-vs-mcp/) deckt einen umfassenderen Vergleich ab. ACP lässt sich am besten als fokussiertes Geschäftserfahrungsprotokoll verstehen und nicht als Ersatz für einen anderen Teil eines agentenbereiten Stapels.
+Der [UCP-, ACP- und MCP-Leitfaden](/de/docs/ucp-vs-acp-vs-mcp/) deckt einen umfassenderen Vergleich ab. ACP lässt sich am besten als fokussiertes Geschäftserfahrungsprotokoll verstehen und nicht als Ersatz für einen anderen Teil eines agentenbereiten Stapels.
 
 ## Wenn ACP wichtig ist
 
@@ -47,7 +47,7 @@ Das ACP wird relevant, wenn:
 - KI-Oberfläche wird zu einem echten Vertriebskanal
 - Der Händler verfügt bereits über ausreichend saubere Produktdaten, Preise und Richtlinieninformationen, um automatisierte Käufe durchzuführen
 
-Dieser letzte Punkt wird leicht unterschätzt. Die Zahlung ersetzt keine fehlerhaften Produktdaten. [ChatGPT Product Recommendations SEO Checklist](/es/docs/chatgpt-product-recommendations-seo/) erklärt, was vor der Auswahl passieren muss.
+Dieser letzte Punkt wird leicht unterschätzt. Die Zahlung ersetzt keine fehlerhaften Produktdaten. [ChatGPT Product Recommendations SEO Checklist](/de/docs/chatgpt-product-recommendations-seo/) erklärt, was vor der Auswahl passieren muss.
 
 ##Was sollten Händler zuerst vorbereiten?
 
@@ -61,7 +61,7 @@ Dieser letzte Punkt wird leicht unterschätzt. Die Zahlung ersetzt keine fehlerh
 | Betrugskontrollen | Agentengesteuerte Bestellungen erfordern weiterhin ein Risikomanagement |
 | Auftragsbestätigung | Das Ergebnis muss deterministisch und überprüfbar sein |
 
-ACP kann die Reibung im Checkout-Prozess reduzieren, aber die [Ausführungsschicht](/es/docs/execution-layer/) benötigt weiterhin zuverlässige Backend-Statusübergänge.
+ACP kann die Reibung im Checkout-Prozess reduzieren, aber die [Ausführungsschicht](/de/docs/execution-layer/) benötigt weiterhin zuverlässige Backend-Statusübergänge.
 
 ## ACP versus traditionelle E-Commerce-Zahlung| Traditionelle Box | Ablauf im ACP-Stil |
 |

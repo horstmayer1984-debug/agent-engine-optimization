@@ -4,7 +4,6 @@ date: 2026-04-14
 weight: 1
 category: "Tool"
 description: "Ferramenta gratuita para verificar se o seu site está pronto para agentes autônomos de IA. 14 verificações na descoberta, camada de leitura, camada."
-metaDescription: "Compruebe si su sitio web está listo para agentes de IA en descubrimiento, capa de lectura, capa de ejecución, datos estructurados, señales de confianza."
 summary: "Verifique se o seu site está pronto para agentes de IA com esta ferramenta gratuita. 14 verificações em quatro categorias fornecem uma pontuação de prontidão AEO acionável com recomendações prioritárias."
 keywords:
   - "Verificador de prontidão AEO"
@@ -31,5 +30,5 @@ A ferramenta funciona totalmente no seu navegador. Nenhum dado é coletado ou tr
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
-* [camada de execução](/es/docs/execution-layer/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
+* [camada de execução](/pt/docs/execution-layer/)

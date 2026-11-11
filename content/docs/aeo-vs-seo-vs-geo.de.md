@@ -96,10 +96,10 @@ Für die meisten Organisationen im Jahr 2026:
 
 1. **Stellen Sie sicher, dass Ihre SEO-Grundlage solide ist.** KI-Systeme verwenden weiterhin Suchindizes für die Entdeckung.
 2. **Optimieren Sie für die Leseebene (GEO).** Strukturieren Sie Ihre Inhalte für KI-Zitate und Zusammenfassungen.
-3. **Bewerten Sie die Bereitschaft Ihrer Ausführungsebene.** Siehe [AEO Readiness Audit](/es/docs/audit/).
+3. **Bewerten Sie die Bereitschaft Ihrer Ausführungsebene.** Siehe [AEO Readiness Audit](/de/docs/audit/).
 4. **Umstellung auf Laufzeitkompatibilität.** Abhängig von Ihrer Branche und Ihren technischen Fähigkeiten.
 
-[Die Ausführungsschicht](/es/docs/execution-layer/) – Was erforderlich ist, um den Infrastrukturagenten verarbeitbar zu machen.
+[Die Ausführungsschicht](/de/docs/execution-layer/) – Was erforderlich ist, um den Infrastrukturagenten verarbeitbar zu machen.
 
 ## Häufig gestellte Fragen
 
@@ -117,7 +117,7 @@ Messen Sie Rankings und Klicks für SEO, Qualität von Erwähnungen und Zitaten 
 
 ## Verwandte Anleitungen
 
-* [Anleitung zur Headless-Software](/es/docs/what-is-headless-software/)
+* [Anleitung zur Headless-Software](/de/docs/what-is-headless-software/)
 
 ## Primäre Referenzen* [Google-Leitfaden zu generativen KI-Funktionen](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
 * [Grundlagen der Google-Suche](https://developers.google.com/search/docs/essentials)

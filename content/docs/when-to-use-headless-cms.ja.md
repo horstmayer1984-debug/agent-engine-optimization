@@ -20,7 +20,7 @@ keywords:
 
 柔軟性が追加のエンジニアリングに値する場合、ヘッドレスは良い選択肢です。チームが最新のサウンドの CMS を必要としているだけの場合、これは悪い選択です。
 
-より広い定義については、[ヘッドレス ソフトウェアとは何ですか?](/es/docs/what-is-headless-software/) を参照してください。直接の比較については、[CMS とヘッドレス CMS](/es/docs/cms-vs-headless-cms/) を参照してください。
+より広い定義については、[ヘッドレス ソフトウェアとは何ですか?](/ja/docs/what-is-headless-software/) を参照してください。直接の比較については、[CMS とヘッドレス CMS](/ja/docs/cms-vs-headless-cms/) を参照してください。
 
 ## これらが当てはまる場合はヘッドレス CMS を使用してください
 
@@ -44,7 +44,7 @@ keywords:
 | SEOの基本はまだ解決されていない |まず現在のサイトを改善します |
 |移行には URL 計画はありません |移行を遅らせる |
 
-[AEO 実装ガイド](/es/docs/implement-aeo/) は、AI の準備が意思決定の一部である場合に役立ちます。
+[AEO 実装ガイド](/ja/docs/implement-aeo/) は、AI の準備が意思決定の一部である場合に役立ちます。
 
 ## SEO の準備に関する質問
 
@@ -65,7 +65,7 @@ keywords:
 
 ## AI 最適化に関する質問
 
-コンテンツ モデルに以下が含まれる場合、ヘッドレスは [AI 検索の最適化](/es/docs/ai-search-optimization/) に役立ちます。
+コンテンツ モデルに以下が含まれる場合、ヘッドレスは [AI 検索の最適化](/ja/docs/ai-search-optimization/) に役立ちます。
 
 - 定義
 - よくある質問

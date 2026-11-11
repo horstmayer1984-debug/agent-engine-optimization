@@ -22,7 +22,7 @@ A arquitetura headless muda quem é o dono do SEO. Em um CMS tradicional, muitos
 
 Isso significa que o impacto do SEO não é automático. A arquitetura oferece mais controle, mas também elimina alguns padrões.
 
-Para uma comparação de arquitetura mais ampla, comece com [CMS sem cabeça vs. CMS tradicional](/es/docs/headless-cms-vs-traditional-cms/) e [O que é software sem cabeça?](/es/docs/what-is-headless-software/).
+Para uma comparação de arquitetura mais ampla, comece com [CMS sem cabeça vs. CMS tradicional](/pt/docs/headless-cms-vs-traditional-cms/) e [O que é software sem cabeça?](/pt/docs/what-is-headless-software/).
 
 ## Impacto positivo de SEO
 
@@ -70,7 +70,7 @@ O [JavaScript SEO Basics] (https://developers.google.com/search/docs/crawling-in
 
 O conteúdo de um CMS headless pode ser útil para sistemas de IA porque já está estruturado. Um artigo de ajuda, guia de produto, perguntas frequentes ou tabela de comparação podem ser armazenados como campos em vez de um blob HTML opaco.
 
-Isso ajuda [AI Search Optimization](/es/docs/ai-search-optimization/) e [Agent Engine Optimization](/es/docs/what-is-aeo/) quando o site final também expõe:
+Isso ajuda [AI Search Optimization](/pt/docs/ai-search-optimization/) e [Agent Engine Optimization](/pt/docs/what-is-aeo/) quando o site final também expõe:
 
 - HTML rastreável
 - fatos apoiados por fontes
@@ -79,7 +79,7 @@ Isso ajuda [AI Search Optimization](/es/docs/ai-search-optimization/) e [Agent E
 - links internos entre páginas relacionadas
 - definir as próximas etapas para os agentes
 
-A [camada de execução](/es/docs/execution-layer/) ainda precisa de APIs ou endpoints de ação. Um CMS sem cabeça ajuda primeiro a camada de leitura.
+A [camada de execução](/pt/docs/execution-layer/) ainda precisa de APIs ou endpoints de ação. Um CMS sem cabeça ajuda primeiro a camada de leitura.
 
 ## Lista de verificação de migração
 

@@ -29,7 +29,7 @@ Exemplos:
 - encaminhar compras por meio de fluxos de trabalho de aprovação
 - verificar o status da entrega e da fatura
 
-Isso torna o B2B um caminho prático para a autonomia dos níveis 3 e 4 nos [cinco níveis de comércio de agência] (/es/docs/five-levels-agentic-commerce/).
+Isso torna o B2B um caminho prático para a autonomia dos níveis 3 e 4 nos [cinco níveis de comércio de agência](/pt/docs/five-levels-agentic-commerce/).
 
 ## Tabela de preparação de fornecedores
 
@@ -45,7 +45,7 @@ Isso torna o B2B um caminho prático para a autonomia dos níveis 3 e 4 nos [cin
 | Regras de pagamento | Ordem de compra, cartão, fatura ou rota stablecoin |
 | Eventos de Conformidade | Gestão de entregas e exceções |
 
-O [guia de compra de SaaS B2B](/es/docs/b2b-saas-procurement/) cobre a compra de software; Esta página aplica o padrão a aquisições mais amplas.
+O [guia de compra de SaaS B2B](/pt/docs/b2b-saas-procurement/) cobre a compra de software; Esta página aplica o padrão a aquisições mais amplas.
 
 ## Implicações do protocolo
 
@@ -57,7 +57,7 @@ Os agentes de compras podem precisar de vários padrões:
 - A2A para coordenar compradores, fornecedores e agentes de aprovação.
 - controles de rede de cartão ou carteira para gastos delegados
 
-A página [Interoperabilidade do protocolo de negociação de agentes](/es/docs/agentic-commerce-protocol-interoperability/) mapeia essas peças.
+A página [Interoperabilidade do protocolo de negociação de agentes](/pt/docs/agentic-commerce-protocol-interoperability/) mapeia essas peças.
 
 ## O que os provedores devem publicar
 
@@ -74,7 +74,7 @@ Os provedores devem facilitar a análise do seguinte:
 - fatura e opções de pagamento
 - regras de cancelamento
 
-Para [Agent Engine Optimization](/es/docs/what-is-aeo/), isso transforma o site de um provedor em um sistema que os agentes podem avaliar, e não apenas em um folheto.
+Para [Agent Engine Optimization](/pt/docs/what-is-aeo/), isso transforma o site de um provedor em um sistema que os agentes podem avaliar, e não apenas em um folheto.
 
 ## Riscos
 

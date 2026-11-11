@@ -23,7 +23,7 @@ Google hat die [Live-Suche mit Spracheingabe im KI-Modus] (https://blog.google/p
 
 In der ausführlicheren [Dokumentation zu KI-Funktionen] (https://developers.google.com/search/docs/appearance/ai-features) von Google wird außerdem erläutert, dass der KI-Modus komplexe Vergleiche und explorative Fragen bewältigen kann.
 
-Für den Kontext lesen Sie [Google AI SEO](/es/docs/google-ai-mode-seo/), [AI Search Optimization](/es/docs/ai-search-optimization/) und [Action Responses](/es/docs/from-answers-to-actions/).
+Für den Kontext lesen Sie [Google AI SEO](/de/docs/google-ai-mode-seo/), [AI Search Optimization](/de/docs/ai-search-optimization/) und [Action Responses](/de/docs/from-answers-to-actions/).
 
 ## Warum Search Live das Suchverhalten ändert
 
@@ -73,7 +73,7 @@ Search Live macht drei AEO-Anforderungen wichtiger:1. **Klarheit der Einheit:** 
 2. **Aufgabenkontinuität:** Link von der Erklärung zum Vergleich und zur Umsetzung.
 3. **Vorbereitung für die Aktion:** Zeigt an, was der Benutzer oder Agent als Nächstes tun kann.
 
-Auf der [Ausführungsschicht](/es/docs/execution-layer/) kann die Erkennung im Search Live-Stil schließlich zu Tools, APIs, Zahlungen, Buchungen oder unterstützenden Arbeitsabläufen führen.
+Auf der [Ausführungsschicht](/de/docs/execution-layer/) kann die Erkennung im Search Live-Stil schließlich zu Tools, APIs, Zahlungen, Buchungen oder unterstützenden Arbeitsabläufen führen.
 
 ## Optimierungs-Checkliste| Seitenelement | Suche Friendly Live Improvement |
 |
@@ -101,7 +101,7 @@ Vermeiden Sie:
 - Wichtige Informationen in Bildern ausblenden
 - Blockieren Sie wichtige Tracker auf der CDN-Ebene
 
-Es lohnt sich, nach Änderungen an der Infrastruktur den [AI-Tracker-Zugriffsleitfaden] (/es/docs/ai-crawlers-robots-txt/) zu lesen.
+Es lohnt sich, nach Änderungen an der Infrastruktur den [AI-Tracker-Zugriffsleitfaden](/de/docs/ai-crawlers-robots-txt/) zu lesen.
 
 ## Häufig gestellte Fragen
 

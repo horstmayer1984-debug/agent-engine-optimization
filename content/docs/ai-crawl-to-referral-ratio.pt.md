@@ -39,7 +39,7 @@ As equipes AEO devem responder a três perguntas:
 
 O volume do rastreador por si só não é suficiente. Um rastreador de alto volume poderia gerar visibilidade no futuro. Também poderia custar largura de banda e não produzir descobertas, compromissos ou conversões.
 
-Isso se conecta diretamente a [Atribuição de referência de IA para AEO SEO](/es/docs/ai-referral-attribution-seo/), [Tráfego da Web do agente de IA em 2026](/es/docs/ai-agent-web-traffic-2026/) e [Controle de rastreamento de IA da Cloudflare](/es/docs/cloudflare-ai-crawl-control/).
+Isso se conecta diretamente a [Atribuição de referência de IA para AEO SEO](/pt/docs/ai-referral-attribution-seo/), [Tráfego da Web do agente de IA em 2026](/pt/docs/ai-agent-web-traffic-2026/) e [Controle de rastreamento de IA da Cloudflare](/pt/docs/cloudflare-ai-crawl-control/).
 
 ## O que medir
 

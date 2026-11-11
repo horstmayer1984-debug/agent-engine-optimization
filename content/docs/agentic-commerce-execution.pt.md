@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 20
 category: "Analysis"
 description: "Por que os dados estruturados do produto por si só não preparam um agente de loja. Como criar pagamentos determinísticos, bloqueios de estoque."
-metaDescription: "Cree un comercio agente más allá del esquema de producto con pago determinista, bloqueos de inventario y transacciones basadas en políticas."
 summary: "O comércio de agentes não é a descoberta de produtos com melhores metadados. É uma execução com estado. Este artigo explica como deve ser a camada de execução para a compra de agentes de IA."
 keywords:
   - "camada de execução de negociação de agente"
@@ -24,7 +23,7 @@ Isso muda o funcionamento do site.
 
 A maioria das equipes de comércio eletrônico ainda otimiza a camada de leitura e a confunde com preparação. Dados estruturados de produtos ajudam. Esquema rico ajuda. Uma cópia clara do produto ajuda. Nada disso cria transacionalidade por si só.
 
-A camada de leitura informa ao agente o que existe. A [camada de execução](/es/docs/execution-layer/) determina se o agente pode agir de acordo, sem remover fluxos de páginas frágeis ou improvisar por meio da lógica da UI construída para humanos.
+A camada de leitura informa ao agente o que existe. A [camada de execução](/pt/docs/execution-layer/) determina se o agente pode agir de acordo, sem remover fluxos de páginas frágeis ou improvisar por meio da lógica da UI construída para humanos.
 
 O comércio de agentes não é apenas a descoberta de produtos com melhores metadados. É uma execução com estado. No momento em que um agente tenta reservar estoque, selecionar uma forma de envio, aplicar regras fiscais, anexar autorização de pagamento ou enviar um pedido, ele sai do problema de conteúdo e entra no problema de sistemas. Se sua arquitetura ainda depende de etapas de checkout visual, comportamento do navegador baseado em sessão ou mutações de carrinho pouco estruturadas, seu sistema não está pronto para o agente.
 
@@ -58,7 +57,7 @@ As marcas vencedoras não serão aquelas com maior conteúdo com sabor de IA. Se
 
 Publique produtos limpos e ofereça entidades à camada de leitura. Exponha terminais de transação restritos para a camada de execução. Torne as transições de estado explícitas. Torne as tentativas seguras. Elimine a ambigüidade na entrega entre a avaliação do pedido e o envio.
 
-Uma vez que isso existe, a camada de conteúdo começa a trabalhar mais porque agora leva a algo executável em vez de algo decorativo. Caso queira avaliar a situação da sua loja, a [Auditoria de Prontidão AEO](/es/docs/audit/) avalia as camadas de leitura e execução. A [Comparação AEO, SEO e GEO](/es/docs/aeo-vs-seo-vs-geo/) explica a diferença estrutural entre essas camadas.
+Uma vez que isso existe, a camada de conteúdo começa a trabalhar mais porque agora leva a algo executável em vez de algo decorativo. Caso queira avaliar a situação da sua loja, a [Auditoria de Prontidão AEO](/pt/docs/audit/) avalia as camadas de leitura e execução. A [Comparação AEO, SEO e GEO](/pt/docs/aeo-vs-seo-vs-geo/) explica a diferença estrutural entre essas camadas.
 
 ---
 

@@ -56,7 +56,7 @@ Fügen Sie zwei weitere Agenten für benachbarte Workflows hinzu. Testen Sie, wi
 
 Fügen Sie Agenten hinzu, wenn die Arbeitsabläufe dies erfordern. Jeder neue Agent sollte einen klaren ROI-Fall haben: Entweder er spart messbare Zeit, er führt zu einer messbaren Qualitätsverbesserung oder er erledigt eine Aufgabe, die überhaupt nicht erledigt wurde.Die erfahrensten Profis stabilisieren zwischen 7 und 12 Wirkstoffen. Darüber hinaus steigt der Verwaltungsaufwand schneller als die Produktivitätssteigerung, es sei denn, Sie investieren in eine ausgefeiltere Orchestrierung (LangGraph, CrewAI).
 
-Im [Multi-Agent-AEO-Artikel](/es/docs/multi-agent-aeo/) werden Orchestrierungsmuster erläutert. Der [Agent Native Marketing Stack Guide](/es/docs/agent-native-marketing-stack/) behandelt bestimmte Tools.
+Im [Multi-Agent-AEO-Artikel](/de/docs/multi-agent-aeo/) werden Orchestrierungsmuster erläutert. Der [Agent Native Marketing Stack Guide](/de/docs/agent-native-marketing-stack/) behandelt bestimmte Tools.
 
 ## Betriebsgrenzen
 
@@ -90,7 +90,7 @@ Wenn die Überprüfung Ihrer Ausgabe mehr Zeit in Anspruch nimmt als die manuell
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
 
 ## Primäre Referenzen
 

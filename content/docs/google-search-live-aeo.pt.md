@@ -23,7 +23,7 @@ O Google introduziu a [Pesquisa ao vivo com entrada de voz no modo AI] (https://
 
 A [documentação de recursos de IA] mais extensa do Google (https://developers.google.com/search/docs/appearance/ai-features) também explica que o modo IA pode lidar com comparações complexas e questões exploratórias.
 
-Para contextualizar, leia [Google AI SEO](/es/docs/google-ai-mode-seo/), [AI Search Optimization](/es/docs/ai-search-optimization/) e [Action Responses](/es/docs/from-answers-to-actions/).
+Para contextualizar, leia [Google AI SEO](/pt/docs/google-ai-mode-seo/), [AI Search Optimization](/pt/docs/ai-search-optimization/) e [Action Responses](/pt/docs/from-answers-to-actions/).
 
 ## Por que o Search Live muda o comportamento de pesquisa
 
@@ -73,7 +73,7 @@ O Search Live torna três requisitos AEO mais importantes:1. **Clareza da entida
 2. **Continuidade da tarefa:** Link da explicação para comparação e implementação.
 3. **Preparação para a ação:** mostra o que o usuário ou agente pode fazer em seguida.
 
-A [camada de execução](/es/docs/execution-layer/) é onde a descoberta no estilo Search Live pode eventualmente levar a ferramentas, APIs, pagamento, reserva ou fluxos de trabalho de suporte.
+A [camada de execução](/pt/docs/execution-layer/) é onde a descoberta no estilo Search Live pode eventualmente levar a ferramentas, APIs, pagamento, reserva ou fluxos de trabalho de suporte.
 
 ## Lista de verificação de otimização| Elemento de página | Melhoria ao vivo amigável para pesquisa |
 |
@@ -101,7 +101,7 @@ Evite:
 - ocultar informações importantes nas imagens
 - bloquear rastreadores importantes na camada CDN
 
-Vale a pena conferir o [guia de acesso ao rastreador AI](/es/docs/ai-crawlers-robots-txt/) após qualquer alteração na infraestrutura.
+Vale a pena conferir o [guia de acesso ao rastreador AI](/pt/docs/ai-crawlers-robots-txt/) após qualquer alteração na infraestrutura.
 
 ## Perguntas frequentes
 

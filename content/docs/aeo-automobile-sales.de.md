@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 95
 category: "Industry"
 description: "KI-Agenten erstellen jetzt in Sekundenschnelle Auswahllisten mit 100 Fahrzeugen. Wie OEMs und Händler Konfiguratordaten strukturieren sollten."
-metaDescription: "Vea cómo los sitios automotrices estructuran los datos del configurador, el inventario, la adquisición de flotas y los flujos de trabajo de servicios."
 summary: "OEMs, die AEO einführen, erfassen drei- bis fünfmal mehr von Agenten gesteuerte Leads. Konfigurationsagenten, Flottenbeschaffungsroboter und Kundendienstmitarbeiter benötigen strukturierte Fahrzeugdaten und deterministische Bestellendpunkte."
 keywords:
   - "AEO-Autoverkauf"
@@ -30,7 +29,7 @@ Diese Agenten vergleichen Marken gleichzeitig. Wenn Ihre Konfiguratordaten nur a
 
 Handelsvertreter, die Fahrzeuge für den Flottenkauf bewerten. Sie benötigen alles, was der Verbrauchervertreter benötigt, außerdem: Terminals für Großbestellungen, Flottenrabattstrukturen, Spezifikationen für die Telematikintegration, Bedingungen für Wartungsverträge und Daten zu den Gesamtbetriebskosten (Abschreibung, Kraftstoff-/Energiekosten, Wartung, Versicherung).
 
-Die Flottenbeschaffung geht auf Ebene 3 des [Delegationsspektrums](/es/docs/delegation-economy-agent-autonomy/) über: Agenten, die Bestellungen innerhalb vorab genehmigter Budgets bewerten, auswählen und aufgeben. Ihre Händler- oder OEM-Infrastruktur sollte deterministische Bestell-APIs unterstützen, nicht nur Lead-Formulare.
+Die Flottenbeschaffung geht auf Ebene 3 des [Delegationsspektrums](/de/docs/delegation-economy-agent-autonomy/) über: Agenten, die Bestellungen innerhalb vorab genehmigter Budgets bewerten, auswählen und aufgeben. Ihre Händler- oder OEM-Infrastruktur sollte deterministische Bestell-APIs unterstützen, nicht nur Lead-Formulare.
 
 ### Service- und Kundendienstmitarbeiter
 
@@ -71,7 +70,7 @@ OEMs und große Händlergruppen, die den vollständigen AEO-Stack übernehmen, e
 | Flottenverkauf | Menschliches Verkaufsteam | Deterministische Bestell-API |
 | Aftermarket | Telefonnummer für Servicetermine | Buchungs-API mit Teilekompatibilitätsdaten |
 
-Der [Artikel zur Agentenhandelsausführung](/es/docs/agentic-commerce-execution/) behandelt die allgemeine Handelsarchitektur. Der [UCP-, ACP- und MCP-Vergleich](/es/docs/ucp-vs-acp-vs-mcp/) erklärt, welche Protokolle angewendet werden.
+Der [Artikel zur Agentenhandelsausführung](/de/docs/agentic-commerce-execution/) behandelt die allgemeine Handelsarchitektur. Der [UCP-, ACP- und MCP-Vergleich](/de/docs/ucp-vs-acp-vs-mcp/) erklärt, welche Protokolle angewendet werden.
 
 ---
 

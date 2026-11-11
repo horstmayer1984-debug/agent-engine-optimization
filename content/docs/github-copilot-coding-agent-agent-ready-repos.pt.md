@@ -23,7 +23,7 @@ O GitHub anunciou um [agente de codificação para GitHub Copilot](https://githu
 
 O ângulo SEO/AEO é prático: os sistemas de software devem agora ser legíveis por agentes de desenvolvimento autônomos, e não apenas por desenvolvedores humanos.
 
-Para leitura relacionada, consulte [Casos de uso de AEO para desenvolvedores](/es/docs/aeo-use-cases-developers/), [aplicativos web prontos para agentes](/es/docs/agent-ready-web-apps/) e [MCP vs APIs para agentes](/es/docs/mcp-vs-api-for-agents/).
+Para leitura relacionada, consulte [Casos de uso de AEO para desenvolvedores](/pt/docs/aeo-use-cases-developers/), [aplicativos web prontos para agentes](/pt/docs/agent-ready-web-apps/) e [MCP vs APIs para agentes](/pt/docs/mcp-vs-api-for-agents/).
 
 ## O que significa "repositório pronto para agente"?
 
@@ -69,7 +69,7 @@ O problema é o aviso, mas também é um artefato do gerenciamento de projetos. 
 9. Adicione capturas de tela ou requisitos visuais para trabalho de front-end.
 10. Use tarefas pequenas e revisáveis.
 
-O [guia do desenvolvedor AEO](/es/docs/developers-guide-aeo/) usa o mesmo princípio: tornar o sistema autoexplicativo.
+O [guia do desenvolvedor AEO](/pt/docs/developers-guide-aeo/) usa o mesmo princípio: tornar o sistema autoexplicativo.
 
 ## Como é diferente da experiência clássica do desenvolvedorA experiência do desenvolvedor se concentra em ajudar os humanos a trabalhar mais rápido. A experiência do desenvolvedor pronto para agente também ajuda as máquinas a evitar suposições errôneas.| DX clássico | Agente pronto DX |
 |
@@ -94,7 +94,7 @@ O mesmo padrão de design se aplica fora do código:
 - Links internos devem mostrar relacionamentos.
 - Os índices legíveis por máquina devem apontar para páginas importantes.
 
-É por isso que [llms.txt](/es/docs/llms-txt-vs-robots-txt/) e a [camada de execução](/es/docs/execution-layer/) são importantes. Os agentes precisam de caminhos, não de vibrações.
+É por isso que [llms.txt](/pt/docs/llms-txt-vs-robots-txt/) e a [camada de execução](/pt/docs/execution-layer/) são importantes. Os agentes precisam de caminhos, não de vibrações.
 
 ## Erros comuns
 

@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 42
 category: "Guide"
 description: "スキル、ビジネス モデル、ガバナンス、ワークフロー、準備状況に関する実践的な最新情報を入手して、代理店時代に備えましょう。"
-metaDescription: "Utilice una hoja de ruta de 12 meses para pasar de la ejecución de tareas a la orquestación de agentes, con habilidades, modelos, infraestructura, gobernanza."
 summary: "エージェントの時代では、タスクの実行からエージェントのオーケストレーションへの移行が必要です。このロードマップは、今後 12 か月間で必要となるスキル、ビジネス モデルの移行、運用の変更をカバーしています。"
 keywords:
   - "エージェント AI の準備"

@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 81
 category: "Architecture"
 description: "Erfahren Sie, wie der Agent Orchestrierungstools, Speicher, Genehmigungen, Wiederholungsversuche und Beobachtbarkeit nutzt, um Abläufe zu erreichen."
-metaDescription: "Descubra cómo los arneses de agentes gestionan los ciclos de vida, las aprobaciones, el enrutamiento de herramientas, la memoria y el estado de los sistemas."
 summary: "Einzelne Agenten führten Demonstrationen durch. Kabelbäume verwandeln sie in zuverlässige Produktionssysteme, indem sie Lebenszyklen, menschliche Genehmigungen, Subagentendelegation, Wiederholungsversuche und dauerhaften Zustand verwalten."
 keywords:
   - "Agentengeschirre"
@@ -29,7 +28,7 @@ Das Geschirr ist die Schicht, die all dies bietet. Ohne sie arbeitet jeder Agent
 
 Die meisten Implementierungen von Produktionsumgebungen verwenden ein Orchestrator-Worker-Muster. Ein Supervisor-Agent empfängt die Aufgabe der obersten Ebene, zerlegt sie in Unteraufgaben, delegiert jede Unteraufgabe an einen spezialisierten Worker-Agenten, sammelt Ergebnisse und synthetisiert das Endergebnis.
 
-Arbeitnehmer agieren in isolierten Kontexten. Sie erhalten nur die für ihre Teilaufgabe relevanten Informationen, nicht den gesamten Status des Workflows. Dies verhindert eine Kontextverschmutzung (siehe [Context-Engineering-Leitfaden](/es/docs/context-engineering-aeo/)) und erleichtert das Debuggen und Ersetzen einzelner Agenten.
+Arbeitnehmer agieren in isolierten Kontexten. Sie erhalten nur die für ihre Teilaufgabe relevanten Informationen, nicht den gesamten Status des Workflows. Dies verhindert eine Kontextverschmutzung (siehe [Context-Engineering-Leitfaden](/de/docs/context-engineering-aeo/)) und erleichtert das Debuggen und Ersetzen einzelner Agenten.
 
 Der Vorgesetzte ist für die Koordination zuständig, nicht für die Ausführung. Es entscheidet, welcher Worker welche Aufgabe erledigt, verwaltet die Reihenfolge und löst Konflikte zwischen Worker-Ausgaben.
 
@@ -37,7 +36,7 @@ Der Vorgesetzte ist für die Koordination zuständig, nicht für die Ausführung
 
 Produktionsagenten scheitern. APIs-Zeitüberschreitung. Die Modelle liefern ungültige Ergebnisse. Externe Dienste geben Fehler zurück. Ein Kabelbaum sollte all dies bewältigen, ohne den Workflow-Status zu verlieren.
 
-Dauerhafte Ausführung bedeutet, dass das System den Status des Arbeitsablaufs bei jedem Schritt kontrolliert. Wenn ein Agent bei Schritt vier eines sechsstufigen Workflows fehlschlägt, kann der Harness Schritt vier wiederholen, ohne die Schritte eins bis drei erneut ausführen zu müssen. Dies ist besonders wichtig für AEO, da Agenten, die mit Ihrer Website interagieren, gelegentlich auf Fehler stoßen können. Ein Harness mit geeigneter Wiederholungslogik versucht die Interaktion erneut, anstatt den Workflow abzubrechen. Ihre Endpunkte müssen dies unterstützen, indem sie idempotent sind (der [Artikel zur universellen Steuerungsebene](/es/docs/universal-control-plane/) deckt idempotente Anforderungen ab).
+Dauerhafte Ausführung bedeutet, dass das System den Status des Arbeitsablaufs bei jedem Schritt kontrolliert. Wenn ein Agent bei Schritt vier eines sechsstufigen Workflows fehlschlägt, kann der Harness Schritt vier wiederholen, ohne die Schritte eins bis drei erneut ausführen zu müssen. Dies ist besonders wichtig für AEO, da Agenten, die mit Ihrer Website interagieren, gelegentlich auf Fehler stoßen können. Ein Harness mit geeigneter Wiederholungslogik versucht die Interaktion erneut, anstatt den Workflow abzubrechen. Ihre Endpunkte müssen dies unterstützen, indem sie idempotent sind (der [Artikel zur universellen Steuerungsebene](/de/docs/universal-control-plane/) deckt idempotente Anforderungen ab).
 
 ## Menschliche Türen im Stromkreis
 
@@ -53,7 +52,7 @@ CrewAI verwaltet rollenbasierte Team-Workflows, bei denen Agenten klare Verantwo
 
 Beide Frameworks unterstützen das Supervisor-Muster, die dauerhafte Ausführung und Human Gates. Wählen Sie LangGraph für komplexe bedingte Logik und CrewAI für einfache teambasierte Arbeitsabläufe.
 
-Der [Agent Native Marketing Stack Guide] (/es/docs/agent-native-marketing-stack/) behandelt die Framework-Auswahl im Detail. Der [Multi-Agent-Management-Leitfaden] (/es/docs/managing-multiple-ai-agents/) behandelt das Betriebsmanagement.
+Der [Agent Native Marketing Stack Guide](/de/docs/agent-native-marketing-stack/) behandelt die Framework-Auswahl im Detail. Der [Multi-Agent-Management-Leitfaden](/de/docs/managing-multiple-ai-agents/) behandelt das Betriebsmanagement.
 
 ##Vergleich: Single Agent vs. Multi-Agent Leveraged
 

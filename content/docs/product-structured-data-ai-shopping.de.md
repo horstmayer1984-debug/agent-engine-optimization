@@ -85,7 +85,7 @@ Verwenden Sie nach Möglichkeit beides. Google weist ausdrücklich darauf hin, d
 4. Fügen Sie ggf. Versand- und Rücksendedetails hinzu.
 5. Sorgen Sie dafür, dass der sichtbare Seiteninhalt an strukturierten Daten ausgerichtet ist.
 6. Validieren Sie mit der Search Console und den Rich-Results-Tools.
-7. Nach Vorlagenänderungen erneut testen.Der [E-Commerce-AEO-Leitfaden] (/docs/aeo-ecommerce/) zeigt, wie Produktdaten in die umfassendere Agentenvorbereitung passen. Der [AI-Crawler-Leitfaden](/es/docs/ai-crawlers-robots-txt/) erklärt, warum die Seite auch zugänglich sein sollte.
+7. Nach Vorlagenänderungen erneut testen.Der [E-Commerce-AEO-Leitfaden] (/docs/aeo-ecommerce/) zeigt, wie Produktdaten in die umfassendere Agentenvorbereitung passen. Der [AI-Crawler-Leitfaden](/de/docs/ai-crawlers-robots-txt/) erklärt, warum die Seite auch zugänglich sein sollte.
 
 ##Was strukturierte Daten nicht beheben können
 

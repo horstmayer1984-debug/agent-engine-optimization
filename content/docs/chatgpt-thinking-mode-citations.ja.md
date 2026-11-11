@@ -54,7 +54,7 @@ ChatGPT 思考モードは、より軽い応答モードとは異なる発見面
 5. すべてのモードで競合他社の見積もりを比較します。
 6. システムが推論モードで優先するページ (ドキュメント、ポリシー、比較、データ ページ、サポート コンテンツ) を改善します。
 
-これは、[AI 予約戦略](/es/docs/ai-citation-strategy/)、[AEO KPI と測定](/es/docs/aeo-kpis-measurement/)、および [生成エンジンの最適化](/es/docs/generative-engine-optimization/) に適合します。
+これは、[AI 予約戦略](/ja/docs/ai-citation-strategy/)、[AEO KPI と測定](/ja/docs/aeo-kpis-measurement/)、および [生成エンジンの最適化](/ja/docs/generative-engine-optimization/) に適合します。
 
 ##より深い引用が含まれるコンテンツはどれですか?
 
@@ -70,7 +70,7 @@ ChatGPT 思考モードは、より軽い応答モードとは異なる発見面
 |ポリシーページ |資格、安全性、返金および制限を明確にする |
 |変更ログ |アップグレードとバージョンのステータスを示す |
 
-これは、[読み取りレイヤー](/es/docs/answer-engine-optimization/) にとって特に重要です。 [実行層](/es/docs/execution-layer/) には、ツールとワークフローを準備する必要があります。
+これは、[読み取りレイヤー](/ja/docs/answer-engine-optimization/) にとって特に重要です。 [実行層](/ja/docs/execution-layer/) には、ツールとワークフローを準備する必要があります。
 
 ## テストテンプレート次のフィールドを含むスプレッドシートを使用します。
 

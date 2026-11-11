@@ -73,7 +73,7 @@ Kopieren Sie die Regeln nicht blind. Überprüfen Sie, was der Crawler tatsächl
 4. Vergessen, dass für Produkt-, Dokumentations- und Supportseiten möglicherweise unterschiedliche Richtlinien gelten.
 5. Veröffentlichen Sie widersprüchliche Regeln in „robots.txt“, Headern und Edge-Steuerelementen.
 
-Der [Cloudflare AI Crawl Control Guide](/es/docs/cloudflare-ai-crawl-control/) deckt die Seite der Perimeter-Richtlinie ab. Die [ChatGPT-Produktempfehlungs-Checkliste](/es/docs/chatgpt-product-recommendations-seo/) zeigt, warum der Tracker-Zugriff für die E-Commerce-Erkennung wichtig ist.
+Der [Cloudflare AI Crawl Control Guide](/de/docs/cloudflare-ai-crawl-control/) deckt die Seite der Perimeter-Richtlinie ab. Die [ChatGPT-Produktempfehlungs-Checkliste](/de/docs/chatgpt-product-recommendations-seo/) zeigt, warum der Tracker-Zugriff für die E-Commerce-Erkennung wichtig ist.
 
 ## Was zu überwachen ist| Signal | Warum ist es wichtig |
 |
@@ -85,7 +85,7 @@ Der [Cloudflare AI Crawl Control Guide](/es/docs/cloudflare-ai-crawl-control/) d
 | Frische der Produktseite | Schützen Sie die Qualität Ihrer Einkäufe mit KI |
 | Crawling-Fehler | Finden Sie zufällige Antworten 403, 429 oder 5xx |
 
-Für eine umfassendere AEO-Messung verbinden Sie Tracking-Daten mit dem [AEO-KPI-Leitfaden](/es/docs/aeo-kpis-measurement/).
+Für eine umfassendere AEO-Messung verbinden Sie Tracking-Daten mit dem [AEO-KPI-Leitfaden](/de/docs/aeo-kpis-measurement/).
 
 ## robots.txt ist keine AEO-Strategie
 
@@ -98,7 +98,7 @@ Eine gute Tracking-Richtlinie ist nur der Einstiegspunkt. Agenten benötigen wei
 - maschinenlesbare Produkt- oder Dienstleistungsdaten
 - sichere Handlungswege
 
-Aus diesem Grund gehört „robots.txt“ zur Leseschicht, während die Aufgabenerfüllung zur [Ausführungsschicht](/es/docs/execution-layer/) gehört.
+Aus diesem Grund gehört „robots.txt“ zur Leseschicht, während die Aufgabenerfüllung zur [Ausführungsschicht](/de/docs/execution-layer/) gehört.
 
 ## Häufig gestellte Fragen
 

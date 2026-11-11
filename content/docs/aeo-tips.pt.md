@@ -90,9 +90,9 @@ Comece com páginas que já possuem impressões no Google Search Console e depoi
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
-* [camada de execução](/es/docs/execution-layer/)
-* [Guia de Implementação AEO](/es/docs/implement-aeo/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
+* [camada de execução](/pt/docs/execution-layer/)
+* [Guia de Implementação AEO](/pt/docs/implement-aeo/)
 
 ## Referências primárias
 

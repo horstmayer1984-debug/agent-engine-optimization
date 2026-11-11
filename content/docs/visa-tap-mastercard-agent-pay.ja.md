@@ -87,7 +87,7 @@ Visa TAP または Mastercard Agent Pay の準備をしている販売者は、�
 6. 購入後の検証エンドポイントを提供する
 7. エージェント マニフェストまたは llms.txt から支払い機能をリンクする
 
-これにより、支払い処理だけでなく、支払いの準備が [エージェント エンジンの最適化](/es/docs/what-is-aeo/) に接続されます。
+これにより、支払い処理だけでなく、支払いの準備が [エージェント エンジンの最適化](/ja/docs/what-is-aeo/) に接続されます。
 
 ## よくある質問
 
@@ -108,5 +108,5 @@ Mastercard Agent Pay は、Mastercard のネットワーク機能とトークン
 
 ## 関連ガイド
 
-* [エージェント取引アーキテクチャ](/es/docs/agentic-commerce/)
-* [エージェント支払いプロトコル](/es/docs/agent-payment-protocols-compared/)
+* [エージェント取引アーキテクチャ](/ja/docs/agentic-commerce/)
+* [エージェント支払いプロトコル](/ja/docs/agent-payment-protocols-compared/)

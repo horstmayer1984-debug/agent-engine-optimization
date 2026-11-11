@@ -53,7 +53,7 @@ Das bedeutet, dass Ihre Website von Folgendem profitiert:
 - starke interne Bindungen
 - evidenzreiche Antworten, die unabhängig sein können
 
-Das [AI Search Optimization Framework](/es/docs/ai-search-optimization/) erklärt den breiteren Stack. Der [Leitfaden zur AEO-Inhaltsstrategie](/es/docs/aeo-content-strategy/) zeigt, wie Gruppen strukturiert werden, damit Agenten von einer Entscheidungsebene zur nächsten wechseln können.
+Das [AI Search Optimization Framework](/de/docs/ai-search-optimization/) erklärt den breiteren Stack. Der [Leitfaden zur AEO-Inhaltsstrategie](/de/docs/aeo-content-strategy/) zeigt, wie Gruppen strukturiert werden, damit Agenten von einer Entscheidungsebene zur nächsten wechseln können.
 
 ##Was auf der Seite verbessert werden kann
 
@@ -80,7 +80,7 @@ Hinweis:
 - Conversions von Seiten, die Traffic über Support-Links erhalten
 - Engagement nach dem Klicken
 
-Der [Bing AI Performance Report Guide](/es/docs/bing-ai-performance-report/) ist in Verbindung mit der Google Search Console nützlich, da er eine andere Ansicht von AI-Zitaten und zitierten URLs bietet.
+Der [Bing AI Performance Report Guide](/de/docs/bing-ai-performance-report/) ist in Verbindung mit der Google Search Console nützlich, da er eine andere Ansicht von AI-Zitaten und zitierten URLs bietet.
 
 ## Was man nicht tun sollte
 
@@ -92,7 +92,7 @@ Vermeiden Sie fünf häufige Fehler:
 4. Behandeln Sie den KI-Modus als Ersatz für Crawling, Indexierung oder Site-Architektur.
 5. Optimieren Sie nur für Erwähnungen statt für hilfreiche nächste Aktionen.
 
-KI-Sichtbarkeit ist die Leseschicht. Wenn auch Agenten die Site nutzen müssen, verbinden Sie sie mit der [Ausführungsschicht](/es/docs/execution-layer/).
+KI-Sichtbarkeit ist die Leseschicht. Wenn auch Agenten die Site nutzen müssen, verbinden Sie sie mit der [Ausführungsschicht](/de/docs/execution-layer/).
 
 ## Häufig gestellte Fragen
 

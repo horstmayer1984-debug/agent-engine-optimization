@@ -43,7 +43,7 @@ AgentCore Payments é relevante para três partes da pilha AEO:
 2. **Execução:** O agente deve ser capaz de acessar e pagar pelo recurso sem etapas manuais de pagamento.
 3. **Verificabilidade:** Os traders precisam de controles de despesas e registros de execução após a transação.
 
-Para um contexto mais amplo, consulte [Otimização do Agent Engine](/es/docs/what-is-aeo/), [A camada de execução](/es/docs/execution-layer/) e [Protocolos de pagamento do agente comparados](/es/docs/agent-payment-protocols-compared/).
+Para um contexto mais amplo, consulte [Otimização do Agent Engine](/pt/docs/what-is-aeo/), [A camada de execução](/pt/docs/execution-layer/) e [Protocolos de pagamento do agente comparados](/pt/docs/agent-payment-protocols-compared/).
 
 ## Pagamentos AgentCore versus integração x402 bruta
 
@@ -75,7 +75,7 @@ O ponto final precisa de:| Requisito | Por que é importante |
 
 É aqui que o AEO se torna mais do que apenas direitos autorais. Um serviço de pagamento automatizado deve combinar conteúdo útil com instruções de execução determinísticas.
 
-Leitura privilegiada relacionada: [Pagamentos do agente x402](/es/docs/x402-agent-payments/), [x402 vs ACP vs MPP](/es/docs/x402-vs-acp-vs-mpp/) e [AP2 vs x402](/es/docs/ap2-vs-x402/).
+Leitura privilegiada relacionada: [Pagamentos do agente x402](/pt/docs/x402-agent-payments/), [x402 vs ACP vs MPP](/pt/docs/x402-vs-acp-vs-mpp/) e [AP2 vs x402](/pt/docs/ap2-vs-x402/).
 
 ## Status e limites
 

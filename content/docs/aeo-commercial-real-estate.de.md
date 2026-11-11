@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 94
 category: "Industry"
 description: "Entdecken Sie, wie Gewerbeimmobilien-Websites Angebote, Verfügbarkeit, Preise, Dokumente und Anfrage-Workflows strukturieren können."
-metaDescription: "Descubra cómo los equipos de CRE estructuran los datos de propiedades, la debida diligencia, la disponibilidad, los contactos de los corredores y los puntos."
 summary: "KI-Systeme komprimieren 60 Tage Due-Diligence-Prüfung in Stunden. Bei Gewerbeimmobilienunternehmen, die AEO-strukturierte Immobiliendaten veröffentlichen, stammen 40 bis 60 % der institutionellen Anfragen aus Agenten-Workflows."
 keywords:
   - "AEO-Gewerbeimmobilien"
@@ -80,8 +79,8 @@ Strukturierte Immobiliendaten können innerhalb von 4 bis 8 Wochen veröffentlic
 
 ## Verwandte Anleitungen
 
-* [KI-Agent-Protokolle](/es/docs/protocols/)* [Ausführungsschicht](/es/docs/execution-layer/)
-* [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/)
+* [KI-Agent-Protokolle](/de/docs/protocols/)* [Ausführungsschicht](/de/docs/execution-layer/)
+* [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/)
 
 ## Primäre Referenzen
 

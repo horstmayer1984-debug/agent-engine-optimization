@@ -50,7 +50,7 @@ Google はまた、AP2 を FIDO に寄贈し、Mastercard の検証可能なイ�
 |フィド |認証およびエージェント対話作業のための標準化団体 |
 |取引システム |ポリシー、支払い、コンプライアンス、サポートに関する決定を強制する |
 
-これは、[AP2 対 x402](/es/docs/ap2-vs-x402/) および [Visa TAP 対 Mastercard Agent Pay](/es/docs/visa-tap-mastercard-agent-pay/) に接続されます。
+これは、[AP2 対 x402](/ja/docs/ap2-vs-x402/) および [Visa TAP 対 Mastercard Agent Pay](/ja/docs/visa-tap-mastercard-agent-pay/) に接続されます。
 
 ## マーチャントの実装への影響
 
@@ -78,7 +78,7 @@ Google はまた、AP2 を FIDO に寄贈し、Mastercard の検証可能なイ�
 |監査証拠を保存できますか? |紛争には事実が必要です |
 |ユーザーはエージェント権限を取り消すことができますか? |制御はユーザーにある必要があります |
 
-[エージェントのビジネス紛争の証拠](/es/docs/agentic-commerce-dispute-evidence/) ページでは、監査層について詳しく説明しています。
+[エージェントのビジネス紛争の証拠](/ja/docs/agentic-commerce-dispute-evidence/) ページでは、監査層について詳しく説明しています。
 
 ## よくある質問
 

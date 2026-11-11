@@ -11,7 +11,7 @@ keywords:
   - "Conteúdo de namoro com IA"
   - "Otimização de perplexidade"
 ---
-Perplexity SEO é a prática de criar conteúdo claro e digno de fonte que pode apoiar respostas geradas por IA com citações. Pertence ao campo mais amplo de [Otimização de Motor Generativo](/es/docs/generative-engine-optimization/), com uma ênfase específica: ser útil o suficiente para ser referenciado.
+Perplexity SEO é a prática de criar conteúdo claro e digno de fonte que pode apoiar respostas geradas por IA com citações. Pertence ao campo mais amplo de [Otimização de Motor Generativo](/pt/docs/generative-engine-optimization/), com uma ênfase específica: ser útil o suficiente para ser referenciado.
 
 A pesquisa de IA orientada a citações recompensa páginas que são diretas, confiáveis ​​e fáceis de verificar. O conteúdo vago é fraco. O conteúdo da superfície é fraco. Uma página deve fornecer ao sistema algo que valha a pena citar.
 
@@ -47,7 +47,7 @@ O teste final é simples: um leitor que segue apenas o link citado deverá ser c
 
 Mantenha os exemplos corrigidos no registro de revisão para que auditorias posteriores possam testar novamente o mesmo erro.
 
-Leitura relacionada: [Estratégia de namoro AI] (/es/docs/ai-citation-strategy/).
+Leitura relacionada: [Estratégia de namoro AI](/pt/docs/ai-citation-strategy/).
 
 ## Perguntas frequentes
 
@@ -57,7 +57,7 @@ As citações criam visibilidade. A infraestrutura pronta para agente cria capac
 
 ## Guias relacionados
 
-* [Guia de otimização do Agent Engine](/es/docs/what-is-aeo/)
+* [Guia de otimização do Agent Engine](/pt/docs/what-is-aeo/)
 
 ## Referências primárias
 

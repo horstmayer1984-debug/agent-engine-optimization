@@ -11,7 +11,7 @@ keywords:
   - "AI 出会い系コンテンツ"
   - "パープレキシティの最適化"
 ---
-Perplexity SEO は、AI が生成した引用付きの応答をサポートできる、明確でソースに値するコンテンツを作成する実践です。これは、[Generative Engine Optimization](/es/docs/generative-engine-optimization/) というより広い分野に属しており、参照するのに十分役立つという点に特に重点を置いています。
+Perplexity SEO は、AI が生成した引用付きの応答をサポートできる、明確でソースに値するコンテンツを作成する実践です。これは、[Generative Engine Optimization](/ja/docs/generative-engine-optimization/) というより広い分野に属しており、参照するのに十分役立つという点に特に重点を置いています。
 
 引用指向の AI 検索では、直接的で信頼でき、検証が簡単なページが評価されます。曖昧な内容が弱い。表面の含有量は弱いです。ページはシステムに引用する価値のあるものを提供する必要があります。
 
@@ -47,7 +47,7 @@ Perplexity スタイルの可視性は注意を生み出しますが、注意は
 
 修正された例をレビュー ログに保存しておくと、後の監査で同じエラーを再度テストできるようになります。
 
-関連記事: [AI デート戦略](/es/docs/ai-citation-strategy/)。
+関連記事: [AI デート戦略](/ja/docs/ai-citation-strategy/)。
 
 ## よくある質問
 
@@ -57,7 +57,7 @@ Perplexity スタイルの可視性は注意を生み出しますが、注意は
 
 ## 関連ガイド
 
-* [エージェント エンジン最適化ガイド](/es/docs/what-is-aeo/)
+* [エージェント エンジン最適化ガイド](/ja/docs/what-is-aeo/)
 
 ## 主な参考文献
 

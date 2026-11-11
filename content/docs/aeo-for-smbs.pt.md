@@ -20,7 +20,7 @@ As pequenas empresas não precisam de uma plataforma de agente empresarial para 
 
 O comportamento de pesquisa está mudando de “mostre-me dez sites” para “encontre a melhor opção e me ajude a agir”. Uma pequena empresa pode perder a recomendação antes de um visitante chegar ao site se um sistema de inteligência artificial não conseguir analisar a sua oferta, localização, disponibilidade, área de serviço ou sinais de confiança.
 
-SMB AEO é prático, não exótico. O [guia para o que é AEO](/es/docs/what-is-aeo/) define o conceito mais amplo. Para pequenas empresas, normalmente começa com uma estrutura de página melhor e um pequeno número de arquivos legíveis por máquina.
+SMB AEO é prático, não exótico. O [guia para o que é AEO](/pt/docs/what-is-aeo/) define o conceito mais amplo. Para pequenas empresas, normalmente começa com uma estrutura de página melhor e um pequeno número de arquivos legíveis por máquina.
 
 ## A lista de verificação AEO para PME
 
@@ -97,7 +97,7 @@ Estrutura de exemplo:
 - Emergency appointments by phone only
 ```
 
-O [guia llms.txt](/es/docs/programming-llms-txt/) explica isso com mais detalhes.
+O [guia llms.txt](/pt/docs/programming-llms-txt/) explica isso com mais detalhes.
 
 ## Quando as PMEs precisam de AEO na camada de execução
 
@@ -111,7 +111,7 @@ A camada de execução AEO é útil quando:
 - Uma solicitação de orçamento precisa de campos padronizados
 - A empresa já utiliza software de agendamento, CRM ou comércio com acesso API.
 
-A [camada de execução](/es/docs/execution-layer/) torna-se relevante quando a empresa deseja que os agentes concluam tarefas, e não apenas leiam páginas.
+A [camada de execução](/pt/docs/execution-layer/) torna-se relevante quando a empresa deseja que os agentes concluam tarefas, e não apenas leiam páginas.
 
 ## Plano prático para PME de 30 dias
 

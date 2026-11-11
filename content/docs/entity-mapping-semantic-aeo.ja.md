@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 83
 category: "Guide"
 description: "エンティティ マッピングにより、ブランド、製品、トピックの間に機械可読な関係が作成されるため、エージェントはあなたの権限を理解し、引用します。"
-metaDescription: "Utilice el mapeo de entidades para conectar marcas, productos y temas para que los agentes de IA comprendan la autoridad y citen páginas con mayor precisión."
 summary: "エージェントは明らかに理解している情報源を引用しています。エンティティ マッピングは、ブランド、製品、エクスペリエンスの間に明示的で機械可読な関係を作成するため、AI システムがクエリを正確にルーティングできるようになります。"
 keywords:
   - "AEOエンティティマッピング"
@@ -57,7 +56,7 @@ e コマース ストアの場合: ブランド、各製品ライン、各製品
 
 Schema.org マークアップを使用してエンティティ宣言を形式化します。ブランドの組織体系。製品の製品スキーマ。オファーのサービス スキーム。 SameAs プロパティを使用して、エンティティを信頼できる外部参照 (Wikipedia、Wikidata、公式仕様) に接続します。
 
-[AEO 実装ガイド](/es/docs/implement-aeo/) では、スキームの実装について説明します。 [AI ベースの AEO 記事](/es/docs/ai-powered-aeo-ecommerce/) では、ナレッジ グラフのアプローチについて説明しています。
+[AEO 実装ガイド](/ja/docs/implement-aeo/) では、スキームの実装について説明します。 [AI ベースの AEO 記事](/ja/docs/ai-powered-aeo-ecommerce/) では、ナレッジ グラフのアプローチについて説明しています。
 
 ##比較: キーワードの最適化とエンティティ マッピング
 
@@ -94,7 +93,7 @@ Schema.org マークアップを使用してエンティティ宣言を形式化
 **小規模サイトでもエンティティ マッピングからメリットを得ることができますか?**
 はい。通常、小規模なサイトでは、少ないページでより迅速にエンティティの一貫性を実現できるため、より多くのメリットが得られます。明確なエンティティ マッピングを持つ 20 ページのサイトは、キーワード範囲が曖昧な 2,000 ページのサイトよりも優れたパフォーマンスを発揮できます。## 関連ガイド
 
-* [エージェント取引アーキテクチャ](/es/docs/agentic-commerce/)
+* [エージェント取引アーキテクチャ](/ja/docs/agentic-commerce/)
 
 ## 主な参考文献
 

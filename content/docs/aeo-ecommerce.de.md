@@ -39,7 +39,7 @@ Gute Produktseiten brauchen beides, aber Agenten behandeln sie unterschiedlich.
 
 Überzeugende Kopien können einen Menschen beeinflussen. Die objektive Kopie bestimmt, ob eine Maschine richtig argumentieren kann. Verhindern Sie, dass die beiden Schichten ineinander übergehen. Verstecken Sie Versandbeschränkungen, Kompatibilitätshinweise oder Lagerbestandsregeln nicht in der generischen Markensprache.
 
-Eine Seite, die poliert klingt, aber die operative Wahrheit verbirgt, ist für den Agentenhandel schwach. [Ausführungsebene](/es/docs/execution-layer/) hängt von der sachlichen Genauigkeit ab, nicht vom Marketington.
+Eine Seite, die poliert klingt, aber die operative Wahrheit verbirgt, ist für den Agentenhandel schwach. [Ausführungsebene](/de/docs/execution-layer/) hängt von der sachlichen Genauigkeit ab, nicht vom Marketington.
 
 ## 4. Veröffentlichen Sie klare Einkaufspfade
 
@@ -69,7 +69,7 @@ E-Commerce-Teams überladen Produktseiten oft mit Karussells, dynamischen Module
 
 Priorisieren Sie zuerst die Extraktion: stabile Titel, saubere Spezifikationsblöcke, sichtbare Preislogik, direkte Verfügbarkeitsangaben, explizite Versandhinweise und zugängliche Rezensionszusammenfassungen.
 
-Sie können den Markenausdruck trotzdem beibehalten. Lassen Sie nicht zu, dass die Präsentation die Fakten untergräbt. Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt die technische Seite davon im Detail.
+Sie können den Markenausdruck trotzdem beibehalten. Lassen Sie nicht zu, dass die Präsentation die Fakten untergräbt. Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt die technische Seite davon im Detail.
 
 ## 8. Unterstützen Sie die Überprüfung nach dem Kauf
 
@@ -102,7 +102,7 @@ Dies verändert die Bedeutung von „Sichtbarkeit“. Das Ranking ist immer noch
 
 AEO für E-Commerce ist keine Ebene, die nach dem Aufbau des Shops hinzugefügt wird. Es ist eine Designdisziplin. Sie gestalten den Laden so, dass ein autonomes System mit minimaler Mehrdeutigkeit lesen, vergleichen, entscheiden, kaufen und überprüfen kann.Marken, die frühzeitig agieren, haben zwei Vorteile. Es wird einfacher, sie zu empfehlen und mit ihnen Geschäfte abzuwickeln. In einer Umgebung, in der mehr Kaufentscheidungen innerhalb von KI-gestützten Arbeitsabläufen beginnen, ist das kein unbedeutendes technisches Detail. Es ist die Verteilung.
 
-Wenn Sie beurteilen möchten, wo sich Ihr Geschäft gerade befindet, bewertet das [AEO Readiness Audit](/es/docs/audit/) sowohl die Leseschicht als auch die Ausführungsschicht Ihrer digitalen Infrastruktur.
+Wenn Sie beurteilen möchten, wo sich Ihr Geschäft gerade befindet, bewertet das [AEO Readiness Audit](/de/docs/audit/) sowohl die Leseschicht als auch die Ausführungsschicht Ihrer digitalen Infrastruktur.
 
 ---
 

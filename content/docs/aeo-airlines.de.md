@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 102
 category: "Industry"
 description: "Erfahren Sie, wie Fluggesellschaften Buchungsabläufe, Tarifregeln, Gepäckdaten und APIs für KI-Agenten vorbereiten können, die Flüge vergleichen und buchen."
-metaDescription: "Descubra cómo las aerolíneas utilizan precios en tiempo real, datos auxiliares estructurados y puntos finales de emisión de boletos deterministas."
 summary: "KIs buchen Flüge, indem sie Preise in Echtzeit vergleichen, Nebenkosten prüfen und Tickets in Sekundenschnelle ausstellen. Fluggesellschaften, die strukturierte Daten mit Reaktionszeiten von unter einer Sekunde anbieten, erfassen Agentenbuchungen."
 keywords:
   - "AEO-Fluggesellschaften"
@@ -66,7 +65,7 @@ Die zentrale Anforderung: Der über die API angegebene Preis muss mit dem Preis 
 | Ticketverkauf | Mehrseitiger Checkout mit menschlicher Interaktion | Deterministische API mit sofortiger Bestätigung |
 | Bedingungen ändern | Juristisches Dokument in Prosa | Nach Tarifklasse strukturierte Daten |
 
-Der [AEO-Reiseartikel](/es/docs/aeo-travel-booking/) deckt den breiteren Kontext der Branche ab.
+Der [AEO-Reiseartikel](/de/docs/aeo-travel-booking/) deckt den breiteren Kontext der Branche ab.
 
 ---
 
@@ -88,8 +87,8 @@ Weniger als 500 Millisekunden für Verfügbarkeitsabfragen. Die Ausstellung von 
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
-* [Agent-Zahlungsprotokolle](/es/docs/agent-payment-protocols-compared/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
+* [Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/)
 
 ## Primäre Referenzen
 

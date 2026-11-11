@@ -48,7 +48,7 @@ Muitos sites já possuem ações: marcar consulta, adicionar produto ao carrinho
 
 Um agente navegador pode tentar operar a página como uma pessoa, mas isso é frágil. Os rótulos mudam. Aparecem boas maneiras. Os campos estão ocultos. O teste A/B altera o DOM. O WebMCP dá ao site uma forma de indicar a ação diretamente: este formulário marca um agendamento, esses campos são obrigatórios, esta ação deve ser utilizada quando o usuário desejar uma reserva.
 
-Esse é um sinal de [camada de execução] (/es/docs/execution-layer/) mais forte do que apenas um rótulo de botão.
+Esse é um sinal de [camada de execução](/pt/docs/execution-layer/) mais forte do que apenas um rótulo de botão.
 
 ## Padrões de implementação
 
@@ -91,7 +91,7 @@ A sequência útil de SEO/AEO é:
 
 1. Torne a página rastreável e indexável.
 2. Adicione conteúdo, títulos, contornos e links internos claros.
-3. Publique arquivos de descoberta como [llms.txt](/es/docs/programming-llms-txt/).
+3. Publique arquivos de descoberta como [llms.txt](/pt/docs/programming-llms-txt/).
 4. Adicione ferramentas WebMCP para ações de alto valor.
 5. Experimente auditorias de navegação do agente Lighthouse.
 6. Monitore preenchimentos de formulários e eventos acionados por agentes.

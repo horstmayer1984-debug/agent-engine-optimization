@@ -23,7 +23,7 @@ GitHub プラグインは [mem0ai/mem0](https://github.com/mem0ai/mem0) とし�
 
 AEO にとって重要な問題は、どのメモリ システムが勝つかということではありません。これは、Web サイトの永続的なエージェント メモリを変更するものです。
 
-[AEO のコンテキスト エンジニアリング](/es/docs/context-engineering-aeo/) および [エージェント フィードバック ループ](/es/docs/agent-feedback-loops/) と併せて読んでください。
+[AEO のコンテキスト エンジニアリング](/ja/docs/context-engineering-aeo/) および [エージェント フィードバック ループ](/ja/docs/agent-feedback-loops/) と併せて読んでください。
 
 ##記憶を変えるエージェントは何ですか?
 
@@ -49,7 +49,7 @@ AEO にとって重要な問題は、どのメモリ システムが勝つかと
 6. ユーザーが古い記憶や間違った記憶を修正できるようにします。
 7. 重要な決定については、隠れたカスタマイズに依存しないようにします。
 
-コマースについては、[エージェント ウォレットと支出ガバナンス](/es/docs/agentic-wallets-spend-governance/) および [コマースのエージェント認証](/es/docs/agentic-authentication-commerce/) を参照してください。
+コマースについては、[エージェント ウォレットと支出ガバナンス](/ja/docs/agentic-wallets-spend-governance/) および [コマースのエージェント認証](/ja/docs/agentic-authentication-commerce/) を参照してください。
 
 ## 測定への影響
 

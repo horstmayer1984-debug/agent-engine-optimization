@@ -46,7 +46,7 @@ KI-Empfehlungen und Agentensuchen sind hilfreich, zeigen jedoch keinen Erfolg be
 | Bot-Benutzeragent | Erfolgreicher Werkzeugaufruf |
 | Zeit auf Seite | Konforme Fertigstellung |
 
-Weitere Informationen zur Nachverfolgung finden Sie unter [AEO KPI](/es/docs/aeo-kpis-measurement/) und [AI Agent Web Traffic in 2026](/es/docs/ai-agent-web-traffic-2026/).
+Weitere Informationen zur Nachverfolgung finden Sie unter [AEO KPI](/de/docs/aeo-kpis-measurement/) und [AI Agent Web Traffic in 2026](/de/docs/ai-agent-web-traffic-2026/).
 
 ## Erstellen Sie einen kleinen Referenzpunkt für Ihre Website
 
@@ -81,7 +81,7 @@ Beispielaufgaben:
 6. Übertragung menschlicher Zustimmung.
 7. Überprüfung des Endzustandes.
 
-Dies verlinkt direkt zu [Agent Evaluation Parameters](/es/docs/agent-evaluation-benchmarks/) und [Agent Observability and Protection Barriers](/es/docs/agent-observability-guardrails/).
+Dies verlinkt direkt zu [Agent Evaluation Parameters](/de/docs/agent-evaluation-benchmarks/) und [Agent Observability and Protection Barriers](/de/docs/agent-observability-guardrails/).
 
 ## Häufig gestellte Fragen### Sind BrowserGym und AutomationBench SEO-Tools?
 

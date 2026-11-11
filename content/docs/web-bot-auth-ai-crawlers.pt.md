@@ -22,7 +22,7 @@ A documentação de autenticação do Web Bot da Cloudflare (https://developers.
 
 Em termos leigos: um rastreador publica uma chave pública, assina solicitações com sua chave privada e a infraestrutura receptora pode verificar se a solicitação realmente vem desse rastreador.
 
-Este é um problema diferente do [robots.txt para rastreadores de IA](/es/docs/ai-crawlers-robots-txt/). Robots.txt informa o que um rastreador deve fazer. O Web Bot Auth ajuda a provar quem é o rastreador.
+Este é um problema diferente do [robots.txt para rastreadores de IA](/pt/docs/ai-crawlers-robots-txt/). Robots.txt informa o que um rastreador deve fazer. O Web Bot Auth ajuda a provar quem é o rastreador.
 
 ## Por que a identidade do rastreador agora é importante
 
@@ -75,7 +75,7 @@ Para um site pronto para AEO, isso pode influenciar:- se os rastreadores de IA p
 - se os documentos da API estiverem visíveis, mas os endpoints de execução exigirem autenticação
 - se os agentes assinados são tratados de forma diferente dos bots anônimos
 
-Isso se conecta diretamente à [camada de execução](/es/docs/execution-layer/) e às [proteções de observabilidade do agente](/es/docs/agent-observability-guardrails/).
+Isso se conecta diretamente à [camada de execução](/pt/docs/execution-layer/) e às [proteções de observabilidade do agente](/pt/docs/agent-observability-guardrails/).
 
 ## Layout de acesso recomendado
 
@@ -96,7 +96,7 @@ O objetivo é tornar a web pública útil para os agentes sem transformar sistem
 
 1. Bots de inventário que estão chegando ao site.
 2. Pesquisa separada, inteligência artificial, treinamento, monitoramento e eliminação de tráfego.
-3. Mantenha [llms.txt](/es/docs/llms-txt-vs-robots-txt/) e documentos públicos acessíveis.
+3. Mantenha [llms.txt](/pt/docs/llms-txt-vs-robots-txt/) e documentos públicos acessíveis.
 4. Adicione regras de bot que não bloqueiem acidentalmente o Googlebot, o Bingbot e outros sistemas de descoberta populares.
 5. Use Web Bot Auth ou verificação semelhante quando houver suporte.
 6. Registre o status de verificação junto com o URL, o código de status e a ação de limite de taxa.

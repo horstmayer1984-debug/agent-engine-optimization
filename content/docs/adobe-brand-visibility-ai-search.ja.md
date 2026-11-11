@@ -35,7 +35,7 @@ Adobe Brand Visibility は、AI 検索サーフェスにおけるブランドの
 4. 企業はワークフローを導入する前にワークフローを変更する必要があるかどうか。
 5. 既存の AI 可視性モニタリングとの比較。
 
-より広範なコンテキストについては、[生成エンジンの最適化](/es/docs/generative-engine-optimization/) および [AI デート戦略](/es/docs/ai-citation-strategy/) を参照してください。
+より広範なコンテキストについては、[生成エンジンの最適化](/ja/docs/generative-engine-optimization/) および [AI デート戦略](/ja/docs/ai-citation-strategy/) を参照してください。
 
 ## 単一の表での Adobe ブランドの可視性
 
@@ -59,7 +59,7 @@ Adobe Brand Visibility は、AI 検索サーフェスにおけるブランドの
 6. 通常のオーガニックセッションとは別に AI 紹介を追跡します。
 7. 通常のインデックス作成に関する Google 検索の指示に従いながら、「llms.txt」を使用することを選択したエージェントにとって役立つようにしてください。
 
-実際の手順については、[AEO SEO 実装計画](/es/docs/aeo-seo-implementation-plan/) および [AEO の実装方法](/es/docs/implement-aeo/) で説明されています。
+実際の手順については、[AEO SEO 実装計画](/ja/docs/aeo-seo-implementation-plan/) および [AEO の実装方法](/ja/docs/implement-aeo/) で説明されています。
 
 ## Adobe Brand Visibility だけでは解決できないこと
 
@@ -74,7 +74,7 @@ AI 可視化ツールはギャップを示すことはできますが、エー�
 |ガバナンス |チームには、請求、更新サイクル、迅速なサンプリング、および発信元の承認に関するルールが必要です。 |
 |測定 |予約の可視性は、リード、販売、テスト、またはサポートの結果に関連付けられる必要があります。 |
 
-実行層の作業については、[実行層](/es/docs/execution-layer/) と [ループ内の UX エージェントとヒューマン デザイン](/es/docs/agent-ux-human-in-the-loop/) から始めます。
+実行層の作業については、[実行層](/ja/docs/execution-layer/) と [ループ内の UX エージェントとヒューマン デザイン](/ja/docs/agent-ux-human-in-the-loop/) から始めます。
 
 ## よくある質問
 

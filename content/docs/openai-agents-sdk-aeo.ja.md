@@ -23,7 +23,7 @@ GitHub プラグインは、著名なエージェント フレームワーク �
 
 その人気は役に立ちますが、SEO の観点は「SDK とは何ですか?」ということではありません。最も良い角度は、SDK によって作成されたエージェントが Web サイトを安全に使用できるようにするために、Web サイトに何を公開する必要があるかということです。
 
-これは、[実行層](/es/docs/execution-layer/)、[UX および AEO SEO エージェント](/es/docs/agent-ux-aeo-seo/)、[AEO の実装方法](/es/docs/implement-aeo/) に直接接続します。
+これは、[実行層](/ja/docs/execution-layer/)、[UX および AEO SEO エージェント](/ja/docs/agent-ux-aeo-seo/)、[AEO の実装方法](/ja/docs/implement-aeo/) に直接接続します。
 
 ##エージェント SDK 設計から得た AEO の教訓
 
@@ -66,7 +66,7 @@ GitHub プラグインは、著名なエージェント フレームワーク �
 |ツール呼び出しログを記録する |チームはエージェントの動作をデバッグおよび監査する必要があります。 |
 |公的文書を常に最新の状態に保つ |エージェントは人間と同じように古い文書に従います。 |
 
-API 指向の作業の場合は、これを [MCP vs Agent API](/es/docs/mcp-vs-api-for-agents/) および [MCP Resources vs Tools vs Prompts](/es/docs/mcp-resources-tools-prompts/) と組み合わせます。
+API 指向の作業の場合は、これを [MCP vs Agent API](/ja/docs/mcp-vs-api-for-agents/) および [MCP Resources vs Tools vs Prompts](/ja/docs/mcp-resources-tools-prompts/) と組み合わせます。
 
 ## よくある質問
 

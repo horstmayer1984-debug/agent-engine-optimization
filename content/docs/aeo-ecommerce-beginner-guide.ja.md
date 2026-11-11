@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 30
 category: "Guide"
 description: "e コマースの応答性の高いエンジン最適化を実装するための実践的な初心者ガイド。コンテンツ監査をカバーします。"
-metaDescription: "Inicie AEO para comercio electrónico con auditorías de contenido, marcado de esquema, páginas de productos de respuesta primero, acceso de rastreador."
 summary: "AEO は、AI が生成した応答で電子商取引サイトを表示できるようにします。このガイドでは、オンライン ストアの具体的な例を示しながら、コンテンツ監査から引用追跡までの各ステップを説明します。"
 keywords:
   - "AEO eコマース初心者ガイド"
@@ -113,9 +112,9 @@ AEO は、回答エンジンでの直接引用を対象としています。 GEO
 
 ## 関連ガイド
 
-* [エージェント取引アーキテクチャ](/es/docs/agentic-commerce/)
-* [エージェント支払いプロトコル](/es/docs/agent-payment-protocols-compared/)
-* [実行層](/es/docs/execution-layer/)
+* [エージェント取引アーキテクチャ](/ja/docs/agentic-commerce/)
+* [エージェント支払いプロトコル](/ja/docs/agent-payment-protocols-compared/)
+* [実行層](/ja/docs/execution-layer/)
 
 ## 主な参考文献
 

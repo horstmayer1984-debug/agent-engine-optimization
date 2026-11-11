@@ -20,7 +20,7 @@ As empresas alemãs precisam do AEO porque os agentes de IA descobrirão cada ve
 
 Os compradores alemães normalmente esperam especificações detalhadas, etapas formais de aquisição, clareza sobre privacidade e documentação confiável. Os agentes de IA amplificam essas expectativas. Se a página de um fornecedor não tiver dados estruturados de produto, regras de área de serviço, contexto de preços, documentação ou um caminho de contato claro, um agente pode ignorá-la em favor de um concorrente com dados mais limpos.
 
-A [visão geral do protocolo](/es/docs/protocols/) explica o aspecto da infraestrutura. Para as empresas alemãs, os protocolos só importam depois que o básico estiver correto: páginas detectáveis, dados de entidade consistentes, descrições de serviços legíveis por máquina e limites claros sobre o que os agentes podem fazer.
+A [visão geral do protocolo](/pt/docs/protocols/) explica o aspecto da infraestrutura. Para as empresas alemãs, os protocolos só importam depois que o básico estiver correto: páginas detectáveis, dados de entidade consistentes, descrições de serviços legíveis por máquina e limites claros sobre o que os agentes podem fazer.
 
 ## Prioridades AEO específicas do país
 
@@ -35,7 +35,7 @@ A [visão geral do protocolo](/es/docs/protocols/) explica o aspecto da infraest
 | Aquisição B2B | Muitas viagens de vendas na Alemanha exigem muitas especificações | Estruturar fichas técnicas, certificações e etapas de aquisição |
 | Disciplina API | Agentes preferem respostas determinísticas | Adicione versões, códigos de status e documentação |
 
-O [guia de implantação](/es/docs/implement-aeo/) é o melhor ponto de partida para transformar essas prioridades em mudanças no site.
+O [guia de implantação](/pt/docs/implement-aeo/) é o melhor ponto de partida para transformar essas prioridades em mudanças no site.
 
 ##Leia a lista de verificação da camada
 
@@ -49,7 +49,7 @@ Qualquer empresa alemã focada na descoberta de agentes deve revisar estas pági
 - Páginas de contato: vendas, suporte, aquisições e roteamento de imprensa.
 - `llms.txt`: índice de site compacto e legível por máquina
 
-Use links internos de páginas comerciais para páginas de referência. Por exemplo, a página de um produto deve conter um link para documentação, informações de privacidade, detalhes de implementação e opções de suporte. A [Auditoria de Preparação AEO](/es/docs/audit/) pode identificar lacunas nesta camada.
+Use links internos de páginas comerciais para páginas de referência. Por exemplo, a página de um produto deve conter um link para documentação, informações de privacidade, detalhes de implementação e opções de suporte. A [Auditoria de Preparação AEO](/pt/docs/audit/) pode identificar lacunas nesta camada.
 
 ##Lista de verificação da camada de execução
 
@@ -64,7 +64,7 @@ As empresas alemãs devem evitar expor demasiado cedo as ações de agentes irre
 | Ação de contrato ou ordem | Não é primeira fase | Autenticação, autorização, registros de auditoria |
 | Fluxo de trabalho de suporte | Ação do Portal Autenticado | Verificação e escalonamento de identidade |
 
-A camada de execução AEO não consiste apenas em “deixar uma IA clicar no site”. Significa projetar uma interface de máquina explícita para ações permitidas. A [página da camada de execução](/es/docs/execution-layer/) fornece a arquitetura.
+A camada de execução AEO não consiste apenas em “deixar uma IA clicar no site”. Significa projetar uma interface de máquina explícita para ações permitidas. A [página da camada de execução](/pt/docs/execution-layer/) fornece a arquitetura.
 
 ## IA da UE e contexto de segurança
 

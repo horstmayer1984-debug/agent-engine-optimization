@@ -43,7 +43,7 @@ AgentCore Payments は、AEO スタックの 3 つの部分に関連します。
 2. **実行:** エージェントは、手動の支払い手順を行わずにリソースにアクセスして料金を支払うことができる必要があります。
 3. **検証可能性:** トレーダーは取引後の経費管理と約定記録を必要とします。
 
-より広範なコンテキストについては、[エージェント エンジンの最適化](/es/docs/what-is-aeo/)、[実行層](/es/docs/execution-layer/)、および [エージェント支払いプロトコルの比較](/es/docs/agent-payment-protocols-compared/)を参照してください。
+より広範なコンテキストについては、[エージェント エンジンの最適化](/ja/docs/what-is-aeo/)、[実行層](/ja/docs/execution-layer/)、および [エージェント支払いプロトコルの比較](/ja/docs/agent-payment-protocols-compared/)を参照してください。
 
 ## AgentCore 支払いと生の x402 統合
 
@@ -75,7 +75,7 @@ API、プレミアム データ、有料 MCP ツール、またはフリーラ�
 
 ここで、AEO は単なるコピーライティング以上の役割を果たします。自動支払いサービスは、有用なコンテンツと決定的な実行命令を組み合わせる必要があります。
 
-関連する内部情報: [エージェントの支払い x402](/es/docs/x402-agent-payments/)、[x402 vs ACP vs MPP](/es/docs/x402-vs-acp-vs-mpp/)、および [AP2 vs x402](/es/docs/ap2-vs-x402/)。
+関連する内部情報: [エージェントの支払い x402](/ja/docs/x402-agent-payments/)、[x402 vs ACP vs MPP](/ja/docs/x402-vs-acp-vs-mpp/)、および [AP2 vs x402](/ja/docs/ap2-vs-x402/)。
 
 ## ステータスと制限
 

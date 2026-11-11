@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 74
 category: "Framework"
 description: "O x402 completa a pilha AEO adicionando pagamentos a chamadas de ferramentas MCP e colaboração de agentes A2A. A arquitetura de quatro camadas para um agente."
-metaDescription: "Vea cómo x402, MCP y A2A se combinan en una arquitectura de cuatro capas para el comercio, la coordinación, los pagos y la verificación de agentes autónomos."
 summary: "Descoberta usando llms.txt, execução de ferramenta usando MCP, colaboração usando A2A, pagamento usando x402. Juntos, eles formam a pilha AEO completa para interações de agentes totalmente autônomas."
 keywords:
   - "Bateria x402 MCP A2A"
@@ -24,7 +23,7 @@ O llms.txt e os cartões de agente informam aos agentes o que seu site oferece, 
 
 ### Camada 2: Execução
 
-Os servidores MCP expõem suas ações comerciais como ferramentas escritas que os agentes podem descobrir e chamar dinamicamente. Esta é a [camada de execução](/es/docs/execution-layer/) onde os agentes passam da leitura à ação.
+Os servidores MCP expõem suas ações comerciais como ferramentas escritas que os agentes podem descobrir e chamar dinamicamente. Esta é a [camada de execução](/pt/docs/execution-layer/) onde os agentes passam da leitura à ação.
 
 ### Camada 3: Colaboração
 
@@ -42,7 +41,7 @@ Um agente precisa de dados de análise de mercado premium. Pesquise registros MC
 
 O agente chama sua ferramenta MCP de análise de mercado com os parâmetros necessários. Seu servidor retorna uma resposta 402 com o preço. O agente constrói o cabeçalho X-PAYMENT, paga 0,05 USDC no Base e tenta novamente. O servidor deles valida o pagamento, executa a análise e retorna o resultado.
 
-Se o agente fizer parte de um fluxo de trabalho multiagente, ele passará o resultado para o próximo agente por meio do compartilhamento de tarefas A2A. Seu serviço registra a interação para melhorar o [ciclo de feedback](/es/docs/agent-feedback-loops/).
+Se o agente fizer parte de um fluxo de trabalho multiagente, ele passará o resultado para o próximo agente por meio do compartilhamento de tarefas A2A. Seu serviço registra a interação para melhorar o [ciclo de feedback](/pt/docs/agent-feedback-loops/).
 
 Tempo total decorrido: menos de 5 segundos. Custo total para o agente: US$ 0,05 mais taxas de transação insignificantes. Ganhos para você: US$ 0,05 por solicitação, liquidados em tempo real.
 
@@ -93,7 +92,7 @@ Depende do tráfego e dos preços. Um endpoint de dados premium que atende 10.00
 
 ---
 
-*Este artigo discute protocolos de pagamento e infraestrutura de criptomoeda apenas para fins educacionais e informativos. Não constitui aconselhamento financeiro. Consulte nosso [Aviso Legal](/es/docs/disclaimer/) para obter os termos completos.*
+*Este artigo discute protocolos de pagamento e infraestrutura de criptomoeda apenas para fins educacionais e informativos. Não constitui aconselhamento financeiro. Consulte nosso [Aviso Legal](/pt/docs/disclaimer/) para obter os termos completos.*
 
 ## Referências primárias
 

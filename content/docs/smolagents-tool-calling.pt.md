@@ -46,7 +46,7 @@ Uma estratégia AEO deve apoiar todos os três, quando relevante: documentos par
 6. Exemplos que correspondem ao comportamento de produção.
 7. Notas de lançamento quando as ferramentas mudam.
 
-Para obter orientação em nível de protocolo, consulte [Recursos MCP x Ferramentas x Prompts](/es/docs/mcp-resources-tools-prompts/) e [API MCP x Agente](/es/docs/mcp-vs-api-for-agents/).
+Para obter orientação em nível de protocolo, consulte [Recursos MCP x Ferramentas x Prompts](/pt/docs/mcp-resources-tools-prompts/) e [API MCP x Agente](/pt/docs/mcp-vs-api-for-agents/).
 
 ## Implicações do site
 
@@ -61,7 +61,7 @@ smolagents não é uma ferramenta de otimização de sites. É um sinal de como 
 | Página de comércio eletrônico | Exiba variantes, estoque, preço, frete e devoluções. |
 | Página de suporte | Encaminhe incidentes por tipo e dados necessários. |
 
-O objetivo prático é a [camada de execução](/es/docs/execution-layer/): os agentes devem passar da leitura de uma página até a conclusão de uma tarefa limitada com validação e recuperação.
+O objetivo prático é a [camada de execução](/pt/docs/execution-layer/): os agentes devem passar da leitura de uma página até a conclusão de uma tarefa limitada com validação e recuperação.
 
 ## Perguntas frequentes
 

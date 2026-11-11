@@ -5,7 +5,6 @@ date: 2026-03-18
 weight: 10
 category: "Guide"
 description: "Um guia prático passo a passo para tornar seu site legível e acionável para agentes autônomos de IA. Abrange a estrutura do conteúdo."
-metaDescription: "Siga una guía práctica de implementación de AEO que cubre la estructura del contenido, los puntos finales de acción, las señales de confianza y la medición."
 summary: "A Agent Engine Optimization vai além de SEO e GEO. Este guia explica como tornar seu site legível e operável para agentes de IA que precisam ler, decidir e agir."
 keywords:
   - "otimização do mecanismo do agente"
@@ -60,7 +59,7 @@ Uma configuração prática geralmente inclui:
 - um mapa do site limpo
 - um índice legível por máquina dedicado, como /llms.txt
 - uma breve página de visão geral dos recursos
-- documentação para qualquer endpoint transacional ou de solicitação. Isso elimina suposições. Também reduz suposições sobre o que seu sistema pode realmente fazer. O [O que é AEO](/es/docs/what-is-aeo/) explica a lógica estrutural por trás disso com mais detalhes.
+- documentação para qualquer endpoint transacional ou de solicitação. Isso elimina suposições. Também reduz suposições sobre o que seu sistema pode realmente fazer. O [O que é AEO](/pt/docs/what-is-aeo/) explica a lógica estrutural por trás disso com mais detalhes.
 
 ## Passo 3: Exponha ações, não apenas informações
 
@@ -77,7 +76,7 @@ Exemplos de pontos finais de ação:
 
 Cada ação deve definir entradas necessárias, entradas opcionais, resultados esperados, estados de erro, limites de taxa, requisitos de permissão e lógica de validação.Não os esconda atrás de botões vagos e fluxos JavaScript que só são visíveis no navegador. Se uma tarefa for importante, estabeleça um caminho documentado para ela.
 
-Este é o núcleo da [camada de execução](/es/docs/execution-layer/), a parte que separa o AEO da otimização de conteúdo comum.
+Este é o núcleo da [camada de execução](/pt/docs/execution-layer/), a parte que separa o AEO da otimização de conteúdo comum.
 
 ##Etapa 4: Adicione dados estruturados que reflitam ações reais
 
@@ -129,7 +128,7 @@ Marcadores confiáveis úteis:
 - condições de devolução, cancelamento ou reembolso
 - prova de verificação, proveniência ou certificação, quando aplicável
 
-Esses sinais ajudam um agente a julgar se uma fonte é confiável o suficiente para citar, recomendar ou negociar. A comparação [AEO, SEO e GEO] (/es/docs/aeo-vs-seo-vs-geo/) explica como a confiança difere entre essas camadas.
+Esses sinais ajudam um agente a julgar se uma fonte é confiável o suficiente para citar, recomendar ou negociar. A comparação [AEO, SEO e GEO](/pt/docs/aeo-vs-seo-vs-geo/) explica como a confiança difere entre essas camadas.
 
 ##Etapa 8: teste como um agente, não como um profissional de marketing
 
@@ -163,7 +162,7 @@ Uma configuração AEO madura normalmente possui três camadas:
 
 Essa abordagem em camadas é o que separa o AEO da otimização de conteúdo comum. Você não está apenas publicando páginas. Você está tornando seu site legível e operável em um ambiente mediado por máquina.
 
-Se você deseja uma avaliação estruturada da situação atual do seu site, a [Auditoria de Preparação AEO](/es/docs/audit/) cobre exatamente isso.
+Se você deseja uma avaliação estruturada da situação atual do seu site, a [Auditoria de Preparação AEO](/pt/docs/audit/) cobre exatamente isso.
 
 ---
 

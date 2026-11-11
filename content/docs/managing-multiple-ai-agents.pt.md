@@ -56,7 +56,7 @@ Adicione mais dois agentes para fluxos de trabalho adjacentes. Teste como eles i
 
 Adicione agentes conforme os fluxos de trabalho garantirem. Todo novo agente deve ter um caso claro de ROI: ou ele economiza tempo mensurável, produz uma melhoria mensurável na qualidade ou lida com uma tarefa que não estava sendo realizada.Os profissionais mais experientes estabilizam entre 7 e 12 agentes ativos. Além disso, as despesas gerais de gerenciamento aumentam mais rapidamente do que os ganhos de produtividade, a menos que você invista em uma orquestração mais sofisticada (LangGraph, CrewAI).
 
-O [artigo AEO multiagente](/es/docs/multi-agent-aeo/) explica os padrões de orquestração. O [Agent Native Marketing Stack Guide](/es/docs/agent-native-marketing-stack/) abrange ferramentas específicas.
+O [artigo AEO multiagente](/pt/docs/multi-agent-aeo/) explica os padrões de orquestração. O [Agent Native Marketing Stack Guide](/pt/docs/agent-native-marketing-stack/) abrange ferramentas específicas.
 
 ## Limites operacionais
 
@@ -90,7 +90,7 @@ Ao revisar sua saída leva mais tempo do que executar a tarefa manualmente, quan
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
 
 ## Referências primárias
 

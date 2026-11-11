@@ -24,9 +24,9 @@ OpenAI は、[Codex](https://openai.com/index/introducing-codex/) を、多く�
 
 関連ページ：
 
-- [開発者向け AEO](/es/docs/aeo-use-cases-developers/)
-- [AEO 開発者ガイド](/es/docs/developers-guide-aeo/)
-- [エージェント対応 Web アプリ](/es/docs/agent-ready-web-apps/)
+- [開発者向け AEO](/ja/docs/aeo-use-cases-developers/)
+- [AEO 開発者ガイド](/ja/docs/developers-guide-aeo/)
+- [エージェント対応 Web アプリ](/ja/docs/agent-ready-web-apps/)
 
 ## エージェントがリポジトリから必要とするエンコーディング
 
@@ -60,7 +60,7 @@ Web サイトの場合、同等の信号は次のとおりです。
 - 真実の情報源ページ
 - 機械可読インデックス (llms.txt として)
 
-[実行層](/es/docs/execution-layer/)は、エージェントが何かを実行できるときに開始されますが、エージェントが最初にシステムを理解した場合にのみ機能します。
+[実行層](/ja/docs/execution-layer/)は、エージェントが何かを実行できるときに開始されますが、エージェントが最初にシステムを理解した場合にのみ機能します。
 
 ## エンコードエージェント用のリポジトリを準備する方法
 
@@ -103,7 +103,7 @@ Web サイトの場合、同等の信号は次のとおりです。
 - 問題の曖昧な説明
 - ロールバックや実装メモはありません
 
-[AI エージェントのための Web サイト プログラミング](/es/docs/programming-websites-for-ai-agents/) ガイドは、同じ規律をパブリック Web システムに適用します。
+[AI エージェントのための Web サイト プログラミング](/ja/docs/programming-websites-for-ai-agents/) ガイドは、同じ規律をパブリック Web システムに適用します。
 
 ## よくある質問
 

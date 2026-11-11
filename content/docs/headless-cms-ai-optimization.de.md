@@ -26,7 +26,7 @@ Traditionelles SEO fragt, ob eine Seite ranken kann. KI-Optimierung wirft zusät
 - Kann ein KI-Agent den nächsten Schritt finden?
 - Sind wichtige Inhalte außerhalb eines visuellen Designs verfügbar?
 
-Hier kommt es auf die CMS-Architektur an. Lesen Sie die umfassenderen Leitfäden [AI Search Optimization](/es/docs/ai-search-optimization/) und [Agent Engine Optimization](/es/docs/what-is-aeo/), um den Kontext zu erfahren.
+Hier kommt es auf die CMS-Architektur an. Lesen Sie die umfassenderen Leitfäden [AI Search Optimization](/de/docs/ai-search-optimization/) und [Agent Engine Optimization](/de/docs/what-is-aeo/), um den Kontext zu erfahren.
 
 ##Architekturvergleich für KI-Systeme
 
@@ -60,7 +60,7 @@ Ein gutes Headless-CMS-Modell kann Folgendes definieren:
 
 Diese Struktur kann HTML-Seiten, interne Suchen, llms.txt-Zusammenfassungen, API-Ergebnisse und agentenseitige Dokumentation steuern.
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) erfordert weiterhin Aktionsendpunkte, aber die Inhaltsschicht wird einfacher zu verstehen.
+Die [Ausführungsschicht](/de/docs/execution-layer/) erfordert weiterhin Aktionsendpunkte, aber die Inhaltsschicht wird einfacher zu verstehen.
 
 ## Wo Headless bei der KI-Optimierung scheitern kann
 
@@ -87,7 +87,7 @@ Häufige Fehler:
 | Häufig gestellte Fragen | Frage, direkte Antwort, Quelle der Unterstützung |
 | Autor | Name, Rolle, Erfahrung, überprüfte Seiten |
 | Protokoll | Status, Eigentümer, Version, Anwendungsfälle, Risiken |
-| Service | Problem, Ergebnis, Prozess, Berechtigung, nächster Schritt |Das [AEO-Entwicklerhandbuch](/es/docs/developers-guide-aeo/) zeigt, wie diese Felder eine Verbindung zu agentenbereiten Websites herstellen.
+| Service | Problem, Ergebnis, Prozess, Berechtigung, nächster Schritt |Das [AEO-Entwicklerhandbuch](/de/docs/developers-guide-aeo/) zeigt, wie diese Felder eine Verbindung zu agentenbereiten Websites herstellen.
 
 ## Herkömmliche CMS können immer noch funktionieren
 

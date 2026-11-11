@@ -42,7 +42,7 @@ Die „llms.txt“-Dokumentation von Chrome macht einen wichtigen Unterschied: E
 
 ## Warum dies für AEOs wichtig ist
 
-Das [AEO Readiness Audit](/es/docs/audit/) überprüft bereits Erkennung, Leseschicht, Ausführungsschicht und Vertrauen. Lighthouse bietet Entwicklern eine einfache Möglichkeit, einige dieser Signale in einer vertrauten Tool-Umgebung zu erfassen.
+Das [AEO Readiness Audit](/de/docs/audit/) überprüft bereits Erkennung, Leseschicht, Ausführungsschicht und Vertrauen. Lighthouse bietet Entwicklern eine einfache Möglichkeit, einige dieser Signale in einer vertrauten Tool-Umgebung zu erfassen.
 
 Es ist kein Ersatz für eine vollständige AEO-Prüfung. Hilft Entwicklern bei der Validierung bestimmter technischer Teile:
 
@@ -63,7 +63,7 @@ Eine praktische Akte muss Folgendes enthalten:
 - maschinenlesbare Ressourcen
 - Aktualisierungsdatum
 
-Der [llms.txt-Leitfaden](/es/docs/programming-llms-txt/) erklärt, wie man ihn strukturiert. Die Hauptregel ist einfach: Helfen Sie dem Agenten zu verstehen, was er zuerst lesen soll.
+Der [llms.txt-Leitfaden](/de/docs/programming-llms-txt/) erklärt, wie man ihn strukturiert. Die Hauptregel ist einfach: Helfen Sie dem Agenten zu verstehen, was er zuerst lesen soll.
 
 ## So bereiten Sie WebMCP-Tools vorDie Prüfung der registrierten WebMCP-Tools ist informativ. Wenn keine registrierten Werkzeuge vorhanden sind, ist die Liste leer. Dies ist nicht automatisch ein Fehler, sondern zeigt, ob die Seite Aktionen auf eine Art und Weise bereitstellt, die für den Browser-Agenten benutzerfreundlich ist.
 
@@ -77,7 +77,7 @@ Zu den guten ersten Tools gehören:
 - Support-Ticket einreichen
 - Produkte vergleichen
 
-Der [WebMCP-Leitfaden](/es/docs/webmcp-agent-ready-websites/) beschreibt, wann Tools auf Seitenebene im Vergleich zu serverseitigem MCP verwendet werden sollten.
+Der [WebMCP-Leitfaden](/de/docs/webmcp-agent-ready-websites/) beschreibt, wann Tools auf Seitenebene im Vergleich zu serverseitigem MCP verwendet werden sollten.
 
 ## Vorgeschlagener Workflow| Schritt | Aktion | Ausgabe |
 |
@@ -90,7 +90,7 @@ Der [WebMCP-Leitfaden](/es/docs/webmcp-agent-ready-websites/) beschreibt, wann T
 | 4 | Wiederholen Sie Leuchtturm | Erkennung bestätigen |
 | 5 | Serverseitige Protokolle für Agentenaktionen hinzufügen | Messschicht |
 
-Dieser Workflow verbindet die technische Validierung mit der [Ausführungsschicht](/es/docs/execution-layer/). Das Bestehen eines Audits ist weniger wichtig als der Nachweis, dass ein Agent eine nützliche Aufgabe erledigen kann.
+Dieser Workflow verbindet die technische Validierung mit der [Ausführungsschicht](/de/docs/execution-layer/). Das Bestehen eines Audits ist weniger wichtig als der Nachweis, dass ein Agent eine nützliche Aufgabe erledigen kann.
 
 ## Was man nicht tun sollte
 

@@ -45,7 +45,7 @@ Die Agentic Payments Suite und Mastercard Agent Pay von Fireblocks weisen auf di
 | Widerruf | Der Benutzer kann die Agent-Token- oder Wallet-Gewährung deaktivieren |
 | Audit-Trail | Jede Aktion erfasst die Absicht, die Zahlung und das Ergebnis |
 
-Diese Steuerelemente sind für die [Ausführungsschicht](/es/docs/execution-layer/) unerlässlich.
+Diese Steuerelemente sind für die [Ausführungsschicht](/de/docs/execution-layer/) unerlässlich.
 
 ## Kartentoken vs. Stablecoin-Wallets
 
@@ -59,7 +59,7 @@ Diese Steuerelemente sind für die [Ausführungsschicht](/es/docs/execution-laye
 | Kontoguthaben | Nützlich für SaaS und API | Auf eine Plattform beschränkt |
 | Banküberweisung/Bahnen in Echtzeit | Gut für Märkte mit schnellen Rechnungszahlungen | Verfügbarkeit und Rückerstattungslogik variieren |
 
-Der [Vergleich der Agentenzahlungsprotokolle](/es/docs/agent-payment-protocols-compared/) bildet die Protokollschicht ab. Diese Seite konzentriert sich auf die Wallet-Kontrollebene.
+Der [Vergleich der Agentenzahlungsprotokolle](/de/docs/agent-payment-protocols-compared/) bildet die Protokollschicht ab. Diese Seite konzentriert sich auf die Wallet-Kontrollebene.
 
 ## Geschäftliche Auswirkungen
 
@@ -81,7 +81,7 @@ Das bedeutet, dass Zahlungssysteme mehr Kontext speichern sollten als eine norma
 5. Überprüfen Sie die Betrugsregeln für von Agenten durchgeführte Transaktionen.
 6. Halten Sie Rückerstattungs- und Stornierungserklärungen maschinenlesbar.
 
-Der Artikel [Fireblocks Agentic Payments Suite](/es/docs/fireblocks-agentic-payments-suite/) behandelt ein Beispiel für eine Infrastruktur.
+Der Artikel [Fireblocks Agentic Payments Suite](/de/docs/fireblocks-agentic-payments-suite/) behandelt ein Beispiel für eine Infrastruktur.
 
 ## Häufig gestellte Fragen
 

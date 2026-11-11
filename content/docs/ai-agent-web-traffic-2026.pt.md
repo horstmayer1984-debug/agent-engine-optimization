@@ -55,7 +55,7 @@ Comece com uma pequena configuração de medição:
 5. Rotas de conversão após sessões assistidas por IA.
 6. Taxas de erro em formulários e etapas de pagamento utilizadas por clientes automatizados.7. Solicitações bloqueadas de rastreadores de IA e agentes de navegador.
 
-Para medição do lado SEO, use [AI Referral Attribution for AEO SEO](/es/docs/ai-referral-attribution-seo/). Para política de controle de acesso, leia [AI Crawlers e robots.txt](/es/docs/ai-crawlers-robots-txt/) e [Web Bot Auth for AI Crawlers](/es/docs/web-bot-auth-ai-crawlers/).
+Para medição do lado SEO, use [AI Referral Attribution for AEO SEO](/pt/docs/ai-referral-attribution-seo/). Para política de controle de acesso, leia [AI Crawlers e robots.txt](/pt/docs/ai-crawlers-robots-txt/) e [Web Bot Auth for AI Crawlers](/pt/docs/web-bot-auth-ai-crawlers/).
 
 ## Decisões de controle de acesso| Decisão | Use quando | Risco |
 |
@@ -79,7 +79,7 @@ Bloquear todo o tráfego automatizado não é mais uma opção padrão neutra. V
 6. Teste se um agente navegador pode concluir tarefas seguras sem adivinhar.
 7. Separe a boa automação do abuso na linguagem política.
 
-Isso se conecta a [Agent UX e AEO SEO](/es/docs/agent-ux-aeo-seo/) e [Lighthouse Agentic Browsing Audit](/es/docs/lighthouse-agentic-browsing-audit/).
+Isso se conecta a [Agent UX e AEO SEO](/pt/docs/agent-ux-aeo-seo/) e [Lighthouse Agentic Browsing Audit](/pt/docs/lighthouse-agentic-browsing-audit/).
 
 ## Perguntas frequentes
 

@@ -32,7 +32,7 @@ AI エージェント プロトコルは、自律システムが機能を発見�
 
 [llms.txt](/llms.txt) などの読み取り可能な検出ファイルから始めて、OpenAPI を使用して API を文書化し、安定したエンドポイントを通じて価値の高いアクションを公開します。
 
-次をお読みください: [MCP 対エージェント API](/es/docs/mcp-vs-api-for-agents/)、[エージェント カードと A2A プロトコル](/es/docs/agent-cards-a2a-protocol/)、[x402 エージェント支払い](/es/docs/x402-agent-payments/)、および [実行層](/es/docs/execution-layer/)。
+次をお読みください: [MCP 対エージェント API](/ja/docs/mcp-vs-api-for-agents/)、[エージェント カードと A2A プロトコル](/ja/docs/agent-cards-a2a-protocol/)、[x402 エージェント支払い](/ja/docs/x402-agent-payments/)、および [実行層](/ja/docs/execution-layer/)。
 
 ## 責任に応じてプロトコルを選択する
 

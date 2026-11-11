@@ -37,7 +37,7 @@ Google はまた、グラフベースのワークフロー エンジン、組み
 |決定的なワークフロー |既知の複数ステップのプロセス |初期モデリングが必要 |
 |ループ内の人間のワークフロー |危険な行為または取り返しのつかない行為 |遅いけど安全 |
 
-[実行層](/es/docs/execution-layer/) は、重要なビジネス アクションに対して決定論的なパスを優先する必要があります。
+[実行層](/ja/docs/execution-layer/) は、重要なビジネス アクションに対して決定論的なパスを優先する必要があります。
 
 ## Web サイトに対する AEO の影響
 
@@ -54,7 +54,7 @@ ADK 2.0 は、エージェントにボタンやマーケティング コピー�
 - 最終確認メッセージ
 - 監査ログ
 
-これは、[エージェント UX とヒューマンインザループ設計](/es/docs/agent-ux-human-in-the-loop/)、[マルチエージェント AEO](/es/docs/multi-agent-aeo/)、および [エージェント対応 Web アプリ](/es/docs/agent-ready-web-apps/) に接続します。
+これは、[エージェント UX とヒューマンインザループ設計](/ja/docs/agent-ux-human-in-the-loop/)、[マルチエージェント AEO](/ja/docs/multi-agent-aeo/)、および [エージェント対応 Web アプリ](/ja/docs/agent-ready-web-apps/) に接続します。
 
 ## 例: 予約の予約
 

@@ -55,7 +55,7 @@ HUMAN の [2026 年の AI トラフィックおよびサイバー脅威ベンチ
 5. AI支援セッション後のコンバージョンルート。
 6. 自動化された顧客が使用するフォームおよび支払い手順のエラー率。7. AI トラッカーとブラウザ エージェントからのリクエストをブロックしました。
 
-SEO側の計測には【AI Referral Attribution for AEO SEO】(/es/docs/ai-referral-attribution-seo/)をご利用ください。アクセス制御ポリシーについては、[AI クローラーと robots.txt](/es/docs/ai-crawlers-robots-txt/) および [AI クローラーの Web ボット認証](/es/docs/web-bot-auth-ai-crawlers/) を参照してください。
+SEO側の計測には【AI Referral Attribution for AEO SEO】(/es/docs/ai-referral-attribution-seo/)をご利用ください。アクセス制御ポリシーについては、[AI クローラーと robots.txt](/ja/docs/ai-crawlers-robots-txt/) および [AI クローラーの Web ボット認証](/ja/docs/web-bot-auth-ai-crawlers/) を参照してください。
 
 ## アクセス制御の決定|決定 | | の場合に使用します。リスク |
 |
@@ -79,7 +79,7 @@ SEO側の計測には【AI Referral Attribution for AEO SEO】(/es/docs/ai-refer
 6. ブラウザ エージェントが推測せずに安全なタスクを完了できるかどうかをテストします。
 7. 優れた自動化と政治的言語による乱用を区別する。
 
-これは、[エージェント UX と AEO SEO](/es/docs/agent-ux-aeo-seo/) および [Lighthouse Agentic Browsing Audit](/es/docs/lighthouse-agentic-browsing-audit/) に接続します。
+これは、[エージェント UX と AEO SEO](/ja/docs/agent-ux-aeo-seo/) および [Lighthouse Agentic Browsing Audit](/ja/docs/lighthouse-agentic-browsing-audit/) に接続します。
 
 ## よくある質問
 

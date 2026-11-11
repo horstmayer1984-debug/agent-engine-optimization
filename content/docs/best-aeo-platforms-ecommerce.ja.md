@@ -4,7 +4,6 @@ date: 2026-04-19
 weight: 111
 category: "Guide"
 description: "電子商取引用 AEO プラットフォームの比較: HubSpot AEO、Webflow AEO、Conductor、および専用ツール。各プラットフォームの機能にはコストがかかります。"
-metaDescription: "Compare plataformas AEO para comercio electrónico, incluidas HubSpot, Webflow, Conductor, costos, casos de uso, funciones de visibilidad de IA y adecuación."
 summary: "現在、5 つのプラットフォームが電子商取引用の AEO 機能を提供しています。それぞれの機能、費用、および AEO スイートのどの部分をカバーするかは次のとおりです。"
 keywords:
   - "最高のAeo eコマースプラットフォーム"
@@ -32,7 +31,7 @@ keywords:
 
 ## HubSpot AEO
 
-[2026 年 4 月 14 日リリース](/es/docs/hubspot-webflow-aeo-launch/)、HubSpot AEO は、ChatGPT、Gemini、および Perplexity でブランドがどのように表示されるかを追跡します。 e コマースの差別化要因: AI 可視性データを CRM と結び付けて、どの実際の顧客の問い合わせが AI 紹介トラフィックを促進しているかを示します。
+[2026 年 4 月 14 日リリース](/ja/docs/hubspot-webflow-aeo-launch/)、HubSpot AEO は、ChatGPT、Gemini、および Perplexity でブランドがどのように表示されるかを追跡します。 e コマースの差別化要因: AI 可視性データを CRM と結び付けて、どの実際の顧客の問い合わせが AI 紹介トラフィックを促進しているかを示します。
 
 最適な用途: すでに HubSpot CRM を使用しており、AI の可視性をチャネル データと結び付けたいと考えている e コマース ブランド。弱いもの: HubSpot にないブランド (CRM 統合が重要な利点)。
 
@@ -44,15 +43,15 @@ keywords:
 
 ## プラットフォームがまだカバーしていないもの
 
-2026 年 4 月の時点で、電子商取引の [実行層](/es/docs/execution-layer/) に対応しているプラットフォームはありません。確定的な支払いエンドポイントの作成、UCP 機能ステートメントの実装、製品カタログ アクセス用の MCP サーバーの作成、または [x402 マイクロペイメント](/es/docs/x402-agent-payments/) エンドポイントの構成です。
+2026 年 4 月の時点で、電子商取引の [実行層](/ja/docs/execution-layer/) に対応しているプラットフォームはありません。確定的な支払いエンドポイントの作成、UCP 機能ステートメントの実装、製品カタログ アクセス用の MCP サーバーの作成、または [x402 マイクロペイメント](/ja/docs/x402-agent-payments/) エンドポイントの構成です。
 
 ここに戦略的な利点があります。プラットフォームは読書層を商品化します。実行層には、防御可能な競争力を生み出すカスタム エンジニアリング作業が必要です。
 
-## e コマース向けの推奨スタック小規模 e コマース (商品 500 未満): Google リッチリザルト テスト (無料)、AI 可視性トラッカー (月額 100 ～ 200 ユーロ)、および [初心者ガイド](/es/docs/aeo-ecommerce-beginner-guide/) を使用した手動コンテンツの最適化。
+## e コマース向けの推奨スタック小規模 e コマース (商品 500 未満): Google リッチリザルト テスト (無料)、AI 可視性トラッカー (月額 100 ～ 200 ユーロ)、および [初心者ガイド](/ja/docs/aeo-ecommerce-beginner-guide/) を使用した手動コンテンツの最適化。
 
-中規模 e コマース (500 ～ 10,000 製品): モニタリングのための HubSpot AEO または Conductor、構造化データ自動化、およびコンテンツ最適化のための [12 AEO ヒント](/es/docs/aeo-ecommerce-tips/)。
+中規模 e コマース (500 ～ 10,000 製品): モニタリングのための HubSpot AEO または Conductor、構造化データ自動化、およびコンテンツ最適化のための [12 AEO ヒント](/ja/docs/aeo-ecommerce-tips/)。
 
-エンタープライズ電子商取引 (10,000 以上の製品): [実装ガイド](/es/docs/implement-aeo/) および [開発者チェックリスト](/es/docs/agent-ready-web-apps/) を使用した、実行層作業のための監視と内部エンジニアリングのための完全なプラットフォーム。
+エンタープライズ電子商取引 (10,000 以上の製品): [実装ガイド](/ja/docs/implement-aeo/) および [開発者チェックリスト](/ja/docs/agent-ready-web-apps/) を使用した、実行層作業のための監視と内部エンジニアリングのための完全なプラットフォーム。
 
 ---
 

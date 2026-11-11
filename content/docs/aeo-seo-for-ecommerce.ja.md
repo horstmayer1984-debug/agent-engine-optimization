@@ -34,7 +34,7 @@ e コマースの AEO SEO とは、商品ページが検索でランク付けさ
 
 問題は、多くの店舗がこうした事実を機械ではなく人間にさらしていることだ。ページは洗練されているように見えても、エージェントの選択には弱い場合があります。
 
-より幅広い機会については、既存の [AEO eCommerce ユースケース](/es/docs/aeo-use-cases-ecommerce/) ページをお読みください。
+より幅広い機会については、既存の [AEO eCommerce ユースケース](/ja/docs/aeo-use-cases-ecommerce/) ページをお読みください。
 
 ## e コマース SEO と e コマース AEO SEO
 
@@ -84,7 +84,7 @@ SEOとAEOの違いはカート内で明らかになります。エージェン�
 - 注文確認
 - 配送状況
 
-[ユニバーサル カート ガイド](/es/docs/universal-cart-agentic-commerce/) および [AI ショッピング カタログの準備](/es/docs/ai-shopping-catalog-readiness/) ページでは、これらの新しいビジネス レイヤーについて説明しています。
+[ユニバーサル カート ガイド](/ja/docs/universal-cart-agentic-commerce/) および [AI ショッピング カタログの準備](/ja/docs/ai-shopping-catalog-readiness/) ページでは、これらの新しいビジネス レイヤーについて説明しています。
 
 ## e コマース SEO AEO の測定
 
@@ -100,7 +100,7 @@ SEOとAEOの違いはカート内で明らかになります。エージェン�
 |支払い失敗率 |実行の問題を示します |
 |購入後の例外 |コンプライアンスに自信を示す |
 
-[エージェント取引アトリビューション](/es/docs/agentic-commerce-attribution/) ガイドは、測定レイヤーをカバーしています。
+[エージェント取引アトリビューション](/ja/docs/agentic-commerce-attribution/) ガイドは、測定レイヤーをカバーしています。
 
 ## よくある質問
 

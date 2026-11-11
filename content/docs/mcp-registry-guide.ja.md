@@ -62,7 +62,7 @@ AEO の場合、教訓はさらに広がります。サービスが使用可能�
 |エージェントカード |ピアツーピア対話のためのエージェントの機能を宣言する |
 | OpenAPI または MCP スキーム |呼び出し可能な操作の説明 |
 
-[llms.txt ガイド](/es/docs/programming-llms-txt/)、[エージェント カード ガイド](/es/docs/agent-cards-a2a-protocol/)、および [MCP 対 API ガイド](/es/docs/mcp-vs-api-for-agents/) は、隣接するレイヤーをカバーしています。
+[llms.txt ガイド](/ja/docs/programming-llms-txt/)、[エージェント カード ガイド](/ja/docs/agent-cards-a2a-protocol/)、および [MCP 対 API ガイド](/ja/docs/mcp-vs-api-for-agents/) は、隣接するレイヤーをカバーしています。
 
 ## サーバー編集者は何を準備する必要がありますか?
 
@@ -80,7 +80,7 @@ AEO の場合、教訓はさらに広がります。サービスが使用可能�
 
 MCP ドキュメントには、レジストリがプレビュー段階にあり、一般提供前に変更される可能性があることが記載されています。つまり、チームはそれを使用し、そこから学び、後で元に戻すのにコストがかかるハードコードされた仮定を避ける必要があります。
 
-ここでは [MCP 認証ガイド](/es/docs/mcp-authorization-oauth-ai-agents/) も重要です。検出はアクセス制御を超えてはなりません。
+ここでは [MCP 認証ガイド](/ja/docs/mcp-authorization-oauth-ai-agents/) も重要です。検出はアクセス制御を超えてはなりません。
 
 ## よくある質問
 

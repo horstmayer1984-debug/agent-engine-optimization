@@ -56,7 +56,7 @@ Verwenden Sie „llms.txt“, wenn Sie einen prägnanten, ausgewählten Überbli
 - Schlüsseldokumente oder Protokollreferenzen
 - maschinenlesbare Ressourcen, wie zum Beispiel eine Sitemap
 
-Der [llms.txt-Leitfaden](/es/docs/programming-llms-txt/) behandelt Implementierungsdetails. Der [Lighthouse Agent Navigation Guide](/es/docs/lighthouse-agentic-browsing-audit/) erklärt, warum Browser-Tools damit begonnen haben, danach zu suchen.
+Der [llms.txt-Leitfaden](/de/docs/programming-llms-txt/) behandelt Implementierungsdetails. Der [Lighthouse Agent Navigation Guide](/de/docs/lighthouse-agentic-browsing-audit/) erklärt, warum Browser-Tools damit begonnen haben, danach zu suchen.
 
 ## Warum verwirren die Leute sie?
 
@@ -80,7 +80,7 @@ Für eine agentenbereite Website verwenden Sie beides:1. Halten Sie „robots.tx
 4. Führen Sie nach größeren Änderungen an der Vorlage oder dem CDN einen erneuten Test durch.
 5. Aktionsoberflächen separat über API, MCP, UCP oder ähnliche Protokolle hinzufügen.
 
-Der letzte Punkt ist wichtig. Eine Site kann über perfekte Textdateien verfügen und dennoch für Agenten unbrauchbar sein, wenn keine [Laufzeitebene](/es/docs/execution-layer/) vorhanden ist.
+Der letzte Punkt ist wichtig. Eine Site kann über perfekte Textdateien verfügen und dennoch für Agenten unbrauchbar sein, wenn keine [Laufzeitebene](/de/docs/execution-layer/) vorhanden ist.
 
 ## Häufige Fehler- Behandeln Sie „llms.txt“ als Tracker-Berechtigungsdatei
 - Füllen Sie „llms.txt“ mit jeder Site-URL

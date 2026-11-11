@@ -5,7 +5,6 @@ date: 2026-03-18
 weight: 13
 category: "Architecture"
 description: "Descubra como o Multi-Agent AEO estrutura conteúdo, ferramentas, permissões e fluxos de trabalho para interação coordenada entre máquinas."
-metaDescription: "Descubra cómo los sitios web deberían admitir la interacción coordinada de las máquinas cuando varios agentes de IA planifican, comparan, delegan y ejecutan."
 summary: "Os sistemas multiagentes aumentam os riscos para os AEOs. Em vez de um modelo lendo uma página, vários agentes especializados cooperam na descoberta, comparação, ação e verificação."
 keywords:
   - "Sistemas multiagentes AEO"
@@ -35,7 +34,7 @@ Um usuário humano pode resolver inconsistências com bom senso. Um sistema dist
 
 A prontidão multiagente depende de convenções de nomenclatura estáveis, lógica de campo consistente, restrições explícitas, definições de ações previsíveis e resultados verificáveis.
 
-Quanto mais especializado o ecossistema de agentes se torna, menor é a tolerância para designs confusos de páginas. [O que é AEO](/es/docs/what-is-aeo/) captura isso em sua distinção entre a camada de leitura e a [camada de execução](/es/docs/execution-layer/).
+Quanto mais especializado o ecossistema de agentes se torna, menor é a tolerância para designs confusos de páginas. [O que é AEO](/pt/docs/what-is-aeo/) captura isso em sua distinção entre a camada de leitura e a [camada de execução](/pt/docs/execution-layer/).
 
 ## Design para interação baseada em funções
 

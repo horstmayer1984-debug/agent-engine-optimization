@@ -22,7 +22,7 @@ Pense em um CMS tradicional como um pacote único: editor, tema, modelos, menus,
 
 Pense em um CMS headless como um back-end de conteúdo: entradas, campos, ativos, fluxos de trabalho, funções e APIs. O site é construído separadamente.
 
-A página existente [Headless CMS vs Traditional CMS](/es/docs/headless-cms-vs-traditional-cms/) é mais aprofundada. Esta página é para equipes que desejam primeiro uma resposta simples no nível de decisão.
+A página existente [Headless CMS vs Traditional CMS](/pt/docs/headless-cms-vs-traditional-cms/) é mais aprofundada. Esta página é para equipes que desejam primeiro uma resposta simples no nível de decisão.
 
 ## Comparação de CMS e CMS sem cabeça
 
@@ -62,7 +62,7 @@ O risco é diferente. Os sites CMS tradicionais geralmente sofrem com uma sobrec
 
 ##Diferença de otimização de IA
 
-Para [otimização de pesquisa de IA](/es/docs/ai-search-optimization/) e [AEO](/es/docs/what-is-aeo/), a arquitetura headless pode ajudar porque o conteúdo é estruturado na fonte. Um produto, artigo, FAQ ou perfil de autor podem ser armazenados como campos e reutilizados em HTML, respostas de API, aplicativos e índices legíveis por máquina.
+Para [otimização de pesquisa de IA](/pt/docs/ai-search-optimization/) e [AEO](/pt/docs/what-is-aeo/), a arquitetura headless pode ajudar porque o conteúdo é estruturado na fonte. Um produto, artigo, FAQ ou perfil de autor podem ser armazenados como campos e reutilizados em HTML, respostas de API, aplicativos e índices legíveis por máquina.
 
 Mas os sistemas de IA ainda precisam de páginas rastreáveis, definições claras, links de fontes e links internos. Um CMS headless não é um atalho quando se trata de qualidade de conteúdo.
 
@@ -85,7 +85,7 @@ Escolha um CMS headless quando:
 - problema de desempenho e controle de componentes
 - o conteúdo deve ser convertido em dados estruturados
 - os desenvolvedores podem manter a pilha
-- Agentes de IA e mecanismos de resposta precisam de superfícies de conteúdo limpasPara obter detalhes de implementação, use [Headless CMS SEO](/es/docs/headless-cms-seo/) e [Headless SEO](/es/docs/headless-seo/).
+- Agentes de IA e mecanismos de resposta precisam de superfícies de conteúdo limpasPara obter detalhes de implementação, use [Headless CMS SEO](/pt/docs/headless-cms-seo/) e [Headless SEO](/pt/docs/headless-seo/).
 
 ## Perguntas frequentes
 

@@ -50,7 +50,7 @@ Para os comerciantes, o sinal é claro: a identidade do agente e a autenticaçã
 | FIDO | Organismo de padronização para trabalho de autenticação e interação com agentes |
 | Sistemas de negociação | Aplicar políticas, pagamentos, conformidade e decisões de suporte |
 
-Isso se conecta a [AP2 vs x402](/es/docs/ap2-vs-x402/) e [Visa TAP vs Mastercard Agent Pay](/es/docs/visa-tap-mastercard-agent-pay/).
+Isso se conecta a [AP2 vs x402](/pt/docs/ap2-vs-x402/) e [Visa TAP vs Mastercard Agent Pay](/pt/docs/visa-tap-mastercard-agent-pay/).
 
 ## Implicações da implementação do comerciante
 
@@ -78,7 +78,7 @@ Este não é apenas um recurso pago. Afeta suporte, fraude, reembolsos, fidelida
 | Podemos armazenar evidências de auditoria? | As disputas precisam de fatos |
 | Os usuários podem revogar a autoridade do agente? | O controle deve permanecer com o usuário |
 
-A página [evidência de disputas comerciais entre agentes](/es/docs/agentic-commerce-dispute-evidence/) se aprofunda na camada de auditoria.
+A página [evidência de disputas comerciais entre agentes](/pt/docs/agentic-commerce-dispute-evidence/) se aprofunda na camada de auditoria.
 
 ## Perguntas frequentes
 

@@ -46,7 +46,7 @@ NLWeb zielt auf eine vierte Ebene ab: Endpunkte in natürlicher Sprache für KI-
 | NLWeb-Endpunkt | Ein Mensch oder ein KI-Agent stellt eine Frage zu einer Aufgabe | Von Site-Daten unterstützte Schnittstelle in natürlicher Sprache |
 | MCP-Tool | Agent, der eine strukturierte Aktion benötigt | Werkzeugschema und Endpunkt |
 
-Informationen zur zugehörigen Architektur finden Sie unter [MCP-Ressourcen, Tools und Nachrichten](/es/docs/mcp-resources-tools-prompts/) und [MCP vs. API für Agents](/es/docs/mcp-vs-api-for-agents/).
+Informationen zur zugehörigen Architektur finden Sie unter [MCP-Ressourcen, Tools und Nachrichten](/de/docs/mcp-resources-tools-prompts/) und [MCP vs. API für Agents](/de/docs/mcp-vs-api-for-agents/).
 
 ## Welche Websites sollten NLWeb zuerst sehen?
 
@@ -74,7 +74,7 @@ Auch wenn Sie NLWeb noch nicht implementieren, bereiten Sie die Datenschicht vor
 5. Aktualisierungshäufigkeit und Verfügbarkeitsregeln für Dokumente.
 6. Entscheiden Sie, welche Datenbroker Abfragen durchführen können und welche Daten eine Authentifizierung erfordern.7. Ordnen Sie potenzielle Fragen Quelldatenfeldern zu.
 
-Dies überschneidet sich mit [AI Agent Website Programming](/es/docs/programming-websites-for-ai-agents/) und [Agent-Ready Web Applications](/es/docs/agent-ready-web-apps/).
+Dies überschneidet sich mit [AI Agent Website Programming](/de/docs/programming-websites-for-ai-agents/) und [Agent-Ready Web Applications](/de/docs/agent-ready-web-apps/).
 
 ## NLWeb vs. Scraping| Frage | Geschabt | Endpunkt im NLWeb-Stil |
 |

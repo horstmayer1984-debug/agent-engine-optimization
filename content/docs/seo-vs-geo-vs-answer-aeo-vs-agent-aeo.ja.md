@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 51
 category: "Framework"
 description: "SEO、GEO、アンサー エンジン最適化、エージェント エンジン最適化の決定的な比較。異なる目的を持つ 4 つの異なる分野。"
-metaDescription: "Compare SEO, GEO, optimización de Answer Engine y optimización de Agent Engine por objetivos, tácticas, requisitos técnicos y métricas de éxito."
 summary: "4 つの頭字語、4 つの異なる分野。 SEOはランキングを狙うものです。 GEO は AI の予約をターゲットにしています。回答の目的 AEO の注目の回答。 AEOエージェントは自律的にタスクを完了することを目指します。それらがどのように異なり、どこが重複するかは次のとおりです。"
 keywords:
   - "SEO、GEO、AEO"

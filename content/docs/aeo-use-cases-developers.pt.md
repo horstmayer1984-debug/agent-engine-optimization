@@ -5,7 +5,6 @@ date: 2026-03-19
 weight: 24
 category: "Guide"
 description: "Como os desenvolvedores se beneficiam do AEO: os agentes de IA navegam na documentação, geram código, depuram problemas e organizam fluxos."
-metaDescription: "Vea cómo AEO ayuda a los desarrolladores a mejorar la documentación, la generación de código, la depuración y los flujos de trabajo de varios pasos a través."
 summary: "Ferramentas de desenvolvimento e documentação são território privilegiado para AEO. Quando repositórios, documentos e APIs são otimizados para interação com agentes, os agentes de codificação tornam-se dramaticamente mais eficazes."
 keywords:
   - "Desenvolvedores AEO"
@@ -42,13 +41,13 @@ Este fluxo de trabalho depende de documentação estruturada de erros. Cada cód
 
 Tarefas complexas de desenvolvimento envolvem a cooperação de múltiplos agentes. Um agente planeja a arquitetura, outro escreve a implementação, um terceiro gera testes e um quarto analisa questões de segurança.
 
-Cada agente nesta cadeia precisa de acesso a diferentes partes da documentação e da base de código. AEO para desenvolvimento multiagente significa expor informações modulares e apropriadas à função: decisões arquitetônicas para o planejador, detalhes da API para o implementador, padrões de teste para o redator do teste, diretrizes de segurança para o revisor.O artigo [AEO multiagente](/es/docs/multi-agent-aeo/) aborda detalhadamente a otimização da orquestração.
+Cada agente nesta cadeia precisa de acesso a diferentes partes da documentação e da base de código. AEO para desenvolvimento multiagente significa expor informações modulares e apropriadas à função: decisões arquitetônicas para o planejador, detalhes da API para o implementador, padrões de teste para o redator do teste, diretrizes de segurança para o revisor.O artigo [AEO multiagente](/pt/docs/multi-agent-aeo/) aborda detalhadamente a otimização da orquestração.
 
 ## Descoberta de ferramentas e APIs
 
 Os agentes selecionam quais ferramentas e bibliotecas usar com base nas informações disponíveis. Uma biblioteca bem documentada com instruções de instalação claras, guias de início rápido e descrições estruturadas de recursos é selecionada em vez de uma alternativa igualmente capaz, mas mal documentada.
 
-Este é o equivalente para desenvolvedores à descoberta de produtos no comércio eletrônico. [O que é AEO?](/es/docs/what-is-aeo/) explica o modelo estrutural aplicado em ambos os domínios.
+Este é o equivalente para desenvolvedores à descoberta de produtos no comércio eletrônico. [O que é AEO?](/pt/docs/what-is-aeo/) explica o modelo estrutural aplicado em ambos os domínios.
 
 ---
 
@@ -71,7 +70,7 @@ Vários agentes especializados (planejador, codificador, testador, revisor) prec
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

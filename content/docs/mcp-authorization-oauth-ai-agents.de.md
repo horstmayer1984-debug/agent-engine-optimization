@@ -25,11 +25,11 @@ Primärquellen:
 
 - [MCP-Autorisierungsspezifikation](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization)
 - [MCP-Roadmap 2026](https://modelcontextprotocol.io/development/roadmap)
-- [MCP vs. API-Leitfaden auf dieser Website](/es/docs/mcp-vs-api-for-agents/)
+- [MCP vs. API-Leitfaden auf dieser Website](/de/docs/mcp-vs-api-for-agents/)
 
 ## Warum die Autorisierung ein AEO-Problem ist
 
-Die [Ausführungsebene](/es/docs/execution-layer/) ist nicht sinnvoll, wenn jede Aktion öffentlich ist oder jede Aktion erfordert, dass ein Mensch die Anmeldeinformationen manuell kopiert. Agenten benötigen kontrollierten Zugriff.
+Die [Ausführungsebene](/de/docs/execution-layer/) ist nicht sinnvoll, wenn jede Aktion öffentlich ist oder jede Aktion erfordert, dass ein Mensch die Anmeldeinformationen manuell kopiert. Agenten benötigen kontrollierten Zugriff.
 
 Beispiele:
 
@@ -77,7 +77,7 @@ Die meisten Unternehmen sollten mit schreibgeschützten oder risikoarmen öffent
 4. Veröffentlichen Sie Autorisierungsmetadaten dort, wo Kunden sie finden können.
 5. Verwenden Sie Token mit kurzer Laufzeit für Aktien mit höherem Risiko.
 6. Notieren Sie die Agentenidentität, die Benutzeridentität, den Toolnamen, die Eingabezusammenfassung und den Ergebnisstatus.
-7. Fügen Sie eine menschliche Bestätigung für irreversible oder kostspielige Maßnahmen hinzu.Der [Agent Guardrails and Observability Guide](/es/docs/agent-observability-guardrails/) erweitert dies auf die Betriebsüberwachung.
+7. Fügen Sie eine menschliche Bestätigung für irreversible oder kostspielige Maßnahmen hinzu.Der [Agent Guardrails and Observability Guide](/de/docs/agent-observability-guardrails/) erweitert dies auf die Betriebsüberwachung.
 
 ## Scope-Design-Beispiel
 
@@ -102,7 +102,7 @@ Wenn Ihre Site eingeschränkte MCP-Tools anbietet, sollte Ihre öffentliche Doku
 - wenn ein menschlicher Bestätigungsschritt erforderlich ist
 - wie Anmeldungen und Widerrufe funktionieren
 
-Fügen Sie Links zu diesen Dokumenten aus [llms.txt](/es/docs/programming-llms-txt/) hinzu, damit Agenten das Zugriffsmodell erkennen können, bevor sie versuchen, die Tools aufzurufen.
+Fügen Sie Links zu diesen Dokumenten aus [llms.txt](/de/docs/programming-llms-txt/) hinzu, damit Agenten das Zugriffsmodell erkennen können, bevor sie versuchen, die Tools aufzurufen.
 
 ## Häufige Fehler
 

@@ -23,7 +23,7 @@ Fireblocks Agentic Payments Suite は、ユーザー、フィンテック、決�
 
 Fireblocks はまた、このスイートは、定義された制御と監査証跡の範囲内で、x402 や MPP などの新興エージェント支払い標準をサポートしているとも述べています。
 
-コンテキストについては、[エージェント支払いプロトコル](/es/docs/agent-payment-protocols-compared/)、[x402 エージェント支払い](/es/docs/x402-agent-payments/)、および [循環エージェント スタック](/es/docs/circle-agent-stack-agent-payments/) の既存のガイドを参照してください。
+コンテキストについては、[エージェント支払いプロトコル](/ja/docs/agent-payment-protocols-compared/)、[x402 エージェント支払い](/ja/docs/x402-agent-payments/)、および [循環エージェント スタック](/ja/docs/circle-agent-stack-agent-payments/) の既存のガイドを参照してください。
 
 ##これが普通の財布と違うのはなぜですか?
 
@@ -67,7 +67,7 @@ Agent Engine Optimization には実行層があります。 Web サイトがエ�
 - どのような支出制限が適用されますか? - 結果はどのように確認されますか?
 - 支払いが失敗した場合はどうなりますか?
 
-つまり、支払いの準備は商品データ、API 設計、機械可読な支払いドキュメントに近い必要があります。 [エージェント取引ガイド](/es/docs/agentic-commerce/) では、購入者の幅広いプロセスについて説明しています。
+つまり、支払いの準備は商品データ、API 設計、機械可読な支払いドキュメントに近い必要があります。 [エージェント取引ガイド](/ja/docs/agentic-commerce/) では、購入者の幅広いプロセスについて説明しています。
 
 ## メリットがあるユースケース|使用例 |代理店支払いが重要な理由 |
 |
@@ -97,7 +97,7 @@ Agent Engine Optimization には実行層があります。 Web サイトがエ�
 |プロトコルの断片化 | x402、MPP、およびネットワーク カードのアプローチは異なる場合があります。マルチプロトコルプランニング |
 |コンプライアンスのギャップ |ステーブルコインの流れは規制可能 |登録、KYC/KYT、レポート |
 
-[x402 vs ACP vs MPP](/es/docs/x402-vs-acp-vs-mpp/) の比較は、チームがプロトコルの調整を評価する場合に役立ちます。
+[x402 vs ACP vs MPP](/ja/docs/x402-vs-acp-vs-mpp/) の比較は、チームがプロトコルの調整を評価する場合に役立ちます。
 
 ## 準備チェックリスト
 

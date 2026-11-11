@@ -42,7 +42,7 @@ Isso muda o objetivo de otimização:
 | Metadados de páginas estáticas | Dados estruturados do produto |
 | Intenção da categoria | Intenção de compra conversacional |
 
-O [guia de comércio eletrônico AEO] (/es/docs/aeo-ecommerce/) explica a mudança mais ampla da classificação da página para a compra do agente.
+O [guia de comércio eletrônico AEO](/pt/docs/aeo-ecommerce/) explica a mudança mais ampla da classificação da página para a compra do agente.
 
 ##Lista de verificação básica
 
@@ -72,7 +72,7 @@ User-agent: OAI-SearchBot
 Allow: /
 ```
 
-Em seguida, verifique se páginas importantes de produtos retornam o status 200 ao rastreador e não estão bloqueadas pela proteção de bot. O [Guia de controle de rastreamento de IA da Cloudflare](/es/docs/cloudflare-ai-crawl-control/) explica a compensação de acesso.
+Em seguida, verifique se páginas importantes de produtos retornam o status 200 ao rastreador e não estão bloqueadas pela proteção de bot. O [Guia de controle de rastreamento de IA da Cloudflare](/pt/docs/cloudflare-ai-crawl-control/) explica a compensação de acesso.
 
 ## Dados do produto necessários para sistemas de IA
 
@@ -105,7 +105,7 @@ Se esses dados estiverem faltando ou ocultos nas imagens, um produto poderá ser
 - Perguntas frequentes estruturadas
 - Esboço do produto
 
-O [guia de comércio do agente](/es/docs/agentic-commerce/) aborda o que acontece após a descoberta, incluindo fluxos de pagamento e pós-compra.
+O [guia de comércio do agente](/pt/docs/agentic-commerce/) aborda o que acontece após a descoberta, incluindo fluxos de pagamento e pós-compra.
 
 ## Feeds de comerciantes e dados estruturados
 

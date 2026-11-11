@@ -22,7 +22,7 @@ Em muitas plataformas CMS tradicionais, campos de imagem, texto alternativo e fl
 
 Isso cria um problema prático: uma imagem pode ter texto alternativo genérico na biblioteca de recursos, mas páginas diferentes podem precisar de texto alternativo diferente dependendo do contexto.
 
-Para requisitos técnicos mais amplos, consulte [Headless CMS SEO](/es/docs/headless-cms-seo/) e [Headless SEO](/es/docs/headless-seo/).
+Para requisitos técnicos mais amplos, consulte [Headless CMS SEO](/pt/docs/headless-cms-seo/) e [Headless SEO](/pt/docs/headless-seo/).
 
 ## Campos de imagem para modelar
 
@@ -85,7 +85,7 @@ Os pipelines de imagem CMS headless normalmente usam um CDN de imagem. Isso pode
 
 ## Dados estruturados e imagens de produtosPara páginas de produtos, receitas, artigos e software, os campos de imagem podem alimentar dados estruturados. O esquema deve corresponder ao conteúdo visível e fazer referência a URLs de imagens rastreáveis.
 
-Isso é especialmente importante para [Compras de IA e dados estruturados de produtos](/es/docs/product-structured-data-ai-shopping/) e [Otimização do Agent Engine](/es/docs/what-is-aeo/).
+Isso é especialmente importante para [Compras de IA e dados estruturados de produtos](/pt/docs/product-structured-data-ai-shopping/) e [Otimização do Agent Engine](/pt/docs/what-is-aeo/).
 
 ## Perguntas frequentes
 

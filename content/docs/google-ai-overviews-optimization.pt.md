@@ -28,11 +28,11 @@ Para visibilidade da pesquisa de IA, a primeira seção é importante. Coloque a
 
 ## Construa autoridade no tópico
 
-Uma página raramente é suficiente. Um site precisa de grupos de conteúdo relacionado. O [Modelo de Maturidade de Otimização de IA](/es/docs/ai-optimization-maturity-model/) mostra como os sites progridem de rastreáveis ​​para acionáveis.
+Uma página raramente é suficiente. Um site precisa de grupos de conteúdo relacionado. O [Modelo de Maturidade de Otimização de IA](/pt/docs/ai-optimization-maturity-model/) mostra como os sites progridem de rastreáveis ​​para acionáveis.
 
 ## Conecte-se à próxima ação
 
-Ser apresentado em uma visão geral da IA ajuda na visibilidade, mas a jornada do usuário não termina aí. Se o usuário clicar, a página deverá fornecer profundidade e uma próxima etapa: uma lista de verificação, ferramenta, guia de implementação, página de comparação ou solicitação de auditoria. É aqui que o AI Visibility se conecta com [Agent Engine Optimization](/es/docs/what-is-aeo/).
+Ser apresentado em uma visão geral da IA ajuda na visibilidade, mas a jornada do usuário não termina aí. Se o usuário clicar, a página deverá fornecer profundidade e uma próxima etapa: uma lista de verificação, ferramenta, guia de implementação, página de comparação ou solicitação de auditoria. É aqui que o AI Visibility se conecta com [Agent Engine Optimization](/pt/docs/what-is-aeo/).
 
 ---
 
@@ -52,7 +52,7 @@ A inclusão de forças especiais de marcação não é garantida. Concentre-se e
 **Como isso se relaciona com a otimização do Agent Engine?**
 As visões gerais de IA criam visibilidade. O Agent Engine Optimization prepara o site para jornadas de IA orientadas para a ação.## Guias relacionados
 
-* [Guia de Implementação AEO](/es/docs/implement-aeo/)
+* [Guia de Implementação AEO](/pt/docs/implement-aeo/)
 
 ## Referências primárias
 

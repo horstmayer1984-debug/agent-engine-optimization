@@ -37,7 +37,7 @@ Vermeiden Sie internen Jargon. Wenn Ihr Team das Konfigurationspanel intern „M
 
 ## Lösungsendpunkte: Agenten erlauben, das Problem zu lösen
 
-Das Erklären einer Lösung ist die Leseebene. Die Fixausführung ist die [Ausführungsschicht](/es/docs/execution-layer/).
+Das Erklären einer Lösung ist die Leseebene. Die Fixausführung ist die [Ausführungsschicht](/de/docs/execution-layer/).
 
 Stellen Sie für jede allgemeine Supportaktion einen dokumentierten Endpunkt bereit:
 
@@ -85,7 +85,7 @@ Herkömmliche Support-Metriken (durchschnittliche Bearbeitungszeit, erste Reakti
 - durchschnittliche Zeit bis zur Lösung: von der Agentenanfrage bis zur bestätigten Lösung
 - Fehlerpunktanalyse: Wo werden Agenten-Workflows am häufigsten unterbrochen?
 
-Diese Kennzahlen zeigen Ihnen, wo Sie Ihre maschinenorientierte Support-Infrastruktur verbessern können. Das [AEO Readiness Audit](/es/docs/audit/) umfasst die Bewertung des Supportsystems.
+Diese Kennzahlen zeigen Ihnen, wo Sie Ihre maschinenorientierte Support-Infrastruktur verbessern können. Das [AEO Readiness Audit](/de/docs/audit/) umfasst die Bewertung des Supportsystems.
 
 ---
 

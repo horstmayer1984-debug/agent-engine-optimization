@@ -23,7 +23,7 @@ Das GitHub-Plugin brachte MCP-Tools ans Licht und die am 28. Juni 2026 überprü
 
 FastMCP ist kein Ersatz für eine Strategie. Es handelt sich um einen Implementierungspfad, sobald ein Team weiß, welche Maßnahmen in Tools umgewandelt werden müssen.
 
-Hintergrundinformationen zum Protokoll finden Sie unter [MCP-Ressourcen vs. Tools vs. Eingabeaufforderungen](/es/docs/mcp-resources-tools-prompts/) und [MCP vs. Agent API](/es/docs/mcp-vs-api-for-agents/).
+Hintergrundinformationen zum Protokoll finden Sie unter [MCP-Ressourcen vs. Tools vs. Eingabeaufforderungen](/de/docs/mcp-resources-tools-prompts/) und [MCP vs. Agent API](/de/docs/mcp-vs-api-for-agents/).
 
 ## Was soll ein MCP-Tool werden?
 
@@ -49,7 +49,7 @@ Hintergrundinformationen zum Protokoll finden Sie unter [MCP-Ressourcen vs. Tool
 7. Fügen Sie Protokolle und Tracking-IDs hinzu.
 8. Verknüpfen Sie die Tool-Dokumente mit „llms.txt“ oder einem Entwicklercenter.
 
-Hier kommt [die Ausführungsschicht](/es/docs/execution-layer/) zum Einsatz.
+Hier kommt [die Ausführungsschicht](/de/docs/execution-layer/) zum Einsatz.
 
 ## MCP-Tools vs. Website-Seiten
 

@@ -4,7 +4,6 @@ date: 2026-04-14
 weight: 101
 category: "Industry"
 description: "Os hotéis precisam de APIs invisíveis em vez de calendários interativos. Como estruturar os dados dos quartos, expor a disponibilidade."
-metaDescription: "Aprenda cómo los hoteles exponen los datos de las habitaciones, la disponibilidad en tiempo real, las comodidades, las políticas y los puntos finales."
 summary: "As IAs reservam hotéis consultando APIs, sem clicar em calendários. Hotéis que expõem dados estruturados de quartos, disponibilidade em tempo real e pontos de extremidade determinísticos de reservas capturam reservas orientadas por agentes."
 keywords:
   - "Hotéis AEO"
@@ -40,7 +39,7 @@ Quando um assistente de IA compara três hotéis para uma família de quatro pes
 
 O endpoint de reserva aceita: nome do hóspede, datas, tipo de quarto, número de hóspedes, autorização de pagamento e solicitações especiais. Devoluções: reserva confirmada com número de referência, preço total exato, prazo de cancelamento e instruções de check-in.
 
-O endpoint deve ser idempotente. Se ocorrer um tempo limite de rede após o agente enviar a reserva, a nova tentativa não deverá criar uma reserva duplicada. O [artigo do plano de controle universal](/es/docs/universal-control-plane/) cobre os requisitos de idempotência.
+O endpoint deve ser idempotente. Se ocorrer um tempo limite de rede após o agente enviar a reserva, a nova tentativa não deverá criar uma reserva duplicada. O [artigo do plano de controle universal](/pt/docs/universal-control-plane/) cobre os requisitos de idempotência.
 
 ### Políticas legíveis por máquina
 
@@ -64,7 +63,7 @@ O hotel que um agente puder visualizar, comparar e reservar em menos de três se
 
 À medida que as reservas de viagens conduzidas por agentes crescem até 2026 e 2027, os hotéis sem APIs voltadas para agentes sofrerão um declínio nas reservas diretas sem entender o porquê. O tráfego não diminui visivelmente. Primeiro, ele nunca chega porque os agentes têm como alvo propriedades reserváveis.
 
-O [artigo de viagens AEO](/es/docs/aeo-travel-booking/) cobre o contexto mais amplo da indústria. O [Guia da Árvore de Decisão do Agente](/es/docs/agent-decision-trees/) explica os critérios de aprovação/reprovação que os agentes aplicam.
+O [artigo de viagens AEO](/pt/docs/aeo-travel-booking/) cobre o contexto mais amplo da indústria. O [Guia da Árvore de Decisão do Agente](/pt/docs/agent-decision-trees/) explica os critérios de aprovação/reprovação que os agentes aplicam.
 
 ---
 

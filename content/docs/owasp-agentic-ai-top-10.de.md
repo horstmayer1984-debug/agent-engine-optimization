@@ -28,7 +28,7 @@ Primärquellen:
 
 ## Warum das zum AEO gehört
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) ermöglicht es Agenten, Dinge zu tun: Arbeitsabläufe reservieren, kaufen, aktualisieren, abrufen, vergleichen und aktivieren. Gerade deshalb ist Sicherheit wichtig.
+Die [Ausführungsschicht](/de/docs/execution-layer/) ermöglicht es Agenten, Dinge zu tun: Arbeitsabläufe reservieren, kaufen, aktualisieren, abrufen, vergleichen und aktivieren. Gerade deshalb ist Sicherheit wichtig.
 
 Das traditionelle Risiko von SEO besteht hauptsächlich in Reputation und Indexierung. Das AEO-Risiko umfasst:
 
@@ -58,7 +58,7 @@ Das Ziel besteht nicht darin, den Agentenzugriff zu verhindern. Das Ziel besteht
 | Agentenspeicher | Kann ein bösartiger Kontext bestehen bleiben? | Isolation und Ablauf |
 | Aufzeichnungen | Können Maßnahmen geprüft werden? | Agent-ID, Benutzer-ID, Tool, Ergebnis |
 
-Der [Agent Observability Guide](/es/docs/agent-observability-guardrails/) behandelt die Überwachung ausführlicher.
+Der [Agent Observability Guide](/de/docs/agent-observability-guardrails/) behandelt die Überwachung ausführlicher.
 
 ##Übermäßige Entscheidungsfreiheit
 
@@ -115,7 +115,7 @@ Vertrauenssignale müssen sowohl für Menschen als auch für Maschinen sichtbar 
 - Dokumentierte Werkzeugberechtigungen
 - API-Status- oder Gesundheitsinformationsseite
 
-Das [AEO-Bereitschaftsaudit] (/es/docs/audit/) muss Sicherheitskontrollen umfassen, bevor ein Agent-Workflow mit hohem Risiko aktiviert wird.
+Das [AEO-Bereitschaftsaudit](/de/docs/audit/) muss Sicherheitskontrollen umfassen, bevor ein Agent-Workflow mit hohem Risiko aktiviert wird.
 
 ## Häufig gestellte Fragen
 

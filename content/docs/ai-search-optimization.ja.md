@@ -5,7 +5,6 @@ date: 2026-04-29
 weight: 123
 category: "Framework"
 description: "AI 検索最適化は、SEO、アンサー エンジン最適化、GEO、およびエージェント エンジン最適化を 1 つの実用的なフレームワークに接続します。 AI最適化スタック。"
-metaDescription: "Comprenda la optimización de búsqueda con IA en SEO, GEO, optimización del motor de respuesta y optimización del motor de agentes en un solo marco."
 summary: "AI による検索の最適化は戦術ではありません。それは多層的な戦略です。 SEO により、あなたを見つけてもらうことができます。 AEO が答えを提供します。 GEOがあなたを引用します。エージェント エンジンの最適化にはすぐに慣れます。"
 keywords:
   - "AI検索の最適化"
@@ -21,7 +20,7 @@ AI 検索の最適化は、AI を活用した検出システムを通じて Web 
 
 AI 検索の最適化を理解するのに役立つ方法は、AI 最適化スタックです。
 
-SEO: 検索エンジンはページを見つけてインデックスを付けることができますか? [回答エンジンの最適化](/es/docs/answer-engine-optimization/): AI システムは明確な回答を抽出できますか? [GEO](/es/docs/generative-engine-optimization/): 生成エンジンは出典を引用または言及できますか? [エージェント エンジンの最適化](/es/docs/what-is-aeo/): 自律エージェントはサイトを使用してタスクを完了できますか?
+SEO: 検索エンジンはページを見つけてインデックスを付けることができますか? [回答エンジンの最適化](/ja/docs/answer-engine-optimization/): AI システムは明確な回答を抽出できますか? [GEO](/ja/docs/generative-engine-optimization/): 生成エンジンは出典を引用または言及できますか? [エージェント エンジンの最適化](/ja/docs/what-is-aeo/): 自律エージェントはサイトを使用してタスクを完了できますか?
 
 各レイヤーはその下のレイヤーに依存します。クロールできないサイトは、AI による可視化に苦労します。目に見えるサイトであっても不明確なサイトは、引用されるのが難しくなります。引用されているが実用的ではないサイトでは、エージェント主導の出張は困難になります。
 
@@ -39,7 +38,7 @@ AI による検索の最適化は、応答の可視性に限定されるべき�
 
 強力な AI 検索最適化戦略には、技術的な SEO 衛生、明確な情報アーキテクチャ、実際の検索意図を中心としたトピック クラスター、エンティティが豊富なコンテンツ、FAQ および比較コンテンツ、構造化データ、llms.txt または類似の検出支援ツール、透明性のあるポリシー、クリーンなフォームとコンバージョン パス、機械可読な製品、サービス、または機能データが含まれます。
 
-[AI 最適化成熟度モデル](/es/docs/ai-optimization-maturity-model/) は、レベルごとの評価フレームワークを提供します。
+[AI 最適化成熟度モデル](/ja/docs/ai-optimization-maturity-model/) は、レベルごとの評価フレームワークを提供します。
 
 ---
 

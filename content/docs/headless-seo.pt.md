@@ -28,7 +28,7 @@ Headless SEO é mais amplo do que Headless CMS SEO. Pode incluir:
 - portais de documentação
 - Camadas de conteúdo legíveis por IA
 
-Para obter orientações mais detalhadas sobre CMS, leia [Headless CMS SEO] (/es/docs/headless-cms-seo/). Para negociação, leia [Explicação sobre negociação sem cabeça](/es/docs/headless-commerce-explained/).
+Para obter orientações mais detalhadas sobre CMS, leia [Headless CMS SEO](/pt/docs/headless-cms-seo/). Para negociação, leia [Explicação sobre negociação sem cabeça](/pt/docs/headless-commerce-explained/).
 
 ##Prioridades de SEO sem cabeça
 
@@ -82,13 +82,13 @@ Cada rota indexável sem cabeça precisa de:
 
 Não permita que os modelos de rota compartilhem um título ou descrição genéricos. Isso enfraquece o SEO e o CTR.## SEO e AEO sem cabeça
 
-A arquitetura headless pode suportar [Agent Engine Optimization](/es/docs/what-is-aeo/) porque separa o conteúdo e os recursos de uma interface visual. Mas os agentes ainda precisam de pontos de entrada públicos, estáveis ​​e verificáveis.
+A arquitetura headless pode suportar [Agent Engine Optimization](/pt/docs/what-is-aeo/) porque separa o conteúdo e os recursos de uma interface visual. Mas os agentes ainda precisam de pontos de entrada públicos, estáveis ​​e verificáveis.
 
 Conecte o Headless SEO a:
 
-- [Otimização de pesquisa de IA] (/es/docs/ai-search-optimization/)
-- [Guia do desenvolvedor AEO](/es/docs/developers-guide-aeo/)
-- [aplicativos web prontos para agente](/es/docs/agent-ready-web-apps/)
+- [Otimização de pesquisa de IA](/pt/docs/ai-search-optimization/)
+- [Guia do desenvolvedor AEO](/pt/docs/developers-guide-aeo/)
+- [aplicativos web prontos para agente](/pt/docs/agent-ready-web-apps/)
 
 A camada de leitura deve ser rastreável antes que a camada de execução possa importar.
 

@@ -41,7 +41,7 @@ Cloudflareによると、このオプションは無料利用枠のユーザー�
 - クリック、比較、または送信できるブラウザ エージェント
 - トラフィックを返さずにコンテンツを吸収できるトレーニング トラッカー
 
-そのため、[エージェント エンジンの最適化](/es/docs/what-is-aeo/) は [読み取りレイヤー](/es/docs/answer-engine-optimization/) を [実行レイヤー](/es/docs/execution-layer/) から分離します。検索クローラーは主に読み取り層に属します。エージェント追跡者は処刑に近づいています。
+そのため、[エージェント エンジンの最適化](/ja/docs/what-is-aeo/) は [読み取りレイヤー](/ja/docs/answer-engine-optimization/) を [実行レイヤー](/ja/docs/execution-layer/) から分離します。検索クローラーは主に読み取り層に属します。エージェント追跡者は処刑に近づいています。
 
 ## 2026 年 9 月 15 日のデフォルトの変更
 
@@ -63,7 +63,7 @@ AEO チームが見逃せない詳細: 多目的トラッカーは、最も制�
 |有料調査 |フラグメントを許可する可能性があります |制限 |ブロックまたは収益化 |概要と個人的な詳細を考慮する |
 |内部ツール |ブロック |認証のみ |ブロック |公開トラッカー値はありません |
 
-これは、[AI クローラーと robots.txt](/es/docs/ai-crawlers-robots-txt/) および [Cloudflare AI クロール コントロール](/es/docs/cloudflare-ai-crawl-control/) と組み合わせる必要があります。
+これは、[AI クローラーと robots.txt](/ja/docs/ai-crawlers-robots-txt/) および [Cloudflare AI クロール コントロール](/ja/docs/cloudflare-ai-crawl-control/) と組み合わせる必要があります。
 
 ## 導入チェックリスト
 

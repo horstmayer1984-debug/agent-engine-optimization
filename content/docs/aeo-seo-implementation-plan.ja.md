@@ -23,7 +23,7 @@ Search Console で「aeo seo」、「エージェント エンジンの最適化
 
 Search Console のパフォーマンス レポートには、クエリ、ページ、インプレッション、クリック、CTR、平均掲載順位が表示されます。これは、何を改善するかを決定するための適切な出発点となります。
 
-さらに詳しいガイダンスについては、[エージェント エンジン最適化のステップバイステップ ガイド](/es/docs/aeo-step-by-step-guide/) および [AEO の実装方法](/es/docs/implement-aeo/) を参照してください。
+さらに詳しいガイダンスについては、[エージェント エンジン最適化のステップバイステップ ガイド](/ja/docs/aeo-step-by-step-guide/) および [AEO の実装方法](/ja/docs/implement-aeo/) を参照してください。
 
 ## 1 日目から 5 日目: コンサルテーションの診断
 
@@ -65,7 +65,7 @@ Search Console のパフォーマンス レポートには、クエリ、ペー�
 - 実施計画
 - 測定ガイド
 
-そのため、このページは [AEO SEO](/es/docs/aeo-seo/)、[AEO SEO チェックリスト](/es/docs/aeo-seo-checklist/)、および [AEO SEO for eCommerce](/es/docs/aeo-seo-for-ecommerce/) にリンクしています。
+そのため、このページは [AEO SEO](/ja/docs/aeo-seo/)、[AEO SEO チェックリスト](/ja/docs/aeo-seo-checklist/)、および [AEO SEO for eCommerce](/ja/docs/aeo-seo-for-ecommerce/) にリンクしています。
 
 ## 19 日目から 24 日目: AI とエージェントの準備構造を追加
 
@@ -92,7 +92,7 @@ Google の AI 機能のドキュメントには、通常の検索資格が AI �
 - AIリファレンスセッション
 - 変換またはタスクの完了
 
-[AEO KPI 測定ガイド](/es/docs/aeo-kpis-measurement/) では、測定モデルについて説明しています。
+[AEO KPI 測定ガイド](/ja/docs/aeo-kpis-measurement/) では、測定モデルについて説明しています。
 
 ## よくある質問
 

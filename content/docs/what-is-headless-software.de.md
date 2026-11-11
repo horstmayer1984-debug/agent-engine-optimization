@@ -24,7 +24,7 @@ Der „Kopf“ ist der Teil, den ein Mensch normalerweise sieht: das Website-The
 
 Das Backend existiert noch. Produktdaten, Inhalte, Workflow-Regeln, Berechtigungen und Geschäftslogik funktionieren weiterhin. Was sich ändert, ist das Zugriffsmodell. Anstatt jeden Benutzer oder jedes System zu zwingen, eine Schnittstelle zu nutzen, bietet das Backend einen strukturierten Zugriff auf verschiedene Schnittstellen und Tools.
 
-Aus diesem Grund ist Headless-Software für die [Agent Engine Optimization](/es/docs/what-is-aeo/) wichtig. KI-Agenten benötigen kein Bedienfeld wie ein Mensch. Sie benötigen eine klare Dokumentation, vorhersehbare APIs, maschinenlesbare Daten und sichere Aktionspfade.
+Aus diesem Grund ist Headless-Software für die [Agent Engine Optimization](/de/docs/what-is-aeo/) wichtig. KI-Agenten benötigen kein Bedienfeld wie ein Mensch. Sie benötigen eine klare Dokumentation, vorhersehbare APIs, maschinenlesbare Daten und sichere Aktionspfade.
 
 ##Wie funktioniert Headless-Software?
 
@@ -47,11 +47,11 @@ Die meisten Headless-Systeme kommunizieren über eine API. MDN definiert eine AP
 
 Ein Headless-CMS speichert und verwaltet Inhalte, erzwingt jedoch kein Website-Theme. Contentful beschreibt ein Headless-CMS als ein System, das die Präsentationsschicht vom Backend trennt, sodass Inhalte an verschiedene digitale Kanäle geliefert werden können. Dies ist nützlich, wenn ein Artikel, ein Produkthandbuch oder eine Hilfeseite auf einer KI-lesbaren Website, App, einem Kundenportal, einem E-Mail-Verlauf oder einem Terminal angezeigt werden muss.
 
-Lesen Sie die Vergleichsseite: [Headless CMS vs. traditionelles CMS](/es/docs/headless-cms-vs-traditional-cms/).
+Lesen Sie die Vergleichsseite: [Headless CMS vs. traditionelles CMS](/de/docs/headless-cms-vs-traditional-cms/).
 
 ### Headless CommerceHeadless Commerce trennt die Storefront vom Backend des Handels. Das Backend verwaltet Produkte, Inventar, Warenkörbe, Zahlungen, Kassen und Bestellungen. Das Frontend steuert das Kundenerlebnis. Die Storefront-API von Shopify ist ein offizielles Beispiel für eine API, die zum Erstellen benutzerdefinierter Storefronts verwendet wird.
 
-Lesen Sie den Handelsleitfaden: [Headless Trading erklärt](/es/docs/headless-commerce-explained/).
+Lesen Sie den Handelsleitfaden: [Headless Trading erklärt](/de/docs/headless-commerce-explained/).
 
 ### Headless Browser-AutomatisierungEin Headless-Browser lädt Websites und interagiert mit ihnen, ohne ein sichtbares Browserfenster anzuzeigen. Sowohl Playwright als auch Puppeteer unterstützen den Headless-Browserbetrieb. Dies ist nützlich für Tests, SEO-Audits, Screenshots, Überwachung, Scraping, sofern zulässig, und browserbasierte KI-Agent-Workflows.
 
@@ -73,7 +73,7 @@ Der Hauptvorteil ist die Flexibilität. Ein Backend kann statt einer festen Schn
 
 Die Headless-Architektur kann auch die Leistung unterstützen, wenn die Schnittstelle statisch generiert, auf dem Server verarbeitet oder sorgfältig zwischengespeichert wird. Es kann die Wiederverwendbarkeit verbessern, wenn Inhalte und Daten über mehrere Berührungspunkte übertragen werden müssen.
 
-Für [Ausführungsschicht](/es/docs/execution-layer/) ist der wichtige Vorteil die Umsetzbarkeit. Ein Headless-System bietet Agenten einen saubereren Weg zum Prüfen, Entscheiden und Handeln.
+Für [Ausführungsschicht](/de/docs/execution-layer/) ist der wichtige Vorteil die Umsetzbarkeit. Ein Headless-System bietet Agenten einen saubereren Weg zum Prüfen, Entscheiden und Handeln.
 
 ## Welche Risiken bestehen?
 

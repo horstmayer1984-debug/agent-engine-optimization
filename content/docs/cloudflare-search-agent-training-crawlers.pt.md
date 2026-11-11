@@ -41,7 +41,7 @@ O SEO tradicional tratava os rastreadores principalmente como indexadores. O AEO
 - um agente de navegador que pode clicar, comparar ou enviar
 - um rastreador de treinamento que pode absorver conteúdo sem retornar tráfego
 
-É por isso que [Agent Engine Optimization](/es/docs/what-is-aeo/) separa a [Camada de leitura](/es/docs/answer-engine-optimization/) da [Camada de execução](/es/docs/execution-layer/). Os rastreadores de pesquisa pertencem principalmente à camada de leitura. Os rastreadores de agentes estão mais próximos da execução.
+É por isso que [Agent Engine Optimization](/pt/docs/what-is-aeo/) separa a [Camada de leitura](/pt/docs/answer-engine-optimization/) da [Camada de execução](/pt/docs/execution-layer/). Os rastreadores de pesquisa pertencem principalmente à camada de leitura. Os rastreadores de agentes estão mais próximos da execução.
 
 ## A mudança padrão de 15 de setembro de 2026
 
@@ -63,7 +63,7 @@ Isso cria um risco real para o SEO. Um editor pode tentar bloquear o treinamento
 | Pesquisa paga | Talvez permita fragmentos | Restringir | Bloquear ou monetizar | Considere resumos e detalhes privados |
 | Ferramentas internas | Bloco | Apenas autenticação | Bloco | Nenhum valor de rastreador público |
 
-Isso deve ser combinado com [AI Crawlers e robots.txt](/es/docs/ai-crawlers-robots-txt/) e [Cloudflare AI Crawl Control](/es/docs/cloudflare-ai-crawl-control/).
+Isso deve ser combinado com [AI Crawlers e robots.txt](/pt/docs/ai-crawlers-robots-txt/) e [Cloudflare AI Crawl Control](/pt/docs/cloudflare-ai-crawl-control/).
 
 ## Lista de verificação de implantação
 

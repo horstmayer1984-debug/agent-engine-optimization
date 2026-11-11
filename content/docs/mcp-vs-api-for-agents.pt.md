@@ -4,7 +4,6 @@ date: 2026-04-12
 weight: 61
 category: "Architecture"
 description: "Compare MCPs e APIs para agentes de IA, incluindo descoberta de ferramentas, contexto estruturado, autenticação e fluxos de trabalho."
-metaDescription: "Compare MCP y API para agentes de IA: descubrimiento dinámico, esquemas de herramientas tipificados, patrones de interacción y cuándo encaja cada enfoque."
 summary: "APIs requerem uma integração codificada. O MCP permite que os agentes descubram e chamem suas ferramentas de forma dinâmica. Este guia explica a diferença, quando cada uma se aplica e como adicionar o MCP às APIs existentes."
 keywords:
   - "MCP versus API"
@@ -77,7 +76,7 @@ Use LangGraph ou CrewAI para criar um agente de teste que descubra seu servidor 
 
 Exponha apenas uma API REST sem um wrapper MCP e espere que os agentes a utilizem. Alguns agentes podem trabalhar com APIs REST bem documentadas, mas a integração é frágil e exige que o agente interprete a documentação em vez de descobrir recursos de forma programática. Solução: adicione um wrapper MCP à sua API existente. Isso leva menos de um dia para a maioria dos sistemas e permite que qualquer agente compatível com MCP descubra instantaneamente toda a sua pegada de API.
 
-O [Guia de programação do site do agente](/es/docs/programming-websites-for-ai-agents/) abrange a pilha técnica mais ampla. O [artigo da camada de execução](/es/docs/execution-layer/) explica por que o MCP é importante para a arquitetura AEO.
+O [Guia de programação do site do agente](/pt/docs/programming-websites-for-ai-agents/) abrange a pilha técnica mais ampla. O [artigo da camada de execução](/pt/docs/execution-layer/) explica por que o MCP é importante para a arquitetura AEO.
 
 ---
 
@@ -98,7 +97,7 @@ Mesmo um site simples com formulário de contato e página de preços se benefic
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
 
 ## Referências primárias
 

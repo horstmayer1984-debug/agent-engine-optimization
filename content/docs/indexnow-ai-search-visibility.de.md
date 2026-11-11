@@ -57,7 +57,7 @@ Wenn eine KI-Antwort eine veraltete Seite zitiert, erhält der Benutzer möglich
 | Normales Tracking | Suchmaschinen besuchen Seiten nach ihrem eigenen Zeitplan erneut | Stabiler Inhalt |
 | IndexNow | Benachrichtigen Sie teilnehmende Suchmaschinen über geänderte URLs | Neue oder häufig aktualisierte Inhalte |
 
-Verwenden Sie für AEO alle. Eine Sitemap stellt die Karte bereit. IndexNow sendet Aktualisierungssignale. [llms.txt](/es/docs/programming-llms-txt/) stellt Agenten einen komprimierten Lesepfad zur Verfügung.
+Verwenden Sie für AEO alle. Eine Sitemap stellt die Karte bereit. IndexNow sendet Aktualisierungssignale. [llms.txt](/de/docs/programming-llms-txt/) stellt Agenten einen komprimierten Lesepfad zur Verfügung.
 
 ## Wo IndexNow in einen AEO-Workflow passt
 
@@ -83,7 +83,7 @@ Das Implementierungsmuster ist:1. Generieren oder hosten Sie einen IndexNow-Schl
 4. Überprüfen Sie die Antworten.
 5. Überwachen Sie die Bing Webmaster Tools auf Änderungen in der KI-Sichtbarkeit und -Verfolgung.
 
-Fügen Sie für statische Websites die IndexNow-Übermittlung nach der Hugo-Erstellung und vor oder nach der Bereitstellungsüberprüfung hinzu.Kombinieren Sie für den Berichtsteil dieses Workflows IndexNow mit dem [Bing AI Performance Report] (/es/docs/bing-ai-performance-report/), sodass Aktualisierungssignale und AI-Zitatnachweise gemeinsam überprüft werden.
+Fügen Sie für statische Websites die IndexNow-Übermittlung nach der Hugo-Erstellung und vor oder nach der Bereitstellungsüberprüfung hinzu.Kombinieren Sie für den Berichtsteil dieses Workflows IndexNow mit dem [Bing AI Performance Report](/de/docs/bing-ai-performance-report/), sodass Aktualisierungssignale und AI-Zitatnachweise gemeinsam überprüft werden.
 
 ## AEO-spezifische Anmelderegeln
 
@@ -106,7 +106,7 @@ Schlechte Kandidaten:
 - Umgeleitete URLs
 - nicht-kanonische Varianten
 
-Der [AEO-KPI-Leitfaden](/es/docs/aeo-kpis-measurement/) kann dabei helfen, die Aktualisierungsarbeit von den Sichtbarkeitsergebnissen zu trennen.
+Der [AEO-KPI-Leitfaden](/de/docs/aeo-kpis-measurement/) kann dabei helfen, die Aktualisierungsarbeit von den Sichtbarkeitsergebnissen zu trennen.
 
 ## So messen Sie die Wirkung
 

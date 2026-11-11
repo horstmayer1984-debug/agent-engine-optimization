@@ -4,7 +4,6 @@ date: 2026-04-12
 weight: 70
 category: "Analysis"
 description: "x402 fügt AEO die fehlende wirtschaftliche Ebene hinzu. KI-Agenten können jetzt mit Stablecoins einen HTTP-Stream entdecken, darauf reagieren und bezahlen. Als."
-metaDescription: "Descubra cómo x402 permite a los agentes de IA descubrir, actuar y pagar en un flujo HTTP utilizando monedas estables, controles de políticas y puntos."
 summary: "x402 wandelt AEO von Entdeckungs- und Aktionsfähigkeiten in eine monetarisierbare autonome Wirtschaft um. Agenten zahlen pro Anfrage mit USDC über HTTP 402, ohne dass Konten, Sitzungen oder menschliche Genehmigung erforderlich sind."
 keywords:
   - "Agentenzahlungen x402"
@@ -52,7 +51,7 @@ Base (das Layer-2-Netzwerk von Coinbase) wickelt etwa 75 Prozent des x402-Transa
 | Zahlungsreibung | Kontoerstellung erforderlich | Keine Reibung, einzelner HTTP-Header |
 | Einkommensgranularität | Monatlich oder jährlich | Auf Wunsch oder durch Aktion |
 
-## Was das für Seitenbetreiber bedeutetWenn Sie bereits über eine [Ausführungsschicht](/es/docs/execution-layer/) mit MCP-Endpunkten und Aktionsschemata verfügen, ist das Hinzufügen von x402 der letzte Schritt, der Agentenverkehr in Umsatz umwandelt. Die Middleware ist leichtgewichtig (Details im [x402-Implementierungsleitfaden](/es/docs/implementing-x402/)).
+## Was das für Seitenbetreiber bedeutetWenn Sie bereits über eine [Ausführungsschicht](/de/docs/execution-layer/) mit MCP-Endpunkten und Aktionsschemata verfügen, ist das Hinzufügen von x402 der letzte Schritt, der Agentenverkehr in Umsatz umwandelt. Die Middleware ist leichtgewichtig (Details im [x402-Implementierungsleitfaden](/de/docs/implementing-x402/)).
 
 Wenn Sie noch dabei sind, die Leseebene aufzubauen, konzentrieren Sie sich zunächst darauf. x402 monetarisiert die Ausführungsschicht. Ohne auffindbare und umsetzbare Inhalte gibt es nichts, was man monetarisieren könnte.
 
@@ -77,7 +76,7 @@ Das Protokoll funktioniert für jeden HTTP-Client, ist jedoch für autonome Zahl
 **Was passiert, wenn eine Agentenzahlung fehlschlägt?**
 Der Server gibt die 402-Antwort zurück. Der Agent kann es mit einer korrigierten Zahlung erneut versuchen oder zu einem alternativen Service wechseln. Fehlgeschlagene Zahlungen gewähren keinen Zugriff.
 
----*Dieser Artikel behandelt Zahlungsprotokolle und Kryptowährungsinfrastruktur nur zu Bildungs- und Informationszwecken. Es handelt sich nicht um eine Finanzberatung. Die vollständigen Bedingungen finden Sie in unserem [Rechtlichen Hinweis](/es/docs/disclaimer/).*
+---*Dieser Artikel behandelt Zahlungsprotokolle und Kryptowährungsinfrastruktur nur zu Bildungs- und Informationszwecken. Es handelt sich nicht um eine Finanzberatung. Die vollständigen Bedingungen finden Sie in unserem [Rechtlichen Hinweis](/de/docs/disclaimer/).*
 
 ## Primäre Referenzen
 

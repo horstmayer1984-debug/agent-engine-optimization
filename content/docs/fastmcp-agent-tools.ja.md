@@ -23,7 +23,7 @@ GitHub プラグインにより MCP ツールが明らかになり、2026 年 6 
 
 FastMCP は戦略に代わるものではありません。どのアクションをツールに変換する必要があるかをチームが把握したら、それが実装パスとなります。
 
-プロトコルの背景については、[MCP リソース対ツール対プロンプト](/es/docs/mcp-resources-tools-prompts/) および [MCP 対エージェント API](/es/docs/mcp-vs-api-for-agents/) を参照してください。
+プロトコルの背景については、[MCP リソース対ツール対プロンプト](/ja/docs/mcp-resources-tools-prompts/) および [MCP 対エージェント API](/ja/docs/mcp-vs-api-for-agents/) を参照してください。
 
 ## MCP ツールになるべきものは何ですか?
 
@@ -49,7 +49,7 @@ FastMCP は戦略に代わるものではありません。どのアクション
 7. ログとトラッキング ID を追加します。
 8. 「llms.txt」または開発者センターからツールのドキュメントをリンクします。
 
-ここで、[実行層](/es/docs/execution-layer/) が役に立ちます。
+ここで、[実行層](/ja/docs/execution-layer/) が役に立ちます。
 
 ## MCP ツールと Web サイト ページの比較
 

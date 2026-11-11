@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 84
 category: "Guide"
 description: "Frameworks zur Agentenbewertung messen Aufgabenautonomie, Genauigkeit, Kosten, Latenz und Erfolg während des gesamten Lebenszyklus. Tun."
-metaDescription: "Utilice puntos de referencia de evaluación de agentes para medir la autonomía, la precisión, el costo, la latencia y el éxito de las tareas durante todo."
 summary: "Die Bewertung der Agentenleistung geht über die Genauigkeit hinaus. Moderne Frameworks messen Autonomie, Kosteneffizienz, Latenz und die Erledigung realer Aufgaben. Hier erfahren Sie, wie Sie eine Bewertungspraxis aufbauen."
 keywords:
   - "Frameworks zur Agentenbewertung"
@@ -35,13 +34,13 @@ Messen Sie die Genauigkeit pro Seite und pro Datenfeld. Eine Website kann bei de
 
 Wie viele Schritte kann der Agent ohne menschliches Eingreifen abschließen? Eine vollständig autonome Interaktion (Erkennung, Extraktion, Aktion, Zahlung, Verifizierung) erzielt eine höhere Punktzahl als eine, die in Schritt drei die Zustimmung eines Menschen erfordert.
 
-Für AEO misst dies, wie gut Ihre Ausführungsebene End-to-End-Agent-Workflows unterstützt. Der [Leitfaden zur Ausführungsebene](/es/docs/execution-layer/) erläutert die Infrastrukturanforderungen.
+Für AEO misst dies, wie gut Ihre Ausführungsebene End-to-End-Agent-Workflows unterstützt. Der [Leitfaden zur Ausführungsebene](/de/docs/execution-layer/) erläutert die Infrastrukturanforderungen.
 
 ### Rentabilität
 
 Wie viel kostet jede Agenteninteraktion an Token, API-Aufrufen und Verarbeitungszeit? Hohe Kosten pro Interaktion hemmen den Agentenverkehr. Websites mit sauberen, komprimierten Daten senken die Agentenkosten und ziehen eine höhere Nutzung an.
 
-Context Engineering (siehe [Context Engineering Guide](/es/docs/context-engineering-aeo/)) verbessert direkt die Rentabilität, indem es die Datenmenge reduziert, die Agenten verarbeiten müssen.
+Context Engineering (siehe [Context Engineering Guide](/de/docs/context-engineering-aeo/)) verbessert direkt die Rentabilität, indem es die Datenmenge reduziert, die Agenten verarbeiten müssen.
 
 ### Latenz
 
@@ -67,7 +66,7 @@ Ragas konzentriert sich auf die Recovery-Augmented-Generation-Bewertung. Misst K
 
 TruLens bietet eine verfolgungsbasierte Auswertung, die dem gesamten Argumentationspfad eines Agenten folgt. Nützlich, um zu verstehen, warum ein Agent eine bestimmte Entscheidung bezüglich Ihres Inhalts getroffen hat.
 
-Der [AEO-KPI-Leitfaden](/es/docs/aeo-kpis-measurement/) deckt den breiteren Messrahmen ab.
+Der [AEO-KPI-Leitfaden](/de/docs/aeo-kpis-measurement/) deckt den breiteren Messrahmen ab.
 
 ## Vergleich: Ad-hoc-Tests versus strukturierte Bewertung
 

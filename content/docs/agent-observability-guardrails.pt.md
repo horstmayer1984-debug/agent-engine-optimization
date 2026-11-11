@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 82
 category: "Architecture"
 description: "Transforme agentes de caixa preta em sistemas seguros e auditáveis ​​com rastreamento em tempo real, detecção de anomalias e aplicação de políticas."
-metaDescription: "Agregue seguimientos, detección de anomalías, aplicación de políticas, comprobaciones de permisos y barreras de seguridad para que los sistemas de agentes."
 summary: "Sem observabilidade, os sistemas de agentes são caixas pretas. O rastreamento OpenTelemetry, as proteções dinâmicas e os watchdogs fornecem a visibilidade e a segurança necessárias para a produção de AEO."
 keywords:
   - "observabilidade do agente"
@@ -59,7 +58,7 @@ Depuração. Quando um agente extrai informações incorretas do seu site, os ra
 
 Conformidade. Os registros de auditoria gerados pela instrumentação de observabilidade atendem aos requisitos regulatórios para transações automatizadas, especialmente em finanças, saúde e comércio regulamentado.
 
-O [artigo do plano de controle universal](/es/docs/universal-control-plane/) cobre a arquitetura de governança. O [guia do ciclo de feedback](/es/docs/agent-feedback-loops/) explica como os dados de observabilidade são incorporados aos ciclos de melhoria.
+O [artigo do plano de controle universal](/pt/docs/universal-control-plane/) cobre a arquitetura de governança. O [guia do ciclo de feedback](/pt/docs/agent-feedback-loops/) explica como os dados de observabilidade são incorporados aos ciclos de melhoria.
 
 ## Comparação: sem vs com observabilidade
 
@@ -99,7 +98,7 @@ Trilhas de auditoria automáticas que registram cada interação, decisão e res
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

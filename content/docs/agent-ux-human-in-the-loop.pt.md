@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 86
 category: "Guide"
 description: "Projete a experiência do usuário do agente com aprovações claras, visualizações, reversibilidade e feedback de status para que as pessoas possam monitorar as ações."
-metaDescription: "Diseñe interfaces para humanos y agentes de IA con HTML semántico, aprobaciones, comentarios estructurados, mensajes de estado y flujos de trabajo."
 summary: "As interfaces modernas devem atender dois públicos simultaneamente: usuários humanos e agentes de IA. O design responsivo do agente usa HTML semântico, terminais estruturados e ciclos de feedback para satisfazer ambos."
 keywords:
   - "design UX do agente"
@@ -32,7 +31,7 @@ Use elementos HTML nativos em vez de divs estilizados. Um elemento de botão inf
 
 Adicione atributos aria-label quando a finalidade do elemento não for óbvia em seu conteúdo. Um agente que analisa sua página se beneficia das mesmas práticas de acessibilidade usadas pelos leitores de tela.
 
-Processe todo o conteúdo crítico no servidor. Se o nome, o preço e a disponibilidade do seu produto exigirem a exibição de JavaScript, os agentes não poderão vê-los. O [Guia de programação do site do agente](/es/docs/programming-websites-for-ai-agents/) cobre os requisitos técnicos.
+Processe todo o conteúdo crítico no servidor. Se o nome, o preço e a disponibilidade do seu produto exigirem a exibição de JavaScript, os agentes não poderão vê-los. O [Guia de programação do site do agente](/pt/docs/programming-websites-for-ai-agents/) cobre os requisitos técnicos.
 
 ##Fluxos de aprovação humanos no circuito
 
@@ -48,7 +47,7 @@ Tanto humanos quanto agentes devem relatar problemas. Mas eles relatam de forma 
 
 Feedback humano: uma caixa de comentários, uma avaliação com estrelas, um ticket de suporte. Não estruturado, rico em contexto, requer interpretação.
 
-Feedback do agente: um endpoint estruturado que aceita o URL de uma página, dados esperados, dados reais encontrados e classificação de erros. Nenhuma interpretação necessária.Construa ambos. O formulário de feedback humano na página visível. O endpoint de feedback do agente documentado em seu llms.txt e no cartão do agente. Ambos alimentam o mesmo processo de melhoria através de seus [ciclos de feedback](/es/docs/agent-feedback-loops/).
+Feedback do agente: um endpoint estruturado que aceita o URL de uma página, dados esperados, dados reais encontrados e classificação de erros. Nenhuma interpretação necessária.Construa ambos. O formulário de feedback humano na página visível. O endpoint de feedback do agente documentado em seu llms.txt e no cartão do agente. Ambos alimentam o mesmo processo de melhoria através de seus [ciclos de feedback](/pt/docs/agent-feedback-loops/).
 
 ## Endpoints WebSocket para sessões ao vivo
 
@@ -64,7 +63,7 @@ Sua interface deve funcionar em todos os níveis de capacidade: experiência com
 
 Cada camada atende um cliente diferente. Projete de forma que a remoção de uma camada não quebre as camadas abaixo dela. Se o seu JavaScript falhar, o HTML ainda deverá conter informações essenciais. Se seus endpoints não funcionarem, o HTML ainda deverá estar legível.
 
-O [Guia de Implementação AEO](/es/docs/implement-aeo/) cobre a estrutura da camada de conteúdo.
+O [Guia de Implementação AEO](/pt/docs/implement-aeo/) cobre a estrutura da camada de conteúdo.
 
 ---
 

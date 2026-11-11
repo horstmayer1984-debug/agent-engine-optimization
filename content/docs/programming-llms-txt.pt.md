@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 62
 category: "Guide"
 description: "llms.txt é o mecanismo de descoberta de agente mais simples e capaz. Estrutura exata, regras de conteúdo, geração dinâmica para sites grandes e."
-metaDescription: "Aprenda a escribir llms.txt para agentes de IA, incluida la estructura, las reglas de contenido, la generación dinámica y la integración de esquemas."
 summary: "llms.txt informa aos agentes de IA o que seu site oferece e como interagir com ele. Este guia aborda a formatação exata, regras de conteúdo, erros comuns e como gerá-los dinamicamente para sites grandes."
 keywords:
   - "guia llms.txt"
@@ -103,8 +102,8 @@ Sim. Cada subdomínio deve ter seu próprio llms.txt que descreve os recursos es
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
-* [camada de execução](/es/docs/execution-layer/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
+* [camada de execução](/pt/docs/execution-layer/)
 
 ## Referências primárias* [Guia do Google para recursos de IA generativa](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
 * [Noções básicas da Pesquisa Google](https://developers.google.com/search/docs/essentials)

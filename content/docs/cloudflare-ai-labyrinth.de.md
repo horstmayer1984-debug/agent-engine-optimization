@@ -25,9 +25,9 @@ Das unterscheidet AI Labyrinth von robots.txt. Robots.txt kommuniziert Präferen
 
 Verwandte Site-Guides:
 
-- [Cloudflare AI Crawl Control für AEO](/es/docs/cloudflare-ai-crawl-control/)
-- [KI-Crawler und robots.txt](/es/docs/ai-crawlers-robots-txt/)
-- [llms.txt vs. robots.txt](/es/docs/llms-txt-vs-robots-txt/)
+- [Cloudflare AI Crawl Control für AEO](/de/docs/cloudflare-ai-crawl-control/)
+- [KI-Crawler und robots.txt](/de/docs/ai-crawlers-robots-txt/)
+- [llms.txt vs. robots.txt](/de/docs/llms-txt-vs-robots-txt/)
 
 ## KI-Labyrinth im Vergleich zu anderen Kriechsteuerungen
 
@@ -49,7 +49,7 @@ Die richtige Einstellung ist nicht „Alle Abwehrmaßnahmen aktivieren“. Es ha
 
 Die Agent Engine-Optimierung erfordert Auffindbarkeit. Wenn Ihre besten Seiten nicht gecrawlt werden können, werden sie von Antwortmaschinen und KI-Agenten möglicherweise nicht zitiert. Gleichzeitig kann uneingeschränktes Scraping zu Bandbreitenkosten, Bedenken hinsichtlich der Schulungsnutzung und Problemen bei der Inhaltskontrolle führen.
 
-AI Labyrinth gehört in die gleiche Diskussion wie [Ausführungsschicht](/es/docs/execution-layer/): Sobald Agenten eine Site entdecken können, benötigt die Site immer noch Regeln darüber, wer auf tiefere Inhalte reagieren, sie crawlen, dafür bezahlen oder sie abrufen kann.
+AI Labyrinth gehört in die gleiche Diskussion wie [Ausführungsschicht](/de/docs/execution-layer/): Sobald Agenten eine Site entdecken können, benötigt die Site immer noch Regeln darüber, wer auf tiefere Inhalte reagieren, sie crawlen, dafür bezahlen oder sie abrufen kann.
 
 ## Wenn KI-Labyrinth Sinn macht
 
@@ -72,7 +72,7 @@ Seien Sie besonders vorsichtig bei:
 - Seiten, die von Supportmitarbeitern, Beschaffungsagenten oder Vergleichssystemen verwendet werden
 - Websites mit geringer Crawl-Aktivität
 
-Für viele kleine Unternehmen reicht eine weniger strenge Bot-Richtlinie aus. Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) ist ein besserer Ausgangspunkt als eine aggressive Verteidigung gegen Sniffer.
+Für viele kleine Unternehmen reicht eine weniger strenge Bot-Richtlinie aus. Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) ist ein besserer Ausgangspunkt als eine aggressive Verteidigung gegen Sniffer.
 
 ## Empfohlene Richtlinie nach Inhaltstyp
 
@@ -98,7 +98,7 @@ Für viele kleine Unternehmen reicht eine weniger strenge Bot-Richtlinie aus. De
 7. Überwachen Sie die Search Console- und Serverprotokolle nach Änderungen.
 8. Überprüfen Sie wichtige URLs mit Suchtools.
 
-Das [AEO-Bereitschaftsaudit](/es/docs/audit/) sollte den Crawler-Zugriff umfassen, nicht nur Metadaten und strukturierte Daten.
+Das [AEO-Bereitschaftsaudit](/de/docs/audit/) sollte den Crawler-Zugriff umfassen, nicht nur Metadaten und strukturierte Daten.
 
 ## Häufig gestellte Fragen
 

@@ -22,7 +22,7 @@ Gesundheitsinhalte haben eine höhere Vertrauenswürdigkeit als die meisten komm
 
 Dadurch geht es beim AEO im Gesundheitswesen weniger um aggressive Automatisierung als vielmehr um sichere Struktur. Die Website sollte den Agenten genau sagen, was sie lesen können, was sie tun können und wann eine menschliche Überprüfung erforderlich ist.
 
-Der [Leitfaden Was ist AEO](/es/docs/what-is-aeo/) erläutert den allgemeinen Rahmen. Gesundheitsdienstleister sollten dieses Framework als Governance-Ebene und nicht nur als SEO-Taktik betrachten.
+Der [Leitfaden Was ist AEO](/de/docs/what-is-aeo/) erläutert den allgemeinen Rahmen. Gesundheitsdienstleister sollten dieses Framework als Governance-Ebene und nicht nur als SEO-Taktik betrachten.
 
 ##Agentenaufgaben, die Gesundheitsstandorte unterstützen können
 
@@ -56,7 +56,7 @@ Jede Serviceseite muss Folgendes enthalten:
 
 Vermeiden Sie es, diese Informationen in Broschüren oder langen PDF-Dateien zu vergraben. PDF-Dateien können für Patienten nützlich sein, aber Agenten benötigen prägnantes HTML mit klaren Titeln und stabilen URLs.
 
-Der [Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt die Checkliste auf Site-Ebene für strukturiertes HTML, Schema, „llms.txt“ und interne Verlinkung.
+Der [Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt die Checkliste auf Site-Ebene für strukturiertes HTML, Schema, „llms.txt“ und interne Verlinkung.
 
 ## Anforderungen an die Ausführungsebene
 
@@ -92,7 +92,7 @@ Für AEO sind praktische Vertrauenssignale:
 - Datenschutzsichere Dating- und Kontaktströme
 - Maschinenlesbare Grenzen dessen, was Agenten tun können
 
-Mit dem [AEO Readiness Audit] (/es/docs/audit/) kann überprüft werden, ob diese Signale sowohl für Menschen als auch für Agenten sichtbar sind.
+Mit dem [AEO Readiness Audit](/de/docs/audit/) kann überprüft werden, ob diese Signale sowohl für Menschen als auch für Agenten sichtbar sind.
 
 ## Beispielimplementierung
 

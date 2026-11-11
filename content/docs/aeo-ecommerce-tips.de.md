@@ -70,7 +70,7 @@ Diese Kennzahlen entwickeln sich noch weiter, aber Geschäfte, die sie frühzeit
 
 Einkäufer, die Produkte vergleichen und selbstständig Einkäufe tätigen, gibt es bereits in begrenzten Kontexten. Bereiten Sie sich vor, indem Sie Echtzeitpreise, einen genauen Bestandsstatus und strukturierte Versand- und Rückgaberichtlinien offenlegen.
 
-Geschäfte, die heute maschinenlesbar sind, werden morgen auch maschinenlesbar sein. Der [Leitfaden zur Ausführungsebene](/es/docs/execution-layer/) erklärt dies ausführlich.
+Geschäfte, die heute maschinenlesbar sind, werden morgen auch maschinenlesbar sein. Der [Leitfaden zur Ausführungsebene](/de/docs/execution-layer/) erklärt dies ausführlich.
 
 ## 11. Bezahlmedien mit Informationen über AEO verbinden
 
@@ -114,8 +114,8 @@ Schema-Markup kombiniert mit einer antwortorientierten Inhaltsstruktur. Diese be
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
-* [Agent-Zahlungsprotokolle](/es/docs/agent-payment-protocols-compared/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
+* [Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/)
 
 ## Primäre Referenzen
 

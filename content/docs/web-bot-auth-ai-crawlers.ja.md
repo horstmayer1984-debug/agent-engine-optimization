@@ -22,7 +22,7 @@ CloudflareのWebボット認証ドキュメント(https://developers.cloudflare.
 
 平たく言えば、トラッカーは公開キーを公開し、その秘密キーでリクエストに署名します。そして、受信側のインフラストラクチャはリクエストが本当にそのトラッカーからのものであるかどうかを検証できます。
 
-これは、[AI クローラー用の robots.txt](/es/docs/ai-crawlers-robots-txt/) とは別の問題です。 robots.txt は、クローラーが何をすべきかを示します。 Web Bot Auth は、トラッカーが誰であるかを証明するのに役立ちます。
+これは、[AI クローラー用の robots.txt](/ja/docs/ai-crawlers-robots-txt/) とは別の問題です。 robots.txt は、クローラーが何をすべきかを示します。 Web Bot Auth は、トラッカーが誰であるかを証明するのに役立ちます。
 
 ## トラッカーの ID が今重要な理由
 
@@ -75,7 +75,7 @@ AEO 対応サイトの場合、以下に影響する可能性があります。-
 - API ドキュメントは表示されるが、実行エンドポイントで認証が必要な場合
 - 署名されたエージェントは匿名ボットとは異なる扱いを受けるかどうか
 
-これは、[実行層](/es/docs/execution-layer/) と [エージェント可観測性ガードレール](/es/docs/agent-observability-guardrails/) に直接接続します。
+これは、[実行層](/ja/docs/execution-layer/) と [エージェント可観測性ガードレール](/ja/docs/agent-observability-guardrails/) に直接接続します。
 
 ## 推奨されるアクセス レイアウト
 
@@ -96,7 +96,7 @@ AEO 対応サイトの場合、以下に影響する可能性があります。-
 
 1. 現在サイトに到着しているボットの一覧を作成します。
 2. 検索、人工知能、トレーニング、監視、トラフィックのスクレイピングを分離します。
-3. [llms.txt](/es/docs/llms-txt-vs-robots-txt/) と公開ドキュメントにアクセスできるようにします。
+3. [llms.txt](/ja/docs/llms-txt-vs-robots-txt/) と公開ドキュメントにアクセスできるようにします。
 4. Googlebot、Bingbot、その他の一般的な検出システムを誤ってブロックしないボット ルールを追加します。
 5. サポートされている場合は、Web Bot Auth または同様の検証を使用します。
 6. URL、ステータス コード、レート制限アクションとともに検証ステータスを記録します。

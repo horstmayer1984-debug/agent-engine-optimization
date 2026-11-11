@@ -4,7 +4,6 @@ date: 2026-04-14
 weight: 101
 category: "Industry"
 description: "Hotels brauchen unsichtbare APIs statt interaktiver Kalender. Wie Sie Raumdaten strukturieren und Verfügbarkeiten offenlegen."
-metaDescription: "Aprenda cómo los hoteles exponen los datos de las habitaciones, la disponibilidad en tiempo real, las comodidades, las políticas y los puntos finales."
 summary: "KIs buchen Hotels, indem sie APIs konsultieren, ohne auf Kalender klicken zu müssen. Hotels, die strukturierte Zimmerdaten, Verfügbarkeit in Echtzeit und deterministische Buchungsendpunkte bereitstellen, erfassen von Agenten gesteuerte Buchungen."
 keywords:
   - "AEO-Hotels"
@@ -40,7 +39,7 @@ Wenn ein KI-Assistent drei Hotels für eine vierköpfige Familie vergleicht, fil
 
 Der Buchungsendpunkt akzeptiert: Gastname, Daten, Zimmertyp, Anzahl der Gäste, Zahlungsautorisierung und Sonderwünsche. Rückgabe: bestätigte Reservierung mit Referenznummer, genauem Gesamtpreis, Stornierungsfrist und Check-in-Anweisungen.
 
-Der Endpunkt muss idempotent sein. Wenn ein Netzwerk-Timeout auftritt, nachdem der Agent die Reservierung übermittelt hat, sollte der erneute Versuch keine doppelte Reservierung erstellen. Der [Artikel zur universellen Steuerungsebene](/es/docs/universal-control-plane/) behandelt Idempotenzanforderungen.
+Der Endpunkt muss idempotent sein. Wenn ein Netzwerk-Timeout auftritt, nachdem der Agent die Reservierung übermittelt hat, sollte der erneute Versuch keine doppelte Reservierung erstellen. Der [Artikel zur universellen Steuerungsebene](/de/docs/universal-control-plane/) behandelt Idempotenzanforderungen.
 
 ### Maschinenlesbare Richtlinien
 
@@ -64,7 +63,7 @@ Das Hotel, das ein Agent in weniger als drei Sekunden ansehen, vergleichen und b
 
 Da die von Agenten gesteuerten Reisebuchungen in den Jahren 2026 und 2027 zunehmen, werden Hotels ohne Agenten-APIs einen Rückgang der Direktbuchungen verzeichnen, ohne zu verstehen, warum. Der Verkehr nimmt nicht sichtbar ab. Erstens kommt es nie, weil die Makler auf buchbare Objekte abzielen.
 
-Der [AEO-Reiseartikel](/es/docs/aeo-travel-booking/) deckt den breiteren Kontext der Branche ab. Im [Agent Decision Tree Guide](/es/docs/agent-decision-trees/) werden die Pass/Fail-Kriterien erläutert, die Agenten anwenden.
+Der [AEO-Reiseartikel](/de/docs/aeo-travel-booking/) deckt den breiteren Kontext der Branche ab. Im [Agent Decision Tree Guide](/de/docs/agent-decision-trees/) werden die Pass/Fail-Kriterien erläutert, die Agenten anwenden.
 
 ---
 

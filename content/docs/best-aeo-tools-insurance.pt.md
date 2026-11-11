@@ -31,7 +31,7 @@ As melhores ferramentas AEO para seguradoras ajudam os agentes de IA a entender 
 
 O seguro depende de confiança e restrições. As ferramentas AEO devem ajudar a estabelecer limites de cobertura, regras de elegibilidade, documentos necessários, etapas de reclamação, limitações geográficas, regras de cancelamento e rotas de escalonamento.
 
-Leia a seguir: [AEO para Seguradoras](/es/docs/aeo-insurance-carriers/), [Camada de Execução](/es/docs/execution-layer/) e [Auditoria de Preparação AEO](/es/docs/audit/).
+Leia a seguir: [AEO para Seguradoras](/pt/docs/aeo-insurance-carriers/), [Camada de Execução](/pt/docs/execution-layer/) e [Auditoria de Preparação AEO](/pt/docs/audit/).
 
 ## Ferramentas de pontuação em relação aos fluxos de trabalho de seguros
 

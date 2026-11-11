@@ -47,7 +47,7 @@ Was Pay-per-Use verbindet mit:
 - Inhaltslizenz
 - maschinenlesbare Zugangsregeln
 
-Siehe auch [Response Engine Optimization](/es/docs/answer-engine-optimization/), [AI Crawl-to-Referral Ratio](/es/docs/ai-crawl-to-referral-ratio/) und [AI Referral Attribution for AEO SEO](/es/docs/ai-referral-attribution-seo/).
+Siehe auch [Response Engine Optimization](/de/docs/answer-engine-optimization/), [AI Crawl-to-Referral Ratio](/de/docs/ai-crawl-to-referral-ratio/) und [AI Referral Attribution for AEO SEO](/de/docs/ai-referral-attribution-seo/).
 
 ## Was Redakteure vorbereiten sollten
 

@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 87
 category: "Guide"
 description: "Reduzieren Sie die Kosten für KI-Agenten durch Modellrouting, Tool-Limits, Caching, Beobachtbarkeit und klare Budgets."
-metaDescription: "Reduzca el costo del flujo de trabajo de los agentes con enrutamiento, almacenamiento en caché, cuotas, monitoreo, prácticas FinOps y puntos de referencia."
 summary: "Agentensysteme werden ohne Kostenkontrolle schnell teuer. Caching, Modellrouting, Quotenverwaltung und Abrechnung pro Agent verwandeln experimentellen Agentenverkehr in nachhaltige Einnahmen."
 keywords:
   - "Optimierung der Maklerkosten"
@@ -49,7 +48,7 @@ Allein diese Routing-Strategie reduziert die Modellkosten typischerweise um 40 b
 
 ## Agentenkontingente und Abrechnung Stellen Sie einen /agent-quota-Endpunkt bereit, der die verbleibenden Anrufe und das Ausgabenbudget für den anfordernden Agenten zurückgibt. Dadurch wird verhindert, dass ein einzelner Agent unverhältnismäßig viele Ressourcen verbraucht.
 
-Für Premium-Endpunkte, die über [x402](/es/docs/x402-agent-payments/) monetarisiert werden, erfolgt die Agentenabrechnung automatisch. Jede Zahlung deckt einen Antrag ab. Für kostenlose oder Freemium-Endpunkte verhindern Kontingente Missbrauch und ermöglichen dennoch eine faire Nutzung.Legen Sie abgestufte Kontingente fest: ein kostenloses Kontingent mit 100 Anfragen pro Tag, ein Standardkontingent mit 1.000 Anfragen und ein unbegrenztes Kontingent für verifizierte Agenten mit etablierten Vertrauensprofilen.
+Für Premium-Endpunkte, die über [x402](/de/docs/x402-agent-payments/) monetarisiert werden, erfolgt die Agentenabrechnung automatisch. Jede Zahlung deckt einen Antrag ab. Für kostenlose oder Freemium-Endpunkte verhindern Kontingente Missbrauch und ermöglichen dennoch eine faire Nutzung.Legen Sie abgestufte Kontingente fest: ein kostenloses Kontingent mit 100 Anfragen pro Tag, ein Standardkontingent mit 1.000 Anfragen und ein unbegrenztes Kontingent für verifizierte Agenten mit etablierten Vertrauensprofilen.
 
 ##Kosten-pro-Aufgaben-Benchmarking
 
@@ -69,7 +68,7 @@ Optimieren Sie Ihre strukturierten Daten für minimalen Token-Verbrauch. Saubere
 
 Implementieren Sie progressives Laden für Agentenanfragen. Senden Sie zunächst zusammenfassende Daten. Geben Sie vollständige Details nur auf Anfrage des Agenten an. Für die meisten Agenteninteraktionen sind Daten auf Zusammenfassungsebene erforderlich. Ausführliche Anfragen machen einen Bruchteil des gesamten Datenverkehrs aus.
 
-Der [Context-Engineering-Leitfaden](/es/docs/context-engineering-aeo/) erklärt, wie sich die Inhaltsstruktur auf die Token-Kosten auswirkt. Der [AEO-KPI-Leitfaden](/es/docs/aeo-kpis-measurement/) deckt den breiteren Messrahmen ab.
+Der [Context-Engineering-Leitfaden](/de/docs/context-engineering-aeo/) erklärt, wie sich die Inhaltsstruktur auf die Token-Kosten auswirkt. Der [AEO-KPI-Leitfaden](/de/docs/aeo-kpis-measurement/) deckt den breiteren Messrahmen ab.
 
 ##Vergleich: Unverwaltete vs. optimierte Agentenkosten
 

@@ -40,7 +40,7 @@ Contentful beschreibt dieses Muster als Trennung der Präsentationsschicht vom B
 
 Dies macht die Headless-CMS-Architektur besonders nützlich für strukturierte Inhalte. Eine Produktdefinition, eine Autorenbiografie, ein Hilfeartikel oder ein Compliance-Hinweis können wiederverwendet werden, ohne dass sie systemübergreifend kopiert werden müssen.
 
-Für das umfassendere Konzept lesen Sie [Was ist Headless-Software?](/es/docs/what-is-headless-software/).
+Für das umfassendere Konzept lesen Sie [Was ist Headless-Software?](/de/docs/what-is-headless-software/).
 
 ## Welche Art von CMS eignet sich am besten für SEO?
 
@@ -67,7 +67,7 @@ Headless-CMS-Plattformen können auch robuste redaktionelle Arbeitsabläufe unte
 
 ## Entwicklererfahrung
 
-Entwickler bevorzugen oft Headless-CMS-Plattformen, weil sie das Schnittstellen-Framework auswählen, wiederverwendbare Komponenten definieren und den Kampf mit einem Theme-System vermeiden können. Headless-Inhalte eignen sich auch besser für [agentfähige Webanwendungen](/es/docs/agent-ready-web-apps/), da die Inhalte als strukturierte Daten statt nur als gerenderte Seiten bereitgestellt werden können.
+Entwickler bevorzugen oft Headless-CMS-Plattformen, weil sie das Schnittstellen-Framework auswählen, wiederverwendbare Komponenten definieren und den Kampf mit einem Theme-System vermeiden können. Headless-Inhalte eignen sich auch besser für [agentfähige Webanwendungen](/de/docs/agent-ready-web-apps/), da die Inhalte als strukturierte Daten statt nur als gerenderte Seiten bereitgestellt werden können.
 
 Der Kompromiss ist die Wartung. Eine Headless-Site benötigt normalerweise separates Hosting, Bereitstellung, Vorschaulogik, Inhaltsmodelle, API-Clients und Überwachung.
 
@@ -91,7 +91,7 @@ Entscheiden Sie sich für ein herkömmliches CMS, wenn Geschwindigkeit, Budget u
 
 ## Wann sollten Sie sich für ein Headless-CMS entscheiden? Wählen Sie ein Headless-CMS, wenn der Inhalt mehrere Kanäle bedienen muss, die Benutzeroberfläche stark angepasst ist oder das Unternehmen möchte, dass der Inhalt als strukturierte Daten fungiert. Dies ist ideal für Dokumentationszentren, SaaS-Sites, internationale Content-Plattformen, Kundenportale und KI-lesbare Veröffentlichungssysteme.
 
-Der zugehörige Leitfaden [Headless Commerce Explained] (/es/docs/headless-commerce-explained/) behandelt die gleiche Backend-/Frontend-Aufteilung für Online-Shops.
+Der zugehörige Leitfaden [Headless Commerce Explained](/de/docs/headless-commerce-explained/) behandelt die gleiche Backend-/Frontend-Aufteilung für Online-Shops.
 
 ## Häufige Fehler
 
@@ -108,7 +108,7 @@ Bevor Sie sich kopflos bewegen, definieren Sie Folgendes:
 - Veröffentlichungsberechtigungen
 - Fallback-Verhalten, wenn APIs ausfallen
 
-Definieren Sie für die [AEO-Implementierung](/es/docs/implement-aeo/) außerdem, wie Agenten Inhalte erkennen sollen und ob neben der HTML-Seite eine Markdown-, JSON- oder API-Oberfläche vorhanden sein soll.
+Definieren Sie für die [AEO-Implementierung](/de/docs/implement-aeo/) außerdem, wie Agenten Inhalte erkennen sollen und ob neben der HTML-Seite eine Markdown-, JSON- oder API-Oberfläche vorhanden sein soll.
 
 ## Häufig gestellte Fragen
 

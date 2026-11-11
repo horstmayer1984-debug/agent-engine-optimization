@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 96
 category: "Guide"
 description: "Eine CEO-Roadmap für die Agent-Engine-Optimierung, die Budget, Teamausrichtung und KPIs abdeckt."
-metaDescription: "Siga una hoja de ruta de AEO de 90 días para directores ejecutivos que cubre el presupuesto y la organización alineación, KPI, prioridades de la capa."
 summary: "AEO ist keine technische Aufgabe. Es handelt sich um einen strategischen Burggraben. Diese 90-Tage-Roadmap umfasst die Ausrichtung des Vorstands, die Budgetzuweisung, organisatorische Vorgaben und die Messung für Führungskräfte."
 keywords:
   - "AEO-CEO-Roadmap"
@@ -26,7 +25,7 @@ Planen Sie eine zweistündige Vorstandspräsentation. Decken Sie drei Punkte ab.
 
 Erstens die Marktveränderung. KI-Agenten werden zur primären Schnittstelle für die Entdeckung, den Vergleich und den Kauf von Produkten. Bis Ende 2026 werden die meisten Einkaufsabläufe in Unternehmen und ein zunehmender Anteil der Verbraucherkäufe mindestens eine Ebene von Agenten umfassen.
 
-Zweitens das Risiko der Untätigkeit. Agenten führen [deterministische Entscheidungsbäume](/es/docs/agent-decision-trees/) mit strengen Pass/Fail-Kriterien aus. Unternehmen ohne maschinenlesbare Daten, strukturierte APIs und Protokollkonformität werden stillschweigend ausgeschlossen. Es gibt keinen zu diagnostizierenden Rückgang in der Klassifizierung. Es fehlt einfach an den Arbeitsabläufen der Agenten.
+Zweitens das Risiko der Untätigkeit. Agenten führen [deterministische Entscheidungsbäume](/de/docs/agent-decision-trees/) mit strengen Pass/Fail-Kriterien aus. Unternehmen ohne maschinenlesbare Daten, strukturierte APIs und Protokollkonformität werden stillschweigend ausgeschlossen. Es gibt keinen zu diagnostizierenden Rückgang in der Klassifizierung. Es fehlt einfach an den Arbeitsabläufen der Agenten.
 
 Drittens: Gelegenheit. First Mover erzielen Zinseszinsvorteile. Die Vertrauensmuster der Agenten verstärken sich selbst. Unternehmen, die jetzt Agententransparenz einführen, werden mit zunehmender Akzeptanz schwerer zu verdrängen sein.
 
@@ -78,7 +77,7 @@ Machen Sie Ihre AEO-Führung nach außen bekannt. Veröffentlichen Sie Ihre llms
 
 ### Neue Umsatzerkundung
 
-Bewerten Sie agentenbereite API-Produkte: White-Label-Datenfeeds, strukturierte Produkt-APIs für Partnerplattformen und monetarisierte Premium-Agent-Endpunkte über [x402](/es/docs/x402-agent-payments/).
+Bewerten Sie agentenbereite API-Produkte: White-Label-Datenfeeds, strukturierte Produkt-APIs für Partnerplattformen und monetarisierte Premium-Agent-Endpunkte über [x402](/de/docs/x402-agent-payments/).
 
 ## Das Wettbewerbsargument
 
@@ -86,7 +85,7 @@ Jeder Monat Verzögerung verschlimmert den Nachteil. Agenten entwickeln Vertraue
 
 Deshalb ist der AEO ein strategischer Burggraben und kein technisches Projekt. Die technische Arbeit ist endlich. Der Wettbewerbsvorteil entsteht dadurch auf unbestimmte Zeit.
 
-Die Agent Era Prepared Roadmap (/es/docs/preparing-for-agentic-era/) deckt die Entwicklung individueller Fähigkeiten ab. Das [AEO Readiness Audit](/es/docs/audit/) bietet den Bewertungsrahmen.
+Die Agent Era Prepared Roadmap (/es/docs/preparing-for-agentic-era/) deckt die Entwicklung individueller Fähigkeiten ab. Das [AEO Readiness Audit](/de/docs/audit/) bietet den Bewertungsrahmen.
 
 ---
 

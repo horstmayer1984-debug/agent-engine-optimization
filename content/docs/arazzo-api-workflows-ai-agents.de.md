@@ -52,7 +52,7 @@ Wenn ein Agent nur einzelne Endpunkte sieht, muss er auf die Reihenfolge schlie�
 | Arazzo | Beschreibt betriebsübergreifende Arbeitsabläufe | Verstehen, wie eine Aufgabe erledigt wird |
 | PCM | Macht aufrufbare Tools und Ressourcen verfügbar | Aktionen über eine Agentenschnittstelle aufrufen |
 
-Der [MCP vs. API-Leitfaden](/es/docs/mcp-vs-api-for-agents/) erklärt die Tooling-Ebene. Arazzo hilft bei der Dokumentation der Workflow-Logik hinter diesen Tools.
+Der [MCP vs. API-Leitfaden](/de/docs/mcp-vs-api-for-agents/) erklärt die Tooling-Ebene. Arazzo hilft bei der Dokumentation der Workflow-Logik hinter diesen Tools.
 
 ## Wo Arazzo in AEO passt
 
@@ -64,7 +64,7 @@ AEO ist am stärksten, wenn Agenten diese Sequenz durchlaufen können:
 4. Führen Sie den Workflow aus.
 5. Überprüfen Sie das Ergebnis.
 
-Arazzo unterstützt die Schritte 2 bis 5, indem es mehrstufige Arbeitsabläufe explizit macht. Dies ist besonders nützlich für die [Ausführungsschicht](/es/docs/execution-layer/), wo ein Agent mehr tun muss, als nur Inhalte abzurufen.
+Arazzo unterstützt die Schritte 2 bis 5, indem es mehrstufige Arbeitsabläufe explizit macht. Dies ist besonders nützlich für die [Ausführungsschicht](/de/docs/execution-layer/), wo ein Agent mehr tun muss, als nur Inhalte abzurufen.
 
 ## Starke Anwendungsfälle
 
@@ -78,7 +78,7 @@ Arazzo unterstützt die Schritte 2 bis 5, indem es mehrstufige Arbeitsabläufe e
 | SaaS-Onboarding | Arbeitsbereichs-, Benutzer-, Abrechnungs- und Berechtigungseinstellungen weisen Abhängigkeiten auf || Unterstützen Sie das Klettern | Bedarfsstatus für Ticketerstellung, -klassifizierung, -anhang und -weiterleitung |
 | Finanz-Workflow | Offenlegung, Berechtigung und Zustimmung müssen erfolgen, bevor Maßnahmen ergriffen werden |
 
-Die [Agent-Ready Web Application Checklist] (/es/docs/agent-ready-web-apps/) behandelt die Gestaltung der zugrunde liegenden Oberfläche des Produkts.
+Die [Agent-Ready Web Application Checklist](/de/docs/agent-ready-web-apps/) behandelt die Gestaltung der zugrunde liegenden Oberfläche des Produkts.
 
 ## Was in einen Arazzo-Workflow einbezogen werden sollte
 

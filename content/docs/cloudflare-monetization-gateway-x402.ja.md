@@ -40,7 +40,7 @@ HTTP には、必要な支払いのステータス コード「402」がすで�
 
 このフローは、人間によるチェックアウト画面よりもエージェントにとって簡単です。エージェントは、すべての価格設定ページ、ポップアップ、ログイン ウォール、カード フォームを確実に解釈することはできません。明確なプロトコルで動作できます。
 
-これは、[x402 エージェント支払い](/es/docs/x402-agent-payments/)、[x402 vs ACP vs MPP](/es/docs/x402-vs-acp-vs-mpp/)、および [エージェント支払いプロトコルの比較](/es/docs/agent-payment-protocols-compared/) で説明されているロジックを拡張します。
+これは、[x402 エージェント支払い](/ja/docs/x402-agent-payments/)、[x402 vs ACP vs MPP](/ja/docs/x402-vs-acp-vs-mpp/)、および [エージェント支払いプロトコルの比較](/ja/docs/agent-payment-protocols-compared/) で説明されているロジックを拡張します。
 
 ## これは AEO にどのような影響を与えますか?
 
@@ -77,7 +77,7 @@ AEO は依然として検出機能から始まります。エージェントが�
 |価格 |リクエストあたりの価格はユーザーの価値と一致しない可能性があります |
 |インデックス作成 |完全にプライベートなコンテンツは、検索と応答の可視性を失う可能性があります。
 
-[Merchant Agent Policy Engines](/es/docs/merchant-agent-policy-engine/) を使用して、誰が何を購入またはアクセスできるかのルールを理解します。
+[Merchant Agent Policy Engines](/ja/docs/merchant-agent-policy-engine/) を使用して、誰が何を購入またはアクセスできるかのルールを理解します。
 
 ## よくある質問
 

@@ -48,7 +48,7 @@ AEO não se trata apenas de saber se um sistema de IA pode rastrear uma página.
 - use a página dentro dos limites permitidos
 - realizar ações seguras quando apropriado
 
-O Content-Signal está localizado entre [AI Crawlers e robots.txt](/es/docs/ai-crawlers-robots-txt/) e [Camada de Execução](/es/docs/execution-layer/). Não substitui APIs, autenticação, preços ou consentimento. Dá às máquinas um revestimento mais leve de preferência.
+O Content-Signal está localizado entre [AI Crawlers e robots.txt](/pt/docs/ai-crawlers-robots-txt/) e [Camada de Execução](/pt/docs/execution-layer/). Não substitui APIs, autenticação, preços ou consentimento. Dá às máquinas um revestimento mais leve de preferência.
 
 ## Sinal de conteúdo vs. robots.txt vs. llms.txt
 
@@ -81,7 +81,7 @@ Use o [AEO Readiness Checker](/tools/aeo-readiness-checker.html) depois de alter
 
 Content-Signal é um sinal de preferência, não um mecanismo universalmente aplicável. Um robô pode ignorá-lo. Infraestruturas como regras da Cloudflare, autenticação, solicitações assinadas, limites de taxas ou protocolos de pagamento ainda podem ser necessárias.
 
-Para acesso comercial, consulte [Protocolos de pagamento de agente comparados](/es/docs/agent-payment-protocols-compared/) e [Pagamentos de agente x402](/es/docs/x402-agent-payments/).
+Para acesso comercial, consulte [Protocolos de pagamento de agente comparados](/pt/docs/agent-payment-protocols-compared/) e [Pagamentos de agente x402](/pt/docs/x402-agent-payments/).
 
 ## Lista de verificação de implantação
 

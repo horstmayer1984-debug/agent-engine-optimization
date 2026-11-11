@@ -53,7 +53,7 @@ Isso significa que seu site se beneficia de:
 - fortes laços internos
 - respostas ricas em evidências que podem ser independentes
 
-A [estrutura de otimização de pesquisa de IA] (/es/docs/ai-search-optimization/) explica a pilha mais ampla. O [guia de estratégia de conteúdo AEO](/es/docs/aeo-content-strategy/) mostra como estruturar grupos para que os agentes possam passar de uma camada de decisão para a próxima.
+A [estrutura de otimização de pesquisa de IA](/pt/docs/ai-search-optimization/) explica a pilha mais ampla. O [guia de estratégia de conteúdo AEO](/pt/docs/aeo-content-strategy/) mostra como estruturar grupos para que os agentes possam passar de uma camada de decisão para a próxima.
 
 ##O que melhorar na página
 
@@ -80,7 +80,7 @@ Dica:
 - conversões de páginas que recebem tráfego de links de suporte
 - engajamento após clique
 
-O [Guia de relatório de desempenho de IA do Bing] (/es/docs/bing-ai-performance-report/) é útil em conjunto com o Google Search Console porque oferece outra visualização de citações de IA e URLs citados.
+O [Guia de relatório de desempenho de IA do Bing](/pt/docs/bing-ai-performance-report/) é útil em conjunto com o Google Search Console porque oferece outra visualização de citações de IA e URLs citados.
 
 ## O que não fazer
 
@@ -92,7 +92,7 @@ Evite cinco erros comuns:
 4. Trate o modo IA como um substituto para rastreamento, indexação ou arquitetura de site.
 5. Otimize apenas para menções, em vez de próximas ações úteis.
 
-A visibilidade da IA ​​é a camada de leitura. Se os agentes também precisarem usar o site, conecte-o à [camada de execução](/es/docs/execution-layer/).
+A visibilidade da IA ​​é a camada de leitura. Se os agentes também precisarem usar o site, conecte-o à [camada de execução](/pt/docs/execution-layer/).
 
 ## Perguntas frequentes
 

@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 74
 category: "Framework"
 description: "x402 vervollständigt den AEO-Stack, indem es Zahlungen zu MCP-Tool-Anrufen und A2A-Agentenzusammenarbeit hinzufügt. Die vierschichtige Architektur für einen Agenten."
-metaDescription: "Vea cómo x402, MCP y A2A se combinan en una arquitectura de cuatro capas para el comercio, la coordinación, los pagos y la verificación de agentes autónomos."
 summary: "Erkennung mit llms.txt, Tool-Ausführung mit MCP, Zusammenarbeit mit A2A, Zahlung mit x402. Zusammen bilden sie den kompletten AEO-Stack für vollständig autonome Agenteninteraktionen."
 keywords:
   - "x402 MCP A2A-Akku"
@@ -24,7 +23,7 @@ llms.txt und Agent Cards teilen Agenten mit, was Ihre Website bietet, wo sie Fun
 
 ### Schicht 2: Ausführung
 
-MCP-Server stellen ihre Handelsaktionen als schriftliche Tools zur Verfügung, die Agenten erkennen und dynamisch aufrufen können. Dies ist die [Ausführungsschicht](/es/docs/execution-layer/), in der Agenten vom Lesen zur Aktion übergehen.
+MCP-Server stellen ihre Handelsaktionen als schriftliche Tools zur Verfügung, die Agenten erkennen und dynamisch aufrufen können. Dies ist die [Ausführungsschicht](/de/docs/execution-layer/), in der Agenten vom Lesen zur Aktion übergehen.
 
 ### Ebene 3: Zusammenarbeit
 
@@ -42,7 +41,7 @@ Ein Agent benötigt erstklassige Marktanalysedaten. Durchsuchen Sie MCP-Datensä
 
 Der Agent ruft sein Marktanalyse-MCP-Tool mit den erforderlichen Parametern auf. Ihr Server gibt eine 402-Antwort mit dem Preis zurück. Der Agent erstellt den X-PAYMENT-Header, zahlt 0,05 USDC in Base und versucht es erneut. Ihr Server validiert die Zahlung, führt die Analyse durch und gibt das Ergebnis zurück.
 
-Wenn der Agent Teil eines Multi-Agenten-Workflows ist, gibt er das Ergebnis per A2A-Aufgabenteilung an den nächsten Agenten weiter. Ihr Dienst zeichnet die Interaktion auf, um die [Feedbackschleife](/es/docs/agent-feedback-loops/) zu verbessern.
+Wenn der Agent Teil eines Multi-Agenten-Workflows ist, gibt er das Ergebnis per A2A-Aufgabenteilung an den nächsten Agenten weiter. Ihr Dienst zeichnet die Interaktion auf, um die [Feedbackschleife](/de/docs/agent-feedback-loops/) zu verbessern.
 
 Gesamtzeit: weniger als 5 Sekunden. Gesamtkosten für den Agenten: 0,05 $ zuzüglich vernachlässigbarer Transaktionsgebühren. Verdienst für Sie: 0,05 $ pro Anfrage, Abrechnung in Echtzeit.
 
@@ -93,7 +92,7 @@ Hängt vom Verkehr und den Preisen ab. Ein Premium-Datenendpunkt, der 10.000 Age
 
 ---
 
-*In diesem Artikel werden Zahlungsprotokolle und Kryptowährungsinfrastruktur nur zu Bildungs- und Informationszwecken behandelt. Es handelt sich nicht um eine Finanzberatung. Die vollständigen Bedingungen finden Sie in unserem [Rechtlichen Hinweis](/es/docs/disclaimer/).*
+*In diesem Artikel werden Zahlungsprotokolle und Kryptowährungsinfrastruktur nur zu Bildungs- und Informationszwecken behandelt. Es handelt sich nicht um eine Finanzberatung. Die vollständigen Bedingungen finden Sie in unserem [Rechtlichen Hinweis](/de/docs/disclaimer/).*
 
 ## Primäre Referenzen
 

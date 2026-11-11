@@ -26,7 +26,7 @@ O SEO tradicional pergunta se uma página pode ser classificada. A otimização 
 - Um agente de IA pode encontrar o próximo passo?
 - Existe conteúdo importante disponível fora do design visual?
 
-É aqui que a arquitetura do CMS é importante. Leia os guias mais amplos de [AI Search Optimization](/es/docs/ai-search-optimization/) e [Agent Engine Optimization](/es/docs/what-is-aeo/) para contextualizar.
+É aqui que a arquitetura do CMS é importante. Leia os guias mais amplos de [AI Search Optimization](/pt/docs/ai-search-optimization/) e [Agent Engine Optimization](/pt/docs/what-is-aeo/) para contextualizar.
 
 ##Comparação de arquitetura para sistemas de IA
 
@@ -60,7 +60,7 @@ Um bom modelo de CMS headless pode definir:
 
 Essa estrutura pode direcionar páginas HTML, pesquisas internas, resumos llms.txt, resultados de API e documentação voltada para o agente.
 
-A [camada de execução](/es/docs/execution-layer/) ainda requer endpoints de ação, mas a camada de conteúdo se torna mais fácil de raciocinar.
+A [camada de execução](/pt/docs/execution-layer/) ainda requer endpoints de ação, mas a camada de conteúdo se torna mais fácil de raciocinar.
 
 ## Onde o headless pode falhar na otimização da IA
 
@@ -87,7 +87,7 @@ Falhas comuns:
 | Perguntas frequentes | pergunta, resposta direta, fonte de apoio |
 | Autor | nome, função, experiência, páginas revisadas |
 | Protocolo | status, proprietário, versão, casos de uso, riscos |
-| Serviço | problema, entrega, processo, elegibilidade, próxima etapa |O [Guia do desenvolvedor AEO](/es/docs/developers-guide-aeo/) mostra como esses campos se conectam a sites prontos para agentes.
+| Serviço | problema, entrega, processo, elegibilidade, próxima etapa |O [Guia do desenvolvedor AEO](/pt/docs/developers-guide-aeo/) mostra como esses campos se conectam a sites prontos para agentes.
 
 ## CMS tradicional ainda pode funcionar
 

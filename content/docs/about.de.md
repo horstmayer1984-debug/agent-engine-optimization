@@ -16,7 +16,7 @@ Diese Website ist ein Forschungszentrum und eine strategische Ressource für Age
 
 ## Was diese Seite abdeckt
 
-Das Hauptaugenmerk liegt auf der Unterscheidung zwischen der Leseschicht (Inhalte, die KI-Systeme finden und zitieren können) und der [Ausführungsschicht](/es/docs/execution-layer/) (Infrastruktur, über die KI-Agenten agieren können). Das meiste, was der Markt heute als AEO bezeichnet, befasst sich mit der Leseschicht. Diese Site deckt beides ab, mit besonderem Detail auf der Ausführungsebene, die von den meisten Ressourcen ignoriert wird.
+Das Hauptaugenmerk liegt auf der Unterscheidung zwischen der Leseschicht (Inhalte, die KI-Systeme finden und zitieren können) und der [Ausführungsschicht](/de/docs/execution-layer/) (Infrastruktur, über die KI-Agenten agieren können). Das meiste, was der Markt heute als AEO bezeichnet, befasst sich mit der Leseschicht. Diese Site deckt beides ab, mit besonderem Detail auf der Ausführungsebene, die von den meisten Ressourcen ignoriert wird.
 
 Zu den Themen gehören AEO-Frameworks und -Methodik, Protokollanalyse (UCP, MCP, A2A, AP2), branchenspezifische AEO-Strategien für E-Commerce, B2B-SaaS, Support und Marketing, technische Implementierungsleitfäden und Marktanalysen für Web-Agenten.
 
@@ -36,5 +36,5 @@ Für Prüfungsanfragen, Zusammenarbeit oder Fragen wenden Sie sich bitte über d
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
-* [Agent-Zahlungsprotokolle](/es/docs/agent-payment-protocols-compared/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
+* [Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/)

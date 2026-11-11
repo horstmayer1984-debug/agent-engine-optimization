@@ -43,7 +43,7 @@ Aus diesem Grund benötigt die AEO-SEO-Messung mehr als einen Bericht.
 | Agentensitzungen | Protokolle und Ereignisverfolgung | Lesen, vergleichen oder handeln Agenten? |
 | Ausführungsergebnisse | Produktregistrierungen, Warenkörbe, API, Reservierungen oder Bestellungen | War die Aufgabe erfolgreich? |
 
-Der [Leitfaden zur AEO-KPI-Messung](/es/docs/aeo-kpis-measurement/) erläutert das umfassendere KPI-Modell.
+Der [Leitfaden zur AEO-KPI-Messung](/de/docs/aeo-kpis-measurement/) erläutert das umfassendere KPI-Modell.
 
 ## Was Sie für AEO SEO registrieren müssen
 
@@ -60,7 +60,7 @@ Mindestens:
 - politische Ablehnungen
 - Konformitäts- oder Bestätigungsstatus
 
-Um mehr über Handelsabläufe zu erfahren, lesen Sie [Agent Trading Attribution](/es/docs/agentic-commerce-attribution/). Eine breitere Suchebene finden Sie unter [Google AI-Modus in der Search Console](/es/docs/google-ai-mode-search-console-reporting/).
+Um mehr über Handelsabläufe zu erfahren, lesen Sie [Agent Trading Attribution](/de/docs/agentic-commerce-attribution/). Eine breitere Suchebene finden Sie unter [Google AI-Modus in der Search Console](/de/docs/google-ai-mode-search-console-reporting/).
 
 ## Verwendung eines aufsteigenden Abfragesignals
 
@@ -73,7 +73,7 @@ Wenn eine Abfrage zunimmt:
 5. Fügen Sie diese Seiten zu llms.txt hinzu, wenn sie strategisch wichtig sind.
 6. Überprüfen Sie die Search Console erneut, nachdem Sie erneut gecrawlt haben.
 
-Der [AEO SEO Implementation Plan](/es/docs/aeo-seo-implementation-plan/) macht daraus einen 30-Tage-Sprint.
+Der [AEO SEO Implementation Plan](/de/docs/aeo-seo-implementation-plan/) macht daraus einen 30-Tage-Sprint.
 
 ## Erwartete Zuordnungslücken
 

@@ -39,7 +39,7 @@ Daher ist diese Seite für Teams wichtig, die widersprüchliche Ratschläge zu G
 | Semantisches HTML | Nutzen Sie eine klare Struktur für Benutzer, Screenreader und Maschinen. |
 | Strukturierte Daten | Verwenden Sie es dort, wo es zum sichtbaren Inhalt passt, und nicht als Spielerei. |
 
-Zur Implementierung lesen Sie bitte [Google SEO AI Mode](/es/docs/google-ai-mode-seo/) und [Google AI Mode in Search Console](/es/docs/google-ai-mode-search-console-reporting/).
+Zur Implementierung lesen Sie bitte [Google SEO AI Mode](/de/docs/google-ai-mode-seo/) und [Google AI Mode in Search Console](/de/docs/google-ai-mode-search-console-reporting/).
 
 ## Was Google in der Suche ignorieren soll
 
@@ -57,7 +57,7 @@ Das macht „llms.txt“ nicht nutzlos. Das bedeutet, dass es richtig gerahmt se
 | `llms.txt` | Wird nicht speziell von der Google-Suche verwendet | Nützlich für Agenten oder Dienste, die es lesen möchten |
 | Ausverkauf Spiegel | Für Google AI-Funktionen nicht erforderlich | Kann für Agenten und LLM-Tools einfacher zu analysieren sein || Strukturierte Daten | Unterstützt beim Abgleichen sichtbarer Inhalte | Es hilft Maschinen auch dabei, Entitäten zu interpretieren |
 
-Informationen zur Agentenseite finden Sie unter [llms.txt vs. robots.txt](/es/docs/llms-txt-vs-robots-txt/) und [llms.txt Scheduling](/es/docs/programming-llms-txt/).
+Informationen zur Agentenseite finden Sie unter [llms.txt vs. robots.txt](/de/docs/llms-txt-vs-robots-txt/) und [llms.txt Scheduling](/de/docs/programming-llms-txt/).
 
 ## So nutzen Sie diesen Leitfaden, ohne schlecht vorbereitet zu sein
 
@@ -69,7 +69,7 @@ Die Einteilung ist:1. Die KI-Funktionen von Google benötigen solide SEO-Grundla
 2. KI-Reaktionssysteme benötigen eine klare, quellengestützte Extraktion.
 3. KI-Agenten benötigen strukturierte Ausführungspfade, Richtlinien und Aktionen.
 
-Deshalb ist [SEO vs GEO vs Answer AEO vs Agent AEO](/es/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/) immer noch nützlich. Ein Kanal definiert nicht das gesamte Agenturnetzwerk.
+Deshalb ist [SEO vs GEO vs Answer AEO vs Agent AEO](/de/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/) immer noch nützlich. Ein Kanal definiert nicht das gesamte Agenturnetzwerk.
 
 ## 30-minütiges praktisches Audit
 

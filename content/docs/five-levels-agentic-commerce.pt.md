@@ -33,7 +33,7 @@ Uma viagem de agente comercial pode incluir:
 - conformidade
 - devoluções, reembolsos, fidelidade e suporte
 
-Isso é importante para [Otimização do mecanismo de agente](/es/docs/what-is-aeo/) porque um comerciante pode estar pronto para agente em um estágio e completamente não estar pronto para agente em outro. Uma loja pode ter dados estruturados de produtos, mas não um carrinho seguro para agentes. Outro pode oferecer suporte a pagamentos tokenizados, mas não a uma política de devolução legível por máquina.
+Isso é importante para [Otimização do mecanismo de agente](/pt/docs/what-is-aeo/) porque um comerciante pode estar pronto para agente em um estágio e completamente não estar pronto para agente em outro. Uma loja pode ter dados estruturados de produtos, mas não um carrinho seguro para agentes. Outro pode oferecer suporte a pagamentos tokenizados, mas não a uma política de devolução legível por máquina.
 
 ## Modelo de cinco camadas do Stripe
 
@@ -68,7 +68,7 @@ A melhor maneira de avaliar a negociação do agente é por estágio do ciclo de
 | Pagamento | Nível 1 | A maioria dos fluxos ainda mantém o ser humano próximo da decisão final de compra |
 | Compliance e lealdade | Nível 1 | UCP suporta eventos de pedidos e vinculação de identidade, mas fluxos autônomos pós-compra são precoces |
 
-A [estrutura de economia de delegação](/es/docs/delegation-economy-agent-autonomy/) explica o espectro de autonomia. Esta página aplica esse espectro às operações comerciais.
+A [estrutura de economia de delegação](/pt/docs/delegation-economy-agent-autonomy/) explica o espectro de autonomia. Esta página aplica esse espectro às operações comerciais.
 
 ## O que mudou em 2026?
 
@@ -111,7 +111,7 @@ Ativos de negócios necessários:
 - dados de compatibilidade
 - avaliações e sinais de confiança
 
-O [guia estruturado de dados do produto](/es/docs/product-structured-data-ai-shopping/) cobre a camada de dados do produto.## Nível 3: Negociação de tarefas delegadas
+O [guia estruturado de dados do produto](/pt/docs/product-structured-data-ai-shopping/) cobre a camada de dados do produto.## Nível 3: Negociação de tarefas delegadas
 
 No Nível 3, o humano delega uma tarefa definida:
 
@@ -119,7 +119,7 @@ No Nível 3, o humano delega uma tarefa definida:
 
 O agente pode atuar caso a compra se enquadre nas limitações do usuário. Isso requer intenção, autorização, limites de gastos, elegibilidade do comerciante e um status de sucesso claro.
 
-Os protocolos começam a importar aqui. [AP2 vs x402](/es/docs/ap2-vs-x402/) explica como os protocolos de autorização e pagamento diferem. [UCP vs ACP vs MCP](/es/docs/ucp-vs-acp-vs-mcp/) mostra porque os padrões de comércio, pagamento e contexto não resolvem o mesmo problema.
+Os protocolos começam a importar aqui. [AP2 vs x402](/pt/docs/ap2-vs-x402/) explica como os protocolos de autorização e pagamento diferem. [UCP vs ACP vs MCP](/pt/docs/ucp-vs-acp-vs-mcp/) mostra porque os padrões de comércio, pagamento e contexto não resolvem o mesmo problema.
 
 ## Nível 4: Comércio autônomo governado por políticas
 
@@ -133,7 +133,7 @@ Exemplos:
 - selecione fornecedores em uma lista de fornecedores aprovados
 - reordenar consumíveis com base no uso
 
-O comerciante agora precisa de políticas legíveis por máquina, verificações de identidade, lógica determinística do carrinho e um estado pós-compra confiável. É aqui que a [camada de execução](/es/docs/execution-layer/) se torna um requisito de negócios.
+O comerciante agora precisa de políticas legíveis por máquina, verificações de identidade, lógica determinística do carrinho e um estado pós-compra confiável. É aqui que a [camada de execução](/pt/docs/execution-layer/) se torna um requisito de negócios.
 
 ## Nível 5: Negociação Antecipada
 
@@ -165,7 +165,7 @@ Sem esses controlos, o Nível 5 não é uma infra-estrutura comercial. É risco.
 | Planejamento de identidade e autorização | Delegação exige prova de quem autorizou o quê |
 | Visibilidade do evento pós-compra | Agentes precisam de status de entrega, reembolso e suporte |
 
-O [Agent Commerce Execution Guide](/es/docs/agentic-commerce-execution/) se aprofunda na camada de transação, enquanto o [Universal Commerce Protocol](/es/docs/universal-commerce-protocol/) explica a função do UCP.
+O [Agent Commerce Execution Guide](/pt/docs/agentic-commerce-execution/) se aprofunda na camada de transação, enquanto o [Universal Commerce Protocol](/pt/docs/universal-commerce-protocol/) explica a função do UCP.
 
 ## O que permanece sem solução
 

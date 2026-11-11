@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 34
 category: "Framework"
 description: "Answer Engine Optimization により、ストアが引用されるようになります。エージェント エンジンの最適化により、ストア内でトランザクションを行うことができます。区別は。"
-metaDescription: "Compare Answer Engine Optimization y Agent Engine Optimization para comercio electrónico, desde la visibilidad de las citas hasta las transacciones."
 summary: "2026 年における AEO には 2 つの意味があります。Answer Engine Optimization は引用を対象としています。エージェント エンジンの最適化は、自律型トランザクションをターゲットとしています。 e コマース ブランドには、正しい順序で両方が必要です。"
 keywords:
   - "エージェント エンジンの最適化と応答エンジンの最適化"
@@ -28,7 +27,7 @@ Answer Engine Optimization は読み取り層です。応答を生成する人�
 
 ##エージェント エンジンの最適化: トランザクションを実行する
 
-エージェント エンジンの最適化は [実行レイヤー](/es/docs/execution-layer/) です。これは、ストアを読みやすいだけでなく、ユーザーに代わって製品を比較し、在庫を確認し、ポリシーを検証し、購入を完了する自律エージェントによって実行可能にすることに焦点を当てています。
+エージェント エンジンの最適化は [実行レイヤー](/ja/docs/execution-layer/) です。これは、ストアを読みやすいだけでなく、ユーザーに代わって製品を比較し、在庫を確認し、ポリシーを検証し、購入を完了する自律エージェントによって実行可能にすることに焦点を当てています。
 
 作業には、構​​造化されたクエリ可能なエンドポイントを介したリアルタイムの価格設定と在庫の公開、返品ポリシーと配送ポリシーの機械可読化、ブラウザセッションに依存しない確定的なチェックアウトルートの作成、エージェントの再試行を安全に処理する冪等トランザクションロジックの実装、店舗で何ができるかをエージェントに伝えるキャパシティーマニフェストの公開などが含まれます。
 
@@ -61,7 +60,7 @@ Answer Engine Optimization は読み取り層です。応答を生成する人�
 
 両方の層を理解しているブランドは、投資を正しく順序付けることができます。 Answer Engine Optimization を今すぐ使用すると、すぐに返品できます。チャネルが成熟するにつれて競争上の優位性を獲得するための並列エージェント エンジン最適化インフラストラクチャ。
 
-[AEO、SEO、GEO の比較](/es/docs/aeo-vs-seo-vs-geo/) は、より広範なフレームワークを提供します。 [エージェント取引執行に関する記事](/es/docs/agentic-commerce-execution/) では、執行レイヤーに技術的に必要なものが詳しく説明されています。
+[AEO、SEO、GEO の比較](/ja/docs/aeo-vs-seo-vs-geo/) は、より広範なフレームワークを提供します。 [エージェント取引執行に関する記事](/ja/docs/agentic-commerce-execution/) では、執行レイヤーに技術的に必要なものが詳しく説明されています。
 
 ---
 

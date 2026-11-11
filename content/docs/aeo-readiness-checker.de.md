@@ -4,7 +4,6 @@ date: 2026-04-14
 weight: 1
 category: "Tool"
 description: "Kostenloses Tool, um zu überprüfen, ob Ihre Website für autonome KI-Agenten bereit ist. 14 Checks in Erkennung, Leseschicht, Schicht."
-metaDescription: "Compruebe si su sitio web está listo para agentes de IA en descubrimiento, capa de lectura, capa de ejecución, datos estructurados, señales de confianza."
 summary: "Überprüfen Sie mit diesem kostenlosen Tool, ob Ihre Website für KI-Agenten bereit ist. 14 Prüfungen in vier Kategorien liefern Ihnen einen umsetzbaren AEO-Bereitschaftswert mit vorrangigen Empfehlungen."
 keywords:
   - "AEO-Bereitschaftsprüfer"
@@ -31,5 +30,5 @@ Das Tool läuft vollständig in Ihrem Browser. Es werden keine Daten erhoben ode
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
-* [Ausführungsschicht](/es/docs/execution-layer/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
+* [Ausführungsschicht](/de/docs/execution-layer/)

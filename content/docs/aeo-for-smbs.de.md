@@ -20,7 +20,7 @@ Kleine Unternehmen benötigen keine Enterprise-Agent-Plattform, um von AEO zu pr
 
 Das Suchverhalten ändert sich von „Zeige mir zehn Websites“ zu „Finde die beste Option und hilf mir, Maßnahmen zu ergreifen“. Ein Kleinunternehmen kann die Empfehlung verlieren, bevor ein Besucher die Website erreicht, wenn ein System der künstlichen Intelligenz sein Angebot, seinen Standort, seine Verfügbarkeit, seinen Servicebereich oder seine Vertrauenssignale nicht analysieren kann.
 
-SMB AEO ist praktisch und nicht exotisch. Der [Leitfaden zu AEO](/es/docs/what-is-aeo/) definiert das umfassendere Konzept. Für kleine Unternehmen beginnt es normalerweise mit einer besseren Seitenstruktur und einer kleinen Anzahl maschinenlesbarer Dateien.
+SMB AEO ist praktisch und nicht exotisch. Der [Leitfaden zu AEO](/de/docs/what-is-aeo/) definiert das umfassendere Konzept. Für kleine Unternehmen beginnt es normalerweise mit einer besseren Seitenstruktur und einer kleinen Anzahl maschinenlesbarer Dateien.
 
 ## Die AEO-Checkliste für KMU
 
@@ -97,7 +97,7 @@ Beispielstruktur:
 - Emergency appointments by phone only
 ```
 
-Der [llms.txt-Leitfaden](/es/docs/programming-llms-txt/) erklärt dies ausführlicher.
+Der [llms.txt-Leitfaden](/de/docs/programming-llms-txt/) erklärt dies ausführlicher.
 
 ## Wenn KMU AEO auf der Ausführungsebene benötigen
 
@@ -111,7 +111,7 @@ Die Ausführungsebene AEO ist nützlich, wenn:
 - Eine Angebotsanfrage benötigt standardisierte Felder
 - Das Unternehmen nutzt bereits Planungs-, CRM- oder Commerce-Software mit API-Zugriff.
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) wird relevant, sobald das Unternehmen möchte, dass Agenten Aufgaben erledigen und nicht nur Seiten lesen.
+Die [Ausführungsschicht](/de/docs/execution-layer/) wird relevant, sobald das Unternehmen möchte, dass Agenten Aufgaben erledigen und nicht nur Seiten lesen.
 
 ## Praktischer 30-Tage-KMU-Plan
 

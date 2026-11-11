@@ -45,7 +45,7 @@ Agentic Payments Suite e Mastercard Agent Pay da Fireblocks apontam para essa mu
 | Revogação | O usuário pode desativar o token do agente ou a concessão da carteira |
 | Trilha de auditoria | Cada ação registra a intenção, o pagamento e o resultado |
 
-Esses controles são essenciais para a [camada de execução](/es/docs/execution-layer/).
+Esses controles são essenciais para a [camada de execução](/pt/docs/execution-layer/).
 
 ## Tokens de cartão vs. carteiras Stablecoin
 
@@ -59,7 +59,7 @@ Esses controles são essenciais para a [camada de execução](/es/docs/execution
 | Crédito em conta | Útil para SaaS e API | Limitado a uma plataforma |
 | Transferência bancária/trilhos em tempo real | Bom para mercados com pagamentos rápidos de contas | A disponibilidade e a lógica de reembolso variam |
 
-A [comparação de protocolos de pagamento de agentes](/es/docs/agent-payment-protocols-compared/) mapeia a camada de protocolo. Esta página concentra-se na camada de controle da carteira.
+A [comparação de protocolos de pagamento de agentes](/pt/docs/agent-payment-protocols-compared/) mapeia a camada de protocolo. Esta página concentra-se na camada de controle da carteira.
 
 ## Implicações de negócios
 
@@ -81,7 +81,7 @@ Isso significa que os sistemas de pagamento devem armazenar mais contexto do que
 5. Revise as regras de fraude para transações originadas por agentes.
 6. Mantenha as declarações de reembolso e cancelamento legíveis por máquina.
 
-O artigo [Fireblocks Agentic Payments Suite](/es/docs/fireblocks-agentic-payments-suite/) aborda um exemplo de infraestrutura.
+O artigo [Fireblocks Agentic Payments Suite](/pt/docs/fireblocks-agentic-payments-suite/) aborda um exemplo de infraestrutura.
 
 ## Perguntas frequentes
 

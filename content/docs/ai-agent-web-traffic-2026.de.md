@@ -55,7 +55,7 @@ Beginnen Sie mit einem kleinen Messaufbau:
 5. Konvertierungsrouten nach KI-gestützten Sitzungen.
 6. Fehlerraten in Formularen und Zahlungsschritten, die von automatisierten Kunden verwendet werden.7. Blockierte Anfragen von KI-Trackern und Browser-Agenten.
 
-Verwenden Sie für die SEO-Nebenmessung [AI Referral Attribution for AEO SEO](/es/docs/ai-referral-attribution-seo/). Informationen zur Zugriffskontrollrichtlinie finden Sie unter [AI Crawlers and robots.txt](/es/docs/ai-crawlers-robots-txt/) und [Web Bot Auth for AI Crawlers](/es/docs/web-bot-auth-ai-crawlers/).
+Verwenden Sie für die SEO-Nebenmessung [AI Referral Attribution for AEO SEO](/de/docs/ai-referral-attribution-seo/). Informationen zur Zugriffskontrollrichtlinie finden Sie unter [AI Crawlers and robots.txt](/de/docs/ai-crawlers-robots-txt/) und [Web Bot Auth for AI Crawlers](/de/docs/web-bot-auth-ai-crawlers/).
 
 ## Entscheidungen zur Zugangskontrolle| Entscheidung | Verwenden Sie wann | Risiko |
 |
@@ -79,7 +79,7 @@ Das Blockieren des gesamten automatisierten Datenverkehrs ist keine neutrale Sta
 6. Testen Sie, ob ein Browser-Agent sichere Aufgaben ausführen kann, ohne zu raten.
 7. Trennen Sie gute Automatisierung von Missbrauch in der politischen Sprache.
 
-Dies verbindet sich mit [Agent UX und AEO SEO](/es/docs/agent-ux-aeo-seo/) und [Lighthouse Agentic Browsing Audit](/es/docs/lighthouse-agentic-browsing-audit/).
+Dies verbindet sich mit [Agent UX und AEO SEO](/de/docs/agent-ux-aeo-seo/) und [Lighthouse Agentic Browsing Audit](/de/docs/lighthouse-agentic-browsing-audit/).
 
 ## Häufig gestellte Fragen
 

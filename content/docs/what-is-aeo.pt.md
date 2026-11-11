@@ -90,9 +90,9 @@ Torne os serviços digitais acionáveis por agentes autônomos. Isso inclui APIs
 
 Esses protocolos são complementares, não competitivos. Uma interação completa entre agentes poderia usar MCP para acesso a dados, UCP para transações, AP2 para pagamento e A2A para coordenação multiagente.
 
-Leia mais: [A Camada de Execução](/es/docs/execution-layer/) – Mergulhe mais fundo no que torna a otimização de agentes fundamentalmente diferente.
+Leia mais: [A Camada de Execução](/pt/docs/execution-layer/) – Mergulhe mais fundo no que torna a otimização de agentes fundamentalmente diferente.
 
-[AEO vs. SEO vs. GEO](/es/docs/aeo-vs-seo-vs-geo/): a comparação completa.
+[AEO vs. SEO vs. GEO](/pt/docs/aeo-vs-seo-vs-geo/): a comparação completa.
 
 [Auditoria de prontidão AEO] (/docs/audit/) – Avalie sua infraestrutura.
 

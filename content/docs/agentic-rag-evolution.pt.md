@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 85
 category: "Architecture"
 description: "O agente RAG moderno é modular, multi-hop e autocorretivo. Oito padrões de arquitetura, desde recuperação básica até híbrida e baseada em RAG."
-metaDescription: "Compare ocho patrones RAG agentes, desde recuperación básica hasta sistemas híbridos, basados ​​en gráficos, con uso de herramientas y con reconocimiento."
 summary: "O RAG em 2026 evoluiu muito além da simples pesquisa vetorial. As abordagens Agentic RAG, Graph RAG e híbridas fornecem aos agentes recuperação multi-hop autocorretiva que melhora drasticamente a precisão da extração."
 keywords:
   - "Agente RAG 2026"
@@ -62,7 +61,7 @@ Crie conexões de entidades entre páginas. O gráfico RAG segue relacionamentos
 
 Fornece vários formatos de conteúdo. Tabelas para consultas comparativas. Blocos de FAQ para consultas de resposta direta. Prosa para consultas ricas em contexto. Diferentes abordagens RAG funcionam melhor com diferentes formatos.
 
-O [guia de mapeamento de recursos](/es/docs/entity-mapping-semantic-aeo/) aborda como construir a camada de recursos. O [artigo de estratégia de conteúdo AEO](/es/docs/aeo-content-strategy/) cobre a estrutura em nível de página.
+O [guia de mapeamento de recursos](/pt/docs/entity-mapping-semantic-aeo/) aborda como construir a camada de recursos. O [artigo de estratégia de conteúdo AEO](/pt/docs/aeo-content-strategy/) cobre a estrutura em nível de página.
 
 ## Comparação: RAG básico vs agente
 
@@ -103,7 +102,7 @@ Todos eles, mas o agente RAG e o gráfico são os que mais se beneficiam porque 
 
 ## Guias relacionados
 
-* [Guia de otimização do Agent Engine](/es/docs/what-is-aeo/)
+* [Guia de otimização do Agent Engine](/pt/docs/what-is-aeo/)
 
 ## Referências primárias
 

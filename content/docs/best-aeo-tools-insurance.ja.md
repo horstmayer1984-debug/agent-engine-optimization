@@ -31,7 +31,7 @@ keywords:
 
 保険は信頼と制限によって決まります。 AEO ツールは、補償範囲の制限、資格ルール、必要な書類、請求手順、地理的制限、キャンセル ルール、およびエスカレーション ルートのレイアウトに役立ちます。
 
-次をお読みください: [保険会社向け AEO](/es/docs/aeo-insurance-carriers/)、[実行層](/es/docs/execution-layer/)、および [AEO 準備監査](/es/docs/audit/)。
+次をお読みください: [保険会社向け AEO](/ja/docs/aeo-insurance-carriers/)、[実行層](/ja/docs/execution-layer/)、および [AEO 準備監査](/ja/docs/audit/)。
 
 ## 保険ワークフローに対するスコアリング ツール
 

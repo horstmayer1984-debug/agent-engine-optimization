@@ -34,7 +34,7 @@ A documentação de SEO do Google ainda começa com o básico: ajudar os mecanis
 | 7. Links internos | Páginas importantes têm links de hubs relevantes |
 | 8. Mapa do site | Sitemap XML inclui URLs canônicos indexáveis ​​|
 
-Para um fluxo de auditoria completo, use [Auditoria de Preparação AEO](/es/docs/audit/).
+Para um fluxo de auditoria completo, use [Auditoria de Preparação AEO](/pt/docs/audit/).
 
 ## Camada 2: Prepare-se para a resposta da IA
 
@@ -53,7 +53,7 @@ Os sistemas de resposta de IA precisam de uma estrutura removível. Isso não si
 | 15. Coerência da entidade | Nomes, protocolos, produtos e conceitos são estáveis ​​|
 | 16. Atualização de conteúdo | As páginas mostram o protocolo atual ou status do mercado |
 
-A [estrutura de otimização de pesquisa de IA] (/es/docs/ai-search-optimization/) explica essa camada com mais detalhes.
+A [estrutura de otimização de pesquisa de IA](/pt/docs/ai-search-optimization/) explica essa camada com mais detalhes.
 
 ## Camada 3: Otimização do mecanismo do agente
 
@@ -73,7 +73,7 @@ A Otimização do Agent Engine começa quando o sistema pode ser usado, não ape
 | 24. Atribuição | Referências de IA e sessões de origem de agentes são medidas |
 | 25. Ciclo de feedback | Falhas dos agentes viram soluções |
 
-A [camada de execução](/es/docs/execution-layer/) e o [guia de implementação AEO](/es/docs/implement-aeo/) cobrem esta camada.
+A [camada de execução](/pt/docs/execution-layer/) e o [guia de implementação AEO](/pt/docs/implement-aeo/) cobrem esta camada.
 
 ## Como usar a lista de verificaçãoComece com páginas que já recebem impressões de `AEO SEO`, `Agent Engine Optimization` ou termos relacionados. O relatório de desempenho do Search Console pode mostrar quais consultas e páginas estão ganhando visibilidade. Em seguida, aprimore as páginas com mais impressão antes de criar novas páginas.
 

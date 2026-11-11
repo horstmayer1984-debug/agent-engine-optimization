@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 90
 category: "Framework"
 description: "MCP はコンテキストを提供し、UCP はコマース ライフサイクルを処理し、ACP はネイティブ ChatGPT チェックアウトを可能にします。 3 つのプロトコルの違い。"
-metaDescription: "Compare MCP, UCP y ACP en el intercambio de contexto, los ciclos de vida del comercio, el pago, el uso de herramientas y cuándo encaja cada protocolo."
 summary: "2026 年には 3 つのプロトコルがエージェント インフラストラクチャを支配するでしょう。MCP はエージェントをデータに接続します。 UCP はコマースのライフサイクル全体を処理します。 ACP では ChatGPT 内での支払いが可能です。それぞれをいつ使用するかは次のとおりです。"
 keywords:
   - "UCP 対 ACP 対 MCP"

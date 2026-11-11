@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 94
 category: "Industry"
 description: "Descubra como os sites imobiliários comerciais podem estruturar listagens, disponibilidade, preços, documentos e fluxos de trabalho de consulta."
-metaDescription: "Descubra cómo los equipos de CRE estructuran los datos de propiedades, la debida diligencia, la disponibilidad, los contactos de los corredores y los puntos."
 summary: "Os sistemas de IA estão reduzindo 60 dias de due diligence em horas. As empresas CRE que publicam dados de propriedade estruturados AEO veem 40% a 60% das consultas institucionais provenientes de fluxos de trabalho de agentes."
 keywords:
   - "AEO imóveis comerciais"
@@ -80,8 +79,8 @@ Os dados estruturados da propriedade podem ser publicados dentro de 4 a 8 semana
 
 ## Guias relacionados
 
-* [Protocolos de agente de IA](/es/docs/protocols/)* [camada de execução](/es/docs/execution-layer/)
-* [Guia de Implementação AEO](/es/docs/implement-aeo/)
+* [Protocolos de agente de IA](/pt/docs/protocols/)* [camada de execução](/pt/docs/execution-layer/)
+* [Guia de Implementação AEO](/pt/docs/implement-aeo/)
 
 ## Referências primárias
 

@@ -23,7 +23,7 @@ GitHub kündigte auf der Microsoft Build 2025 einen [Codierungsagenten für GitH
 
 Der SEO/AEO-Aspekt ist praktisch: Softwaresysteme müssen jetzt für autonome Entwicklungsagenten lesbar sein, nicht nur für menschliche Entwickler.
 
-Weitere Informationen finden Sie unter [AEO-Anwendungsfälle für Entwickler](/es/docs/aeo-use-cases-developers/), [Agent-fähige Webanwendungen](/es/docs/agent-ready-web-apps/) und [MCP vs. APIs für Agenten](/es/docs/mcp-vs-api-for-agents/).
+Weitere Informationen finden Sie unter [AEO-Anwendungsfälle für Entwickler](/de/docs/aeo-use-cases-developers/), [Agent-fähige Webanwendungen](/de/docs/agent-ready-web-apps/) und [MCP vs. APIs für Agenten](/de/docs/mcp-vs-api-for-agents/).
 
 ## Was bedeutet „Agent-bereites Repository“?
 
@@ -69,7 +69,7 @@ Das Problem ist die Bekanntmachung, aber sie ist auch ein Artefakt des Projektma
 9. Fügen Sie Screenshots oder visuelle Anforderungen für die Frontend-Arbeit hinzu.
 10. Verwenden Sie kleine, überprüfbare Aufgaben.
 
-Das [AEO-Entwicklerhandbuch](/es/docs/developers-guide-aeo/) verwendet das gleiche Prinzip: Machen Sie das System selbsterklärend.
+Das [AEO-Entwicklerhandbuch](/de/docs/developers-guide-aeo/) verwendet das gleiche Prinzip: Machen Sie das System selbsterklärend.
 
 ## Wie es sich von der klassischen Entwicklererfahrung unterscheidet: Die Entwicklererfahrung konzentriert sich darauf, Menschen dabei zu helfen, schneller zu arbeiten. Das Fachwissen der agentenbereiten Entwickler hilft Maschinen auch dabei, falsche Annahmen zu vermeiden.| Klassisches DX | Agent Ready DX |
 |
@@ -94,7 +94,7 @@ Außerhalb des Codes gilt das gleiche Entwurfsmuster:
 - Interne Links müssen Beziehungen aufzeigen.
 - Maschinenlesbare Indizes sollten auf wichtige Seiten verweisen.
 
-Deshalb sind [llms.txt](/es/docs/llms-txt-vs-robots-txt/) und die [Ausführungsschicht](/es/docs/execution-layer/) wichtig. Agenten brauchen Wege, keine Vibrationen.
+Deshalb sind [llms.txt](/de/docs/llms-txt-vs-robots-txt/) und die [Ausführungsschicht](/de/docs/execution-layer/) wichtig. Agenten brauchen Wege, keine Vibrationen.
 
 ## Häufige Fehler
 

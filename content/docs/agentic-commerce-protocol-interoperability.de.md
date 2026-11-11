@@ -22,7 +22,7 @@ Der Handel hat viele Lebenszyklusphasen. Erkennung, Warenkorb, Kasse, Erfüllung
 
 Es ist nicht zu erwarten, dass ein einziges Protokoll sie alle lösen kann.
 
-Die bestehende Seite [UCP vs. ACP vs. MCP](/es/docs/ucp-vs-acp-vs-mcp/) vergleicht drei Hauptmuster. Diese Seite bildet den breiteren Agentenhandels-Stack ab.
+Die bestehende Seite [UCP vs. ACP vs. MCP](/de/docs/ucp-vs-acp-vs-mcp/) vergleicht drei Hauptmuster. Diese Seite bildet den breiteren Agentenhandels-Stack ab.
 
 ## Protokollrollenzuordnung
 
@@ -38,7 +38,7 @@ Die bestehende Seite [UCP vs. ACP vs. MCP](/es/docs/ucp-vs-acp-vs-mcp/) vergleic
 | x402 | Natives HTTP-Zahlungsanforderungs- und Abrechnungsmuster | API, Inhalte und automatische Zahlungen |
 | Überprüfbare Absicht/TAP/Agentenzahlung | Vertrauen, Identität, Tokenisierung und Verantwortung | Autorisierungs- und Zahlungsrisiko |
 
-Der [Vergleich der Agent-Zahlungsprotokolle](/es/docs/agent-payment-protocols-compared/) erläutert die Zahlungsseite ausführlicher.
+Der [Vergleich der Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/) erläutert die Zahlungsseite ausführlicher.
 
 ## Beispielablauf
 
@@ -52,7 +52,7 @@ Ein Maklerkauf könnte so ablaufen:
 6. Erfüllungsereignisse werden vom Agenten nach der Zahlung aktualisiert.
 7. Streitbeweise verknüpfen die Absicht des Benutzers, die Aktion des Agenten, den Warenkorb, die Zahlung und die Lieferung.
 
-Dies erklärt, warum [Agent Engine Optimization](/es/docs/what-is-aeo/) Arbeit sowohl auf der Leseebene als auch auf der Ausführungsebene erfordert.
+Dies erklärt, warum [Agent Engine Optimization](/de/docs/what-is-aeo/) Arbeit sowohl auf der Leseebene als auch auf der Ausführungsebene erfordert.
 
 ## Was Händler nicht tun sollten
 
@@ -81,7 +81,7 @@ Ordnen Sie diese Konzepte dann im Laufe ihrer Reife den Protokollen zu.
 | Bestellen | Compliance-Ereignisse und Status-API |
 | Prüfung | Gemeinsame Beweisspur |
 
-Die Seite [Beweise für Agentengeschäftsstreitigkeiten](/es/docs/agentic-commerce-dispute-evidence/) deckt die Prüfungsebene ab.
+Die Seite [Beweise für Agentengeschäftsstreitigkeiten](/de/docs/agentic-commerce-dispute-evidence/) deckt die Prüfungsebene ab.
 
 ## Häufig gestellte Fragen
 

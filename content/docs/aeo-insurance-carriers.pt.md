@@ -69,7 +69,7 @@ As operadoras que implantam a pilha completa de AEO relatam conversões de polí
 | Reivindicações | Chamada telefônica ou login no portal | APIs estruturadas de envio e rastreamento |
 | Visibilidade do Agente | Baixo a zero | Alta, preferida pelos agentes de comparação |
 
-O [guia da camada de execução](/es/docs/execution-layer/) cobre a arquitetura geral. O [artigo sobre compras de SaaS B2B](/es/docs/b2b-saas-procurement/) aplica princípios semelhantes à compra de software.
+O [guia da camada de execução](/pt/docs/execution-layer/) cobre a arquitetura geral. O [artigo sobre compras de SaaS B2B](/pt/docs/b2b-saas-procurement/) aplica princípios semelhantes à compra de software.
 
 ---
 
@@ -89,7 +89,7 @@ O agente perde a confiança. Se o prêmio cotado não corresponder ao prêmio do
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
 
 ## Referências primárias
 

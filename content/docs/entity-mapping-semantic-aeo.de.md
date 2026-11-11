@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 83
 category: "Guide"
 description: "Entity Mapping erstellt maschinenlesbare Beziehungen zwischen Ihrer Marke, Ihren Produkten und Themen, sodass Agenten Ihre Autorität verstehen und Sie zitieren können."
-metaDescription: "Utilice el mapeo de entidades para conectar marcas, productos y temas para que los agentes de IA comprendan la autoridad y citen páginas con mayor precisión."
 summary: "Die Agenten zitieren Quellen, die sie eindeutig verstehen. Entity Mapping erstellt explizite, maschinenlesbare Beziehungen zwischen Ihrer Marke, Ihren Produkten und Ihrem Erlebnis, sodass KI-Systeme Anfragen präzise an Sie weiterleiten können."
 keywords:
   - "AEO-Entitätszuordnung"
@@ -57,7 +56,7 @@ Die zweite Version deklariert Entitäten (Agent Engine Optimization, Leseschicht
 
 Verwenden Sie Schema.org-Markup, um Entitätsdeklarationen zu formalisieren. Organisationsschema Ihrer Marke. Produktschema für Ihre Produkte. Serviceschema für Ihre Angebote. SameAs-Eigenschaften, um Ihre Entitäten mit maßgeblichen externen Referenzen (Wikipedia, Wikidata, offizielle Spezifikationen) zu verbinden.
 
-Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) behandelt die Implementierung des Schemas. Der [KI-basierte AEO-Artikel](/es/docs/ai-powered-aeo-ecommerce/) behandelt Knowledge-Graph-Ansätze.
+Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) behandelt die Implementierung des Schemas. Der [KI-basierte AEO-Artikel](/de/docs/ai-powered-aeo-ecommerce/) behandelt Knowledge-Graph-Ansätze.
 
 ##Vergleich: Keyword-Optimierung vs. Entity-Mapping
 
@@ -94,7 +93,7 @@ Websites, die eine unternehmensorientierte Inhaltsumstrukturierung umsetzen, ver
 **Können kleine Websites von der Entitätszuordnung profitieren?**
 Ja. Kleinere Websites profitieren in der Regel stärker, da sie auf weniger Seiten schneller eine Entitätskonsistenz erreichen können. Eine 20-seitige Site mit klarer Entitätszuordnung kann eine 2.000-seitige Site mit vager Keyword-Abdeckung übertreffen.## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

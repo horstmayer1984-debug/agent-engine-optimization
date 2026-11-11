@@ -87,7 +87,7 @@ Hilfreiche Vorbereitungsschritte:
 6. Stellen Sie Endpunkte für die Überprüfung nach dem Kauf bereit
 7. Verknüpfen Sie Zahlungsfunktionen über ein Agentenmanifest oder llms.txt
 
-Dies verbindet die Zahlungsvorbereitung mit der [Agent Engine Optimization](/es/docs/what-is-aeo/) und nicht nur mit der Zahlungsabwicklung.
+Dies verbindet die Zahlungsvorbereitung mit der [Agent Engine Optimization](/de/docs/what-is-aeo/) und nicht nur mit der Zahlungsabwicklung.
 
 ## Häufig gestellte Fragen
 
@@ -108,5 +108,5 @@ Wichtige Referenzen: [Visa Trusted Agent Protocol-Entwicklerübersicht] (https:/
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
-* [Agent-Zahlungsprotokolle](/es/docs/agent-payment-protocols-compared/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
+* [Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/)

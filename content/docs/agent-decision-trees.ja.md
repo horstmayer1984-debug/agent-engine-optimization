@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 92
 category: "Architecture"
 description: "AI エージェントは、トランザクションを行う前に厳密な合否決定ツリーを実行します。彼らはどのような決定論的な質問をし、その原因は何か。"
-metaDescription: "Descubra qué comprobaciones de aprobación/rechazo utilizan los agentes de IA antes de actuar, qué causa la exclusión y cómo hacer que su sitio web sea más."
 summary: "エージェントは直感的に操作したり決定したりしません。厳密な合否基準を備えた決定論的なデシジョン ツリーを実行します。チェックが失敗し、エージェントは競合他社に移ります。"
 keywords:
   - "エージェントデシジョンツリー"
@@ -89,7 +88,7 @@ AI エージェントは人間のように Web サイトを評価しません。
 
 人間の目には洗練されているように見えるサイトでも、エージェントからはスコアが 0 になる可能性があるのはこのためです。ビジュアルデザイン、ブランドの評判、説得力のあるコピーは、決定論的な意思決定ツリーでは重要ではありません。
 
-[実行層ガイド](/es/docs/execution-layer/) では、インフラストラクチャ要件について説明しています。 [AEO 実装ガイド](/es/docs/implement-aeo/) では、段階的な最適化パスについて説明しています。
+[実行層ガイド](/ja/docs/execution-layer/) では、インフラストラクチャ要件について説明しています。 [AEO 実装ガイド](/ja/docs/implement-aeo/) では、段階的な最適化パスについて説明しています。
 
 ---
 
@@ -110,7 +109,7 @@ AI エージェントは人間のように Web サイトを評価しません。
 
 ## 関連ガイド
 
-* [エージェント取引アーキテクチャ](/es/docs/agentic-commerce/)
+* [エージェント取引アーキテクチャ](/ja/docs/agentic-commerce/)
 
 ## 主な参考文献
 

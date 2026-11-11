@@ -28,7 +28,7 @@ Headless SEO ist umfassender als Headless CMS SEO. Kann Folgendes umfassen:
 - Dokumentationsportale
 - KI-lesbare Inhaltsebenen
 
-Ausführlichere Anleitungen zu CMS finden Sie unter [Headless CMS SEO](/es/docs/headless-cms-seo/). Für den Handel lesen Sie bitte [Headless Trading erklärt](/es/docs/headless-commerce-explained/).
+Ausführlichere Anleitungen zu CMS finden Sie unter [Headless CMS SEO](/de/docs/headless-cms-seo/). Für den Handel lesen Sie bitte [Headless Trading erklärt](/de/docs/headless-commerce-explained/).
 
 ##Headless SEO-Prioritäten
 
@@ -82,13 +82,13 @@ Jede kopflose indizierbare Route benötigt:
 
 Erlauben Sie nicht, dass Routenvorlagen einen generischen Titel oder eine allgemeine Beschreibung teilen. Das schwächt sowohl SEO als auch CTR.## Headless SEO und AEO
 
-Die Headless-Architektur kann [Agent Engine Optimization](/es/docs/what-is-aeo/) unterstützen, da sie Inhalte und Funktionen von einer visuellen Schnittstelle trennt. Agenten benötigen jedoch weiterhin öffentliche, stabile und überprüfbare Einstiegspunkte.
+Die Headless-Architektur kann [Agent Engine Optimization](/de/docs/what-is-aeo/) unterstützen, da sie Inhalte und Funktionen von einer visuellen Schnittstelle trennt. Agenten benötigen jedoch weiterhin öffentliche, stabile und überprüfbare Einstiegspunkte.
 
 Verbinden Sie Headless SEO mit:
 
-- [KI-Suchoptimierung](/es/docs/ai-search-optimization/)
-- [AEO-Entwicklerhandbuch](/es/docs/developers-guide-aeo/)
-- [Agentenfähige Web-Apps](/es/docs/agent-ready-web-apps/)
+- [KI-Suchoptimierung](/de/docs/ai-search-optimization/)
+- [AEO-Entwicklerhandbuch](/de/docs/developers-guide-aeo/)
+- [Agentenfähige Web-Apps](/de/docs/agent-ready-web-apps/)
 
 Die Leseschicht muss verfolgbar sein, bevor die Ausführungsschicht importieren kann.
 

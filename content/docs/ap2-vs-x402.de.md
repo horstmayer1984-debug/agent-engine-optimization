@@ -100,7 +100,7 @@ Dokumentieren Sie für jede zu zahlende Maßnahme Folgendes:
 6. Wie mit Fehlern und Rückerstattungen umgegangen wird
 7. Wie ein Agent den Abschluss überprüft
 
-Diese Dokumentation sollte von [llms.txt](/llms.txt), dem [Protokollzentrum](/es/docs/protocols/) und den relevanten Aktionsseiten verlinkt werden.
+Diese Dokumentation sollte von [llms.txt](/llms.txt), dem [Protokollzentrum](/de/docs/protocols/) und den relevanten Aktionsseiten verlinkt werden.
 
 ## Häufig gestellte Fragen
 
@@ -120,5 +120,5 @@ In den meisten Fällen nicht als erstes Protokoll. E-Commerce-Händler benötige
 
 Wichtige Referenzen: [Google Cloud AP2-Ankündigung](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol/), [Google AP2 FIDO Alliance-Update](https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/), [x402-Dokumentation](https://docs.x402.org/faq) und [x402 Linux Foundation-Ankündigung](https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol).
 
-## Verwandte Leitfäden* [Agent-Commerce-Architektur](/es/docs/agentic-commerce/)
-* [Agent-Zahlungsprotokolle](/es/docs/agent-payment-protocols-compared/)
+## Verwandte Leitfäden* [Agent-Commerce-Architektur](/de/docs/agentic-commerce/)
+* [Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/)

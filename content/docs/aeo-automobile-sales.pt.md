@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 95
 category: "Industry"
 description: "Os Agentes de IA agora criam listas de 100 veículos em segundos. Como OEMs e revendedores devem estruturar os dados do configurador."
-metaDescription: "Vea cómo los sitios automotrices estructuran los datos del configurador, el inventario, la adquisición de flotas y los flujos de trabajo de servicios."
 summary: "Os OEMs que adotam o AEO capturam de 3 a 5 vezes mais leads gerados por agentes. Agentes de configuração, robôs de aquisição de frotas e agentes de serviço pós-venda precisam de dados estruturados de veículos e terminais de pedidos determinísticos."
 keywords:
   - "Vendas de carros AEO"
@@ -30,7 +29,7 @@ Esses agentes comparam marcas simultaneamente. Se os dados do seu configurador e
 
 Agentes comerciais que avaliam veículos para compra de frotas. Eles precisam de tudo que o agente consumidor precisa, além de: terminais de pedidos em grandes quantidades, estruturas de desconto de frota, especificações de integração telemática, termos de contrato de manutenção e dados de custo total de propriedade (depreciação, custos de combustível/energia, manutenção, seguros).
 
-A aquisição de frotas está passando para o nível 3 no [espectro de delegação](/es/docs/delegation-economy-agent-autonomy/): agentes que avaliam, selecionam e fazem pedidos dentro de orçamentos pré-aprovados. Seu revendedor ou infraestrutura OEM deve oferecer suporte a APIs de pedidos determinísticos, e não apenas a formulários de lead.
+A aquisição de frotas está passando para o nível 3 no [espectro de delegação](/pt/docs/delegation-economy-agent-autonomy/): agentes que avaliam, selecionam e fazem pedidos dentro de orçamentos pré-aprovados. Seu revendedor ou infraestrutura OEM deve oferecer suporte a APIs de pedidos determinísticos, e não apenas a formulários de lead.
 
 ### Agentes de serviço e pós-venda
 
@@ -71,7 +70,7 @@ OEMs e grandes grupos de revendedores que adotam a pilha completa de AEO captura
 | Vendas de frota | Equipe humana de vendas | API de pedidos determinísticos |
 | Pós-venda | Telefone para agendamento de serviço | API de reserva com dados de compatibilidade de peças |
 
-O [artigo sobre execução de negociação do agente](/es/docs/agentic-commerce-execution/) cobre a arquitetura geral de negociação. A [Comparação UCP, ACP e MCP](/es/docs/ucp-vs-acp-vs-mcp/) explica quais protocolos são aplicados.
+O [artigo sobre execução de negociação do agente](/pt/docs/agentic-commerce-execution/) cobre a arquitetura geral de negociação. A [Comparação UCP, ACP e MCP](/pt/docs/ucp-vs-acp-vs-mcp/) explica quais protocolos são aplicados.
 
 ---
 

@@ -20,7 +20,7 @@ Headless CMS SEO funktioniert, wenn das CMS-Inhaltsmodell und die Frontend-Rende
 
 In einem herkömmlichen CMS finden sich SEO-Einstellungen häufig in Plugins. In einem Headless-CMS können diese Standardeinstellungen verschwinden. Das Team muss SEO in Inhaltsmodelle, Komponenten, Routing und Bereitstellung integrieren.
 
-Nutzen Sie diese Seite als Checkliste für Ihre Implementierung. Um die Strategie und die Kompromisse kennenzulernen, lesen Sie [Headless CMS vs. Traditional CMS](/es/docs/headless-cms-vs-traditional-cms/) und [Auswirkungen von Headless CMS auf SEO](/es/docs/headless-cms-impact-on-seo/).
+Nutzen Sie diese Seite als Checkliste für Ihre Implementierung. Um die Strategie und die Kompromisse kennenzulernen, lesen Sie [Headless CMS vs. Traditional CMS](/de/docs/headless-cms-vs-traditional-cms/) und [Auswirkungen von Headless CMS auf SEO](/de/docs/headless-cms-impact-on-seo/).
 
 ## Erforderliche CMS-Felder
 
@@ -70,7 +70,7 @@ Eine technisch korrekte Headless-Site kann dennoch redaktionell scheitern. Redak
 - Geplante Veröffentlichung, die die Schnittstelle aktualisiert
 - Klarer Entwurf und Vorschauisolation
 
-Der [AEO Content Strategy Guide](/es/docs/aeo-content-strategy/) erklärt, warum strukturierte redaktionelle Entscheidungen für KI-Systeme und Suchmaschinen wichtig sind.
+Der [AEO Content Strategy Guide](/de/docs/aeo-content-strategy/) erklärt, warum strukturierte redaktionelle Entscheidungen für KI-Systeme und Suchmaschinen wichtig sind.
 
 ## GliederungschecklisteFügen Sie eine Gliederung nur hinzu, wenn sie mit dem sichtbaren Inhalt übereinstimmt. Zu den gängigen Headless-CMS-Schematypen gehören:
 
@@ -95,7 +95,7 @@ Der [AEO Content Strategy Guide](/es/docs/aeo-content-strategy/) erklärt, warum
 | Zentrale Links | Gruppenseiten mit Pillar-Seiten verbinden |
 | Nächster Schritt-Links | CTA-Empfehlungen nach Absicht hinzufügen |
 
-Diese Website verwendet das gleiche Muster: [Was ist Headless-Software?](/es/docs/what-is-headless-software/) fungiert als breitere Säule, während diese Seite die technische Checkliste behandelt.
+Diese Website verwendet das gleiche Muster: [Was ist Headless-Software?](/de/docs/what-is-headless-software/) fungiert als breitere Säule, während diese Seite die technische Checkliste behandelt.
 
 ## QA-Veröffentlichung
 

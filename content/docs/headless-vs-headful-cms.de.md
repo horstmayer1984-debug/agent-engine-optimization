@@ -36,7 +36,7 @@ Ein Headless-CMS eliminiert die feste Präsentationsschicht. Speichert Inhalte u
 
 Dies ist nützlich, wenn Inhalte an mehreren Orten angezeigt werden müssen: Websites, Apps, Dokumentationsportale, Kioske, E-Mails und KI-lesbare Oberflächen.
 
-Lesen Sie [Was ist Headless-Software?](/es/docs/what-is-headless-software/), um das umfassendere Konzept kennenzulernen.
+Lesen Sie [Was ist Headless-Software?](/de/docs/what-is-headless-software/), um das umfassendere Konzept kennenzulernen.
 
 ##Headless vs. Headed Vergleich
 
@@ -80,9 +80,9 @@ Headless CMS SEO scheitert meist an einer fehlenden Implementierung:
 - Sitemaps wurden nicht generiert
 - unvollständige Bildfelder
 
-Verwenden Sie [Headless SEO](/es/docs/headless-seo/) und [Bild-SEO in einem Headless CMS](/es/docs/image-seo-headless-cms/), wenn die Website entkoppelt ist.## AEO-Auswirkungen
+Verwenden Sie [Headless SEO](/de/docs/headless-seo/) und [Bild-SEO in einem Headless CMS](/de/docs/image-seo-headless-cms/), wenn die Website entkoppelt ist.## AEO-Auswirkungen
 
-Für [Agent Engine Optimization](/es/docs/what-is-aeo/) können Hybrid- und Headless-Systeme die Bereitstellung von Inhalten als strukturierte Daten erleichtern. Aber Headful-Systeme funktionieren immer noch, wenn sie solide öffentliche Seiten produzieren.
+Für [Agent Engine Optimization](/de/docs/what-is-aeo/) können Hybrid- und Headless-Systeme die Bereitstellung von Inhalten als strukturierte Daten erleichtern. Aber Headful-Systeme funktionieren immer noch, wenn sie solide öffentliche Seiten produzieren.
 
 Der Schlüssel ist nicht das Etikett. Es geht darum, ob Agenten entdecken, verstehen, zitieren und letztendlich handeln können.
 

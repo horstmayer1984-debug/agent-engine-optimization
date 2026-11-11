@@ -42,7 +42,7 @@ A documentação `llms.txt` do Chrome faz uma distinção importante: um arquivo
 
 ## Por que isso é importante para os AEOs
 
-A [Auditoria de Preparação AEO](/es/docs/audit/) já verifica a descoberta, a camada de leitura, a camada de execução e a confiança. O Lighthouse adiciona uma maneira fácil para os desenvolvedores capturarem alguns desses sinais em um ambiente de ferramentas familiar.
+A [Auditoria de Preparação AEO](/pt/docs/audit/) já verifica a descoberta, a camada de leitura, a camada de execução e a confiança. O Lighthouse adiciona uma maneira fácil para os desenvolvedores capturarem alguns desses sinais em um ambiente de ferramentas familiar.
 
 Não substitui uma auditoria completa do AEO. Ajuda os desenvolvedores a validar peças técnicas específicas:
 
@@ -63,7 +63,7 @@ Um arquivo prático deve incluir:
 - recursos legíveis por máquina
 - data de atualização
 
-O [guia llms.txt](/es/docs/programming-llms-txt/) explica como estruturá-lo. A regra principal é simples: ajude o agente a entender o que ler primeiro.
+O [guia llms.txt](/pt/docs/programming-llms-txt/) explica como estruturá-lo. A regra principal é simples: ajude o agente a entender o que ler primeiro.
 
 ## Como preparar ferramentas WebMCPA auditoria das ferramentas WebMCP registradas é informativa. Se não houver ferramentas cadastradas, a lista estará vazia. Isso não é automaticamente uma falha, mas revela se a página expõe ações de uma forma amigável para o agente do navegador.
 
@@ -77,7 +77,7 @@ Boas primeiras ferramentas incluem:
 - enviar ticket de suporte
 - comparar produtos
 
-O [guia WebMCP](/es/docs/webmcp-agent-ready-websites/) aborda quando usar ferramentas de nível de página versus MCP do lado do servidor.
+O [guia WebMCP](/pt/docs/webmcp-agent-ready-websites/) aborda quando usar ferramentas de nível de página versus MCP do lado do servidor.
 
 ## Fluxo de trabalho sugerido| Etapa | Ação | Saída |
 |
@@ -90,7 +90,7 @@ O [guia WebMCP](/es/docs/webmcp-agent-ready-websites/) aborda quando usar ferram
 | 4 | Farol de repetição | Confirmar detecção |
 | 5 | Adicionar logs do lado do servidor para ações do agente | Camada de medição |
 
-Este fluxo de trabalho conecta a validação técnica à [camada de execução](/es/docs/execution-layer/). Passar em uma auditoria é menos importante do que provar que um agente pode concluir uma tarefa útil.
+Este fluxo de trabalho conecta a validação técnica à [camada de execução](/pt/docs/execution-layer/). Passar em uma auditoria é menos importante do que provar que um agente pode concluir uma tarefa útil.
 
 ## O que não fazer
 

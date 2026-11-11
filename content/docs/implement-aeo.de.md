@@ -5,7 +5,6 @@ date: 2026-03-18
 weight: 10
 category: "Guide"
 description: "Eine praktische Schritt-für-Schritt-Anleitung, um Ihre Website für autonome KI-Agenten lesbar und umsetzbar zu machen. Deckt die Struktur des Inhalts ab."
-metaDescription: "Siga una guía práctica de implementación de AEO que cubre la estructura del contenido, los puntos finales de acción, las señales de confianza y la medición."
 summary: "Agent Engine Optimization geht über SEO und GEO hinaus. In diesem Leitfaden wird erläutert, wie Sie Ihre Website für KI-Agenten, die lesen, entscheiden und handeln müssen, lesbar und bedienbar machen."
 keywords:
   - "Optimierung der Agent-Engine"
@@ -60,7 +59,7 @@ Eine praktische Konfiguration umfasst normalerweise:
 - eine saubere Sitemap
 - ein dedizierter maschinenlesbarer Index wie /llms.txt
 - eine kurze Funktionsübersichtsseite
-- Dokumentation für jeden Transaktions- oder Anforderungsendpunkt. Dadurch entfällt das Rätselraten. Es reduziert auch wilde Mutmaßungen darüber, was Ihr System tatsächlich leisten kann. In [Was ist AEO](/es/docs/what-is-aeo/) wird die strukturelle Logik dahinter ausführlicher erläutert.
+- Dokumentation für jeden Transaktions- oder Anforderungsendpunkt. Dadurch entfällt das Rätselraten. Es reduziert auch wilde Mutmaßungen darüber, was Ihr System tatsächlich leisten kann. In [Was ist AEO](/de/docs/what-is-aeo/) wird die strukturelle Logik dahinter ausführlicher erläutert.
 
 ## Schritt 3: Machen Sie Aktionen sichtbar, nicht nur Informationen
 
@@ -77,7 +76,7 @@ Beispiele für Aktionsendpunkte:
 
 Jede Aktion muss erforderliche Eingaben, optionale Eingaben, erwartete Ergebnisse, Fehlerzustände, Ratengrenzen, Berechtigungsanforderungen und Validierungslogik definieren.Verstecken Sie sie nicht hinter vagen Schaltflächen und JavaScript-Flows, die nur im Browser sichtbar sind. Wenn eine Aufgabe wichtig ist, legen Sie einen dokumentierten Weg dafür fest.
 
-Dies ist der Kern der [Ausführungsschicht](/es/docs/execution-layer/), der Teil, der AEO von der gewöhnlichen Inhaltsoptimierung trennt.
+Dies ist der Kern der [Ausführungsschicht](/de/docs/execution-layer/), der Teil, der AEO von der gewöhnlichen Inhaltsoptimierung trennt.
 
 ##Schritt 4: Fügen Sie strukturierte Daten hinzu, die reale Aktionen widerspiegeln
 
@@ -129,7 +128,7 @@ Nützliche vertrauenswürdige Lesezeichen:
 - Rückgabe-, Stornierungs- oder Rückerstattungsbedingungen
 - ggf. Nachweis der Verifizierung, Herkunft oder Zertifizierung
 
-Mithilfe dieser Signale kann ein Agent beurteilen, ob eine Quelle vertrauenswürdig genug ist, um sie zu zitieren, zu empfehlen oder mit ihr Geschäfte zu tätigen. Der Vergleich von [AEO, SEO und GEO](/es/docs/aeo-vs-seo-vs-geo/) erklärt, wie sich das Vertrauen zwischen diesen Ebenen unterscheidet.
+Mithilfe dieser Signale kann ein Agent beurteilen, ob eine Quelle vertrauenswürdig genug ist, um sie zu zitieren, zu empfehlen oder mit ihr Geschäfte zu tätigen. Der Vergleich von [AEO, SEO und GEO](/de/docs/aeo-vs-seo-vs-geo/) erklärt, wie sich das Vertrauen zwischen diesen Ebenen unterscheidet.
 
 ##Schritt 8: Testen Sie wie ein Agent, nicht wie ein Vermarkter
 
@@ -163,7 +162,7 @@ Eine ausgereifte AEO-Konfiguration besteht typischerweise aus drei Schichten:
 
 Dieser mehrschichtige Ansatz unterscheidet AEO von der gewöhnlichen Inhaltsoptimierung. Sie veröffentlichen nicht nur Seiten. Sie machen Ihre Website in einer maschinengestützten Umgebung lesbar und bedienbar.
 
-Wenn Sie eine strukturierte Bewertung der aktuellen Situation Ihres Standorts wünschen, deckt das [AEO Readiness Audit] (/es/docs/audit/) genau das ab.
+Wenn Sie eine strukturierte Bewertung der aktuellen Situation Ihres Standorts wünschen, deckt das [AEO Readiness Audit](/de/docs/audit/) genau das ab.
 
 ---
 

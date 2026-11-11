@@ -4,7 +4,6 @@ date: 2026-04-12
 weight: 61
 category: "Architecture"
 description: "ツール検出、構造化コンテキスト、認証、ワークフローなど、AI エージェントの MCP と API を比較します。"
-metaDescription: "Compare MCP y API para agentes de IA: descubrimiento dinámico, esquemas de herramientas tipificados, patrones de interacción y cuándo encaja cada enfoque."
 summary: "API にはハードコーディングされた統合が必要です。 MCP を使用すると、エージェントはツールを動的に検出して呼び出すことができます。このガイドでは、違い、それぞれが適用される場合、および既存の API に MCP を追加する方法について説明します。"
 keywords:
   - "MCP と API"
@@ -77,7 +76,7 @@ LangGraph または CrewAI を使用して、MCP サーバーを検出し、一�
 
 MCP ラッパーなしで REST API のみを公開し、エージェントがそれを使用することを期待します。一部のエージェントは十分に文書化された REST API を使用できますが、統合は脆弱であり、エージェントはプログラムで機能を発見するのではなく、文書を解釈する必要があります。解決策: 既存の API の周りに MCP ラッパーを追加します。ほとんどのシステムではこれに 1 日もかからず、MCP 準拠のエージェントが API フットプリント全体を即座に検出できるようになります。
 
-[エージェント Web サイト プログラミング ガイド](/es/docs/programming-websites-for-ai-agents/) では、より広範な技術スタックをカバーしています。 [実行層の記事](/es/docs/execution-layer/) では、MCP が AEO アーキテクチャにとって重要である理由が説明されています。
+[エージェント Web サイト プログラミング ガイド](/ja/docs/programming-websites-for-ai-agents/) では、より広範な技術スタックをカバーしています。 [実行層の記事](/ja/docs/execution-layer/) では、MCP が AEO アーキテクチャにとって重要である理由が説明されています。
 
 ---
 
@@ -98,7 +97,7 @@ MCP の採用は 2026 年に急速に増加すると予想されます。クロ�
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)
 
 ## 主な参考文献
 

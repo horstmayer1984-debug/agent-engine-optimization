@@ -73,7 +73,7 @@ Allow: /
 4. 製品、ドキュメント、サポート ページには異なるポリシーが必要になる可能性があることを忘れてください。
 5. 「robots.txt」、ヘッダー、およびエッジ コントロールで競合するルールを公開します。
 
-[Cloudflare AI クロール コントロール ガイド](/es/docs/cloudflare-ai-crawl-control/) では、境界ポリシー側について説明しています。 [ChatGPT 製品推奨チェックリスト](/es/docs/chatgpt-product-recommendations-seo/) は、トラッカー アクセスが e コマース発見にとって重要である理由を示しています。
+[Cloudflare AI クロール コントロール ガイド](/ja/docs/cloudflare-ai-crawl-control/) では、境界ポリシー側について説明しています。 [ChatGPT 製品推奨チェックリスト](/ja/docs/chatgpt-product-recommendations-seo/) は、トラッカー アクセスが e コマース発見にとって重要である理由を示しています。
 
 ## 何を監視するか|信号 |なぜそれが重要なのか |
 |
@@ -85,7 +85,7 @@ Allow: /
 |商品ページの鮮度 | AI で購入品の品質を守る |
 |クロールエラー |偶然の答えを見つける 403、429、または 5xx |
 
-AEO をより広範に測定するには、追跡データを [AEO KPI ガイド](/es/docs/aeo-kpis-measurement/) に接続します。
+AEO をより広範に測定するには、追跡データを [AEO KPI ガイド](/ja/docs/aeo-kpis-measurement/) に接続します。
 
 ## robots.txt は AEO 戦略ではありません
 
@@ -98,7 +98,7 @@ AEO をより広範に測定するには、追跡データを [AEO KPI ガイド
 - 機械読み取り可能な製品またはサービス データ
 - 安全な行動経路
 
-そのため、「robots.txt」は読み取り層に属し、タスクの完了は[実行層](/es/docs/execution-layer/)に属します。
+そのため、「robots.txt」は読み取り層に属し、タスクの完了は[実行層](/ja/docs/execution-layer/)に属します。
 
 ## よくある質問
 

@@ -39,7 +39,7 @@ Isso torna esta página importante para as equipes que veem conselhos conflitant
 | HTML semântico | Use uma estrutura clara para usuários, leitores de tela e máquinas. |
 | Dados estruturados | Use-o onde corresponder ao conteúdo visível, não como um artifício. |
 
-Para implementação, leia [Modo Google SEO AI](/es/docs/google-ai-mode-seo/) e [Modo Google AI no Search Console](/es/docs/google-ai-mode-search-console-reporting/).
+Para implementação, leia [Modo Google SEO AI](/pt/docs/google-ai-mode-seo/) e [Modo Google AI no Search Console](/pt/docs/google-ai-mode-search-console-reporting/).
 
 ## O que o Google diz para ignorar na Pesquisa
 
@@ -57,7 +57,7 @@ Isso não torna o `llms.txt` inútil. Isso significa que deve ser enquadrado cor
 | `llms.txt` | Não é especialmente usado pela Pesquisa Google | Útil para agentes ou serviços que optem por lê-lo |
 | Venda espelhos | Não é necessário para recursos de IA do Google | Pode ser mais fácil para agentes e ferramentas LLM analisarem || Dados estruturados | Suportado ao combinar conteúdo visível | Também ajuda as máquinas a interpretar entidades |
 
-Para o lado do agente, consulte [llms.txt vs robots.txt](/es/docs/llms-txt-vs-robots-txt/) e [agendamento llms.txt](/es/docs/programming-llms-txt/).
+Para o lado do agente, consulte [llms.txt vs robots.txt](/pt/docs/llms-txt-vs-robots-txt/) e [agendamento llms.txt](/pt/docs/programming-llms-txt/).
 
 ## Como usar este guia sem estar mal preparado
 
@@ -69,7 +69,7 @@ A divisão é:1. Os recursos de IA do Google precisam de bases sólidas de SEO.
 2. Os sistemas de resposta de IA precisam de extração clara e apoiada na fonte.
 3. Os agentes de IA precisam de caminhos de execução, políticas e ações estruturadas.
 
-É por isso que [SEO vs GEO vs Resposta AEO vs Agente AEO](/es/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/) ainda é útil. Um canal não define toda a rede de agências.
+É por isso que [SEO vs GEO vs Resposta AEO vs Agente AEO](/pt/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/) ainda é útil. Um canal não define toda a rede de agências.
 
 ## Auditoria prática de 30 minutos
 

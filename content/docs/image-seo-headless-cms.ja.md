@@ -22,7 +22,7 @@ keywords:
 
 これは実際的な問題を引き起こします。画像にはリソース ライブラリに汎用の代替テキストが含まれている可能性がありますが、ページごとにコンテキストに応じて異なる代替テキストが必要になる場合があります。
 
-より広範な技術要件については、[ヘッドレス CMS SEO](/es/docs/headless-cms-seo/) および [ヘッドレス SEO](/es/docs/headless-seo/) を参照してください。
+より広範な技術要件については、[ヘッドレス CMS SEO](/ja/docs/headless-cms-seo/) および [ヘッドレス SEO](/ja/docs/headless-seo/) を参照してください。
 
 ## モデル化する画像フィールド
 
@@ -85,7 +85,7 @@ Google の [画像 SEO ベスト プラクティス] (https://developers.google.
 
 ## 構造化データと製品画像製品ページ、レシピ、記事、およびソフトウェアの場合、画像フィールドは構造化データをフィードできます。スキーマは表示されるコンテンツと一致し、クロール可能な画像 URL を参照する必要があります。
 
-これは、[AI 購買および構造化製品データ](/es/docs/product-structured-data-ai-shopping/) と [エージェント エンジンの最適化](/es/docs/what-is-aeo/) にとって特に重要です。
+これは、[AI 購買および構造化製品データ](/ja/docs/product-structured-data-ai-shopping/) と [エージェント エンジンの最適化](/ja/docs/what-is-aeo/) にとって特に重要です。
 
 ## よくある質問
 

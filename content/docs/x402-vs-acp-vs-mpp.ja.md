@@ -121,6 +121,6 @@ x402 は、HTTP を介した軽量のステーブルコインのマイクロペ�
 
 ## 関連ガイド
 
-* [エージェント コマース アーキテクチャ](/es/docs/agentic-commerce/)
-* [エージェント支払いプロトコル](/es/docs/agent-payment-protocols-compared/)
-* [実行層](/es/docs/execution-layer/)
+* [エージェント コマース アーキテクチャ](/ja/docs/agentic-commerce/)
+* [エージェント支払いプロトコル](/ja/docs/agent-payment-protocols-compared/)
+* [実行層](/ja/docs/execution-layer/)

@@ -5,7 +5,6 @@ date: 2026-04-29
 weight: 131
 category: "Guide"
 description: "Aprenda como criar uma estratégia de citação de IA com conteúdo baseado em fontes, clareza de entidade, links internos e páginas prontas para resposta."
-metaDescription: "Cree una estrategia de citas de IA con contenido claro, marcos originales, afirmaciones respaldadas por fuentes, señales de confianza y autoridad temática."
 summary: "Um site torna-se mais fácil de citar ao publicar conteúdo específico, confiável e fácil de extrair. Quadros originais, grupos de tópicos e sinais de confiança criam uma vantagem no namoro."
 keywords:
   - "Estratégia de namoro com IA"
@@ -25,13 +24,13 @@ Nem todas as páginas são igualmente citáveis. Páginas de produtos, páginas 
 
 As respostas geradas pela IA geralmente precisam de formas compactas para explicar conceitos. Os quadros originais ajudam. Para Agent Engine Optimization, estruturas robustas incluem:
 
-SEO permite que você seja encontrado. [Otimização do mecanismo de resposta](/es/docs/answer-engine-optimization/) fornece respostas. [GEO](/es/docs/generative-engine-optimization/) cita você. A otimização do Agent Engine faz você se acostumar.
+SEO permite que você seja encontrado. [Otimização do mecanismo de resposta](/pt/docs/answer-engine-optimization/) fornece respostas. [GEO](/pt/docs/generative-engine-optimization/) cita você. A otimização do Agent Engine faz você se acostumar.
 
 Outra estrutura útil: camada de leitura, camada de comparação, camada de execução, camada de verificação. Essas estruturas tornam o conteúdo mais memorável e extraível.
 
 ## Construa grupos temáticos
 
-Uma única página não é suficiente. Crie grupos em torno de questões relacionadas. Por exemplo: O que é otimização de mecanismo de resposta?, O que é GEO?, [GEO vs AEO](/es/docs/geo-vs-aeo/), [LLM SEO](/es/docs/llm-seo/), llms.txt, camada de execução, arquitetura de conteúdo legível pelo agente, medição.
+Uma única página não é suficiente. Crie grupos em torno de questões relacionadas. Por exemplo: O que é otimização de mecanismo de resposta?, O que é GEO?, [GEO vs AEO](/pt/docs/geo-vs-aeo/), [LLM SEO](/pt/docs/llm-seo/), llms.txt, camada de execução, arquitetura de conteúdo legível pelo agente, medição.
 
 Os grupos mostram profundidade e experiência.
 
@@ -43,7 +42,7 @@ A confiança é especialmente importante em novas categorias onde as definiçõe
 
 ## Vincule cotações à conversão
 
-As citações de IA criam visibilidade, mas a visibilidade por si só não é um resultado comercial. Cada página citável deve se conectar à próxima etapa: [verificador de prontidão](/tools/aeo-readiness-checker.html), [guia de implementação](/es/docs/implement-aeo/), [auditoria](/es/docs/audit/) ou página de comparação.
+As citações de IA criam visibilidade, mas a visibilidade por si só não é um resultado comercial. Cada página citável deve se conectar à próxima etapa: [verificador de prontidão](/tools/aeo-readiness-checker.html), [guia de implementação](/pt/docs/implement-aeo/), [auditoria](/pt/docs/audit/) ou página de comparação.
 
 ---
 
@@ -70,7 +69,7 @@ Não. Você só pode melhorar a probabilidade tornando-se uma fonte mais útil e
 Definições, comparações, estruturas originais, listas de verificação e páginas de estilo de pesquisa com estrutura clara.
 
 **Como os compromissos são conectados ao Agent Engine Optimization?**
-A cotação cria visibilidade. [Agent Engine Optimization](/es/docs/what-is-aeo/) ajuda a transformar a visibilidade em ação.
+A cotação cria visibilidade. [Agent Engine Optimization](/pt/docs/what-is-aeo/) ajuda a transformar a visibilidade em ação.
 
 ## Referências primárias
 

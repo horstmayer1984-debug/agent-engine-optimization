@@ -47,7 +47,7 @@ Die geeignete Richtlinie hängt vom Geschäftsmodell ab. Eine Dokumentationsseit
 
 ## Warum robots.txt nicht ausreicht
 
-Der [robots.txt-Leitfaden für KI-Crawler](/es/docs/programming-llms-txt/) ist immer noch wichtig, aber robots.txt kommuniziert nur Crawling-Einstellungen. Der Crawler wird nicht authentifiziert, seine Identität wird nicht nachgewiesen, es werden keine Zugriffspreise festgelegt und es werden auch keine Inhaltsnutzungsregeln nach dem Zugriff durchgesetzt.
+Der [robots.txt-Leitfaden für KI-Crawler](/de/docs/programming-llms-txt/) ist immer noch wichtig, aber robots.txt kommuniziert nur Crawling-Einstellungen. Der Crawler wird nicht authentifiziert, seine Identität wird nicht nachgewiesen, es werden keine Zugriffspreise festgelegt und es werden auch keine Inhaltsnutzungsregeln nach dem Zugriff durchgesetzt.
 
 Cloudflare-Tools sind näher an der Strafverfolgungsebene:
 
@@ -71,7 +71,7 @@ Für AEO besteht der Schlüssel darin, zu vermeiden, dass die Tracker und Suchsy
 | Lokale Unternehmen | Halten Sie die Entdeckung offen; Nur missbräuchliche Bots blockieren |
 | API-Marktplatz | Entdeckungsseiten zulassen; Endpunkte, die über Authentifizierung oder x402 bezahlt werden |
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) startet erst, nachdem der Agent die öffentlichen Einstiegspunkte erkennen und verstehen kann.## Richtlinie zu Inhaltssignalen
+Die [Ausführungsschicht](/de/docs/execution-layer/) startet erst, nachdem der Agent die öffentlichen Einstiegspunkte erkennen und verstehen kann.## Richtlinie zu Inhaltssignalen
 
 Die Content Signals Policy von Cloudflare gibt Websitebesitzern die Möglichkeit, Präferenzen wie die Verwendung von Suche, KI-Training und die Verwendung von KI-Eingaben auszudrücken. Behandeln Sie es als maschinenlesbare Präferenzebene und nicht als Garantie dafür, dass alle Bots die Anforderungen erfüllen.
 
@@ -87,7 +87,7 @@ Diese Trennung ist praktischer als eine Alles-oder-Nichts-robots.txt-Datei.
 
 ## Bezahlung für Tracking und Agenturwirtschaft
 
-Cloudflares Pay-per-Crawl deutet auf eine Zukunft hin, in der der Zugang zu hochwertigen Inhalten für KI-Tracker seinen Preis haben könnte. Dies hängt mit den [Agent-Zahlungsprotokollen](/es/docs/agent-payment-protocols-compared/) zusammen, gilt jedoch eher für die Nachverfolgung als für den Kauf eines Produkts oder einer Dienstleistung.
+Cloudflares Pay-per-Crawl deutet auf eine Zukunft hin, in der der Zugang zu hochwertigen Inhalten für KI-Tracker seinen Preis haben könnte. Dies hängt mit den [Agent-Zahlungsprotokollen](/de/docs/agent-payment-protocols-compared/) zusammen, gilt jedoch eher für die Nachverfolgung als für den Kauf eines Produkts oder einer Dienstleistung.
 
 Mit Vorsicht verwenden. Wenn eine Seite darauf abzielt, Kunden anzulocken, können kostenpflichtige Crawler die Entdeckung reduzieren. Wenn eine Seite Premium-Recherche enthält, kann es sinnvoll sein, den Zugang zum Crawler zu bepreisen.
 

@@ -69,7 +69,7 @@ UCP 機能ステートメントを /.well-known/ucp (または同等のマニフ
 |クレーム |電話またはポータルへのログイン |構造化された配送および追跡 API |
 |エージェントの可視性 |低い値からゼロ |高い、比較エージェントが好む |
 
-[実行層ガイド](/es/docs/execution-layer/) では、一般的なアーキテクチャについて説明しています。 [B2B SaaS Procurement 記事](/es/docs/b2b-saas-procurement/) では、ソフトウェアの購入に同様の原則が適用されます。
+[実行層ガイド](/ja/docs/execution-layer/) では、一般的なアーキテクチャについて説明しています。 [B2B SaaS Procurement 記事](/ja/docs/b2b-saas-procurement/) では、ソフトウェアの購入に同様の原則が適用されます。
 
 ---
 
@@ -89,7 +89,7 @@ AEO 能力に関する記述には、管轄区域の制限を含める必要が�
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)
 
 ## 主な参考文献
 

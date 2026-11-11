@@ -47,7 +47,7 @@ Untersuchungen von PayPal-Händlern zeigen, dass sich Unternehmen bereits auf de
 | Retouren | Erfordert ursprünglichen Befehls- oder Bestellkontext für automatische Rückgaben |
 | Loyalität | Gewinnstreben nur nach Identitätsbindung zulassen |
 
-An dieser Stelle bewegt sich [AEO](/es/docs/what-is-aeo/) vom Inhalt zur Governance.
+An dieser Stelle bewegt sich [AEO](/de/docs/what-is-aeo/) vom Inhalt zur Governance.
 
 ##Richtlinien-Engine versus Betrugs-Engine
 

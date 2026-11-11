@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 34
 category: "Framework"
 description: "O Answer Engine Optimization faz com que sua loja seja citada. Agent Engine Optimization permite que você faça transações em sua loja. A distinção é."
-metaDescription: "Compare Answer Engine Optimization y Agent Engine Optimization para comercio electrónico, desde la visibilidad de las citas hasta las transacciones."
 summary: "AEO tem dois significados em 2026. O Answer Engine Optimization visa citações. O Agent Engine Optimization visa transações autônomas. As marcas de comércio eletrônico precisam de ambos, na sequência certa."
 keywords:
   - "Otimização do mecanismo de agente versus otimização do mecanismo de resposta"
@@ -28,7 +27,7 @@ O trabalho inclui a implementação de dados estruturados com JSON-LD, a escrita
 
 ##Otimização do Agent Engine: execute transações por meio
 
-Agent Engine Optimization é a [camada de execução](/es/docs/execution-layer/). Seu foco é tornar sua loja não apenas legível, mas também acionável por agentes autônomos que comparam produtos, verificam estoque, validam políticas e concluem compras em nome dos usuários.
+Agent Engine Optimization é a [camada de execução](/pt/docs/execution-layer/). Seu foco é tornar sua loja não apenas legível, mas também acionável por agentes autônomos que comparam produtos, verificam estoque, validam políticas e concluem compras em nome dos usuários.
 
 O trabalho inclui expor preços e estoque em tempo real por meio de endpoints estruturados e consultáveis, tornar as políticas de devolução e envio legíveis por máquina, criar rotas de checkout determinísticas que não dependem de sessões do navegador, implementar lógica de transação idempotente que lida com novas tentativas do agente com segurança e publicar manifestos de capacidade que informam aos agentes o que sua loja pode fazer.
 
@@ -61,7 +60,7 @@ Marcas que tratam todos os AEO como otimização de mecanismo de resposta otimiz
 
 Marcas que entendem ambas as camadas podem sequenciar seus investimentos corretamente. Responda ao Engine Optimization agora para obter retornos imediatos. Infraestrutura de otimização do Parallel Agent Engine para obter vantagem competitiva à medida que o canal amadurece.
 
-A [Comparação de AEO, SEO e GEO](/es/docs/aeo-vs-seo-vs-geo/) fornece uma estrutura mais ampla. O [artigo sobre execução de negociação de agente](/es/docs/agentic-commerce-execution/) investiga o que a camada de execução exige tecnicamente.
+A [Comparação de AEO, SEO e GEO](/pt/docs/aeo-vs-seo-vs-geo/) fornece uma estrutura mais ampla. O [artigo sobre execução de negociação de agente](/pt/docs/agentic-commerce-execution/) investiga o que a camada de execução exige tecnicamente.
 
 ---
 

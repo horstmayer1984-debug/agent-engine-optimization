@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 100
 category: "Industry"
 description: "旅行サイトと予約サイトが空室状況、価格設定、ポリシー、エージェントが行う予約アクションをどのように公開できるかをご覧ください。"
-metaDescription: "Vea cómo las marcas de viajes utilizan datos estructurados, API en tiempo real y puntos finales de reserva deterministas para que los agentes de IA puedan."
 summary: "旅行は AEO の最も明確な激戦区の 1 つです。フライトの予約、ホテルの比較、旅程の作成を行う AI エージェントには、リアルタイム API、構造化された空室状況データ、決定的な支払いルートが必要です。"
 keywords:
   - "AEO旅行業"
@@ -55,7 +54,7 @@ keywords:
 
 あるホテルのサービスを構造化リストとして表示し、別のホテルのサービスをマーケティングの段落として表示するプラットフォームでは、エージェントは 2 つの異なる抽出パターンを処理する必要があります。抽出の複雑さが軽減されるため、エージェントはすべてのリストを一貫した構造化データに正規化するプラットフォームを好みます。
 
-データの正規化に現在投資しているプラ​​ットフォームは、エージェントによる予約の増加する割合を取り込むことになります。 [実行層ガイド](/es/docs/execution-layer/) では、アーキテクチャ要件について説明しています。
+データの正規化に現在投資しているプラ​​ットフォームは、エージェントによる予約の増加する割合を取り込むことになります。 [実行層ガイド](/ja/docs/execution-layer/) では、アーキテクチャ要件について説明しています。
 
 ## ツアーオペレーターと地元のアクティビティ
 
@@ -76,7 +75,7 @@ keywords:
 |ポリシー |散文の法的ページ |特定の用語を含む構造化データ |
 |エージェントの対話 |スクレイピングしないと不可能 | API とプロトコルによるネイティブ |
 
-[エージェント取引実行記事](/es/docs/agentic-commerce-execution/) では、一般的な取引アーキテクチャについて説明しています。 [委任経済学の記事](/es/docs/delegation-economy-agent-autonomy/) では、旅行者のエージェントへの委任が 5 つのレベルの自治にどのように従うかについて説明しています。
+[エージェント取引実行記事](/ja/docs/agentic-commerce-execution/) では、一般的な取引アーキテクチャについて説明しています。 [委任経済学の記事](/ja/docs/delegation-economy-agent-autonomy/) では、旅行者のエージェントへの委任が 5 つのレベルの自治にどのように従うかについて説明しています。
 
 ---
 

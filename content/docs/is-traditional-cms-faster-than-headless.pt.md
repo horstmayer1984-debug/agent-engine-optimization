@@ -31,7 +31,7 @@ A velocidade depende de:
 - consultas de banco de dados
 - estratégia de construção e implementação
 
-Leia [Headless CMS vs CMS tradicional](/es/docs/headless-cms-vs-traditional-cms/) para uma compensação mais ampla.
+Leia [Headless CMS vs CMS tradicional](/pt/docs/headless-cms-vs-traditional-cms/) para uma compensação mais ampla.
 
 ## Comparação de desempenho
 
@@ -85,7 +85,7 @@ A documentação do Next.js diz que a geração estática pode pré-renderizar p
 | Imagens não otimizadas | Ambos | Pior LCP e largura de banda |
 | Erros de cache | Ambos | TTFB lento |
 | Conteúdo exclusivo para clientes | Principalmente sem cabeça | Risco de rastreamento e indexação |
-| Etiquetas de terceiros | Ambos | O guia Bad Basic Web Vitals | [Headless SEO] (/es/docs/headless-seo/) explica por que a velocidade e a rastreabilidade devem ser testadas juntas. Para obter detalhes de implementação específicos do CMS, use a [Lista de verificação de SEO do Headless CMS] (/es/docs/headless-cms-seo/).
+| Etiquetas de terceiros | Ambos | O guia Bad Basic Web Vitals | [Headless SEO](/pt/docs/headless-seo/) explica por que a velocidade e a rastreabilidade devem ser testadas juntas. Para obter detalhes de implementação específicos do CMS, use a [Lista de verificação de SEO do Headless CMS](/pt/docs/headless-cms-seo/).
 
 ## O que medir
 

@@ -33,7 +33,7 @@ Eine Handelsvertreterreise kann Folgendes umfassen:
 - Compliance
 - Rückgaben, Rückerstattungen, Treue und Support
 
-Dies ist wichtig für die [Agent Engine Optimization](/es/docs/what-is-aeo/), da ein Händler in einer Phase möglicherweise für Agenten bereit ist und in einer anderen Phase überhaupt nicht für Agenten bereit ist. Ein Geschäft verfügt möglicherweise über strukturierte Produktdaten, jedoch nicht über einen sicheren Warenkorb für Agenten. Ein anderer unterstützt möglicherweise eine tokenisierte Zahlung, jedoch keine maschinenlesbare Rückgaberichtlinie.
+Dies ist wichtig für die [Agent Engine Optimization](/de/docs/what-is-aeo/), da ein Händler in einer Phase möglicherweise für Agenten bereit ist und in einer anderen Phase überhaupt nicht für Agenten bereit ist. Ein Geschäft verfügt möglicherweise über strukturierte Produktdaten, jedoch nicht über einen sicheren Warenkorb für Agenten. Ein anderer unterstützt möglicherweise eine tokenisierte Zahlung, jedoch keine maschinenlesbare Rückgaberichtlinie.
 
 ## Das fünfstufige Modell von Stripe
 
@@ -68,7 +68,7 @@ Der Agentenhandel lässt sich am besten anhand der Lebenszyklusphase bewerten. B
 | Zahlung | Stufe 1 | Die meisten Ströme halten den Menschen immer noch nah an der endgültigen Kaufentscheidung |
 | Compliance und Loyalität | Stufe 1 | UCP unterstützt Bestellereignisse und Identitätsbindung, aber autonome Abläufe nach dem Kauf sind früh |
 
-Das [Delegationsökonomie-Framework](/es/docs/delegation-economy-agent-autonomy/) erläutert das Autonomiespektrum. Diese Seite wendet dieses Spektrum auf den Geschäftsbetrieb an.
+Das [Delegationsökonomie-Framework](/de/docs/delegation-economy-agent-autonomy/) erläutert das Autonomiespektrum. Diese Seite wendet dieses Spektrum auf den Geschäftsbetrieb an.
 
 ## Was hat sich im Jahr 2026 geändert?
 
@@ -95,7 +95,7 @@ Beispiele:
 - Rückgaberichtlinien für Oberflächen
 - Produktunterschiede erklären
 
-Für Händler erfordert Level 1 eine robuste [KI-Suchoptimierung] (/es/docs/ai-search-optimization/), strukturierte Produktdaten, genaue Verfügbarkeit und Seiten, die Agenten analysieren können.
+Für Händler erfordert Level 1 eine robuste [KI-Suchoptimierung](/de/docs/ai-search-optimization/), strukturierte Produktdaten, genaue Verfügbarkeit und Seiten, die Agenten analysieren können.
 
 ## Level 2: Handel durch Agenten untersucht
 
@@ -111,7 +111,7 @@ Erforderliches Betriebsvermögen:
 - Kompatibilitätsdaten
 - Bewertungen und Vertrauenssignale
 
-Der [Leitfaden zu strukturierten Produktdaten](/es/docs/product-structured-data-ai-shopping/) deckt die Produktdatenschicht ab.## Level 3: Handel mit delegierten Aufgaben
+Der [Leitfaden zu strukturierten Produktdaten](/de/docs/product-structured-data-ai-shopping/) deckt die Produktdatenschicht ab.## Level 3: Handel mit delegierten Aufgaben
 
 Auf Level 3 delegiert der Mensch eine definierte Aufgabe:
 
@@ -119,7 +119,7 @@ Auf Level 3 delegiert der Mensch eine definierte Aufgabe:
 
 Der Agent kann handeln, wenn der Kauf den Einschränkungen des Benutzers entspricht. Dies erfordert Absicht, Autorisierung, Ausgabenlimits, Händlerberechtigung und einen klaren Erfolgsstatus.
 
-Hier beginnen Protokolle eine Rolle zu spielen. [AP2 vs. x402](/es/docs/ap2-vs-x402/) erklärt, wie sich die Autorisierungs- und Zahlungsprotokolle unterscheiden. [UCP vs. ACP vs. MCP](/es/docs/ucp-vs-acp-vs-mcp/) zeigt, warum Handels-, Zahlungs- und Kontextstandards nicht das gleiche Problem lösen.
+Hier beginnen Protokolle eine Rolle zu spielen. [AP2 vs. x402](/de/docs/ap2-vs-x402/) erklärt, wie sich die Autorisierungs- und Zahlungsprotokolle unterscheiden. [UCP vs. ACP vs. MCP](/de/docs/ucp-vs-acp-vs-mcp/) zeigt, warum Handels-, Zahlungs- und Kontextstandards nicht das gleiche Problem lösen.
 
 ## Ebene 4: Politikgesteuerter autonomer Handel
 
@@ -133,7 +133,7 @@ Beispiele:
 - Wählen Sie Lieferanten aus einer Liste zugelassener Lieferanten aus
 - Verbrauchsmaterialien je nach Verbrauch nachbestellen
 
-Der Händler benötigt nun maschinenlesbare Richtlinien, Identitätsprüfungen, deterministische Warenkorblogik und einen vertrauenswürdigen Status nach dem Kauf. Hier wird die [Ausführungsschicht](/es/docs/execution-layer/) zu einer Geschäftsanforderung.
+Der Händler benötigt nun maschinenlesbare Richtlinien, Identitätsprüfungen, deterministische Warenkorblogik und einen vertrauenswürdigen Status nach dem Kauf. Hier wird die [Ausführungsschicht](/de/docs/execution-layer/) zu einer Geschäftsanforderung.
 
 ## Level 5: Früher Handel
 
@@ -165,7 +165,7 @@ Ohne diese Kontrollen ist Level 5 keine kommerzielle Infrastruktur. Es ist Risik
 | Identitäts- und Berechtigungsplanung | Delegation verlangt Nachweis darüber, wer was autorisiert hat |
 | Sichtbarkeit von Ereignissen nach dem Kauf | Agenten benötigen Lieferstatus, Rückerstattung und Support |
 
-Der [Agent Commerce Execution Guide](/es/docs/agentic-commerce-execution/) befasst sich mit der Transaktionsschicht, während das [Universal Commerce Protocol](/es/docs/universal-commerce-protocol/) die Funktion von UCP erläutert.
+Der [Agent Commerce Execution Guide](/de/docs/agentic-commerce-execution/) befasst sich mit der Transaktionsschicht, während das [Universal Commerce Protocol](/de/docs/universal-commerce-protocol/) die Funktion von UCP erläutert.
 
 ## Was bleibt ungelöst
 

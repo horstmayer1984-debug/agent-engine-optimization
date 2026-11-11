@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 71
 category: "Architecture"
 description: "Guia passo a passo para adicionar middleware de pagamento x402 ao seu site ou API. Abrange formato de resposta 402, validação de pagamento, integração com llms.txt."
-metaDescription: "Agregue middleware de pago x402 con respuestas 402, validación, integración de llms.txt y tarjetas de agente para pagos de agentes de IA."
 summary: "O x402 torna sua API monetizável instantaneamente pelo agente. Quando um agente solicita conteúdo ou computação, seu servidor retorna 402, o agente paga com USDC e recebe acesso. Aqui está o guia de implementação."
 keywords:
   - "implementar x402"
@@ -41,7 +40,7 @@ A validação deve ser concluída dentro do ciclo de vida da solicitação. Não
 
 Assim que o pagamento for validado, processe a solicitação original normalmente e retorne a resposta. Registre a transação: ID do agente, valor pago, endpoint acessado, resposta retornada, carimbo de data/hora.
 
-Esses registros alimentam seus [loops de feedback](/es/docs/agent-feedback-loops/) e análise de receita.
+Esses registros alimentam seus [loops de feedback](/pt/docs/agent-feedback-loops/) e análise de receita.
 
 ### Etapa 5 – Publique seus endpoints x402 em arquivos de descoberta
 
@@ -71,7 +70,7 @@ Não publique endpoints x402 em arquivos de descoberta. Se os agentes não soube
 
 Definir preços muito altos para casos de uso de micropagamento. O poder do x402 permite pagamentos que antes eram muito pequenos para serem processados. Uma consulta de dados que custa US$ 5 receberá menos chamadas de agente do que uma que custa US$ 0,01 e aumenta em volume.
 
-A [visão geral do x402](/es/docs/x402-agent-payments/) explica o contexto estratégico. A [Lista de verificação de aplicativos Web prontos para agente](/es/docs/agent-ready-web-apps/) abrange a configuração mais ampla para desenvolvedores.
+A [visão geral do x402](/pt/docs/x402-agent-payments/) explica o contexto estratégico. A [Lista de verificação de aplicativos Web prontos para agente](/pt/docs/agent-ready-web-apps/) abrange a configuração mais ampla para desenvolvedores.
 
 ---
 
@@ -92,7 +91,7 @@ Sim. Cada endpoint pode retornar sua própria resposta 402 com preços diferente
 **O que acontece se um agente não suportar x402?**
 O agente recebe uma resposta 402 que não pode processar e continua. Você pode oferecer métodos de acesso alternativos (chaves de API, assinaturas) para clientes não x402, mantendo o x402 como principal forma de pagamento do agente.
 
----*Este artigo discute protocolos de pagamento e infraestrutura de criptomoeda apenas para fins educacionais e informativos. Não constitui aconselhamento financeiro. Consulte nosso [Aviso Legal](/es/docs/disclaimer/) para obter os termos completos.*
+---*Este artigo discute protocolos de pagamento e infraestrutura de criptomoeda apenas para fins educacionais e informativos. Não constitui aconselhamento financeiro. Consulte nosso [Aviso Legal](/pt/docs/disclaimer/) para obter os termos completos.*
 
 ## Referências primárias
 

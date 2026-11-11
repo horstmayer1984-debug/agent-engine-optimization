@@ -47,7 +47,7 @@ O que conecta o pagamento por uso com:
 - licença de conteúdo
 - regras de acesso legíveis por máquina
 
-Consulte também [Otimização do mecanismo de resposta](/es/docs/answer-engine-optimization/), [Taxa de rastreamento para referência de IA](/es/docs/ai-crawl-to-referral-ratio/) e [Atribuição de referência de IA para AEO SEO](/es/docs/ai-referral-attribution-seo/).
+Consulte também [Otimização do mecanismo de resposta](/pt/docs/answer-engine-optimization/), [Taxa de rastreamento para referência de IA](/pt/docs/ai-crawl-to-referral-ratio/) e [Atribuição de referência de IA para AEO SEO](/pt/docs/ai-referral-attribution-seo/).
 
 ## O que os editores devem preparar
 

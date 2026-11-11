@@ -31,7 +31,7 @@ Nützliche Primärquellen:
 
 Beim klassischen SEO wird gefragt, ob eine Seite von einem Menschen entdeckt werden kann. GEO fragt, ob eine Antwortmaschine es zitieren kann. Die Optimierung der Agent Engine fügt eine schwierigere Ebene hinzu: ob ein autonomes System das Angebot verstehen, die Einschränkungen überprüfen, die Aktion ausführen, bezahlen und das Ergebnis überprüfen kann.
 
-Circle Agent Stack sitzt direkt auf dieser [Ausführungsschicht](/es/docs/execution-layer/). Es ist kein Ersatz für Inhaltsoptimierung, Schema oder [llms.txt](/es/docs/programming-llms-txt/). Ändern Sie, was nach der Entdeckung geschieht: Agenten können von der Bewertung zur Zahlung übergehen, wenn der Händler, die API oder der Dienst den korrekten Zahlungsfluss unterstützt.
+Circle Agent Stack sitzt direkt auf dieser [Ausführungsschicht](/de/docs/execution-layer/). Es ist kein Ersatz für Inhaltsoptimierung, Schema oder [llms.txt](/de/docs/programming-llms-txt/). Ändern Sie, was nach der Entdeckung geschieht: Agenten können von der Bewertung zur Zahlung übergehen, wenn der Händler, die API oder der Dienst den korrekten Zahlungsfluss unterstützt.
 
 ## Kernkomponenten und AEO-Auswirkungen
 
@@ -71,7 +71,7 @@ Circle Agent Stack bedeutet nicht, dass jede Site morgen USDC akzeptieren muss. 
 | Kapazitätsschicht | Maschinenlesbare APIs und Aktionen | „get_price“, „create_order“, „verify_access“ |
 | Zahlungsschicht | Vom Agenten nutzbarer Zahlungsweg | x402 oder eine Zahlungs-API, die eine deterministische Bestätigung zurückgibt |
 
-Beginnen Sie mit dem [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) und dem [Vergleich der Agent-Zahlungsprotokolle](/es/docs/agent-payment-protocols-compared/), bevor Sie Zahlungslogik hinzufügen.
+Beginnen Sie mit dem [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) und dem [Vergleich der Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/), bevor Sie Zahlungslogik hinzufügen.
 
 ## Anwendungsfälle mit starkem Tuning
 
@@ -100,7 +100,7 @@ Eine gute Gestaltung der Agentenzahlung sollte Folgendes umfassen:
 - klare Rückerstattungs- oder Stornierungsbedingungen, wann immer möglich
 - strukturierte Belege
 - Bearbeitung fehlgeschlagener Zahlungen
-- Mit der Agentenidentität verknüpfte Prüfprotokolle. Der [x402-Governance-Leitfaden] (/es/docs/x402-governance-security/) ist der richtige Begleiter beim Übergang vom Prototyp zur Produktion.
+- Mit der Agentenidentität verknüpfte Prüfprotokolle. Der [x402-Governance-Leitfaden](/de/docs/x402-governance-security/) ist der richtige Begleiter beim Übergang vom Prototyp zur Produktion.
 
 ## Häufig gestellte Fragen
 

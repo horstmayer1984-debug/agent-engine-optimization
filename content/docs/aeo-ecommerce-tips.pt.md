@@ -70,7 +70,7 @@ Essas métricas ainda estão evoluindo, mas as lojas que as fizerem antecipadame
 
 Agentes de compras que comparam produtos e executam compras de forma autônoma já existem em contextos limitados. Prepare-se expondo preços em tempo real, status preciso do estoque e políticas estruturadas de envio e devolução.
 
-As lojas que hoje são legíveis por máquinas serão negociáveis ​​por máquinas amanhã. O [guia da camada de execução](/es/docs/execution-layer/) explica isso em detalhes.
+As lojas que hoje são legíveis por máquinas serão negociáveis ​​por máquinas amanhã. O [guia da camada de execução](/pt/docs/execution-layer/) explica isso em detalhes.
 
 ## 11. Conecte mídia paga com informações sobre AEO
 
@@ -114,8 +114,8 @@ Marcação de esquema combinada com estrutura de conteúdo de resposta inicial. 
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
-* [protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
+* [protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/)
 
 ## Referências primárias
 

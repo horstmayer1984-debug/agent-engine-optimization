@@ -4,7 +4,6 @@ date: 2026-04-12
 weight: 80
 category: "Architecture"
 description: "Context Engineering wählt, komprimiert und strukturiert Informationen dynamisch, sodass KI-Agenten schnellere und genauere Entscheidungen treffen können."
-metaDescription: "Utilice la ingeniería de contexto para seleccionar, comprimir y estructurar información para que los agentes de IA tomen decisiones más rápidas y precisas."
 summary: "Agenten scheitern bei 70 % der mehrstufigen Aufgaben aufgrund von Kontextverschmutzung. Context Engineering reduziert die Token-Nutzung um 40 % bis 60 % und erhöht gleichzeitig die Erfolgsquote auf über 95 %. So funktioniert es."
 keywords:
   - "AEO-Kontext-Engineering"
@@ -63,7 +62,7 @@ Verwenden Sie strukturierte Tabellen und Blöcke für Vergleichsdaten. Agenten k
 
 Bitte beantworten Sie häufig gestellte Fragen selbstständig und vollständig. Jede Antwort sollte Sinn ergeben, ohne die Frage oben oder die Antwort unten zu lesen. Agenten rufen in der Regel einzelne Antworten ab, nicht ganze FAQ-Abschnitte.
 
-Der [Artikel zur AEO-Inhaltsstrategie](/es/docs/aeo-content-strategy/) behandelt die Struktur auf Seitenebene. Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) deckt die technischen Grundlagen ab.
+Der [Artikel zur AEO-Inhaltsstrategie](/de/docs/aeo-content-strategy/) behandelt die Struktur auf Seitenebene. Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) deckt die technischen Grundlagen ab.
 
 ## Vergleich: Rapid Engineering vs. Context Engineering
 
@@ -102,7 +101,7 @@ Die genauen Kosten variieren je nach Modell, aber Kontextverschmutzung erhöht i
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
 
 ## Primäre Referenzen
 

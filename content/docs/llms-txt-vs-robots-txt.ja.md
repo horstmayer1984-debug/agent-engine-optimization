@@ -56,7 +56,7 @@ Google Robots のドキュメントでは、「robots.txt」のクロール制�
 - 重要な文書またはプロトコルのリファレンス
 - サイトマップなどの機械可読リソース
 
-[llms.txt ガイド](/es/docs/programming-llms-txt/) には実装の詳細が記載されています。 [Lighthouse エージェント ナビゲーション ガイド](/es/docs/lighthouse-agentic-browsing-audit/) では、ブラウザ ツールがそれを探し始めた理由について説明しています。
+[llms.txt ガイド](/ja/docs/programming-llms-txt/) には実装の詳細が記載されています。 [Lighthouse エージェント ナビゲーション ガイド](/ja/docs/lighthouse-agentic-browsing-audit/) では、ブラウザ ツールがそれを探し始めた理由について説明しています。
 
 ## なぜ人々はそれらを混同するのでしょうか
 
@@ -80,7 +80,7 @@ Google Robots のドキュメントでは、「robots.txt」のクロール制�
 4. テンプレートまたは CDN に大きな変更を加えた後、再テストします。
 5. API、MCP、UCP、または同様のプロトコルを介してアクション サーフェスを個別に追加します。
 
-最後の点が重要です。サイトに完全なテキスト ファイルが含まれていても、[ランタイム レイヤー](/es/docs/execution-layer/) が存在しない場合はエージェントが使用できない場合があります。
+最後の点が重要です。サイトに完全なテキスト ファイルが含まれていても、[ランタイム レイヤー](/ja/docs/execution-layer/) が存在しない場合はエージェントが使用できない場合があります。
 
 ## よくあるエラー- `llms.txt`をトラッカー権限ファイルとして扱います
 - 「llms.txt」に各サイトの URL を入力します

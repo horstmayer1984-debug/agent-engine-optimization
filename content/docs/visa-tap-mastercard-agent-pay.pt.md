@@ -87,7 +87,7 @@ Etapas úteis de preparação:
 6. Fornece terminais de verificação pós-compra
 7. Vincule recursos de pagamento a partir de um manifesto do agente ou llms.txt
 
-Isso conecta a preparação do pagamento ao [Agent Engine Optimization](/es/docs/what-is-aeo/), não apenas ao processamento do pagamento.
+Isso conecta a preparação do pagamento ao [Agent Engine Optimization](/pt/docs/what-is-aeo/), não apenas ao processamento do pagamento.
 
 ## Perguntas frequentes
 
@@ -108,5 +108,5 @@ Referências principais: [Visão geral do desenvolvedor do Visa Trusted Agent Pr
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
-* [protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
+* [protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/)

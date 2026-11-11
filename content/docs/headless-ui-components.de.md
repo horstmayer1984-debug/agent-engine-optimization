@@ -23,7 +23,7 @@ Bei der UI-Entwicklung ist der „Kopf“ die visuelle Ebene: Farben, Rahmen, Ab
 
 Ein kopfloser Dialog könnte Fokuserfassung, Escape-Tastenverhalten, Beschriftungen und Eingabehilfen verwalten. Das Produktteam entscheidet weiterhin, wie der Dialog aussieht.
 
-Dies ist die UI-Version von [Headless-Software](/es/docs/what-is-headless-software/): Verhalten getrennt von der Präsentation.
+Dies ist die UI-Version von [Headless-Software](/de/docs/what-is-headless-software/): Verhalten getrennt von der Präsentation.
 
 ## Headless UI vs. gestaltete Komponentenbibliotheken
 
@@ -64,7 +64,7 @@ Zu den gängigen Mustern gehören:
 
 Barrierefreiheit ist einer der wichtigsten Gründe für die Verwendung einer Headless-Komponentenbibliothek. WAI-ARIA Authoring Practices dokumentiert Interaktionsmuster für komplexe Widgets wie Menüs, Registerkarten, Dialogfelder und Kombinationsfelder. Sie müssen vorsichtig sein, wenn Sie diese Muster von Grund auf neu erstellen. Headless UI schließt die Verantwortung nicht aus. Entwickler müssen die fertige Komponente noch mit Tastaturnavigation, Bildschirmleseprogrammen, Fokuszuständen und Mobilverhalten testen. Es kann jedoch die Möglichkeit verringern, dass dieselbe Interaktionslogik falsch rekonstruiert wird.
 
-Verwandte Lektüre: [Agent-Ready Web Apps](/es/docs/agent-ready-web-apps/) und [AI Agent Website Programming](/es/docs/programming-websites-for-ai-agents/).
+Verwandte Lektüre: [Agent-Ready Web Apps](/de/docs/agent-ready-web-apps/) und [AI Agent Website Programming](/de/docs/programming-websites-for-ai-agents/).
 
 ## Wenn eine Headless-Benutzeroberfläche Sinn machtHeadless UI ist eine gute Wahl, wenn das Produkterlebnis wichtig ist und das Team über genügend Frontend-Kenntnisse verfügt, um die Styling-Ebene zu beherrschen.
 
@@ -106,7 +106,7 @@ Sorgen Sie bei SEO-kritischen Seiten dafür, dass wichtige Inhalte crawlbar sind
 - Registerkarten sollten kritische Inhalte nicht vor Benutzern oder Trackern verbergen
 - Modalitäten sollten nicht der einzige Ort sein, an dem wesentliche Inhalte erscheinen
 
-Wenn eine Seite Teil einer [AEO-Implementierung](/es/docs/implement-aeo/) ist, gilt die gleiche Regel für Agenten. Die visuelle Komponente reicht nicht aus. Inhalte und Aktionen sollten verständlich sein, ohne dass man anhand von Pixeln raten muss.
+Wenn eine Seite Teil einer [AEO-Implementierung](/de/docs/implement-aeo/) ist, gilt die gleiche Regel für Agenten. Die visuelle Komponente reicht nicht aus. Inhalte und Aktionen sollten verständlich sein, ohne dass man anhand von Pixeln raten muss.
 
 ## Best Practices
 

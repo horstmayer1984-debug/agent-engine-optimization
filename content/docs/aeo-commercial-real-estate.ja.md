@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 94
 category: "Industry"
 description: "商業用不動産サイトが物件情報、空室状況、価格設定、ドキュメント、問い合わせワークフローをどのように構築できるかをご覧ください。"
-metaDescription: "Descubra cómo los equipos de CRE estructuran los datos de propiedades, la debida diligencia, la disponibilidad, los contactos de los corredores y los puntos."
 summary: "AI システムは、60 日間のデュー デリジェンスを数時間に圧縮しています。 AEO 構造化不動産データを公開している CRE 企業は、機関からの問い合わせの 40% ～ 60% がエージェントのワークフローから来ていると認識しています。"
 keywords:
   - "AEO商業用不動産"
@@ -80,8 +79,8 @@ AEO では、すべてを公開する必要はありません。構造化され�
 
 ## 関連ガイド
 
-* [AI エージェント プロトコル](/es/docs/protocols/)* [実行層](/es/docs/execution-layer/)
-* [AEO実装ガイド](/es/docs/implement-aeo/)
+* [AI エージェント プロトコル](/ja/docs/protocols/)* [実行層](/ja/docs/execution-layer/)
+* [AEO実装ガイド](/ja/docs/implement-aeo/)
 
 ## 主な参考文献
 

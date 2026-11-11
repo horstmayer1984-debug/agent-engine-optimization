@@ -28,7 +28,7 @@ keywords:
 - ドキュメントポータル
 - AI 読み取り可能なコンテンツ レイヤー
 
-CMS の詳細なガイダンスについては、[ヘッドレス CMS SEO](/es/docs/headless-cms-seo/) を参照してください。取引については、[ヘッドレス取引の説明](/es/docs/headless-commerce-explained/) をお読みください。
+CMS の詳細なガイダンスについては、[ヘッドレス CMS SEO](/ja/docs/headless-cms-seo/) を参照してください。取引については、[ヘッドレス取引の説明](/ja/docs/headless-commerce-explained/) をお読みください。
 
 ##ヘッドレス SEO の優先順位
 
@@ -82,13 +82,13 @@ Next.js のドキュメントでは、公式のレンダリング オプショ�
 
 ルート テンプレートが一般的なタイトルや説明を共有することを許可しないでください。これにより、SEO と CTR の両方が低下します。## ヘッドレス SEO と AEO
 
-ヘッドレス アーキテクチャは、コンテンツと機能をビジュアル インターフェイスから分離するため、[エージェント エンジンの最適化](/es/docs/what-is-aeo/) をサポートできます。しかし、エージェントには依然として、公開され、安定した、検証可能なエントリ ポイントが必要です。
+ヘッドレス アーキテクチャは、コンテンツと機能をビジュアル インターフェイスから分離するため、[エージェント エンジンの最適化](/ja/docs/what-is-aeo/) をサポートできます。しかし、エージェントには依然として、公開され、安定した、検証可能なエントリ ポイントが必要です。
 
 ヘッドレス SEO を以下に接続します。
 
-- [AI検索最適化](/es/docs/ai-search-optimization/)
-- [AEO 開発者ガイド](/es/docs/developers-guide-aeo/)
-- [エージェント対応 Web アプリ](/es/docs/agent-ready-web-apps/)
+- [AI検索最適化](/ja/docs/ai-search-optimization/)
+- [AEO 開発者ガイド](/ja/docs/developers-guide-aeo/)
+- [エージェント対応 Web アプリ](/ja/docs/agent-ready-web-apps/)
 
 実行レイヤーがインポートできる前に、読み取りレイヤーがトレース可能である必要があります。
 

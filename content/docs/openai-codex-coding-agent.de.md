@@ -24,9 +24,9 @@ Bei diesem Artikel handelt es sich nicht um eine Produktrezension. Die nützlich
 
 Verwandte Seiten:
 
-- [AEO für Entwickler](/es/docs/aeo-use-cases-developers/)
-- [AEO-Entwicklerhandbuch](/es/docs/developers-guide-aeo/)
-- [Agent-fähige Web-Apps](/es/docs/agent-ready-web-apps/)
+- [AEO für Entwickler](/de/docs/aeo-use-cases-developers/)
+- [AEO-Entwicklerhandbuch](/de/docs/developers-guide-aeo/)
+- [Agent-fähige Web-Apps](/de/docs/agent-ready-web-apps/)
 
 ## Was Codierungsagenten von einem Repository benötigen
 
@@ -60,7 +60,7 @@ Für Websites sind die entsprechenden Signale:
 - Quellenseiten der Wahrheit
 - Maschinenlesbare Indizes als llms.txt
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) wird gestartet, wenn ein Agent etwas tun kann, aber es funktioniert nur, wenn der Agent zuerst das System versteht.
+Die [Ausführungsschicht](/de/docs/execution-layer/) wird gestartet, wenn ein Agent etwas tun kann, aber es funktioniert nur, wenn der Agent zuerst das System versteht.
 
 ## So bereiten Sie ein Repository für die Kodierung von Agenten vor
 
@@ -103,7 +103,7 @@ Vermeiden Sie:
 - vage Beschreibungen von Problemen
 - keine Rollback- oder Implementierungshinweise
 
-Der Leitfaden [Website-Programmierung für KI-Agenten] (/es/docs/programming-websites-for-ai-agents/) wendet die gleiche Disziplin auf öffentliche Websysteme an.
+Der Leitfaden [Website-Programmierung für KI-Agenten](/de/docs/programming-websites-for-ai-agents/) wendet die gleiche Disziplin auf öffentliche Websysteme an.
 
 ## Häufig gestellte Fragen
 

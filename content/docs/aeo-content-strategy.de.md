@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 23
 category: "Guide"
 description: "AEO-Inhalte bewirken mehr als nur ein Ranking. Reduziert die Unsicherheit von KI-Agenten vor dem Handeln. So erstellen Sie Seiten mit Entitätsabdeckung."
-metaDescription: "Cree contenido AEO con cobertura de entidades, variables de decisión, próximos pasos escritos, evidencia respaldada por fuentes y ganancia de información."
 summary: "Auf einer durch Agenten vermittelten Website sind Inhalte nützlich, weil sie die Unsicherheit vor dem Handeln verringern. In diesem Leitfaden wird erläutert, wie Marketingteams Seiten erstellen, die Agenten tatsächlich verwenden können."
 keywords:
   - "AEO-Content-Strategie"
@@ -45,7 +44,7 @@ Eine schwache FAQ wird in Form einer Frage wiederholt. Der Unterschied liegt nic
 
 ## Wo die Ausführungsebene im Marketing ankommt
 
-Die [Ausführungsschicht](/es/docs/execution-layer/) tritt in das Marketing ein, sobald der Inhalt in die Tat umgesetzt wird. Das Herunterladen eines Leitfadens ist eine Art Aktion. Eine Sandbox anzufordern ist eine andere Möglichkeit. Die Erstellung eines Kostenvoranschlags, die Buchung einer Bewertung, die Überprüfung der Integrationsfähigkeit oder die Validierung der Berechtigung sind stärkere Beispiele.
+Die [Ausführungsschicht](/de/docs/execution-layer/) tritt in das Marketing ein, sobald der Inhalt in die Tat umgesetzt wird. Das Herunterladen eines Leitfadens ist eine Art Aktion. Eine Sandbox anzufordern ist eine andere Möglichkeit. Die Erstellung eines Kostenvoranschlags, die Buchung einer Bewertung, die Überprüfung der Integrationsfähigkeit oder die Validierung der Berechtigung sind stärkere Beispiele.
 
 Marketingteams müssen aufhören, jeden CTA in „Demo buchen“ oder „Vertrieb kontaktieren“ zu bündeln. Diese Aktionen sind für Agentenpfade zu allgemein. Das System funktioniert am besten, wenn Sie den nächsten Schritt aufschreiben und skizzieren.
 
@@ -55,7 +54,7 @@ Marketingteams müssen aufhören, jeden CTA in „Demo buchen“ oder „Vertrie
 
 Ersetzen Sie allgemeine Aussagen durch überprüfbare Bedingungen. Ersetzen Sie dünne Kategorieseiten durch Seiten, die Entscheidungsvariablen offenlegen. Ersetzen Sie generische CTAs durch schriftliche nächste Schritte. Erstellen Sie FAQ-Abschnitte, die echte Unsicherheiten beseitigen. Behandeln Sie Inhalte als lesbare Oberfläche eines Betriebssystems und nicht als eigenständiges Überzeugungsartefakt.
 
-Sobald diese Änderung eintritt, konkurrieren SEO und AEO nicht mehr miteinander und beginnen, dieselbe Architektur zu stärken. Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) bietet den schrittweisen Prozess.
+Sobald diese Änderung eintritt, konkurrieren SEO und AEO nicht mehr miteinander und beginnen, dieselbe Architektur zu stärken. Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) bietet den schrittweisen Prozess.
 
 ---
 
@@ -78,7 +77,7 @@ Die explizite Erwähnung von Produkten, Funktionen, Einschränkungen, Metriken, 
 
 ## Verwandte Anleitungen
 
-* [Anleitung zur Agent Engine-Optimierung](/es/docs/what-is-aeo/)
+* [Anleitung zur Agent Engine-Optimierung](/de/docs/what-is-aeo/)
 
 ## Primäre Referenzen
 

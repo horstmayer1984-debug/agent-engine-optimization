@@ -66,7 +66,7 @@ Zu den nützlichen SEO-Checks gehören:
 - Cookie-Banner, die Inhalte blockieren
 – Unterschiede zwischen rohem HTML und gerendertem HTMLEin Headless-Browser verbessert den Inhalt nicht, kann aber zeigen, ob Suchmaschinen und Benutzer den geschriebenen Inhalt tatsächlich sehen können.
 
-Verwandte Seitenlektüre: [AI Agent Website Programming](/es/docs/programming-websites-for-ai-agents/), [AEO Readiness Audit](/es/docs/audit/) und [Was ist Headless Software?](/es/docs/what-is-headless-software/).
+Verwandte Seitenlektüre: [AI Agent Website Programming](/de/docs/programming-websites-for-ai-agents/), [AEO Readiness Audit](/de/docs/audit/) und [Was ist Headless Software?](/de/docs/what-is-headless-software/).
 
 ## Dramatiker vs. Puppenspieler| Kriterium | Dramatiker | Puppenspieler |
 |

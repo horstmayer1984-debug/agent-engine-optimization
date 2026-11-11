@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 30
 category: "Guide"
 description: "Ein praktischer Leitfaden für Einsteiger zur Implementierung einer responsiven Suchmaschinenoptimierung für den E-Commerce. Deckt Inhaltsprüfungen ab."
-metaDescription: "Inicie AEO para comercio electrónico con auditorías de contenido, marcado de esquema, páginas de productos de respuesta primero, acceso de rastreador."
 summary: "AEO macht E-Commerce-Websites in KI-generierten Antworten sichtbar. Dieser Leitfaden führt jeden Schritt durch, von der Inhaltsprüfung bis zur Zitierverfolgung, mit konkreten Beispielen für Online-Shops."
 keywords:
   - "AEO E-Commerce-Einsteigerleitfaden"
@@ -113,9 +112,9 @@ Schema-Markup und reaktionsbasierte Inhaltsrestrukturierung führen oft innerhal
 
 ## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
-* [Agent-Zahlungsprotokolle](/es/docs/agent-payment-protocols-compared/)
-* [Ausführungsschicht](/es/docs/execution-layer/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
+* [Agent-Zahlungsprotokolle](/de/docs/agent-payment-protocols-compared/)
+* [Ausführungsschicht](/de/docs/execution-layer/)
 
 ## Primäre Referenzen
 

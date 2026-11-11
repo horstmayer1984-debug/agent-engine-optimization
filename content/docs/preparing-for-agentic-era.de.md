@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 42
 category: "Guide"
 description: "Bereiten Sie sich mit praktischen Updates zu Fähigkeiten, Geschäftsmodellen, Governance, Arbeitsabläufen und Bereitschaft auf das Agenturzeitalter vor."
-metaDescription: "Utilice una hoja de ruta de 12 meses para pasar de la ejecución de tareas a la orquestación de agentes, con habilidades, modelos, infraestructura, gobernanza."
 summary: "Das Zeitalter der Agenten erfordert eine Verlagerung von der Aufgabenausführung zur Agenten-Orchestrierung. Diese Roadmap deckt die Fähigkeiten, Geschäftsmodellübergänge und betrieblichen Änderungen ab, die in den nächsten 12 Monaten erforderlich sind."
 keywords:
   - "Vorbereitung auf die Agenten-KI"

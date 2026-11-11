@@ -32,7 +32,7 @@ Os protocolos de agente de IA definem como os sistemas autônomos descobrem capa
 
 Comece com arquivos de descoberta legíveis, como [llms.txt](/llms.txt), documente APIs com OpenAPI e exponha ações de alto valor por meio de endpoints estáveis.
 
-Leia a seguir: [API MCP vs Agente](/es/docs/mcp-vs-api-for-agents/), [Cartões de Agente e Protocolo A2A](/es/docs/agent-cards-a2a-protocol/), [Pagamentos de Agente x402](/es/docs/x402-agent-payments/) e [Camada de Execução](/es/docs/execution-layer/).
+Leia a seguir: [API MCP vs Agente](/pt/docs/mcp-vs-api-for-agents/), [Cartões de Agente e Protocolo A2A](/pt/docs/agent-cards-a2a-protocol/), [Pagamentos de Agente x402](/pt/docs/x402-agent-payments/) e [Camada de Execução](/pt/docs/execution-layer/).
 
 ## Selecione protocolos por responsabilidade
 

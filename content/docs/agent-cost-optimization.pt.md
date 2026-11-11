@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 87
 category: "Guide"
 description: "Reduza os custos do agente de IA com roteamento de modelos, limites de ferramentas, armazenamento em cache, observabilidade e orçamentos claros."
-metaDescription: "Reduzca el costo del flujo de trabajo de los agentes con enrutamiento, almacenamiento en caché, cuotas, monitoreo, prácticas FinOps y puntos de referencia."
 summary: "Os sistemas de agentes ficam caros rapidamente sem controles de custos. O armazenamento em cache, o roteamento de modelos, o gerenciamento de cotas e o faturamento por agente transformam o tráfego experimental de agentes em receita sustentável."
 keywords:
   - "otimização de custos do agente"
@@ -49,7 +48,7 @@ Essa estratégia de roteamento por si só normalmente reduz os custos do modelo 
 
 ## Cotas e faturamento do agente Exponha um endpoint /agent-quota que retorna as chamadas restantes e o orçamento de despesas do agente solicitante. Isso evita que um único agente consuma recursos desproporcionais.
 
-Para endpoints premium monetizados por meio de [x402](/es/docs/x402-agent-payments/), o faturamento do agente é automático. Cada pagamento cobre uma aplicação. Para endpoints gratuitos ou freemium, as cotas evitam abusos e ainda permitem o uso justo.Defina cotas em níveis: um nível gratuito com 100 solicitações por dia, um nível padrão com 1.000 solicitações e um nível ilimitado para agentes verificados com perfis de confiança estabelecidos.
+Para endpoints premium monetizados por meio de [x402](/pt/docs/x402-agent-payments/), o faturamento do agente é automático. Cada pagamento cobre uma aplicação. Para endpoints gratuitos ou freemium, as cotas evitam abusos e ainda permitem o uso justo.Defina cotas em níveis: um nível gratuito com 100 solicitações por dia, um nível padrão com 1.000 solicitações e um nível ilimitado para agentes verificados com perfis de confiança estabelecidos.
 
 ##Benchmarking de custo por tarefa
 
@@ -69,7 +68,7 @@ Otimize seus dados estruturados para um consumo mínimo de tokens. Páginas limp
 
 Implemente o carregamento progressivo para solicitações de agentes. Envie os dados resumidos primeiro. Forneça detalhes completos somente quando solicitado pelo agente. A maioria das interações entre agentes exige dados em nível de resumo. As solicitações detalhadas representam uma fração do tráfego total.
 
-O [guia de engenharia de contexto](/es/docs/context-engineering-aeo/) explica como a estrutura do conteúdo afeta os custos do token. O [guia AEO KPI](/es/docs/aeo-kpis-measurement/) cobre a estrutura de medição mais ampla.
+O [guia de engenharia de contexto](/pt/docs/context-engineering-aeo/) explica como a estrutura do conteúdo afeta os custos do token. O [guia AEO KPI](/pt/docs/aeo-kpis-measurement/) cobre a estrutura de medição mais ampla.
 
 ##Comparação: custos de agentes não gerenciados versus custos otimizados
 

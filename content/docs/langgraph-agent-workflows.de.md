@@ -23,7 +23,7 @@ Das GitHub-Plugin erschien [langchain-ai/langgraph](https://github.com/langchain
 
 LangGraph eignet sich als Wegweiser, da es die Richtung von Agentensystemen widerspiegelt: von einmaligen Eingabeaufforderungen bis hin zu lang anhaltenden, zustandsbehafteten Arbeitsabläufen.
 
-Dies erweitert die Ideen von [Agent Orchestration and Harnesses](/es/docs/agent-harnesses-orchestration/) und [Managing Multiple AI Agents](/es/docs/managing-multiple-ai-agents/).
+Dies erweitert die Ideen von [Agent Orchestration and Harnesses](/de/docs/agent-harnesses-orchestration/) und [Managing Multiple AI Agents](/de/docs/managing-multiple-ai-agents/).
 
 ## AEO-Implikationen graphbasierter Agenten
 
@@ -50,7 +50,7 @@ Beginnen Sie mit Aufgabenkarten, nicht mit Seitenkarten.
 6. Veröffentlichen Sie Fehlerstatus und Wiederherstellungspfade.
 7. Notieren Sie das Endergebnis.
 
-Für den Handel stellt dies eine Verbindung zu [Trade Agent Attribution](/es/docs/agentic-commerce-attribution/) und [Trade Agent Policy Engines](/es/docs/merchant-agent-policy-engine/) her.
+Für den Handel stellt dies eine Verbindung zu [Trade Agent Attribution](/de/docs/agentic-commerce-attribution/) und [Trade Agent Policy Engines](/de/docs/merchant-agent-policy-engine/) her.
 
 ##Workflow-SEO-Checkliste
 

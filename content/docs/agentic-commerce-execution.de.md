@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 20
 category: "Analysis"
 description: "Warum strukturierte Produktdaten allein einen Filialmitarbeiter nicht vorbereiten. So erstellen Sie deterministische Zahlungen und Bestandssperren."
-metaDescription: "Cree un comercio agente más allá del esquema de producto con pago determinista, bloqueos de inventario y transacciones basadas en políticas."
 summary: "Beim Agentenhandel geht es nicht um die Entdeckung von Produkten mit besseren Metadaten. Es handelt sich um eine zustandsbehaftete Ausführung. In diesem Artikel wird erläutert, wie die Ausführungsschicht für den Kauf von KI-Agenten aussehen sollte."
 keywords:
   - "Agent-Trade-Ausführungsschicht"
@@ -24,7 +23,7 @@ Das verändert die Arbeit der Website.
 
 Die meisten E-Commerce-Teams optimieren immer noch die Leseebene und verwechseln sie mit der Staging-Ebene. Strukturierte Produktdaten helfen. Rich Schema hilft. Klare Produktkopien helfen. Nichts davon allein schafft Transacility.
 
-Die Leseschicht teilt dem Agenten mit, was vorhanden ist. Die [Ausführungsschicht](/es/docs/execution-layer/) bestimmt, ob der Agent entsprechend handeln kann, ohne fragile Seitenflüsse zu entfernen oder durch für Menschen erstellte UI-Logik zu improvisieren.
+Die Leseschicht teilt dem Agenten mit, was vorhanden ist. Die [Ausführungsschicht](/de/docs/execution-layer/) bestimmt, ob der Agent entsprechend handeln kann, ohne fragile Seitenflüsse zu entfernen oder durch für Menschen erstellte UI-Logik zu improvisieren.
 
 Beim Agentenhandel geht es nicht nur um die Entdeckung von Produkten mit besseren Metadaten. Es handelt sich um eine zustandsbehaftete Ausführung. Sobald ein Agent versucht, Lagerbestände zu reservieren, eine Versandart auszuwählen, Steuerregeln anzuwenden, eine Zahlungsautorisierung anzuhängen oder eine Bestellung aufzugeben, verlässt er das Inhaltsproblem und tritt in das Systemproblem ein. Wenn Ihre Architektur immer noch auf visuellen Checkout-Schritten, sitzungsbasiertem Browserverhalten oder lose strukturierten Warenkorbmutationen basiert, ist Ihr System nicht bereit für Agenten.
 
@@ -58,7 +57,7 @@ Die Marken, die gewinnen, werden nicht diejenigen sein, die die Inhalte mit dem 
 
 Veröffentlichen Sie saubere Produkte und bieten Sie der Leseschicht Entitäten an. Machen Sie enge Transaktionsendpunkte für die Ausführungsebene verfügbar. Machen Sie Zustandsübergänge explizit. Machen Sie Wiederholungsversuche sicher. Beseitigen Sie Unklarheiten bei der Übergabe zwischen Auftragsbewertung und Versand.
 
-Sobald dies vorhanden ist, beginnt die Inhaltsebene härter zu arbeiten, da sie nun zu etwas Ausführbarem statt zu etwas Dekorativem führt. Wenn Sie die Situation Ihres Shops bewerten möchten, bewertet das [AEO Readiness Audit](/es/docs/audit/) die Lese- und Ausführungsebenen. Der [AEO-, SEO- und GEO-Vergleich](/es/docs/aeo-vs-seo-vs-geo/) erklärt den strukturellen Unterschied zwischen diesen Ebenen.
+Sobald dies vorhanden ist, beginnt die Inhaltsebene härter zu arbeiten, da sie nun zu etwas Ausführbarem statt zu etwas Dekorativem führt. Wenn Sie die Situation Ihres Shops bewerten möchten, bewertet das [AEO Readiness Audit](/de/docs/audit/) die Lese- und Ausführungsebenen. Der [AEO-, SEO- und GEO-Vergleich](/de/docs/aeo-vs-seo-vs-geo/) erklärt den strukturellen Unterschied zwischen diesen Ebenen.
 
 ---
 

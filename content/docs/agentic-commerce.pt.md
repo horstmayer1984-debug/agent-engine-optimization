@@ -5,7 +5,6 @@ date: 2026-03-18
 weight: 12
 category: "Analysis"
 description: "Descubra como o comércio do agente muda a descoberta, a construção do carrinho, a finalização da compra, o atendimento e a prontidão comercial dos agentes."
-metaDescription: "Descubra cómo el comercio de agentes cambia la competencia de las marcas cuando los agentes de IA comparan, seleccionan, realizan transacciones y optimizan."
 summary: "O comércio está entrando em uma nova camada de interface. A negociação de agentes transfere a concorrência da persuasão para a negociabilidade. AEO é a disciplina que alinha as marcas a essa realidade."
 keywords:
   - "agente comercial"
@@ -27,7 +26,7 @@ Em uma jornada convencional de comércio eletrônico, uma marca vence ao atrair 
 
 Esse fluxo de decisão geralmente inclui a compreensão da intenção do usuário, a tradução dessa intenção em requisitos, a comparação de vários vendedores ou fornecedores, a validação de restrições como orçamento, tempo, região e política, o início ou a conclusão da ação e a verificação do resultado após a execução.
 
-Uma marca criada exclusivamente para navegação humana tem um desempenho ruim nesse ambiente. A [camada de execução](/es/docs/execution-layer/) explica por que essa distinção é tecnicamente importante.
+Uma marca criada exclusivamente para navegação humana tem um desempenho ruim nesse ambiente. A [camada de execução](/pt/docs/execution-layer/) explica por que essa distinção é tecnicamente importante.
 
 ## Por que muitas marcas não estão preparadas
 
@@ -47,7 +46,7 @@ Este é o lado prático do AEO. Não é linguagem de marca. É clareza operacion
 
 ## A descoberta ainda importa, mas não é mais suficiente
 
-A visibilidade da pesquisa, a autoridade da marca e a qualidade do conteúdo ainda influenciam se uma marca entra no conjunto de consideração. SEO ainda é importante. GEO ainda é importante. Mas eles param na descoberta e na intimação.O AEO é importante quando a máquina deixa de saber que você existe e decide se pode confiar em você. A [comparação entre AEO, SEO e GEO](/es/docs/aeo-vs-seo-vs-geo/) mapeia detalhadamente essa progressão.
+A visibilidade da pesquisa, a autoridade da marca e a qualidade do conteúdo ainda influenciam se uma marca entra no conjunto de consideração. SEO ainda é importante. GEO ainda é importante. Mas eles param na descoberta e na intimação.O AEO é importante quando a máquina deixa de saber que você existe e decide se pode confiar em você. A [comparação entre AEO, SEO e GEO](/pt/docs/aeo-vs-seo-vs-geo/) mapeia detalhadamente essa progressão.
 
 Essa distinção torna-se importante em categorias competitivas. Dois vendedores podem parecer igualmente relevantes na fase de conscientização. Aquele que tem restrições mais claras, dados de oferta melhor estruturados e lógica de transação mais limpa quando o agente precisa agir tem maior probabilidade de ser selecionado.
 
@@ -63,7 +62,7 @@ Estes não são detalhes de UX. Eles são entradas de decisão da máquina.
 
 A mesma lógica vai além dos catálogos de produtos. Reservas de viagens, aplicações de seguros, serviços locais, compras B2B, assinaturas, gestão de saúde e compra de software seguem padrões semelhantes. Em cada caso, um usuário pode contar com um sistema de IA para restringir as opções e concluir o trabalho administrativo.
 
-Isso torna o AEO relevante em qualquer lugar onde se espera que um site apoie a descoberta e a ação. [O que é AEO](/es/docs/what-is-aeo/) explica o modelo estrutural por trás da camada de leitura e da camada de execução.
+Isso torna o AEO relevante em qualquer lugar onde se espera que um site apoie a descoberta e a ação. [O que é AEO](/pt/docs/what-is-aeo/) explica o modelo estrutural por trás da camada de leitura e da camada de execução.
 
 ## O que as marcas devem fazer agora?
 
@@ -71,7 +70,7 @@ A maioria das marcas não precisa de uma reformulação completa para se tornare
 
 Comece aqui: identifique seus fluxos de transações de maior valor, descreva os fatos dos quais esses fluxos dependem, elimine a ambiguidade das políticas e restrições, crie caminhos estáveis ​​para cotações, reservas, compras ou solicitações de ações e facilite a verificação posterior dos resultados. Isto é menos glamoroso do que o trabalho de campanha, mas é mais duradouro. Melhora a conversão humana e a seleção de máquinas.
 
-O [guia de implementação AEO](/es/docs/implement-aeo/) fornece o processo passo a passo para isso.
+O [guia de implementação AEO](/pt/docs/implement-aeo/) fornece o processo passo a passo para isso.
 
 ## A implicação econômica
 

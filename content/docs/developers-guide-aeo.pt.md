@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 20
 category: "Guide"
 description: "Um guia técnico para desenvolvedores que criam sites prontos para agentes. Abrange dados estruturados, design de API e testes de sandbox."
-metaDescription: "Cree sitios web listos para agentes con datos estructurados, diseño de API, pruebas de espacio aislado, autenticación, optimización del servidor y rutas."
 summary: "Os desenvolvedores devem ir além do web design centrado no ser humano. Este guia aborda os requisitos técnicos para que sites possam ser operados por agentes autônomos de IA na camada de tempo de execução."
 keywords:
   - "AEO para desenvolvedores"
@@ -21,7 +20,7 @@ A maioria dos sites é projetada para humanos. Uma pessoa lê uma manchete, esca
 
 Um agente não verifica. É extraído. Não clica nos botões. Pontos de extremidade de chamada. Não tolera ambiguidade. Necessita de contributos determinísticos, resultados previsíveis e restrições explícitas. Se o seu site não puder fornecer isso, o agente segue em frente.
 
-Este guia aborda o trabalho técnico necessário para tornar um site operável na [camada de tempo de execução](/es/docs/execution-layer/), a parte do Agent Engine Optimization que vai além da legibilidade do conteúdo.
+Este guia aborda o trabalho técnico necessário para tornar um site operável na [camada de tempo de execução](/pt/docs/execution-layer/), a parte do Agent Engine Optimization que vai além da legibilidade do conteúdo.
 
 ## Dados estruturados são o mínimo, não o objetivo
 
@@ -47,13 +46,13 @@ Para cada ação de alto valor em seu site (reserva, compra, cotação, verifica
 
 Se o seu checkout funcionar apenas por meio de um formulário de várias etapas renderizado em JavaScript, um agente não poderá usá-lo. Se o seu preço exigir a navegação por três menus suspensos e um modal, um agente não poderá acessá-lo.
 
-O [guia de implementação do AEO](/es/docs/implement-aeo/) abrange o quadro estratégico mais amplo. Esta seção se concentra no lado da engenharia.
+O [guia de implementação do AEO](/pt/docs/implement-aeo/) abrange o quadro estratégico mais amplo. Esta seção se concentra no lado da engenharia.
 
 ## Especificações OpenAPI e suporte MCP
 
 Documente suas APIs usando OpenAPI (anteriormente Swagger). Isso dá aos agentes e sistemas de orquestração um contrato legível por máquina sobre como interagir com seus serviços.
 
-Para uma integração mais profunda com sistemas de IA, considere construir um servidor MCP (Model Context Protocol). O MCP permite que os agentes de IA descubram e usem suas ferramentas diretamente. Um manifesto da ferramenta MCP descreve o que seu serviço pode fazer, quais entradas ele precisa e o que ele retorna. Este é o caminho mais direto para a interoperabilidade dos agentes atualmente. A [visão geral do protocolo](/es/docs/protocols/) compara MCP com UCP, A2A e ACP.
+Para uma integração mais profunda com sistemas de IA, considere construir um servidor MCP (Model Context Protocol). O MCP permite que os agentes de IA descubram e usem suas ferramentas diretamente. Um manifesto da ferramenta MCP descreve o que seu serviço pode fazer, quais entradas ele precisa e o que ele retorna. Este é o caminho mais direto para a interoperabilidade dos agentes atualmente. A [visão geral do protocolo](/pt/docs/protocols/) compara MCP com UCP, A2A e ACP.
 
 ## Ambientes sandbox para testes de agentes
 
@@ -98,7 +97,7 @@ Cada resposta de erro deve ser processável por máquina. Defina um esquema de e
 - mensagem legível por humanos (para registro e depuração)
 - comportamento sugerido de nova tentativa (tente novamente após
 
-Se você deseja uma avaliação estruturada da prontidão do agente do seu site, a [Auditoria de prontidão AEO](/es/docs/audit/) avalia a camada de leitura e a camada de execução.
+Se você deseja uma avaliação estruturada da prontidão do agente do seu site, a [Auditoria de prontidão AEO](/pt/docs/audit/) avalia a camada de leitura e a camada de execução.
 
 ---
 

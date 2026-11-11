@@ -23,7 +23,7 @@ O plugin GitHub apareceu [openai/openai-agents-python](https://github.com/openai
 
 Essa popularidade é útil, mas o ângulo do SEO não é “o que é o SDK?” O melhor ângulo é: o que os sites devem expor para que os agentes criados pelo SDK possam utilizá-los com segurança?
 
-Isso se conecta diretamente a [A camada de execução](/es/docs/execution-layer/), [Agente SEO UX e AEO](/es/docs/agent-ux-aeo-seo/) e [Como implementar AEO](/es/docs/implement-aeo/).
+Isso se conecta diretamente a [A camada de execução](/pt/docs/execution-layer/), [Agente SEO UX e AEO](/pt/docs/agent-ux-aeo-seo/) e [Como implementar AEO](/pt/docs/implement-aeo/).
 
 ##Lições AEO do Agent SDK Design
 
@@ -66,7 +66,7 @@ Cada ação deve ter entradas, saídas, estados permitidos e tratamento de erros
 | Registrar registros de chamadas da ferramenta | As equipes precisam depurar e auditar o comportamento do agente. |
 | Manter os documentos públicos atualizados | Os agentes seguem documentos desatualizados, assim como os humanos. |
 
-Para trabalho orientado a API, combine isso com [MCP vs Agent API](/es/docs/mcp-vs-api-for-agents/) e [MCP Resources vs Tools vs Prompts](/es/docs/mcp-resources-tools-prompts/).
+Para trabalho orientado a API, combine isso com [MCP vs Agent API](/pt/docs/mcp-vs-api-for-agents/) e [MCP Resources vs Tools vs Prompts](/pt/docs/mcp-resources-tools-prompts/).
 
 ## Perguntas frequentes
 

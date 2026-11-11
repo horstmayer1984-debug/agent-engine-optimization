@@ -82,7 +82,7 @@ Für die meisten Websites wird Sandboxing relevant, wenn Sie Ausführungsendpunk
 | Das Beste für | Direkte Ausführung von Werkzeugen | Mehrstufige kollaborative Arbeitsabläufe |
 | Seine Umsetzung | JSON-RPC-Server | Aufgabenendpunkte plus Agentenkarte |
 
-Beide Protokolle ergänzen sich. MCP kümmert sich um die Tools. A2A übernimmt die Zusammenarbeit zwischen Agenten, die diese Tools verwenden. Der [AEO-Multi-Agent-Artikel](/es/docs/multi-agent-aeo/) erklärt, wie orchestrierte Arbeitsabläufe von diesen Protokollen abhängen. Der [MCP vs. API-Leitfaden](/es/docs/mcp-vs-api-for-agents/) behandelt die Tool-Zugriffsschicht im Detail.
+Beide Protokolle ergänzen sich. MCP kümmert sich um die Tools. A2A übernimmt die Zusammenarbeit zwischen Agenten, die diese Tools verwenden. Der [AEO-Multi-Agent-Artikel](/de/docs/multi-agent-aeo/) erklärt, wie orchestrierte Arbeitsabläufe von diesen Protokollen abhängen. Der [MCP vs. API-Leitfaden](/de/docs/mcp-vs-api-for-agents/) behandelt die Tool-Zugriffsschicht im Detail.
 
 ---
 
@@ -103,7 +103,7 @@ Ja, über llms.txt, Schema-Markup oder direktes Seiten-Crawling. Eine Agentenkar
 **Ist A2A nur für große Unternehmen?**
 Nein. Jede Website, die Brokeraktionen anzeigt, kann A2A-Gewinne erzielen. Sogar ein kleiner Dienst mit einem Buchungsendpunkt kann über eine einfache Agentenkarte und einen Aufgabenendpunkt an Arbeitsabläufen mit mehreren Agenten teilnehmen.## Verwandte Anleitungen
 
-* [Agent-Handelsarchitektur](/es/docs/agentic-commerce/)
+* [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
 
 ## Primäre Referenzen
 

@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 55
 category: "Analysis"
 description: "A avaliação honesta: AEO não é nem muito cedo nem muito complexo em abril de 2026. Veja por que é o momento certo e como as empresas não o fazem."
-metaDescription: "Vea por qué AEO ya es relevante, qué pueden hacer los principiantes ahora, qué riesgos evitar y cómo los equipos no técnicos pueden comenzar sin desarrollar."
 summary: "O AEO parece complexo porque a terminologia é nova. O verdadeiro trabalho começa com a reestruturação do conteúdo e a marcação do esquema, coisas que qualquer empresa pode fazer hoje. As camadas técnicas vêm depois."
 keywords:
   - "AEO é muito cedo"
@@ -64,7 +63,7 @@ AEO é prematuro se você tiver menos de 5 páginas em seu site. Crie conteúdo 
 
 Para todos os outros, começar o trabalho da camada de leitura agora é a decisão certa.
 
-O [Guia para iniciantes em comércio eletrônico AEO] (/es/docs/aeo-ecommerce-beginner-guide/) fornece um caminho de introdução específico. A [Auditoria de prontidão AEO](/es/docs/audit/) avalia o status atual do seu site.
+O [Guia para iniciantes em comércio eletrônico AEO](/pt/docs/aeo-ecommerce-beginner-guide/) fornece um caminho de introdução específico. A [Auditoria de prontidão AEO](/pt/docs/audit/) avalia o status atual do seu site.
 
 ---
 
@@ -83,7 +82,7 @@ Depois que a otimização da camada de leitura mostra compromissos de IA mensur�
 **Qual é o maior risco de iniciar o AEO agora?**
 O risco de começar é mínimo porque o trabalho fundamental (conteúdo estruturado, esboço) tem valor permanente. O risco de esperar é que os concorrentes a partir de agora criem padrões de citação que se tornarão mais difíceis de substituir com o tempo.
 
-## Guias relacionados* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
+## Guias relacionados* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
 
 ## Referências primárias
 

@@ -45,7 +45,7 @@ AEO に関するほとんどの議論は、AI システムが Web サイトを�
 |出版物 |人間のクリック |確認付きワークフローの初稿 |
 |監査 |ユーザーの履歴と記録 |ツール呼び出しログと承認ログ |
 
-これは、[MCP vs Agent API](/es/docs/mcp-vs-api-for-agents/)、[AEO の実装方法](/es/docs/implement-aeo/)、および [Agent-Ready Web Apps](/es/docs/agent-ready-web-apps/) に接続します。
+これは、[MCP vs Agent API](/ja/docs/mcp-vs-api-for-agents/)、[AEO の実装方法](/ja/docs/implement-aeo/)、および [Agent-Ready Web Apps](/ja/docs/agent-ready-web-apps/) に接続します。
 
 ## 承認パターンは真のシグナルです
 

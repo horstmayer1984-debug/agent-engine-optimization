@@ -5,7 +5,6 @@ date: 2026-04-14
 weight: 100
 category: "Industry"
 description: "Entdecken Sie, wie Reise- und Buchungsseiten Verfügbarkeit, Preise, Richtlinien und Buchungsaktionen von Reisebüros offenlegen können."
-metaDescription: "Vea cómo las marcas de viajes utilizan datos estructurados, API en tiempo real y puntos finales de reserva deterministas para que los agentes de IA puedan."
 summary: "Reisen ist eines der klarsten AEO-Schlachtfelder. KI-Agenten, die Flüge buchen, Hotels vergleichen und Reiserouten erstellen, benötigen Echtzeit-APIs, strukturierte Verfügbarkeitsdaten und deterministische Zahlungswege."
 keywords:
   - "AEO-Reisebranche"
@@ -55,7 +54,7 @@ Buchungsplattformen stehen vor einer besonderen Herausforderung: der Aggregation
 
 Eine Plattform, die die Dienstleistungen eines Hotels als strukturierte Liste und die eines anderen Hotels als Marketingabsatz darstellt, zwingt den Agenten, mit zwei unterschiedlichen Extraktionsmustern umzugehen. Agenten bevorzugen Plattformen, die alle Einträge in konsistente strukturierte Daten normalisieren, da sie die Extraktionskomplexität reduzieren.
 
-Plattformen, die jetzt in die Datennormalisierung investieren, werden den wachsenden Anteil der von Reisebüros getätigten Buchungen erfassen. Der [Leitfaden zur Ausführungsebene](/es/docs/execution-layer/) erläutert die Architekturanforderungen.
+Plattformen, die jetzt in die Datennormalisierung investieren, werden den wachsenden Anteil der von Reisebüros getätigten Buchungen erfassen. Der [Leitfaden zur Ausführungsebene](/de/docs/execution-layer/) erläutert die Architekturanforderungen.
 
 ## Reiseveranstalter und lokale Aktivitäten
 
@@ -76,7 +75,7 @@ Anbieter, die auf Plattformen mit guten APIs für Agenten gelistet sind, sind vo
 | Richtlinien | Juristische Seite in Prosa | Strukturierte Daten mit spezifischen Begriffen |
 | Agenteninteraktion | Ohne Schaben geht es nicht | Nativ durch APIs und Protokolle |
 
-Der [Artikel zur Agentenhandelsausführung](/es/docs/agentic-commerce-execution/) behandelt die allgemeine Handelsarchitektur. Der [Artikel zur Delegationsökonomie](/es/docs/delegation-economy-agent-autonomy/) erklärt, wie die Delegation von Reisenden an Agenten den fünf Ebenen der Autonomie folgt.
+Der [Artikel zur Agentenhandelsausführung](/de/docs/agentic-commerce-execution/) behandelt die allgemeine Handelsarchitektur. Der [Artikel zur Delegationsökonomie](/de/docs/delegation-economy-agent-autonomy/) erklärt, wie die Delegation von Reisenden an Agenten den fünf Ebenen der Autonomie folgt.
 
 ---
 

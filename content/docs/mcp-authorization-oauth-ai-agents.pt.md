@@ -25,11 +25,11 @@ Fontes primárias:
 
 - [Especificação de autorização MCP](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization)
 - [Roteiro MCP 2026](https://modelcontextprotocol.io/development/roadmap)
-- [Guia MCP vs API neste site](/es/docs/mcp-vs-api-for-agents/)
+- [Guia MCP vs API neste site](/pt/docs/mcp-vs-api-for-agents/)
 
 ## Por que a autorização é um problema de AEO
 
-A [camada de execução](/es/docs/execution-layer/) não é útil se cada ação for pública ou se cada ação exigir que um ser humano copie manualmente as credenciais. Os agentes precisam de acesso controlado.
+A [camada de execução](/pt/docs/execution-layer/) não é útil se cada ação for pública ou se cada ação exigir que um ser humano copie manualmente as credenciais. Os agentes precisam de acesso controlado.
 
 Exemplos:
 
@@ -77,7 +77,7 @@ A maioria das empresas deveria começar com ações públicas somente leitura ou
 4. Publique metadados de autorização onde os clientes possam descobri-los.
 5. Use tokens de curta duração para ações de maior risco.
 6. Registre a identidade do agente, a identidade do usuário, o nome da ferramenta, o resumo de entrada e o status do resultado.
-7. Adicione confirmação humana para ações irreversíveis ou dispendiosas.O [guia de proteção e observabilidade do agente](/es/docs/agent-observability-guardrails/) estende isso ao monitoramento operacional.
+7. Adicione confirmação humana para ações irreversíveis ou dispendiosas.O [guia de proteção e observabilidade do agente](/pt/docs/agent-observability-guardrails/) estende isso ao monitoramento operacional.
 
 ## Exemplo de design de escopo
 
@@ -102,7 +102,7 @@ Se o seu site oferecer ferramentas MCP restritas, sua documentação pública de
 - se for necessária uma etapa de confirmação humana
 - como funcionam os registros e a revogação
 
-Adicione links para esses documentos de [llms.txt](/es/docs/programming-llms-txt/) para que os agentes possam descobrir o modelo de acesso antes de tentar chamar as ferramentas.
+Adicione links para esses documentos de [llms.txt](/pt/docs/programming-llms-txt/) para que os agentes possam descobrir o modelo de acesso antes de tentar chamar as ferramentas.
 
 ## Erros comuns
 

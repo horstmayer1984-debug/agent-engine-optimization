@@ -29,7 +29,7 @@ Um agente de IA precisa entender:
 - quando a aprovação humana é necessária
 - se uma ação foi bem-sucedida ou falhou
 
-A página existente [Agent UX e Human-in-the-Loop Design](/es/docs/agent-ux-human-in-the-loop/) cobre o padrão de interface. Esta página conecta esse trabalho à visibilidade da pesquisa e ao AEO.
+A página existente [Agent UX e Human-in-the-Loop Design](/pt/docs/agent-ux-human-in-the-loop/) cobre o padrão de interface. Esta página conecta esse trabalho à visibilidade da pesquisa e ao AEO.
 
 ## UX humano vs. UX do agente
 
@@ -83,7 +83,7 @@ Para AEO SEO, isso é importante porque os agentes precisam saber quais ações 
 5. Adicione mensagens estruturadas de erro e sucesso.
 6. Use páginas de confirmação com URLs estáveis ​​sempre que possível.
 7. Padrões de aprovação de documentos.
-8. Adicione caminhos de feedback para falhas do agente. O [guia do desenvolvedor AEO](/es/docs/developers-guide-aeo/) e [sites de programação de agentes de IA](/es/docs/programming-websites-for-ai-agents/) se aprofundam na implementação.
+8. Adicione caminhos de feedback para falhas do agente. O [guia do desenvolvedor AEO](/pt/docs/developers-guide-aeo/) e [sites de programação de agentes de IA](/pt/docs/programming-websites-for-ai-agents/) se aprofundam na implementação.
 
 ## Perguntas frequentes
 

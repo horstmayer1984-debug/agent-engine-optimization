@@ -52,7 +52,7 @@ Se um agente vir apenas terminais individuais, ele deverá inferir a sequência.
 | Arazzo | Descreve fluxos de trabalho entre operações | Entenda como concluir uma tarefa |
 | PCM | Expõe ferramentas e recursos que podem ser chamados | Invocar ações por meio de uma interface de agente |
 
-O [guia MCP vs API](/es/docs/mcp-vs-api-for-agents/) explica a camada de ferramentas. Arazzo ajuda a documentar a lógica do fluxo de trabalho por trás dessas ferramentas.
+O [guia MCP vs API](/pt/docs/mcp-vs-api-for-agents/) explica a camada de ferramentas. Arazzo ajuda a documentar a lógica do fluxo de trabalho por trás dessas ferramentas.
 
 ## Onde Arazzo se encaixa no AEO
 
@@ -64,7 +64,7 @@ O AEO é mais forte quando os agentes podem passar por esta sequência:
 4. Execute o fluxo de trabalho.
 5. Verifique o resultado.
 
-Arazzo oferece suporte às etapas 2 a 5, tornando explícitos os fluxos de trabalho de várias etapas. É especialmente útil para a [camada de execução](/es/docs/execution-layer/), onde um agente precisa fazer mais do que buscar conteúdo.
+Arazzo oferece suporte às etapas 2 a 5, tornando explícitos os fluxos de trabalho de várias etapas. É especialmente útil para a [camada de execução](/pt/docs/execution-layer/), onde um agente precisa fazer mais do que buscar conteúdo.
 
 ## Casos de uso fortes
 
@@ -78,7 +78,7 @@ Arazzo oferece suporte às etapas 2 a 5, tornando explícitos os fluxos de traba
 | Integração SaaS | As configurações de espaço de trabalho, usuário, cobrança e permissões têm dependências || Escalada de Apoio | Precisa de status para criação, classificação, anexação e roteamento de tickets |
 | Fluxo de Trabalho Financeiro | A divulgação, a elegibilidade e o consentimento devem ocorrer antes de serem tomadas medidas |
 
-A [Lista de verificação de aplicativos da Web prontos para agente](/es/docs/agent-ready-web-apps/) aborda como projetar a superfície subjacente do produto.
+A [Lista de verificação de aplicativos da Web prontos para agente](/pt/docs/agent-ready-web-apps/) aborda como projetar a superfície subjacente do produto.
 
 ## O que incluir em um fluxo de trabalho Arazzo
 

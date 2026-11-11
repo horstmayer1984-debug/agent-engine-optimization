@@ -42,7 +42,7 @@ Traditionelles SEO trägt dazu bei, dass eine Seite gefunden wird. AEO wirft ein
 
 Der AWS MCP-Server passt in diese zweite Schicht. Es allein macht Websites nicht besser crawlbar. Es macht Cloud-gestützte Systeme für Agenten nutzbarer, sobald die Absicht klar ist. Diese Unterscheidung ist wichtig für Unternehmen, die von Agenten lesbare Dokumentation, Aktionsendpunkte und kontrollierte Automatisierungspfade erstellen.
 
-Für Leser, die mit dem Thema noch nicht vertraut sind, beginnen Sie mit [Agent Engine Optimization](/es/docs/what-is-aeo/), [der Ausführungsschicht](/es/docs/execution-layer/) und [wie man AEO implementiert](/es/docs/implement-aeo/).
+Für Leser, die mit dem Thema noch nicht vertraut sind, beginnen Sie mit [Agent Engine Optimization](/de/docs/what-is-aeo/), [der Ausführungsschicht](/de/docs/execution-layer/) und [wie man AEO implementiert](/de/docs/implement-aeo/).
 
 ## MCP Server GA vs. klassische API-Bereitstellung
 
@@ -66,7 +66,7 @@ Teams, die von AWS unterstützte Agentenerfahrungen erstellen, müssen in drei E
 
 In der Praxis bedeutet das, dass die Inhaltsschicht und die Ausführungsschicht gemeinsam entworfen werden müssen. Eine Seite, die einen Workflow erklärt, aber nicht auf eine aufrufbare Schnittstelle verweist, ist aus Agentursicht immer noch schwach. Auch eine aufrufbare Schnittstelle ohne erkennbare Dokumentation ist schwach.
 
-In den Leitfäden der zugehörigen Website zu [KI-Agent-Protokollen](/es/docs/protocols/) und [MCP vs. API](/es/docs/mcp-vs-api-for-agents/) wird diese Unterteilung ausführlicher erläutert.
+In den Leitfäden der zugehörigen Website zu [KI-Agent-Protokollen](/de/docs/protocols/) und [MCP vs. API](/de/docs/mcp-vs-api-for-agents/) wird diese Unterteilung ausführlicher erläutert.
 
 ## Wobei AWS MCP Server GA besonders nützlich ist
 

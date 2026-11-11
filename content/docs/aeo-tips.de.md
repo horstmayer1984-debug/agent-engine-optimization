@@ -90,9 +90,9 @@ Beginnen Sie mit Seiten, die bereits Impressionen in der Google Search Console h
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
-* [Ausführungsschicht](/es/docs/execution-layer/)
-* [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
+* [Ausführungsschicht](/de/docs/execution-layer/)
+* [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/)
 
 ## Primäre Referenzen
 

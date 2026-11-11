@@ -39,7 +39,7 @@ In klassischen SEO-Berichten wird oft gefragt: „Sind wir noch im Ranking?“ I
 | Sind KI-Übersichten erschienen? | Ist die folgende Benutzeraktion ohne Klicken erfolgt? |
 | Sind wir gerufen? | Werden unsere Angebote anhand des Modus oder der Oberfläche angegeben, die Käufer tatsächlich nutzen? |
 
-Aus diesem Grund benötigt [AEO SEO](/es/docs/aeo-seo/) sowohl Suchmetriken als auch Antwortmaschinenmetriken.
+Aus diesem Grund benötigt [AEO SEO](/de/docs/aeo-seo/) sowohl Suchmetriken als auch Antwortmaschinenmetriken.
 
 ## Was nach Abfragegruppe gemessen werden soll
 
@@ -54,7 +54,7 @@ Aus diesem Grund benötigt [AEO SEO](/es/docs/aeo-seo/) sowohl Suchmetriken als 
 | Unterstützung | Dokumentaktualisierungen, Fehlerbehebungsseiten, Forumzitate |
 | Transaktional | Vom Agenten lesbare Aktionen, Zahlungs- oder Reservierungsprozess |
 
-Kombinieren Sie dies für E-Commerce mit [AEO SEO für E-Commerce](/es/docs/aeo-seo-for-ecommerce/) und [Strukturierte Produktdaten für KI-Einkäufer](/es/docs/product-structured-data-ai-shopping/).
+Kombinieren Sie dies für E-Commerce mit [AEO SEO für E-Commerce](/de/docs/aeo-seo-for-ecommerce/) und [Strukturierte Produktdaten für KI-Einkäufer](/de/docs/product-structured-data-ai-shopping/).
 
 ## Ein praktischer Auditprozess
 
@@ -65,7 +65,7 @@ Kombinieren Sie dies für E-Commerce mit [AEO SEO für E-Commerce](/es/docs/aeo-
 6. Verfolgen Sie das Vorhandensein von Zitaten, Quell-URLs und die Genauigkeit der Antworten.
 7. Aktualisieren Sie Seiten, die immer noch gefragt sind, aber eine geringe Sichtbarkeit von KI-Quellen aufweisen.
 
-Verwenden Sie [AEO-KPIs und -Messungen](/es/docs/aeo-kpis-measurement/) für die Berichtsebene.
+Verwenden Sie [AEO-KPIs und -Messungen](/de/docs/aeo-kpis-measurement/) für die Berichtsebene.
 
 ## Implikationen der InhaltsstrategieBei der Nachfrageumverteilung werden Websites belohnt, die Aufgaben abdecken, nicht nur Schlüsselwörter. Wenn eine Informationsabfrage Klicks verliert, können die Abfragen im Zusammenhang mit Entscheidungen und der Umsetzung zunehmen. Die Antwort besteht nicht darin, allgemeinere Leitfäden zu veröffentlichen. Die Antwort besteht darin, einen stärkeren Cluster aufzubauen:
 

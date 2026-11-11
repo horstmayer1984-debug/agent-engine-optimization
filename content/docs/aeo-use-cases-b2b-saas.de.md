@@ -24,7 +24,7 @@ Die erste Interaktion des Agenten mit einer SaaS-Site ist normalerweise eine Rec
 
 Die meisten SaaS-Websites verbergen diese Informationen auf mehreren Seiten, hinter Registerkarten oder in einer Verkaufssprache, die gut klingt, aber wenig aussagt. Ein Agent kann nicht daraus schließen, dass „Sicherheit auf Unternehmensniveau“ die Einhaltung von SOC 2 bedeutet. Es braucht den expliziten Anspruch.
 
-SaaS-Unternehmen, die eine strukturierte Leistungsseite mit klaren Attributen (Funktionen, Integrationen, Preisstufen, Zertifizierungen, unterstützte Regionen) pflegen, können von Agenten leichter bewertet werden. Die [Ausführungsschicht](/es/docs/execution-layer/) erklärt, warum explizite Fakten überzeugende Aussagen in Agentenkontexten übertreffen.
+SaaS-Unternehmen, die eine strukturierte Leistungsseite mit klaren Attributen (Funktionen, Integrationen, Preisstufen, Zertifizierungen, unterstützte Regionen) pflegen, können von Agenten leichter bewertet werden. Die [Ausführungsschicht](/de/docs/execution-layer/) erklärt, warum explizite Fakten überzeugende Aussagen in Agentenkontexten übertreffen.
 
 ## Einhaltung und Übereinstimmung der Anforderungen
 
@@ -40,7 +40,7 @@ Sobald ein Agent einen Anbieter auswählt, besteht der nächste Schritt normaler
 
 Beschaffungsagenten erstellen Vergleichsunterlagen. Sie extrahieren Funktionslisten, Preise, Service Level Agreements (SLAs) und Supportbedingungen von mehreren Anbietern in strukturierten Vergleichen. SaaS-Sites, die diese Daten in analysierbarer Form (nicht nur in maßgeschneiderten PDFs) bereitstellen, tragen zu ihrer eigenen Einbeziehung in diese Vergleiche bei.
 
-Der Artikel [Multi-Agent AEO](/es/docs/multi-agent-aeo/) erklärt, wie orchestrierte Agenten-Workflows diese mehrstufigen Erfassungsprozesse handhaben.
+Der Artikel [Multi-Agent AEO](/de/docs/multi-agent-aeo/) erklärt, wie orchestrierte Agenten-Workflows diese mehrstufigen Erfassungsprozesse handhaben.
 
 ## Optimierung interner ToolsAEO gilt auch innerhalb von Organisationen. Unternehmen, die interne KI-Agenten für IT-Support, Onboarding oder Workflow-Automatisierung einsetzen, müssen ihre internen Tools und Dokumentationen für die Agenten navigierbar sein. Saubere interne Dokumente, strukturierte Wissensdatenbanken und dokumentierte APIs machen interne Agenten effektiver.
 
@@ -65,7 +65,7 @@ Ja. Interne KI-Agenten benötigen eine strukturierte Dokumentation und navigierb
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
 
 ## Primäre Referenzen
 

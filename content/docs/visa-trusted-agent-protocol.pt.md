@@ -73,7 +73,7 @@ Se esses princípios básicos forem fracos, os sinais dos agentes confiáveis po
 | Ciclo de vida comercial | CPU || Experiência de pagamento | ACP |
 | Execução de pagamentos | Trilhos, carteiras e fluxos de rede de cartão estilo x402 |
 
-A [comparação de protocolos de pagamento de agentes](/es/docs/agent-payment-protocols-compared/) ajuda a colocar a TAP ao lado de sistemas focados em pagamentos.
+A [comparação de protocolos de pagamento de agentes](/pt/docs/agent-payment-protocols-compared/) ajuda a colocar a TAP ao lado de sistemas focados em pagamentos.
 
 ## Perguntas frequentes
 

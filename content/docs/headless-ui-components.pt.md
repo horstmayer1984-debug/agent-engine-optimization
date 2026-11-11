@@ -23,7 +23,7 @@ No desenvolvimento de UI, a “cabeça” é a camada visual: cores, bordas, esp
 
 Uma caixa de diálogo sem cabeçalho pode lidar com captura de foco, comportamento de teclas de escape, rótulos e recursos de acessibilidade. A equipe do produto ainda decide a aparência da caixa de diálogo.
 
-Esta é a versão UI do [software headless](/es/docs/what-is-headless-software/): comportamento separado da apresentação.
+Esta é a versão UI do [software headless](/pt/docs/what-is-headless-software/): comportamento separado da apresentação.
 
 ## UI sem interface versus bibliotecas de componentes estilizados
 
@@ -64,7 +64,7 @@ Os padrões comuns incluem:
 
 A acessibilidade é um dos motivos mais importantes para usar uma biblioteca de componentes headless. WAI-ARIA Authoring Practices documenta padrões de interação para widgets complexos, como menus, guias, caixas de diálogo e caixas de combinação. Você precisa ter cuidado ao obter esses padrões do zero. A UI sem cabeça não elimina a responsabilidade. Os desenvolvedores ainda precisam testar o componente finalizado com navegação por teclado, leitores de tela, estados de foco e comportamento móvel. Mas pode reduzir a possibilidade de reconstruir incorretamente a mesma lógica de interação.
 
-Leitura relacionada: [Aplicativos Web prontos para agente](/es/docs/agent-ready-web-apps/) e [Programação de site do agente AI](/es/docs/programming-websites-for-ai-agents/).
+Leitura relacionada: [Aplicativos Web prontos para agente](/pt/docs/agent-ready-web-apps/) e [Programação de site do agente AI](/pt/docs/programming-websites-for-ai-agents/).
 
 ## Quando a UI headless faz sentidoA UI sem cabeça é uma boa escolha quando a experiência do produto é importante e a equipe tem habilidade de front-end suficiente para possuir a camada de estilo.
 
@@ -106,7 +106,7 @@ Para páginas críticas para SEO, mantenha o conteúdo importante rastreável:
 - as guias não devem ocultar conteúdo crítico de usuários ou rastreadores
 - modais não devem ser o único lugar onde aparece conteúdo essencial
 
-Se uma página fizer parte de uma [implementação AEO](/es/docs/implement-aeo/), a mesma regra se aplica aos agentes. A componente visual não é suficiente. O conteúdo e as ações devem ser compreensíveis sem adivinhação pelos pixels.
+Se uma página fizer parte de uma [implementação AEO](/pt/docs/implement-aeo/), a mesma regra se aplica aos agentes. A componente visual não é suficiente. O conteúdo e as ações devem ser compreensíveis sem adivinhação pelos pixels.
 
 ## Melhores práticas
 

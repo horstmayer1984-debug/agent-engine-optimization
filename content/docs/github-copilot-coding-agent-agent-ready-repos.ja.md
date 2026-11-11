@@ -23,7 +23,7 @@ GitHub は、Microsoft Build 2025 で [GitHub Copilot 用コーディング エ�
 
 SEO/AEO の観点は実用的です。ソフトウェア システムは人間の開発者だけでなく、自律的な開発エージェントによっても読み取れる必要があります。
 
-関連資料については、[開発者向けの AEO ユースケース](/es/docs/aeo-use-cases-developers/)、[エージェント対応 Web アプリケーション](/es/docs/agent-ready-web-apps/)、および [エージェント向けの MCP と API](/es/docs/mcp-vs-api-for-agents/) を参照してください。
+関連資料については、[開発者向けの AEO ユースケース](/ja/docs/aeo-use-cases-developers/)、[エージェント対応 Web アプリケーション](/ja/docs/agent-ready-web-apps/)、および [エージェント向けの MCP と API](/ja/docs/mcp-vs-api-for-agents/) を参照してください。
 
 ## 「エージェント対応リポジトリ」とはどういう意味ですか?
 
@@ -69,7 +69,7 @@ SEO/AEO の観点は実用的です。ソフトウェア システムは人間�
 9. フロントエンド作業のためのスクリーンショットまたはビジュアル要件を追加します。
 10. 小さくてレビュー可能なタスクを使用します。
 
-[AEO 開発者ガイド](/es/docs/developers-guide-aeo/) では、システムを一目瞭然にするという同じ原則が使用されています。
+[AEO 開発者ガイド](/ja/docs/developers-guide-aeo/) では、システムを一目瞭然にするという同じ原則が使用されています。
 
 ## 従来の開発者エクスペリエンスとの違い開発者エクスペリエンスは、人間の作業を高速化することに重点を置いています。エージェント対応の開発者の専門知識は、マシンが誤った想定を回避するのにも役立ちます。|クラシックDX |エージェントレディDX |
 |
@@ -94,7 +94,7 @@ SEO/AEO の観点は実用的です。ソフトウェア システムは人間�
 - 内部リンクは関係を示す必要があります。
 - 機械可読なインデックスは重要なページを指す必要があります。
 
-そのため、[llms.txt](/es/docs/llms-txt-vs-robots-txt/) と [実行層](/es/docs/execution-layer/) が重要です。エージェントには振動ではなく経路が必要です。
+そのため、[llms.txt](/ja/docs/llms-txt-vs-robots-txt/) と [実行層](/ja/docs/execution-layer/) が重要です。エージェントには振動ではなく経路が必要です。
 
 ## よくあるエラー
 

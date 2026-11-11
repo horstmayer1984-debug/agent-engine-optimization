@@ -39,7 +39,7 @@ AEO-Teams müssen drei Fragen beantworten:
 
 Die Lautstärke des Trackers allein reicht nicht aus. Ein High-Volume-Tracker könnte in Zukunft für Sichtbarkeit sorgen. Es könnte auch Bandbreite kosten und keine Entdeckungen, Termine oder Konvertierungen hervorrufen.
 
-Dies stellt eine direkte Verbindung zu [AI Referral Attribution for AEO SEO](/es/docs/ai-referral-attribution-seo/), [AI Agent Web Traffic in 2026](/es/docs/ai-agent-web-traffic-2026/) und [Cloudflare AI Crawl Control](/es/docs/cloudflare-ai-crawl-control/) her.
+Dies stellt eine direkte Verbindung zu [AI Referral Attribution for AEO SEO](/de/docs/ai-referral-attribution-seo/), [AI Agent Web Traffic in 2026](/de/docs/ai-agent-web-traffic-2026/) und [Cloudflare AI Crawl Control](/de/docs/cloudflare-ai-crawl-control/) her.
 
 ## Was zu messen ist
 

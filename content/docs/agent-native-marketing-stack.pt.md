@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 43
 category: "Architecture"
 description: "Mapeie a pilha de marketing nativa do agente, incluindo orquestração, memória, integrações de ferramentas, atribuição e sistemas."
-metaDescription: "Vea la pila de marketing nativo de agentes, desde modelos y orquestación hasta memoria, herramientas, patrones de implementación, medición y gobernanza."
 summary: "O marketing de agente nativo substitui campanhas manuais por equipes autônomas de vários agentes. Este guia aborda a pilha de tecnologia exata: modelos, orquestração, memória, ferramentas e implementação."
 keywords:
   - "plataforma de marketing nativa para agentes"
@@ -87,7 +86,7 @@ Para equipas que gastam menos de 500 euros por mês em infraestruturas:
 
 FastAPI como estrutura de aplicativo. LangGraph para orquestração. Chamadas hospedadas pela Groq para tarefas de alto desempenho. Supabase para armazenamento estruturado de dados. N8n auto-hospedado para gerenciamento visual de fluxo de trabalho e automações simples. Essa pilha lida com volumes de campanha pequenos e médios. Dimensione para o pacote completo conforme a complexidade da campanha e o orçamento justificarem o investimento.
 
-O [artigo de estratégia de conteúdo AEO](/es/docs/aeo-content-strategy/) explica como o conteúdo produzido por esses agentes deve ser estruturado tanto para leitores humanos quanto para extração de IA.
+O [artigo de estratégia de conteúdo AEO](/pt/docs/aeo-content-strategy/) explica como o conteúdo produzido por esses agentes deve ser estruturado tanto para leitores humanos quanto para extração de IA.
 
 ---
 
@@ -108,8 +107,8 @@ Políticas de conteúdo, diretrizes de marca, limites orçamentários e regras d
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
-* [camada de execução](/es/docs/execution-layer/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
+* [camada de execução](/pt/docs/execution-layer/)
 
 ## Referências primárias
 

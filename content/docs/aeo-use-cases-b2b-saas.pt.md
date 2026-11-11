@@ -24,7 +24,7 @@ A primeira interação do agente com um site SaaS geralmente é uma pesquisa. O 
 
 A maioria dos sites SaaS oculta essas informações em várias páginas, atrás de guias ou em uma linguagem de vendas que parece boa, mas diz pouco. Um agente não pode inferir que “segurança de nível empresarial” significa conformidade com SOC 2. Precisa da afirmação explícita.
 
-As empresas de SaaS que mantêm uma página de recursos estruturada com atributos claros (recursos, integrações, níveis de preços, certificações, regiões suportadas) tornam-se mais fáceis de avaliar pelos agentes. A [camada de execução](/es/docs/execution-layer/) explica por que fatos explícitos superam declarações persuasivas em contextos de agentes.
+As empresas de SaaS que mantêm uma página de recursos estruturada com atributos claros (recursos, integrações, níveis de preços, certificações, regiões suportadas) tornam-se mais fáceis de avaliar pelos agentes. A [camada de execução](/pt/docs/execution-layer/) explica por que fatos explícitos superam declarações persuasivas em contextos de agentes.
 
 ## Conformidade e correspondência de requisitos
 
@@ -40,7 +40,7 @@ Depois que um agente seleciona um provedor, a próxima etapa geralmente é agend
 
 Os agentes de compras compilam documentos de comparação. Eles extraem listas de recursos, preços, acordos de nível de serviço (SLAs) e termos de suporte de vários fornecedores em comparações estruturadas. Sites SaaS que expõem esses dados em formato analisável (não apenas PDFs personalizados) contribuem para sua própria inclusão nessas comparações.
 
-O artigo [Multi-Agent AEO](/es/docs/multi-agent-aeo/) explica como fluxos de trabalho de agentes orquestrados lidam com esses processos de aquisição em várias etapas.
+O artigo [Multi-Agent AEO](/pt/docs/multi-agent-aeo/) explica como fluxos de trabalho de agentes orquestrados lidam com esses processos de aquisição em várias etapas.
 
 ## Otimização de ferramentas internasO AEO também se aplica dentro das organizações. As empresas que implantam agentes internos de IA para suporte de TI, integração ou automação de fluxo de trabalho precisam que suas ferramentas e documentação internas possam ser navegadas pelos agentes. Documentos internos limpos, bases de conhecimento estruturadas e APIs documentadas tornam os agentes internos mais eficazes.
 
@@ -65,7 +65,7 @@ Sim. Os agentes internos de IA precisam de documentação estruturada e bases de
 
 ## Guias relacionados
 
-* [Protocolos de Agente AI](/es/docs/protocols/)
+* [Protocolos de Agente AI](/pt/docs/protocols/)
 
 ## Referências primárias
 

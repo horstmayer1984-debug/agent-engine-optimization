@@ -29,7 +29,7 @@ A resposta curta: AEO não substitui o SEO. Ele estende isso.
 
 O [Guia de primeiros passos de SEO] (https://developers.google.com/search/docs/fundamentals/seo-starter-guide) do Google ainda é importante porque rastreabilidade, conteúdo útil, links, títulos, snippets e estrutura do site são a camada base. A [documentação de recursos de IA] do Google (https://developers.google.com/search/docs/appearance/ai-features) também deixa claro que a elegibilidade de pesquisa normal ainda é importante para recursos de IA.
 
-Para uma comparação mais aprofundada, leia [AEO vs SEO vs GEO](/es/docs/aeo-vs-seo-vs-geo/) e [SEO vs GEO vs Resposta AEO vs Agente AEO](/es/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/).
+Para uma comparação mais aprofundada, leia [AEO vs SEO vs GEO](/pt/docs/aeo-vs-seo-vs-geo/) e [SEO vs GEO vs Resposta AEO vs Agente AEO](/pt/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/).
 
 ## AEO SEO em uma única tabela
 
@@ -62,11 +62,11 @@ AEO SEO acrescenta:
 - As políticas, preços, limitações e próximos passos são explícitos?
 - Uma máquina pode concluir ou verificar uma ação?
 
-A [camada de execução](/es/docs/execution-layer/) é a linha divisória. SEO torna a página detectável. AEO torna o sistema utilizável.
+A [camada de execução](/pt/docs/execution-layer/) é a linha divisória. SEO torna a página detectável. AEO torna o sistema utilizável.
 
 ## Exemplos práticos de AEO SEO
 
-Para um site de comércio eletrônico, AEO SEO significa que as páginas dos produtos devem incluir nomes de produtos rastreáveis, preços, disponibilidade, dados de variantes, regras de envio, políticas de devolução e dados estruturados. Consulte [Casos de uso de AEO para comércio eletrônico](/es/docs/aeo-use-cases-ecommerce/).
+Para um site de comércio eletrônico, AEO SEO significa que as páginas dos produtos devem incluir nomes de produtos rastreáveis, preços, disponibilidade, dados de variantes, regras de envio, políticas de devolução e dados estruturados. Consulte [Casos de uso de AEO para comércio eletrônico](/pt/docs/aeo-use-cases-ecommerce/).
 
 Para um site SaaS, isso significa que preços, integrações, conformidade, demonstrações, documentos e caminhos de suporte devem ser legíveis por máquina o suficiente para que os agentes de compras possam comparar.
 
@@ -82,7 +82,7 @@ Para um site de conteúdo, significa definições claras, tabelas de comparaçã
 8. Adicione caminhos de execução para tarefas que os agentes podem executar.
 9. Avalie consultas do Search Console, referências de IA e conclusões de tarefas.
 
-O [guia de implementação AEO](/es/docs/implement-aeo/) fornece a sequência completa.
+O [guia de implementação AEO](/pt/docs/implement-aeo/) fornece a sequência completa.
 
 ## Perguntas frequentes
 

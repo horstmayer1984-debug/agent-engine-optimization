@@ -20,7 +20,7 @@ Verwenden Sie ein Headless-CMS, wenn strukturierte Inhalte, Multi-Channel-Publis
 
 Headless ist eine gute Option, wenn Flexibilität den zusätzlichen technischen Aufwand wert ist. Es ist eine schlechte Wahl, wenn das Team nur ein modern klingendes CMS möchte.
 
-Für eine umfassendere Definition lesen Sie bitte [Was ist Headless-Software?](/es/docs/what-is-headless-software/). Für einen direkten Vergleich lesen Sie [CMS vs. Headless CMS](/es/docs/cms-vs-headless-cms/).
+Für eine umfassendere Definition lesen Sie bitte [Was ist Headless-Software?](/de/docs/what-is-headless-software/). Für einen direkten Vergleich lesen Sie [CMS vs. Headless CMS](/de/docs/cms-vs-headless-cms/).
 
 ## Verwenden Sie Headless CMS, wenn diese zutreffen
 
@@ -44,7 +44,7 @@ Für eine umfassendere Definition lesen Sie bitte [Was ist Headless-Software?](/
 | SEO-Grundlagen sind immer noch nicht gelöst | Verbessern Sie zuerst die aktuelle Website |
 | Migration hat keinen URL-Plan | Migration verzögern |
 
-Der [AEO-Implementierungsleitfaden](/es/docs/implement-aeo/) ist nützlich, wenn die KI-Vorbereitung Teil der Entscheidung ist.
+Der [AEO-Implementierungsleitfaden](/de/docs/implement-aeo/) ist nützlich, wenn die KI-Vorbereitung Teil der Entscheidung ist.
 
 ## Fragen zur SEO-Vorbereitung
 
@@ -65,7 +65,7 @@ Wenn Ihr Team diese Fragen nicht beantworten kann, ist es nicht bereit für die 
 
 ## Fragen zur KI-Optimierung
 
-Headless kann bei der [KI-Suchoptimierung](/es/docs/ai-search-optimization/) helfen, wenn das Inhaltsmodell Folgendes umfasst:
+Headless kann bei der [KI-Suchoptimierung](/de/docs/ai-search-optimization/) helfen, wenn das Inhaltsmodell Folgendes umfasst:
 
 - Definitionen
 - Häufig gestellte Fragen

@@ -31,7 +31,7 @@ Die Geschwindigkeit hängt ab von:
 - Datenbankabfragen
 - Konstruktions- und Umsetzungsstrategie
 
-Lesen Sie [Headless CMS vs. traditionelles CMS](/es/docs/headless-cms-vs-traditional-cms/) für einen umfassenderen Kompromiss.
+Lesen Sie [Headless CMS vs. traditionelles CMS](/de/docs/headless-cms-vs-traditional-cms/) für einen umfassenderen Kompromiss.
 
 ## Leistungsvergleich
 
@@ -85,7 +85,7 @@ In der Next.js-Dokumentation heißt es, dass die statische Generierung Seiten zu
 | Nicht optimierte Bilder | Beide | Schlechtester LCP und schlechteste Bandbreite |
 | Cache-Fehler | Beide | TTFB langsam |
 | Exklusive Inhalte für Kunden | Meist kopflos | Crawling- und Indexierungsrisiko |
-| Tags von Drittanbietern | Beide | Schlechte Basic Web Vitals |[Headless SEO](/es/docs/headless-seo/) Leitfaden erklärt, warum Geschwindigkeit und Crawlbarkeit gemeinsam getestet werden sollten. Für CMS-spezifische Implementierungsdetails verwenden Sie die [Headless CMS SEO Checklist](/es/docs/headless-cms-seo/).
+| Tags von Drittanbietern | Beide | Schlechte Basic Web Vitals |[Headless SEO](/de/docs/headless-seo/) Leitfaden erklärt, warum Geschwindigkeit und Crawlbarkeit gemeinsam getestet werden sollten. Für CMS-spezifische Implementierungsdetails verwenden Sie die [Headless CMS SEO Checklist](/de/docs/headless-cms-seo/).
 
 ## Was zu messen ist
 

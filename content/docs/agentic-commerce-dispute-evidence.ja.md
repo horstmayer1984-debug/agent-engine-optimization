@@ -45,7 +45,7 @@ AP2 と検証可能なインテントはどちらも、インテントと認可�
 |コンプライアンス |発送、配送、返金、返品状況 |
 |政治的決定 |販売者が承認、拒否、またはエスカレーションされた理由 |
 
-これは [エージェント認証](/es/docs/agentic-authentication-commerce/) と [エージェント ウォレット](/es/docs/agentic-wallets-spend-governance/) に接続します。
+これは [エージェント認証](/ja/docs/agentic-authentication-commerce/) と [エージェント ウォレット](/ja/docs/agentic-wallets-spend-governance/) に接続します。
 
 ## AP2 とコマンド
 
@@ -71,7 +71,7 @@ Mastercard は、Verifiable Intent を、プライバシー保護記録内の ID
 8. コンプライアンスステータス。
 9. 返品および返金イベント。10.サポート連絡先とエスカレーション。
 
-[ビジネス エージェント ポリシー エンジン](/es/docs/merchant-agent-policy-engine/) ガイドでは、ポリシーの登録について説明しています。
+[ビジネス エージェント ポリシー エンジン](/ja/docs/merchant-agent-policy-engine/) ガイドでは、ポリシーの登録について説明しています。
 
 ## よくある質問
 

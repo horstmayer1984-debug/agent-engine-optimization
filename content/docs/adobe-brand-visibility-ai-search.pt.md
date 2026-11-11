@@ -35,7 +35,7 @@ A demanda de pesquisa em torno de “visibilidade da marca Adobe” provavelment
 4. Se as empresas devem alterar os fluxos de trabalho antes de adotá-los.
 5. Como se compara ao monitoramento de visibilidade de IA existente.
 
-Para um contexto mais amplo, consulte [Otimização de mecanismo generativo](/es/docs/generative-engine-optimization/) e [Estratégia de namoro de IA](/es/docs/ai-citation-strategy/).
+Para um contexto mais amplo, consulte [Otimização de mecanismo generativo](/pt/docs/generative-engine-optimization/) e [Estratégia de namoro de IA](/pt/docs/ai-citation-strategy/).
 
 ## Visibilidade da marca Adobe em uma única tabela
 
@@ -59,7 +59,7 @@ As ferramentas não podem reparar materiais de origem fracos. Antes de adotar o 
 6. Rastreie as referências de IA separadamente das sessões orgânicas normais.
 7. Mantenha o `llms.txt` útil para os agentes que optarem por usá-lo, enquanto segue as instruções da Pesquisa Google para indexação normal.
 
-A sequência prática é abordada em [Plano de implementação de SEO do AEO](/es/docs/aeo-seo-implementation-plan/) e [Como implementar o AEO](/es/docs/implement-aeo/).
+A sequência prática é abordada em [Plano de implementação de SEO do AEO](/pt/docs/aeo-seo-implementation-plan/) e [Como implementar o AEO](/pt/docs/implement-aeo/).
 
 ## O que a visibilidade da marca Adobe não resolve sozinha
 
@@ -74,7 +74,7 @@ Uma ferramenta de visibilidade de IA pode mostrar lacunas, mas não pode tornar 
 | Governança | As equipes precisam de regras para reclamações, ciclos de atualização, amostragem rápida e aprovação de origem. |
 | Medição | A visibilidade do compromisso deve estar conectada aos resultados de leads, vendas, testes ou suporte. |
 
-Para trabalho na camada de execução, comece com [Camada de Execução](/es/docs/execution-layer/) e [Agente UX e Design Humano no Loop](/es/docs/agent-ux-human-in-the-loop/).
+Para trabalho na camada de execução, comece com [Camada de Execução](/pt/docs/execution-layer/) e [Agente UX e Design Humano no Loop](/pt/docs/agent-ux-human-in-the-loop/).
 
 ## Perguntas frequentes
 

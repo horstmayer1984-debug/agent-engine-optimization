@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 64
 category: "Guide"
 description: "Use esta lista de verificação do desenvolvedor para tornar os aplicativos da web legíveis e acionáveis ​​para agentes de IA."
-metaDescription: "Utilice una lista de verificación para desarrolladores para aplicaciones web listas para agentes: diseño de backend primero, API limpias, MCP, seguridad."
 summary: "O aplicativo Web pronto para agente começa com o back-end, não com o front-end. APIs limpas, MCP nativo, autenticação específica de agente, cotas de custos e endpoints de comentários públicos. Aqui está a lista de verificação do desenvolvedor."
 keywords:
   - "aplicativos da web prontos para agentes"
@@ -41,7 +40,7 @@ Para uma aplicação web com gerenciamento de usuários, agendamento e cobrança
 
 O servidor MCP adiciona talvez 200-500 linhas de código à sua API existente. O retorno é o suporte universal do agente.
 
-O [guia MCP vs API](/es/docs/mcp-vs-api-for-agents/) explica o protocolo em detalhes.
+O [guia MCP vs API](/pt/docs/mcp-vs-api-for-agents/) explica o protocolo em detalhes.
 
 ## 4. Substitua CLIs por padrões de API primeiro
 
@@ -65,7 +64,7 @@ Exponha o estado da sessão por meio de sua API. Permita que os agentes leiam su
 
 Adicione um endpoint de feedback público (/agent-feedback) onde os agentes podem relatar problemas de qualidade de dados, erros de endpoint ou imprecisões de documentação. Isso traz à tona os problemas mais rapidamente do que o monitoramento interno e cria confiança no ecossistema do agente.
 
-O [guia de loop de feedback](/es/docs/agent-feedback-loops/) cobre toda a arquitetura.
+O [guia de loop de feedback](/pt/docs/agent-feedback-loops/) cobre toda a arquitetura.
 
 ## Comparação: aplicativo Web tradicional versus aplicativo Web pronto para agente
 
@@ -85,7 +84,7 @@ O [guia de loop de feedback](/es/docs/agent-feedback-loops/) cobre toda a arquit
 
 Construa primeiro a interface e trate o acesso do agente como um problema de integração a ser resolvido posteriormente. Quando o suporte do agente é adicionado, a lógica de negócios fica interligada ao gerenciamento do estado da UI, tornando a extração limpa da API difícil e cara.
 
-Solução: sempre comece com a API. A interface do usuário é um cliente. Os agentes são outro cliente. Ambos consomem o mesmo back-end. O [guia de implementação AEO](/es/docs/implement-aeo/) cobre o caminho de otimização mais amplo. O [artigo do plano de controle universal](/es/docs/universal-control-plane/) explica a governança de endpoints voltados para o agente.
+Solução: sempre comece com a API. A interface do usuário é um cliente. Os agentes são outro cliente. Ambos consomem o mesmo back-end. O [guia de implementação AEO](/pt/docs/implement-aeo/) cobre o caminho de otimização mais amplo. O [artigo do plano de controle universal](/pt/docs/universal-control-plane/) explica a governança de endpoints voltados para o agente.
 
 ---
 

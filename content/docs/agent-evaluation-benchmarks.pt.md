@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 84
 category: "Guide"
 description: "As estruturas de avaliação de agentes medem a autonomia, a precisão, o custo, a latência e o sucesso das tarefas ao longo do ciclo de vida. Fazer."
-metaDescription: "Utilice puntos de referencia de evaluación de agentes para medir la autonomía, la precisión, el costo, la latencia y el éxito de las tareas durante todo."
 summary: "Avaliar o desempenho do agente vai além da precisão. As estruturas modernas medem a autonomia, a relação custo-benefício, a latência e a conclusão de tarefas no mundo real. Veja como construir uma prática de avaliação."
 keywords:
   - "estruturas de avaliação de agentes"
@@ -35,13 +34,13 @@ Meça a precisão por página e por campo de dados. Um site pode ter 98% de prec
 
 Quantas etapas o agente pode completar sem intervenção humana? Uma interação totalmente autônoma (descoberta, extração, ação, pagamento, verificação) tem pontuação mais alta do que aquela que requer aprovação humana na etapa três.
 
-Para AEO, isso mede o quão bem sua camada de execução suporta fluxos de trabalho de agente de ponta a ponta. O [guia da camada de execução](/es/docs/execution-layer/) explica os requisitos de infraestrutura.
+Para AEO, isso mede o quão bem sua camada de execução suporta fluxos de trabalho de agente de ponta a ponta. O [guia da camada de execução](/pt/docs/execution-layer/) explica os requisitos de infraestrutura.
 
 ### Rentabilidade
 
 Quanto custa cada interação do agente em tokens, chamadas de API e tempo de processamento? Os altos custos por interação desencorajam o tráfego de agentes. Sites com dados limpos e compactados reduzem os custos dos agentes e atraem maior utilização.
 
-A engenharia de contexto (consulte [guia de engenharia de contexto](/es/docs/context-engineering-aeo/)) melhora diretamente a lucratividade, reduzindo a quantidade de dados que os agentes devem processar.
+A engenharia de contexto (consulte [guia de engenharia de contexto](/pt/docs/context-engineering-aeo/)) melhora diretamente a lucratividade, reduzindo a quantidade de dados que os agentes devem processar.
 
 ### Latência
 
@@ -67,7 +66,7 @@ Ragas concentra-se na avaliação de geração com recuperação aumentada. Mede
 
 TruLens fornece avaliação baseada em rastreamento que segue todo o caminho de raciocínio de um agente. Útil para entender por que um agente tomou uma decisão específica sobre seu conteúdo.
 
-O [guia AEO KPI](/es/docs/aeo-kpis-measurement/) cobre a estrutura de medição mais ampla.
+O [guia AEO KPI](/pt/docs/aeo-kpis-measurement/) cobre a estrutura de medição mais ampla.
 
 ## Comparação: testes ad hoc versus avaliação estruturada
 

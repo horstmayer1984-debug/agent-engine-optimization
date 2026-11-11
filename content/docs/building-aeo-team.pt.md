@@ -5,7 +5,6 @@ date: 2026-04-19
 weight: 113
 category: "Guide"
 description: "Aprenda como construir uma equipe AEO que abranja funções de conteúdo, engenharia, análise, produto e governança sem excesso de pessoal."
-metaDescription: "Descubra qué roles necesita un equipo AEO, qué habilidades contratar, cómo dividir la propiedad y cómo pasar de un operador individual a un equipo."
 summary: "AEO requer habilidades que abrangem conteúdo, engenharia e análise. Veja como construir a equipe de um operador individual para uma função de negócios, com definições de funções específicas e prioridades de contratação."
 keywords:
   - "equipamento aéreo"
@@ -67,7 +66,7 @@ Estrategista AEO (ou parte de uma função de liderança): Possui coordenação 
 
 Adicione especialização em cada domínio.
 
-Equipe de conteúdo: 2 a 3 pessoas cobrindo diferentes linhas de produtos ou segmentos de mercado. Equipe de protocolo: 2 a 3 engenheiros cobrindo diferentes protocolos (MCP, UCP, x402). Equipe analítica: 1 a 2 pessoas com painéis e relatórios dedicados. Estratégia: 1 líder com autoridade multifuncional.O [CEO Roadmap](/es/docs/aeo-ceo-roadmap/) cobre o alinhamento executivo para equipes empresariais.
+Equipe de conteúdo: 2 a 3 pessoas cobrindo diferentes linhas de produtos ou segmentos de mercado. Equipe de protocolo: 2 a 3 engenheiros cobrindo diferentes protocolos (MCP, UCP, x402). Equipe analítica: 1 a 2 pessoas com painéis e relatórios dedicados. Estratégia: 1 líder com autoridade multifuncional.O [CEO Roadmap](/pt/docs/aeo-ceo-roadmap/) cobre o alinhamento executivo para equipes empresariais.
 
 ## Prioridades de contratação por fase
 
@@ -87,7 +86,7 @@ Terceira e quarta contratação: Complete a equipe com as funções restantes. A
 
 A experiência em protocolos (MCP, UCP, ACP) é a competência mais escassa em Abril de 2026. Muito poucas pessoas têm experiência prática de implementação porque os protocolos foram lançados recentemente. Contrate engenheiros que aprendam rapidamente e tenham fundamentos sólidos de API. Habilidades específicas de protocolo podem ser desenvolvidas no trabalho.
 
-A análise do comportamento dos agentes também é escassa. Os profissionais tradicionais de análise da web precisam aprender como identificar e segmentar o tráfego do agente nos logs do servidor. O [guia AEO KPI](/es/docs/aeo-kpis-measurement/) fornece a estrutura de medição.
+A análise do comportamento dos agentes também é escassa. Os profissionais tradicionais de análise da web precisam aprender como identificar e segmentar o tráfego do agente nos logs do servidor. O [guia AEO KPI](/pt/docs/aeo-kpis-measurement/) fornece a estrutura de medição.
 
 ## Comparação: evolução da equipe
 
@@ -113,13 +112,13 @@ A análise do comportamento dos agentes também é escassa. Os profissionais tra
 Emergindo. Algumas empresas estão a criar funções específicas de AEO. Outros atribuem a responsabilidade pelo AEO aos gerentes de produto ou diretores técnicos de marketing existentes. O título importa menos do que ter alguém com autoridade multifuncional.
 
 **Devo contratar internamente ou usar uma agência?**
-O trabalho de leitura de camadas pode começar com uma [agência](/es/docs/aeo-agencies-ecommerce/) enquanto se constrói capacidades internas. O trabalho da camada de execução deve ser feito internamente porque está profundamente integrado ao seu produto e engenharia.
+O trabalho de leitura de camadas pode começar com uma [agência](/pt/docs/aeo-agencies-ecommerce/) enquanto se constrói capacidades internas. O trabalho da camada de execução deve ser feito internamente porque está profundamente integrado ao seu produto e engenharia.
 
 **Qual é a primeira contratação mais importante?**
 Um líder de conteúdo ou generalista AEO que pode estruturar conteúdo, implementar esquemas e monitorar citações de IA. Isso produz resultados mensuráveis ​​mais rapidamente e prepara o terreno para todo o resto.
 
 **Como justifico a força de trabalho do AEO para a liderança?**
-Rastreie o tráfego encaminhado por IA separadamente. Mostre a diferença na taxa de conversão em relação ao orgânico tradicional. Projete o impacto na receita das crescentes transações conduzidas por agentes. O [roteiro do CEO](/es/docs/aeo-ceo-roadmap/) fornece a estrutura executiva.
+Rastreie o tráfego encaminhado por IA separadamente. Mostre a diferença na taxa de conversão em relação ao orgânico tradicional. Projete o impacto na receita das crescentes transações conduzidas por agentes. O [roteiro do CEO](/pt/docs/aeo-ceo-roadmap/) fornece a estrutura executiva.
 
 ## Referências primárias* [Estrutura de gerenciamento de risco de IA do NIST](https://www.nist.gov/itl/ai-risk-management-framework)
 * [Documentação do Schema.org](https://schema.org/docs/documents.html)

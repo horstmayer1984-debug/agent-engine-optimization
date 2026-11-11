@@ -65,7 +65,7 @@ Erstellen Sie nur Seiten mit einer eindeutigen Absicht. Für „aeo seo“ könn
 - ein Umsetzungsplan
 - eine Messanleitung
 
-Aus diesem Grund verlinkt diese Seite auf [AEO SEO](/es/docs/aeo-seo/), [AEO SEO Checkliste](/es/docs/aeo-seo-checklist/) und [AEO SEO für E-Commerce](/es/docs/aeo-seo-for-ecommerce/).
+Aus diesem Grund verlinkt diese Seite auf [AEO SEO](/de/docs/aeo-seo/), [AEO SEO Checkliste](/de/docs/aeo-seo-checklist/) und [AEO SEO für E-Commerce](/de/docs/aeo-seo-for-ecommerce/).
 
 ## Tag 19 bis 24: KI und Agentenvorbereitungsstruktur hinzufügen
 
@@ -92,7 +92,7 @@ Hinweis:
 - KI-Referenzsitzungen
 - Konvertierungen oder Aufgabenerledigung
 
-Der [AEO-KPI-Messleitfaden](/es/docs/aeo-kpis-measurement/) erklärt das Messmodell.
+Der [AEO-KPI-Messleitfaden](/de/docs/aeo-kpis-measurement/) erklärt das Messmodell.
 
 ## Häufig gestellte Fragen
 

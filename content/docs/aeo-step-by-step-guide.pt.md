@@ -5,7 +5,6 @@ date: 2026-04-12
 weight: 50
 category: "Guide"
 description: "O manual prático AEO mais detalhado para 2026. Cinco fases, desde a reestruturação do conteúdo até os ciclos de feedback, com metodologia."
-metaDescription: "Siga un manual práctico de AEO desde la reestructuración del contenido hasta el esquema, los enlaces internos, los bucles de retroalimentación, las pruebas."
 summary: "Na prática, AEO significa reestruturar o conteúdo para extração automática, expor pontos finais de ação, criar ciclos de feedback do agente e testar com tráfego de agente simulado. Este guia cobre todas as cinco fases."
 keywords:
   - "como funciona o AEO"
@@ -31,7 +30,7 @@ Etapas práticas para cada página:
 
 Reescreva as 60 palavras iniciais como uma resposta direta à questão principal abordada pela página. Transforme parágrafos explicativos em perguntas H2 com respostas concisas abaixo. Use tabelas para quaisquer dados comparativos. Use marcadores para especificações, requisitos ou listas de recursos. Elimine adjetivos que não tenham peso real.
 
-O [Guia de Implementação AEO](/es/docs/implement-aeo/) cobre detalhadamente a camada de conteúdo técnico.
+O [Guia de Implementação AEO](/pt/docs/implement-aeo/) cobre detalhadamente a camada de conteúdo técnico.
 
 ## Fase 2: Adicionar dados estruturados que os agentes podem analisar como instruções
 
@@ -51,7 +50,7 @@ Um endpoint de ação é qualquer URL ou chamada de API que permite a um agente 
 
 Elas não precisam ser APIs REST complexas desde o primeiro dia. Para começar, tudo que você precisa é de um endpoint de webhook via n8n ou Make.com que aceite JSON estruturado e acione um processo de negócios. O que importa é que o endpoint exista, esteja documentado e retorne uma resposta previsível.Coloque frases de chamariz claras em cada página de serviço que faça referência ao endpoint disponível. "Verificar disponibilidade agora" vinculado a um endpoint que retorna o estoque atual ou horários disponíveis. "Solicitar um orçamento" vinculado a um endpoint que aceita especificações e retorna um orçamento.
 
-O [guia da camada de execução](/es/docs/execution-layer/) explica a arquitetura técnica. O [artigo do Agent Commerce](/es/docs/agentic-commerce-execution/) mostra como isso funciona especificamente para pagamentos de comércio eletrônico.
+O [guia da camada de execução](/pt/docs/execution-layer/) explica a arquitetura técnica. O [artigo do Agent Commerce](/pt/docs/agentic-commerce-execution/) mostra como isso funciona especificamente para pagamentos de comércio eletrônico.
 
 ## Fase 4: Crie ciclos de feedback que melhoram a precisão do agente ao longo do tempo
 
@@ -71,7 +70,7 @@ Comece com 10 visitas simuladas por dia durante o desenvolvimento. Aumente para 
 
 Meça três coisas: precisão de extração (o agente identificou corretamente o que a página oferecia), taxa de conclusão da ação (o endpoint retornou um resultado válido) e tempo de resposta (tudo concluído dentro de uma latência aceitável).
 
-O [artigo AEO multiagente](/es/docs/multi-agent-aeo/) cobre padrões de teste para fluxos de trabalho orquestrados mais complexos.
+O [artigo AEO multiagente](/pt/docs/multi-agent-aeo/) cobre padrões de teste para fluxos de trabalho orquestrados mais complexos.
 
 ## Erros comuns e como corrigi-los
 

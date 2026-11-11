@@ -4,7 +4,6 @@ date: 2026-03-19
 weight: 20
 category: "Guide"
 description: "電子商取引における AEO の実践的な使用例: 自律型 AI エージェントが製品を発見し、オファーを比較し、価格を交渉する方法。"
-metaDescription: "Vea cómo el comercio electrónico AEO ayuda a los agentes a descubrir productos, comparar ofertas, evaluar la confianza, negociar precios y completar compras."
 summary: "AEOが具体化するのは電子商取引だ。これらの使用例は、製品データ、購入経路、ポリシーが自動実行用に最適化されている場合に、AI エージェントがオンライン ストアとどのように対話するかを示しています。"
 keywords:
   - "AEO eコマースの使用例"
@@ -27,7 +26,7 @@ keywords:
 
 構造化された商品フィードを提供するストア、またはクリーンなスキーマ マークアップ (Product、Offer、AggregateRating) を維持するストアがデフォルトの候補になります。マーケティング散文内に仕様を隠しているストアは省略されています。
 
-[AEO 実装ガイド](/es/docs/implement-aeo/) には、製品データ抽出の信頼性を高めるための技術的な手順が記載されています。
+[AEO 実装ガイド](/ja/docs/implement-aeo/) には、製品データ抽出の信頼性を高めるための技術的な手順が記載されています。
 
 ## サプライヤー間の価格と特典の比較
 
@@ -53,7 +52,7 @@ keywords:
 
 注文ステータス、追跡情報、返品資格を構造化された方法で公開するストアは、エージェントのワークフロー全体をサポートします。これにより輪が閉じられ、繰り返しの選択につながる信頼が生まれます。
 
-記事 [AEO ecommerce Strategies](/es/docs/aeo-ecommerce/) では、10 の最適化アプローチについて詳しく説明しています。
+記事 [AEO ecommerce Strategies](/ja/docs/aeo-ecommerce/) では、10 の最適化アプローチについて詳しく説明しています。
 
 ##ポリシー主導の推奨事項
 
@@ -80,7 +79,7 @@ keywords:
 
 ## 関連ガイド
 
-* [エージェント取引アーキテクチャ](/es/docs/agentic-commerce/)
+* [エージェント取引アーキテクチャ](/ja/docs/agentic-commerce/)
 
 ## 主な参考文献
 

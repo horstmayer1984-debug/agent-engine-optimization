@@ -32,11 +32,11 @@ Schwach: „Überblick.“ Stark: „Wie sich Response Engine Optimization von S
 
 ## 4. Fügen Sie Definitionen hinzu
 
-Jeder Schlüsselbegriff sollte eine verständliche Definition haben. Besonders wichtig für sich überschneidende Begriffe wie AEO, GEO, LLM SEO und [Agent Engine Optimization](/es/docs/what-is-aeo/).
+Jeder Schlüsselbegriff sollte eine verständliche Definition haben. Besonders wichtig für sich überschneidende Begriffe wie AEO, GEO, LLM SEO und [Agent Engine Optimization](/de/docs/what-is-aeo/).
 
 ## 5. Vergleichstabellen hinzufügen
 
-Vergleichstabellen helfen KI-Systemen dabei, Unterschiede schnell zu erkennen. Verwenden Sie sie, wenn sich Themen überschneiden: SEO vs. AEO vs. GEO, [Response Engine Optimization vs. Agent Engine Optimization](/es/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/), Read Layer vs. Execution Layer.
+Vergleichstabellen helfen KI-Systemen dabei, Unterschiede schnell zu erkennen. Verwenden Sie sie, wenn sich Themen überschneiden: SEO vs. AEO vs. GEO, [Response Engine Optimization vs. Agent Engine Optimization](/de/docs/seo-vs-geo-vs-answer-aeo-vs-agent-aeo/), Read Layer vs. Execution Layer.
 
 ## 6. Erklären Sie anhand von Beispielen
 
@@ -56,7 +56,7 @@ FAQs sollten echte Folgefragen beantworten. Fügen Sie keine falschen Fragen hin
 
 ## 10. Geben Sie einen klaren nächsten Schritt an
 
-Antwortoptimierte Inhalte sollen Nutzer voranbringen. Der nächste Schritt könnte sein: Lesen Sie einen [Bereitstellungsleitfaden](/es/docs/implement-aeo/), vergleichen Sie verwandte Konzepte, führen Sie den [Bereitschaftsprüfer](/tools/aeo-readiness-checker.html) aus oder fordern Sie ein [Audit](/es/docs/audit/) an.
+Antwortoptimierte Inhalte sollen Nutzer voranbringen. Der nächste Schritt könnte sein: Lesen Sie einen [Bereitstellungsleitfaden](/de/docs/implement-aeo/), vergleichen Sie verwandte Konzepte, führen Sie den [Bereitschaftsprüfer](/tools/aeo-readiness-checker.html) aus oder fordern Sie ein [Audit](/de/docs/audit/) an.
 
 ## Kurzreferenz| Schritt | Konsultieren | Auswirkungen |
 |

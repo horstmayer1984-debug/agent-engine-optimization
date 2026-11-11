@@ -35,7 +35,7 @@ O caminho de pesquisa do GLM inclui [GLM-5: From Vibe Coding to Agent Engineerin
 | Interesse no uso de ferramentas | Os esquemas de ferramentas e os estados de erro devem ser explícitos. |
 | Suporte multilíngue | Os nomes e políticas das entidades devem ser consistentes em todos os idiomas. |
 
-Isso se conecta ao [Guia do desenvolvedor AEO](/es/docs/developers-guide-aeo/) e [Aplicativos Web prontos para agente](/es/docs/agent-ready-web-apps/).
+Isso se conecta ao [Guia do desenvolvedor AEO](/pt/docs/developers-guide-aeo/) e [Aplicativos Web prontos para agente](/pt/docs/agent-ready-web-apps/).
 
 ## O que não fazer
 
@@ -52,7 +52,7 @@ Em vez disso, otimize para superfícies estáveis:
 7. Registros de auditoria.
 8. `llms.txt` atual para agentes que o utilizam.
 
-Para rastreamento, considere o [Guia de pesquisa de IA generativa do Google 2026] (/es/docs/google-generative-ai-search-guide-2026/): a Pesquisa do Google não precisa de arquivos apenas de IA para visibilidade, embora os agentes ainda possam se beneficiar deles.
+Para rastreamento, considere o [Guia de pesquisa de IA generativa do Google 2026](/pt/docs/google-generative-ai-search-guide-2026/): a Pesquisa do Google não precisa de arquivos apenas de IA para visibilidade, embora os agentes ainda possam se beneficiar deles.
 
 ## GLM-5.2 versus implantação de agente local
 

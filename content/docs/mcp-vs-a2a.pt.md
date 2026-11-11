@@ -47,7 +47,7 @@ O MCP é a melhor primeira escolha quando um agente precisa de:
 - desencadear ações limitadas
 - trabalhar com as capacidades de um sistema através de uma interface consistente
 
-É por isso que o MCP aparece com tanta frequência na [camada de execução](/es/docs/execution-layer/) e no [guia MCP vs API](/es/docs/mcp-vs-api-for-agents/).
+É por isso que o MCP aparece com tanta frequência na [camada de execução](/pt/docs/execution-layer/) e no [guia MCP vs API](/pt/docs/mcp-vs-api-for-agents/).
 
 ## Use A2A quando
 
@@ -66,7 +66,7 @@ Exemplos:
 - agente de suporte delega verificação de identidade
 - O agente de orquestração coordena o atendimento, o pagamento e as mensagens.
 
-O [guia AEO multiagente](/es/docs/multi-agent-aeo/) explica por que isso é importante quando os fluxos de trabalho deixam de ser chamadas de etapa única.
+O [guia AEO multiagente](/pt/docs/multi-agent-aeo/) explica por que isso é importante quando os fluxos de trabalho deixam de ser chamadas de etapa única.
 
 ## Por que muitos sistemas precisam de ambos
 
@@ -113,7 +113,7 @@ Geralmente MCP, porque expõe imediatamente ferramentas e dados úteis. Adicione
 
 ### O A2A substitui os cartões de agente?
 
-Não. A descoberta de capacidade do agente e o compartilhamento de protocolo estão relacionados, mas são preocupações distintas. Consulte o [Guia do Cartão do Agente](/es/docs/agent-cards-a2a-protocol/).
+Não. A descoberta de capacidade do agente e o compartilhamento de protocolo estão relacionados, mas são preocupações distintas. Consulte o [Guia do Cartão do Agente](/pt/docs/agent-cards-a2a-protocol/).
 
 ### O MCP e o A2A podem compartilhar a mesma lógica de negócios?
 

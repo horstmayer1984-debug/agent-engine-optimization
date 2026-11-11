@@ -48,7 +48,7 @@ AEO は、AI システムがページをクロールできるかどうかだけ�
 - 許可された制限内でページを使用する
 - 必要に応じて安全な行動を完了する
 
-Content-Signal は、[AI Crawlers and robots.txt](/es/docs/ai-crawlers-robots-txt/) と [実行層](/es/docs/execution-layer/) の間にあります。これは、API、認証、価格設定、または同意に代わるものではありません。機械に優先的に軽いコーティングを与えます。
+Content-Signal は、[AI Crawlers and robots.txt](/ja/docs/ai-crawlers-robots-txt/) と [実行層](/ja/docs/execution-layer/) の間にあります。これは、API、認証、価格設定、または同意に代わるものではありません。機械に優先的に軽いコーティングを与えます。
 
 ## コンテンツ信号対 robots.txt 対 llms.txt
 
@@ -81,7 +81,7 @@ Content-Signal は、[AI Crawlers and robots.txt](/es/docs/ai-crawlers-robots-tx
 
 Content-Signal は優先シグナルであり、普遍的に強制できるメカニズムではありません。ロボットはそれを無視できます。 Cloudflare ルール、認証、署名されたリクエスト、レート制限、支払いプロトコルなどのインフラストラクチャが引き続き必要になる場合があります。
 
-商用アクセスについては、[エージェント支払いプロトコルの比較](/es/docs/agent-payment-protocols-compared/) および [x402 エージェント支払い](/es/docs/x402-agent-payments/) を参照してください。
+商用アクセスについては、[エージェント支払いプロトコルの比較](/ja/docs/agent-payment-protocols-compared/) および [x402 エージェント支払い](/ja/docs/x402-agent-payments/) を参照してください。
 
 ## 導入チェックリスト
 

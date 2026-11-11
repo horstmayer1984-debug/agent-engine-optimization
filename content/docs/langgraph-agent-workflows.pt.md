@@ -23,7 +23,7 @@ O plugin GitHub apareceu [langchain-ai/langgraph](https://github.com/langchain-a
 
 LangGraph é útil como uma indicação porque reflete para onde os sistemas de agentes estão indo: desde prompts únicos até fluxos de trabalho com estado e duradouros.
 
-Isso expande as ideias de [Orquestração e chicotes de agentes](/es/docs/agent-harnesses-orchestration/) e [Gerenciamento de vários agentes de IA](/es/docs/managing-multiple-ai-agents/).
+Isso expande as ideias de [Orquestração e chicotes de agentes](/pt/docs/agent-harnesses-orchestration/) e [Gerenciamento de vários agentes de IA](/pt/docs/managing-multiple-ai-agents/).
 
 ## Implicações AEO de agentes baseados em gráficos
 
@@ -50,7 +50,7 @@ Comece com mapas de tarefas, não com mapas de páginas.
 6. Publique status de erro e caminhos de recuperação.
 7. Registre o resultado final.
 
-Para negociação, isso se conecta a [Atribuição de Agente Comercial](/es/docs/agentic-commerce-attribution/) e [Mecanismos de Política de Agente Comercial](/es/docs/merchant-agent-policy-engine/).
+Para negociação, isso se conecta a [Atribuição de Agente Comercial](/pt/docs/agentic-commerce-attribution/) e [Mecanismos de Política de Agente Comercial](/pt/docs/merchant-agent-policy-engine/).
 
 ##Lista de verificação de SEO para fluxo de trabalho
 

@@ -23,7 +23,7 @@ Google は、ユーザーが検索と相互に音声会話を行い、ウェブ�
 
 Google のより広範な [AI 機能ドキュメント] (https://developers.google.com/search/docs/appearance/ai-features) では、AI モードが複雑な比較や探索的な質問を処理できることも説明されています。
 
-コンテキストについては、[Google AI SEO](/es/docs/google-ai-mode-seo/)、[AI 検索最適化](/es/docs/ai-search-optimization/)、および [アクション レスポンス](/es/docs/from-answers-to-actions/) を参照してください。
+コンテキストについては、[Google AI SEO](/ja/docs/google-ai-mode-seo/)、[AI 検索最適化](/ja/docs/ai-search-optimization/)、および [アクション レスポンス](/ja/docs/from-answers-to-actions/) を参照してください。
 
 ## Search Live が検索動作を変える理由
 
@@ -73,7 +73,7 @@ Search Live では、次の 3 つの AEO 要件がより重要になります。
 2. **タスクの継続性:** 説明から比較、実装へのリンク。
 3. **アクションの準備:** ユーザーまたはエージェントが次に実行できることを示します。
 
-[実行層](/es/docs/execution-layer/) は、検索ライブ スタイルの検出が最終的にツール、API、支払い、予約、またはサポート ワークフローにつながる場所です。
+[実行層](/ja/docs/execution-layer/) は、検索ライブ スタイルの検出が最終的にツール、API、支払い、予約、またはサポート ワークフローにつながる場所です。
 
 ## 最適化チェックリスト|ページ要素 |検索フレンドリーな生活改善 |
 |
@@ -101,7 +101,7 @@ Search Live では、次の 3 つの AEO 要件がより重要になります。
 - 画像内の重要な情報を非表示にします
 - CDN 層で重要なトラッカーをブロックします
 
-インフラストラクチャの変更後は、[AI トラッカー アクセス ガイド](/es/docs/ai-crawlers-robots-txt/) を確認する価値があります。
+インフラストラクチャの変更後は、[AI トラッカー アクセス ガイド](/ja/docs/ai-crawlers-robots-txt/) を確認する価値があります。
 
 ## よくある質問
 

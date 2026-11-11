@@ -4,7 +4,6 @@ date: 2026-04-12
 weight: 61
 category: "Architecture"
 description: "Vergleichen Sie MCPs und APIs für KI-Agenten, einschließlich Toolerkennung, strukturiertem Kontext, Authentifizierung und Workflows."
-metaDescription: "Compare MCP y API para agentes de IA: descubrimiento dinámico, esquemas de herramientas tipificados, patrones de interacción y cuándo encaja cada enfoque."
 summary: "APIs erfordern eine hartcodierte Integration. Mit MCP können Agenten ihre Tools dynamisch erkennen und aufrufen. In diesem Leitfaden werden die Unterschiede erläutert, wann sie jeweils zutreffen und wie MCP zu vorhandenen APIs hinzugefügt wird."
 keywords:
   - "MCP vs. API"
@@ -77,7 +76,7 @@ Verwenden Sie LangGraph oder CrewAI, um einen Testagenten zu erstellen, der Ihre
 
 Stellen Sie nur eine REST-API ohne MCP-Wrapper bereit und erwarten Sie, dass Agenten sie verwenden. Einige Agenten können mit gut dokumentierten REST-APIs arbeiten, aber die Integration ist fragil und erfordert, dass der Agent die Dokumentation interpretiert, anstatt Funktionen programmgesteuert zu entdecken. Lösung: Fügen Sie einen MCP-Wrapper um Ihre vorhandene API hinzu. Dies dauert bei den meisten Systemen weniger als einen Tag und ermöglicht es jedem MCP-kompatiblen Agenten, sofort Ihren gesamten API-Footprint zu ermitteln.
 
-Der [Agent Website Programming Guide](/es/docs/programming-websites-for-ai-agents/) deckt den breiteren technischen Stack ab. Der [Artikel zur Ausführungsschicht](/es/docs/execution-layer/) erklärt, warum MCP für die AEO-Architektur wichtig ist.
+Der [Agent Website Programming Guide](/de/docs/programming-websites-for-ai-agents/) deckt den breiteren technischen Stack ab. Der [Artikel zur Ausführungsschicht](/de/docs/execution-layer/) erklärt, warum MCP für die AEO-Architektur wichtig ist.
 
 ---
 
@@ -98,7 +97,7 @@ Nein. Auch eine einfache Website mit Kontaktformular und Preisseite profitiert v
 
 ## Verwandte Anleitungen
 
-* [AI-Agent-Protokolle](/es/docs/protocols/)
+* [AI-Agent-Protokolle](/de/docs/protocols/)
 
 ## Primäre Referenzen
 

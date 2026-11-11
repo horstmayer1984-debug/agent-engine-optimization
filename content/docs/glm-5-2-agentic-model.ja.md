@@ -35,7 +35,7 @@ GLM 研究パスには、コーディングとエージェント エンジニア
 |ツールの使用に興味がある |ツール スキームとエラー状態は明示的である必要があります。 |
 |多言語サポート |エンティティ名とポリシーは言語間で一貫している必要があります。 |
 
-これは、[AEO 開発者ガイド](/es/docs/developers-guide-aeo/) および [エージェント対応 Web アプリ](/es/docs/agent-ready-web-apps/) に接続します。
+これは、[AEO 開発者ガイド](/ja/docs/developers-guide-aeo/) および [エージェント対応 Web アプリ](/ja/docs/agent-ready-web-apps/) に接続します。
 
 ## してはいけないこと
 
@@ -52,7 +52,7 @@ GLM 研究パスには、コーディングとエージェント エンジニア
 7. 監査ログ。
 8. エージェントが使用する現在の「llms.txt」。
 
-クロールについては、[2026 Google Generative AI Search Guide](/es/docs/google-generative-ai-search-guide-2026/) を検討してください。Google 検索では、AI のみのファイルを可視化する必要はありませんが、エージェントは AI のみのファイルから恩恵を受けることができます。
+クロールについては、[2026 Google Generative AI Search Guide](/ja/docs/google-generative-ai-search-guide-2026/) を検討してください。Google 検索では、AI のみのファイルを可視化する必要はありませんが、エージェントは AI のみのファイルから恩恵を受けることができます。
 
 ## GLM-5.2 とローカル エージェントの展開の比較
 

@@ -5,7 +5,6 @@ date: 2026-03-22
 weight: 30
 category: "Guide"
 description: "Um guia prático para iniciantes para implementar otimização de mecanismo responsivo para comércio eletrônico. Abrange auditorias de conteúdo."
-metaDescription: "Inicie AEO para comercio electrónico con auditorías de contenido, marcado de esquema, páginas de productos de respuesta primero, acceso de rastreador."
 summary: "AEO torna os sites de comércio eletrônico visíveis em respostas geradas por IA. Este guia percorre cada etapa, desde a auditoria de conteúdo até o rastreamento de citações, com exemplos concretos para lojas online."
 keywords:
   - "Guia para iniciantes em comércio eletrônico AEO"
@@ -113,9 +112,9 @@ A marcação de esquema e a reestruturação de conteúdo baseada em respostas g
 
 ## Guias relacionados
 
-* [arquitetura de negociação do agente](/es/docs/agentic-commerce/)
-* [protocolos de pagamento do agente](/es/docs/agent-payment-protocols-compared/)
-* [camada de execução](/es/docs/execution-layer/)
+* [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
+* [protocolos de pagamento do agente](/pt/docs/agent-payment-protocols-compared/)
+* [camada de execução](/pt/docs/execution-layer/)
 
 ## Referências primárias
 
