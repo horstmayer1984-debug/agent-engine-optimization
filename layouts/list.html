@@ -14,8 +14,8 @@
   </header>
   {{ $bodyContent | safeHTML }}
   {{ if .Pages }}
-  <h2>Guides and Resources</h2>
-  <p>Use this index to find core frameworks, protocol explainers, industry guides, payment pages, and implementation checklists.</p>
+  <h2>{{ if eq .Language.Lang "de" }}Leitfäden &amp; Ressourcen{{ else if eq .Language.Lang "ja" }}ガイドとリソース{{ else if eq .Language.Lang "es" }}Guías y Recursos{{ else if eq .Language.Lang "pt" }}Guias e Recursos{{ else }}Guides and Resources{{ end }}</h2>
+  <p>{{ if eq .Language.Lang "de" }}Nutzen Sie diesen Index, um Kern-Frameworks, Protokoll-Erklärungen, Branchen-Leitfäden und Checklisten zu finden.{{ else if eq .Language.Lang "ja" }}このインデックスを使用して、コアフレームワーク、プロトコル解説、業界ガイド、実装チェックリストを見つけてください。{{ else if eq .Language.Lang "es" }}Usa este índice para encontrar marcos principales, explicaciones de protocolos, guías de industria y listas de verificación.{{ else if eq .Language.Lang "pt" }}Use este índice para encontrar estruturas principais, explicações de protocolos, guias de setores e listas práticas.{{ else }}Use this index to find core frameworks, protocol explainers, industry guides, payment pages, and implementation checklists.{{ end }}</p>
   <div class="resource-grid">
     {{ range .Pages.ByWeight }}
     <a class="resource-card" href="{{ .RelPermalink }}">
@@ -25,12 +25,12 @@
     </a>
     {{ end }}
   </div>
-  <h2>Recommended Starting Points</h2>
+  <h2>{{ if eq .Language.Lang "de" }}Empfohlene Einstiegspunkte{{ else if eq .Language.Lang "ja" }}おすすめのスタート地点{{ else if eq .Language.Lang "es" }}Puntos de partida recomendados{{ else if eq .Language.Lang "pt" }}Pontos de partida recomendados{{ else }}Recommended Starting Points{{ end }}</h2>
   <nav class="subpage-nav" aria-label="Recommended starting points">
-    <a href="/docs/what-is-aeo/"><small>01</small><strong>Definition</strong><span>What AEO is</span></a>
-    <a href="/docs/execution-layer/"><small>02</small><strong>Execution Layer</strong><span>How agents act</span></a>
-    <a href="/docs/implement-aeo/"><small>03</small><strong>Implementation</strong><span>How to build it</span></a>
-    <a href="/docs/audit/"><small>04</small><strong>Audit</strong><span>Assess readiness</span></a>
+    <a href="{{ "/docs/what-is-aeo/" | relLangURL }}"><small>01</small><strong>{{ if eq .Language.Lang "es" }}Marco{{ else if eq .Language.Lang "pt" }}Estrutura{{ else if eq .Language.Lang "ja" }}フレームワーク{{ else }}Definition{{ end }}</strong><span>{{ if eq .Language.Lang "de" }}Was AEO ist{{ else if eq .Language.Lang "es" }}Qué es AEO{{ else if eq .Language.Lang "pt" }}O que é AEO{{ else if eq .Language.Lang "ja" }}AEOの定義{{ else }}What AEO is{{ end }}</span></a>
+    <a href="{{ "/docs/execution-layer/" | relLangURL }}"><small>02</small><strong>{{ if eq .Language.Lang "de" }}Protokolle{{ else if eq .Language.Lang "ja" }}プロトコル{{ else }}Execution Layer{{ end }}</strong><span>{{ if eq .Language.Lang "de" }}Wie Agenten handeln{{ else if eq .Language.Lang "es" }}Cómo actúan los agentes{{ else if eq .Language.Lang "pt" }}Como os agentes agem{{ else if eq .Language.Lang "ja" }}エージェントの動作{{ else }}How agents act{{ end }}</span></a>
+    <a href="{{ "/docs/implement-aeo/" | relLangURL }}"><small>03</small><strong>{{ if eq .Language.Lang "de" }}Leitfäden{{ else if eq .Language.Lang "es" }}Guías{{ else if eq .Language.Lang "pt" }}Guias{{ else if eq .Language.Lang "ja" }}ガイド{{ else }}Implementation{{ end }}</strong><span>{{ if eq .Language.Lang "de" }}Wie man es baut{{ else if eq .Language.Lang "es" }}Cómo construirlo{{ else if eq .Language.Lang "pt" }}Como implementar{{ else if eq .Language.Lang "ja" }}実装方法{{ else }}How to build it{{ end }}</span></a>
+    <a href="{{ "/docs/audit/" | relLangURL }}"><small>04</small><strong>Audit</strong><span>{{ if eq .Language.Lang "de" }}Bereitschaft prüfen{{ else if eq .Language.Lang "es" }}Evaluar preparación{{ else if eq .Language.Lang "pt" }}Avaliar prontidão{{ else if eq .Language.Lang "ja" }}準備状況の評価{{ else }}Assess readiness{{ end }}</span></a>
   </nav>
   {{ end }}
 </article>

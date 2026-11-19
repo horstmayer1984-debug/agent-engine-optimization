@@ -1,13 +1,13 @@
-<footer class="book-footer" style="padding:34px 24px 46px; border-top:1px solid #dbe2e8;">
+<footer class="book-footer" style="padding:34px 24px 46px; border-top:1px solid var(--border);">
   <div style="display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; max-width:1120px; margin:0 auto;">
-    <p style="margin:0; font-size:.8rem; color:#7c8790;">&copy; 2026 Agent Engine Optimization</p>
+    <p style="margin:0; font-size:.8rem; color:var(--text-dim);">&copy; 2026 Agent Engine Optimization</p>
     <nav style="display:flex; gap:18px; flex-wrap:wrap;">
-      <a href="/docs/about/" style="font-size:.8rem; color:#7c8790;">About</a>
-      <a href="/tools/aeo-readiness-checker.html" style="font-size:.8rem; color:#7c8790;">Checker</a>
-      <a href="/docs/audit/" style="font-size:.8rem; color:#7c8790;">Audit</a>
-      <a href="/docs/privacy/" style="font-size:.8rem; color:#7c8790;">Privacy</a>
-      <a href="/docs/disclaimer/" style="font-size:.8rem; color:#7c8790;">Disclaimer</a>
-      <a href="/sitemap.xml" style="font-size:.8rem; color:#7c8790;">Sitemap</a>
+      <a href="{{ "/docs/about/" | relLangURL }}" style="font-size:.8rem; color:var(--text-dim);">{{ if eq .Language.Lang "de" }}Über uns{{ else if eq .Language.Lang "es" }}Acerca de{{ else if eq .Language.Lang "pt" }}Sobre{{ else if eq .Language.Lang "ja" }}概要{{ else }}About{{ end }}</a>
+      <a href="/tools/aeo-readiness-checker.html" style="font-size:.8rem; color:var(--text-dim);">Checker</a>
+      <a href="{{ "/docs/audit/" | relLangURL }}" style="font-size:.8rem; color:var(--text-dim);">{{ if eq .Language.Lang "es" }}Auditoría{{ else if eq .Language.Lang "pt" }}Auditoria{{ else if eq .Language.Lang "ja" }}監査{{ else }}Audit{{ end }}</a>
+      <a href="{{ "/docs/privacy/" | relLangURL }}" style="font-size:.8rem; color:var(--text-dim);">{{ if eq .Language.Lang "de" }}Datenschutz{{ else if eq .Language.Lang "es" }}Privacidad{{ else if eq .Language.Lang "pt" }}Privacidade{{ else if eq .Language.Lang "ja" }}プライバシー{{ else }}Privacy{{ end }}</a>
+      <a href="{{ "/docs/disclaimer/" | relLangURL }}" style="font-size:.8rem; color:var(--text-dim);">{{ if eq .Language.Lang "de" }}Haftungsausschluss{{ else if eq .Language.Lang "es" }}Aviso legal{{ else if eq .Language.Lang "pt" }}Aviso legal{{ else if eq .Language.Lang "ja" }}免責事項{{ else }}Disclaimer{{ end }}</a>
+      <a href="/sitemap.xml" style="font-size:.8rem; color:var(--text-dim);">Sitemap</a>
     </nav>
   </div>
 </footer>

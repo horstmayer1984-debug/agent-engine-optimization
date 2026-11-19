@@ -16,7 +16,7 @@
     <p class="page-lede">{{ . }}</p>
     {{ end }}
     {{ if .Date }}
-    <p class="page-date">Updated {{ .Date.Format "January 2, 2006" }}</p>
+    <p class="page-date">{{ if eq .Language.Lang "de" }}Aktualisiert am {{ .Date.Format "02.01.2006" }}{{ else if eq .Language.Lang "ja" }}更新日 {{ .Date.Format "2006年1月2日" }}{{ else if eq .Language.Lang "es" }}Actualizado el {{ .Date.Format "02/01/2006" }}{{ else if eq .Language.Lang "pt" }}Atualizado em {{ .Date.Format "02/01/2006" }}{{ else }}Updated {{ .Date.Format "January 2, 2006" }}{{ end }}</p>
     {{ end }}
     <div class="page-actions">
       <button class="action-btn" type="button" id="copy-markdown-btn" aria-label="Copy page as Markdown">
@@ -28,16 +28,16 @@
   </header>
   {{ if gt (len .TableOfContents) 40 }}
   <nav class="on-page-toc" aria-label="Table of contents">
-    <div class="toc-title">Table of Contents</div>
+    <div class="toc-title">{{ if eq .Language.Lang "de" }}Inhaltsverzeichnis{{ else if eq .Language.Lang "ja" }}目次{{ else if eq .Language.Lang "es" }}Tabla de contenidos{{ else if eq .Language.Lang "pt" }}Índice de conteúdo{{ else }}Table of Contents{{ end }}</div>
     {{ .TableOfContents }}
   </nav>
   {{ end }}
   {{ $bodyContent | safeHTML }}
   <nav class="subpage-nav" aria-label="Explore more">
-    <a href="/docs/what-is-aeo/"><small>01</small><strong>Framework</strong><span>Core definition</span></a>
-    <a href="/docs/execution-layer/"><small>02</small><strong>Protocols</strong><span>Execution layer</span></a>
-    <a href="/docs/implement-aeo/"><small>03</small><strong>Guides</strong><span>Implementation</span></a>
-    <a href="/tools/aeo-readiness-checker.html"><small>04</small><strong>Checker</strong><span>Readiness test</span></a>
+    <a href="{{ "/docs/what-is-aeo/" | relLangURL }}"><small>01</small><strong>{{ if eq .Language.Lang "es" }}Marco{{ else if eq .Language.Lang "pt" }}Estrutura{{ else if eq .Language.Lang "ja" }}フレームワーク{{ else }}Framework{{ end }}</strong><span>{{ if eq .Language.Lang "de" }}Kerndefinition{{ else if eq .Language.Lang "es" }}Definición clave{{ else if eq .Language.Lang "pt" }}Definição principal{{ else if eq .Language.Lang "ja" }}コア定義{{ else }}Core definition{{ end }}</span></a>
+    <a href="{{ "/docs/execution-layer/" | relLangURL }}"><small>02</small><strong>{{ if eq .Language.Lang "de" }}Protokolle{{ else if eq .Language.Lang "ja" }}プロトコル{{ else }}Protocols{{ end }}</strong><span>{{ if eq .Language.Lang "de" }}Ausführungsebene{{ else if eq .Language.Lang "es" }}Capa de ejecución{{ else if eq .Language.Lang "pt" }}Camada de execução{{ else if eq .Language.Lang "ja" }}実行レイヤー{{ else }}Execution layer{{ end }}</span></a>
+    <a href="{{ "/docs/implement-aeo/" | relLangURL }}"><small>03</small><strong>{{ if eq .Language.Lang "de" }}Leitfäden{{ else if eq .Language.Lang "es" }}Guías{{ else if eq .Language.Lang "pt" }}Guias{{ else if eq .Language.Lang "ja" }}ガイド{{ else }}Guides{{ end }}</strong><span>{{ if eq .Language.Lang "de" }}Implementierung{{ else if eq .Language.Lang "es" }}Implementación{{ else if eq .Language.Lang "pt" }}Implementação{{ else if eq .Language.Lang "ja" }}実装手順{{ else }}Implementation{{ end }}</span></a>
+    <a href="/tools/aeo-readiness-checker.html"><small>04</small><strong>Checker</strong><span>{{ if eq .Language.Lang "de" }}Bereitschaftstest{{ else if eq .Language.Lang "es" }}Test de preparación{{ else if eq .Language.Lang "pt" }}Teste de prontidão{{ else if eq .Language.Lang "ja" }}適合性テスト{{ else }}Readiness test{{ end }}</span></a>
   </nav>
 </article>
 {{ end }}
