@@ -1,0 +1,7 @@
+<aside class="callout callout-tip" role="note">
+  <div class="callout-header">
+    <span class="callout-badge">TIP</span>
+    {{ with .Get "title" }}<strong class="callout-title">{{ . }}</strong>{{ end }}
+  </div>
+  <div class="callout-body">{{ .Inner | markdownify }}</div>
+</aside>

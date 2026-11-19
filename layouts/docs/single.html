@@ -19,6 +19,12 @@
     <p class="page-date">Updated {{ .Date.Format "January 2, 2006" }}</p>
     {{ end }}
   </header>
+  {{ if gt (len .TableOfContents) 40 }}
+  <nav class="on-page-toc" aria-label="Table of contents">
+    <div class="toc-title">Table of Contents</div>
+    {{ .TableOfContents }}
+  </nav>
+  {{ end }}
   {{ $bodyContent | safeHTML }}
   <nav class="subpage-nav" aria-label="Explore more">
     <a href="/docs/what-is-aeo/"><small>01</small><strong>Framework</strong><span>Core definition</span></a>

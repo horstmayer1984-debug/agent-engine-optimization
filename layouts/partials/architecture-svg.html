@@ -1,0 +1,73 @@
+<div class="architecture-diagram" aria-label="AEO Architecture: SEO to GEO to AEO Protocol Stack">
+<svg viewBox="0 0 960 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agent Engine Optimization Architecture Stack">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="var(--accent)"/>
+    </marker>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Connectors -->
+  <path d="M 290 160 L 334 160" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+  <path d="M 610 160 L 654 160" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+
+  <!-- Column 1: SEO -->
+  <g class="arch-col col-seo" transform="translate(20, 20)">
+    <rect width="270" height="280" rx="8" fill="var(--bg-elevated)" stroke="var(--border)" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="270" height="4" rx="2" fill="var(--text-dim)"/>
+    <text x="24" y="38" font-family="var(--font-mono)" font-size="11" font-weight="700" letter-spacing="0.1em" fill="var(--text-dim)" text-transform="uppercase">Phase 1</text>
+    <text x="24" y="66" font-family="var(--font-display)" font-size="20" font-weight="600" fill="var(--text)">SEO (Search)</text>
+    <text x="24" y="92" font-family="var(--font-body)" font-size="12" fill="var(--text-muted)">Human discovery via rankings</text>
+    
+    <line x1="24" y1="112" x2="246" y2="112" stroke="var(--border)" stroke-width="1"/>
+    
+    <text x="24" y="136" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--text)">Core Artifacts</text>
+    <text x="24" y="158" font-family="var(--font-body)" font-size="12" fill="var(--text-muted)">• HTML &amp; Metadata</text>
+    <text x="24" y="178" font-family="var(--font-body)" font-size="12" fill="var(--text-muted)">• XML Sitemaps</text>
+    <text x="24" y="198" font-family="var(--font-body)" font-size="12" fill="var(--text-muted)">• Backlinks &amp; PageRank</text>
+    
+    <rect x="24" y="226" width="222" height="34" rx="4" fill="var(--bg-subtle)" stroke="var(--border)" stroke-width="1"/>
+    <text x="36" y="247" font-family="var(--font-mono)" font-size="11" fill="var(--text-muted)">Outcome: SERP Clicks</text>
+  </g>
+
+  <!-- Column 2: GEO -->
+  <g class="arch-col col-geo" transform="translate(340, 20)">
+    <rect width="270" height="280" rx="8" fill="var(--bg-elevated)" stroke="var(--border)" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="270" height="4" rx="2" fill="var(--accent)"/>
+    <text x="24" y="38" font-family="var(--font-mono)" font-size="11" font-weight="700" letter-spacing="0.1em" fill="var(--accent-deep)" text-transform="uppercase">Phase 2</text>
+    <text x="24" y="66" font-family="var(--font-display)" font-size="20" font-weight="600" fill="var(--text)">GEO (Generative)</text>
+    <text x="24" y="92" font-family="var(--font-body)" font-size="12" fill="var(--text-muted)">AI knowledge &amp; answer synthesis</text>
+    
+    <line x1="24" y1="112" x2="246" y2="112" stroke="var(--border)" stroke-width="1"/>
+    
+    <text x="24" y="136" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--text)">Core Artifacts</text>
+    <text x="24" y="158" font-family="var(--font-body)" font-size="12" fill="var(--text-muted)">• Schema.org JSON-LD</text>
+    <text x="24" y="178" font-family="var(--font-body)" font-size="12" fill="var(--text-muted)">• Answer-First Prose</text>
+    <text x="24" y="198" font-family="var(--font-body)" font-size="12" fill="var(--text-muted)">• Authoritative Citations</text>
+    
+    <rect x="24" y="226" width="222" height="34" rx="4" fill="var(--bg-subtle)" stroke="var(--border)" stroke-width="1"/>
+    <text x="36" y="247" font-family="var(--font-mono)" font-size="11" fill="var(--accent-deep)">Outcome: AI Citations</text>
+  </g>
+
+  <!-- Column 3: AEO -->
+  <g class="arch-col col-aeo" transform="translate(660, 20)">
+    <rect width="280" height="280" rx="8" fill="var(--bg-elevated)" stroke="var(--accent)" stroke-width="2" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="280" height="6" rx="2" fill="var(--accent)"/>
+    <text x="24" y="38" font-family="var(--font-mono)" font-size="11" font-weight="700" letter-spacing="0.1em" fill="var(--accent)" text-transform="uppercase">Phase 3 • Full Stack</text>
+    <text x="24" y="66" font-family="var(--font-display)" font-size="20" font-weight="600" fill="var(--text)">AEO (Agent Engine)</text>
+    <text x="24" y="92" font-family="var(--font-body)" font-size="12" fill="var(--text-muted)">Autonomous task execution</text>
+    
+    <line x1="24" y1="112" x2="256" y2="112" stroke="var(--border)" stroke-width="1"/>
+    
+    <text x="24" y="136" font-family="var(--font-mono)" font-size="11" font-weight="600" fill="var(--accent-deep)">AEO Protocol Stack</text>
+    <text x="24" y="158" font-family="var(--font-body)" font-size="12" fill="var(--text)">• Discovery: llms.txt &amp; Manifests</text>
+    <text x="24" y="178" font-family="var(--font-body)" font-size="12" fill="var(--text)">• Read: Structured Entities</text>
+    <text x="24" y="198" font-family="var(--font-body)" font-size="12" fill="var(--text)">• Action: OpenAPI &amp; MCP Protocols</text>
+    
+    <rect x="24" y="226" width="232" height="34" rx="4" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1"/>
+    <text x="36" y="247" font-family="var(--font-mono)" font-size="11" font-weight="700" fill="var(--accent-deep)">Outcome: Agent Execution</text>
+  </g>
+</svg>
+</div>

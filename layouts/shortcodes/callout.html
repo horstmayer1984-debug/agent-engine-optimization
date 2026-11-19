@@ -1,0 +1,11 @@
+{{- $type := or (.Get 0) (.Get "type") "note" -}}
+{{- $title := or (.Get "title") ($type | humanize) -}}
+<aside class="callout callout-{{ $type }}" role="note">
+  <div class="callout-header">
+    <span class="callout-badge">{{ $type | upper }}</span>
+    {{ with $title }}<strong class="callout-title">{{ . }}</strong>{{ end }}
+  </div>
+  <div class="callout-body">
+    {{ .Inner | markdownify }}
+  </div>
+</aside>

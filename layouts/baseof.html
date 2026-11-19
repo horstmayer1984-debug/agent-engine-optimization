@@ -48,6 +48,25 @@
       </nav>
     </div>
   </footer>
-  <script>(function(){document.addEventListener('click',function(e){var b=e.target.closest('.theme-toggle');if(!b)return;e.preventDefault();var c=document.documentElement.getAttribute('data-theme'),d=c==='dark'||(!c&&window.matchMedia('(prefers-color-scheme: dark)').matches),n=d?'light':'dark';document.documentElement.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(x){}});})();</script>
+  <script>
+  (function(){
+    document.addEventListener('click',function(e){var b=e.target.closest('.theme-toggle');if(!b)return;e.preventDefault();var c=document.documentElement.getAttribute('data-theme'),d=c==='dark'||(!c&&window.matchMedia('(prefers-color-scheme: dark)').matches),n=d?'light':'dark';document.documentElement.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(x){}});
+    document.querySelectorAll('.markdown pre, .book-article pre').forEach(function(pre){
+      if(pre.parentNode.classList.contains('code-block-wrapper'))return;
+      var w=document.createElement('div');w.className='code-block-wrapper';
+      pre.parentNode.insertBefore(w,pre);w.appendChild(pre);
+      var b=document.createElement('button');b.className='copy-code-btn';b.type='button';b.textContent='Copy';
+      b.setAttribute('aria-label','Copy code to clipboard');
+      b.addEventListener('click',function(){
+        var code=pre.querySelector('code');var txt=code?code.innerText:pre.innerText;
+        navigator.clipboard.writeText(txt).then(function(){
+          b.textContent='Copied!';b.classList.add('copied');
+          setTimeout(function(){b.textContent='Copy';b.classList.remove('copied');},2000);
+        });
+      });
+      w.appendChild(b);
+    });
+  })();
+  </script>
 </body>
 </html>
