@@ -9,31 +9,127 @@
 <link rel="canonical" href="https://agent-engine-optimization.com/tools/aeo-readiness-checker.html">
 <link rel="alternate" hreflang="en" href="https://agent-engine-optimization.com/tools/aeo-readiness-checker.html">
 <link rel="alternate" hreflang="x-default" href="https://agent-engine-optimization.com/tools/aeo-readiness-checker.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://agent-engine-optimization.com/tools/aeo-readiness-checker.html">
+<meta property="og:title" content="AEO Readiness Checker: Free Agent-Ready Website Score">
+<meta property="og:description" content="Free AEO Readiness Checker for discovery, structured data, execution-layer readiness, trust signals, and agent-friendly infrastructure.">
 <meta property="og:image" content="https://agent-engine-optimization.com/images/og-default.png">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AEO Readiness Checker: Free Agent-Ready Website Score">
+<meta name="twitter:description" content="Free AEO Readiness Checker for discovery, structured data, execution-layer readiness, trust signals, and agent-friendly infrastructure.">
+<meta name="twitter:image" content="https://agent-engine-optimization.com/images/og-default.png">
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/fonts/fonts.css">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#f8f7f3;--bg-elevated:#fffdf9;--bg-subtle:#f1f4f7;--border:#dbe2e8;--border-strong:#bfd0dc;--text:#111315;--text-muted:#4e5963;--text-dim:#7c8790;--accent:#168bc2;--accent-deep:#0f6e9c;--accent-soft:#168bc214}
-body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif}
+:root{
+  --bg:#f8f7f3;
+  --bg-elevated:#fffdf9;
+  --bg-subtle:#f1f4f7;
+  --border:#dbe2e8;
+  --border-strong:#bfd0dc;
+  --text:#111315;
+  --text-muted:#4e5963;
+  --text-dim:#7c8790;
+  --accent:#168bc2;
+  --accent-deep:#0f6e9c;
+  --accent-soft:#168bc214;
+  --font-display:'Fraunces',serif;
+  --font-body:'Inter',system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#0d1117;
+    --bg-elevated:#161b22;
+    --bg-subtle:#1f242c;
+    --border:#30363d;
+    --border-strong:#484f58;
+    --text:#f0f6fc;
+    --text-muted:#8b949e;
+    --text-dim:#6e7681;
+    --accent:#38bdf8;
+    --accent-deep:#0ea5e9;
+    --accent-soft:#38bdf814;
+  }
+}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;line-height:1.6}
 a{color:var(--accent-deep);text-decoration:none}
 a:hover{color:var(--accent)}
-.site-nav{border-bottom:1px solid var(--border);padding:0 24px}
+.site-nav{border-bottom:1px solid var(--border);padding:0 24px;background:color-mix(in srgb, var(--bg) 94%, transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);position:sticky;top:0;z-index:50}
 .site-nav-inner{width:100%;max-width:1120px;min-height:88px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
 .site-brand{display:inline-flex;align-items:center;gap:12px;color:var(--text)}
-.site-brand strong{font-family:'Fraunces',serif;font-size:2rem;font-weight:500;letter-spacing:-.04em}
+.site-brand strong{font-family:var(--font-display);font-size:2rem;font-weight:500;letter-spacing:-.04em}
 .site-brand span{display:grid;gap:1px;font-size:.7rem;line-height:1.15;letter-spacing:.24em;text-transform:uppercase;font-weight:600}
 .site-links{display:flex;gap:18px;flex-wrap:wrap;font-size:.82rem;color:var(--text-muted)}
-.seo-static-intro{width:100%;max-width:760px;margin:0 auto;padding:42px 24px 0;color:var(--text);font-family:'Inter',system-ui,sans-serif}
-.page-meta{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-deep);margin-bottom:12px}
+.seo-static-intro{width:100%;max-width:760px;margin:0 auto;padding:42px 24px 0;color:var(--text)}
+.page-meta{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-mono);font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-deep);margin-bottom:12px}
 .page-meta::before{content:"";width:22px;height:1px;background:var(--accent)}
 .seo-static-intro-inner{padding-bottom:28px;border-bottom:1px solid var(--border)}
-.seo-static-intro h1{font-family:'Fraunces',serif;font-size:2.8rem;line-height:1.08;color:var(--text);margin:0 0 14px;font-weight:500}
+.seo-static-intro h1{font-family:var(--font-display);font-size:2.8rem;line-height:1.08;color:var(--text);margin:0 0 14px;font-weight:500}
 .seo-static-intro p{font-size:1rem;line-height:1.7;color:var(--text-muted);margin:0 0 12px}
 .seo-static-intro nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px;font-size:.95rem}
 .seo-static-intro nav a{display:inline-flex;align-items:center;gap:10px;border-bottom:1px solid currentColor;padding-bottom:5px}
+.checker-wrap{max-width:760px;margin:0 auto;padding:36px 24px 64px}
+.checker-field{margin-bottom:32px}
+.checker-label{display:block;font-size:12px;font-weight:600;color:var(--text-dim);margin-bottom:8px;text-transform:uppercase;letter-spacing:0.08em;font-family:var(--font-mono)}
+.checker-input{width:100%;padding:12px 16px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:4px;color:var(--text);font-size:15px;font-family:var(--font-mono);outline:none;transition:border-color .15s}
+.checker-input:focus{border-color:var(--accent)}
+.cat-pills{display:flex;gap:8px;margin-bottom:28px;flex-wrap:wrap}
+.cat-pill{padding:7px 14px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:20px;color:var(--text-muted);font-size:13px;font-weight:500;cursor:pointer;font-family:inherit;transition:all .15s}
+.cat-pill:hover{border-color:var(--border-strong);color:var(--text)}
+.cat-pill.active{font-weight:600}
+.cat-group{margin-bottom:32px}
+.cat-header{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.cat-dot{width:8px;height:8px;border-radius:50%}
+.cat-title{font-size:13px;font-weight:600;color:var(--text);margin:0;text-transform:uppercase;letter-spacing:0.08em;font-family:var(--font-mono)}
+.check-item{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:14px 16px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:6px;margin-bottom:8px;transition:all .15s}
+.check-item.state-yes{background:rgba(16,185,129,0.06);border-color:rgba(16,185,129,0.35)}
+.check-item.state-partial{background:rgba(245,158,11,0.06);border-color:rgba(245,158,11,0.35)}
+.check-item.state-no{background:rgba(239,68,68,0.06);border-color:rgba(239,68,68,0.35)}
+.check-info{flex:1;min-width:0}
+.check-header{display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap}
+.check-label{font-size:14px;font-weight:600;color:var(--text);font-family:var(--font-mono)}
+.check-weight{font-size:10px;font-weight:700;color:var(--text-dim);background:var(--bg-subtle);padding:2px 6px;border-radius:3px;font-family:var(--font-mono)}
+.check-desc{font-size:12px;color:var(--text-muted);line-height:1.45}
+.check-actions{display:flex;gap:4px;flex-shrink:0}
+.opt-btn{padding:6px 11px;font-size:11px;font-weight:500;background:transparent;border:1px solid var(--border-strong);border-radius:4px;color:var(--text-muted);cursor:pointer;font-family:inherit;text-transform:capitalize;transition:all .15s}
+.opt-btn:hover{color:var(--text);border-color:var(--text-dim)}
+.opt-btn.active.opt-yes{background:rgba(16,185,129,0.14);border-color:rgba(16,185,129,0.5);color:#10b981;font-weight:700}
+.opt-btn.active.opt-partial{background:rgba(245,158,11,0.14);border-color:rgba(245,158,11,0.5);color:#f59e0b;font-weight:700}
+.opt-btn.active.opt-no{background:rgba(239,68,68,0.14);border-color:rgba(239,68,68,0.5);color:#ef4444;font-weight:700}
+.results-card{margin-top:36px;padding:32px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,0.04)}
+.results-main{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:24px}
+.score-lead{font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dim);margin-bottom:8px;font-family:var(--font-mono)}
+.score-row{display:flex;align-items:baseline;gap:12px}
+.score-number{font-size:58px;font-weight:700;line-height:1;font-family:var(--font-mono)}
+.score-grade{font-size:22px;font-weight:700}
+.score-label{font-size:14px;color:var(--text-muted);margin-top:6px;font-weight:500}
+.cat-bars{display:flex;flex-direction:column;gap:10px;min-width:240px;flex:1;max-width:340px}
+.cat-bar-row{display:flex;align-items:center;gap:10px}
+.cat-bar-name{font-size:11px;color:var(--text-dim);width:96px;text-align:right}
+.cat-bar-track{flex:1;height:6px;background:var(--bg-subtle);border-radius:3px;overflow:hidden}
+.cat-bar-fill{height:100%;border-radius:3px;transition:width 0.4s ease}
+.cat-bar-val{font-size:11px;color:var(--text);font-family:var(--font-mono);width:34px;text-align:right;font-weight:600}
+.missing-section{border-top:1px solid var(--border);padding-top:20px;margin-top:20px}
+.missing-title{font-size:11px;font-weight:700;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:12px;font-family:var(--font-mono)}
+.missing-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border)}
+.missing-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.missing-label{font-size:13px;color:var(--text);flex:1}
+.missing-pts{font-size:11px;color:var(--text-dim);font-family:var(--font-mono);font-weight:600}
+.feedback-text{border-top:1px solid var(--border);padding-top:20px;margin-top:20px;font-size:13px;color:var(--text-muted);line-height:1.7}
+.action-buttons{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap}
+.btn-primary{padding:10px 20px;background:var(--accent);color:#fff;border:1px solid var(--accent);font-size:13px;font-weight:600;border-radius:4px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;transition:background .15s}
+.btn-primary:hover{background:var(--accent-deep);color:#fff}
+.btn-secondary{padding:10px 20px;background:transparent;color:var(--accent-deep);border:1px solid var(--border-strong);font-size:13px;font-weight:600;border-radius:4px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;transition:all .15s}
+.btn-secondary:hover{border-color:var(--accent);color:var(--accent)}
+.btn-reset{padding:10px 20px;background:transparent;color:var(--text-muted);border:1px solid var(--border);font-size:13px;border-radius:4px;cursor:pointer;font-family:inherit;transition:all .15s}
+.btn-reset:hover{color:var(--text);border-color:var(--border-strong)}
+.prompt-hint{text-align:center;padding:28px 0;color:var(--text-dim);font-size:13px}
+.credit-line{margin-top:48px;padding-top:24px;border-top:1px solid var(--border);text-align:center;font-size:12px;color:var(--text-dim)}
 .checker-footer{max-width:1120px;margin:0 auto;padding:34px 24px 46px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 .checker-footer nav{display:flex;gap:18px;flex-wrap:wrap}
 .checker-footer a{font-size:.8rem;color:var(--text-dim)}
@@ -41,12 +137,18 @@ a:hover{color:var(--accent)}
 @media(max-width:700px){
   html,body{width:100%;max-width:100%}
   body{overflow-x:hidden}
-  .site-nav{padding:0 24px}
-  .site-nav-inner{width:100%;min-height:auto;padding:22px 0;align-items:flex-start;flex-direction:column}
+  .site-nav{padding:0 20px}
+  .site-nav-inner{width:100%;min-height:auto;padding:20px 0;align-items:flex-start;flex-direction:column}
   .site-links{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 18px}
-  .seo-static-intro{padding-top:34px}
-  .seo-static-intro h1{font-size:2rem}
+  .seo-static-intro{padding-top:32px}
+  .seo-static-intro h1{font-size:2.1rem}
   .seo-static-intro p{overflow-wrap:anywhere}
+  .checker-wrap{padding:24px 16px 48px}
+  .check-item{flex-direction:column;gap:12px}
+  .check-actions{align-self:flex-end}
+  .results-card{padding:20px}
+  .results-main{flex-direction:column;align-items:flex-start}
+  .cat-bars{width:100%;max-width:100%}
 }
 </style>
 </head>
@@ -80,146 +182,8 @@ a:hover{color:var(--accent)}
   </div>
 </section>
 
-<div id="root"></div>
-<script type="text/babel">
-const {useState,useCallback} = React;
+<div class="checker-wrap" id="app"></div>
 
-const CHECKS = [
-  {id:"llms_txt",label:"llms.txt",description:"Machine-readable site summary for AI agents",weight:20,category:"Discovery"},
-  {id:"agent_card",label:"agent-card.json",description:"Capability manifest for agent-to-agent collaboration",weight:12,category:"Discovery"},
-  {id:"robots_ai",label:"AI crawlers allowed in robots.txt",description:"GPTBot, ClaudeBot, PerplexityBot not blocked",weight:15,category:"Discovery"},
-  {id:"schema_org",label:"Schema.org structured data",description:"JSON-LD markup for products, services, or articles",weight:15,category:"Read Layer"},
-  {id:"answer_first",label:"Answer-first content structure",description:"Direct answer in the first 60 words of key pages",weight:10,category:"Read Layer"},
-  {id:"faq_schema",label:"FAQ sections with FAQPage schema",description:"Structured Q&A that agents can extract directly",weight:8,category:"Read Layer"},
-  {id:"api_endpoints",label:"Documented API endpoints",description:"Machine-callable actions (booking, pricing, availability)",weight:20,category:"Execution Layer"},
-  {id:"action_schema",label:"Action schema markup",description:"PotentialAction, BuyAction, or ReserveAction in JSON-LD",weight:10,category:"Execution Layer"},
-  {id:"realtime_data",label:"Real-time data feeds",description:"Live pricing, inventory, or availability via API",weight:15,category:"Execution Layer"},
-  {id:"mcp_server",label:"MCP server or protocol support",description:"Model Context Protocol for dynamic tool discovery",weight:12,category:"Execution Layer"},
-  {id:"idempotent",label:"Idempotent transaction endpoints",description:"Safe retry handling for agent-initiated actions",weight:10,category:"Trust Layer"},
-  {id:"policies_structured",label:"Machine-readable policies",description:"Return, cancellation, shipping terms as structured data",weight:10,category:"Trust Layer"},
-  {id:"error_responses",label:"Structured error responses",description:"JSON error objects with specific failure reasons",weight:8,category:"Trust Layer"},
-  {id:"feedback_endpoint",label:"Agent feedback endpoint",description:"Public endpoint where agents can report data issues",weight:5,category:"Trust Layer"},
-];
-
-const CATEGORIES = ["Discovery","Read Layer","Execution Layer","Trust Layer"];
-const CAT_COLORS = {Discovery:"#3b82f6","Read Layer":"#10b981","Execution Layer":"#f59e0b","Trust Layer":"#8b5cf6"};
-const GRADES = [
-  {min:90,grade:"A+",color:"#10b981",label:"Agent-Ready"},
-  {min:75,grade:"A",color:"#22c55e",label:"Strong Foundation"},
-  {min:60,grade:"B",color:"#84cc16",label:"Good Progress"},
-  {min:45,grade:"C",color:"#f59e0b",label:"Needs Work"},
-  {min:25,grade:"D",color:"#f97316",label:"Early Stage"},
-  {min:0,grade:"F",color:"#ef4444",label:"Not Agent-Ready"},
-];
-
-function App(){
-  const [url,setUrl]=useState("");
-  const [checks,setChecks]=useState({});
-  const [activeCat,setActiveCat]=useState(null);
-  const totalW=CHECKS.reduce((s,c)=>s+c.weight,0);
-  const score=CHECKS.reduce((s,c)=>{if(checks[c.id]==="yes")return s+c.weight;if(checks[c.id]==="partial")return s+Math.floor(c.weight*0.5);return s},0);
-  const norm=Math.round((score/totalW)*100);
-  const grade=GRADES.find(g=>norm>=g.min)||GRADES[GRADES.length-1];
-  const catScores=CATEGORIES.map(cat=>{const cc=CHECKS.filter(c=>c.category===cat);const t=cc.reduce((s,c)=>s+c.weight,0);const sc=cc.reduce((s,c)=>{if(checks[c.id]==="yes")return s+c.weight;if(checks[c.id]==="partial")return s+Math.floor(c.weight*0.5);return s},0);return{name:cat,score:t>0?Math.round(sc/t*100):0}});
-  const toggle=useCallback((id,v)=>setChecks(p=>({...p,[id]:p[id]===v?undefined:v})),[]);
-  const answered=Object.keys(checks).filter(k=>checks[k]).length;
-  const missing=CHECKS.filter(c=>c.weight>=12&&checks[c.id]!=="yes").sort((a,b)=>b.weight-a.weight);
-
-  return React.createElement("div",{style:{maxWidth:760,margin:"0 auto",padding:"48px 24px"}},
-    React.createElement("div",{style:{marginBottom:48}},
-      React.createElement("a",{href:"/",style:{fontSize:11,fontWeight:600,letterSpacing:"0.16em",textTransform:"uppercase",color:"#0f6e9c",textDecoration:"none",display:"block",marginBottom:12}},"Agent Engine Optimization"),
-      React.createElement("h1",{style:{fontFamily:"'Fraunces',serif",fontSize:"2.4rem",fontWeight:500,lineHeight:1.08,color:"#111315",margin:"0 0 12px"}},"AEO Readiness Checker"),
-      React.createElement("p",{style:{fontSize:"1rem",color:"#4e5963",lineHeight:1.7,margin:0}},"Evaluate whether your website is readable, actionable, and trustworthy for autonomous AI agents. Answer each check honestly — your score reflects how an agent would evaluate your infrastructure.")
-    ),
-    React.createElement("div",{style:{marginBottom:40}},
-      React.createElement("label",{style:{display:"block",fontSize:12,fontWeight:500,color:"#7c8790",marginBottom:6,textTransform:"uppercase",letterSpacing:"0.08em"}},"Website URL (optional)"),
-      React.createElement("input",{type:"text",value:url,onChange:e=>setUrl(e.target.value),placeholder:"https://yoursite.com",style:{width:"100%",padding:"12px 16px",background:"#fffdf9",border:"1px solid #dbe2e8",borderRadius:0,color:"#111315",fontSize:15,fontFamily:"'IBM Plex Mono',monospace",outline:"none",boxSizing:"border-box"}})
-    ),
-    React.createElement("div",{style:{display:"flex",gap:8,marginBottom:32,flexWrap:"wrap"}},
-      ...CATEGORIES.map(cat=>{const cs=catScores.find(c=>c.name===cat);const active=activeCat===cat;return React.createElement("button",{key:cat,onClick:()=>setActiveCat(active?null:cat),style:{padding:"8px 16px",background:active?CAT_COLORS[cat]+"14":"#fffdf9",border:"1px solid "+(active?CAT_COLORS[cat]+"70":"#dbe2e8"),borderRadius:20,color:active?CAT_COLORS[cat]:"#4e5963",fontSize:13,fontWeight:500,cursor:"pointer",fontFamily:"inherit"}},cat+(answered>0?" "+cs.score+"%":""))})
-    ),
-    ...CATEGORIES.filter(cat=>!activeCat||activeCat===cat).map(cat=>
-      React.createElement("div",{key:cat,style:{marginBottom:32}},
-        React.createElement("div",{style:{display:"flex",alignItems:"center",gap:10,marginBottom:16}},
-          React.createElement("div",{style:{width:8,height:8,borderRadius:"50%",background:CAT_COLORS[cat]}}),
-          React.createElement("h2",{style:{fontSize:14,fontWeight:600,color:"#111315",margin:0,textTransform:"uppercase",letterSpacing:"0.08em"}},cat)
-        ),
-        ...CHECKS.filter(c=>c.category===cat).map(check=>{
-          const val=checks[check.id];
-          return React.createElement("div",{key:check.id,style:{display:"flex",alignItems:"flex-start",justifyContent:"space-between",padding:"14px 16px",background:val==="yes"?"#10b98108":val==="no"?"#ef444408":"#fffdf9",border:"1px solid "+(val==="yes"?"#10b98130":val==="no"?"#ef444430":"#dbe2e8"),borderRadius:0,marginBottom:8}},
-            React.createElement("div",{style:{flex:1,minWidth:0}},
-              React.createElement("div",{style:{display:"flex",alignItems:"center",gap:8,marginBottom:4}},
-                React.createElement("span",{style:{fontSize:14,fontWeight:500,color:"#111315",fontFamily:"'IBM Plex Mono',monospace"}},check.label),
-                React.createElement("span",{style:{fontSize:10,fontWeight:700,color:"#7c8790",background:"#f1f4f7",padding:"2px 6px"}},check.weight+"pt")
-              ),
-              React.createElement("div",{style:{fontSize:12,color:"#4e5963",lineHeight:1.4}},check.description)
-            ),
-            React.createElement("div",{style:{display:"flex",gap:4,marginLeft:16,flexShrink:0}},
-              ...["yes","partial","no"].map(opt=>
-                React.createElement("button",{key:opt,onClick:()=>toggle(check.id,opt),style:{padding:"6px 10px",fontSize:11,fontWeight:val===opt?700:400,background:val===opt?(opt==="yes"?"#10b98114":opt==="partial"?"#f59e0b14":"#ef444414"):"transparent",border:"1px solid "+(val===opt?(opt==="yes"?"#10b98150":opt==="partial"?"#f59e0b50":"#ef444450"):"#bfd0dc"),borderRadius:0,color:val===opt?(opt==="yes"?"#10b981":opt==="partial"?"#f59e0b":"#ef4444"):"#4e5963",cursor:"pointer",fontFamily:"inherit",textTransform:"capitalize"}},opt)
-              )
-            )
-          )
-        })
-      )
-    ),
-    answered>=5&&React.createElement("div",{style:{marginTop:40,padding:32,background:"#fffdf9",border:"1px solid #dbe2e8",borderRadius:0}},
-      React.createElement("div",{style:{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:24,flexWrap:"wrap",gap:20}},
-        React.createElement("div",null,
-          React.createElement("div",{style:{fontSize:11,fontWeight:700,letterSpacing:"0.1em",textTransform:"uppercase",color:"#7c8790",marginBottom:8}},"AEO Readiness Score"),
-          React.createElement("div",{style:{display:"flex",alignItems:"baseline",gap:12}},
-            React.createElement("span",{style:{fontSize:56,fontWeight:700,color:grade.color,lineHeight:1,fontFamily:"'IBM Plex Mono',monospace"}},norm),
-            React.createElement("span",{style:{fontSize:20,fontWeight:700,color:grade.color}},grade.grade)
-          ),
-          React.createElement("div",{style:{fontSize:14,color:"#4e5963",marginTop:4}},grade.label)
-        ),
-        React.createElement("div",{style:{display:"flex",flexDirection:"column",gap:8,minWidth:200}},
-          ...catScores.map(cat=>
-            React.createElement("div",{key:cat.name,style:{display:"flex",alignItems:"center",gap:8}},
-              React.createElement("span",{style:{fontSize:11,color:"#7c8790",width:90,textAlign:"right"}},cat.name),
-              React.createElement("div",{style:{flex:1,height:6,background:"#f1f4f7",borderRadius:3,overflow:"hidden"}},
-                React.createElement("div",{style:{width:cat.score+"%",height:"100%",background:CAT_COLORS[cat.name],borderRadius:3,transition:"width 0.5s"}})
-              ),
-              React.createElement("span",{style:{fontSize:11,color:"#4e5963",fontFamily:"'IBM Plex Mono',monospace",width:32,textAlign:"right"}},cat.score+"%")
-            )
-          )
-        )
-      ),
-      missing.length>0&&React.createElement("div",{style:{borderTop:"1px solid #dbe2e8",paddingTop:20,marginTop:20}},
-        React.createElement("div",{style:{fontSize:12,fontWeight:700,color:"#7c8790",textTransform:"uppercase",letterSpacing:"0.08em",marginBottom:12}},"Highest Impact Missing"),
-        ...missing.slice(0,5).map(c=>
-          React.createElement("div",{key:c.id,style:{display:"flex",alignItems:"center",gap:10,padding:"8px 0",borderBottom:"1px solid #dbe2e8"}},
-            React.createElement("span",{style:{width:6,height:6,borderRadius:"50%",background:CAT_COLORS[c.category],flexShrink:0}}),
-            React.createElement("span",{style:{fontSize:13,color:"#111315",flex:1}},c.label),
-            React.createElement("span",{style:{fontSize:11,color:"#7c8790",fontFamily:"'IBM Plex Mono',monospace"}},"+"+c.weight+"pt")
-          )
-        )
-      ),
-      React.createElement("div",{style:{borderTop:"1px solid #dbe2e8",paddingTop:20,marginTop:20}},
-        React.createElement("p",{style:{fontSize:13,color:"#4e5963",lineHeight:1.7}},
-          norm>=75?"Your site has strong agent readiness. Focus on the execution layer and trust layer to reach excellence.":
-          norm>=45?"Your read layer is developing but the execution layer needs work. Agents can find you but may struggle to act through your infrastructure.":
-          "Your site is in early AEO stages. Start with llms.txt and schema markup (read layer), then build toward API endpoints (execution layer)."
-        )
-      ),
-      React.createElement("div",{style:{marginTop:20,display:"flex",gap:12,flexWrap:"wrap"}},
-        React.createElement("a",{href:"/docs/implement-aeo/",style:{padding:"10px 20px",background:"#168bc2",color:"#fff",border:"1px solid #168bc2",fontSize:13,fontWeight:600}},"Implementation Guide"),
-        React.createElement("a",{href:"/docs/audit/",style:{padding:"10px 20px",background:"transparent",color:"#0f6e9c",border:"1px solid #bfd0dc",fontSize:13,fontWeight:600}},"Professional Audit"),
-        React.createElement("button",{onClick:()=>{setChecks({});setUrl("");setActiveCat(null)},style:{padding:"10px 20px",background:"transparent",color:"#4e5963",border:"1px solid #bfd0dc",fontSize:13,cursor:"pointer",fontFamily:"inherit"}},"Reset")
-      )
-    ),
-    answered<5&&React.createElement("div",{style:{textAlign:"center",padding:"24px 0",color:"#7c8790",fontSize:13}},"Answer at least 5 checks to see your AEO Readiness Score ("+answered+"/5)"),
-    React.createElement("div",{style:{marginTop:48,paddingTop:24,borderTop:"1px solid #dbe2e8",textAlign:"center"}},
-      React.createElement("p",{style:{fontSize:12,color:"#7c8790"}},
-        "AEO Readiness Checker by ",
-        React.createElement("a",{href:"/"},"agent-engine-optimization.com")
-      )
-    )
-  );
-}
-
-ReactDOM.render(React.createElement(App),document.getElementById("root"));
-</script>
 <footer class="checker-footer">
   <p>&copy; 2026 Agent Engine Optimization</p>
   <nav>
@@ -231,5 +195,258 @@ ReactDOM.render(React.createElement(App),document.getElementById("root"));
     <a href="/sitemap.xml">Sitemap</a>
   </nav>
 </footer>
+
+<script>
+(function() {
+  var CHECKS = [
+    {id:"llms_txt",label:"llms.txt",description:"Machine-readable site summary for AI agents",weight:20,category:"Discovery"},
+    {id:"agent_card",label:"agent-card.json",description:"Capability manifest for agent-to-agent collaboration",weight:12,category:"Discovery"},
+    {id:"robots_ai",label:"AI crawlers allowed in robots.txt",description:"GPTBot, ClaudeBot, PerplexityBot not blocked",weight:15,category:"Discovery"},
+    {id:"schema_org",label:"Schema.org structured data",description:"JSON-LD markup for products, services, or articles",weight:15,category:"Read Layer"},
+    {id:"answer_first",label:"Answer-first content structure",description:"Direct answer in the first 60 words of key pages",weight:10,category:"Read Layer"},
+    {id:"faq_schema",label:"FAQ sections with FAQPage schema",description:"Structured Q&A that agents can extract directly",weight:8,category:"Read Layer"},
+    {id:"api_endpoints",label:"Documented API endpoints",description:"Machine-callable actions (booking, pricing, availability)",weight:20,category:"Execution Layer"},
+    {id:"action_schema",label:"Action schema markup",description:"PotentialAction, BuyAction, or ReserveAction in JSON-LD",weight:10,category:"Execution Layer"},
+    {id:"realtime_data",label:"Real-time data feeds",description:"Live pricing, inventory, or availability via API",weight:15,category:"Execution Layer"},
+    {id:"mcp_server",label:"MCP server or protocol support",description:"Model Context Protocol for dynamic tool discovery",weight:12,category:"Execution Layer"},
+    {id:"idempotent",label:"Idempotent transaction endpoints",description:"Safe retry handling for agent-initiated actions",weight:10,category:"Trust Layer"},
+    {id:"policies_structured",label:"Machine-readable policies",description:"Return, cancellation, shipping terms as structured data",weight:10,category:"Trust Layer"},
+    {id:"error_responses",label:"Structured error responses",description:"JSON error objects with specific failure reasons",weight:8,category:"Trust Layer"},
+    {id:"feedback_endpoint",label:"Agent feedback endpoint",description:"Public endpoint where agents can report data issues",weight:5,category:"Trust Layer"}
+  ];
+
+  var CATEGORIES = ["Discovery","Read Layer","Execution Layer","Trust Layer"];
+  var CAT_COLORS = {Discovery:"#3b82f6","Read Layer":"#10b981","Execution Layer":"#f59e0b","Trust Layer":"#8b5cf6"};
+  var GRADES = [
+    {min:90,grade:"A+",color:"#10b981",label:"Agent-Ready"},
+    {min:75,grade:"A",color:"#22c55e",label:"Strong Foundation"},
+    {min:60,grade:"B",color:"#84cc16",label:"Good Progress"},
+    {min:45,grade:"C",color:"#f59e0b",label:"Needs Work"},
+    {min:25,grade:"D",color:"#f97316",label:"Early Stage"},
+    {min:0,grade:"F",color:"#ef4444",label:"Not Agent-Ready"}
+  ];
+
+  var totalW = CHECKS.reduce(function(s, c) { return s + c.weight; }, 0);
+
+  var state = {
+    url: "",
+    checks: {},
+    activeCat: null
+  };
+
+  var app = document.getElementById("app");
+
+  function toggleCheck(id, val) {
+    if (state.checks[id] === val) {
+      delete state.checks[id];
+    } else {
+      state.checks[id] = val;
+    }
+    render();
+  }
+
+  function setCategory(cat) {
+    state.activeCat = state.activeCat === cat ? null : cat;
+    render();
+  }
+
+  function resetAll() {
+    state.checks = {};
+    state.url = "";
+    state.activeCat = null;
+    render();
+  }
+
+  function render() {
+    var answered = 0;
+    for (var k in state.checks) {
+      if (state.checks[k]) answered++;
+    }
+
+    var score = 0;
+    for (var i = 0; i < CHECKS.length; i++) {
+      var c = CHECKS[i];
+      var v = state.checks[c.id];
+      if (v === "yes") score += c.weight;
+      else if (v === "partial") score += Math.floor(c.weight * 0.5);
+    }
+    var norm = Math.round((score / totalW) * 100);
+
+    var grade = GRADES[GRADES.length - 1];
+    for (var g = 0; g < GRADES.length; g++) {
+      if (norm >= GRADES[g].min) {
+        grade = GRADES[g];
+        break;
+      }
+    }
+
+    var catScores = CATEGORIES.map(function(cat) {
+      var cc = CHECKS.filter(function(c) { return c.category === cat; });
+      var t = cc.reduce(function(s, c) { return s + c.weight; }, 0);
+      var sc = cc.reduce(function(s, c) {
+        var v = state.checks[c.id];
+        if (v === "yes") return s + c.weight;
+        if (v === "partial") return s + Math.floor(c.weight * 0.5);
+        return s;
+      }, 0);
+      return {
+        name: cat,
+        score: t > 0 ? Math.round(sc / t * 100) : 0
+      };
+    });
+
+    var missing = CHECKS.filter(function(c) {
+      return c.weight >= 12 && state.checks[c.id] !== "yes";
+    }).sort(function(a, b) { return b.weight - a.weight; });
+
+    var html = '';
+
+    // Description header
+    html += '<div style="margin-bottom:36px">';
+    html += '<p style="font-size:15px;color:var(--text-muted);line-height:1.7;margin:0">Evaluate whether your website is readable, actionable, and trustworthy for autonomous AI agents. Answer each check honestly — your score reflects how an agent would evaluate your infrastructure.</p>';
+    html += '</div>';
+
+    // URL input
+    html += '<div class="checker-field">';
+    html += '<label class="checker-label" for="site-url">Website URL (optional)</label>';
+    html += '<input id="site-url" class="checker-input" type="text" placeholder="https://yoursite.com" value="' + (state.url ? state.url.replace(/"/g, '&quot;') : '') + '">';
+    html += '</div>';
+
+    // Category filter pills
+    html += '<div class="cat-pills">';
+    CATEGORIES.forEach(function(cat) {
+      var cs = catScores.find(function(c) { return c.name === cat; });
+      var active = state.activeCat === cat;
+      var style = active ? 'background:' + CAT_COLORS[cat] + '18;border-color:' + CAT_COLORS[cat] + ';color:' + CAT_COLORS[cat] + ';' : '';
+      var badge = answered > 0 ? ' ' + cs.score + '%' : '';
+      html += '<button type="button" class="cat-pill' + (active ? ' active' : '') + '" style="' + style + '" data-cat="' + cat + '">' + cat + badge + '</button>';
+    });
+    html += '</div>';
+
+    // Check items by category
+    var visibleCats = state.activeCat ? [state.activeCat] : CATEGORIES;
+    visibleCats.forEach(function(cat) {
+      html += '<div class="cat-group">';
+      html += '<div class="cat-header">';
+      html += '<div class="cat-dot" style="background:' + CAT_COLORS[cat] + '"></div>';
+      html += '<h2 class="cat-title">' + cat + '</h2>';
+      html += '</div>';
+
+      var catChecks = CHECKS.filter(function(c) { return c.category === cat; });
+      catChecks.forEach(function(check) {
+        var val = state.checks[check.id] || '';
+        var stateCls = val ? ' state-' + val : '';
+        html += '<div class="check-item' + stateCls + '">';
+        html += '<div class="check-info">';
+        html += '<div class="check-header">';
+        html += '<span class="check-label">' + check.label + '</span>';
+        html += '<span class="check-weight">+' + check.weight + 'pt</span>';
+        html += '</div>';
+        html += '<div class="check-desc">' + check.description + '</div>';
+        html += '</div>';
+        html += '<div class="check-actions">';
+        ['yes', 'partial', 'no'].forEach(function(opt) {
+          var isSel = val === opt;
+          var btnCls = 'opt-btn opt-' + opt + (isSel ? ' active' : '');
+          html += '<button type="button" class="' + btnCls + '" data-check="' + check.id + '" data-val="' + opt + '">' + opt + '</button>';
+        });
+        html += '</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+    });
+
+    // Score / results
+    if (answered >= 5) {
+      html += '<div class="results-card">';
+      html += '<div class="results-main">';
+      html += '<div>';
+      html += '<div class="score-lead">AEO Readiness Score</div>';
+      html += '<div class="score-row">';
+      html += '<span class="score-number" style="color:' + grade.color + '">' + norm + '</span>';
+      html += '<span class="score-grade" style="color:' + grade.color + '">' + grade.grade + '</span>';
+      html += '</div>';
+      html += '<div class="score-label">' + grade.label + '</div>';
+      html += '</div>';
+
+      html += '<div class="cat-bars">';
+      catScores.forEach(function(cat) {
+        html += '<div class="cat-bar-row">';
+        html += '<span class="cat-bar-name">' + cat.name + '</span>';
+        html += '<div class="cat-bar-track">';
+        html += '<div class="cat-bar-fill" style="width:' + cat.score + '%;background:' + CAT_COLORS[cat.name] + '"></div>';
+        html += '</div>';
+        html += '<span class="cat-bar-val">' + cat.score + '%</span>';
+        html += '</div>';
+      });
+      html += '</div>';
+      html += '</div>';
+
+      if (missing.length > 0) {
+        html += '<div class="missing-section">';
+        html += '<div class="missing-title">Highest Impact Missing</div>';
+        missing.slice(0, 5).forEach(function(c) {
+          html += '<div class="missing-item">';
+          html += '<span class="missing-dot" style="background:' + CAT_COLORS[c.category] + '"></span>';
+          html += '<span class="missing-label">' + c.label + '</span>';
+          html += '<span class="missing-pts">+' + c.weight + 'pt</span>';
+          html += '</div>';
+        });
+        html += '</div>';
+      }
+
+      var advice = norm >= 75
+        ? 'Your site has strong agent readiness. Focus on the execution layer and trust layer to reach excellence.'
+        : norm >= 45
+        ? 'Your read layer is developing but the execution layer needs work. Agents can find you but may struggle to act through your infrastructure.'
+        : 'Your site is in early AEO stages. Start with llms.txt and schema markup (read layer), then build toward API endpoints (execution layer).';
+
+      html += '<div class="feedback-text"><p>' + advice + '</p></div>';
+
+      html += '<div class="action-buttons">';
+      html += '<a class="btn-primary" href="/docs/implement-aeo/">Implementation Guide</a>';
+      html += '<a class="btn-secondary" href="/docs/audit/">Professional Audit</a>';
+      html += '<button type="button" class="btn-reset" id="btn-reset">Reset</button>';
+      html += '</div>';
+      html += '</div>';
+    } else {
+      html += '<div class="prompt-hint">Answer at least 5 checks to see your AEO Readiness Score (' + answered + '/5)</div>';
+    }
+
+    html += '<div class="credit-line"><p>AEO Readiness Checker by <a href="/">agent-engine-optimization.com</a></p></div>';
+
+    app.innerHTML = html;
+
+    // Attach events
+    var urlInput = document.getElementById("site-url");
+    if (urlInput) {
+      urlInput.addEventListener("input", function(e) {
+        state.url = e.target.value;
+      });
+    }
+
+    var catButtons = app.querySelectorAll(".cat-pill");
+    catButtons.forEach(function(btn) {
+      btn.addEventListener("click", function() {
+        setCategory(this.getAttribute("data-cat"));
+      });
+    });
+
+    var optButtons = app.querySelectorAll(".opt-btn");
+    optButtons.forEach(function(btn) {
+      btn.addEventListener("click", function() {
+        toggleCheck(this.getAttribute("data-check"), this.getAttribute("data-val"));
+      });
+    });
+
+    var resetBtn = document.getElementById("btn-reset");
+    if (resetBtn) {
+      resetBtn.addEventListener("click", resetAll);
+    }
+  }
+
+  render();
+})();
+</script>
 </body>
 </html>
