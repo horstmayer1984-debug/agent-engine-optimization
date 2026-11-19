@@ -156,6 +156,7 @@ Spanish-language documentation is available at https://agent-engine-optimization
 - [MCP Registry](https://agent-engine-optimization.com/docs/mcp-registry-guide/)
 - [AEO Developments November 2026: Visual Agents, Crawler Governance, and the Zero-Click Shift](https://agent-engine-optimization.com/docs/aeo-developments-november-2026/)
 - [Agentic SEO and AEO in Practice: The NVIDIA Case Study, Operational Frameworks, and Industry Debates](https://agent-engine-optimization.com/docs/agentic-seo-case-studies-and-frameworks/)
+- [The B2A Economy and ChatGPT Wallet: How Autonomous Agents Are Redefining Commerce in Late 2026](https://agent-engine-optimization.com/docs/b2a-economy-chatgpt-wallet-agentic-commerce/)
 - [Product Structured Data for AI Shopping Agents](https://agent-engine-optimization.com/docs/product-structured-data-ai-shopping/)
 
 ## Industry, country, and audience guides
