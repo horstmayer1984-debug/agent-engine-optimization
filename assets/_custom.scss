@@ -147,6 +147,42 @@ main.container { background: var(--bg) !important; }
   max-width: var(--content-width);
 }
 
+.theme-toggle {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all .15s ease;
+  line-height: 1;
+  vertical-align: middle;
+  &:hover {
+    color: var(--text);
+    border-color: var(--border-strong);
+    background: var(--bg-subtle);
+  }
+  .icon-moon { display: none; }
+  .icon-sun { display: block; }
+}
+
+[data-theme="dark"] .theme-toggle {
+  .icon-sun { display: none; }
+  .icon-moon { display: block; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle {
+    .icon-sun { display: none; }
+    .icon-moon { display: block; }
+  }
+}
+
 /* Shared Brand Mark */
 .brand {
   display: inline-flex;

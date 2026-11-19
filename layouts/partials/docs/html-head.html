@@ -20,8 +20,10 @@ https://github.com/alex-shpak/hugo-book
   {{- $description = .Site.Params.description -}}
 {{- end -}}
 <meta name="description" content="{{ $description | plainify | htmlUnescape }}">
-<meta name="theme-color" content="#f8f7f3">
-<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f8f7f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(t!=='light'&&window.matchMedia('(prefers-color-scheme:dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}else{document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();</script>
 
 {{- with .Page.Params.BookHref -}}
   <meta http-equiv="Refresh" content="0; url='{{ . }}'" />

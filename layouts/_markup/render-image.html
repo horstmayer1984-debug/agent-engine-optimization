@@ -1,0 +1,18 @@
+{{- $dest := .Destination -}}
+{{- $isRemote := or (hasPrefix $dest "http://") (hasPrefix $dest "https://") -}}
+{{- $image := false -}}
+{{- if not $isRemote -}}
+  {{- $image = .Page.Resources.GetMatch $dest -}}
+  {{- if not $image -}}
+    {{- $image = resources.Get $dest -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ if $image }}{{ $image.RelPermalink }}{{ else }}{{ $dest | safeURL }}{{ end }}"
+  alt="{{ .Text }}"
+  {{ with .Title }}title="{{ . }}"{{ end }}
+  {{ if $image }}
+    width="{{ $image.Width }}"
+    height="{{ $image.Height }}"
+  {{ end }}
+  loading="lazy"
+  decoding="async" />
