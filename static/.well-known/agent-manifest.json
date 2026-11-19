@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "name": "Agent Engine Optimization",
   "description": "Research hub and consultancy for optimizing digital infrastructure for autonomous AI agents. Specializing in the execution layer: APIs, protocols, deterministic data structures, and agent-ready architecture.",
   "url": "https://agent-engine-optimization.com",
@@ -8,18 +8,40 @@
       "type": "service",
       "name": "AEO Readiness Audit",
       "description": "Systematic assessment of read layer and execution layer readiness for autonomous AI agents.",
-      "url": "/docs/audit/"
+      "url": "https://agent-engine-optimization.com/docs/audit/"
     },
     {
       "type": "content",
       "name": "AEO Framework",
       "description": "Framework distinguishing read layer (GEO) from execution layer (Agentic AEO) optimization.",
-      "url": "/docs/execution-layer/"
+      "url": "https://agent-engine-optimization.com/docs/execution-layer/"
+    },
+    {
+      "type": "tool",
+      "name": "AEO Readiness Checker",
+      "description": "Free self-assessment tool for discovery, structured data, execution-layer readiness, trust signals, and agent-friendly infrastructure.",
+      "url": "https://agent-engine-optimization.com/tools/aeo-readiness-checker.html"
     }
   ],
-  "content_types": ["framework", "research", "industry-guide", "protocol-reference", "service-description"],
+  "content_types": [
+    "framework",
+    "research",
+    "industry-guide",
+    "protocol-reference",
+    "service-description"
+  ],
   "protocols_analyzed": ["ucp", "mcp", "a2a", "acp", "ap2"],
-  "industries_served": ["e-commerce", "travel-booking", "b2b-saas", "devtools", "fintech"],
-  "languages": ["en"],
-  "updated": "2026-03-09"
+  "industries_served": [
+    "e-commerce",
+    "travel-booking",
+    "b2b-saas",
+    "devtools",
+    "fintech"
+  ],
+  "languages": ["en", "es", "pt", "de", "ja"],
+  "llms": {
+    "summary": "https://agent-engine-optimization.com/llms.txt",
+    "full": "https://agent-engine-optimization.com/llms-full.txt"
+  },
+  "updated": "2026-11-19"
 }

@@ -1,0 +1,21 @@
+# Agent Engine Optimization — Full Content ({{ .Language.LanguageName }})
+
+> Complete Markdown corpus of the {{ .Language.LanguageName }} documentation on agent-engine-optimization.com.
+> Canonical site: {{ .Site.BaseURL }}
+> Language code: {{ .Language.LanguageCode }}
+> Generated from the site content at build time.
+
+{{ range sort (where site.RegularPages "Section" "docs") "Weight" "Title" }}
+---
+
+## {{ .Title }}
+
+- URL: {{ .Permalink }}
+- Language: {{ .Language.LanguageCode }}
+- Date: {{ .Date.Format "2006-01-02" }}
+{{ with .Description }}- Description: {{ . }}{{ end }}
+{{ with .Params.keywords }}- Keywords: {{ delimit . ", " }}{{ end }}
+
+{{ .RawContent }}
+
+{{ end }}

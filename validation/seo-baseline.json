@@ -1,25 +1,13 @@
 {
   "schema_version": 1,
   "validator": "seo",
-  "generated_at": "2026-11-12T20:55:46Z",
-  "source_commit": "b55e39181fbf0ff336147f551804f7357c9a54ae",
+  "generated_at": "2026-11-19T20:15:34Z",
+  "source_commit": "e1c839ac80b010a91f4f5ec92ccc5307a9570932",
   "summary": {
-    "occurrences": 2022,
-    "unique_findings": 2018,
-    "files": 966,
+    "occurrences": 2015,
+    "unique_findings": 2011,
+    "files": 965,
     "by_rule": {
-      "aeo.agent_manifest_language_missing": {
-        "unique": 4,
-        "occurrences": 4
-      },
-      "aeo.agent_manifest_relative_url": {
-        "unique": 2,
-        "occurrences": 2
-      },
-      "aeo.agent_manifest_updated_stale": {
-        "unique": 1,
-        "occurrences": 1
-      },
       "aeo.llms_txt_missing_article": {
         "unique": 87,
         "occurrences": 87
@@ -15430,62 +15418,6 @@
       "count": 2,
       "lines": [],
       "message": "Structured-data language does not match the page."
-    },
-    {
-      "path": "static/.well-known/agent-manifest.json",
-      "rule": "aeo.agent_manifest_language_missing",
-      "detail": "de",
-      "count": 1,
-      "lines": [],
-      "message": "Agent manifest does not list de."
-    },
-    {
-      "path": "static/.well-known/agent-manifest.json",
-      "rule": "aeo.agent_manifest_language_missing",
-      "detail": "es",
-      "count": 1,
-      "lines": [],
-      "message": "Agent manifest does not list es."
-    },
-    {
-      "path": "static/.well-known/agent-manifest.json",
-      "rule": "aeo.agent_manifest_language_missing",
-      "detail": "ja",
-      "count": 1,
-      "lines": [],
-      "message": "Agent manifest does not list ja."
-    },
-    {
-      "path": "static/.well-known/agent-manifest.json",
-      "rule": "aeo.agent_manifest_language_missing",
-      "detail": "pt",
-      "count": 1,
-      "lines": [],
-      "message": "Agent manifest does not list pt."
-    },
-    {
-      "path": "static/.well-known/agent-manifest.json",
-      "rule": "aeo.agent_manifest_relative_url",
-      "detail": "/docs/audit/",
-      "count": 1,
-      "lines": [],
-      "message": "Manifest capability URLs must be absolute."
-    },
-    {
-      "path": "static/.well-known/agent-manifest.json",
-      "rule": "aeo.agent_manifest_relative_url",
-      "detail": "/docs/execution-layer/",
-      "count": 1,
-      "lines": [],
-      "message": "Manifest capability URLs must be absolute."
-    },
-    {
-      "path": "static/.well-known/agent-manifest.json",
-      "rule": "aeo.agent_manifest_updated_stale",
-      "detail": "2026-03-09<2026-07-02",
-      "count": 1,
-      "lines": [],
-      "message": "Agent manifest update date predates the newest content."
     },
     {
       "path": "static/llms.txt",

@@ -9,3 +9,7 @@ api-keys/
 credentials/
 .DS_Store
 node_modules/
+__pycache__/
+*.pyc
+Agent Engine Optimization/
+Screaming Frog/

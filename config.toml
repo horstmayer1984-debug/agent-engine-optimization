@@ -39,7 +39,7 @@ disableKinds = ["taxonomy", "term"]
   BookTheme = "light"
   BookToC = true
   BookSection = "docs"
-  BookSearch = true
+  BookSearch = false
   BookComments = false
   BookDateFormat = "January 2, 2006"
   description = "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents."
@@ -54,8 +54,14 @@ disableKinds = ["taxonomy", "term"]
     startLevel = 2
     endLevel = 4
 
+[outputFormats.LLMSFULL]
+  mediaType = "text/plain"
+  baseName = "llms-full"
+  isPlainText = true
+  notAlternative = true
+
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "LLMSFULL"]
 
 [minify]
   disableXML = true
