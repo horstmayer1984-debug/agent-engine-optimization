@@ -50,7 +50,7 @@
           <li><a class="language-switch" href="/es/">ES</a></li>
           <li><a class="language-switch" href="/pt/">PT</a></li>
           <li><a class="language-switch" href="/de/">DE</a></li>
-                  <li><button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
+                  <li><button class="cmd-palette-btn" type="button" aria-label="Search documentation" title="Search documentation (Ctrl+K)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span class="cmd-k-kbd"><kbd>⌘</kbd><kbd>K</kbd></span></button> <button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
         </ul>
       </nav>
     </div>
@@ -95,7 +95,15 @@
     <section><div class="wrap"><div class="section-kicker">よくある質問</div><h2 class="section-title">SEO、プロダクト、エンジニアリングチーム向けの実践的な回答。</h2><div class="faq"><details><summary>¿Qué es la Agent Engine Optimization?</summary><p>AEO strukturiert コンテンツ, Daten, APIs und digitale Abläufe, damit KI-Agenten sie entdecken, interpretieren und nachvollziehbar nutzen können.</p></details><details><summary>AEOはSEOやGEOとどう違いますか？</summary><p>SEOは検索結果での可視性を高めます。GEOはAI回答での引用を改善します。AEOは組織のインフラを通じてアクションを実行する能力を加えます。</p></details><details><summary>企業はまず何をすべきですか？</summary><p>重要なエンティティとポリシーを定義し、安定した情報を公開し、取引アクションを提供する前に構造化データを追加します。</p></details></div></div></section>
     <section class="cta-band"><div class="wrap cta-inner"><div><div class="section-kicker">次のステップ</div><h2 class="section-title">インフラがエージェント対応になっているか確認しましょう。</h2><p>Beginnen Sie mit einem Audit von コンテンツn, Daten, Zugänglichkeit, プロトコルn und Verifizierung.</p></div><a class="text-link primary" href="/ja/docs/audit/">監査を開く <span>&rarr;</span></a></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-row"><span>&copy; 2026 Agent Engine Optimization</span><div class="footer-links"><a href="/ja/docs/about/">概要</a><a href="/ja/docs/privacy/">プライバシー</a><a href="/ja/docs/disclaimer/">Aviso legal</a><a href="/sitemap.xml">Mapa del sitio</a></div></div></footer>
+  <footer class="site-footer"><div class="wrap footer-row"><span>&copy; 2026 Agent Engine Optimization</span><div class="footer-links"><a href="/ja/docs/about/">概要</a><a href="/ja/docs/privacy/">プライバシー</a><a href="/ja/docs/disclaimer/">Aviso legal</a><a href="/sitemap.xml">Mapa del sitio</a>
+      <div class="agent-readiness-bar">
+        <span class="agent-tag">AEO Agent Ready</span>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="/.well-known/agent-manifest.json">agent-manifest.json</a>
+        <a href="/tools/aeo-readiness-checker.html">Readiness Checker</a>
+        <a href="/sitemap.xml">XML Sitemap</a>
+      </div>
+    </div></footer>
 {{ else if eq .Language.Lang "de" }}
   <header class="site-header">
     <div class="wrap">
@@ -112,7 +120,7 @@
           <li><a class="language-switch" href="/pt/">PT</a></li>
           <li><a class="language-switch" href="/de/">DE</a></li>
           <li><a class="language-switch" href="/ja/">JA</a></li>
-                  <li><button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
+                  <li><button class="cmd-palette-btn" type="button" aria-label="Search documentation" title="Search documentation (Ctrl+K)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span class="cmd-k-kbd"><kbd>⌘</kbd><kbd>K</kbd></span></button> <button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
         </ul>
       </nav>
     </div>
@@ -157,7 +165,15 @@
     <section><div class="wrap"><div class="section-kicker">Häufige Fragen</div><h2 class="section-title">Praktische Antworten für SEO-, Produkt- und Engineering-Teams.</h2><div class="faq"><details><summary>¿Qué es la Agent Engine Optimization?</summary><p>AEO strukturiert Inhalte, Daten, APIs und digitale Abläufe, damit KI-Agenten sie entdecken, interpretieren und nachvollziehbar nutzen können.</p></details><details><summary>Wie unterscheidet sich AEO von SEO und GEO?</summary><p>SEO zielt auf Sichtbarkeit in Suchergebnissen. GEO verbessert Zitate in KI-Antworten. AEO ergänzt die Fähigkeit, Aktionen über die Infrastruktur einer Organisation auszuführen.</p></details><details><summary>Was sollte ein Unternehmen zuerst tun?</summary><p>Es sollte wichtige Entitäten und Richtlinien definieren, stabile Informationen veröffentlichen und strukturierte Daten ergänzen, bevor es Transaktionsaktionen bereitstellt.</p></details></div></div></section>
     <section class="cta-band"><div class="wrap cta-inner"><div><div class="section-kicker">Nächster Schritt</div><h2 class="section-title">Prüfen Sie, ob Ihre Infrastruktur für Agenten bereit ist.</h2><p>Beginnen Sie mit einem Audit von Inhalten, Daten, Zugänglichkeit, Protokollen und Verifizierung.</p></div><a class="text-link primary" href="/de/docs/audit/">Audit öffnen <span>&rarr;</span></a></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-row"><span>&copy; 2026 Agent Engine Optimization</span><div class="footer-links"><a href="/de/docs/about/">Über uns</a><a href="/de/docs/privacy/">Datenschutz</a><a href="/de/docs/disclaimer/">Aviso legal</a><a href="/sitemap.xml">Mapa del sitio</a></div></div></footer>
+  <footer class="site-footer"><div class="wrap footer-row"><span>&copy; 2026 Agent Engine Optimization</span><div class="footer-links"><a href="/de/docs/about/">Über uns</a><a href="/de/docs/privacy/">Datenschutz</a><a href="/de/docs/disclaimer/">Aviso legal</a><a href="/sitemap.xml">Mapa del sitio</a>
+      <div class="agent-readiness-bar">
+        <span class="agent-tag">AEO Agent Ready</span>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="/.well-known/agent-manifest.json">agent-manifest.json</a>
+        <a href="/tools/aeo-readiness-checker.html">Readiness Checker</a>
+        <a href="/sitemap.xml">XML Sitemap</a>
+      </div>
+    </div></footer>
 {{ else if eq .Language.Lang "pt" }}
   <header class="site-header">
     <div class="wrap">
@@ -174,7 +190,7 @@
           <li><a class="language-switch" href="/pt/">PT</a></li>
           <li><a class="language-switch" href="/de/">DE</a></li>
           <li><a class="language-switch" href="/ja/">JA</a></li>
-                  <li><button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
+                  <li><button class="cmd-palette-btn" type="button" aria-label="Search documentation" title="Search documentation (Ctrl+K)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span class="cmd-k-kbd"><kbd>⌘</kbd><kbd>K</kbd></span></button> <button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
         </ul>
       </nav>
     </div>
@@ -219,7 +235,15 @@
     <section><div class="wrap"><div class="section-kicker">Perguntas frequentes</div><h2 class="section-title">Respostas práticas para equipes de SEO, produto e engenharia.</h2><div class="faq"><details><summary>¿Qué es la Otimização de Motores de Agentes?</summary><p>A AEO estrutura conteúdo, dados, APIs e fluxos digitais para que agentes de IA possam descobri-los, interpretá-los e utilizá-los de forma verificável.</p></details><details><summary>Qual é a diferença em relação a SEO e GEO?</summary><p>SEO busca visibilidade nos resultados de pesquisa. GEO melhora as citações em respostas de IA. A AEO acrescenta a capacidade de executar ações por meio da infraestrutura de uma organização.</p></details><details><summary>O que uma empresa deve fazer primeiro?</summary><p>Deve definir entidades e políticas importantes, publicar informações estáveis e adicionar dados estruturados antes de expor ações transacionais.</p></details></div></div></section>
     <section class="cta-band"><div class="wrap cta-inner"><div><div class="section-kicker">Próximo passo</div><h2 class="section-title">Verifique se sua infraestrutura está pronta para agentes.</h2><p>Comece com uma auditoria de conteúdo, dados, acessibilidade, protocolos e verificação.</p></div><a class="text-link primary" href="/pt/docs/audit/">Abrir a auditoria <span>&rarr;</span></a></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-row"><span>&copy; 2026 Agent Engine Optimization</span><div class="footer-links"><a href="/pt/docs/about/">Sobre</a><a href="/pt/docs/privacy/">Privacidade</a><a href="/pt/docs/disclaimer/">Aviso legal</a><a href="/sitemap.xml">Mapa del sitio</a></div></div></footer>
+  <footer class="site-footer"><div class="wrap footer-row"><span>&copy; 2026 Agent Engine Optimization</span><div class="footer-links"><a href="/pt/docs/about/">Sobre</a><a href="/pt/docs/privacy/">Privacidade</a><a href="/pt/docs/disclaimer/">Aviso legal</a><a href="/sitemap.xml">Mapa del sitio</a>
+      <div class="agent-readiness-bar">
+        <span class="agent-tag">AEO Agent Ready</span>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="/.well-known/agent-manifest.json">agent-manifest.json</a>
+        <a href="/tools/aeo-readiness-checker.html">Readiness Checker</a>
+        <a href="/sitemap.xml">XML Sitemap</a>
+      </div>
+    </div></footer>
 {{ else if eq .Language.Lang "es" }}
   <header class="site-header">
     <div class="wrap">
@@ -236,7 +260,7 @@
           <li><a class="language-switch" href="/pt/">PT</a></li>
           <li><a class="language-switch" href="/de/">DE</a></li>
           <li><a class="language-switch" href="/ja/">JA</a></li>
-                  <li><button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
+                  <li><button class="cmd-palette-btn" type="button" aria-label="Search documentation" title="Search documentation (Ctrl+K)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span class="cmd-k-kbd"><kbd>⌘</kbd><kbd>K</kbd></span></button> <button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
         </ul>
       </nav>
     </div>
@@ -281,7 +305,15 @@
     <section><div class="wrap"><div class="section-kicker">Preguntas frecuentes</div><h2 class="section-title">Respuestas prácticas para equipos de SEO, producto e ingeniería.</h2><div class="faq"><details><summary>¿Qué es la Optimización de Motores de Agentes?</summary><p>La AEO estructura contenido, datos, API y flujos digitales para que los agentes de IA puedan descubrirlos, interpretarlos y utilizarlos de forma verificable.</p></details><details><summary>¿En qué se diferencia de SEO y GEO?</summary><p>El SEO busca visibilidad en resultados de búsqueda. El GEO mejora las citas en respuestas de IA. La AEO añade la capacidad de ejecutar acciones mediante la infraestructura de una organización.</p></details><details><summary>¿Qué debe hacer primero una empresa?</summary><p>Debe definir las entidades y políticas importantes, publicar información estable y añadir datos estructurados antes de exponer acciones transaccionales.</p></details></div></div></section>
     <section class="cta-band"><div class="wrap cta-inner"><div><div class="section-kicker">Siguiente paso</div><h2 class="section-title">Comprueba si tu infraestructura está lista para agentes.</h2><p>Empieza con una auditoría de contenido, datos, accesibilidad, protocolos y verificación.</p></div><a class="text-link primary" href="/es/docs/audit/">Abrir la auditoría <span>&rarr;</span></a></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-row"><span>&copy; 2026 Agent Engine Optimization</span><div class="footer-links"><a href="/es/docs/about/">Acerca de</a><a href="/es/docs/privacy/">Privacidad</a><a href="/es/docs/disclaimer/">Aviso legal</a><a href="/sitemap.xml">Mapa del sitio</a></div></div></footer>
+  <footer class="site-footer"><div class="wrap footer-row"><span>&copy; 2026 Agent Engine Optimization</span><div class="footer-links"><a href="/es/docs/about/">Acerca de</a><a href="/es/docs/privacy/">Privacidad</a><a href="/es/docs/disclaimer/">Aviso legal</a><a href="/sitemap.xml">Mapa del sitio</a>
+      <div class="agent-readiness-bar">
+        <span class="agent-tag">AEO Agent Ready</span>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="/.well-known/agent-manifest.json">agent-manifest.json</a>
+        <a href="/tools/aeo-readiness-checker.html">Readiness Checker</a>
+        <a href="/sitemap.xml">XML Sitemap</a>
+      </div>
+    </div></footer>
 {{ else }}
   <header class="site-header">
     <div class="wrap">
@@ -301,7 +333,7 @@
           <li><a class="language-switch" href="/pt/">PT</a></li>
           <li><a class="language-switch" href="/de/">DE</a></li>
           <li><a class="language-switch" href="/ja/">JA</a></li>
-                  <li><button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
+                  <li><button class="cmd-palette-btn" type="button" aria-label="Search documentation" title="Search documentation (Ctrl+K)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span class="cmd-k-kbd"><kbd>⌘</kbd><kbd>K</kbd></span></button> <button class="theme-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme"><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
         </ul>
       </nav>
     </div>
@@ -516,10 +548,17 @@
         <a href="/docs/privacy/">Privacy</a>
         <a href="/docs/disclaimer/">Disclaimer</a>
         <a href="/sitemap.xml">Sitemap</a>
+      
+      <div class="agent-readiness-bar">
+        <span class="agent-tag">AEO Agent Ready</span>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="/.well-known/agent-manifest.json">agent-manifest.json</a>
+        <a href="/tools/aeo-readiness-checker.html">Readiness Checker</a>
+        <a href="/sitemap.xml">XML Sitemap</a>
       </div>
-    </div>
-  </footer>
+    </div></footer>
 {{ end }}
   <script>(function(){document.addEventListener('click',function(e){var b=e.target.closest('.theme-toggle');if(!b)return;e.preventDefault();var c=document.documentElement.getAttribute('data-theme'),d=c==='dark'||(!c&&window.matchMedia('(prefers-color-scheme: dark)').matches),n=d?'light':'dark';document.documentElement.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(x){}});})();</script>
+  {{ partial "cmd-palette.html" . }}
 </body>
 </html>

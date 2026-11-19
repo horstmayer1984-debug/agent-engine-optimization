@@ -1,0 +1,172 @@
+<div id="cmd-palette" class="cmd-palette" role="dialog" aria-modal="true" aria-label="Search documentation" hidden>
+  <div class="cmd-palette-backdrop" id="cmd-backdrop"></div>
+  <div class="cmd-palette-dialog">
+    <div class="cmd-palette-input-wrap">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="cmd-input" type="search" placeholder="{{ if eq .Language.Lang "de" }}Dokumentation durchsuchen...{{ else if eq .Language.Lang "ja" }}ドキュメントを検索...{{ else if eq .Language.Lang "es" }}Buscar documentación...{{ else if eq .Language.Lang "pt" }}Pesquisar documentação...{{ else }}Search documentation, guides, protocols...{{ end }}" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-controls="cmd-results">
+      <kbd class="esc-kbd" id="cmd-close-btn" title="Close">Esc</kbd>
+    </div>
+    <div id="cmd-results" class="cmd-results" role="listbox"></div>
+    <div class="cmd-palette-footer">
+      <span><kbd>&uarr;</kbd><kbd>&darr;</kbd> {{ if eq .Language.Lang "de" }}Navigieren{{ else if eq .Language.Lang "ja" }}移動{{ else if eq .Language.Lang "es" }}Navegar{{ else if eq .Language.Lang "pt" }}Navegar{{ else }}navigate{{ end }}</span>
+      <span><kbd>&crarr;</kbd> {{ if eq .Language.Lang "de" }}Öffnen{{ else if eq .Language.Lang "ja" }}開く{{ else if eq .Language.Lang "es" }}Abrir{{ else if eq .Language.Lang "pt" }}Abrir{{ else }}open{{ end }}</span>
+      <span><kbd>esc</kbd> {{ if eq .Language.Lang "de" }}Schließen{{ else if eq .Language.Lang "ja" }}閉じる{{ else if eq .Language.Lang "es" }}Cerrar{{ else if eq .Language.Lang "pt" }}Fechar{{ else }}close{{ end }}</span>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var lang = {{ .Language.Lang | jsonify }};
+  var prefix = lang === "en" ? "" : "/" + lang;
+  
+  var ITEMS = [
+    { cat: "Framework", title: "AEO Framework Definition", desc: "Core definition, principles and the 4-layer stack", url: prefix + "/docs/what-is-aeo/" },
+    { cat: "Protocols", title: "Execution Layer & Protocols", desc: "How agents take actions via APIs, MCP and UCP", url: prefix + "/docs/execution-layer/" },
+    { cat: "Guides", title: "Implementation Guide", desc: "Step-by-step checklist to prepare digital infrastructure", url: prefix + "/docs/implement-aeo/" },
+    { cat: "Audit", title: "AEO Audit & Readiness", desc: "Assess discovery, read, execution, and trust readiness", url: prefix + "/docs/audit/" },
+    { cat: "Research", title: "Future of Agent Optimization", desc: "Autonomous commerce, multi-agent workflows and evolution", url: prefix + "/docs/future-of-aeo/" },
+    { cat: "Tools", title: "AEO Readiness Checker", desc: "Free interactive scoring tool for AI agent readiness", url: "/tools/aeo-readiness-checker.html" },
+    { cat: "Machine Data", title: "llms.txt (Standard)", desc: "Curated machine-readable summary of site structure", url: "/llms.txt" },
+    { cat: "Machine Data", title: "Agent Manifest (.well-known)", desc: "Capability discovery for AI agents and orchestrators", url: "/.well-known/agent-manifest.json" },
+    { cat: "Actions", title: "Toggle Color Theme", desc: "Switch between light and dark mode", action: "toggle-theme" },
+    { cat: "Languages", title: "English (Canonical)", desc: "Switch language to English", url: "/docs/what-is-aeo/" },
+    { cat: "Languages", title: "Deutsch (German)", desc: "Sprache zu Deutsch wechseln", url: "/de/docs/what-is-aeo/" },
+    { cat: "Languages", title: "Español (Spanish)", desc: "Cambiar idioma a español", url: "/es/docs/what-is-aeo/" },
+    { cat: "Languages", title: "Português (Portuguese)", desc: "Mudar idioma para português", url: "/pt/docs/what-is-aeo/" },
+    { cat: "Languages", title: "日本語 (Japanese)", desc: "日本語に切り替え", url: "/ja/docs/what-is-aeo/" }
+  ];
+
+  var modal = document.getElementById("cmd-palette");
+  var input = document.getElementById("cmd-input");
+  var results = document.getElementById("cmd-results");
+  var backdrop = document.getElementById("cmd-backdrop");
+  var closeBtn = document.getElementById("cmd-close-btn");
+  var selectedIndex = 0;
+  var currentMatches = [];
+
+  function openModal() {
+    modal.removeAttribute("hidden");
+    document.body.style.overflow = "hidden";
+    input.value = "";
+    selectedIndex = 0;
+    renderResults("");
+    setTimeout(function() { input.focus(); }, 20);
+  }
+
+  function closeModal() {
+    modal.setAttribute("hidden", "");
+    document.body.style.overflow = "";
+  }
+
+  function renderResults(query) {
+    var q = query.trim().toLowerCase();
+    currentMatches = ITEMS.filter(function(item) {
+      if (!q) return true;
+      return item.title.toLowerCase().indexOf(q) !== -1 ||
+             item.desc.toLowerCase().indexOf(q) !== -1 ||
+             item.cat.toLowerCase().indexOf(q) !== -1;
+    });
+
+    if (selectedIndex >= currentMatches.length) {
+      selectedIndex = Math.max(0, currentMatches.length - 1);
+    }
+
+    if (currentMatches.length === 0) {
+      results.innerHTML = '<div class="cmd-empty">No results found for "' + query.replace(/</g, "&lt;") + '"</div>';
+      return;
+    }
+
+    var html = "";
+    currentMatches.forEach(function(item, idx) {
+      var isSelected = idx === selectedIndex;
+      html += '<div class="cmd-result-item' + (isSelected ? ' is-selected' : '') + '" role="option" aria-selected="' + isSelected + '" data-idx="' + idx + '">';
+      html += '<div class="cmd-result-main">';
+      html += '<span class="cmd-result-title">' + item.title + '</span>';
+      html += '<span class="cmd-result-desc">' + item.desc + '</span>';
+      html += '</div>';
+      html += '<span class="cmd-result-badge">' + (item.action ? "Action" : item.cat) + '</span>';
+      html += '</div>';
+    });
+    results.innerHTML = html;
+
+    var selectedEl = results.querySelector(".cmd-result-item.is-selected");
+    if (selectedEl) {
+      selectedEl.scrollIntoView({ block: "nearest" });
+    }
+  }
+
+  function executeItem(item) {
+    if (!item) return;
+    if (item.action === "toggle-theme") {
+      var current = document.documentElement.getAttribute("data-theme");
+      var isDark = current === "dark" || (!current && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      var next = isDark ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch(e) {}
+      closeModal();
+    } else if (item.url) {
+      window.location.href = item.url;
+    }
+  }
+
+  input.addEventListener("input", function() {
+    selectedIndex = 0;
+    renderResults(input.value);
+  });
+
+  input.addEventListener("keydown", function(e) {
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      if (currentMatches.length > 0) {
+        selectedIndex = (selectedIndex + 1) % currentMatches.length;
+        renderResults(input.value);
+      }
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      if (currentMatches.length > 0) {
+        selectedIndex = (selectedIndex - 1 + currentMatches.length) % currentMatches.length;
+        renderResults(input.value);
+      }
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (currentMatches[selectedIndex]) {
+        executeItem(currentMatches[selectedIndex]);
+      }
+    } else if (e.key === "Escape") {
+      closeModal();
+    }
+  });
+
+  results.addEventListener("click", function(e) {
+    var itemEl = e.target.closest(".cmd-result-item");
+    if (itemEl) {
+      var idx = parseInt(itemEl.getAttribute("data-idx"), 10);
+      if (!isNaN(idx) && currentMatches[idx]) {
+        executeItem(currentMatches[idx]);
+      }
+    }
+  });
+
+  backdrop.addEventListener("click", closeModal);
+  if (closeBtn) closeBtn.addEventListener("click", closeModal);
+
+  window.addEventListener("keydown", function(e) {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+      e.preventDefault();
+      if (modal.hasAttribute("hidden")) {
+        openModal();
+      } else {
+        closeModal();
+      }
+    }
+  });
+
+  document.addEventListener("click", function(e) {
+    if (e.target.closest(".cmd-palette-btn") || e.target.closest("[data-cmd-trigger]")) {
+      e.preventDefault();
+      openModal();
+    }
+  });
+})();
+</script>

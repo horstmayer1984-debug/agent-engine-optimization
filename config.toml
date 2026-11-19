@@ -61,7 +61,7 @@ disableKinds = ["taxonomy", "term"]
   notAlternative = true
 
 [outputs]
-  home = ["HTML", "RSS", "LLMSFULL"]
+  home = ["HTML", "RSS", "LLMSFULL", "JSON"]
 
 [minify]
   disableXML = true
