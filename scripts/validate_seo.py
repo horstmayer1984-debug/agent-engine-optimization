@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter, defaultdict
+from dataclasses import dataclass
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -34,9 +35,19 @@ from validation_common import Findings, compare, load_baseline, print_report, wr
 
 SITE_HOSTS = {"agent-engine-optimization.com", "www.agent-engine-optimization.com"}
 CANONICAL_HOST = "agent-engine-optimization.com"
-SITEMAP_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-DOCS_RE = re.compile(r"^/(?:(?P<lang>de|es|pt|ja)/)?docs/(?P<slug>[^/]+)/?$")
+SITEMAP_NS = {
+    "sm": "http://www.sitemaps.org/schemas/sitemap/0.9",
+    "x": "http://www.w3.org/1999/xhtml",
+}
+DOCS_RE = re.compile(
+    r"^/(?:(?P<lang>de|es|pt|ja)/)?docs/(?P<slug>[^/]+(?:/[^/]+)*)/?$"
+)
 FRONT_DATE_RE = re.compile(r"(?m)^date:\s*[\"']?(\d{4}-\d{2}-\d{2})")
+HOME_ROUTES = {"/", "/de/", "/es/", "/ja/", "/pt/"}
+DOCS_SECTION_ROUTES = {"/docs/", "/es/docs/", "/pt/docs/", "/de/docs/", "/ja/docs/"}
+LANGUAGE_BLOCK_RE = re.compile(
+    r"(?ms)^\s*\[languages\.([a-z-]+)\]\s*\n(.*?)(?=^\s*\[|\Z)"
+)
 
 
 class PageParser(HTMLParser):
@@ -107,11 +118,15 @@ def page_route(public: Path, path: Path) -> str | None:
         return "/"
     if relative.endswith("/index.html"):
         return "/" + relative[: -len("index.html")]
-    if relative == "404.html" or relative.endswith("/404.html"):
+    if is_not_found_page(relative):
         return None
     if relative.endswith(".html"):
         return "/" + relative
     return None
+
+
+def is_not_found_page(relative: str) -> bool:
+    return relative == "404.html" or relative.endswith("/404.html")
 
 
 def meta_values(parser: PageParser, key: str, attribute: str = "name") -> list[str]:
@@ -143,23 +158,56 @@ def alternates(parser: PageParser) -> list[tuple[str, str]]:
 
 
 def normalize_language(value: str) -> str:
-    return value.strip().lower().split("-")[0]
+    """Lowercase a language code without dropping its region subtag."""
+    return value.strip().lower()
+
+
+def expected_language_code(language_codes: dict[str, str], language: str) -> str:
+    return language_codes.get(language, language).strip().lower()
+
+
+def safe_urlsplit(url: str):
+    """Parse a URL without letting malformed input abort the validator."""
+    try:
+        parsed = urlsplit(url)
+        _ = parsed.port  # Force validation of a malformed port.
+    except (TypeError, ValueError):
+        return None
+    return parsed
+
+
+def url_hostname(parsed) -> str | None:
+    try:
+        return parsed.hostname
+    except ValueError:
+        return None
+
+
+def language_codes_from_config(config: str, keys: list[str]) -> dict[str, str]:
+    codes = {key: key for key in keys}
+    for match in LANGUAGE_BLOCK_RE.finditer(config):
+        key = match.group(1)
+        code_match = re.search(
+            r'(?m)^\s*languageCode\s*=\s*"([^"]+)"', match.group(2)
+        )
+        if code_match:
+            codes[key] = code_match.group(1)
+    return codes
 
 
 def url_for_route(base_url: str, route: str) -> str:
     return base_url.rstrip("/") + route
 
 
-def route_for_docs(language: str, slug: str) -> str:
-    return f"/docs/{slug}/" if language == "en" else f"/{language}/docs/{slug}/"
-
-
-def expected_route_languages(route: str) -> bool:
-    return (
-        route == "/"
-        or route in {"/docs/", "/es/docs/", "/pt/docs/", "/de/docs/", "/ja/docs/"}
-        or bool(DOCS_RE.match(route))
-    )
+def translation_group_key(route: str) -> tuple[str, str]:
+    if route in HOME_ROUTES:
+        return ("home", "")
+    if route in DOCS_SECTION_ROUTES:
+        return ("docs-section", "")
+    match = DOCS_RE.match(route)
+    if match:
+        return ("docs", match.group("slug"))
+    return ("page", route)
 
 
 def page_language(route: str) -> str:
@@ -169,6 +217,40 @@ def page_language(route: str) -> str:
     return first if first in {"es", "pt", "de", "ja"} else "en"
 
 
+def expected_x_default(route: str, group_routes: list[str]) -> str:
+    if page_language(route) == "en":
+        return route
+    for candidate in group_routes:
+        if page_language(candidate) == "en":
+            return candidate
+    return "/"
+
+
+def route_from_url(url: str) -> str | None:
+    parsed = safe_urlsplit(url)
+    if parsed is None:
+        return None
+    try:
+        path = unquote(parsed.path)
+    except (TypeError, ValueError):
+        return None
+    if not path or path == "/":
+        return "/"
+    if path.endswith(".html"):
+        return path
+    if not path.endswith("/"):
+        path += "/"
+    return path
+
+
+def html_target_path(public: Path, route: str) -> Path:
+    if route == "/":
+        return public / "index.html"
+    if route.endswith(".html"):
+        return public / route.lstrip("/")
+    return public / route.strip("/") / "index.html"
+
+
 def is_alias(parser: PageParser) -> bool:
     return any(
         meta.get("http-equiv", "").lower() == "refresh" for meta in parser.metas
@@ -176,12 +258,17 @@ def is_alias(parser: PageParser) -> bool:
 
 
 def resolve_local_url(public: Path, url: str) -> Path | None:
-    parsed = urlsplit(url)
+    parsed = safe_urlsplit(url)
+    if parsed is None:
+        return None
     if parsed.scheme and parsed.scheme not in {"http", "https"}:
         return None
-    if parsed.netloc and parsed.hostname not in SITE_HOSTS:
+    if parsed.netloc and url_hostname(parsed) not in SITE_HOSTS:
         return None
-    path = unquote(parsed.path)
+    try:
+        path = unquote(parsed.path)
+    except (TypeError, ValueError):
+        return None
     if not path:
         return None
     return public / path.lstrip("/")
@@ -256,13 +343,14 @@ def check_page(
     path: Path,
     parser: PageParser,
     base_url: str,
-    configured_languages: list[str],
     public: Path,
     root: Path,
     findings: Findings,
     page_descriptions: dict[str, str],
     missing_assets: dict[str, set[str]],
     article_max_date: str | None,
+    configured_image: str | None,
+    language_codes: dict[str, str],
 ) -> None:
     relative_path = f"public/{path.relative_to(public).as_posix()}"
     language = page_language(route)
@@ -316,7 +404,16 @@ def check_page(
     else:
         expected = url_for_route(base_url, route)
         actual = canonical[0]
-        if urlsplit(actual).path != urlsplit(expected).path:
+        actual_parsed = safe_urlsplit(actual)
+        expected_parsed = safe_urlsplit(expected)
+        if actual_parsed is None or expected_parsed is None:
+            findings.add(
+                path=relative_path,
+                rule="seo.canonical_invalid",
+                detail=actual,
+                message="Canonical URL is not a valid absolute URL.",
+            )
+        elif actual_parsed.path != expected_parsed.path:
             findings.add(
                 path=relative_path,
                 rule="seo.canonical_not_self",
@@ -325,6 +422,7 @@ def check_page(
             )
 
     html_lang = parser.html_attrs.get("lang", "").strip().lower()
+    expected_html_lang = expected_language_code(language_codes, language)
     if not html_lang:
         findings.add(
             path=relative_path,
@@ -332,57 +430,13 @@ def check_page(
             detail=route,
             message="The html element has no lang attribute.",
         )
-    elif normalize_language(html_lang) != language:
+    elif normalize_language(html_lang) != expected_html_lang:
         findings.add(
             path=relative_path,
             rule="seo.html_lang_wrong",
-            detail=f"expected={language},actual={html_lang}",
+            detail=f"expected={expected_html_lang},actual={html_lang}",
             message="The html lang attribute does not match the page language.",
         )
-
-    hreflang_values = alternates(parser)
-    languages = {normalize_language(value) for value, _ in hreflang_values}
-    if not hreflang_values:
-        findings.add(
-            path=relative_path,
-            rule="seo.hreflang_missing",
-            detail=route,
-            message="No alternate hreflang links were rendered.",
-        )
-    else:
-        if language not in languages:
-            findings.add(
-                path=relative_path,
-                rule="seo.hreflang_self_missing",
-                detail=language,
-                message="The page does not declare its own language as hreflang.",
-            )
-        if expected_route_languages(route):
-            for expected_language in configured_languages:
-                if expected_language not in languages:
-                    findings.add(
-                        path=relative_path,
-                        rule="seo.hreflang_incomplete",
-                        detail=expected_language,
-                        message=f"Missing hreflang for {expected_language}.",
-                    )
-        if "x-default" not in languages:
-            findings.add(
-                path=relative_path,
-                rule="seo.hreflang_x_default_missing",
-                detail=route,
-                message="No x-default hreflang was rendered.",
-            )
-        duplicates = sorted(
-            value for value, count in Counter(languages).items() if count > 1
-        )
-        for value in duplicates:
-            findings.add(
-                path=relative_path,
-                rule="seo.hreflang_duplicate",
-                detail=value,
-                message=f"Duplicate hreflang value: {value}",
-            )
 
     spanish_route = None
     docs_match = DOCS_RE.match(route)
@@ -397,7 +451,8 @@ def check_page(
                 message="Rendered meta description is identical to the Spanish page.",
             )
 
-    og_images = [value for value in meta_values(parser, "og:image", "property") if value]
+    og_image_tags = meta_values(parser, "og:image", "property")
+    og_images = [value for value in og_image_tags if value]
     if not og_images:
         findings.add(
             path=relative_path,
@@ -405,8 +460,24 @@ def check_page(
             detail=route,
             message="Open Graph image is missing.",
         )
+    if len(og_image_tags) > 1:
+        findings.add(
+            path=relative_path,
+            rule="seo.og_image_multiple",
+            detail=str(len(og_image_tags)),
+            message="More than one Open Graph image tag was rendered.",
+        )
     for image_url in og_images:
-        if not urlsplit(image_url).netloc:
+        parsed_image = safe_urlsplit(image_url)
+        if parsed_image is None:
+            findings.add(
+                path=relative_path,
+                rule="seo.og_image_invalid",
+                detail=image_url,
+                message="Open Graph image URL is not valid.",
+            )
+            continue
+        if not parsed_image.netloc:
             findings.add(
                 path=relative_path,
                 rule="seo.og_image_not_absolute",
@@ -417,6 +488,16 @@ def check_page(
         local = resolve_local_url(public, image_url)
         if local is not None and not local.exists():
             missing_assets.setdefault(image_url, set()).add(relative_path)
+
+    if route in HOME_ROUTES and configured_image and og_images:
+        expected_image = url_for_route(base_url, configured_image)
+        if any(image_url != expected_image for image_url in og_images):
+            findings.add(
+                path=relative_path,
+                rule="seo.og_image_home_not_default",
+                detail=f"expected={expected_image},actual={','.join(og_images)}",
+                message="A home page must use the configured Open Graph image.",
+            )
 
     schema_nodes, schema_errors = parse_schema_graph(parser)
     for error in schema_errors:
@@ -439,7 +520,8 @@ def check_page(
             )
         in_language = node.get("inLanguage")
         if isinstance(in_language, str) and in_language.strip():
-            if normalize_language(in_language) != language:
+            expected_in_language = expected_language_code(language_codes, language)
+            if normalize_language(in_language) != expected_in_language:
                 findings.add(
                     path=relative_path,
                     rule="seo.schema_inlanguage_wrong",
@@ -458,6 +540,331 @@ def check_page(
                 )
 
 
+def validate_not_found_page(
+    relative_path: str,
+    route: str,
+    parser: PageParser,
+    base_url: str,
+    public: Path,
+    findings: Findings,
+    missing_assets: dict[str, set[str]],
+) -> None:
+    """Validate the non-indexable 404 pages without documentation rules."""
+    values = alternates(parser)
+    if values:
+        codes = sorted({code for code, _ in values})
+        findings.add(
+            path=relative_path,
+            rule="seo.hreflang_on_404",
+            detail=",".join(codes),
+            message="A 404 page must not emit hreflang links, including x-default.",
+        )
+        for code, href in values:
+            target_route = route_from_url(href)
+            if target_route is None or not html_target_path(public, target_route).exists():
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_on_404_target_invalid",
+                    detail=f"{code}:{href}",
+                    message="hreflang on a 404 page does not resolve to a generated HTML page.",
+                )
+
+    canonical = [value for value in link_values(parser, "canonical") if value]
+    if not canonical:
+        findings.add(
+            path=relative_path,
+            rule="seo.canonical_missing",
+            detail=route,
+            message="Canonical URL is missing.",
+        )
+    elif len(canonical) > 1:
+        findings.add(
+            path=relative_path,
+            rule="seo.canonical_multiple",
+            detail=str(len(canonical)),
+            message="More than one canonical URL was rendered.",
+        )
+    else:
+        expected = url_for_route(base_url, route)
+        actual = canonical[0]
+        actual_parsed = safe_urlsplit(actual)
+        expected_parsed = safe_urlsplit(expected)
+        if actual_parsed is None or expected_parsed is None:
+            findings.add(
+                path=relative_path,
+                rule="seo.canonical_invalid",
+                detail=actual,
+                message="Canonical URL is not a valid absolute URL.",
+            )
+        elif actual_parsed.path != expected_parsed.path:
+            findings.add(
+                path=relative_path,
+                rule="seo.canonical_not_self",
+                detail=actual,
+                message=f"Canonical does not point to {expected}.",
+            )
+
+    og_image_tags = meta_values(parser, "og:image", "property")
+    og_images = [value for value in og_image_tags if value]
+    if not og_images:
+        findings.add(
+            path=relative_path,
+            rule="seo.og_image_missing",
+            detail=route,
+            message="Open Graph image is missing.",
+        )
+    if len(og_image_tags) > 1:
+        findings.add(
+            path=relative_path,
+            rule="seo.og_image_multiple",
+            detail=str(len(og_image_tags)),
+            message="More than one Open Graph image tag was rendered.",
+        )
+    for image_url in og_images:
+        parsed_image = safe_urlsplit(image_url)
+        if parsed_image is None:
+            findings.add(
+                path=relative_path,
+                rule="seo.og_image_invalid",
+                detail=image_url,
+                message="Open Graph image URL is not valid.",
+            )
+            continue
+        if not parsed_image.netloc:
+            findings.add(
+                path=relative_path,
+                rule="seo.og_image_not_absolute",
+                detail=image_url,
+                message="Open Graph image must use an absolute URL.",
+            )
+            continue
+        local = resolve_local_url(public, image_url)
+        if local is None:
+            continue
+        if not local.exists():
+            missing_assets.setdefault(image_url, set()).add(relative_path)
+            continue
+        try:
+            dimensions = image_dimensions(local)
+        except OSError:
+            dimensions = None
+        if dimensions != (1200, 630):
+            findings.add(
+                path=relative_path,
+                rule="seo.og_image_dimensions",
+                detail=f"{dimensions[0]}x{dimensions[1]}" if dimensions else "invalid",
+                message="The 404 Open Graph image must be a valid 1200x630 image.",
+            )
+
+
+def validate_hreflang(
+    pages: dict[str, tuple[Path, PageParser]],
+    base_url: str,
+    public: Path,
+    language_codes: dict[str, str],
+    expected_codes: dict[str, set[str]],
+    x_default_routes: dict[str, str],
+    alias_routes: set[str],
+    findings: Findings,
+) -> None:
+    allowed_codes = {code.lower() for code in language_codes.values()} | {"x-default"}
+    alternates_by_route = {
+        route: alternates(parser) for route, (_, parser) in pages.items()
+    }
+
+    for route, (path, parser) in sorted(pages.items()):
+        relative_path = f"public/{path.relative_to(public).as_posix()}"
+        values = alternates_by_route[route]
+        if not values:
+            findings.add(
+                path=relative_path,
+                rule="seo.hreflang_missing",
+                detail=route,
+                message="No alternate hreflang links were rendered.",
+            )
+            continue
+
+        codes = [code for code, _ in values]
+        normalized = [normalize_language(code) for code in codes]
+        own_code = expected_language_code(language_codes, page_language(route))
+        expected = {code.lower() for code in expected_codes[route]}
+
+        if own_code not in codes:
+            findings.add(
+                path=relative_path,
+                rule="seo.hreflang_self_missing",
+                detail=own_code,
+                message="The page does not declare its own language as hreflang.",
+            )
+        else:
+            expected_self = url_for_route(base_url, route)
+            expected_self_parsed = safe_urlsplit(expected_self)
+            self_links = [href for code, href in values if code == own_code]
+            self_matches = False
+            for href in self_links:
+                parsed_self = safe_urlsplit(href)
+                if (
+                    parsed_self is not None
+                    and expected_self_parsed is not None
+                    and parsed_self.path == expected_self_parsed.path
+                ):
+                    self_matches = True
+                    break
+            if not self_matches:
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_self_mismatch",
+                    detail=f"expected={expected_self},actual={','.join(self_links)}",
+                    message="The self-referencing hreflang does not point to this page.",
+                )
+
+        for code in sorted(expected):
+            if code not in codes:
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_incomplete",
+                    detail=code,
+                    message=f"Missing hreflang for {code}.",
+                )
+
+        for code in codes:
+            if code == "x-default":
+                continue
+            if code not in expected:
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_unexpected",
+                    detail=code,
+                    message=f"Hreflang for {code} is not an existing translation of this page.",
+                )
+            if code not in allowed_codes:
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_invalid_code",
+                    detail=code,
+                    message=f"Hreflang code {code} is not configured for this site.",
+                )
+
+        for code, href in values:
+            parsed = safe_urlsplit(href)
+            if parsed is None:
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_url_invalid",
+                    detail=href,
+                    message="Hreflang URL is not a valid URL.",
+                )
+                continue
+            if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_not_absolute",
+                    detail=href,
+                    message="Hreflang URL must be absolute.",
+                )
+                continue
+            hostname = url_hostname(parsed)
+            if hostname not in SITE_HOSTS:
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_not_absolute",
+                    detail=f"{href} (host={hostname})",
+                    message="Hreflang URL must use the site host.",
+                )
+                continue
+            target_route = route_from_url(href)
+            if target_route is None:
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_url_invalid",
+                    detail=href,
+                    message="Hreflang URL is not a valid URL.",
+                )
+                continue
+            if target_route in alias_routes:
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_target_alias",
+                    detail=href,
+                    message="Hreflang points to a redirect alias.",
+                )
+                continue
+            if not html_target_path(public, target_route).exists():
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_target_missing",
+                    detail=href,
+                    message="Hreflang target does not resolve to a generated HTML page.",
+                )
+
+        xdefault_links = [href for code, href in values if code == "x-default"]
+        if not xdefault_links:
+            findings.add(
+                path=relative_path,
+                rule="seo.hreflang_x_default_missing",
+                detail=route,
+                message="No x-default hreflang was rendered.",
+            )
+        else:
+            expected_xdefault = url_for_route(base_url, x_default_routes[route])
+            expected_xdefault_parsed = safe_urlsplit(expected_xdefault)
+            for href in xdefault_links:
+                parsed = safe_urlsplit(href)
+                if parsed is None or expected_xdefault_parsed is None:
+                    continue
+                if (
+                    parsed.scheme not in {"http", "https"}
+                    or url_hostname(parsed) not in SITE_HOSTS
+                    or parsed.path != expected_xdefault_parsed.path
+                ):
+                    findings.add(
+                        path=relative_path,
+                        rule="seo.hreflang_x_default_wrong",
+                        detail=f"expected={expected_xdefault},actual={href}",
+                        message="x-default does not match the English equivalent of this page.",
+                    )
+
+        exact_duplicates = sorted(
+            code for code, count in Counter(codes).items() if count > 1
+        )
+        normalized_duplicates = sorted(
+            code
+            for code, count in Counter(normalized).items()
+            if count > 1 and code not in exact_duplicates
+        )
+        for code in exact_duplicates + normalized_duplicates:
+            findings.add(
+                path=relative_path,
+                rule="seo.hreflang_duplicate",
+                detail=code,
+                message=f"Duplicate hreflang value: {code}",
+            )
+
+    for route, (path, _) in sorted(pages.items()):
+        relative_path = f"public/{path.relative_to(public).as_posix()}"
+        for code, href in alternates_by_route[route]:
+            if code == "x-default":
+                continue
+            parsed = safe_urlsplit(href)
+            if parsed is None or url_hostname(parsed) not in SITE_HOSTS:
+                continue
+            target_route = route_from_url(href)
+            if target_route is None or target_route == route or target_route not in pages:
+                continue
+            target_values = alternates_by_route[target_route]
+            if not any(
+                route_from_url(back_href) == route
+                for back_code, back_href in target_values
+                if back_code != "x-default"
+            ):
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_not_reciprocal",
+                    detail=target_route,
+                    message="The hreflang target does not link back to this page.",
+                )
+
+
 def validate_assets(
     public: Path,
     root: Path,
@@ -467,9 +874,10 @@ def validate_assets(
     findings: Findings,
 ) -> None:
     for image_url, pages in sorted(missing_assets.items()):
-        parsed = urlsplit(image_url)
+        parsed = safe_urlsplit(image_url)
+        image_path = parsed.path if parsed is not None else image_url
         findings.add(
-            path="public" + parsed.path,
+            path="public" + image_path,
             rule="aeo.og_image_asset_missing",
             detail=image_url,
             message=f"Referenced by {len(pages)} rendered pages but not present in public/.",
@@ -505,6 +913,99 @@ def validate_assets(
         )
 
 
+@dataclass
+class SitemapEntry:
+    route: str
+    child_path: Path
+    links: list[tuple[str, str]]
+    loc_url: str
+
+
+def sitemap_root_kind(root: ET.Element) -> str:
+    return root.tag.rsplit("}", 1)[-1].lower()
+
+
+def sitemap_relative_path(public: Path, path: Path) -> str:
+    return f"public/{path.relative_to(public).as_posix()}"
+
+
+def sitemap_child_path(public: Path, child_url: str) -> Path | None:
+    parsed = safe_urlsplit(child_url)
+    if (
+        parsed is None
+        or parsed.scheme not in {"http", "https"}
+        or not parsed.netloc
+        or url_hostname(parsed) not in SITE_HOSTS
+    ):
+        return None
+    try:
+        path = unquote(parsed.path)
+    except (TypeError, ValueError):
+        return None
+    if not path:
+        return None
+    return public / path.lstrip("/")
+
+
+def sitemap_target_path(public: Path, url: str) -> Path | None:
+    parsed = safe_urlsplit(url)
+    if (
+        parsed is None
+        or parsed.scheme not in {"http", "https"}
+        or not parsed.netloc
+        or url_hostname(parsed) not in SITE_HOSTS
+    ):
+        return None
+    try:
+        path = unquote(parsed.path)
+    except (TypeError, ValueError):
+        return None
+    if not path:
+        return None
+    if path == "/":
+        return public / "index.html"
+    if path.endswith(".html"):
+        return public / path.lstrip("/")
+    if not path.endswith("/"):
+        path += "/"
+    return public / path.lstrip("/") / "index.html"
+
+
+def check_sitemap_url_entries(
+    public: Path,
+    root: ET.Element,
+    relative_path: str,
+    findings: Findings,
+) -> None:
+    for index, url_node in enumerate(root.findall("sm:url", SITEMAP_NS), 1):
+        loc_node = url_node.find("sm:loc", SITEMAP_NS)
+        if loc_node is None or not (loc_node.text or "").strip():
+            findings.add(
+                path=relative_path,
+                rule="aeo.sitemap_url_loc_missing",
+                detail=f"url={index}",
+                message="A sitemap URL entry has no non-empty loc.",
+            )
+            continue
+        url = loc_node.text.strip()
+        target = sitemap_target_path(public, url)
+        if target is None:
+            findings.add(
+                path=relative_path,
+                rule="aeo.sitemap_url_invalid",
+                detail=url,
+                message="Sitemap URL is not a valid URL.",
+            )
+            continue
+        if not target.exists():
+            findings.add(
+                path=relative_path,
+                rule="aeo.sitemap_url_missing_page",
+                detail=url,
+                message="Sitemap URL does not resolve to a generated HTML page.",
+            )
+
+
 def validate_sitemap(public: Path, base_url: str, findings: Findings) -> None:
     sitemap = public / "sitemap.xml"
     if not sitemap.exists():
@@ -526,41 +1027,340 @@ def validate_sitemap(public: Path, base_url: str, findings: Findings) -> None:
         )
         return
 
-    child_locs = [loc.text.strip() for loc in root.findall("sm:sitemap/sm:loc", SITEMAP_NS) if loc.text]
-    for child_url in child_locs:
-        child_path = public / unquote(urlsplit(child_url).path).lstrip("/")
-        if not child_path.exists():
+    kind = sitemap_root_kind(root)
+    if kind == "sitemapindex":
+        sitemap_nodes = root.findall("sm:sitemap", SITEMAP_NS)
+        if not sitemap_nodes:
             findings.add(
                 path="public/sitemap.xml",
-                rule="aeo.sitemap_child_missing",
-                detail=child_url,
-                message="Child sitemap referenced by the index is missing.",
+                rule="aeo.sitemap_index_empty",
+                detail="sitemapindex",
+                message="The root sitemap index contains no sitemap entries.",
             )
-            continue
-        try:
-            child = ET.fromstring(child_path.read_bytes())
-        except ET.ParseError as error:
-            findings.add(
-                path=f"public/{child_path.relative_to(public).as_posix()}",
-                rule="aeo.sitemap_invalid",
-                detail=str(error),
-                message="Child sitemap is not valid XML.",
+        for index, sitemap_node in enumerate(sitemap_nodes, 1):
+            loc_node = sitemap_node.find("sm:loc", SITEMAP_NS)
+            if loc_node is None or not (loc_node.text or "").strip():
+                findings.add(
+                    path="public/sitemap.xml",
+                    rule="aeo.sitemap_index_loc_missing",
+                    detail=f"entry={index}",
+                    message="A sitemap index entry has no non-empty loc.",
+                )
+                continue
+            child_url = loc_node.text.strip()
+            child_path = sitemap_child_path(public, child_url)
+            if child_path is None:
+                findings.add(
+                    path="public/sitemap.xml",
+                    rule="aeo.sitemap_child_invalid_url",
+                    detail=child_url,
+                    message="Child sitemap URL is not a valid URL.",
+                )
+                continue
+            if not child_path.exists():
+                findings.add(
+                    path="public/sitemap.xml",
+                    rule="aeo.sitemap_child_missing",
+                    detail=child_url,
+                    message="Child sitemap referenced by the index is missing.",
+                )
+                continue
+            try:
+                child = ET.fromstring(child_path.read_bytes())
+            except ET.ParseError as error:
+                findings.add(
+                    path=sitemap_relative_path(public, child_path),
+                    rule="aeo.sitemap_invalid",
+                    detail=str(error),
+                    message="Child sitemap is not valid XML.",
+                )
+                continue
+            child_kind = sitemap_root_kind(child)
+            if child_kind != "urlset":
+                findings.add(
+                    path=sitemap_relative_path(public, child_path),
+                    rule="aeo.sitemap_child_root_invalid",
+                    detail=child_kind,
+                    message="Child sitemap root must be a urlset.",
+                )
+                continue
+            check_sitemap_url_entries(
+                public, child, sitemap_relative_path(public, child_path), findings
             )
-            continue
-        for loc in child.findall("sm:url/sm:loc", SITEMAP_NS):
+    elif kind == "urlset":
+        findings.add(
+            path="public/sitemap.xml",
+            rule="aeo.sitemap_root_unexpected",
+            detail="urlset",
+            message="Root sitemap is a urlset; a sitemap index was expected.",
+        )
+        check_sitemap_url_entries(public, root, "public/sitemap.xml", findings)
+    else:
+        findings.add(
+            path="public/sitemap.xml",
+            rule="aeo.sitemap_root_invalid",
+            detail=root.tag,
+            message="Root sitemap is neither a sitemap index nor a urlset.",
+        )
+
+
+def load_sitemap_entries(public: Path, findings: Findings) -> list[SitemapEntry]:
+    index = public / "sitemap.xml"
+    if not index.exists():
+        return []
+    try:
+        root = ET.fromstring(index.read_bytes())
+    except ET.ParseError:
+        return []
+
+    entries: list[SitemapEntry] = []
+
+    def collect(root_node: ET.Element, child_path: Path) -> None:
+        for url in root_node.findall("sm:url", SITEMAP_NS):
+            loc_node = url.find("sm:loc", SITEMAP_NS)
+            if loc_node is None or not (loc_node.text or "").strip():
+                continue
+            loc_url = loc_node.text.strip()
+            parsed_loc = safe_urlsplit(loc_url)
+            if (
+                parsed_loc is None
+                or parsed_loc.scheme not in {"http", "https"}
+                or not parsed_loc.netloc
+            ):
+                continue
+            route = route_from_url(loc_url)
+            if route is None:
+                continue
+            links = []
+            for link in url.findall("x:link", SITEMAP_NS):
+                code = (link.get("hreflang") or "").strip().lower()
+                href = (link.get("href") or "").strip()
+                if code:
+                    links.append((code, href))
+            entries.append(SitemapEntry(route, child_path, links, loc_url))
+
+    kind = sitemap_root_kind(root)
+    if kind == "sitemapindex":
+        for loc in root.findall("sm:sitemap/sm:loc", SITEMAP_NS):
             if not loc.text:
                 continue
-            url = loc.text.strip()
-            path = unquote(urlsplit(url).path)
-            target = public / ("index.html" if path == "/" else path.lstrip("/") + "index.html")
-            if path.endswith(".html"):
-                target = public / path.lstrip("/")
-            if not target.exists():
+            child_url = loc.text.strip()
+            child_path = sitemap_child_path(public, child_url)
+            if child_path is None or not child_path.exists():
+                continue
+            try:
+                child = ET.fromstring(child_path.read_bytes())
+            except ET.ParseError:
+                continue
+            if sitemap_root_kind(child) != "urlset":
+                continue
+            collect(child, child_path)
+    elif kind == "urlset":
+        collect(root, index)
+
+    first_by_route: dict[str, SitemapEntry] = {}
+    for entry in entries:
+        first = first_by_route.get(entry.route)
+        if first is None:
+            first_by_route[entry.route] = entry
+            continue
+        findings.add(
+            path=sitemap_relative_path(public, entry.child_path),
+            rule="aeo.sitemap_duplicate_loc",
+            detail=(
+                f"{entry.route} (first: {first.loc_url} in "
+                f"{sitemap_relative_path(public, first.child_path)})"
+            ),
+            message="Duplicate sitemap loc entry.",
+        )
+    return entries
+
+
+def validate_sitemap_hreflang(
+    public: Path,
+    pages: dict[str, tuple[Path, PageParser]],
+    html_alternates: dict[str, list[tuple[str, str]]],
+    alias_routes: set[str],
+    language_codes: dict[str, str],
+    findings: Findings,
+) -> None:
+    entries = load_sitemap_entries(public, findings)
+    if not entries:
+        return
+    allowed_codes = {code.lower() for code in language_codes.values()} | {
+        "x-default"
+    }
+    entries_by_route: dict[str, SitemapEntry] = {}
+    for entry in entries:
+        entries_by_route.setdefault(entry.route, entry)
+
+    for entry in sorted(
+        entries, key=lambda item: (item.route, str(item.child_path), item.loc_url)
+    ):
+        route = entry.route
+        child_path = entry.child_path
+        links = entry.links
+        relative_path = sitemap_relative_path(public, child_path)
+        codes = [code for code, _ in links]
+
+        expected_code = expected_language_code(
+            language_codes, page_language(route)
+        )
+        self_codes = {
+            code
+            for code, href in links
+            if code != "x-default" and route_from_url(href) == route
+        }
+        if self_codes != {expected_code}:
+            findings.add(
+                path=relative_path,
+                rule="aeo.sitemap_hreflang_self_missing",
+                detail=(
+                    f"{route} expected={expected_code} "
+                    f"actual={','.join(sorted(self_codes)) or 'none'}"
+                ),
+                message=(
+                    "Sitemap entry does not declare exactly its own route and "
+                    "language as hreflang."
+                ),
+            )
+
+        for code in codes:
+            if code != "x-default" and code not in allowed_codes:
                 findings.add(
-                    path=f"public/{child_path.relative_to(public).as_posix()}",
-                    rule="aeo.sitemap_url_missing_page",
-                    detail=url,
-                    message="Sitemap URL does not resolve to a generated HTML page.",
+                    path=relative_path,
+                    rule="aeo.sitemap_hreflang_invalid_code",
+                    detail=code,
+                    message=f"Sitemap hreflang code {code} is not configured.",
+                )
+
+        duplicates = sorted(
+            code for code, count in Counter(codes).items() if count > 1
+        )
+        for code in duplicates:
+            findings.add(
+                path=relative_path,
+                rule="aeo.sitemap_hreflang_duplicate",
+                detail=code,
+                message=f"Duplicate sitemap hreflang value: {code}",
+            )
+
+        for code, href in links:
+            if code == "x-default":
+                continue
+            parsed = safe_urlsplit(href)
+            if parsed is None:
+                findings.add(
+                    path=relative_path,
+                    rule="aeo.sitemap_hreflang_url_invalid",
+                    detail=href,
+                    message="Sitemap hreflang URL is not a valid URL.",
+                )
+                continue
+            if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                findings.add(
+                    path=relative_path,
+                    rule="aeo.sitemap_hreflang_not_absolute",
+                    detail=href,
+                    message="Sitemap hreflang URL must be absolute.",
+                )
+                continue
+            hostname = url_hostname(parsed)
+            if hostname not in SITE_HOSTS:
+                findings.add(
+                    path=relative_path,
+                    rule="aeo.sitemap_hreflang_not_absolute",
+                    detail=f"{href} (host={hostname})",
+                    message="Sitemap hreflang URL must use the site host.",
+                )
+                continue
+            target_route = route_from_url(href)
+            if target_route is None:
+                findings.add(
+                    path=relative_path,
+                    rule="aeo.sitemap_hreflang_url_invalid",
+                    detail=href,
+                    message="Sitemap hreflang URL is not a valid URL.",
+                )
+                continue
+            if target_route in alias_routes:
+                findings.add(
+                    path=relative_path,
+                    rule="aeo.sitemap_hreflang_target_missing",
+                    detail=f"{href} (alias)",
+                    message="Sitemap hreflang target is a redirect alias.",
+                )
+                continue
+            if not html_target_path(public, target_route).exists():
+                findings.add(
+                    path=relative_path,
+                    rule="aeo.sitemap_hreflang_target_missing",
+                    detail=href,
+                    message="Sitemap hreflang target does not resolve to a generated HTML page.",
+                )
+
+        for code, href in links:
+            if code == "x-default":
+                continue
+            parsed = safe_urlsplit(href)
+            if parsed is None or url_hostname(parsed) not in SITE_HOSTS:
+                continue
+            target_route = route_from_url(href)
+            if (
+                target_route is None
+                or target_route == route
+                or target_route not in entries_by_route
+            ):
+                continue
+            target_entry = entries_by_route[target_route]
+            if not any(
+                route_from_url(back_href) == route
+                for back_code, back_href in target_entry.links
+                if back_code != "x-default"
+            ):
+                findings.add(
+                    path=relative_path,
+                    rule="aeo.sitemap_hreflang_not_reciprocal",
+                    detail=target_route,
+                    message="Sitemap hreflang target does not link back to this entry.",
+                )
+
+    for entry in sorted(
+        entries, key=lambda item: (item.route, str(item.child_path), item.loc_url)
+    ):
+        route = entry.route
+        if route not in pages:
+            continue
+        relative_path = sitemap_relative_path(public, entry.child_path)
+        html_links = [
+            (code, href)
+            for code, href in html_alternates.get(route, [])
+            if code != "x-default"
+        ]
+        sitemap_links = [
+            (code, href) for code, href in entry.links if code != "x-default"
+        ]
+        html_codes = {code for code, _ in html_links}
+        sitemap_codes = {code for code, _ in sitemap_links}
+        if html_codes != sitemap_codes:
+            findings.add(
+                path=relative_path,
+                rule="seo.hreflang_sitemap_mismatch",
+                detail=f"codes html={sorted(html_codes)},sitemap={sorted(sitemap_codes)}",
+                message="HTML and sitemap hreflang code sets differ.",
+            )
+            continue
+        for code in sorted(html_codes & sitemap_codes):
+            html_href = next(href for link_code, href in html_links if link_code == code)
+            sitemap_href = next(
+                href for link_code, href in sitemap_links if link_code == code
+            )
+            if route_from_url(html_href) != route_from_url(sitemap_href):
+                findings.add(
+                    path=relative_path,
+                    rule="seo.hreflang_sitemap_mismatch",
+                    detail=f"{code}:html={html_href},sitemap={sitemap_href}",
+                    message="HTML and sitemap hreflang targets differ.",
                 )
 
 
@@ -666,6 +1466,7 @@ def validate(root: Path, public: Path) -> Findings:
     )
     configured_image = configured_image_match.group(1) if configured_image_match else None
     configured_languages = re.findall(r"(?m)^\s*\[languages\.([a-z-]+)\]", config)
+    language_codes = language_codes_from_config(config, configured_languages)
 
     html_files = sorted(public.rglob("*.html"))
     if not html_files:
@@ -673,6 +1474,8 @@ def validate(root: Path, public: Path) -> Findings:
 
     findings = Findings()
     pages: dict[str, tuple[Path, PageParser]] = {}
+    not_found_pages: list[tuple[str, PageParser]] = []
+    alias_routes: set[str] = set()
     page_descriptions: dict[str, str] = {}
     missing_assets: dict[str, set[str]] = defaultdict(set)
     article_dates = [
@@ -683,16 +1486,35 @@ def validate(root: Path, public: Path) -> Findings:
     article_max_date = max(article_dates) if article_dates else None
 
     for path in html_files:
+        relative = path.relative_to(public).as_posix()
+        parser = PageParser()
+        parser.feed(read_text(path))
+        if is_not_found_page(relative):
+            not_found_pages.append((relative, parser))
+            continue
         route = page_route(public, path)
         if route is None:
             continue
-        parser = PageParser()
-        parser.feed(read_text(path))
         if is_alias(parser):
+            alias_routes.add(route)
             continue
         pages[route] = (path, parser)
         descriptions = [normalize_space(value) for value in meta_values(parser, "description")]
         page_descriptions[route] = next((value for value in descriptions if value), "")
+
+    routes_by_group: dict[tuple[str, str], list[str]] = defaultdict(list)
+    for route in pages:
+        routes_by_group[translation_group_key(route)].append(route)
+
+    expected_codes: dict[str, set[str]] = {}
+    x_default_routes: dict[str, str] = {}
+    for route in pages:
+        group_routes = routes_by_group[translation_group_key(route)]
+        expected_codes[route] = {
+            expected_language_code(language_codes, page_language(member))
+            for member in group_routes
+        }
+        x_default_routes[route] = expected_x_default(route, group_routes)
 
     for route, (path, parser) in sorted(pages.items()):
         check_page(
@@ -700,15 +1522,37 @@ def validate(root: Path, public: Path) -> Findings:
             path=path,
             parser=parser,
             base_url=base_url,
-            configured_languages=configured_languages,
             public=public,
             root=root,
             findings=findings,
             page_descriptions=page_descriptions,
             missing_assets=missing_assets,
             article_max_date=article_max_date,
+            configured_image=configured_image,
+            language_codes=language_codes,
         )
 
+    for relative, parser in sorted(not_found_pages):
+        validate_not_found_page(
+            relative_path=f"public/{relative}",
+            route=f"/{relative}",
+            parser=parser,
+            base_url=base_url,
+            public=public,
+            findings=findings,
+            missing_assets=missing_assets,
+        )
+
+    validate_hreflang(
+        pages=pages,
+        base_url=base_url,
+        public=public,
+        language_codes=language_codes,
+        expected_codes=expected_codes,
+        x_default_routes=x_default_routes,
+        alias_routes=alias_routes,
+        findings=findings,
+    )
     validate_assets(
         public=public,
         root=root,
@@ -718,6 +1562,16 @@ def validate(root: Path, public: Path) -> Findings:
         findings=findings,
     )
     validate_sitemap(public, base_url, findings)
+    validate_sitemap_hreflang(
+        public=public,
+        pages=pages,
+        html_alternates={
+            route: alternates(parser) for route, (_, parser) in pages.items()
+        },
+        alias_routes=alias_routes,
+        language_codes=language_codes,
+        findings=findings,
+    )
     validate_aeo_files(root, base_url, findings)
     return findings
 

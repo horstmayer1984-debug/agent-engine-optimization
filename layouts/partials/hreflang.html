@@ -1,0 +1,13 @@
+{{- if ne .Kind "404" -}}
+{{- $xdefault := "" -}}
+{{- range .AllTranslations -}}
+  <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}" title="{{ partial "docs/title" . }}">
+  {{- if eq .Language.Lang "en" -}}{{- $xdefault = .Permalink -}}{{- end -}}
+{{- end -}}
+{{- if not $xdefault -}}
+  {{- range site.Sites -}}
+    {{- if eq .Language.Lang "en" -}}{{- $xdefault = .Home.Permalink -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+<link rel="alternate" hreflang="x-default" href="{{ $xdefault }}">
+{{- end -}}
