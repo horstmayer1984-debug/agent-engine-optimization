@@ -11,5 +11,7 @@ credentials/
 node_modules/
 __pycache__/
 *.pyc
+audits/
+archive/
 Agent Engine Optimization/
 Screaming Frog/

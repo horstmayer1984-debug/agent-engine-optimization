@@ -36,6 +36,12 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate content
+        run: python -X utf8 scripts/validate_content.py
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -46,6 +52,8 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Validate SEO and AEO
+        run: python -X utf8 scripts/validate_seo.py
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
