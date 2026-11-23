@@ -124,3 +124,11 @@ python -X utf8 scripts/validate_seo.py
   when adding or renaming English content. The manifest currently lists only
   `en`, uses relative capability URLs, and has a stale `updated` date; these
   are tracked baseline findings, not patterns to copy.
+
+## Autonomous model selection and orchestration
+
+Execute at every prompt:
+- Autonomously plan and break down the request into concrete execution phases without asking for unnecessary micro-approvals.
+- Select the optimal AI model for the task and for any subagents/delegates according to `.agents/skills/autonomous-model-orchestrator/SKILL.md` (Tier 1 Fast/Routine, Tier 2 Balanced/Standard, Tier 3 Frontier/Reasoning).
+- Orchestrate subagents, parallelize independent operations, batch tool calls efficiently, and verify all outcomes deterministically before completing.
+

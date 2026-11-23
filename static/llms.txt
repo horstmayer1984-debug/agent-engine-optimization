@@ -185,3 +185,23 @@ Spanish-language documentation is available at https://agent-engine-optimization
 ## Last updated
 
 2026-11-19
+
+## Agent security
+
+- [Agent Security: Protecting Websites in the Autonomous AI Era](https://agent-engine-optimization.com/docs/agent-security/)
+- [Agent Access and Identity: Distinguishing and Verifying AI Agents](https://agent-engine-optimization.com/docs/agent-security-agent-access-and-identity/)
+- [Attacks by AI Agents: Threat Landscapes and Autonomous Pentesting](https://agent-engine-optimization.com/docs/agent-security-attacks-by-ai-agents/)
+- [Prompt Injection and Manipulated Content: Defending the Agent Read Layer](https://agent-engine-optimization.com/docs/agent-security-prompt-injection-and-manipulated-content/)
+- [Secure Interfaces for Agents: Hardening APIs, MCP, and WebMCP](https://agent-engine-optimization.com/docs/agent-security-secure-interfaces/)
+- [Agentic Commerce and Fraud Prevention: Authorizing Real Agent Purchases](https://agent-engine-optimization.com/docs/agent-security-agentic-commerce-and-fraud-prevention/)
+- [Secure Development in the AI Era: Hardening Coding Agents and Secrets](https://agent-engine-optimization.com/docs/agent-security-secure-development/)
+
+## Open source for agent engine optimization
+
+- [Open Source for Agent Engine Optimization (AEO)](https://agent-engine-optimization.com/docs/open-source/)
+- [The Best Open Source Tools for llms.txt: Rankings and Comparison](https://agent-engine-optimization.com/docs/open-source-machine-readable-files/)
+- [Seeing What Agents See: The Best Open Source Web Crawlers Ranked](https://agent-engine-optimization.com/docs/open-source-crawlers-and-extractors/)
+- [Schema.org and JSON-LD Tools for Agent Engine Optimization](https://agent-engine-optimization.com/docs/open-source-structured-data/)
+- [MCP, WebMCP, and Agent Browsers: Essential Open Source Repositories Ranked](https://agent-engine-optimization.com/docs/open-source-agent-interfaces/)
+- [Detecting and Verifying AI Agent Visits: Top Open Source Tools Ranked](https://agent-engine-optimization.com/docs/open-source-identity-and-agent-traffic/)
+- [Models, Datasets, and Local Testing Environments for AEO](https://agent-engine-optimization.com/docs/open-source-models-datasets-and-local-tests/)
