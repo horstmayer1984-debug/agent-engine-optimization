@@ -15,8 +15,6 @@ weight: 212
 category: "Open Source"
 ---
 
-# MCP, WebMCP und Agent-Browser: Die wichtigsten Repositories im Ranking
-
 Während klassisches SEO auf das passive Lesen von Webseiten abzielt, erschließt AEO die **Ausführungsebene (Execution Layer)**: Autonome KI-Agents müssen Menüs bedienen, Formulare ausfüllen, APIs ansprechen und Transaktionen durchführen.
 
 Dieses Ranking vergleicht die wichtigsten Open-Source-Projekte für Browser-Automation, Model Context Protocol (MCP) und WebMCP.

@@ -15,8 +15,6 @@ weight: 208
 category: "Open Source"
 ---
 
-# Open Source for Agent Engine Optimization (AEO)
-
 The ecosystem for Agent Engine Optimization relies heavily on transparent, open-source software: specifications, parser libraries, crawler emulators, execution protocols, and local testing models.
 
 This directory collects, evaluates, and ranks open-source repositories from GitHub, Hugging Face models, and standard specifications that enable web architectures to become agent-ready.

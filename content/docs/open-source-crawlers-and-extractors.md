@@ -16,8 +16,6 @@ weight: 210
 category: "Open Source"
 ---
 
-# Seeing What Agents See: The Best Open Source Web Crawlers Ranked
-
 To optimize digital content for autonomous agents, engineers must verify what models actually parse when scraping a webpage. Raw DOM trees contain script tags, styling wrappers, and tracking pixels that consume context tokens without adding semantic value.
 
 Modern AEO crawlers strip non-content noise and transform web pages into structured, agent-ready Markdown.

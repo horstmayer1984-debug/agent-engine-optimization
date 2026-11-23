@@ -14,8 +14,6 @@ weight: 201
 category: "Segurança"
 ---
 
-# Segurança de Agentes: Protegendo sites na era da IA autônoma
-
 A Segurança de Agentes é o pilar defensivo da Otimização de Motores de Agentes (AEO). O princípio central é objetivo: **agentes de IA legítimos devem conseguir operar e transacionar no site, enquanto agentes maliciosos devem ser contidos com rigor.**
 
 Esta disciplina não é uma central genérica de cibersegurança, mantendo foco exclusivo no ponto de contato entre modelos autônomos, navegadores em nuvem e protocolos de execução (como MCP e Web Bot Auth).

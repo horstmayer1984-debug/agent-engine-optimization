@@ -14,8 +14,6 @@ weight: 211
 category: "Código Aberto"
 ---
 
-# Ferramentas Schema.org e JSON-LD para AEO: Comparativo
-
 JSON-LD é a linguagem canônica para agentes de IA interpretarem entidades com precisão determinística.
 
 > **Status da pesquisa:** 22 de novembro de 2026.

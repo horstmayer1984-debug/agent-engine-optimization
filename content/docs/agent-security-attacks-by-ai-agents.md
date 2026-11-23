@@ -15,8 +15,6 @@ weight: 203
 category: "Security"
 ---
 
-# Attacks by AI Agents: Threat Landscapes and Autonomous Pentesting
-
 Autonomous AI agents are not only revolutionizing productivity and commerce; they are increasingly weaponized as autonomous offensive orchestrators. The barrier to executing multi-stage cyberattacks has collapsed, as LLM-driven tools chain exploits, discover exposed credentials, and traverse networks in minutes rather than days.
 
 > **Research Status:** November 22, 2026. All metrics, post timestamps (Europe/Berlin), and provider statements represent verified research data.

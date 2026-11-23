@@ -14,8 +14,6 @@ weight: 206
 category: "Segurança"
 ---
 
-# Comércio Agêntico e Prevenção de Fraudes: Como autorizar compras de agentes
-
 Navegadores em nuvem operados por agentes não possuem telemetria física residencial, disparando alarmes de fraude em lojas virtuais.
 
 > **Status da pesquisa:** 22 de novembro de 2026.

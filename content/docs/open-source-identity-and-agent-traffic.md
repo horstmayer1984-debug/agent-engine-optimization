@@ -15,8 +15,6 @@ weight: 213
 category: "Open Source"
 ---
 
-# Detecting and Verifying AI Agent Visits: Top Open Source Tools Ranked
-
 As autonomous browser agents and multi-agent systems interact with websites, traditional web analytics (Google Analytics, server log parsers) fail to accurately categorize non-human traffic. Furthermore, malicious bots frequently spoof agent User-Agents.
 
 This benchmark evaluates the leading open-source libraries and analytics engines engineered to detect, classify, and cryptographically verify AI agent visits.

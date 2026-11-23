@@ -13,8 +13,6 @@ weight: 213
 category: "Código Abierto"
 ---
 
-# Detección y Verificación de Visitas de Agentes: Mejores herramientas open source
-
 Los análisis web convencionales no distinguen eficazmente entre usuarios humanos y agentes autónomos.
 
 > **Estado de la investigación:** 22 de noviembre de 2026. Datos oficiales de la API de GitHub (Europe/Berlin).
@@ -33,7 +31,33 @@ Los análisis web convencionales no distinguen eficazmente entre usuarios humano
 
 ---
 
+## Perfiles detallados
+
+### 1. Web Bot Auth (Cloudflare)
+- **Enfoque:** Autenticación criptográfica sobre HTTP.
+- **Por qué importa para AEO:** Implementa el Internet-Draft del IETF [draft-ietf-webbotauth-httpsig-protocol](https://datatracker.ietf.org/doc/draft-ietf-webbotauth-httpsig-protocol/) y el [RFC 9421](https://www.rfc-editor.org/rfc/rfc9421). Permite que los servidores de origen verifiquen matemáticamente las peticiones HTTP firmadas de proveedores como OpenAI, sin mantener listas blancas de direcciones IP frágiles.
+- **Repositorio:** [github.com/cloudflare/web-bot-auth](https://github.com/cloudflare/web-bot-auth)
+
+### 2. AgentCake
+- **Enfoque:** Observación de agentes a nivel de sesión.
+- **Por qué importa para AEO:** A diferencia de las herramientas tradicionales de grabación de sesiones, que esperan movimientos de ratón humanos, AgentCake modela los recorridos programáticos del DOM y las evaluaciones rápidas de selectores propias de los agentes de navegador de IA.
+- **Repositorio:** [github.com/tartini-ai/agent-traffic-analytics](https://github.com/tartini-ai/agent-traffic-analytics)
+
+### 3. mintlify/agent-traffic y Botscent
+- **Enfoque:** Clasificación de peticiones en el perímetro.
+- **Por qué importa para AEO:** El clasificador de Mintlify aporta un componente de middleware esencial para separar la analítica entre tráfico humano y sintético, mientras que Botscent ofrece una biblioteca mínima integrable.
+- **Repositorios:** [github.com/mintlify/agent-traffic](https://github.com/mintlify/agent-traffic) y [github.com/nalinbhardwaj/botscent](https://github.com/nalinbhardwaj/botscent)
+
+### 4. AgentReady
+- **Enfoque:** Auditoría heurística en fase temprana.
+- **Por qué importa para AEO:** Útil para que los desarrolladores comprueben en local la accesibilidad básica para agentes (mediante `npx is-agentic`). Se trata de un proyecto en fase inicial sin licencia oficial declarada en la API de GitHub.
+- **Repositorio:** [github.com/agentready-org/standard](https://github.com/agentready-org/standard)
+
+---
+
 ## Recomendación Práctica
 
 - Utilice **[Web Bot Auth](https://github.com/cloudflare/web-bot-auth)** para la validación perimetral de peticiones firmadas.
 - Clasifique su tráfico de logs con **[mintlify/agent-traffic](https://github.com/mintlify/agent-traffic)**.
+- Para comprender los recorridos de los agentes, integre **[AgentCake](https://github.com/tartini-ai/agent-traffic-analytics)** o **[mintlify/agent-traffic](https://github.com/mintlify/agent-traffic)** en la canalización de observabilidad.
+- Para auditorías locales rápidas por CLI, pruebe **[AgentReady](https://github.com/agentready-org/standard)** (`npx is-agentic`), teniendo en cuenta su fase temprana de desarrollo.

@@ -14,8 +14,6 @@ weight: 212
 category: "Código Aberto"
 ---
 
-# MCP, WebMCP e Navegadores de Agentes: Os principais repositórios avaliados
-
 Na camada de execução de AEO, agentes realizam tarefas práticas em sites. Este ranking avalia ferramentas de automação de navegador e servidores MCP.
 
 > **Status da pesquisa:** 22 de novembro de 2026.

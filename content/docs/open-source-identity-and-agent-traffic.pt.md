@@ -13,8 +13,6 @@ weight: 213
 category: "Código Aberto"
 ---
 
-# Identificação e Verificação de Tráfego de Agentes: Ranking de ferramentas
-
 Plataformas de análise tradicionais precisam ser complementadas por ferramentas focadas em tráfego agêntico e assinaturas criptográficas.
 
 > **Status da pesquisa:** 22 de novembro de 2026.

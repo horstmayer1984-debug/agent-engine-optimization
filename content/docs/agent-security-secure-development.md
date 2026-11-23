@@ -15,8 +15,6 @@ weight: 207
 category: "Security"
 ---
 
-# Secure Development in the AI Era: Hardening Coding Agents and Secrets
-
 Developer adoption of autonomous coding assistants (such as Claude Code, Cursor, and Copilot) has transformed software delivery. However, delegating repository access to agents introduces systemic vulnerabilities: unencrypted tokens written to project directories, autonomous secret harvesting from public commits, and sophisticated device-code phishing.
 
 > **Research Status:** November 22, 2026. All metrics, post timestamps (Europe/Berlin), and provider statements represent verified research data.

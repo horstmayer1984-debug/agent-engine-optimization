@@ -15,8 +15,6 @@ weight: 201
 category: "Sicherheit"
 ---
 
-# Agent Security: Websites im Zeitalter autonomer KI-Agenten schützen
-
 Agent Security bildet die defensive Säule der Agent Engine Optimization (AEO). Die strategische Leitlinie lautet: **Gute, autorisierte KI-Agents sollen auf der Website reibungslos handeln können, während angreifende oder missbräuchliche Agents verlässlich abgewehrt werden.**
 
 Agent Security versteht sich nicht als allgemeines Cybersecurity-Portal, sondern bleibt eng mit dem operativen Kerngeschäft von AEO verzahnt: an der Schnittstelle zwischen Content-Bereitstellung, maschinenlesbaren APIs, Ausführungsprotokollen (wie MCP und Web Bot Auth) und autonomen Transaktionen.

@@ -13,8 +13,6 @@ weight: 204
 category: "Segurança"
 ---
 
-# Prompt Injection e Conteúdo Manipulado: Proteção da camada de leitura
-
 Modelos de linguagem interpretam textos como instruções. Ataques de injeção indireta utilizam texto oculto e descrições manipuladas de ferramentas para sequestrar o fluxo lógico dos agentes.
 
 > **Status da pesquisa:** 22 de novembro de 2026.

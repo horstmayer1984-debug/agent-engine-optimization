@@ -15,8 +15,6 @@ weight: 205
 category: "Sicherheit"
 ---
 
-# Sichere Schnittstellen: APIs, MCP und WebMCP widerstandsfähig härten
-
 Das Model Context Protocol (MCP) und Standards wie WebMCP schaffen die technologische Basis, damit KI-Modelle APIs und Werkzeuge im Web nutzen können. Dabei gilt der fundamentale Sicherheitsgrundsatz: **MCP ist ein Integrationsweg, keine Sicherheitsgrenze.**
 
 > **Stand der Recherche:** 22. November 2026. Alle Metriken, Zeitangaben (Europe/Berlin) und Quellen basieren auf verifizierten Forschungsdaten.

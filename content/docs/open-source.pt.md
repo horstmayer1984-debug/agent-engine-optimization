@@ -14,8 +14,6 @@ weight: 208
 category: "Código Aberto"
 ---
 
-# Código Aberto para Agent Engine Optimization (AEO)
-
 O ecossistema de AEO depende diretamente de software de código aberto: formatos padronizados, motores de extração, servidores de ferramentas (MCP) e modelos locais de teste.
 
 > **Status da pesquisa:** 22 de novembro de 2026. Dados de GitHub e Hugging Face verificados via API em 22/11/2026.

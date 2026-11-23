@@ -15,8 +15,6 @@ weight: 206
 category: "Security"
 ---
 
-# Agentic Commerce and Fraud Prevention: Authorizing Real Agent Purchases
-
 When autonomous agents purchase goods on behalf of consumers, traditional fraud detection models trigger false positives. The agent connects from a cloud data center IP address without a physical device footprint or human biometric typing cadence—mimicking the exact signals of account takeover and credential stuffing.
 
 E-commerce merchants must evolve risk architectures to distinguish legitimate agent transactions from autonomous bot fraud while establishing clear chargeback liabilities.

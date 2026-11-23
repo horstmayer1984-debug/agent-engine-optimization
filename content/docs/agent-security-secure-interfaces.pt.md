@@ -14,8 +14,6 @@ weight: 205
 category: "Segurança"
 ---
 
-# Interfaces Seguras para Agentes: Protegendo APIs, MCP e WebMCP
-
 MCP é uma ferramenta de integração e não uma fronteira de permissões mágicas. Protocolos seguros exigem validação de esquemas, defesas contra DNS rebinding e autenticação out-of-band.
 
 > **Status da pesquisa:** 22 de novembro de 2026.

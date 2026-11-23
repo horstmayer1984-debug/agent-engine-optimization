@@ -14,8 +14,6 @@ weight: 212
 category: "オープンソース"
 ---
 
-# MCP、WebMCP、エージェントブラウザ：重要リポジトリ徹底ランキング
-
 従来のSEOがテキスト閲覧にとどまっていたのに対し、AEOでは**実行レイヤー（Execution Layer）**が重要になります。エージェントがサイト内を巡回し、フォームを入力し、APIを実行できるかが問われます。
 
 > **調査基準日:** 2026年11月22日。GitHub公式API取得データ。
@@ -34,6 +32,31 @@ category: "オープンソース"
 | **5** | [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) | 公式Python SDK | 独自AEOツールやMCPサーバー構築のための標準開発キット。 | MIT | 24,929 | 17.11.2026, 10:38 |
 | **6** | [NLWeb](https://github.com/nlweb-ai/NLWeb) | 会話型Webレイヤー | サイトを対話可能にする試み。*2026年8月以降コミット停止。* | MIT | 6,262 | 11.08.2026, 21:35 |
 | **7** | [fetcher-mcp](https://github.com/jae-jae/fetcher-mcp) | 候補MCPサーバー | 簡易的なWebフェッチ・テスト用サーバー。 | MIT | 1,088 | 05.11.2026, 06:53 |
+
+*追加のエコシステム索引:* [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)（MIT、98,373スター、最終更新 2026年11月17日 06:21 Europe/Berlin）は幅広いディレクトリとして機能します。
+
+---
+
+## ツール別の要点
+
+### 1. browser-use
+- **焦点:** エンドツーエンドのエージェントによるユーザー導線テスト。
+- **AEOで重要な理由:** 自律的なビジュアルブラウザエージェントを模擬することで、`browser-use`はボタン、フォーム、モーダルがモデルを混乱させたり無限ループを起こしたりする箇所を明らかにします。
+- **リポジトリ:** [github.com/browser-use/browser-use](https://github.com/browser-use/browser-use)
+
+### 2. Playwright MCP（Microsoft）
+- **焦点:** 標準ツール経由のエンタープライズ向けブラウザ自動化。
+- **AEOで重要な理由:** Claude、Codex、またはローカルエージェントが、CI/CDの検証パイプライン内でWebセッションを対話的に検査・操作できるようにします。
+- **リポジトリ:** [github.com/microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
+
+### 3. WebMCPとChrome Labsツール
+- **焦点:** 新興のクライアントサイドWeb標準。
+- **AEOで重要な理由:** W3CのWeb Machine Learning議論とGoogle Chrome Labsを通じて進められており、WebMCPは帯域外のサーバー設定なしに、Webページがブラウザエージェントへセマンティックなツールをネイティブ登録できるようにします。
+- **リポジトリ:** [github.com/webmachinelearning/webmcp](https://github.com/webmachinelearning/webmcp) および [github.com/GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools)
+
+### 4. NLWeb（ステータス注記）
+- **ステータス:** 2026年前半には広く議論されましたが、`NLWeb`は**2026年8月11日以降、新規コミットがありません**（最終コミットはEurope/Berlin 21:35）。アーカイブ参照としてのみ評価してください。
+- **リポジトリ:** [github.com/nlweb-ai/NLWeb](https://github.com/nlweb-ai/NLWeb)
 
 ---
 

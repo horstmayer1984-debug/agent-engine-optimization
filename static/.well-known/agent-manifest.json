@@ -21,6 +21,18 @@
       "name": "AEO Readiness Checker",
       "description": "Free self-assessment tool for discovery, structured data, execution-layer readiness, trust signals, and agent-friendly infrastructure.",
       "url": "https://agent-engine-optimization.com/tools/aeo-readiness-checker.html"
+    },
+    {
+      "type": "content",
+      "name": "Agent Security",
+      "description": "Practices for verifying legitimate AI agents, blocking attacks, and securing APIs and commerce flows.",
+      "url": "https://agent-engine-optimization.com/docs/agent-security/"
+    },
+    {
+      "type": "content",
+      "name": "Open Source",
+      "description": "Rankings and catalog of open-source tools, specifications, models, and datasets for Agent Engine Optimization.",
+      "url": "https://agent-engine-optimization.com/docs/open-source/"
     }
   ],
   "content_types": [

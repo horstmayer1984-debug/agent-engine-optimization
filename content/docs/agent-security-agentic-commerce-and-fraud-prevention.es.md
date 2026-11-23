@@ -14,8 +14,6 @@ weight: 206
 category: "Seguridad"
 ---
 
-# Comercio Agéntico y Prevención del Fraude: Autorización de compras por agentes
-
 Las compras automáticas realizadas por agentes desde la nube carecen de las señales físicas de un dispositivo real, provocando falsos positivos en los motores de prevención de fraude.
 
 > **Estado de la investigación:** 22 de noviembre de 2026. Fechas en Europe/Berlin.

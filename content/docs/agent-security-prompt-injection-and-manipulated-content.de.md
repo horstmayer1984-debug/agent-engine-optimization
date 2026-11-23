@@ -15,8 +15,6 @@ weight: 204
 category: "Sicherheit"
 ---
 
-# Prompt Injection und manipulierte Inhalte: Schutz der Lese-Ebene für KI-Agents
-
 Wenn autonome KI-Agents Websites erfassen, lesen sie nicht nur Text, sondern interpretieren ihn als Handlungsanweisung. Dadurch entsteht ein gravierendes Risiko: **indirekte Prompt Injection**, bei der versteckte Inhalte im Seitencode oder manipulierte Tool-Beschreibungen die Entscheidungen von Agents manipulieren.
 
 > **Stand der Recherche:** 22. November 2026. Alle genannten Zahlen, Zeiten (Europe/Berlin) und Quellen basieren auf verifizierten Forschungsdaten.

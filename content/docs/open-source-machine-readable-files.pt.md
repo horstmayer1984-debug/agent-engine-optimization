@@ -14,8 +14,6 @@ weight: 209
 category: "Código Aberto"
 ---
 
-# As melhores ferramentas open source para llms.txt: Comparativo
-
 O padrão `/llms.txt` oferece sumários técnicos estruturados para consumo por modelos de IA e agentes autônomos.
 
 > **Status da pesquisa:** 22 de novembro de 2026. Dados via API do GitHub (Europe/Berlin).

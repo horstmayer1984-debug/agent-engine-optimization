@@ -16,8 +16,6 @@ weight: 214
 category: "Código Aberto"
 ---
 
-# Modelos, Bases de Dados e Ambientes de Teste Locais para AEO
-
 A montagem de laboratórios locais de teste possibilita verificar a extração e a síntese de respostas de agentes sem expor conteúdos inéditos a APIs de terceiros.
 
 > **Status da pesquisa:** 22 de novembro de 2026. Dados via GitHub API (Europe/Berlin).

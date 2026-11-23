@@ -1581,7 +1581,14 @@ details p {
     display: flex !important;
     align-items: flex-start !important;
     flex-direction: column !important;
+    flex-wrap: wrap !important;
     gap: 14px !important;
+  }
+  header.book-header nav > div,
+  .book-header nav > div {
+    width: 100%;
+    max-width: 100%;
+    justify-content: flex-start !important;
   }
   table { font-size: .82rem !important; }
   th, td { padding: 10px 12px !important; }

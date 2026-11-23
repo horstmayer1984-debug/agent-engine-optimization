@@ -15,8 +15,6 @@ weight: 209
 category: "Open Source"
 ---
 
-# The Best Open Source Tools for llms.txt: Rankings and Comparison
-
 Providing machine-readable files such as `/llms.txt` and `/llms-full.txt` allows AI agents and answer engines to ingest core documentation and service boundaries without executing heavy client-side JavaScript.
 
 This benchmark ranks the premier open-source tools, linters, and plugins designed to create, validate, and maintain `llms.txt` implementations.

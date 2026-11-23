@@ -17,8 +17,6 @@ weight: 214
 category: "Open Source"
 ---
 
-# Models, Datasets, and Local Testing Environments for AEO
-
 Testing how autonomous AI agents interpret and extract information from your digital presence does not require sending confidential drafts to commercial cloud APIs. High-performance open-source models, embeddings, and inference engines allow engineers to run deterministic AEO audits locally.
 
 > **Research Status:** November 22, 2026. Stars and timestamps (`pushed_at` in Europe/Berlin) sourced directly from the GitHub API on November 22, 2026. Download counts were not tracked during the November 22 research crawl and are therefore omitted to avoid speculation.

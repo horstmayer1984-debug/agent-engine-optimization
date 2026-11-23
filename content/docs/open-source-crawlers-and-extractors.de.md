@@ -16,8 +16,6 @@ weight: 210
 category: "Open Source"
 ---
 
-# Sehen, was Agents sehen: Die besten Open-Source-Crawler im Ranking
-
 Wer seine Website für autonome KI-Agents optimiert, muss genau wissen, was Modelle beim Crawlen tatsächlich auslesen. Regulärer HTML-Code ist voll von Navigationselementen, Skripten und Layout-Code, die wertvolle Kontext-Tokens verschwenden.
 
 Spezialisierte Crawler für AEO befreien Inhalte von Ballast und wandeln Webseiten in strukturiertes, agent-taugliches Markdown um.

@@ -14,8 +14,6 @@ weight: 203
 category: "Segurança"
 ---
 
-# Ataques por Agentes de IA: Cenário de ameaças e pentest autônomo
-
 Ferramentas ofensivas baseadas em LLM automatizam a exploração de vulnerabilidades e busca de credenciais expostas em velocidade inédita.
 
 > **Status da pesquisa:** 22 de novembro de 2026. Horários em Europe/Berlin.

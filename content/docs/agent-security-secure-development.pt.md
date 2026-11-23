@@ -14,8 +14,6 @@ weight: 207
 category: "Segurança"
 ---
 
-# Desenvolvimento Seguro na Era da IA: Proteção de credenciais e agentes de código
-
 Assistentes de código agilizam a entrega mas criam riscos severos de vazamento de credenciais locais e exploração automatizada de repositórios.
 
 > **Status da pesquisa:** 22 de novembro de 2026.

@@ -182,10 +182,6 @@ Spanish-language documentation is available at https://agent-engine-optimization
 - Sitemap: https://agent-engine-optimization.com/sitemap.xml
 - Structured data: embedded JSON-LD on key pages
 
-## Last updated
-
-2026-11-19
-
 ## Agent security
 
 - [Agent Security: Protecting Websites in the Autonomous AI Era](https://agent-engine-optimization.com/docs/agent-security/)
@@ -205,3 +201,7 @@ Spanish-language documentation is available at https://agent-engine-optimization
 - [MCP, WebMCP, and Agent Browsers: Essential Open Source Repositories Ranked](https://agent-engine-optimization.com/docs/open-source-agent-interfaces/)
 - [Detecting and Verifying AI Agent Visits: Top Open Source Tools Ranked](https://agent-engine-optimization.com/docs/open-source-identity-and-agent-traffic/)
 - [Models, Datasets, and Local Testing Environments for AEO](https://agent-engine-optimization.com/docs/open-source-models-datasets-and-local-tests/)
+
+## Last updated
+
+2026-11-22

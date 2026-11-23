@@ -15,8 +15,6 @@ weight: 206
 category: "Sicherheit"
 ---
 
-# Agentic Commerce und Betrugsschutz: Echte Agent-Käufe sicher autorisieren
-
 Wenn persönliche KI-Agents im Auftrag von Nutzern einkaufen, schlagen traditionelle Betrugserkennungssysteme Alarm. Der Kauf erfolgt über Cloud-Browser aus Rechenzentren ohne die üblichen biometrischen Gerätesignale des Kunden.
 
 Händler und Zahlungsanbieter müssen legitime Agent-Transaktionen von automatisiertem Betrug trennen und ungeklärte Haftungsfragen bei Fehlkäufen adressieren.

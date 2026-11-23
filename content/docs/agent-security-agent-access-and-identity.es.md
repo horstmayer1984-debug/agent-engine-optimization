@@ -14,8 +14,6 @@ weight: 202
 category: "Seguridad"
 ---
 
-# Acceso e Identidad de Agentes: Reconocimiento y verificación de agentes de IA
-
 Los sitios web deben actualizar sus defensas perimetrales: es imperativo bloquear scrapers y ataques automatizados, pero sin cerrar la puerta a clientes legítimos que compran mediante agentes personales de IA.
 
 Un esquema de acceso seguro se basa en la verificación criptográfica de firmas, políticas granulares en el edge y la creación de identidades dedicadas para agentes en lugar de reutilizar credenciales humanas.

@@ -15,8 +15,6 @@ weight: 213
 category: "Open Source"
 ---
 
-# Agent-Besuche erkennen und verifizieren: Die besten Open-Source-Tools im Ranking
-
 Klassische Web-Analytics-Lösungen stoßen an ihre Grenzen, wenn autonome KI-Agents Websites ansteuern: Sie verfälschen Verweildauern, erzeugen ungewohnte Klickpfade oder werden fälschlicherweise als bösartige Scraper geblockt. Zudem fälschen Angreifer zunehmend die User-Agents bekannter Modelle.
 
 Dieses Ranking vergleicht spezialisierte Open-Source-Werkzeuge zur Identifikation, Signaturprüfung und Verhaltensanalyse von KI-Agents.

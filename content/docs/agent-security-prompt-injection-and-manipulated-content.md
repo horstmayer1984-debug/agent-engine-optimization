@@ -15,8 +15,6 @@ weight: 204
 category: "Security"
 ---
 
-# Prompt Injection and Manipulated Content: Defending the Agent Read Layer
-
 When AI agents process websites, they do not just read text—they interpret instructions. This creates a critical attack surface: **indirect prompt injection**, where third-party web content, hidden CSS directives, or corrupted tool definitions alter the agent's reasoning model.
 
 > **Research Status:** November 22, 2026. All metrics, post timestamps (Europe/Berlin), and provider statements represent verified research data.

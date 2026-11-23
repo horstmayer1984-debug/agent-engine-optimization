@@ -14,8 +14,6 @@ weight: 201
 category: "Seguridad"
 ---
 
-# Seguridad de Agentes: Protección de sitios web en la era de la IA autónoma
-
 La Seguridad de Agentes representa la dimensión defensiva de la Optimización de Motores de Agentes (AEO). El principio rector es directo: **los agentes de IA legítimos deben poder operar y realizar transacciones en el sitio web, mientras que los agentes maliciosos o atacantes deben ser bloqueados con precisión.**
 
 Este ámbito no constituye una publicación genérica sobre ciberseguridad, sino que se concentra específicamente en la frontera técnica donde interactúan los modelos de lenguaje, navegadores automatizados y protocolos de ejecución (como MCP y Web Bot Auth).

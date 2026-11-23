@@ -15,8 +15,6 @@ weight: 203
 category: "Sicherheit"
 ---
 
-# Angriffe durch KI-Agents: Die Bedrohungslage durch autonome Hacking-Tools
-
 Autonome KI-Agents verändern die IT-Sicherheit fundamental: Offensive Frameworks verketten Exploits, scannen nach exponierten Secrets und führen Angriffe in Minutenschnelle aus – vollautomatisiert und ohne menschliches Zögern.
 
 > **Stand der Recherche:** 22. November 2026. Alle Zahlen, Zeitangaben (Europe/Berlin) und Herstellerhinweise basieren auf der verifizierten Recherche.

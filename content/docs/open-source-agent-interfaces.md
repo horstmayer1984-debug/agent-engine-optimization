@@ -15,8 +15,6 @@ weight: 212
 category: "Open Source"
 ---
 
-# MCP, WebMCP, and Agent Browsers: Essential Open Source Repositories Ranked
-
 While traditional SEO focuses on reading text, Agent Engine Optimization encompasses the **execution layer**: enabling autonomous models to navigate user journeys, invoke APIs, and trigger transactional workflows.
 
 This benchmark ranks the leading open-source repositories powering browser automation, Model Context Protocol servers, and standardized agent toolkits.

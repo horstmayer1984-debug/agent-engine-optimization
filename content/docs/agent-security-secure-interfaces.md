@@ -15,8 +15,6 @@ weight: 205
 category: "Security"
 ---
 
-# Secure Interfaces for Agents: Hardening APIs, MCP, and WebMCP
-
 The Model Context Protocol (MCP) and emerging WebMCP standards provide standardized connectivity between models and digital tools. However, a foundational security principle must be maintained: **MCP is an integration layer, not a permission slip.** Exposing tools to an autonomous agent requires rigorous defense against DNS rebinding, strict schema verification, and out-of-band authorization.
 
 > **Research Status:** November 22, 2026. All metrics, post timestamps (Europe/Berlin), and provider statements represent verified research data.

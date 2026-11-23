@@ -14,8 +14,6 @@ weight: 210
 category: "Código Aberto"
 ---
 
-# O que os agentes veem: Os melhores crawlers open source avaliados
-
 Modelos de IA dependem de texto limpo para inferência e tomada de decisão. Esta seleção ranqueia os principais extratores que transformam páginas web em Markdown focado em AEO.
 
 > **Status da pesquisa:** 22 de novembro de 2026. Dados via API do GitHub (Europe/Berlin).

@@ -15,8 +15,6 @@ weight: 207
 category: "Sicherheit"
 ---
 
-# Sichere Entwicklung im KI-Zeitalter: Coding-Agents und Secrets zuverlässig absichern
-
 Der Einsatz von KI-gestützten Entwicklungswerkzeugen (wie Claude Code, Cursor oder Copilot) beschleunigt Softwareprojekte drastisch. Gleichzeitig entstehen neue Angriffsflächen: ungesicherte Einstellungsdateien, Secrets in Projektordnern und Phishing-Angriffe auf Entwickler-Tokens.
 
 > **Stand der Recherche:** 22. November 2026. Alle genannten Zahlen, Zeitangaben (Europe/Berlin) und Quellen basieren auf verifizierten Forschungsdaten.

@@ -15,8 +15,6 @@ weight: 202
 category: "Sicherheit"
 ---
 
-# Agent-Zugang und Identität: Gute Agents erkennen und sicher durchlassen
-
 Websites stehen vor einer neuen Herausforderung: Der klassische Bot-Schutz muss Scraping und bösartige Angriffe abwehren, darf aber zahlende Kunden nicht aussperren, wenn diese autonome persönliche KI-Agents für Recherchen und Einkäufe einsetzen.
 
 Ein zukunftssicherer Agent-Zugang stützt sich auf kryptografische Signaturen, granulare Edge-Regeln und eigene Agent-Identitäten statt geliehener Mitarbeiter-Logins.

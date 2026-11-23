@@ -15,8 +15,6 @@ weight: 209
 category: "Open Source"
 ---
 
-# Die besten Open-Source-Tools für llms.txt im Vergleich
-
 Maschinenlesbare Indexdateien wie `/llms.txt` und `/llms-full.txt` bilden die Grundlage, damit autonome KI-Agents und LLMs Dokumentationen und Kerninhalte ohne clientseitigen JavaScript-Overhead erfassen können.
 
 Dieses Ranking vergleicht die wichtigsten Open-Source-Tools, Generatoren und Spezifikationen für `llms.txt`.

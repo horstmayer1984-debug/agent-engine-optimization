@@ -17,8 +17,6 @@ weight: 214
 category: "Open Source"
 ---
 
-# Modelle, Datensätze und lokale Testumgebungen für AEO
-
 Wer testen will, wie KI-Modelle und autonome Agents Webseiten erfassen, muss nicht zwingend teure Cloud-APIs nutzen. Leistungsfähige Open-Source-Modelle, Embeddings und lokale Inferenz-Engines ermöglichen präzise AEO-Analysen auf der eigenen Hardware.
 
 > **Stand der Recherche:** 22. November 2026. GitHub-Sterne, Lizenzen und Zeitstempel (`pushed_at` in Europe/Berlin) stammen aus der offiziellen GitHub-API-Abfrage vom 22.11.2026. Downloadzahlen wurden in der Recherche nicht erfasst und werden daher nicht geschätzt.

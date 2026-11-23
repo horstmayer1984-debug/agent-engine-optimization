@@ -15,8 +15,6 @@ weight: 211
 category: "Open Source"
 ---
 
-# Schema.org and JSON-LD Tools for Agent Engine Optimization
-
 Structured data embedded as JSON-LD provides the primary semantic anchor for autonomous agents. While large language models can deduce context from prose, deterministic transactions—such as inventory confirmation, pricing checks, and organizational identity—require unambiguous Schema.org entity graphs.
 
 This guide evaluates the essential open-source libraries for authoring, typing, and auditing JSON-LD schemas.

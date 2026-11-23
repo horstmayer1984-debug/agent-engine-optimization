@@ -14,8 +14,6 @@ weight: 212
 category: "Código Abierto"
 ---
 
-# MCP, WebMCP y Navegadores de Agentes: Repositorios esenciales evaluados
-
 La capa de ejecución de AEO permite que los agentes completen acciones interactivas en sitios web. Este ranking evalúa las herramientas clave de automatización y protocolos MCP.
 
 > **Estado de la investigación:** 22 de noviembre de 2026. Datos oficiales de la API de GitHub (Europe/Berlin).
@@ -35,6 +33,31 @@ La capa de ejecución de AEO permite que los agentes completen acciones interact
 | **6** | [NLWeb](https://github.com/nlweb-ai/NLWeb) | Capa conversacional | Web conversacional. *Sin actividad desde agosto de 2026.* | MIT | 6.262 | 11.08.2026, 21:35 |
 | **7** | [fetcher-mcp](https://github.com/jae-jae/fetcher-mcp) | Candidato MCP | Extracción rápida de HTML para pruebas puntuales. | MIT | 1.088 | 05.11.2026, 06:53 |
 
+*Directorio adicional del ecosistema:* [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (MIT, 98.373 estrellas, última actividad el 17.11.2026, 06:21 Europe/Berlin) sirve como directorio amplio.
+
+---
+
+## Perfiles detallados
+
+### 1. browser-use
+- **Enfoque:** Pruebas de extremo a extremo de recorridos de usuario agénticos.
+- **Por qué importa para AEO:** Al simular un agente de navegador visual autónomo, `browser-use` revela dónde los botones, formularios y ventanas modales del sitio confunden a los modelos o provocan bucles infinitos.
+- **Repositorio:** [github.com/browser-use/browser-use](https://github.com/browser-use/browser-use)
+
+### 2. Playwright MCP (Microsoft)
+- **Enfoque:** Automatización empresarial del navegador mediante herramientas estándar.
+- **Por qué importa para AEO:** Permite que Claude, Codex o agentes locales inspeccionen y operen sesiones web de forma interactiva dentro de canalizaciones de validación CI/CD.
+- **Repositorio:** [github.com/microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
+
+### 3. WebMCP y herramientas de Chrome Labs
+- **Enfoque:** Estándar web emergente del lado del cliente.
+- **Por qué importa para AEO:** Impulsado por los debates de aprendizaje automático web del W3C y por Google Chrome Labs, WebMCP permite que las páginas registren herramientas semánticas de forma nativa ante los agentes del navegador, sin configuraciones de servidor fuera de banda.
+- **Repositorios:** [github.com/webmachinelearning/webmcp](https://github.com/webmachinelearning/webmcp) y [github.com/GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools)
+
+### 4. NLWeb (aviso de estado)
+- **Aviso de estado:** Aunque se debatió ampliamente a principios de 2026, `NLWeb` no registra **commits nuevos desde el 11 de agosto de 2026** (último commit a las 21:35 Europe/Berlin). Solo debe evaluarse como referencia de archivo.
+- **Repositorio:** [github.com/nlweb-ai/NLWeb](https://github.com/nlweb-ai/NLWeb)
+
 ---
 
 ## Guía de Selección
@@ -42,3 +65,5 @@ La capa de ejecución de AEO permite que los agentes completen acciones interact
 - Pruebe flujos con **[browser-use](https://github.com/browser-use/browser-use)** o **[Playwright MCP](https://github.com/microsoft/playwright-mcp)**.
 - Desarrolle servidores propios con el **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)**.
 - Tenga en cuenta que **NLWeb** no registra actividad desde el 11 de agosto de 2026.
+- Para exponer datos del producto vía MCP, implemente puntos de acceso con el **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** o con **[Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server)**.
+- Para prepararse ante los estándares de navegador siguientes, siga la **[especificación WebMCP](https://github.com/webmachinelearning/webmcp)** y experimente con **[webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools)**.

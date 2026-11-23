@@ -15,8 +15,6 @@ weight: 201
 category: "Security"
 ---
 
-# Agent Security: Protecting Websites in the Autonomous AI Era
-
 Agent Security is the defensive dimension of Agent Engine Optimization (AEO). The fundamental objective is clear: **legitimate AI agents must be able to act on your website, while malicious or attacking agents must be reliably blocked.**
 
 Agent Security is not an abstract cybersecurity discipline or general IT audit. It focuses specifically on the interaction boundary where autonomous models, browser agents, and execution protocols (such as MCP and Web Bot Auth) interact with web applications, APIs, and commerce platforms.

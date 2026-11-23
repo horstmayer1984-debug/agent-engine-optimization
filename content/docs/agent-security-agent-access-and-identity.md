@@ -15,8 +15,6 @@ weight: 202
 category: "Security"
 ---
 
-# Agent Access and Identity: Distinguishing and Verifying AI Agents
-
 Websites face a new architectural dilemma: modern bot protection must prevent scraping, denial-of-service, and automated exploitation, yet aggressively blocking all automated traffic will lock out paying customers whose purchases are transacted via autonomous personal agents.
 
 Securing agent access requires cryptographic verification, granular edge policies, and establishing dedicated agent identities rather than reusing brittle employee logins.

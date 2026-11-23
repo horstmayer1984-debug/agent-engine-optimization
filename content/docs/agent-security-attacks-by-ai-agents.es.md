@@ -14,8 +14,6 @@ weight: 203
 category: "Seguridad"
 ---
 
-# Ataques por Agentes de IA: Panorama de amenazas y herramientas autónomas
-
 El uso ofensivo de agentes de IA acelera los vectores de intrusión. Los modelos autónomos descubren credenciales expuestas y concatenan vulnerabilidades en cuestión de minutos.
 
 > **Estado de la investigación:** 22 de noviembre de 2026. Fechas en Europe/Berlin.

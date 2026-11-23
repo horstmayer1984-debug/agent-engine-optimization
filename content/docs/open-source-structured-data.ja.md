@@ -14,8 +14,6 @@ weight: 211
 category: "オープンソース"
 ---
 
-# AEOのためのSchema.orgおよびJSON-LDツール比較ランキング
-
 JSON-LDで記述された構造化データは、AIエージェントがサイト上のエンティティを決定論的に理解するための最重要基盤です。
 
 > **調査基準日:** 2026年11月22日。GitHub公式API取得データ。
@@ -30,6 +28,30 @@ JSON-LDで記述された構造化データは、AIエージェントがサイ�
 | **2** | [schema-dts](https://github.com/google/schema-dts) | TypeScript型定義 | JSON-LDのTypeScript型定義。誤字や無効プロパティをビルド時に検知。 | Apache-2.0 | 1,262 | 01.11.2026, 20:13 |
 | **3** | [extruct](https://github.com/scrapinghub/extruct) | パーサー監査ツール | クローラーが実際に抽出するメタデータを正確に可視化。 | BSD-3 (調査値) | 未取得 | 未取得 |
 | **4** | [jsonld.js](https://github.com/digitalbazaar/jsonld.js) | JSON-LDプロセッサ | JSON-LDの圧縮・正規化エンジン。 | リポジトリのLICENSE確認 | 1,819 | 04.03.2026, 17:43 |
+
+---
+
+## ツール別の要点
+
+### 1. schemaorg
+- **焦点:** エンティティ定義の決定版。
+- **AEOで重要な理由:** 自律エージェントの推論グラフは、このリポジトリで維持される語彙に解決されます。リリースを追うことで、進化する取引タイプや身元タイプへの早期互換を確保できます。
+- **リポジトリ:** [github.com/schemaorg/schemaorg](https://github.com/schemaorg/schemaorg)
+
+### 2. schema-dts（Google）
+- **焦点:** コンパイル時のスキーマ型付け。
+- **AEOで重要な理由:** 手書きの文字列ベースJSON-LDを、強く型付けされたTypeScriptインターフェースに置き換えることで、スキーマ無効化のバグを防ぎます。
+- **リポジトリ:** [github.com/google/schema-dts](https://github.com/google/schema-dts)
+
+### 3. extruct
+- **焦点:** 独立した抽出検証。
+- **AEOで重要な理由:** サイトはしばしば、エスケープ漏れの引用符や壊れたscriptタグのような微妙な構文エラーを入れ、エージェントのパーサーを壊します。`extruct`は埋め込まれたメタデータ形式を一括で抽出して可視化します。
+- **リポジトリ:** [github.com/scrapinghub/extruct](https://github.com/scrapinghub/extruct)
+
+### 4. jsonld.js
+- **焦点:** グラフ変換と検証。
+- **AEOで重要な理由:** モデルのコンテキストウィンドウへ渡す前に、リンクトデータグラフを展開・圧縮・平坦化するのに不可欠です。*注:* GitHub APIのライセンス欄は`NOASSERTION`です。再配布前にローカルの`LICENSE`ファイルを確認してください。
+- **リポジトリ:** [github.com/digitalbazaar/jsonld.js](https://github.com/digitalbazaar/jsonld.js)
 
 ---
 

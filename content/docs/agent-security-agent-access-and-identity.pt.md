@@ -14,8 +14,6 @@ weight: 202
 category: "Segurança"
 ---
 
-# Acesso e Identidade de Agentes: Como identificar e liberar agentes legítimos
-
 A proteção antibot moderna precisa barrar raspagens abusivas e ataques, mas sem bloquear agentes pessoais que compram em nome de clientes reais.
 
 A governança exige validação criptográfica (Web Bot Auth / RFC 9421) e identidades segregadas para agentes.

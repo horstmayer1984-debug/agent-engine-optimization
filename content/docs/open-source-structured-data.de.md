@@ -15,8 +15,6 @@ weight: 211
 category: "Open Source"
 ---
 
-# Schema.org- und JSON-LD-Tools im Vergleich für AEO
-
 Strukturierte Daten im JSON-LD-Format sind das semantische Rückgrat der Agent Engine Optimization. Während LLMs Fließtext flexibel interpretieren, verlangen verlässliche Aktionen (Preise, Verfügbarkeit, Geschäftsidentitäten) eindeutige Schema.org-Daten.
 
 Dieser Leitfaden vergleicht die wichtigsten Open-Source-Tools zur Erstellung, Typisierung und Prüfung strukturierter Daten.
