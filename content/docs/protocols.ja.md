@@ -69,6 +69,12 @@ AI エージェント プロトコルは、自律システムが機能を発見�
 **なぜ x402 が重要ですか?**  
 x402 は、従来の人による支払いフローを使用せずに、API 呼び出し、データ アクセス、またはトランザクションの支払い方法をエージェントに提供します。
 
+## セキュリティ・オープンソース関連ガイド
+
+* [エージェント向けセキュアインターフェース：API・MCP・WebMCP](/ja/docs/agent-security-secure-interfaces/)
+* [Agent Security概要](/ja/docs/agent-security/)
+* [エージェント接続向けオープンソース：MCPとWebMCP](/ja/docs/open-source-agent-interfaces/)
+
 ## 主な参考文献
 
 * [モデルコンテキストプロトコル仕様](https://modelcontextprotocol.io/specification/2025-06-18/basic/index)

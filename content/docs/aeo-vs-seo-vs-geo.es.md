@@ -1,127 +1,106 @@
 ---
-title: "AEO versus SEO versus GEO: la verdadera separación."
-description: "Compare AEO, SEO y GEO por objetivo, usuario, capa de optimización y métrica de éxito para que los equipos puedan elegir la estrategia adecuada."
-summary: "Una comparación práctica de SEO, GEO y optimización de Agent Engine en términos de descubrimiento, generación de respuestas y preparación de la capa de ejecución."
+title: "AEO vs. SEO vs. GEO: La separación real"
+metaTitle: "SEO vs. GEO vs. AEO: diferencias entre búsqueda, respuestas IA y agentes"
+description: "Compare SEO, GEO, Answer Engine Optimization y Agent Engine Optimization por objetivo, audiencia, capa técnica y métricas clave."
+metaDescription: "Separación clara entre SEO (posicionamiento), GEO (citas en respuestas IA), Answer Engine Optimization (respuestas directas) y Agent Engine Optimization (ejecución)."
+summary: "Comparativa práctica entre SEO, GEO, Answer Engine Optimization y Agent Engine Optimization en capa de lectura y capa de ejecución."
 keywords:
-  - AEO, SEO y GEO
-  - Optimización del motor del agente
-  - Optimización del motor generativo
-  - Optimización de búsqueda por IA
-date: 2026-03-09
+  - AEO vs SEO vs GEO
+  - SEO vs GEO vs AEO
+  - Generative Engine Optimization
+  - Answer Engine Optimization
+  - Agent Engine Optimization
+date: 2026-11-25
 weight: 2
 category: "Analysis"
 ---
-El espacio de la optimización digital en 2026 se está ahogando en siglas. SEO, AEO, GEO, LLMO, AAO, AIEO, GXO: cada uno con su propio electorado y cada uno afirma ser el futuro.
 
-Esta página elimina el ruido con un modelo estructural simple: **las tres capas de optimización digital**, cada una con objetivos, técnicas y métricas de éxito distintos.
+El panorama de optimización en 2026 está lleno de siglas solapadas: SEO, AEO, GEO, LLMO y Answer AEO. Mezclar GEO y AEO genera páginas redundantes y prioridades técnicas confusas.
 
----
-
-## Capa 1: Optimización de búsqueda (SEO)
-
-**Objetivo:** Clasificar en los resultados del motor de búsqueda. Obtenga clics de humanos.
-
-El SEO ha sido la disciplina dominante durante 25 años y sigue siendo fundamental. Optimiza los algoritmos de clasificación que ofrecen enlaces a buscadores humanos.
-
-**Técnicas principales:** Investigación de palabras clave, optimización en la página, vínculos de retroceso, SEO técnico, velocidad del sitio, optimización móvil.
-
-**Métricas de éxito:** Rankings, impresiones, clics, tráfico orgánico.
-
-**Estado en 2026:** Vivo, pero transformado. Las búsquedas sin clic superan ahora el 60% de todas las consultas de Google. El SEO sigue siendo necesario como base (los sistemas de inteligencia artificial todavía dependen de los índices de búsqueda para descubrir contenido), pero ya no garantiza la visibilidad por sí solo.
+Esta guía separa las cuatro disciplinas en **capa de lectura** y **capa de ejecución**.
 
 ---
 
-## Capa 2: Optimización Generativa (GEO / Respuesta AEO)
+## Separación rápida: SEO vs. GEO vs. AEO
 
-**Objetivo:** Ser citado, resumido y recomendado en respuestas generadas por IA.
-
-Esto es lo que la mayor parte de la industria llama actualmente "AEO" (Answer Engine Optimization) o "GEO" (Generative Engine Optimization). La distinción entre estos dos términos es mínima en la práctica: ambos se centran en hacer del contenido la fuente preferida para los sistemas de respuesta de IA.
-
-**Técnicas básicas:** Datos estructurados (Schema.org), claridad semántica, señales E-E-A-T, llms.txt, estructuras de preguntas frecuentes, optimización de entidades, frescura del contenido, formato digno de cita.
-
-**Métricas de éxito:** Citas de IA, participación en las respuestas de IA, tráfico de referencias de ChatGPT, Perplejidad y descripciones generales de IA.
-
-**Estado en 2026:** Se está convirtiendo rápidamente en algo común. Las agencias lo ofrecen como servicio. Microsoft, Deloitte y las principales plataformas de SEO publican guías. El ecosistema de herramientas está creciendo.
-
-**Observación crítica:** GEO y Answer-AEO son esencialmente una evolución del SEO para un nuevo canal de distribución. Las habilidades, herramientas y modelos mentales se superponen en gran medida con la optimización de contenido tradicional. Es importante, pero no es una disciplina fundamentalmente nueva.
+| Disciplina | Audiencia principal | Objetivo clave | Activo principal | Métrica clave |
+|---|---|---|---|---|
+| **SEO** | Buscadores humanos | Posicionar URLs y ganar clics | HTML técnico, enlaces, profundidad | Posiciones, CTR, tráfico orgánico |
+| **[GEO](/es/docs/generative-engine-optimization/)** | IA generativa multifuente | Inclusión de marca y citas | Entidades, fuentes citadas, tablas | Cuota de citas en respuestas IA |
+| **[Answer AEO](/es/docs/answer-engine-optimization/)** | Motores de respuesta y voz | Ganar la respuesta directa | Bloques answer-first, FAQs, schema | Extracción directa y atribución |
+| **[Agent AEO](/es/docs/what-is-aeo/)** | Agentes autónomos de IA | Ejecutar tareas y compras | APIs, MCP, WebMCP, UCP, Auth | Tasa de finalización y estado |
 
 ---
 
-## Capa 3: Optimización del agente (AEO agente)
+## Capa 1: Search Engine Optimization (SEO)
 
-**Objetivo:** Permitir que agentes autónomos de IA ejecuten tareas a través de su infraestructura digital.Esta es la capa de ejecución. No se trata de ser leído o citado, sino de ser **utilizado como herramienta**. Un agente no solo recomienda su hotel: verifica la disponibilidad, coincide con las limitaciones y reserva una habitación. Un agente no se limita a citar su reseña de software: compara precios, verifica la compatibilidad de funciones e inicia un registro de prueba.
+**Objetivo:** Posicionar páginas en buscadores y captar tráfico humano.
 
-**Técnicas principales:** Exposición de API, compatibilidad de protocolos (UCP, MCP, A2A), estructuras de datos deterministas, restricciones legibles por máquina, modelado de transición de estado, manifiestos de capacidad, esquemas de acción, autenticación de agentes.
-
-**Métricas de éxito:** Tasa de finalización de tareas, transacciones exitosas, tasa de éxito de llamadas API, confirmaciones de cambios de estado.
-
-**Estado en 2026:** Fase de infraestructura. Se lanzaron protocolos (UCP, MCP), existen implementaciones tempranas (Shopify, Marqeta), pero la adopción generalizada no ha comenzado.
+El SEO sigue siendo la base obligatoria: tanto los buscadores clásicos como los modelos con navegación web dependen de URLs rastreables, canonicals claros, velocidad y autoridad temática.
 
 ---
 
-## Comparación completa
+## Capa 2: Generative Engine Optimization (GEO)
 
-| Dimensión | SEO | GEO / Respuesta AEO | Agente AEO |
-|
----|
----|
----|
----|
-| **Audiencia principal** | Humanos a través de motores de búsqueda | Sistemas de respuesta de IA | Agentes autónomos de IA |
-| **Objetivo** | Obtenga clasificación, haga clic en | Sea citado, sea recomendado | Acostúmbrate, ejecútalo |
-| **Métrica de éxito** | Rankings, clics, tráfico | Citas, cuota de voz de IA | Finalización de tareas, conversiones |
-| **Técnica básica** | Palabras clave, enlaces, SEO técnico | Contenido estructurado, E-E-A-T, esquema | API, protocolos, datos deterministas |
-| **Tipo de contenido** | Legible por humanos | Resumible por máquina | Ejecutable por máquina |
-| **Tolerancia a errores** | Medio | Alto | Bajo: una mala reserva es un daño real |
-| **Madurez del mercado** | Maduro (25+ años) | Emergente | Fase de infraestructura |
-| **Habilidades requeridas** | Contenido + SEO técnico | Contenido + datos estructurados | Arquitectura + Diseño API + protocolos |
+**Objetivo:** Ser recuperado, sintetizado con exactitud y citado en respuestas generadas por IA.
+
+[Generative Engine Optimization (GEO)](/es/docs/generative-engine-optimization/) se orienta a ChatGPT Search, Perplexity, Claude y Google AI Overviews, donde varias fuentes alimentan una respuesta conjunta y comparativa.
+
+**Técnicas clave:** Investigación original, fuentes primarias fechadas, entidades claras, tablas comparativas, señales E-E-A-T y descubrimiento con `llms.txt`.
 
 ---
 
-## ¿Dónde está la verdadera división?
+## Capa 3: Answer Engine Optimization (Answer AEO)
 
-El límite significativo no está entre SEO y GEO. Esas son variaciones del mismo enfoque fundamental: optimizar el contenido para que los sistemas puedan encontrarlo y presentarlo a los usuarios.
+**Objetivo:** Entregar respuestas directas e inequívocas a preguntas concretas.
 
-La verdadera división está entre la **capa de lectura** (SEO + GEO) y la **capa de ejecución** (Agentic AEO).
-
-En la capa de lectura, el sistema consume su contenido de forma pasiva. En la capa de ejecución, el sistema interactúa activamente con su infraestructura: llamando a API, cambiando estados y completando transacciones.
-
-**Requisitos de lectura de la capa:** Buen contenido, marcado adecuado, frescura y señales de autoridad. Su CMS existente puede manejar esto con ajustes.**Requisitos de la capa de ejecución:** API con entradas y salidas deterministas. Puntos finales compatibles con el protocolo. Sistemas de restricciones legibles por máquina. Mecanismos de verificación estatal. Autenticación del agente. Redes de seguridad para las transacciones.
-
-Se trata de capacidades fundamentalmente diferentes que requieren diferentes equipos, herramientas y estrategias.
+[Answer Engine Optimization](/es/docs/answer-engine-optimization/) es lo que la mayoría busca cuando escribe «AEO». Mientras GEO cubre la síntesis amplia de marca, Answer AEO optimiza la extracción directa mediante definiciones de 40–80 palabras, H2 en forma de pregunta y `FAQPage` JSON-LD válido.
 
 ---
 
-## La secuencia práctica
+## Capa 4: Agent Engine Optimization (Agent AEO — Capa de ejecución)
 
-Para la mayoría de las organizaciones en 2026:
+**Objetivo:** Permitir que agentes autónomos ejecuten acciones reales sobre su infraestructura.
 
-1. **Asegúrese de que su base de SEO sea sólida.** Los sistemas de inteligencia artificial todavía utilizan índices de búsqueda para el descubrimiento.
-2. **Optimice para la capa de lectura (GEO).** Estructura su contenido para citas y resúmenes de IA.
-3. **Evalúe la preparación de su capa de ejecución.** Consulte la [Auditoría de preparación de AEO](/es/docs/audit/).
-4. **Avanzar hacia la compatibilidad de la capa de ejecución.** Según su industria y su capacidad técnica.
+[Agent Engine Optimization](/es/docs/what-is-aeo/) opera en la **[capa de ejecución](/es/docs/execution-layer/)**. Un agente no solo recomienda un hotel o servicio: consulta disponibilidad en tiempo real, valida reglas y ejecuta la reserva.
 
-[La capa de ejecución](/es/docs/execution-layer/): lo que se necesita para que el agente de infraestructura sea procesable.
+**Técnicas clave:** Endpoints OpenAPI, servidores MCP, WebMCP en el navegador, flujos UCP/ACP, JSON determinista, Web Bot Auth (RFC 9421) y controles de [Agent Security](/es/docs/agent-security/).
+
+---
+
+## Dónde está la verdadera frontera
+
+La división real **no** está entre SEO, GEO y Answer AEO —los tres pertenecen a la **capa de lectura**, donde los sistemas consumen texto y metadatos pasivamente.
+
+La frontera arquitectónica real separa la **capa de lectura** de la **capa de ejecución** (Agent AEO), donde un sistema externo ejecuta cambios de estado, reservas o transacciones.
+
+---
+
+## Secuencia práctica en 2026
+
+1. **Asegure el SEO técnico:** URLs canónicas limpias, HTML rápido y sin duplicidad de contenidos.
+2. **Aplique GEO y Answer AEO:** Formato answer-first, tablas comparativas, fuentes y JSON-LD `FAQPage` y `BreadcrumbList`.
+3. **Evalúe su preparación agéntica:** Realice una [Auditoría de preparación AEO](/es/docs/audit/) o utilice el [Comprobador gratuito de AEO](/tools/aeo-readiness-checker.html).
+4. **Construya y proteja la capa de ejecución:** Exponga APIs deterministas o MCP/UCP con barreras de [Agent Security](/es/docs/agent-security/).
+
+---
 
 ## Preguntas frecuentes
 
-### ¿Puede una página admitir SEO, GEO y AEO?
+### ¿En qué se diferencia GEO de Answer Engine Optimization y Agent AEO?
 
-Sí. Una página rastreable puede clasificarse en la búsqueda, proporcionar pasajes citables para respuestas generadas y vincular a acciones estructuradas. Es posible que la capa de ejecución aún requiera API o soporte de protocolo más allá de la propia página.
+GEO busca presencia de marca y citas en respuestas generativas amplias. Answer Engine Optimization apunta a la extracción directa de respuestas concretas. Agent Engine Optimization construye las APIs, protocolos y verificaciones para ejecutar tareas reales.
 
-### ¿Qué disciplina debería priorizar un nuevo sitio?
+### ¿Puede un sitio optimizarse a la vez para SEO, GEO y AEO?
 
-Comience con SEO técnico y contenido útil. Agregue el trabajo de extracción y citación GEO a continuación. Cree capacidades de ejecución cuando los usuarios tengan una tarea clara que los agentes puedan realizar de forma segura.
+Sí. HTML limpio y canonicals respaldan el SEO; tablas y definiciones claras impulsan GEO y Answer AEO; APIs documentadas y protocolos seguros habilitan Agent AEO.
 
-### ¿Cómo se debe medir el éxito?
+### ¿Qué capa conviene priorizar primero?
 
-Mida las clasificaciones y los clics para SEO, la calidad de las menciones y citas para GEO y la finalización de tareas, errores, autorización y verificación para Agent Engine Optimization.
-
-## Guías relacionadas
-
-* [guía de software sin cabeza](/es/docs/what-is-headless-software/)
+Empiece por SEO técnico y claridad en la capa de lectura (Answer AEO + GEO), y pase a la capa de ejecución cuando existan transacciones, reservas o flujos API delegables.
 
 ## Referencias primarias
 
-* [Guía de Google para funciones de IA generativa](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
-* [Conceptos básicos de búsqueda de Google](https://developers.google.com/search/docs/essentials)
+* [Guía de Google sobre funciones de IA y su sitio web](https://developers.google.com/search/docs/appearance/ai-features)
+* [Conceptos básicos de la Búsqueda de Google](https://developers.google.com/search/docs/essentials)
+* [Especificación de Model Context Protocol](https://modelcontextprotocol.io/specification/2026-07-28/server/tools)

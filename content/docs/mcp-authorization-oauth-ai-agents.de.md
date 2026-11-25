@@ -134,4 +134,12 @@ Mithilfe von Metadaten können MCP-Clients die Autorisierungsserver identifizier
 
 Agenten nutzen eher Dienste, die die verfügbaren Tools, Berechtigungen und Zugriffsabläufe klar beschreiben.
 
-### Sollten Agenten Administratorzugriff haben? Nur in streng kontrollierten internen Umgebungen mit strengen Registrierungen, Genehmigungen und Widerrufen.
+### Sollten Agenten Administratorzugriff haben?
+
+Nur in streng kontrollierten internen Umgebungen mit strengen Protokollierungen, Genehmigungen und Widerrufen.
+
+## Verwandte Leitfäden
+
+* [Sichere Schnittstellen für Agenten: APIs, MCP und WebMCP](/de/docs/agent-security-secure-interfaces/)
+* [Agent Security im Überblick](/de/docs/agent-security/)
+* [Open-Source-Agenten-Schnittstellen: MCP und WebMCP](/de/docs/open-source-agent-interfaces/)

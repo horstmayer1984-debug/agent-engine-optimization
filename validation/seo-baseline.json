@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "validator": "seo",
-  "generated_at": "2026-11-19T20:46:34Z",
-  "source_commit": "183941893ea3a4a90280b6d78072b3a7c7cae2bd",
+  "generated_at": "2026-11-25T21:39:29Z",
+  "source_commit": "98ed01aec5fbb8275f1f2171830388040648bff3",
   "summary": {
-    "occurrences": 87,
-    "unique_findings": 87,
+    "occurrences": 86,
+    "unique_findings": 86,
     "files": 1,
     "by_rule": {
       "aeo.llms_txt_missing_article": {
-        "unique": 87,
-        "occurrences": 87
+        "unique": 86,
+        "occurrences": 86
       }
     }
   },
@@ -118,14 +118,6 @@
       "count": 1,
       "lines": [],
       "message": "English article is not listed: aeo-kpis-measurement"
-    },
-    {
-      "path": "static/llms.txt",
-      "rule": "aeo.llms_txt_missing_article",
-      "detail": "https://agent-engine-optimization.com/docs/aeo-readiness-checker/",
-      "count": 1,
-      "lines": [],
-      "message": "English article is not listed: aeo-readiness-checker"
     },
     {
       "path": "static/llms.txt",

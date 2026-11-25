@@ -69,6 +69,12 @@ Não. O MCP é útil para acessar ferramentas, mas o AEO também inclui conteúd
 **Por que o x402 é importante?**  
 O x402 oferece aos agentes uma maneira de pagar por chamadas de API, acesso a dados ou transações sem um fluxo tradicional de pagamento humano.
 
+## Guias relacionados de segurança e código aberto
+
+* [Interfaces seguras para agentes: APIs, MCP e WebMCP](/pt/docs/agent-security-secure-interfaces/)
+* [Visão geral de Agent Security](/pt/docs/agent-security/)
+* [Interfaces Open Source para agentes: MCP e WebMCP](/pt/docs/open-source-agent-interfaces/)
+
 ## Referências primárias
 
 * [Especificação do protocolo de contexto do modelo](https://modelcontextprotocol.io/specification/2025-06-18/basic/index)

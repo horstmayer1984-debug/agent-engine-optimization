@@ -96,7 +96,6 @@ Spanish-language documentation is available at https://agent-engine-optimization
 - [Headless CMS Impact on SEO: Benefits, Risks, and Fixes](https://agent-engine-optimization.com/docs/headless-cms-impact-on-seo/)
 - [Headless CMS SEO: Complete Technical Checklist](https://agent-engine-optimization.com/docs/headless-cms-seo/)
 - [Headless SEO: How to Optimize Decoupled Websites](https://agent-engine-optimization.com/docs/headless-seo/)
-- [CMS vs Headless CMS: Simple Difference for SEO Teams](https://agent-engine-optimization.com/docs/cms-vs-headless-cms/)
 - [Headless CMS for AI Optimization: Traditional vs Headless](https://agent-engine-optimization.com/docs/headless-cms-ai-optimization/)
 - [Headless vs Non-Headless CMS: Which Should You Choose?](https://agent-engine-optimization.com/docs/headless-vs-non-headless-cms/)
 - [Headless vs Headful CMS: Meaning, SEO, and Hybrid Options](https://agent-engine-optimization.com/docs/headless-vs-headful-cms/)
@@ -204,4 +203,4 @@ Spanish-language documentation is available at https://agent-engine-optimization
 
 ## Last updated
 
-2026-11-22
+2026-11-25

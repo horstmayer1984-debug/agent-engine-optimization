@@ -138,3 +138,9 @@ AEO の場合、代理人が事実、マーケティング上の主張、指示�
 ### チームはどのように始めるべきですか?
 
 すべてのエージェントのアクションをインベントリし、リスクを分類し、実行レイヤーへのアクセスを拡張する前に制御を追加します。
+
+## 関連ガイド
+
+* [Agent Security概要](/ja/docs/agent-security/)
+* [プロンプトインジェクションと改ざんコンテンツ防御](/ja/docs/agent-security-prompt-injection-and-manipulated-content/)
+* [エージェント向けセキュアインターフェース：API・MCP・WebMCP](/ja/docs/agent-security-secure-interfaces/)

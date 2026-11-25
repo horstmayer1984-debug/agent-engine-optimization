@@ -20,7 +20,7 @@ Utilice un CMS headless cuando el contenido estructurado, la publicación multic
 
 Headless es una buena opción cuando la flexibilidad merece la ingeniería adicional. Es una mala elección cuando el equipo sólo quiere un CMS que suene moderno.
 
-Para obtener una definición más amplia, lea [¿Qué es el software sin cabeza?](/es/docs/what-is-headless-software/). Para una comparación directa, lea [CMS vs CMS sin cabeza](/es/docs/cms-vs-headless-cms/).
+Para obtener una definición más amplia, lea [¿Qué es el software sin cabeza?](/es/docs/what-is-headless-software/). Para una comparación directa, lea [CMS sin cabeza frente a CMS tradicional](/es/docs/headless-cms-vs-traditional-cms/).
 
 ## Utilice CMS sin cabeza cuando estos sean ciertos
 

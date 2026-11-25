@@ -1,14 +1,14 @@
 ---
-title: "AEO準備監査。"
-metaTitle: "AI エージェント Web サイトの AEO 準備状況監査。"
+title: "AEO準備状況監査"
+metaTitle: "AEO準備状況監査：Webサイト・API・実行層の評価ガイド"
 description: "Web サイト、API、構造化データ、llms.txt、AI エージェント、応答エンジン、コマースの実行層の準備状況を監査します。"
 summary: "AI の発見可能性、構造化されたコンテンツ、プロトコルの準備状況、データの決定性、実行可能性をカバーする実用的な AEO 監査フレームワーク。"
 keywords:
   - "AEO監査"
-  - "エージェント エンジン最適化監査"
+  - "AEO準備状況監査"
   - "エージェント対応の Web サイト監査"
-  - "AI検索の準備"
-date: 2026-03-09
+  - "AIエージェント対応評価"
+date: 2026-11-25
 weight: 10
 category: "Tool"
 ---
@@ -112,7 +112,12 @@ API インフラストラクチャとプロトコルの互換性分析を含む�
 
 マテリアルのコンテンツ、スキーマ、API、ポリシー、またはワークフローを変更した後、特定のテストを繰り返します。エージェントのトラフィックとサポートされる機能が進化するにつれて、より大きなサンプルを定期的に確認します。
 
-## 関連ガイド* [エージェント コマース アーキテクチャ](/ja/docs/agentic-commerce/)
+## 関連ガイド
+
+* [エージェント コマース アーキテクチャ](/ja/docs/agentic-commerce/)
+* [無料AEOレディネスチェッカー](/tools/aeo-readiness-checker.html)
+* [Agent Security概要](/ja/docs/agent-security/)
+* [オープンソースクローラーと抽出ツール](/ja/docs/open-source-crawlers-and-extractors/)
 
 ## 主な参考文献
 

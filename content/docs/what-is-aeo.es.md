@@ -1,118 +1,123 @@
 ---
-title: "¿Qué es la optimización del motor de agentes?"
-metaTitle: "¿Qué es la optimización del motor de agentes (AEO)?"
-description: "Conozca qué significa Agent Engine Optimization, en qué se diferencia de SEO y GEO, y cómo los sitios web se vuelven reconocibles, legibles y procesables."
-summary: "Una definición sencilla de Agent Engine Optimization y en qué se diferencia de SEO, GEO, optimización de respuestas y visibilidad web tradicional."
+title: "¿Qué es Agent Engine Optimization (AEO)?"
+metaTitle: "¿Qué es AEO? Capa de Lectura, Ejecución y Arquitectura (2026)"
+description: "Conozca qué significa AEO a finales de 2026, en qué se diferencia de SEO y GEO y cómo los sitios web se vuelven descubribles, seguros y accionables para agentes de IA."
+metaDescription: "Guía actualizada en noviembre de 2026: qué es AEO, cómo amplía SEO y GEO hacia la capa de ejecución y cómo asegurar sitios web preparados para agentes."
+summary: "Definición actualizada a 2026 de Agent Engine Optimization: capa de lectura, capa de ejecución, protocolos activos y Agent Security."
 keywords:
-  - Optimización del motor del agente
-  - ¿Qué es AEO?
+  - qué es AEO
+  - Agent Engine Optimization
   - sitios web listos para agentes
-  - Agentes de IA
-date: 2026-03-09
+  - capa de ejecución
+  - agentes de IA 2026
+date: 2026-11-25
 weight: 1
 category: "Framework"
 ---
-Agent Engine Optimization (AEO) es la práctica de estructurar sitios web, API, datos y servicios digitales para que agentes autónomos de IA puedan descubrirlos, comprender sus capacidades y ejecutar acciones a través de ellos, como reservas, compras, recuperación de datos, comparaciones y pasos del flujo de trabajo.
 
-AEO opera bajo la premisa de que el próximo usuario principal de la infraestructura digital no es un ser humano que navega por un sitio web, sino un agente de inteligencia artificial que actúa en nombre de un ser humano.
+Agent Engine Optimization (AEO) es la práctica de estructurar sitios web, API, datos y servicios digitales para que los agentes autónomos de IA puedan descubrirlos, verificar sus límites de confianza, comprender sus capacidades y ejecutar acciones a través de ellos, como reservas, compras, recuperación de datos, comparaciones y flujos de trabajo.
+
+AEO parte de la premisa de que el próximo usuario principal de la infraestructura digital no es una persona navegando un sitio web, sino un agente de IA actuando en nombre de un usuario.
 
 ---
 
 ## El problema que resuelve AEO
 
-Un agente autónomo encargado de "Reservarme un vuelo a Lisboa por menos de 400 euros el próximo mes" necesita:
+Un agente autónomo encargado de «Reservarme un vuelo a Lisboa por menos de 400 euros el próximo mes» necesita:
 
-1. **Descubre** aerolíneas y plataformas de reserva que sirven la ruta
+1. **Descubrir** aerolíneas y plataformas de reserva que operan la ruta
 2. **Leer** datos estructurados de precios, disponibilidad y restricciones
-3. **Compara** opciones con el presupuesto y las preferencias del usuario.
-4. **Ejecutar** una reserva a través de una interfaz de transacción legible por máquina
-5. **Verificar** el resultado y devolver una confirmación.
+3. **Comparar** opciones frente al presupuesto y las preferencias del usuario
+4. **Ejecutar** la reserva mediante una interfaz transaccional legible por máquinas
+5. **Verificar** el resultado y devolver una confirmación fiable
 
-La mayor parte de la infraestructura digital actual admite el paso 1 y parcialmente el paso 2. Los pasos 3 a 5 requieren una infraestructura que la mayoría de las organizaciones aún no proporcionan.
+La mayoría de la infraestructura actual admite el paso 1 y parcialmente el paso 2. Los pasos 3 al 5 requieren capacidades legibles por máquina, restricciones deterministas y endpoints seguros que muchas organizaciones aún no ofrecen.
 
-Esa brecha (entre lo que los agentes pueden entender y sobre lo que pueden actuar) es lo que aborda AEO.
+Esa brecha —entre lo que los agentes pueden resumir y lo que pueden ejecutar con seguridad— es exactamente lo que resuelve AEO.
 
 ---
 
 ## Lo que no es AEO
 
-**AEO no se denomina SEO.** El SEO se optimiza para el comportamiento de búsqueda humana y los algoritmos de clasificación. AEO optimiza la ejecución de tareas impulsadas por máquinas.
+**AEO no es SEO renombrado.** El SEO optimiza para buscadores humanos y algoritmos de posicionamiento. AEO optimiza para el descubrimiento y la ejecución de tareas por sistemas autónomos.
 
-**AEO no es lo mismo que GEO.** La optimización generativa del motor se centra en ser citado en las respuestas generadas por IA. AEO se centra en ser utilizado como herramienta o punto final por un agente autónomo.
+**AEO no es lo mismo que GEO.** La [Optimización de Motores Generativos (GEO)](/es/docs/generative-engine-optimization/) se enfoca en aparecer citado en respuestas generadas por IA, mientras que la [Optimización de Motores de Respuesta](/es/docs/answer-engine-optimization/) busca la extracción de respuestas directas. AEO avanza hacia la capa de ejecución: ser utilizado como herramienta o endpoint transaccional.
 
-**AEO no es un concepto futuro.** Los protocolos se están construyendo ahora. Google y Shopify lanzaron el Protocolo de comercio universal (UCP) en enero de 2026. El Protocolo de contexto modelo (MCP) de Anthropic está listo para producción. OpenAI y Stripe están desarrollando el Protocolo de comercio agente (ACP). La capa de infraestructura existe; la mayoría de las empresas simplemente no se han adaptado a ella.
+**AEO ya está en producción.** A lo largo de 2026 las especificaciones clave maduraron: Google y Shopify lanzaron el Universal Commerce Protocol (UCP), Model Context Protocol (MCP) de Anthropic incorporó autorización OAuth, sampling, elicitation y registro oficial, Chrome lanzó WebMCP para agentes en el navegador, y la verificación criptográfica Web Bot Auth (RFC 9421) junto con monederos agénticos pasaron al comercio real.
 
 ---
 
 ## Las dos capas de AEO
 
-### Leer capa
+### Capa de lectura (Read Layer)
 
-Hacer que el contenido sea reconocible y comprensible mediante sistemas de inteligencia artificial. Esto incluye datos estructurados, marcado de esquemas, HTML semántico, archivos llms.txt y contenido que la IA puede resumir y citar con precisión.
+Hacer que el contenido sea descubrible, verificable y comprensible para sistemas de IA. Incluye datos estructurados de Schema.org, HTML semántico, archivos `llms.txt`, contenido estructurado y atribución clara de fuentes.
 
-Esto es lo que la mayor parte del mercado llama actualmente "AEO" u "Answer Engine Optimization". Es necesario pero insuficiente.
+### Capa de ejecución (Execution Layer)
 
-### Capa de ejecución
-
-Hacer que los servicios digitales sean accionables por agentes autónomos. Esto incluye API, compatibilidad de protocolos (MCP, UCP, A2A), estructuras de datos deterministas, restricciones legibles por máquina, transiciones de estado e interfaces de transacciones.Esta es la capa que crea una diferenciación real (y un impacto real en el negocio) a medida que los agentes pasan de responder preguntas a completar tareas.
+Hacer que los servicios digitales sean accionables por agentes autónomos. Incluye APIs documentadas con OpenAPI, servidores MCP, interfaces WebMCP, flujos de comercio UCP y ACP, estructuras de datos deterministas, restricciones legibles por máquina y transiciones de estado verificables. Consulte la [guía de la capa de ejecución](/es/docs/execution-layer/).
 
 ---
 
 ## ¿Quién necesita AEO ahora?
 
-**Relevante inmediato (2026):**
-- Plataformas de comercio electrónico y minoristas en línea (el ecosistema UCP/MCP está activo)
-- Servicios de viajes y reservas (caso de uso clásico de agente)
-- B2B SaaS con productos API (ya legibles por máquina, necesitan descubrimiento de agentes)
-- DevTools y plataformas API (la integración de MCP es un valor directo)
+**Relevancia inmediata (finales de 2026):**
+- Plataformas de comercio electrónico y minoristas (UCP, ACP y pagos agénticos activos)
+- Servicios de viajes y reservas (vuelos, hoteles e itinerarios en tiempo real)
+- B2B SaaS con APIs (requieren descubrimiento para agentes y permisos OAuth granulares)
+- DevTools y plataformas API (la integración MCP impulsa la adopción directa)
 
-**Relevante dentro de 12 a 18 meses:**
-- Fintech y proveedores de pagos.
-- Compras B2B y cadena de suministro.
-- Proveedores de software empresarial
-
-**Horizonte más largo (2027 y más allá):**
-- Industrias sanitarias, legales y reguladas.
-- Servicios complejos de consultoría y asesoramiento.
+**Crecimiento acelerado (horizonte 2027):**
+- Fintech, seguros y proveedores de pagos (mandatos AP2 y micropagos x402)
+- Compras B2B y cadenas de suministro
+- Industrias reguladas con aprobaciones auditables con intervención humana
 
 ---
 
-## El mercado de protocolos
+## El ecosistema de protocolos en 2026
 
-| Protocolo | Desarrollador | Propósito |
-|
----|
----|
----|
-| **UCP** | Google/Shopify | Transacciones estandarizadas de agente a comerciante |
-| **MCP** | Antrópico | Herramienta universal y acceso a datos para modelos de IA |
-| **A2A** | Google | Coordinación directa de agente a agente |
-| **ACP** | OpenAI/raya | Pago seguro y manejo de credenciales |
+| Protocolo | Impulsor | Función en AEO |
+|---|---|---|
+| **UCP** | Google / Shopify | Transacciones estandarizadas entre agente y comercio |
+| **MCP** | Anthropic / Linux Foundation | Acceso universal a herramientas, recursos y OAuth para modelos de IA |
+| **WebMCP** | W3C / Chrome | Contratos de herramientas en el navegador expuestos por páginas web |
+| **A2A** | Google | Descubrimiento y coordinación directa entre agentes |
+| **ACP** | OpenAI / Stripe | Checkout seguro y delegación de credenciales |
 | **AP2** | Google | Mandatos de pago verificados criptográficamente |
+| **Web Bot Auth** | IETF (RFC 9421) | Verificación criptográfica del tráfico legítimo de agentes |
 
-Estos protocolos son complementarios, no competitivos. Una interacción completa con el agente podría utilizar MCP para el acceso a los datos, UCP para la transacción, AP2 para el pago y A2A para la coordinación de múltiples agentes.
+Estos protocolos son complementarios. Una misma interacción puede usar Web Bot Auth para verificar la identidad, MCP o WebMCP para invocar herramientas, UCP o ACP para la compra y AP2 o x402 para liquidar el pago.
 
-Lea más: [La capa de ejecución](/es/docs/execution-layer/): profundice en lo que hace que la optimización agente sea fundamentalmente diferente.
+---
 
-[AEO vs. SEO vs. GEO](/es/docs/aeo-vs-seo-vs-geo/): la comparación completa.
+## Seguridad y código abierto para sistemas agénticos
 
-[Auditoría de preparación de AEO] (/docs/audit/): evalúe su infraestructura.
+Exponer endpoints de ejecución sin defensas introduce riesgos críticos. El AEO productivo combina usabilidad y control:
+
+- **[Agent Security](/es/docs/agent-security/):** Diferencie agentes firmados criptográficamente de bots maliciosos, proteja interfaces MCP y API, y defienda la capa de lectura contra inyecciones de prompt indirectas.
+- **[Herramientas Open Source para AEO](/es/docs/open-source/):** Evalúe crawlers abiertos, generadores de `llms.txt`, validadores de JSON-LD, SDKs de MCP y librerías de Web Bot Auth.
+- **[AEO vs. SEO vs. GEO](/es/docs/aeo-vs-seo-vs-geo/):** Separe posicionamiento, citas generativas y ejecución agéntica.
+- **[Auditoría de preparación AEO](/es/docs/audit/):** Evalúe sistemáticamente su capa de lectura, ejecución y seguridad o ejecute el [Comprobador gratuito de AEO](/tools/aeo-readiness-checker.html).
+
+---
 
 ## Preguntas frecuentes
 
-### ¿La optimización de Agent Engine es lo mismo que la optimización de Answer Engine?
+### ¿Agent Engine Optimization es lo mismo que Answer Engine Optimization?
 
-No. La optimización del motor de respuesta se centra en la visibilidad y las citas en las respuestas generadas. Agent Engine Optimization también cubre las interfaces y controles necesarios para que un agente complete y verifique una tarea.
+No. La optimización para motores de respuesta se centra en la visibilidad y las citas directas en respuestas generadas. Agent Engine Optimization abarca además las interfaces, APIs, protocolos y controles de seguridad necesarios para que un agente complete y verifique una tarea real.
 
-### ¿Todos los sitios web necesitan MCP o UCP?
+### ¿Todos los sitios web necesitan MCP, WebMCP o UCP?
 
-No. Los sitios centrados en el contenido pueden comenzar con HTML claro, datos estructurados, atribución de fuentes y archivos de descubrimiento. Los protocolos se vuelven relevantes cuando el sitio expone herramientas, transacciones o flujos de trabajo entre agentes.
+No. Los sitios centrados en contenido pueden comenzar con HTML limpio, datos estructurados de Schema.org, atribución de fuentes y `llms.txt`. Los protocolos de ejecución cobran relevancia cuando el sitio expone herramientas, reservas, compras o flujos entre agentes.
 
-### ¿Qué debería implementar primero una empresa?
+### ¿Qué debería implementar primero una empresa a finales de 2026?
 
-Comience con las tareas del usuario que vale la pena delegar, luego audite si un agente puede descubrir la información correcta, interpretar restricciones, ejecutar de manera segura y verificar el resultado.
+Comience identificando las tareas delegables por el usuario, audite el acceso de rastreadores y datos estructurados, refuerce sus APIs mediante [Agent Security](/es/docs/agent-security/) y valide sus endpoints con una [Auditoría de preparación AEO](/es/docs/audit/).
 
 ## Referencias primarias
 
 * [Marco de gestión de riesgos de IA del NIST](https://www.nist.gov/itl/ai-risk-management-framework)
 * [Documentación de Schema.org](https://schema.org/docs/documents.html)
+* [Especificación de Model Context Protocol](https://modelcontextprotocol.io/specification/2026-07-28/server/tools)
+* [RFC 9421: HTTP Message Signatures](https://www.rfc-editor.org/rfc/rfc9421)

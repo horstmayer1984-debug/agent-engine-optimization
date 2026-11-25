@@ -23,7 +23,7 @@ A non-headless CMS is usually a traditional or coupled CMS. The same system mana
 
 This is not outdated by default. It is often the right architecture for smaller sites and fast-moving editorial teams.
 
-For the broader comparison, see [CMS vs Headless CMS](/docs/cms-vs-headless-cms/) and [Headless CMS vs Traditional CMS](/docs/headless-cms-vs-traditional-cms/).
+For the broader comparison, see [Headless CMS vs Traditional CMS](/docs/headless-cms-vs-traditional-cms/).
 
 ## Decision table
 

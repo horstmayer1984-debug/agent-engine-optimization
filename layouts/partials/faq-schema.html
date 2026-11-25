@@ -1,0 +1,49 @@
+{{- $raw := replace .RawContent "\r\n" "\n" -}}
+{{- $faqBlocks := findRE `(?ms)^##[[:space:]]+(?:FAQ|Häufig gestellte Fragen|Preguntas frecuentes|Perguntas frequentes|よくある質問)[[:space:]]*\n(?s:.*)\z` $raw 1 -}}
+{{- $items := slice -}}
+{{- if gt (len $faqBlocks) 0 -}}
+  {{- $afterHeader := replaceRE `(?s)\A##[^\n]*\n` "" (index $faqBlocks 0) -}}
+  {{- $faqOnly := replaceRE `(?ms)\n##[[:space:]]+(?s:.*)\z` "" $afterHeader -}}
+  {{- $lines := split $faqOnly "\n" -}}
+  {{- $scratch := newScratch -}}
+  {{- $scratch.Set "q" "" -}}
+  {{- $scratch.Set "a" (slice) -}}
+  {{- range $lines -}}
+    {{- $line := trim . " \t" -}}
+    {{- $isH3 := findRE `^###[[:space:]]+.+$` $line -}}
+    {{- $isBoldQ := findRE `^\*\*[^*\n]+\*\*$` $line -}}
+    {{- if or (gt (len $isH3) 0) (gt (len $isBoldQ) 0) -}}
+      {{- $prevQ := $scratch.Get "q" -}}
+      {{- $prevA := delimit ($scratch.Get "a") " " | replaceRE `[[:space:]]+` " " -}}
+      {{- $prevA = trim $prevA " \t" -}}
+      {{- if and $prevQ $prevA -}}
+        {{- $items = $items | append (dict "@type" "Question" "name" $prevQ "acceptedAnswer" (dict "@type" "Answer" "text" $prevA)) -}}
+      {{- end -}}
+      {{- $qText := $line -}}
+      {{- if gt (len $isH3) 0 -}}
+        {{- $qText = replaceRE `^###[[:space:]]+` "" $qText -}}
+      {{- else -}}
+        {{- $qText = replaceRE `^\*\*|\*\*$` "" $qText -}}
+      {{- end -}}
+      {{- $qText = replaceRE `\[([^\]]+)\]\([^)]+\)` "$1" $qText -}}
+      {{- $qText = replaceRE "`([^`]+)`" "$1" $qText -}}
+      {{- $scratch.Set "q" (trim $qText " \t") -}}
+      {{- $scratch.Set "a" (slice) -}}
+    {{- else if and (ne $line "") (not (findRE `^---+$` $line)) -}}
+      {{- if $scratch.Get "q" -}}
+        {{- $clean := replaceRE `\[([^\]]+)\]\([^)]+\)` "$1" $line -}}
+        {{- $clean = replaceRE `\*\*([^*]+)\*\*` "$1" $clean -}}
+        {{- $clean = replaceRE "`([^`]+)`" "$1" $clean -}}
+        {{- $clean = replaceRE `^[-*][[:space:]]+` "" $clean -}}
+        {{- $scratch.Set "a" (($scratch.Get "a") | append (trim $clean " \t")) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $lastQ := $scratch.Get "q" -}}
+  {{- $lastA := delimit ($scratch.Get "a") " " | replaceRE `[[:space:]]+` " " -}}
+  {{- $lastA = trim $lastA " \t" -}}
+  {{- if and $lastQ $lastA -}}
+    {{- $items = $items | append (dict "@type" "Question" "name" $lastQ "acceptedAnswer" (dict "@type" "Answer" "text" $lastA)) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $items -}}

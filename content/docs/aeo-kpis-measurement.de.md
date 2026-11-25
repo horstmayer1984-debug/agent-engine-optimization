@@ -1,6 +1,7 @@
 ---
-title: "AEO-KPI: So messen Sie die Agent-Engine-Optimierung."
-date: 2026-04-12
+title: "AEO-KPIs: So messen Sie Agent Engine Optimization"
+metaTitle: "AEO-KPIs und Metriken: Agent Engine Optimization richtig messen"
+date: 2026-11-25
 weight: 54
 category: "Guide"
 description: "Fünf AEO-KPIs, die KI-Termine, Agentennutzung, Konvertierungen, Genauigkeit und Bindung über Traffic und Absprungrate hinaus messen."
@@ -94,18 +95,22 @@ Das [AEO Readiness Audit](/de/docs/audit/) bietet eine strukturierte Bewertung, 
 Nicht richtig. Google Analytics verfolgt das Surfverhalten von Menschen. AEO erfordert Serverprotokollanalyse, Endpunktüberwachung und KI-Zitierungsverfolgung, die GA nicht nativ bietet.
 
 **Wie oft sollte ich AEO-KPIs überprüfen?**
-Wöchentlich für die ersten 3 Monate. Monatlich nach Stabilisierung der Bereitstellung. Unabhängig davon wird eine tägliche Überwachung der Endpunktfehlerraten empfohlen.**Was ist der wichtigste AEO-KPI?**
-Agentengesteuerte Conversion-Rate, da sie die Auswirkung auf den Umsatz direkt misst. Terminquote und Agentenverkehr sind Frühindikatoren. Konvertierung ist das Ergebnis.
+Wöchentlich für die ersten 3 Monate. Monatlich nach Stabilisierung der Bereitstellung. Unabhängig davon wird eine tägliche Überwachung der Endpunktfehlerraten empfohlen.
 
-**Wie kann ich den Agentenverkehr von Menschenhändlern segmentieren?**
-Benutzeragentenketten, Anforderungsmuster (kein Rendering, schnelle sequentielle Anforderungen) und Endpunktzugriff ohne Browser-Sitzungsdaten. Die meisten Webserver protokollieren genügend Informationen, um den Agentenverkehr mit einfacher Filterung zu identifizieren.
+**Was ist der wichtigste AEO-KPI?**
+Agentengesteuerte Conversion-Rate, da sie die Auswirkung auf den Umsatz direkt misst. Zitierquote und Agentenverkehr sind Frühindikatoren. Conversion ist das Ergebnis.
+
+**Wie kann ich den Agenten-Traffic vom menschlichen Traffic segmentieren?**
+Über User-Agent-Strings, Anfragemuster (kein Rendering, schnelle sequentielle Anfragen) und Endpunktzugriffe ohne Browser-Sitzungsdaten. Die meisten Webserver protokollieren genügend Informationen, um Agentenverkehr per Basisfilter zu identifizieren.
 
 **Was ist eine gute Agentenbindungsrate?**
-Mehr als 40 Prozent nach 30 Tagen weisen auf ein gesundes Selbstvertrauen hin. Unter 20 Prozent deuten auf Probleme mit der Datenqualität oder der Endpunktzuverlässigkeit hin, die untersucht werden müssen.
+Mehr als 40 Prozent nach 30 Tagen weisen auf gesundes Vertrauen hin. Unter 20 Prozent deutet auf Probleme mit Datenqualität oder Endpunktzuverlässigkeit hin, die untersucht werden müssen.
 
 ## Verwandte Anleitungen
 
 * [AI-Agent-Protokolle](/de/docs/protocols/)
+* [KI-Agenten-Traffic erkennen & verifizieren (Open Source)](/de/docs/open-source-identity-and-agent-traffic/)
+* [Agent Security: Zugriff und Identität](/de/docs/agent-security-agent-access-and-identity/)
 
 ## Primäre Referenzen
 

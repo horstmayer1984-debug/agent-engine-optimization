@@ -1,13 +1,14 @@
 ---
 title: "The Execution Layer: Where AI Agents Act"
+metaTitle: "AI Agent Execution Layer: How Websites Expose Actions"
 description: "Learn what the execution layer is, why AI agents need it, and how websites expose actions, real-time data, verification, and protocols."
 summary: "A guide to the execution layer: the infrastructure that lets autonomous AI agents act through APIs, tools, data, and transaction endpoints."
 keywords:
   - execution layer
-  - Agent Engine Optimization
+  - AI agent execution layer
   - agent actions
   - agent-ready infrastructure
-date: 2026-03-09
+date: 2026-11-25
 weight: 3
 category: "Architecture"
 ---
@@ -135,6 +136,9 @@ No. Expose only actions with a defined user benefit, permission model, owner, au
 ## Related guides
 
 * [agentic commerce architecture](/docs/agentic-commerce/)
+* [Secure Interfaces for Agents: Hardening APIs, MCP, and WebMCP](/docs/agent-security-secure-interfaces/)
+* [Agent Security Overview](/docs/agent-security/)
+* [Open Source Agent Interfaces: MCP, WebMCP & Agent Browsers](/docs/open-source-agent-interfaces/)
 
 ## Primary references
 

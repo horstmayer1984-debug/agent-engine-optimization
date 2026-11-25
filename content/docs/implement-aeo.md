@@ -193,6 +193,11 @@ The execution layer is the part of your digital presence that allows agents to p
 **How do I measure AEO success?**
 Track agent facing metrics: endpoint usage by automated clients, task completion rates, failure points in action flows, and citation frequency in AI generated answers.
 
+## Related security & open-source guides
+
+* [Agent Security: Protecting Websites in the Autonomous AI Era](/docs/agent-security/)
+* [Open Source Tools for Agent Engine Optimization](/docs/open-source/)
+
 ## Primary references
 
 * [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)

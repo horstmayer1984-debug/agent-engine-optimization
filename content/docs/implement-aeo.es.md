@@ -187,6 +187,11 @@ La capa de ejecución es la parte de su presencia digital que permite a los agen
 **¿Cómo mido el éxito del AEO?**
 Realice un seguimiento de las métricas de los agentes: uso de terminales por parte de clientes automatizados, tasas de finalización de tareas, puntos de falla en los flujos de acción y frecuencia de citas en las respuestas generadas por IA.
 
+## Guías relacionadas de seguridad y código abierto
+
+* [Agent Security: proteger sitios web en la era de la IA autónoma](/es/docs/agent-security/)
+* [Herramientas Open Source para Agent Engine Optimization](/es/docs/open-source/)
+
 ## Referencias primarias
 
 * [Marco de gestión de riesgos de IA del NIST](https://www.nist.gov/itl/ai-risk-management-framework)

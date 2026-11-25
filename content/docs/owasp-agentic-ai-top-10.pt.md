@@ -138,3 +138,9 @@ Não. As ações de baixo risco podem ser automáticas. As ações de alto risco
 ### Como as equipes devem começar?
 
 Faça um inventário de cada ação do agente, classifique os riscos e adicione controles antes de expandir o acesso à camada de execução.
+
+## Guias relacionados
+
+* [Visão geral de Agent Security](/pt/docs/agent-security/)
+* [Defesa contra Prompt Injection e conteúdo manipulado](/pt/docs/agent-security-prompt-injection-and-manipulated-content/)
+* [Interfaces seguras para agentes: APIs, MCP e WebMCP](/pt/docs/agent-security-secure-interfaces/)

@@ -1,116 +1,123 @@
 ---
-title: "Was ist Agent Engine Optimization?"
-metaTitle: "Was ist Agent Engine Optimization (AEO)?"
-description: "Erfahren Sie, was Agent Engine Optimization bedeutet, wie sie sich von SEO und GEO unterscheidet und wie Websites auffindbar, lesbar und umsetzbar werden."
-summary: "Eine einfache Definition der Agent Engine Optimization und wie sie sich von SEO, GEO, Response-Optimierung und traditioneller Web-Sichtbarkeit unterscheidet."
+title: "Was ist Agent Engine Optimization (AEO)?"
+metaTitle: "Was ist AEO? Leseebene, Ausführungsebene & Architektur (2026)"
+description: "Erfahren Sie, was AEO Ende 2026 bedeutet, wie es sich von SEO und GEO unterscheidet und wie Websites für KI-Agenten auffindbar, sicher und nutzbar werden."
+metaDescription: "Aktualisierter Leitfaden November 2026: Was AEO bedeutet, wie es SEO und GEO um die Ausführungsebene erweitert und wie Websites sicher agentenfähig werden."
+summary: "Aktuelle Definition der Agent Engine Optimization für 2026 – von der Leseebene über Live-Protokolle und die Ausführungsebene bis hin zu Agent Security."
 keywords:
-  - "Optimierung der Agent-Engine"
-  - "Was ist AEO?"
-  - "Agentenfähige Websites"
-  - "KI-Agenten"
-date: 2026-03-09
+  - "Was ist AEO"
+  - "Agent Engine Optimization"
+  - "agentenfähige Websites"
+  - "Ausführungsebene KI-Agenten"
+  - "AEO 2026"
+date: 2026-11-25
 weight: 1
 category: "Framework"
 ---
-Unter Agent Engine Optimization (AEO) versteht man die Strukturierung von Websites, APIs, Daten und digitalen Diensten, damit autonome KI-Agenten sie entdecken, ihre Fähigkeiten verstehen und über sie Aktionen ausführen können, wie z. B. Reservierungen, Käufe, Datenabrufe, Vergleiche und Workflow-Schritte.
 
-AEO geht davon aus, dass der nächste Hauptnutzer der digitalen Infrastruktur nicht ein Mensch ist, der eine Website durchsucht, sondern ein Agent der künstlichen Intelligenz, der im Namen eines Menschen handelt.
+Unter Agent Engine Optimization (AEO) versteht man die Strukturierung von Websites, APIs, Daten und digitalen Diensten, damit autonome KI-Agenten sie entdecken, ihre Vertrauensgrenzen prüfen, ihre Fähigkeiten verstehen und über sie Aktionen ausführen können – etwa Buchungen, Käufe, Datenabrufe, Vergleiche und mehrstufige Workflows.
+
+AEO geht davon aus, dass der nächste Hauptnutzer digitaler Infrastruktur nicht ein Mensch ist, der durch eine Website klickt, sondern ein autonomer KI-Agent, der im Auftrag eines Menschen handelt.
 
 ---
 
 ## Das Problem, das AEO löst
 
-Ein selbstständiger Makler mit der Aufgabe „Buchen Sie mir nächsten Monat einen Flug nach Lissabon für weniger als 400 Euro“ benötigt:
+Ein autonomer KI-Agent mit der Aufgabe „Buche mir nächsten Monat einen Flug nach Lissabon für unter 400 Euro“ muss fünf Schritte zuverlässig durchlaufen:
 
-1. **Entdecken** Sie Fluggesellschaften und Buchungsplattformen, die die Strecke bedienen
-2. **Lesen** Sie strukturierte Daten zu Preisen, Verfügbarkeit und Einschränkungen
-3. **Vergleichen** Sie Optionen mit dem Budget und den Vorlieben des Benutzers.
-4. **Führen** Sie eine Reservierung über eine maschinenlesbare Transaktionsschnittstelle aus
-5. **Überprüfen** Sie das Ergebnis und senden Sie eine Bestätigung zurück.
+1. **Entdecken**, welche Airlines und Buchungsplattformen die Strecke bedienen
+2. **Lesen** strukturierter Daten zu Preisen, Verfügbarkeit und Bedingungen
+3. **Vergleichen** von Optionen anhand von Budget und Präferenzen
+4. **Ausführen** einer Buchung über eine maschinenlesbare Transaktionsschnittstelle
+5. **Verifizieren** des Ergebnisses samt eindeutiger Bestätigung
 
-Der Großteil der heutigen digitalen Infrastruktur unterstützt Schritt 1 und unterstützt teilweise Schritt 2. Die Schritte 3 bis 5 erfordern eine Infrastruktur, die die meisten Unternehmen noch nicht bereitstellen.
+Der Großteil heutiger Websites unterstützt Schritt 1 und teilweise Schritt 2. Die Schritte 3 bis 5 erfordern jedoch maschinenlesbare Fähigkeiten, deterministische Regeln und sichere Endpunkte, die viele Organisationen noch nicht bereitstellen.
 
-Diese Lücke – zwischen dem, was Agenten verstehen können, und dem, worauf sie reagieren können – ist es, was AEO angeht.
+Genau diese Lücke – zwischen dem, was Agenten nur zusammenfassen können, und dem, worauf sie verlässlich handeln können – schließt AEO.
 
 ---
 
 ## Was AEO nicht ist
 
-**AEO heißt nicht SEO.** SEO ist für menschliches Suchverhalten und Ranking-Algorithmen optimiert. AEO optimiert die Ausführung maschinengesteuerter Aufgaben.
+**AEO ist kein umbenanntes SEO.** SEO optimiert für menschliches Suchverhalten und Ranking-Algorithmen. AEO optimiert für maschinelle Auffindbarkeit und verlässliche Aufgabenausführung.
 
-**AEO ist nicht dasselbe wie GEO.** Die generative Engine-Optimierung konzentriert sich auf die Zitierung in KI-generierten Antworten. AEO konzentriert sich auf die Verwendung als Werkzeug oder Endpunkt durch einen autonomen Agenten.
+**AEO ist nicht dasselbe wie GEO.** [Generative Engine Optimization](/de/docs/generative-engine-optimization/) konzentriert sich auf Zitierungen in KI-Antworten, während [Answer Engine Optimization](/de/docs/answer-engine-optimization/) auf direkte Antwort-Extraktion abzielt. AEO geht weiter in die Ausführungsebene: Eine Website wird als Werkzeug, Endpunkt oder Transaktionsschnittstelle genutzt.
 
-**AEO ist kein Zukunftskonzept.** Die Protokolle werden derzeit erstellt. Google und Shopify haben im Januar 2026 das Universal Commerce Protocol (UCP) eingeführt. Das Model Context Protocol (MCP) von Anthropic ist produktionsbereit. OpenAI und Stripe entwickeln das Agent Commerce Protocol (ACP). Die Infrastrukturschicht existiert; Die meisten Unternehmen haben sich einfach nicht darauf eingestellt.
+**AEO ist kein theoretisches Zukunftskonzept.** Im Verlauf von 2026 sind zentrale Standards in den Produktiveinsatz gegangen: Google und Shopify haben das Universal Commerce Protocol (UCP) vorgestellt, Anthropics Model Context Protocol (MCP) wurde um OAuth-Autorisierung, Sampling, Elicitation und eine offizielle Registry erweitert, Chrome startete den WebMCP-Origin-Trial für Browser-Agenten, und kryptografisch signierte Agenten-Requests (Web Bot Auth / RFC 9421) sowie agentische Wallets prägen den digitalen Handel.
 
 ---
 
 ## Die zwei Schichten von AEO
 
-### Ebene lesen
+### Leseebene (Read Layer)
 
-Machen Sie Inhalte mithilfe von Systemen der künstlichen Intelligenz erkennbar und verständlich. Dazu gehören strukturierte Daten, Schema-Markup, semantisches HTML, llms.txt-Dateien und Inhalte, die von KI genau zusammengefasst und zitiert werden können.
+Macht Inhalte für KI-Systeme auffindbar, überprüfbar und eindeutig interpretierbar. Dazu gehören strukturierte Daten (Schema.org), semantisches HTML, `llms.txt`-Dateien, saubere Markdown-/Datenrepräsentationen sowie klare Entitäts- und Quellenangaben.
 
-Dies wird derzeit von den meisten Marktteilnehmern als „AEO“ oder „Answer Engine Optimization“ bezeichnet. Es ist notwendig, aber unzureichend.
+### Ausführungsebene (Execution Layer)
 
-### Ausführungsebene
-
-Machen Sie digitale Dienste durch autonome Agenten umsetzbar. Dazu gehören APIs, Protokollunterstützung (MCP, UCP, A2A), deterministische Datenstrukturen, maschinenlesbare Einschränkungen, Zustandsübergänge und Transaktionsschnittstellen. Dies ist die Ebene, die eine echte Differenzierung (und echte geschäftliche Auswirkungen) schafft, wenn Agenten von der Beantwortung von Fragen zur Erledigung von Aufgaben übergehen.
+Macht digitale Dienste für autonome Agenten ausführbar. Dazu zählen OpenAPI-spezifizierte Endpunkte, MCP-Server, WebMCP-Browser-Schnittstellen, UCP- und ACP-Checkout-Flows, deterministische Datenstrukturen, maschinenlesbare Bedingungen, beobachtbare Zustandsübergänge und prüfbare Quittungen. Mehr dazu im [Leitfaden zur Ausführungsebene](/de/docs/execution-layer/).
 
 ---
 
-##Wer braucht jetzt AEO?
+## Wer AEO jetzt braucht
 
-**Unmittelbar relevant (2026):**
-- E-Commerce-Plattformen und Online-Händler (UCP/MCP-Ökosystem ist aktiv)
-- Reise- und Reservierungsdienstleistungen (klassischer Agenten-Anwendungsfall)
-- B2B-SaaS mit API-Produkten (bereits maschinenlesbar, Agentenerkennung erforderlich)
-- DevTools und API-Plattformen (MCP-Integration ist ein direkter Wert)
+**Unmittelbar relevant (Ende 2026):**
+- E-Commerce-Plattformen und Online-Händler (UCP, ACP und agentische Wallets sind live)
+- Reise- und Buchungsplattformen (Flüge, Hotels und Verfügbarkeiten in Echtzeit)
+- B2B-SaaS mit API-Produkten (maschinenlesbar, benötigt saubere Agenten-Discovery und OAuth-Scopes)
+- DevTools und API-Plattformen (MCP-Integrationen und maschinenlesbare Doku treiben die Nutzung)
 
-**Relevant in 12 bis 18 Monaten:**
-- Fintech- und Zahlungsanbieter.
-- B2B-Einkauf und Lieferkette.
-- Anbieter von Unternehmenssoftware
+**Stark wachsend (Horizont 2027):**
+- Fintech-, Versicherungs- und Zahlungsanbieter (AP2-Mandate und x402-Zahlungen)
+- B2B-Beschaffung und Lieferketten-Workflows
+- Regulierte Branchen mit auditierbaren Human-in-the-Loop-Freigaben
 
-**Längerer Horizont (2027 und darüber hinaus):**
-- Gesundheitswesen, Rechts- und regulierte Branchen.
-- Komplexe Beratungs- und Beratungsdienstleistungen.
+---
 
----## Der Protokollmarkt
+## Der Protokollmarkt 2026
 
-| Protokoll | Entwickler | Zweck |
-|
----|
----|
----|
-| **UCP** | Google/Shopify | Standardisierte Agent-zu-Händler-Transaktionen |
-| **MCP** | Anthropisch | Universeller Werkzeug- und Datenzugriff für KI-Modelle |
-| **A2A** | Google | Direkte Agent-zu-Agent-Koordination |
-| **AKP** | OpenAI/Stripe | Sicheres Zahlungs- und Anmeldedatenmanagement |
+| Protokoll | Treiber | Aufgabe in AEO |
+|---|---|---|
+| **UCP** | Google / Shopify | Standardisierte Agent-zu-Händler-Transaktionen |
+| **MCP** | Anthropic / Linux Foundation | Universeller Tool-, Ressourcen- und OAuth-Zugriff für KI-Modelle |
+| **WebMCP** | W3C / Chrome | Standardisierte Browser-Tool-Verträge direkt auf Webseiten |
+| **A2A** | Google | Direkte Koordination zwischen unabhängigen Agenten |
+| **ACP** | OpenAI / Stripe | Sichere Checkout- und Zugangsdaten-Delegation |
 | **AP2** | Google | Kryptografisch verifizierte Zahlungsmandate |
+| **Web Bot Auth** | IETF (RFC 9421) | Kryptografische Verifizierung legitimen Agenten-Traffics |
 
-Diese Protokolle ergänzen sich und sind nicht konkurrierend. Eine vollständige Agenteninteraktion könnte MCP für den Datenzugriff, UCP für Transaktionen, AP2 für Zahlungen und A2A für die Koordination mehrerer Agenten verwenden.
+Diese Protokolle ergänzen einander und schließen sich nicht aus. Eine vollständige Interaktion kann Web Bot Auth zur Identitätsprüfung, MCP oder WebMCP für Tool-Aufrufe, UCP oder ACP für den Checkout und AP2 oder x402 für die Zahlung kombinieren.
 
-Lesen Sie mehr: [Die Ausführungsebene](/de/docs/execution-layer/) – Tauchen Sie tiefer in die grundlegenden Unterschiede der Agentenoptimierung ein.
+---
 
-[AEO vs. SEO vs. GEO](/de/docs/aeo-vs-seo-vs-geo/): der vollständige Vergleich.
+## Sicherheit und Open Source für agentenfähige Systeme
 
-[AEO Readiness Audit] (/docs/audit/) – Bewerten Sie Ihre Infrastruktur.
+Ausführungspfade ohne Schutzmechanismus öffnen Angriffsflächen. Produktives AEO verbindet Nutzbarkeit mit klaren Sicherheitsgrenzen:
+
+- **[Agent Security](/de/docs/agent-security/):** Kryptografisch signierte Agenten von schädlichen Bots unterscheiden, MCP- und API-Schnittstellen absichern und die Leseebene gegen indirekte Prompt Injections schützen.
+- **[Open Source AEO Tools](/de/docs/open-source/):** Open-Source-Crawler, `llms.txt`-Generatoren, JSON-LD-Validatoren, MCP-SDKs und Web-Bot-Auth-Bibliotheken systematisch einsetzen.
+- **[AEO vs. SEO vs. GEO](/de/docs/aeo-vs-seo-vs-geo/):** Suchmaschinen-Rankings, KI-Zitate und Ausführungsebene klar voneinander abgrenzen.
+- **[AEO Readiness Audit](/de/docs/audit/):** Leseebene, Ausführungsebene und Sicherheitsarchitektur systematisch prüfen oder direkt den [kostenlosen AEO Readiness Checker](/tools/aeo-readiness-checker.html) starten.
+
+---
 
 ## Häufig gestellte Fragen
 
 ### Ist Agent Engine Optimization dasselbe wie Answer Engine Optimization?
 
-Nein. Die Optimierung der Antwortmaschine konzentriert sich auf Sichtbarkeit und Zitate in generierten Antworten. Die Agent-Engine-Optimierung umfasst auch die Schnittstellen und Kontrollen, die ein Agent benötigt, um eine Aufgabe abzuschließen und zu überprüfen.
+Nein. Answer Engine Optimization konzentriert sich auf Sichtbarkeit und direkte Zitate in generierten Antworten. Agent Engine Optimization umfasst zusätzlich die Schnittstellen, APIs, Protokolle und Sicherheitskontrollen, damit ein autonomer Agent Aufgaben real ausführen und verifizieren kann.
 
-### Benötigen alle Websites MCP oder UCP?
+### Benötigen alle Websites MCP, WebMCP oder UCP?
 
-Nein. Inhaltsorientierte Websites können mit sauberem HTML, strukturierten Daten, Quellenangabe und Erkennungsdateien beginnen. Protokolle werden relevant, wenn die Site Tools, Transaktionen oder Arbeitsabläufe zwischen Agenten offenlegt.
+Nein. Inhaltsorientierte Websites sollten mit sauberem HTML, Schema.org-Daten, Quellenangaben und `llms.txt` beginnen. Ausführungsprotokolle werden relevant, sobald eine Website Tools, Buchungen, Checkouts oder Agenten-Workflows anbietet.
 
-### Was sollte ein Unternehmen zuerst umsetzen?
+### Was sollte ein Unternehmen Ende 2026 zuerst umsetzen?
 
-Beginnen Sie mit Benutzeraufgaben, die es wert sind, delegiert zu werden, und prüfen Sie dann, ob ein Agent die richtigen Informationen ermitteln, Einschränkungen interpretieren, sicher ausführen und das Ergebnis überprüfen kann.
+Identifizieren Sie delegierbare Nutzeraufgaben, prüfen Sie Crawler-Zugriffe und strukturierte Daten auf der Leseebene, sichern Sie API- und Formulargrenzen über [Agent Security](/de/docs/agent-security/) ab und testen Sie Ihre Endpunkte mit einem [AEO Readiness Audit](/de/docs/audit/).
 
 ## Primäre Referenzen
 
 * [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 * [Schema.org-Dokumentation](https://schema.org/docs/documents.html)
+* [Model Context Protocol Spezifikation](https://modelcontextprotocol.io/specification/2026-07-28/server/tools)
+* [RFC 9421: HTTP Message Signatures](https://www.rfc-editor.org/rfc/rfc9421)

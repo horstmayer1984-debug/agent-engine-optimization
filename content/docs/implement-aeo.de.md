@@ -182,6 +182,11 @@ Die Ausführungsschicht ist der Teil Ihrer digitalen Präsenz, der es Agenten er
 **Wie messe ich den Erfolg von AEO?**
 Verfolgen Sie Agentenmetriken: Endpunktnutzung durch automatisierte Clients, Aufgabenerledigungsraten, Fehlerpunkte in Aktionsabläufen und Terminhäufigkeit in KI-generierten Antworten.
 
+## Verwandte Sicherheits- & Open-Source-Leitfäden
+
+* [Agent Security: Websites in der autonomen KI-Ära schützen](/de/docs/agent-security/)
+* [Open Source Tools für Agent Engine Optimization](/de/docs/open-source/)
+
 ## Primäre Referenzen
 
 * [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)

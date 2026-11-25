@@ -20,7 +20,7 @@ Verwenden Sie ein Headless-CMS, wenn strukturierte Inhalte, Multi-Channel-Publis
 
 Headless ist eine gute Option, wenn Flexibilität den zusätzlichen technischen Aufwand wert ist. Es ist eine schlechte Wahl, wenn das Team nur ein modern klingendes CMS möchte.
 
-Für eine umfassendere Definition lesen Sie bitte [Was ist Headless-Software?](/de/docs/what-is-headless-software/). Für einen direkten Vergleich lesen Sie [CMS vs. Headless CMS](/de/docs/cms-vs-headless-cms/).
+Für eine umfassendere Definition lesen Sie bitte [Was ist Headless-Software?](/de/docs/what-is-headless-software/). Für einen direkten Vergleich lesen Sie [Headless CMS vs. traditionelles CMS](/de/docs/headless-cms-vs-traditional-cms/).
 
 ## Verwenden Sie Headless CMS, wenn diese zutreffen
 

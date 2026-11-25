@@ -1,6 +1,6 @@
 ---
-title: "SEO vs GEO vs otimização de mecanismo de resposta vs."
-metaTitle: "SEO vs GEO vs AEO: comparação completa."
+title: "SEO vs. GEO vs. Answer Engine Optimization vs. Agent Engine Optimization"
+metaTitle: "SEO vs. GEO vs. Answer AEO vs. Agent AEO: Comparação completa"
 date: 2026-04-12
 weight: 51
 category: "Framework"

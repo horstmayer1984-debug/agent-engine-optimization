@@ -22,7 +22,7 @@ Ein Headless-CMS ist normalerweise ein traditionelles oder gekoppeltes CMS. Dass
 
 Dies ist standardmäßig nicht veraltet. Es ist oft die richtige Architektur für kleinere Websites und schnelllebige Redaktionsteams.
 
-Für einen umfassenderen Vergleich siehe [CMS vs. Headless CMS](/de/docs/cms-vs-headless-cms/) und [Headless CMS vs. traditionelles CMS](/de/docs/headless-cms-vs-traditional-cms/).
+Für einen umfassenderen Vergleich siehe [Headless CMS vs. traditionelles CMS](/de/docs/headless-cms-vs-traditional-cms/).
 
 ## Entscheidungstabelle
 

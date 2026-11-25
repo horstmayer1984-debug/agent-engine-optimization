@@ -5,124 +5,65 @@
 <link rel="apple-touch-icon" href="/images/og-default.svg">
 <link rel="icon" type="image/svg+xml" href="/images/og-default.svg">
 
+{{- $lang := or .Language.LanguageCode .Language.Lang -}}
+{{- $homeName := "Home" -}}
+{{- $docsName := "Docs" -}}
+{{- if eq .Language.Lang "de" -}}
+  {{- $homeName = "Startseite" -}}
+  {{- $docsName = "Dokumentation" -}}
+{{- else if eq .Language.Lang "es" -}}
+  {{- $homeName = "Inicio" -}}
+  {{- $docsName = "Documentación" -}}
+{{- else if eq .Language.Lang "pt" -}}
+  {{- $homeName = "Início" -}}
+  {{- $docsName = "Documentação" -}}
+{{- else if eq .Language.Lang "ja" -}}
+  {{- $homeName = "ホーム" -}}
+  {{- $docsName = "ドキュメント" -}}
+{{- end -}}
+{{- $orgId := "https://agent-engine-optimization.com/#organization" -}}
+{{- $siteId := "https://agent-engine-optimization.com/#website" -}}
+{{- $orgNode := dict "@type" "Organization" "@id" $orgId "name" "Agent Engine Optimization" "url" "https://agent-engine-optimization.com/" "description" "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents." "foundingDate" "2026" -}}
+{{- $siteNode := dict "@type" "WebSite" "@id" $siteId "url" ("/" | absLangURL) "name" "Agent Engine Optimization" "description" "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents. Framework, audits, and guides for the execution layer." "inLanguage" $lang "publisher" (dict "@id" $orgId) -}}
+
 <!-- Schema: @graph for homepage -->
 {{ if .IsHome }}
+{{- $homeWebPage := dict "@type" "WebPage" "@id" (printf "%s#webpage" .Permalink) "url" .Permalink "name" .Title "description" (or .Description .Site.Params.description) "inLanguage" $lang "isPartOf" (dict "@id" $siteId) -}}
+{{- $homeGraph := slice $orgNode $siteNode $homeWebPage -}}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://agent-engine-optimization.com/#organization",
-      "name": "Agent Engine Optimization",
-      "url": "https://agent-engine-optimization.com/",
-      "description": "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents.",
-      "foundingDate": "2026"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://agent-engine-optimization.com/#website",
-      "url": {{ "/" | absLangURL }},
-      "name": "Agent Engine Optimization",
-      "description": "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents. Framework, audits, and guides for the execution layer.",
-      "inLanguage": {{ or .Language.LanguageCode .Language.Lang }},
-      "publisher": {
-        "@id": "https://agent-engine-optimization.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "{{ .Permalink }}#webpage",
-      "url": {{ .Permalink }},
-      "name": {{ .Title }},
-      "description": {{ or .Description .Site.Params.description }},
-      "inLanguage": {{ or .Language.LanguageCode .Language.Lang }},
-      "isPartOf": {
-        "@id": "https://agent-engine-optimization.com/#website"
-      }
-    }
-  ]
-}
+{{ dict "@context" "https://schema.org" "@graph" $homeGraph | jsonify | safeJS }}
 </script>
 {{ end }}
 
-<!-- Schema: Article + BreadcrumbList for doc pages -->
+<!-- Schema: WebPage + Article + BreadcrumbList + optional FAQPage for doc pages -->
 {{ if and (eq .Section "docs") (not .IsSection) }}
+{{- $pageId := printf "%s#webpage" .Permalink -}}
+{{- $breadcrumbId := printf "%s#breadcrumb" .Permalink -}}
+{{- $docsUrl := "/docs/" | absLangURL -}}
+{{- $homeUrl := "/" | absLangURL -}}
+{{- $breadcrumbNode := dict "@type" "BreadcrumbList" "@id" $breadcrumbId "name" (printf "%s Breadcrumb" .Title) "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" $homeName "item" $homeUrl) (dict "@type" "ListItem" "position" 2 "name" $docsName "item" $docsUrl) (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)) -}}
+{{- $webPageNode := dict "@type" "WebPage" "@id" $pageId "url" .Permalink "name" (or .Params.metaTitle .Title) "description" (or .Params.metaDescription .Description .Params.summary "") "inLanguage" $lang "isPartOf" (dict "@id" $siteId) "breadcrumb" (dict "@id" $breadcrumbId) -}}
+{{- $articleNode := dict "@type" "Article" "@id" (printf "%s#article" .Permalink) "headline" .Title "description" (or .Params.metaDescription .Description .Params.summary "") "inLanguage" $lang "datePublished" (.Date.Format "2006-01-02") "dateModified" (.Lastmod.Format "2006-01-02") "author" (dict "@id" $orgId) "publisher" (dict "@id" $orgId) "mainEntityOfPage" (dict "@id" $pageId) "isPartOf" (dict "@id" $pageId) -}}
+{{- $graph := slice $orgNode $siteNode $webPageNode $articleNode $breadcrumbNode -}}
+{{- $faqItems := partial "faq-schema.html" . -}}
+{{- if gt (len $faqItems) 0 -}}
+  {{- $faqNode := dict "@type" "FAQPage" "@id" (printf "%s#faq" .Permalink) "inLanguage" $lang "isPartOf" (dict "@id" $pageId) "mainEntity" $faqItems -}}
+  {{- $graph = $graph | append $faqNode -}}
+{{- end -}}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "headline": {{ .Title }},
-      "description": {{ or .Description .Params.summary "" }},
-      "inLanguage": {{ or .Language.LanguageCode .Language.Lang }},
-      "datePublished": {{ .Date.Format "2006-01-02" }},
-      "dateModified": {{ .Lastmod.Format "2006-01-02" }},
-      "author": {
-        "@type": "Organization",
-        "name": "Agent Engine Optimization",
-        "url": "https://agent-engine-optimization.com/"
-      },
-      "publisher": {
-        "@id": "https://agent-engine-optimization.com/#organization"
-      },
-      "mainEntityOfPage": {{ .Permalink }}
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://agent-engine-optimization.com/#organization",
-      "name": "Agent Engine Optimization",
-      "url": "https://agent-engine-optimization.com/",
-      "description": "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents."
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": {{ if eq .Language.Lang "de" }}"Startseite"{{ else if eq .Language.Lang "ja" }}"ホーム"{{ else if eq .Language.Lang "es" }}"Inicio"{{ else if eq .Language.Lang "pt" }}"Início"{{ else }}"Home"{{ end }},
-          "item": {{ "/" | absLangURL }}
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": {{ .Title }},
-          "item": {{ .Permalink }}
-        }
-      ]
-    }
-  ]
-}
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}
 </script>
 {{ end }}
 
-<!-- Schema: CollectionPage for section / list pages -->
+<!-- Schema: CollectionPage + BreadcrumbList for section / list pages -->
 {{ if and (eq .Section "docs") .IsSection }}
+{{- $pageId := printf "%s#webpage" .Permalink -}}
+{{- $breadcrumbId := printf "%s#breadcrumb" .Permalink -}}
+{{- $homeUrl := "/" | absLangURL -}}
+{{- $breadcrumbNode := dict "@type" "BreadcrumbList" "@id" $breadcrumbId "name" (printf "%s Breadcrumb" .Title) "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" $homeName "item" $homeUrl) (dict "@type" "ListItem" "position" 2 "name" $docsName "item" .Permalink)) -}}
+{{- $collectionNode := dict "@type" "CollectionPage" "@id" $pageId "url" .Permalink "name" .Title "description" (or .Description .Site.Params.description) "inLanguage" $lang "isPartOf" (dict "@id" $siteId) "breadcrumb" (dict "@id" $breadcrumbId) "publisher" (dict "@id" $orgId) -}}
+{{- $graph := slice $orgNode $siteNode $collectionNode $breadcrumbNode -}}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "CollectionPage",
-      "@id": "{{ .Permalink }}#webpage",
-      "url": {{ .Permalink }},
-      "name": {{ .Title }},
-      "description": {{ or .Description .Site.Params.description }},
-      "inLanguage": {{ or .Language.LanguageCode .Language.Lang }},
-      "publisher": {
-        "@id": "https://agent-engine-optimization.com/#organization"
-      }
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://agent-engine-optimization.com/#organization",
-      "name": "Agent Engine Optimization",
-      "url": "https://agent-engine-optimization.com/",
-      "description": "Research hub and strategy consultancy for optimizing digital presence for autonomous AI agents."
-    }
-  ]
-}
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}
 </script>
 {{ end }}

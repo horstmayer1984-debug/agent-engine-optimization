@@ -140,3 +140,9 @@ No. Low-risk actions can be automatic. High-risk, expensive, regulated, or irrev
 ### How should teams start?
 
 Inventory every agent-facing action, classify risk, then add controls before expanding execution-layer access.
+
+## Related guides
+
+* [Agent Security Overview](/docs/agent-security/)
+* [Prompt Injection and Manipulated Content Defense](/docs/agent-security-prompt-injection-and-manipulated-content/)
+* [Secure Interfaces for Agents: APIs, MCP, and WebMCP](/docs/agent-security-secure-interfaces/)

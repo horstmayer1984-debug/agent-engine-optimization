@@ -1,13 +1,14 @@
 ---
-title: "A camada de execução: onde atuam os agentes de IA."
+title: "A camada de execução: onde atuam os agentes de IA"
+metaTitle: "AI Agent Execution Layer: Como sites expõem ações para agentes"
 description: "Descubra o que é a camada de execução, por que os agentes de IA precisam dela e como os sites expõem ações, dados em tempo real e verificação."
 summary: "Um guia para a camada de execução: a infraestrutura que permite que agentes autônomos de IA atuem por meio de APIs, ferramentas, dados e terminais de transação."
 keywords:
   - "camada de execução"
-  - "Otimização do mecanismo do agente"
+  - "AI Agent Execution Layer"
   - "ações do agente"
   - "infraestrutura pronta para agente"
-date: 2026-03-09
+date: 2026-11-25
 weight: 3
 category: "Architecture"
 ---
@@ -128,6 +129,9 @@ Não. Exponha apenas ações com benefício de usuário, modelo de permissão, p
 ## Guias relacionados
 
 * [arquitetura de negociação do agente](/pt/docs/agentic-commerce/)
+* [Interfaces seguras para agentes: APIs, MCP e WebMCP](/pt/docs/agent-security-secure-interfaces/)
+* [Visão geral de Agent Security](/pt/docs/agent-security/)
+* [Interfaces Open Source para agentes: MCP e WebMCP](/pt/docs/open-source-agent-interfaces/)
 
 ## Referências primárias
 

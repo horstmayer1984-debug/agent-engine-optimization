@@ -1,6 +1,6 @@
 ---
-title: "SEO vs GEO vs レスポンスエンジンの最適化 vs."
-metaTitle: "SEO vs GEO vs AEO: 完全な比較。"
+title: "SEO vs. GEO vs. Answer Engine Optimization vs. Agent Engine Optimization"
+metaTitle: "SEO vs GEO vs Answer AEO vs Agent AEO：4層の完全比較"
 date: 2026-04-12
 weight: 51
 category: "Framework"

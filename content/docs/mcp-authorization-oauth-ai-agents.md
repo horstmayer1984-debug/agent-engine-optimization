@@ -133,3 +133,9 @@ Agents are more likely to use services that clearly describe available tools, pe
 ### Should agents get admin access?
 
 Only in tightly controlled internal environments with strong logging, approval, and revocation.
+
+## Related guides
+
+* [Secure Interfaces for Agents: Hardening APIs, MCP, and WebMCP](/docs/agent-security-secure-interfaces/)
+* [Agent Security Overview](/docs/agent-security/)
+* [Open Source Agent Interfaces: MCP and WebMCP](/docs/open-source-agent-interfaces/)

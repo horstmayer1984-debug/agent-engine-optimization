@@ -1,40 +1,40 @@
 {
   "schema_version": 1,
   "validator": "content",
-  "generated_at": "2026-11-11T20:46:34Z",
-  "source_commit": "6e4de630a8900462dd4e5002ff15690a4ce5cfe3",
+  "generated_at": "2026-11-25T21:39:24Z",
+  "source_commit": "98ed01aec5fbb8275f1f2171830388040648bff3",
   "summary": {
-    "occurrences": 4627,
-    "unique_findings": 2152,
-    "files": 762,
+    "occurrences": 4536,
+    "unique_findings": 2089,
+    "files": 749,
     "by_rule": {
       "link.broken_space": {
-        "unique": 301,
-        "occurrences": 308
+        "unique": 297,
+        "occurrences": 304
       },
       "markdown.heading_after_rule": {
-        "unique": 6,
-        "occurrences": 6
+        "unique": 3,
+        "occurrences": 3
       },
       "markdown.heading_no_space": {
-        "unique": 328,
-        "occurrences": 328
+        "unique": 301,
+        "occurrences": 301
       },
       "markdown.table_separator": {
-        "unique": 559,
-        "occurrences": 2591
+        "unique": 547,
+        "occurrences": 2551
       },
       "markdown.table_separator_empty": {
-        "unique": 544,
-        "occurrences": 980
+        "unique": 532,
+        "occurrences": 968
       },
       "markdown.table_separator_glued": {
         "unique": 24,
         "occurrences": 24
       },
       "weight.duplicate": {
-        "unique": 390,
-        "occurrences": 390
+        "unique": 385,
+        "occurrences": 385
       }
     }
   },
@@ -45,7 +45,7 @@
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 de files."
+      "message": "Weight 1 is used by 2 de files."
     },
     {
       "path": "content/docs/_index.es.md",
@@ -53,7 +53,7 @@
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 es files."
+      "message": "Weight 1 is used by 2 es files."
     },
     {
       "path": "content/docs/_index.ja.md",
@@ -61,7 +61,7 @@
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 ja files."
+      "message": "Weight 1 is used by 2 ja files."
     },
     {
       "path": "content/docs/_index.md",
@@ -69,7 +69,7 @@
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 en files."
+      "message": "Weight 1 is used by 2 en files."
     },
     {
       "path": "content/docs/_index.pt.md",
@@ -77,7 +77,7 @@
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 pt files."
+      "message": "Weight 1 is used by 2 pt files."
     },
     {
       "path": "content/docs/adobe-brand-visibility-ai-search.de.md",
@@ -1426,46 +1426,6 @@
       "message": "Lone pipe where a table separator is required."
     },
     {
-      "path": "content/docs/aeo-readiness-checker.de.md",
-      "rule": "weight.duplicate",
-      "detail": "1",
-      "count": 1,
-      "lines": [],
-      "message": "Weight 1 is used by 3 de files."
-    },
-    {
-      "path": "content/docs/aeo-readiness-checker.es.md",
-      "rule": "weight.duplicate",
-      "detail": "1",
-      "count": 1,
-      "lines": [],
-      "message": "Weight 1 is used by 3 es files."
-    },
-    {
-      "path": "content/docs/aeo-readiness-checker.ja.md",
-      "rule": "weight.duplicate",
-      "detail": "1",
-      "count": 1,
-      "lines": [],
-      "message": "Weight 1 is used by 3 ja files."
-    },
-    {
-      "path": "content/docs/aeo-readiness-checker.md",
-      "rule": "weight.duplicate",
-      "detail": "1",
-      "count": 1,
-      "lines": [],
-      "message": "Weight 1 is used by 3 en files."
-    },
-    {
-      "path": "content/docs/aeo-readiness-checker.pt.md",
-      "rule": "weight.duplicate",
-      "detail": "1",
-      "count": 1,
-      "lines": [],
-      "message": "Weight 1 is used by 3 pt files."
-    },
-    {
       "path": "content/docs/aeo-seo-checklist.de.md",
       "rule": "markdown.table_separator",
       "detail": "---|",
@@ -2703,118 +2663,6 @@
       "count": 1,
       "lines": [],
       "message": "Weight 22 is used by 3 pt files."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.de.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Wo ist die wahre Spaltung?",
-      "count": 1,
-      "lines": [
-        79
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.de.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 4,
-      "lines": [
-        64,
-        65,
-        66,
-        67
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.de.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        63
-      ],
-      "message": "Lone pipe where a table separator is required."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.es.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 4,
-      "lines": [
-        66,
-        67,
-        68,
-        69
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.es.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        65
-      ],
-      "message": "Lone pipe where a table separator is required."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.ja.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 4,
-      "lines": [
-        64,
-        65,
-        66,
-        67
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.ja.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        63
-      ],
-      "message": "Lone pipe where a table separator is required."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.pt.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Onde está a verdadeira divisão?",
-      "count": 1,
-      "lines": [
-        79
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.pt.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 4,
-      "lines": [
-        64,
-        65,
-        66,
-        67
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/aeo-vs-seo-vs-geo.pt.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        63
-      ],
-      "message": "Lone pipe where a table separator is required."
     },
     {
       "path": "content/docs/agent-buttons-action-schema.de.md",
@@ -6628,36 +6476,6 @@
     },
     {
       "path": "content/docs/answer-engine-optimization.de.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Praktische Checkliste",
-      "count": 1,
-      "lines": [
-        49
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/answer-engine-optimization.de.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Wie GEO Responsive Engine Optimization anders ist",
-      "count": 1,
-      "lines": [
-        33
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/answer-engine-optimization.de.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Wie sich Response-Engine-Optimierung von SEO unterscheidet",
-      "count": 1,
-      "lines": [
-        25
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/answer-engine-optimization.de.md",
       "rule": "weight.duplicate",
       "detail": "120",
       "count": 1,
@@ -6674,36 +6492,6 @@
     },
     {
       "path": "content/docs/answer-engine-optimization.ja.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##GEO Responsive Engine Optimization の違い",
-      "count": 1,
-      "lines": [
-        33
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/answer-engine-optimization.ja.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##レスポンス エンジンの最適化と SEO の違い",
-      "count": 1,
-      "lines": [
-        25
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/answer-engine-optimization.ja.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##実用的なチェックリスト",
-      "count": 1,
-      "lines": [
-        49
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/answer-engine-optimization.ja.md",
       "rule": "weight.duplicate",
       "detail": "120",
       "count": 1,
@@ -6717,36 +6505,6 @@
       "count": 1,
       "lines": [],
       "message": "Weight 120 is used by 3 en files."
-    },
-    {
-      "path": "content/docs/answer-engine-optimization.pt.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Como a otimização de mecanismo responsivo GEO é diferente",
-      "count": 1,
-      "lines": [
-        33
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/answer-engine-optimization.pt.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Como a otimização do mecanismo de resposta é diferente do SEO",
-      "count": 1,
-      "lines": [
-        25
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/answer-engine-optimization.pt.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Lista de verificação prática",
-      "count": 1,
-      "lines": [
-        49
-      ],
-      "message": "Heading marker is missing a space."
     },
     {
       "path": "content/docs/answer-engine-optimization.pt.md",
@@ -9829,184 +9587,6 @@
       "message": "Lone pipe where a table separator is required."
     },
     {
-      "path": "content/docs/cms-vs-headless-cms.de.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Der Unterschied im einfachen Englisch",
-      "count": 1,
-      "lines": [
-        19
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.de.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##KI-Optimierungsunterschied",
-      "count": 1,
-      "lines": [
-        63
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.de.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "#CMS vs. Headless CMS: Einfacher Unterschied für SEO-Teams",
-      "count": 1,
-      "lines": [
-        15
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.de.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 3,
-      "lines": [
-        31,
-        32,
-        33
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.de.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        30
-      ],
-      "message": "Lone pipe where a table separator is required."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.es.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 3,
-      "lines": [
-        31,
-        32,
-        33
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.es.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        30
-      ],
-      "message": "Lone pipe where a table separator is required."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.ja.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##AI 最適化の違い",
-      "count": 1,
-      "lines": [
-        63
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.ja.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##簡単な英語の違い",
-      "count": 1,
-      "lines": [
-        19
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.ja.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "#CMS とヘッドレス CMS: SEO チームにとっての単純な違い",
-      "count": 1,
-      "lines": [
-        15
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.ja.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 3,
-      "lines": [
-        31,
-        32,
-        33
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.ja.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        30
-      ],
-      "message": "Lone pipe where a table separator is required."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.pt.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##A diferença no inglês simples",
-      "count": 1,
-      "lines": [
-        19
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.pt.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Diferença de otimização de IA",
-      "count": 1,
-      "lines": [
-        63
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.pt.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "#CMS vs Headless CMS: diferença simples para equipes de SEO",
-      "count": 1,
-      "lines": [
-        15
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.pt.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 3,
-      "lines": [
-        31,
-        32,
-        33
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/cms-vs-headless-cms.pt.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        30
-      ],
-      "message": "Lone pipe where a table separator is required."
-    },
-    {
       "path": "content/docs/content-signal-ai-crawler-policy.de.md",
       "rule": "markdown.heading_no_space",
       "detail": "#Content-Signal für die AI-Tracker-Richtlinie",
@@ -11360,16 +10940,6 @@
     },
     {
       "path": "content/docs/generative-engine-optimization.de.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Wie sich GEO von Response Engine Optimization unterscheidet",
-      "count": 1,
-      "lines": [
-        25
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/generative-engine-optimization.de.md",
       "rule": "weight.duplicate",
       "detail": "121",
       "count": 1,
@@ -11386,26 +10956,6 @@
     },
     {
       "path": "content/docs/generative-engine-optimization.ja.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##GEO と応答エンジン最適化の違い",
-      "count": 1,
-      "lines": [
-        25
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/generative-engine-optimization.ja.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##originalityGEO の役割は、情報エコシステムに有用なものを追加するコンテンツに報酬を与えることです。それは、すべての記事が独自のデータを明らかにする必要があるという意味ではありません。これは、ページが明確な視点、有用な構造、またはより適切な説明を提供する必要があることを意味します。",
-      "count": 1,
-      "lines": [
-        47
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/generative-engine-optimization.ja.md",
       "rule": "weight.duplicate",
       "detail": "121",
       "count": 1,
@@ -11419,16 +10969,6 @@
       "count": 1,
       "lines": [],
       "message": "Weight 121 is used by 3 en files."
-    },
-    {
-      "path": "content/docs/generative-engine-optimization.pt.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Como o GEO é diferente do Response Engine Optimization",
-      "count": 1,
-      "lines": [
-        25
-      ],
-      "message": "Heading marker is missing a space."
     },
     {
       "path": "content/docs/generative-engine-optimization.pt.md",
@@ -13581,12 +13121,12 @@
       "detail": "---|",
       "count": 6,
       "lines": [
-        53,
-        54,
         55,
-        78,
-        79,
-        80
+        56,
+        57,
+        80,
+        81,
+        82
       ],
       "message": "Malformed Markdown table separator."
     },
@@ -13596,8 +13136,8 @@
       "detail": "|",
       "count": 2,
       "lines": [
-        52,
-        77
+        54,
+        79
       ],
       "message": "Lone pipe where a table separator is required."
     },
@@ -13615,12 +13155,12 @@
       "detail": "---|",
       "count": 6,
       "lines": [
-        53,
-        54,
         55,
-        80,
-        81,
-        82
+        56,
+        57,
+        82,
+        83,
+        84
       ],
       "message": "Malformed Markdown table separator."
     },
@@ -13630,8 +13170,8 @@
       "detail": "|",
       "count": 2,
       "lines": [
-        52,
-        79
+        54,
+        81
       ],
       "message": "Lone pipe where a table separator is required."
     },
@@ -13649,12 +13189,12 @@
       "detail": "---|",
       "count": 6,
       "lines": [
-        53,
-        54,
         55,
-        78,
-        79,
-        80
+        56,
+        57,
+        80,
+        81,
+        82
       ],
       "message": "Malformed Markdown table separator."
     },
@@ -13664,8 +13204,8 @@
       "detail": "|",
       "count": 2,
       "lines": [
-        52,
-        77
+        54,
+        79
       ],
       "message": "Lone pipe where a table separator is required."
     },
@@ -13691,12 +13231,12 @@
       "detail": "---|",
       "count": 6,
       "lines": [
-        53,
-        54,
         55,
-        78,
-        79,
-        80
+        56,
+        57,
+        80,
+        81,
+        82
       ],
       "message": "Malformed Markdown table separator."
     },
@@ -13706,8 +13246,8 @@
       "detail": "|",
       "count": 2,
       "lines": [
-        52,
-        77
+        54,
+        79
       ],
       "message": "Lone pipe where a table separator is required."
     },
@@ -22243,95 +21783,11 @@
     },
     {
       "path": "content/docs/what-is-aeo.de.md",
-      "rule": "link.broken_space",
-      "detail": "/docs/audit/",
-      "count": 1,
-      "lines": [
-        97
-      ],
-      "message": "Markdown link has whitespace between label and target."
-    },
-    {
-      "path": "content/docs/what-is-aeo.de.md",
-      "rule": "markdown.heading_after_rule",
-      "detail": "---## Der Protokollmarkt",
-      "count": 1,
-      "lines": [
-        78
-      ],
-      "message": "Heading is glued to a horizontal rule."
-    },
-    {
-      "path": "content/docs/what-is-aeo.de.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Wer braucht jetzt AEO?",
-      "count": 1,
-      "lines": [
-        61
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/what-is-aeo.de.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 3,
-      "lines": [
-        82,
-        83,
-        84
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/what-is-aeo.de.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        81
-      ],
-      "message": "Lone pipe where a table separator is required."
-    },
-    {
-      "path": "content/docs/what-is-aeo.de.md",
       "rule": "weight.duplicate",
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 de files."
-    },
-    {
-      "path": "content/docs/what-is-aeo.es.md",
-      "rule": "link.broken_space",
-      "detail": "/docs/audit/",
-      "count": 1,
-      "lines": [
-        99
-      ],
-      "message": "Markdown link has whitespace between label and target."
-    },
-    {
-      "path": "content/docs/what-is-aeo.es.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 3,
-      "lines": [
-        84,
-        85,
-        86
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/what-is-aeo.es.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        83
-      ],
-      "message": "Lone pipe where a table separator is required."
+      "message": "Weight 1 is used by 2 de files."
     },
     {
       "path": "content/docs/what-is-aeo.es.md",
@@ -22339,59 +21795,7 @@
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 es files."
-    },
-    {
-      "path": "content/docs/what-is-aeo.ja.md",
-      "rule": "link.broken_space",
-      "detail": "/docs/audit/",
-      "count": 1,
-      "lines": [
-        97
-      ],
-      "message": "Markdown link has whitespace between label and target."
-    },
-    {
-      "path": "content/docs/what-is-aeo.ja.md",
-      "rule": "markdown.heading_after_rule",
-      "detail": "---## プロトコル市場",
-      "count": 1,
-      "lines": [
-        78
-      ],
-      "message": "Heading is glued to a horizontal rule."
-    },
-    {
-      "path": "content/docs/what-is-aeo.ja.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##今 AEO を必要としているのは誰ですか?",
-      "count": 1,
-      "lines": [
-        61
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/what-is-aeo.ja.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 3,
-      "lines": [
-        82,
-        83,
-        84
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/what-is-aeo.ja.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        81
-      ],
-      "message": "Lone pipe where a table separator is required."
+      "message": "Weight 1 is used by 2 es files."
     },
     {
       "path": "content/docs/what-is-aeo.ja.md",
@@ -22399,7 +21803,7 @@
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 ja files."
+      "message": "Weight 1 is used by 2 ja files."
     },
     {
       "path": "content/docs/what-is-aeo.md",
@@ -22407,59 +21811,7 @@
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 en files."
-    },
-    {
-      "path": "content/docs/what-is-aeo.pt.md",
-      "rule": "link.broken_space",
-      "detail": "/docs/audit/",
-      "count": 1,
-      "lines": [
-        97
-      ],
-      "message": "Markdown link has whitespace between label and target."
-    },
-    {
-      "path": "content/docs/what-is-aeo.pt.md",
-      "rule": "markdown.heading_after_rule",
-      "detail": "---## O mercado de protocolo",
-      "count": 1,
-      "lines": [
-        78
-      ],
-      "message": "Heading is glued to a horizontal rule."
-    },
-    {
-      "path": "content/docs/what-is-aeo.pt.md",
-      "rule": "markdown.heading_no_space",
-      "detail": "##Quem precisa de AEO agora?",
-      "count": 1,
-      "lines": [
-        61
-      ],
-      "message": "Heading marker is missing a space."
-    },
-    {
-      "path": "content/docs/what-is-aeo.pt.md",
-      "rule": "markdown.table_separator",
-      "detail": "---|",
-      "count": 3,
-      "lines": [
-        82,
-        83,
-        84
-      ],
-      "message": "Malformed Markdown table separator."
-    },
-    {
-      "path": "content/docs/what-is-aeo.pt.md",
-      "rule": "markdown.table_separator_empty",
-      "detail": "|",
-      "count": 1,
-      "lines": [
-        81
-      ],
-      "message": "Lone pipe where a table separator is required."
+      "message": "Weight 1 is used by 2 en files."
     },
     {
       "path": "content/docs/what-is-aeo.pt.md",
@@ -22467,7 +21819,7 @@
       "detail": "1",
       "count": 1,
       "lines": [],
-      "message": "Weight 1 is used by 3 pt files."
+      "message": "Weight 1 is used by 2 pt files."
     },
     {
       "path": "content/docs/what-is-headless-software.de.md",

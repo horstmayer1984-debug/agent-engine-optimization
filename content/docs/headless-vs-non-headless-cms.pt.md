@@ -22,7 +22,7 @@ Um CMS headless geralmente é um CMS tradicional ou acoplado. O mesmo sistema ge
 
 Isso não está desatualizado por padrão. Muitas vezes é a arquitetura certa para sites menores e equipes editoriais em rápida evolução.
 
-Para uma comparação mais ampla, consulte [CMS vs CMS sem cabeça](/pt/docs/cms-vs-headless-cms/) e [CMS sem cabeça vs CMS tradicional](/pt/docs/headless-cms-vs-traditional-cms/).
+Para uma comparação mais ampla, consulte [CMS sem cabeça vs CMS tradicional](/pt/docs/headless-cms-vs-traditional-cms/).
 
 ## Tabela de decisão
 

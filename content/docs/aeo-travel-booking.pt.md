@@ -1,7 +1,7 @@
 ---
-title: "OEA para viagens e reservas: como a indústria está se reestruturando."
-metaTitle: "AEO para reservas de viagens: Guia de preparação do agente."
-date: 2026-04-14
+title: "AEO para viagens e reservas: como o setor está se reestruturando"
+metaTitle: "Agentes de IA para reservas de viagens: guia para hotéis e companhias aéreas"
+date: 2026-11-25
 weight: 100
 category: "Industry"
 description: "Descubra como os sites de viagens e reservas podem expor disponibilidade, preços, políticas e ações de reserva realizadas pelos agentes."

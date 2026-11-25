@@ -1,7 +1,7 @@
 ---
 title: "AEO for Travel and Booking: How the Industry Restructures for AI Agents"
-metaTitle: "AEO for Travel Booking: AI Agent Readiness Guide"
-date: 2026-04-14
+metaTitle: "AI Agents for Travel Booking: Readiness Guide for Hotels and Airlines"
+date: 2026-11-25
 weight: 100
 category: "Industry"
 description: "Learn how travel and booking sites can expose availability, prices, policies, and reservation actions that autonomous AI agents can use."

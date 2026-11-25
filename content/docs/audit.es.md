@@ -1,14 +1,14 @@
 ---
-title: "Auditoría de preparación AEO."
-metaTitle: "Auditoría de preparación de AEO para sitios web de agentes de IA."
+title: "Auditoría de preparación AEO"
+metaTitle: "Auditoría de preparación AEO: evaluación de sitios web y API"
 description: "Audite su sitio web, API, datos estructurados, llms.txt y la preparación de la capa de ejecución para agentes de IA, motores de respuesta y comercio."
 summary: "Un marco práctico de auditoría AEO que cubre la capacidad de descubrimiento de la IA, el contenido estructurado, la preparación del protocolo, el determinismo de los datos y la capacidad de acción."
 keywords:
   - auditoría AEO
-  - Auditoría de optimización del motor del agente
-  - auditoría del sitio web lista para el agente
-  - Preparación para la búsqueda por IA
-date: 2026-03-09
+  - AEO Readiness Audit
+  - auditoría del sitio web lista para agentes
+  - preparación para agentes de IA
+date: 2026-11-25
 weight: 10
 category: "Tool"
 ---
@@ -114,7 +114,12 @@ No. El contenido es parte de la capa de lectura. Una auditoría completa tambié
 
 Repita las pruebas específicas después de cambios en el contenido material, el esquema, la API, la política o el flujo de trabajo. Revise periódicamente la muestra más amplia a medida que evoluciona el tráfico de agentes y las capacidades admitidas.
 
-## Guías relacionadas* [arquitectura de comercio agente](/es/docs/agentic-commerce/)
+## Guías relacionadas
+
+* [arquitectura de comercio agente](/es/docs/agentic-commerce/)
+* [Comprobador gratuito de preparación AEO](/tools/aeo-readiness-checker.html)
+* [Resumen de Agent Security](/es/docs/agent-security/)
+* [Crawlers y extractores Open Source](/es/docs/open-source-crawlers-and-extractors/)
 
 ## Referencias primarias
 

@@ -20,7 +20,7 @@ keywords:
 
 柔軟性が追加のエンジニアリングに値する場合、ヘッドレスは良い選択肢です。チームが最新のサウンドの CMS を必要としているだけの場合、これは悪い選択です。
 
-より広い定義については、[ヘッドレス ソフトウェアとは何ですか?](/ja/docs/what-is-headless-software/) を参照してください。直接の比較については、[CMS とヘッドレス CMS](/ja/docs/cms-vs-headless-cms/) を参照してください。
+より広い定義については、[ヘッドレス ソフトウェアとは何ですか?](/ja/docs/what-is-headless-software/) を参照してください。直接の比較については、[ヘッドレス CMS と従来の CMS](/ja/docs/headless-cms-vs-traditional-cms/) を参照してください。
 
 ## これらが当てはまる場合はヘッドレス CMS を使用してください
 

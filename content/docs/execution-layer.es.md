@@ -1,13 +1,14 @@
 ---
-title: "La capa de ejecución: donde actúan los agentes de IA."
+title: "La capa de ejecución: donde actúan los agentes de IA"
+metaTitle: "AI Agent Execution Layer: Cómo los sitios web exponen acciones"
 description: "Descubra qué es la capa de ejecución, por qué la necesitan los agentes de IA y cómo los sitios web exponen acciones, datos en tiempo real, verificación."
 summary: "Una guía para la capa de ejecución: la infraestructura que permite a los agentes autónomos de IA actuar a través de API, herramientas, datos y puntos finales de transacciones."
 keywords:
   - capa de ejecución
-  - Optimización del motor del agente
+  - AI Agent Execution Layer
   - acciones del agente
   - infraestructura lista para agentes
-date: 2026-03-09
+date: 2026-11-25
 weight: 3
 category: "Architecture"
 ---
@@ -130,6 +131,9 @@ No. Exponga únicamente acciones con un beneficio de usuario definido, modelo de
 ## Guías relacionadas
 
 * [arquitectura de comercio agente](/es/docs/agentic-commerce/)
+* [Interfaces seguras para agentes: APIs, MCP y WebMCP](/es/docs/agent-security-secure-interfaces/)
+* [Resumen de Agent Security](/es/docs/agent-security/)
+* [Interfaces Open Source para agentes: MCP y WebMCP](/es/docs/open-source-agent-interfaces/)
 
 ## Referencias primarias
 

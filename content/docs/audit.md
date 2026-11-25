@@ -1,14 +1,14 @@
 ---
 title: "AEO Readiness Audit"
-metaTitle: "AEO Readiness Audit for AI Agent Websites"
+metaTitle: "AEO Readiness Audit: Website, API & Execution Assessment"
 description: "Audit your website, APIs, structured data, llms.txt, and execution-layer readiness for AI agents, answer engines, and agentic commerce."
 summary: "A practical AEO audit framework covering AI discoverability, structured content, protocol readiness, data determinism, and action capability."
 keywords:
   - AEO audit
-  - Agent Engine Optimization audit
   - agent-ready website audit
   - AI search readiness
-date: 2026-03-09
+  - agent readiness assessment
+date: 2026-11-25
 weight: 10
 category: "Tool"
 ---
@@ -120,6 +120,9 @@ Repeat focused tests after material content, schema, API, policy, or workflow ch
 ## Related guides
 
 * [agentic commerce architecture](/docs/agentic-commerce/)
+* [Free AEO Readiness Checker](/tools/aeo-readiness-checker.html)
+* [Agent Security Overview](/docs/agent-security/)
+* [Open Source Crawlers and Extractors](/docs/open-source-crawlers-and-extractors/)
 
 ## Primary references
 

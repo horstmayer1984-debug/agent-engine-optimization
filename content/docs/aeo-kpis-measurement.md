@@ -1,6 +1,7 @@
 ---
 title: "AEO KPIs: How to Measure Agent Engine Optimization"
-date: 2026-04-12
+metaTitle: "AEO KPIs and Metrics: How to Measure Agent Engine Optimization"
+date: 2026-11-25
 weight: 54
 category: "Guide"
 description: "Five AEO KPIs that measure AI citations, agent usage, conversions, accuracy, and retention beyond traffic and bounce rate."
@@ -113,6 +114,8 @@ Above 40 percent at 30 days indicates healthy trust. Below 20 percent suggests d
 ## Related guides
 
 * [AI agent protocols](/docs/protocols/)
+* [Detecting and Verifying AI Agent Visits (Open Source Tools)](/docs/open-source-identity-and-agent-traffic/)
+* [Agent Security: Access and Identity](/docs/agent-security-agent-access-and-identity/)
 
 ## Primary references
 

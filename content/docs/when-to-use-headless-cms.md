@@ -21,7 +21,7 @@ Use a headless CMS when structured content, multi-channel publishing, custom fro
 
 Headless is a good choice when flexibility is worth the extra engineering. It is a poor choice when the team only wants a modern-sounding CMS.
 
-For the broader definition, read [What Is Headless Software?](/docs/what-is-headless-software/). For the direct comparison, read [CMS vs Headless CMS](/docs/cms-vs-headless-cms/).
+For the broader definition, read [What Is Headless Software?](/docs/what-is-headless-software/). For the direct comparison, read [Headless CMS vs Traditional CMS](/docs/headless-cms-vs-traditional-cms/).
 
 ## Use headless CMS when these are true
 

@@ -1,19 +1,21 @@
 ---
-title: "What Is Agent Engine Optimization?"
-metaTitle: "What Is Agent Engine Optimization (AEO)?"
-description: "Learn what Agent Engine Optimization means, how it differs from SEO and GEO, and how websites become discoverable, readable, and actionable for AI agents."
-summary: "A plain-English definition of Agent Engine Optimization and how it differs from SEO, GEO, answer optimization, and traditional web visibility."
+title: "What Is Agent Engine Optimization (AEO)?"
+metaTitle: "What Is AEO? Read Layer, Execution Layer & Architecture (2026)"
+description: "Learn what AEO means in late 2026, how it differs from SEO and GEO, and how websites become discoverable, secure, and actionable for AI agents."
+metaDescription: "Updated November 2026 guide: what AEO means, how it extends SEO and GEO into the execution layer, and how to secure and verify agent-ready sites."
+summary: "An updated 2026 definition of Agent Engine Optimization covering the Read Layer, Execution Layer, live agent protocols, and Agent Security."
 keywords:
-  - Agent Engine Optimization
   - what is AEO
+  - Agent Engine Optimization
   - agent-ready websites
-  - AI agents
-date: 2026-03-09
+  - execution layer
+  - AI agents 2026
+date: 2026-11-25
 weight: 1
 category: "Framework"
 ---
 
-Agent Engine Optimization (AEO) is the practice of structuring websites, APIs, data, and digital services so that autonomous AI agents can discover them, understand their capabilities, and execute actions through them — such as bookings, purchases, data retrieval, comparisons, and workflow steps.
+Agent Engine Optimization (AEO) is the practice of structuring websites, APIs, data, and digital services so that autonomous AI agents can discover them, verify their trust boundaries, understand their capabilities, and execute actions through them — such as bookings, purchases, data retrieval, comparisons, and multi-step workflows.
 
 AEO operates on the premise that the next primary user of digital infrastructure is not a human browsing a website, but an AI agent acting on behalf of a human.
 
@@ -29,19 +31,19 @@ An autonomous agent tasked with "Book me a flight to Lisbon under 400 euros next
 4. **Execute** a booking through a machine-readable transaction interface
 5. **Verify** the outcome and return a confirmation
 
-Most digital infrastructure today supports step 1 and partially step 2. Steps 3 through 5 require infrastructure that most organizations do not yet provide.
+Most digital infrastructure today supports step 1 and partially step 2. Steps 3 through 5 require machine-readable capabilities, deterministic constraints, and safe transaction endpoints that most organizations still do not expose cleanly.
 
-That gap — between what agents can understand and what they can act on — is what AEO addresses.
+That gap — between what agents can summarize and what they can reliably execute — is what AEO addresses.
 
 ---
 
 ## What AEO is not
 
-**AEO is not rebranded SEO.** SEO optimizes for human search behavior and ranking algorithms. AEO optimizes for machine-driven task execution.
+**AEO is not rebranded SEO.** SEO optimizes for human search behavior and ranking algorithms. AEO optimizes for machine-driven discovery and task execution.
 
-**AEO is not the same as GEO.** Generative Engine Optimization focuses on being cited in AI-generated answers. AEO focuses on being used as a tool or endpoint by an autonomous agent.
+**AEO is not the same as GEO.** [Generative Engine Optimization](/docs/generative-engine-optimization/) focuses on being cited in AI-generated answers, while [Answer Engine Optimization](/docs/answer-engine-optimization/) targets direct answer extraction. AEO goes further into the execution layer: being used as a tool, endpoint, or transaction interface by an autonomous agent.
 
-**AEO is not a future concept.** The protocols are being built now. Google and Shopify launched the Universal Commerce Protocol (UCP) in January 2026. Anthropic's Model Context Protocol (MCP) is production-ready. OpenAI and Stripe are developing the Agentic Commerce Protocol (ACP). The infrastructure layer exists — most businesses simply have not adapted to it.
+**AEO is no longer an early draft.** Throughout 2026, core specifications moved into production: Google and Shopify introduced the Universal Commerce Protocol (UCP), Anthropic's Model Context Protocol (MCP) added OAuth authorization, sampling, elicitation, and an official registry, Chrome launched the WebMCP origin trial for in-browser agent tools, and cryptographically signed agent requests (Web Bot Auth / RFC 9421) along with agentic wallets entered real-world commerce.
 
 ---
 
@@ -49,70 +51,73 @@ That gap — between what agents can understand and what they can act on — is 
 
 ### Read Layer
 
-Making content discoverable and understandable by AI systems. This includes structured data, schema markup, semantic HTML, llms.txt files, and content that AI can summarize and cite accurately.
-
-This is what most of the market currently calls "AEO" or "Answer Engine Optimization." It is necessary but insufficient.
+Making content discoverable, verifiable, and understandable by AI systems. This includes structured data, Schema.org markup, semantic HTML, `llms.txt` discovery files, clean Markdown/API representations, and entity clarity so AI systems can cite facts accurately.
 
 ### Execution Layer
 
-Making digital services actionable by autonomous agents. This includes APIs, protocol compatibility (MCP, UCP, A2A), deterministic data structures, machine-readable constraints, state transitions, and transaction interfaces.
-
-This is the layer that creates real differentiation — and real business impact — as agents move from answering questions to completing tasks.
+Making digital services actionable by autonomous agents. This includes OpenAPI-documented endpoints, MCP servers, WebMCP browser interfaces, UCP and ACP commerce flows, deterministic data structures, machine-readable constraints, observable state transitions, and verification receipts. Read more in the [AI Agent Execution Layer guide](/docs/execution-layer/).
 
 ---
 
 ## Who needs AEO now
 
-**Immediately relevant (2026):**
-- E-commerce platforms and online retailers (UCP/MCP ecosystem is live)
-- Travel and booking services (classic agent use case)
-- B2B SaaS with API products (already machine-readable, need agent discovery)
-- DevTools and API platforms (MCP integration is direct value)
+**Immediately relevant (late 2026):**
+- E-commerce platforms and online retailers (UCP, ACP, and agentic wallets are live)
+- Travel and booking services (flights, hotels, itineraries with real-time constraints)
+- B2B SaaS with API products (already machine-readable, requiring agent discovery and scoped OAuth)
+- DevTools and API platforms (MCP integration and machine-readable docs are direct adoption drivers)
 
-**Relevant within 12 to 18 months:**
-- Fintech and payment providers
-- B2B procurement and supply chain
-- Enterprise software vendors
-
-**Longer horizon (2027 and beyond):**
-- Healthcare, legal, and regulated industries
-- Complex consulting and advisory services
+**Accelerating fast (2027 horizon):**
+- Fintech, insurance, and payment providers (AP2 mandates and x402 machine payments)
+- B2B procurement and supply chain workflows
+- Regulated industries adopting auditable human-in-the-loop agent approvals
 
 ---
 
-## The protocol market
+## The 2026 protocol landscape
 
-| Protocol | Developer | Purpose |
+| Protocol | Primary Steward | Purpose in AEO |
 |---|---|---|
-| **UCP** | Google / Shopify | Standardized agent-to-merchant transactions |
-| **MCP** | Anthropic | Universal tool and data access for AI models |
-| **A2A** | Google | Direct agent-to-agent coordination |
-| **ACP** | OpenAI / Stripe | Secure payment and credential handling |
+| **UCP** | Google / Shopify | Standardized agent-to-merchant commerce flows |
+| **MCP** | Anthropic / Linux Foundation | Universal tool, resource, prompt, and OAuth access for AI models |
+| **WebMCP** | W3C / Chrome | Standardized browser-side tool contracts exposed directly by web pages |
+| **A2A** | Google | Direct agent-to-agent discovery and coordination |
+| **ACP** | OpenAI / Stripe | Secure agent checkout and credential delegation |
 | **AP2** | Google | Cryptographically verified payment mandates |
+| **Web Bot Auth** | IETF (RFC 9421) | Cryptographic verification of legitimate AI agent traffic |
 
-These protocols are complementary, not competing. A complete agent interaction might use MCP for data access, UCP for the transaction, AP2 for payment, and A2A for multi-agent coordination.
+These protocols are complementary, not competing. A complete interaction can use Web Bot Auth for caller verification, MCP or WebMCP for tool invocation, UCP or ACP for checkout, and AP2 or x402 for payment settlement.
 
-Read more: [The Execution Layer](/docs/execution-layer/) — deep dive into what makes agentic optimization fundamentally different.
+---
 
-[AEO vs. SEO vs. GEO](/docs/aeo-vs-seo-vs-geo/) — the full comparison.
+## Securing and building agent-ready systems
 
-[AEO Readiness Audit](/docs/audit/) — assess your infrastructure.
+Exposing execution paths without defense creates serious risk. Production AEO requires pairing usability with strict boundaries:
+
+- **[Agent Security](/docs/agent-security/):** Distinguish cryptographically signed agents from malicious scrapers, harden MCP and API interfaces, and defend the read layer against indirect prompt injection.
+- **[Open Source AEO Tools](/docs/open-source/):** Evaluate open-source crawlers, `llms.txt` generators, JSON-LD validators, MCP SDKs, and Web Bot Auth libraries before building from scratch.
+- **[AEO vs. SEO vs. GEO](/docs/aeo-vs-seo-vs-geo/):** Separate search rankings, AI answer citations, and execution-layer readiness cleanly.
+- **[AEO Readiness Audit](/docs/audit/):** Assess your current read layer, execution layer, and security posture systematically, or run the [Free AEO Readiness Checker](/tools/aeo-readiness-checker.html).
+
+---
 
 ## FAQ
 
 ### Is Agent Engine Optimization the same as Answer Engine Optimization?
 
-No. Answer Engine Optimization focuses on visibility and citations in generated answers. Agent Engine Optimization also covers the interfaces and controls required for an agent to complete and verify a task.
+No. Answer Engine Optimization focuses on visibility and direct citations in generated answers. Agent Engine Optimization includes the read layer plus the interfaces, APIs, protocols, and security controls required for an autonomous agent to complete and verify a real task.
 
-### Does every website need MCP or UCP?
+### Does every website need MCP, WebMCP, or UCP?
 
-No. Content focused sites may start with clear HTML, structured data, source attribution, and discovery files. Protocols become relevant when the site exposes tools, transactions, or interagent workflows.
+No. Content-focused sites can start with clean HTML, Schema.org structured data, source attribution, and `llms.txt`. Execution protocols become relevant when a site exposes interactive tools, bookings, checkouts, or inter-agent workflows.
 
-### What should a company implement first?
+### What should a company implement first in late 2026?
 
-Start with the user tasks worth delegating, then audit whether an agent can discover the right information, interpret constraints, execute safely, and verify the result.
+Start by auditing the user tasks worth delegating, verifying crawler access and structured data on the read layer, securing API and form boundaries via [Agent Security](/docs/agent-security/), and testing deterministic endpoints with an [AEO Readiness Audit](/docs/audit/).
 
 ## Primary references
 
 * [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 * [Schema.org documentation](https://schema.org/docs/documents.html)
+* [Model Context Protocol specification](https://modelcontextprotocol.io/specification/2026-07-28/server/tools)
+* [RFC 9421: HTTP Message Signatures](https://www.rfc-editor.org/rfc/rfc9421)

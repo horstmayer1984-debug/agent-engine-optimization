@@ -1,9 +1,11 @@
 ---
 title: "Headless CMS vs Traditional CMS: Which Is Better for SEO and Content Teams?"
-metaTitle: "Headless CMS vs Traditional CMS for SEO"
-date: 2026-05-13
+metaTitle: "CMS vs Headless CMS vs Traditional CMS: SEO & AI Comparison"
+date: 2026-11-25
 weight: 122
 category: "Guide"
+aliases:
+  - /docs/cms-vs-headless-cms/
 description: "Compare headless CMS and traditional CMS platforms for SEO, editing, cost, performance, security, and AI-agent readiness."
 summary: "A practical comparison of headless CMS and traditional CMS architecture, with SEO risks, editorial tradeoffs, costs, and decision criteria."
 keywords:
@@ -108,7 +110,7 @@ Before moving headless, define:
 - publishing permissions
 - fallback behavior when APIs fail
 
-For [AEO implementation](/docs/implement-aeo/), also define how agents should discover the content and whether a Markdown, JSON, or API surface should exist alongside the HTML page.
+For [AEO implementation](/docs/implement-aeo/), also define how agents should discover the content and whether a Markdown, JSON, or API surface should exist alongside the HTML page. For [AI search optimization](/docs/ai-search-optimization/), headless systems help when articles, FAQs, and product attributes are stored as structured fields and reused cleanly across HTML, APIs, and machine-readable indexes — provided the frontend renders full metadata and internal links cleanly (see [Headless CMS SEO](/docs/headless-cms-seo/) and [Headless SEO](/docs/headless-seo/)).
 
 ## FAQ
 

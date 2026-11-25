@@ -70,6 +70,12 @@ No. MCP is useful for tool access, but AEO also includes content, schema, APIs, 
 **Why does x402 matter?**  
 x402 gives agents a way to pay for API calls, data access, or transactions without a traditional human checkout flow.
 
+## Related security & open-source guides
+
+* [Secure Interfaces for Agents: Hardening APIs, MCP, and WebMCP](/docs/agent-security-secure-interfaces/)
+* [Agent Security Overview](/docs/agent-security/)
+* [Open Source Agent Interfaces: MCP, WebMCP & Agent Browsers](/docs/open-source-agent-interfaces/)
+
 ## Primary references
 
 * [Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18/basic/index)

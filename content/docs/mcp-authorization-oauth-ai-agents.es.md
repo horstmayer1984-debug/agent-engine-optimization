@@ -136,4 +136,12 @@ Son metadatos los que ayudan a los clientes MCP a identificar los servidores de 
 
 Es más probable que los agentes utilicen servicios que describan claramente las herramientas, los permisos y los flujos de acceso disponibles.
 
-### ¿Deberían los agentes tener acceso de administrador?Solo en entornos internos estrictamente controlados con registros, aprobaciones y revocaciones estrictos.
+### ¿Deberían los agentes tener acceso de administrador?
+
+Solo en entornos internos estrictamente controlados con registros, aprobaciones y revocaciones estrictos.
+
+## Guías relacionadas
+
+* [Interfaces seguras para agentes: APIs, MCP y WebMCP](/es/docs/agent-security-secure-interfaces/)
+* [Resumen de Agent Security](/es/docs/agent-security/)
+* [Interfaces Open Source para agentes: MCP y WebMCP](/es/docs/open-source-agent-interfaces/)

@@ -1,13 +1,14 @@
 ---
-title: "実行層: AI エージェントが動作する層。"
+title: "実行層: AI エージェントが動作する層"
+metaTitle: "AIエージェント実行層（Execution Layer）：Webサイトのアクション設計"
 description: "実行レイヤーとは何か、AI エージェントが実行レイヤーを必要とする理由、Web サイトがアクション、リアルタイム データ、検証をどのように公開するかを調べます。"
 summary: "実行層へのガイド: 自律型 AI エージェントが API、ツール、データ、トランザクション エンドポイントを通じて動作できるようにするインフラストラクチャ。"
 keywords:
   - "実行層"
-  - "エージェント エンジンの最適化"
+  - "AI Agent Execution Layer"
   - "エージェントのアクション"
   - "エージェント対応のインフラストラクチャ"
-date: 2026-03-09
+date: 2026-11-25
 weight: 3
 category: "Architecture"
 ---
@@ -128,6 +129,9 @@ Schema.org では、BuyAction、ReserveAction、OrderAction などのアクシ�
 ## 関連ガイド
 
 * [エージェント取引アーキテクチャ](/ja/docs/agentic-commerce/)
+* [エージェント向けセキュアインターフェース：API・MCP・WebMCP](/ja/docs/agent-security-secure-interfaces/)
+* [Agent Security概要](/ja/docs/agent-security/)
+* [エージェント接続向けオープンソース：MCPとWebMCP](/ja/docs/open-source-agent-interfaces/)
 
 ## 主な参考文献
 

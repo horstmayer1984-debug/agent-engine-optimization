@@ -22,7 +22,7 @@ keywords:
 
 これはデフォルトでは古くなっていません。多くの場合、これは小規模なサイトや動きの速い編集チームにとって適切なアーキテクチャです。
 
-より広範な比較については、[CMS 対 ヘッドレス CMS](/ja/docs/cms-vs-headless-cms/) および [ヘッドレス CMS 対 従来型 CMS](/ja/docs/headless-cms-vs-traditional-cms/) を参照してください。
+より広範な比較については、[ヘッドレス CMS 対 従来型 CMS](/ja/docs/headless-cms-vs-traditional-cms/) を参照してください。
 
 ## デシジョンテーブル
 

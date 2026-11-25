@@ -20,7 +20,7 @@ Use um CMS headless quando conteúdo estruturado, publicação multicanal, contr
 
 Headless é uma boa opção quando a flexibilidade vale a pena a engenharia adicional. É uma má escolha quando a equipe quer apenas um CMS com som moderno.
 
-Para uma definição mais ampla, leia [O que é software headless?](/pt/docs/what-is-headless-software/). Para uma comparação direta, leia [CMS vs Headless CMS](/pt/docs/cms-vs-headless-cms/).
+Para uma definição mais ampla, leia [O que é software headless?](/pt/docs/what-is-headless-software/). Para uma comparação direta, leia [CMS sem cabeça vs. CMS tradicional](/pt/docs/headless-cms-vs-traditional-cms/).
 
 ## Use CMS headless quando isso for verdade
 

@@ -1,14 +1,14 @@
 ---
-title: "Auditoria de preparação para AEO."
-metaTitle: "Auditoria de prontidão AEO para sites de agentes de IA."
+title: "Auditoria de prontidão AEO"
+metaTitle: "Auditoria de prontidão AEO: avaliação de sites e APIs"
 description: "Audite seu site, API, dados estruturados, llms.txt e prontidão da camada de execução para agentes de IA, mecanismos de resposta e comércio."
 summary: "Uma estrutura prática de auditoria AEO que abrange a descoberta de IA, conteúdo estruturado, prontidão de protocolo, determinismo de dados e capacidade de ação."
 keywords:
   - "Auditoria AEO"
-  - "Auditoria de otimização do Agent Engine"
+  - "AEO Readiness Audit"
   - "auditoria de site pronto para agente"
-  - "Preparando-se para pesquisa de IA"
-date: 2026-03-09
+  - "prontidão para agentes de IA"
+date: 2026-11-25
 weight: 10
 category: "Tool"
 ---
@@ -112,7 +112,12 @@ Não. O conteúdo faz parte da camada de leitura. Uma auditoria completa também
 
 Repita testes específicos após alterações no conteúdo do material, esquema, API, política ou fluxo de trabalho. Revise periodicamente a amostra maior à medida que o tráfego do agente e os recursos suportados evoluem.
 
-## Guias relacionados* [arquitetura de comércio de agente](/pt/docs/agentic-commerce/)
+## Guias relacionados
+
+* [arquitetura de comércio de agente](/pt/docs/agentic-commerce/)
+* [Verificador gratuito de prontidão AEO](/tools/aeo-readiness-checker.html)
+* [Visão geral de Agent Security](/pt/docs/agent-security/)
+* [Crawlers e extratores Open Source](/pt/docs/open-source-crawlers-and-extractors/)
 
 ## Referências primárias
 

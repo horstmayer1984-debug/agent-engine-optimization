@@ -1,10 +1,10 @@
 ---
-title: "AEO für Reisen und Buchungen: Wie sich die Branche umstrukturiert."
-metaTitle: "AEO für Reisebuchungen: Leitfaden zur Vorbereitung des Reisebüros."
-date: 2026-04-14
+title: "AEO für Reisen und Buchungen: KI-Agenten in Hotellerie & Luftfahrt"
+metaTitle: "KI-Agenten für Reisebuchungen: Leitfaden für Hotels und Airlines"
+date: 2026-11-25
 weight: 100
 category: "Industry"
-description: "Entdecken Sie, wie Reise- und Buchungsseiten Verfügbarkeit, Preise, Richtlinien und Buchungsaktionen von Reisebüros offenlegen können."
+description: "Erfahren Sie, wie Reise- und Buchungswebsites Verfügbarkeiten, Preise, Richtlinien und Buchungsaktionen für autonome KI-Agenten bereitstellen."
 summary: "Reisen ist eines der klarsten AEO-Schlachtfelder. KI-Agenten, die Flüge buchen, Hotels vergleichen und Reiserouten erstellen, benötigen Echtzeit-APIs, strukturierte Verfügbarkeitsdaten und deterministische Zahlungswege."
 keywords:
   - "AEO-Reisebranche"

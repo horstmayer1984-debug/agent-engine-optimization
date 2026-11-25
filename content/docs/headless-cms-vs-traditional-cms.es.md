@@ -1,9 +1,11 @@
 ---
-title: "CMS sin cabeza frente a CMS tradicional: ¿cuál es mejor."
-metaTitle: "CMS sin cabeza versus CMS tradicional para SEO."
-date: 2026-05-13
+title: "CMS sin cabeza frente a CMS tradicional: ¿cuál es mejor?"
+metaTitle: "CMS vs. Headless CMS vs. CMS tradicional para SEO e IA"
+date: 2026-11-25
 weight: 122
 category: "Guide"
+aliases:
+  - /es/docs/cms-vs-headless-cms/
 description: "Compare CMS sin cabeza y plataformas CMS tradicionales en cuanto a SEO, edición, costo, rendimiento, seguridad y preparación para agentes de IA."
 summary: "Una comparación práctica entre la arquitectura de CMS headless y la de CMS tradicional, con riesgos de SEO, compensaciones editoriales, costos y criterios de decisión."
 keywords:
@@ -110,7 +112,7 @@ Antes de moverse sin cabeza, defina:
 - permisos de publicación
 - comportamiento alternativo cuando fallan las API
 
-Para [implementación AEO](/es/docs/implement-aeo/), defina también cómo los agentes deben descubrir el contenido y si debe existir una superficie Markdown, JSON o API junto con la página HTML.
+Para [implementación AEO](/es/docs/implement-aeo/), defina también cómo los agentes deben descubrir el contenido y si debe existir una superficie Markdown, JSON o API junto con la página HTML. En [optimización de búsqueda por IA](/es/docs/ai-search-optimization/), almacenar artículos, preguntas frecuentes y datos de productos como campos estructurados facilita su reutilización en HTML, APIs e índices legibles por máquina (consulte también [Headless CMS SEO](/es/docs/headless-cms-seo/) y [Headless SEO](/es/docs/headless-seo/)).
 
 ## Preguntas frecuentes
 

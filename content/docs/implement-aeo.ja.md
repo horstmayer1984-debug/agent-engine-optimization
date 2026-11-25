@@ -182,6 +182,11 @@ AEO は、自律型 AI エージェントによって Web サイトを読みや�
 **AEO の成功はどのように測定すればよいですか?**
 エージェントのメトリクスを追跡します: 自動化されたクライアントによるエンドポイントの使用状況、タスクの完了率、アクション フローの障害ポイント、AI が生成した応答の予約頻度。
 
+## セキュリティ・オープンソース関連ガイド
+
+* [Agent Security：自律型AI時代のWebサイト保護](/ja/docs/agent-security/)
+* [AEO向けオープンソースツール一覧](/ja/docs/open-source/)
+
 ## 主な参考文献
 
 * [NIST AI リスク管理フレームワーク](https://www.nist.gov/itl/ai-risk-management-framework)

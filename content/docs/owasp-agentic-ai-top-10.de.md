@@ -138,3 +138,9 @@ Nein. Aktionen mit geringem Risiko können automatisch erfolgen. Maßnahmen, die
 ### Wie sollten Teams beginnen?
 
 Inventarisieren Sie jede Agentenaktion, klassifizieren Sie Risiken und fügen Sie dann Kontrollen hinzu, bevor Sie den Zugriff auf die Ausführungsebene erweitern.
+
+## Verwandte Leitfäden
+
+* [Agent Security im Überblick](/de/docs/agent-security/)
+* [Prompt Injection & manipulierte Inhalte abwehren](/de/docs/agent-security-prompt-injection-and-manipulated-content/)
+* [Sichere Schnittstellen für Agenten: APIs, MCP und WebMCP](/de/docs/agent-security-secure-interfaces/)

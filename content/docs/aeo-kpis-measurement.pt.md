@@ -1,6 +1,7 @@
 ---
-title: "KPI AEO: como medir a otimização do mecanismo do agente."
-date: 2026-04-12
+title: "KPIs de AEO: como medir Agent Engine Optimization"
+metaTitle: "KPIs e métricas de AEO: como medir Agent Engine Optimization"
+date: 2026-11-25
 weight: 54
 category: "Guide"
 description: "Cinco KPIs AEO que medem compromissos de IA, uso de agentes, conversões, precisão e retenção além do tráfego e da taxa de rejeição."
@@ -94,11 +95,13 @@ A [Auditoria de Preparação AEO](/pt/docs/audit/) fornece uma avaliação estru
 Não corretamente. O Google Analytics rastreia o comportamento de navegação humana. AEO requer análise de log do servidor, monitoramento de endpoint e rastreamento de citações de IA que o GA não fornece nativamente.
 
 **Com que frequência devo revisar os KPIs do AEO?**
-Semanalmente durante os primeiros 3 meses. Mensalmente após a implantação se estabilizar. Independentemente disso, recomenda-se o monitoramento diário das taxas de erro dos endpoints.**Qual é o KPI AEO mais importante?**
-Taxa de conversão orientada pelo agente, porque mede diretamente o impacto na receita. A taxa de agendamento e o tráfego de agentes são indicadores importantes. A conversão é o resultado.
+Semanalmente durante os primeiros 3 meses. Mensalmente após a implantação se estabilizar. Independentemente disso, recomenda-se o monitoramento diário das taxas de erro dos endpoints.
 
-**Como posso segmentar o tráfego de agentes de traficantes de seres humanos?**
-Cadeias de agentes de usuário, padrões de solicitação (sem renderização, solicitações sequenciais rápidas) e acesso a endpoints sem dados de sessão do navegador. A maioria dos servidores web registra informações suficientes para identificar o tráfego do agente com filtragem básica.
+**Qual é o KPI AEO mais importante?**
+Taxa de conversão orientada pelo agente, porque mede diretamente o impacto na receita. Taxa de citação e tráfego de agentes são indicadores antecedentes. A conversão é o resultado.
+
+**Como posso segmentar o tráfego de agentes do tráfego humano?**
+Por strings de User-Agent, padrões de solicitação (sem renderização, requisições sequenciais rápidas) e acesso a endpoints sem dados de sessão do navegador. A maioria dos servidores web registra informações suficientes para identificar o tráfego de agentes com filtragem básica.
 
 **O que é uma boa taxa de retenção de agentes?**
 Mais de 40% em 30 dias indica confiança saudável. Abaixo de 20% sugere problemas de qualidade de dados ou confiabilidade de endpoint que precisam ser investigados.
@@ -106,6 +109,8 @@ Mais de 40% em 30 dias indica confiança saudável. Abaixo de 20% sugere problem
 ## Guias relacionados
 
 * [Protocolos de Agente AI](/pt/docs/protocols/)
+* [Detectar e verificar visitas de agentes de IA (Open Source)](/pt/docs/open-source-identity-and-agent-traffic/)
+* [Agent Security: Acesso e identidade](/pt/docs/agent-security-agent-access-and-identity/)
 
 ## Referências primárias
 

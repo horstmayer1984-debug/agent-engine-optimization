@@ -1,6 +1,7 @@
 ---
-title: "KPI de AEO: cómo medir la optimización del motor del agente."
-date: 2026-04-12
+title: "KPIs de AEO: cómo medir Agent Engine Optimization"
+metaTitle: "KPIs y métricas de AEO: cómo medir Agent Engine Optimization"
+date: 2026-11-25
 weight: 54
 category: "Guide"
 description: "Cinco KPI de AEO que miden las citas de IA, el uso de agentes, las conversiones, la precisión y la retención más allá del tráfico y la tasa de rebote."
@@ -110,6 +111,8 @@ Más del 40 por ciento a los 30 días indica una confianza sana. Por debajo del 
 ## Guías relacionadas
 
 * [Protocolos de agente de IA](/es/docs/protocols/)
+* [Detectar y verificar visitas de agentes de IA (Open Source)](/es/docs/open-source-identity-and-agent-traffic/)
+* [Agent Security: Acceso e identidad](/es/docs/agent-security-agent-access-and-identity/)
 
 ## Referencias primarias
 

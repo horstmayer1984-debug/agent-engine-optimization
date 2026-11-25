@@ -1,13 +1,14 @@
 ---
-title: "Die Ausführungsebene: Hier agieren KI-Agenten."
+title: "Die Ausführungsebene: Hier agieren KI-Agenten"
+metaTitle: "AI Agent Execution Layer: Wie Websites Aktionen bereitstellen"
 description: "Erfahren Sie, was die Ausführungsebene ist, warum KI-Agenten sie benötigen und wie Websites Aktionen, Echtzeitdaten und Überprüfungen offenlegen."
 summary: "Ein Leitfaden zur Ausführungsschicht: die Infrastruktur, die es autonomen KI-Agenten ermöglicht, über APIs, Tools, Daten und Transaktionsendpunkte zu agieren."
 keywords:
-  - "Ausführungsschicht"
-  - "Optimierung der Agent-Engine"
+  - "Ausführungsebene"
+  - "AI Agent Execution Layer"
   - "Agentenaktionen"
-  - "agentenbereite Infrastruktur"
-date: 2026-03-09
+  - "agentenfähige Infrastruktur"
+date: 2026-11-25
 weight: 3
 category: "Architecture"
 ---
@@ -128,6 +129,9 @@ Nein. Stellen Sie nur Aktionen mit einem definierten Benutzernutzen, Berechtigun
 ## Verwandte Anleitungen
 
 * [Agent-Handelsarchitektur](/de/docs/agentic-commerce/)
+* [Sichere Schnittstellen für Agenten: APIs, MCP und WebMCP](/de/docs/agent-security-secure-interfaces/)
+* [Agent Security im Überblick](/de/docs/agent-security/)
+* [Open-Source-Agenten-Schnittstellen: MCP, WebMCP und Browser](/de/docs/open-source-agent-interfaces/)
 
 ## Primäre Referenzen
 

@@ -182,6 +182,11 @@ A camada de execução é a parte da sua presença digital que permite aos agent
 **Como posso medir o sucesso do AEO?**
 Rastreie as métricas do agente: uso de endpoints por clientes automatizados, taxas de conclusão de tarefas, pontos de falha em fluxos de ação e frequência de compromissos em respostas geradas por IA.
 
+## Guias relacionados de segurança e código aberto
+
+* [Agent Security: protegendo sites na era da IA autônoma](/pt/docs/agent-security/)
+* [Ferramentas Open Source para Agent Engine Optimization](/pt/docs/open-source/)
+
 ## Referências primárias
 
 * [Estrutura de gerenciamento de risco de IA do NIST](https://www.nist.gov/itl/ai-risk-management-framework)

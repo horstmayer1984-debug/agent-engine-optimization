@@ -1,14 +1,14 @@
 ---
-title: "Prüfung der AEO-Bereitschaft."
-metaTitle: "AEO-Bereitschaftsprüfung für KI-Agent-Websites."
+title: "AEO Readiness Audit"
+metaTitle: "AEO Readiness Audit: Website-, API- & Protokoll-Prüfung"
 description: "Prüfen Sie Ihre Website, API, strukturierte Daten, llms.txt und die Bereitschaft der Ausführungsschicht für KI-Agenten, Antwort-Engines und Handel."
 summary: "Ein praktischer AEO-Prüfungsrahmen, der KI-Auffindbarkeit, strukturierte Inhalte, Protokollbereitschaft, Datendeterminismus und Umsetzbarkeit abdeckt."
 keywords:
   - "AEO-Prüfung"
-  - "Prüfung der Agent-Engine-Optimierung"
-  - "Agentenbereites Website-Audit"
-  - "Vorbereitung auf die KI-Suche"
-date: 2026-03-09
+  - "AEO Readiness Audit"
+  - "Agentenfähiges Website-Audit"
+  - "KI-Agenten Bereitschaft"
+date: 2026-11-25
 weight: 10
 category: "Tool"
 ---
@@ -112,7 +112,12 @@ Nein. Der Inhalt ist Teil der Leseschicht. Bei einem vollständigen Audit werden
 
 Wiederholen Sie bestimmte Tests nach Materialinhalts-, Schema-, API-, Richtlinien- oder Workflow-Änderungen. Überprüfen Sie regelmäßig die größere Stichprobe, während sich der Agentenverkehr und die unterstützten Funktionen weiterentwickeln.
 
-## Verwandte Leitfäden* [Agent-Commerce-Architektur](/de/docs/agentic-commerce/)
+## Verwandte Leitfäden
+
+* [Agent-Commerce-Architektur](/de/docs/agentic-commerce/)
+* [Kostenloser AEO Readiness Checker](/tools/aeo-readiness-checker.html)
+* [Agent Security im Überblick](/de/docs/agent-security/)
+* [Open-Source-Crawler und Extraktoren](/de/docs/open-source-crawlers-and-extractors/)
 
 ## Primäre Referenzen
 
